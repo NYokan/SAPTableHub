@@ -6,8 +6,8 @@
   "deliveryClass": "A",
   "s4only": true,
   "title": {
-    "es": "Activos fijos: datos de amortización por ejercicio (S/4HANA)",
-    "en": "Fixed assets: depreciation data per fiscal year (S/4HANA)",
-    "pt": "Ativos fixos: dados de depreciação por exercício (S/4HANA)"
+    "es": "Activos fijos: datos de amortización por ejercicio",
+    "en": "Fixed assets: depreciation data per fiscal year",
+    "pt": "Ativos fixos: dados de depreciação por exercício"
   }
 }

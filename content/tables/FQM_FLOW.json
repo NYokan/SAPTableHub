@@ -6,8 +6,8 @@
   "deliveryClass": "A",
   "s4only": true,
   "title": {
-    "es": "Gestión de tesorería: flujos de caja previstos (S/4HANA)",
-    "en": "Cash management: expected cash flows (S/4HANA)",
-    "pt": "Gestão de caixa: fluxos de caixa previstos (S/4HANA)"
+    "es": "Gestión de tesorería: flujos de caja previstos",
+    "en": "Cash management: expected cash flows",
+    "pt": "Gestão de caixa: fluxos de caixa previstos"
   }
 }

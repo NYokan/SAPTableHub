@@ -7,9 +7,9 @@
   "deliveryClass": "A",
   "s4only": true,
   "title": {
-    "es": "Diario universal: apuntes contables (S/4HANA)",
-    "en": "Universal journal: accounting line items (S/4HANA)",
-    "pt": "Diário universal: lançamentos contábeis (S/4HANA)"
+    "es": "Diario universal: apuntes contables",
+    "en": "Universal journal: accounting line items",
+    "pt": "Diário universal: lançamentos contábeis"
   },
   "purpose": {
     "es": "En S/4HANA, una fila por cada apunte contable de cualquier ledger: reúne en un solo lugar lo que en ECC estaba repartido entre BSEG, los totales del mayor, el Controlling y los activos fijos. Es la fuente principal para saldos, resultados e informes financieros.",

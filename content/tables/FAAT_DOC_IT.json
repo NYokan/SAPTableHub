@@ -6,8 +6,8 @@
   "deliveryClass": "A",
   "s4only": true,
   "title": {
-    "es": "Activos fijos: posiciones de movimientos (S/4HANA)",
-    "en": "Fixed assets: transaction items (S/4HANA)",
-    "pt": "Ativos fixos: itens de movimentos (S/4HANA)"
+    "es": "Activos fijos: posiciones de movimientos",
+    "en": "Fixed assets: transaction items",
+    "pt": "Ativos fixos: itens de movimentos"
   }
 }

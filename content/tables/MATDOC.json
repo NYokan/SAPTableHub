@@ -7,9 +7,9 @@
   "deliveryClass": "A",
   "s4only": true,
   "title": {
-    "es": "Documentos de material (S/4HANA)",
-    "en": "Material documents (S/4HANA)",
-    "pt": "Documentos de material (S/4HANA)"
+    "es": "Documentos de material",
+    "en": "Material documents",
+    "pt": "Documentos de material"
   },
   "purpose": {
     "es": "En S/4HANA, una fila por cada línea de un documento de material: entradas, salidas y traspasos de stock. Reúne en una sola tabla lo que en ECC estaba en MKPF (cabecera) y MSEG (posiciones), y de ella se calculan los stocks.",

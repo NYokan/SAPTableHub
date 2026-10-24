@@ -98,6 +98,12 @@ export function renderCatalog(el: HTMLElement, r: CatalogRoute, c: Ctx): Catalog
   return res;
 }
 
+// long names may wrap only after the namespace (/SCWM/) or, without one, after an underscore; never inside a word
+const breakable = (id: string, html: string) => {
+  const at = id.startsWith('/') ? /(<[^>]*>)|(?<=[A-Z0-9])\//g : /(<[^>]*>)|(?<=[A-Z0-9])_/g;
+  return html.replace(at, (m, tag: string | undefined) => tag ?? `${m}<wbr>`);
+};
+
 /** A row: a link to the table's page (so Ctrl+click and "open in new tab" work); a plain click opens the sheet. */
 function rowHTML(c: Ctx, t: TableSummary, n: number, r: CatalogRoute): string {
   const meta =
@@ -107,7 +113,7 @@ function rowHTML(c: Ctx, t: TableSummary, n: number, r: CatalogRoute): string {
   // the technical view also names the SAP application component under the description
   const comp = c.mode === 'tech' && t.comp ? `<span class="c-comp mono">${esc(t.comp)}</span>` : '';
   const open = r.open === t.id ? ' aria-current="true"' : '';
-  return `<li class="crow"><a class="cmain" href="${esc(tableHref(c, t.id))}" data-link data-open="${esc(t.id)}" aria-haspopup="dialog"${open}><span class="c-n">${n}</span><span class="c-id">${highlight(t.id, r.q)}</span><span class="c-title">${highlight(loc(c, t.title), r.q)}${s4Badge(c, t)}${comp}</span><span class="c-meta">${meta}</span></a>${addButton(c, t.id)}</li>`;
+  return `<li class="crow"><a class="cmain" href="${esc(tableHref(c, t.id))}" data-link data-open="${esc(t.id)}" aria-haspopup="dialog"${open}><span class="c-n">${n}</span><span class="c-id${t.id.length > 10 ? ' long' : ''}">${breakable(t.id, highlight(t.id, r.q))}</span><span class="c-title">${highlight(loc(c, t.title), r.q)}${s4Badge(c, t)}${comp}</span><span class="c-meta">${meta}</span></a>${addButton(c, t.id)}</li>`;
 }
 
 /** Nothing matched: the words that found nothing, crossed out, and the ways on. */

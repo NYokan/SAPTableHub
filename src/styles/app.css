@@ -407,6 +407,7 @@ details.legend { margin-top: 16px; }
 }
 .c-n { display: none; }
 .c-id { font-family: var(--mono); font-weight: 600; font-size: 18px; overflow-wrap: anywhere; }
+.c-id.long { font-size: 15px; }
 .c-title { flex: 1 1 150px; min-width: 0; overflow-wrap: anywhere; font-size: 15px; }
 .c-meta { flex: 1 0 100%; display: block; font-size: 13px; color: var(--muted); }
 .c-meta .dot { margin: 0 6px; }
@@ -959,6 +960,8 @@ html.sheet-open, html.pal-open { overflow: hidden; }
   .az .az-all { height: 32px; margin-bottom: 6px; font-size: 12px; }
   .cmain { min-height: 58px; padding-block: 10px; }
   .c-id { font-size: 17px; }
+  /* names over ten characters step down so most fit the column on one line */
+  .c-id.long { font-size: 14px; overflow-wrap: normal; }
   .c-title { font-size: 16px; }
   .sheet-box { width: min(680px, 92vw); border-left: 1px solid var(--line); box-shadow: -24px 0 60px rgba(0, 0, 0, 0.24); }
   .sheet-bar { padding-left: 28px; padding-right: 16px; }
