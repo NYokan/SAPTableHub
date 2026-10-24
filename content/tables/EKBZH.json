@@ -1,0 +1,13 @@
+{
+  "id": "EKBZH",
+  "area": "purch",
+  "contents": "doc",
+  "component": "MM-PUR",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Pedidos de compra: historial de costes de entrega (registros retirados)",
+    "en": "Purchase orders: delivery cost history (removed records)",
+    "pt": "Pedidos de compra: histórico de custos de entrega (registros removidos)"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "T028B",
+  "area": "fin",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Extracto bancario: cuentas bancarias y tipo de operación",
+    "en": "Bank statement: bank accounts to transaction types",
+    "pt": "Extrato bancário: contas bancárias e tipo de transação"
+  }
+}

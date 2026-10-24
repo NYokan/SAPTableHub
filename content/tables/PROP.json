@@ -1,0 +1,12 @@
+{
+  "id": "PROP",
+  "area": "mat",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Materiales: parámetros de pronóstico",
+    "en": "Materials: forecast parameters",
+    "pt": "Materiais: parâmetros de previsão"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "PROW",
+  "area": "mat",
+  "contents": "doc",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Materiales: valores de pronóstico por periodo",
+    "en": "Materials: forecast values per period",
+    "pt": "Materiais: valores de previsão por período"
+  }
+}

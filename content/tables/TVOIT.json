@@ -1,0 +1,12 @@
+{
+  "id": "TVOIT",
+  "area": "fin",
+  "contents": "text",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Motivos de anulación de cheques (textos)",
+    "en": "Check void reasons (texts)",
+    "pt": "Motivos de anulação de cheques (textos)"
+  }
+}

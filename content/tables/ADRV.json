@@ -1,0 +1,12 @@
+{
+  "id": "ADRV",
+  "area": "gen",
+  "contents": "doc",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Direcciones (lista de utilización)",
+    "en": "Addresses (where-used list)",
+    "pt": "Endereços (lista de utilização)"
+  }
+}

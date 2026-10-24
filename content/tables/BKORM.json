@@ -1,0 +1,12 @@
+{
+  "id": "BKORM",
+  "area": "fin",
+  "contents": "doc",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Solicitudes de correspondencia contable",
+    "en": "Accounting correspondence requests",
+    "pt": "Solicitações de correspondência contábil"
+  }
+}

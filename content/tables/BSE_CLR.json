@@ -1,0 +1,12 @@
+{
+  "id": "BSE_CLR",
+  "area": "fin",
+  "contents": "doc",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Posiciones contables: datos de compensación",
+    "en": "Accounting items: clearing data",
+    "pt": "Itens contábeis: dados de compensação"
+  }
+}

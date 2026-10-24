@@ -1,0 +1,12 @@
+{
+  "id": "REGUT",
+  "area": "fin",
+  "contents": "doc",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Programa de pagos: ficheros de soportes de pago",
+    "en": "Payment program: payment medium files",
+    "pt": "Programa de pagamento: arquivos de meios de pagamento"
+  }
+}

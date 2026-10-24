@@ -1,0 +1,12 @@
+{
+  "id": "TQ08",
+  "area": "qm",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Claves de control de QM en aprovisionamiento",
+    "en": "QM control keys in procurement",
+    "pt": "Chaves de controle de QM no suprimento"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "DRAW",
+  "area": "gen",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Documentos (registro info de documento)",
+    "en": "Documents (document info records)",
+    "pt": "Documentos (registro info de documento)"
+  }
+}

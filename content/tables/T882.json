@@ -1,0 +1,12 @@
+{
+  "id": "T882",
+  "area": "fin",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Asignación de ledgers a sociedades (FI-SL)",
+    "en": "Ledger assignment to company codes (FI-SL)",
+    "pt": "Atribuição de ledgers a empresas (FI-SL)"
+  }
+}

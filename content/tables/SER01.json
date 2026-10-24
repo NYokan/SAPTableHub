@@ -1,0 +1,12 @@
+{
+  "id": "SER01",
+  "area": "pm",
+  "contents": "header",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Números de serie en entregas (cabecera)",
+    "en": "Serial numbers in deliveries (header)",
+    "pt": "Números de série em remessas (cabeçalho)"
+  }
+}

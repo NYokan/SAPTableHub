@@ -1,0 +1,13 @@
+{
+  "id": "T30A",
+  "area": "mat",
+  "contents": "config",
+  "component": "LE-WM",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Áreas de picking WM",
+    "en": "WM picking areas",
+    "pt": "Áreas de picking WM"
+  }
+}

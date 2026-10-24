@@ -1,0 +1,12 @@
+{
+  "id": "TJ20T",
+  "area": "gen",
+  "contents": "text",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Esquemas de status (textos)",
+    "en": "Status profiles (texts)",
+    "pt": "Esquemas de status (textos)"
+  }
+}

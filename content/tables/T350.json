@@ -1,0 +1,12 @@
+{
+  "id": "T350",
+  "area": "pm",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Clases de orden de mantenimiento (control PM)",
+    "en": "Maintenance order types (PM control)",
+    "pt": "Tipos de ordem de manutenção (controle PM)"
+  }
+}

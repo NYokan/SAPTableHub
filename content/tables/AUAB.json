@@ -1,0 +1,12 @@
+{
+  "id": "AUAB",
+  "area": "co",
+  "contents": "items",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Documentos de liquidación (reglas de distribución)",
+    "en": "Settlement documents (distribution rules)",
+    "pt": "Documentos de liquidação (regras de distribuição)"
+  }
+}

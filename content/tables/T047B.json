@@ -1,0 +1,12 @@
+{
+  "id": "T047B",
+  "area": "fin",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Procedimientos de reclamación: niveles",
+    "en": "Dunning procedures: dunning levels",
+    "pt": "Procedimentos de advertência: níveis"
+  }
+}

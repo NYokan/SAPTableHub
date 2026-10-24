@@ -1,0 +1,12 @@
+{
+  "id": "EREV",
+  "area": "purch",
+  "contents": "doc",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Compras: versiones de solicitudes y pedidos",
+    "en": "Purchasing: requisition and order versions",
+    "pt": "Compras: versões de requisições e pedidos"
+  }
+}

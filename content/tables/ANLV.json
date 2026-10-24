@@ -1,0 +1,12 @@
+{
+  "id": "ANLV",
+  "area": "fin",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Activos fijos: datos de seguro",
+    "en": "Fixed assets: insurance data",
+    "pt": "Ativos imobilizados: dados de seguro"
+  }
+}

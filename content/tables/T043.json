@@ -1,0 +1,12 @@
+{
+  "id": "T043",
+  "area": "fin",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Asignación de usuarios a grupos de tolerancia",
+    "en": "Assignment of users to tolerance groups",
+    "pt": "Atribuição de usuários a grupos de tolerância"
+  }
+}

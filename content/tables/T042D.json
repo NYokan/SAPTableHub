@@ -1,0 +1,12 @@
+{
+  "id": "T042D",
+  "area": "fin",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Programa de pagos: importes disponibles por banco propio",
+    "en": "Payment program: available amounts per house bank",
+    "pt": "Programa de pagamento: montantes disponíveis por banco próprio"
+  }
+}

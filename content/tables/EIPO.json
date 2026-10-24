@@ -1,0 +1,13 @@
+{
+  "id": "EIPO",
+  "area": "purch",
+  "contents": "items",
+  "component": "SD-FT",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Comercio exterior: datos de importación/exportación (posiciones)",
+    "en": "Foreign trade: import/export data (items)",
+    "pt": "Comércio exterior: dados de importação/exportação (itens)"
+  }
+}

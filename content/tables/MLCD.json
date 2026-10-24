@@ -1,0 +1,12 @@
+{
+  "id": "MLCD",
+  "area": "co",
+  "contents": "doc",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Ledger de materiales: totales por período y proceso",
+    "en": "Material ledger: totals by period and process",
+    "pt": "Ledger de materiais: totais por período e processo"
+  }
+}

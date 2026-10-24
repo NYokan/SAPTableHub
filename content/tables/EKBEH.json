@@ -1,0 +1,13 @@
+{
+  "id": "EKBEH",
+  "area": "purch",
+  "contents": "doc",
+  "component": "MM-PUR",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Pedidos de compra: historial agregado (registros retirados)",
+    "en": "Purchase orders: aggregated history (removed records)",
+    "pt": "Pedidos de compra: histórico agregado (registros removidos)"
+  }
+}

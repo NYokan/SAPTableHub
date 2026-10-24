@@ -1,0 +1,12 @@
+{
+  "id": "T043G",
+  "area": "fin",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Tolerancias para clientes y proveedores",
+    "en": "Customer and vendor tolerances",
+    "pt": "Tolerâncias para clientes e fornecedores"
+  }
+}

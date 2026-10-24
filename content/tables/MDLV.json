@@ -1,0 +1,12 @@
+{
+  "id": "MDLV",
+  "area": "pp",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Áreas de planificación de necesidades",
+    "en": "MRP areas",
+    "pt": "Áreas de planejamento de necessidades"
+  }
+}

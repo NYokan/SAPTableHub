@@ -1,0 +1,12 @@
+{
+  "id": "T001Z",
+  "area": "fin",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Sociedades: datos adicionales",
+    "en": "Company codes: additional details",
+    "pt": "Empresas: dados adicionais"
+  }
+}

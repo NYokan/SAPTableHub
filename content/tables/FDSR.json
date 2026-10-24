@@ -1,0 +1,12 @@
+{
+  "id": "FDSR",
+  "area": "fin",
+  "contents": "doc",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Gestión de tesorería: saldos de libros auxiliares",
+    "en": "Cash management: subledger totals",
+    "pt": "Gestão de caixa: saldos de razões auxiliares"
+  }
+}

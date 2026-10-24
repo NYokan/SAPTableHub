@@ -1,0 +1,12 @@
+{
+  "id": "TC37A",
+  "area": "pp",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Definiciones de turnos",
+    "en": "Shift definitions",
+    "pt": "Definições de turnos"
+  }
+}

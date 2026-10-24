@@ -1,0 +1,12 @@
+{
+  "id": "T024L",
+  "area": "mat",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Laboratorios y oficinas técnicas",
+    "en": "Laboratories and design offices",
+    "pt": "Laboratórios e escritórios técnicos"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "T030K",
+  "area": "fin",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Cuentas de impuestos por indicador de IVA",
+    "en": "Tax accounts by tax code",
+    "pt": "Contas de impostos por código de imposto"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "TC30",
+  "area": "pp",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Categorías de puesto de trabajo",
+    "en": "Work center categories",
+    "pt": "Categorias de centro de trabalho"
+  }
+}

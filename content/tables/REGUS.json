@@ -1,0 +1,12 @@
+{
+  "id": "REGUS",
+  "area": "fin",
+  "contents": "doc",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Programa de pagos: cuentas bloqueadas por una ejecución",
+    "en": "Payment program: accounts locked by a run",
+    "pt": "Programa de pagamento: contas bloqueadas por uma execução"
+  }
+}

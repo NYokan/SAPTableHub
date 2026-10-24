@@ -1,0 +1,12 @@
+{
+  "id": "T095B",
+  "area": "fin",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Cuentas de amortización de activos fijos",
+    "en": "Fixed asset depreciation accounts",
+    "pt": "Contas de depreciação de ativos imobilizados"
+  }
+}

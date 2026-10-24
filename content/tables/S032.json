@@ -1,0 +1,12 @@
+{
+  "id": "S032",
+  "area": "mat",
+  "contents": "doc",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Estadísticas de inventario: stock actual",
+    "en": "Inventory statistics: current stock",
+    "pt": "Estatísticas de estoque: estoque atual"
+  }
+}

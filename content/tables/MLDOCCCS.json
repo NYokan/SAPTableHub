@@ -1,0 +1,13 @@
+{
+  "id": "MLDOCCCS",
+  "area": "co",
+  "contents": "items",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "s4only": true,
+  "title": {
+    "es": "Documentos del ledger de materiales: componentes de coste (S/4HANA)",
+    "en": "Material ledger documents: cost components (S/4HANA)",
+    "pt": "Documentos do ledger de materiais: componentes de custo (S/4HANA)"
+  }
+}

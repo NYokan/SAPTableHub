@@ -1,0 +1,12 @@
+{
+  "id": "SER03",
+  "area": "pm",
+  "contents": "header",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Números de serie en movimientos de mercancías (cabecera)",
+    "en": "Serial numbers in goods movements (header)",
+    "pt": "Números de série em movimentos de mercadorias (cabeçalho)"
+  }
+}

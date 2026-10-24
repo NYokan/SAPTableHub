@@ -1,0 +1,12 @@
+{
+  "id": "S011",
+  "area": "purch",
+  "contents": "doc",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Estadísticas de compras por grupo de compras",
+    "en": "Purchasing statistics by purchasing group",
+    "pt": "Estatísticas de compras por grupo de compradores"
+  }
+}

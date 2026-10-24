@@ -1,0 +1,12 @@
+{
+  "id": "KNB4",
+  "area": "fin",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Clientes: historial de pagos por sociedad",
+    "en": "Customers: payment history by company code",
+    "pt": "Clientes: histórico de pagamentos por empresa"
+  }
+}

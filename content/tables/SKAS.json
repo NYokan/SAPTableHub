@@ -1,0 +1,12 @@
+{
+  "id": "SKAS",
+  "area": "fin",
+  "contents": "text",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Cuentas de mayor: lista de palabras clave",
+    "en": "G/L accounts: keyword list",
+    "pt": "Contas do razão: lista de palavras-chave"
+  }
+}

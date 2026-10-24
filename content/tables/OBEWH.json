@@ -1,0 +1,12 @@
+{
+  "id": "OBEWH",
+  "area": "mat",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Valoración de stock especial en proveedor (histórico)",
+    "en": "Vendor special stock valuation (history)",
+    "pt": "Avaliação do estoque especial no fornecedor (histórico)"
+  }
+}

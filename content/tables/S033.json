@@ -1,0 +1,12 @@
+{
+  "id": "S033",
+  "area": "mat",
+  "contents": "doc",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Estadísticas de inventario: movimientos de stock (registros individuales)",
+    "en": "Inventory statistics: stock movements (single records)",
+    "pt": "Estatísticas de estoque: movimentos de estoque (registros individuais)"
+  }
+}

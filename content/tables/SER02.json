@@ -1,0 +1,12 @@
+{
+  "id": "SER02",
+  "area": "pm",
+  "contents": "header",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Números de serie en contratos de mantenimiento (cabecera)",
+    "en": "Serial numbers in maintenance contracts (header)",
+    "pt": "Números de série em contratos de manutenção (cabeçalho)"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "TCO43",
+  "area": "pp",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Perfiles de control de producción",
+    "en": "Production scheduling profiles",
+    "pt": "Perfis de controle de produção"
+  }
+}

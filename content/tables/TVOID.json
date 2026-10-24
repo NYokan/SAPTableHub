@@ -1,0 +1,12 @@
+{
+  "id": "TVOID",
+  "area": "fin",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Motivos de anulación de cheques",
+    "en": "Check void reasons",
+    "pt": "Motivos de anulação de cheques"
+  }
+}

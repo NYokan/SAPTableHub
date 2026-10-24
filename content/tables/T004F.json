@@ -1,0 +1,12 @@
+{
+  "id": "T004F",
+  "area": "fin",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Grupos de estado de campo",
+    "en": "Field status groups",
+    "pt": "Grupos de status de campo"
+  }
+}

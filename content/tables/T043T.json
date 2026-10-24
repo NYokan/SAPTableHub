@@ -1,0 +1,12 @@
+{
+  "id": "T043T",
+  "area": "fin",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Tolerancias por grupo de empleados",
+    "en": "Tolerances for groups of employees",
+    "pt": "Tolerâncias por grupo de funcionários"
+  }
+}

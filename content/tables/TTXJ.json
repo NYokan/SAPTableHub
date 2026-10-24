@@ -1,0 +1,12 @@
+{
+  "id": "TTXJ",
+  "area": "fin",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Códigos de jurisdicción fiscal",
+    "en": "Tax jurisdiction codes",
+    "pt": "Códigos de domicílio fiscal"
+  }
+}

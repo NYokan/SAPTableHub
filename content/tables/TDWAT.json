@@ -1,0 +1,12 @@
+{
+  "id": "TDWAT",
+  "area": "gen",
+  "contents": "text",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Clases de documento (textos)",
+    "en": "Document types (texts)",
+    "pt": "Tipos de documento (textos)"
+  }
+}

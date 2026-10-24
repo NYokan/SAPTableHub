@@ -1,0 +1,12 @@
+{
+  "id": "MSSAH",
+  "area": "mat",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Stock de pedido de cliente (totales, histórico)",
+    "en": "Sales order stock (totals, history)",
+    "pt": "Estoque de ordem do cliente (totais, histórico)"
+  }
+}

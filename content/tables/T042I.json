@@ -1,0 +1,12 @@
+{
+  "id": "T042I",
+  "area": "fin",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Programa de pagos: cuentas de banco propio por vía de pago",
+    "en": "Payment program: house bank accounts by payment method",
+    "pt": "Programa de pagamento: contas do banco próprio por forma de pagamento"
+  }
+}

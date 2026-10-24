@@ -1,0 +1,12 @@
+{
+  "id": "T028G",
+  "area": "fin",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Extracto bancario: operaciones externas y reglas de contabilización",
+    "en": "Bank statement: external transactions to posting rules",
+    "pt": "Extrato bancário: transações externas e regras de lançamento"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "MAPR",
+  "area": "mat",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Materiales: índice de pronóstico",
+    "en": "Materials: forecast index",
+    "pt": "Materiais: índice de previsão"
+  }
+}

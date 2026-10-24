@@ -1,0 +1,12 @@
+{
+  "id": "FDSB",
+  "area": "fin",
+  "contents": "doc",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Gestión de tesorería: saldos de cuentas bancarias",
+    "en": "Cash management: bank account totals",
+    "pt": "Gestão de caixa: saldos de contas bancárias"
+  }
+}

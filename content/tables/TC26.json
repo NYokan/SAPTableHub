@@ -1,0 +1,12 @@
+{
+  "id": "TC26",
+  "area": "pp",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Categorías de capacidad",
+    "en": "Capacity categories",
+    "pt": "Categorias de capacidade"
+  }
+}

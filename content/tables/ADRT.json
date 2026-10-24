@@ -1,0 +1,12 @@
+{
+  "id": "ADRT",
+  "area": "gen",
+  "contents": "text",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Datos de comunicación de direcciones (observaciones)",
+    "en": "Address communication data (remarks)",
+    "pt": "Dados de comunicação de endereços (observações)"
+  }
+}

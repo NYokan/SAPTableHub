@@ -1,0 +1,12 @@
+{
+  "id": "T042",
+  "area": "fin",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Programa de pagos: parámetros por sociedad",
+    "en": "Payment program: company code settings",
+    "pt": "Programa de pagamento: parâmetros por empresa"
+  }
+}

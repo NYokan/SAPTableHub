@@ -1,0 +1,12 @@
+{
+  "id": "TQ08T",
+  "area": "qm",
+  "contents": "text",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Claves de control de QM (descripciones)",
+    "en": "QM control keys (descriptions)",
+    "pt": "Chaves de controle de QM (descrições)"
+  }
+}

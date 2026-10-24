@@ -1,0 +1,12 @@
+{
+  "id": "S013",
+  "area": "purch",
+  "contents": "doc",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Estadísticas de evaluación de proveedores",
+    "en": "Vendor evaluation statistics",
+    "pt": "Estatísticas de avaliação de fornecedores"
+  }
+}

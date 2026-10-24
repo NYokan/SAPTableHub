@@ -1,0 +1,12 @@
+{
+  "id": "AUAO",
+  "area": "co",
+  "contents": "items",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Documentos de liquidación (objetos liquidados)",
+    "en": "Settlement documents (settled objects)",
+    "pt": "Documentos de liquidação (objetos liquidados)"
+  }
+}

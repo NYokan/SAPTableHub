@@ -1,0 +1,12 @@
+{
+  "id": "T047C",
+  "area": "fin",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Procedimientos de reclamación: gastos de reclamación",
+    "en": "Dunning procedures: dunning charges",
+    "pt": "Procedimentos de advertência: encargos de advertência"
+  }
+}

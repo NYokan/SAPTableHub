@@ -1,0 +1,12 @@
+{
+  "id": "T412",
+  "area": "pp",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Status de hojas de ruta",
+    "en": "Task list statuses",
+    "pt": "Status de roteiros"
+  }
+}

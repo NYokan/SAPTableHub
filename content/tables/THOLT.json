@@ -1,0 +1,12 @@
+{
+  "id": "THOLT",
+  "area": "gen",
+  "contents": "text",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Días festivos (textos)",
+    "en": "Public holidays (texts)",
+    "pt": "Feriados (textos)"
+  }
+}

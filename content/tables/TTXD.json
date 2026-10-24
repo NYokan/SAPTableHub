@@ -1,0 +1,12 @@
+{
+  "id": "TTXD",
+  "area": "fin",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Estructura de los códigos de jurisdicción fiscal",
+    "en": "Tax jurisdiction code structure",
+    "pt": "Estrutura dos códigos de domicílio fiscal"
+  }
+}

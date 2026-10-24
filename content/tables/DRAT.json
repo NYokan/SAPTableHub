@@ -1,0 +1,12 @@
+{
+  "id": "DRAT",
+  "area": "gen",
+  "contents": "text",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Documentos (descripciones)",
+    "en": "Documents (descriptions)",
+    "pt": "Documentos (descrições)"
+  }
+}

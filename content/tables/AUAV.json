@@ -1,0 +1,12 @@
+{
+  "id": "AUAV",
+  "area": "co",
+  "contents": "items",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Documentos de liquidación (operaciones)",
+    "en": "Settlement documents (transactions)",
+    "pt": "Documentos de liquidação (transações)"
+  }
+}

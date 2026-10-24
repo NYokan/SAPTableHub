@@ -1,0 +1,12 @@
+{
+  "id": "T030H",
+  "area": "fin",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Cuentas para diferencias de cambio en partidas abiertas",
+    "en": "Accounts for exchange rate differences on open items",
+    "pt": "Contas para diferenças cambiais em partidas em aberto"
+  }
+}

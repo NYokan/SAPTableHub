@@ -1,0 +1,12 @@
+{
+  "id": "S039",
+  "area": "mat",
+  "contents": "doc",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Estadísticas de inventario: análisis de stock y necesidades",
+    "en": "Inventory statistics: stock and requirements analysis",
+    "pt": "Estatísticas de estoque: análise de estoque e necessidades"
+  }
+}

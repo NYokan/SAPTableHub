@@ -1,0 +1,12 @@
+{
+  "id": "TQ05",
+  "area": "qm",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Tipos de certificado",
+    "en": "Certificate types",
+    "pt": "Tipos de certificado"
+  }
+}

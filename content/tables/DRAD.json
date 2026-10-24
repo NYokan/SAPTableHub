@@ -1,0 +1,12 @@
+{
+  "id": "DRAD",
+  "area": "gen",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Documentos (vínculos con objetos)",
+    "en": "Documents (object links)",
+    "pt": "Documentos (vínculos com objetos)"
+  }
+}

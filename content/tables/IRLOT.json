@@ -1,0 +1,12 @@
+{
+  "id": "IRLOT",
+  "area": "pm",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Ubicaciones técnicas de referencia",
+    "en": "Reference functional locations",
+    "pt": "Locais de instalação de referência"
+  }
+}

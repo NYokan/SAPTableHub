@@ -1,0 +1,13 @@
+{
+  "id": "EIKP",
+  "area": "purch",
+  "contents": "header",
+  "component": "SD-FT",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Comercio exterior: datos de importación/exportación (cabecera)",
+    "en": "Foreign trade: import/export data (header)",
+    "pt": "Comércio exterior: dados de importação/exportação (cabeçalho)"
+  }
+}

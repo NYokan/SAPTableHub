@@ -1,0 +1,12 @@
+{
+  "id": "MSSQH",
+  "area": "mat",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Stock de proyecto (totales, histórico)",
+    "en": "Project stock (totals, history)",
+    "pt": "Estoque de projeto (totais, histórico)"
+  }
+}

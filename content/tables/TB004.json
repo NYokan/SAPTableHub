@@ -1,0 +1,12 @@
+{
+  "id": "TB004",
+  "area": "gen",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Tipos de socio de negocio",
+    "en": "Business partner types",
+    "pt": "Tipos de parceiro de negócios"
+  }
+}

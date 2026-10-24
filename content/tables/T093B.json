@@ -1,0 +1,12 @@
+{
+  "id": "T093B",
+  "area": "fin",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Áreas de valoración de activos por sociedad",
+    "en": "Asset depreciation areas by company code",
+    "pt": "Áreas de avaliação de ativos por empresa"
+  }
+}
