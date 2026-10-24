@@ -26,6 +26,12 @@ export const dclName = (c: Ctx, k: string) => loc(c, c.data.taxonomy.deliveryCla
 /** An area as a tag in its own colour, with a dot of the same hue (see the --a-* tokens). */
 export const areaBadge = (c: Ctx, k: string) => `<span class="ab ab-${esc(k)}">${esc(areaName(c, k))}</span>`;
 
+/** The visible "S/4HANA only" mark for tables that do not exist in ECC; empty for the rest. */
+export const s4Badge = (c: Ctx, t: TableSummary) => (t.s4 ? `<span class="s4" title="${esc(tx(c, 's4note'))}">${esc(tx(c, 's4only'))}</span>` : '');
+
+/** Category and delivery class are left empty when not known for sure; they read as a dash. */
+export const orDash = (v: string | undefined) => v || '—';
+
 export const tableHref = (c: Ctx, id: string) => routeHref({ name: 'table', lang: c.lang, id });
 export const countText = (c: Ctx, n: number) => (n === 1 ? tx(c, 'count1') : tx(c, 'countN', { n }));
 

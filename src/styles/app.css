@@ -20,11 +20,16 @@
   --row-hover: #f3f6f2;
   /* each area's colour, from the explore concept: a fill, its ink and a dot. General is a neutral slate
      there instead of green, so no area reads as the accent */
-  --a-sales-bg: #ffc4c1; --a-sales-ink: #4d1517; --a-sales-dot: #b34f4e;
-  --a-purch-bg: #f0d1a2; --a-purch-ink: #422400; --a-purch-dot: #946500;
-  --a-mat-bg: #f1c6ec;   --a-mat-ink: #42183f;   --a-mat-dot: #9a5294;
-  --a-fin-bg: #b0dcff;   --a-fin-ink: #002e52;   --a-fin-dot: #22719f;
-  --a-gen-bg: #d9dee4;   --a-gen-ink: #1e2833;   --a-gen-dot: #5c6773;
+  --a-sales-bg: #ffd1cc; --a-sales-ink: #53211f; --a-sales-dot: #b4514c;
+  --a-pp-bg: #fcd5bc; --a-pp-ink: #4f2704; --a-pp-dot: #ad5c15;
+  --a-purch-bg: #efdcb5; --a-purch-ink: #442f00; --a-purch-dot: #976c00;
+  --a-qm-bg: #dae4bb; --a-qm-ink: #303700; --a-qm-dot: #6e7e01;
+  --a-pm-bg: #b5e8f5; --a-pm-ink: #003c4a; --a-pm-dot: #0086a4;
+  --a-fin-bg: #c3e2ff; --a-fin-ink: #0f3457; --a-fin-dot: #2d78bd;
+  --a-ps-bg: #d7daff; --a-ps-ink: #2d2d58; --a-ps-dot: #6a68be;
+  --a-co-bg: #ead4f9; --a-co-ink: #40264e; --a-co-dot: #8e5bab;
+  --a-mat-bg: #fad0e6; --a-mat-ink: #4d213b; --a-mat-dot: #a85186;
+  --a-gen-bg: #dddede; --a-gen-ink: #323333; --a-gen-dot: #747475;
   /* matched words, the veil behind dialogs, and borders of controls (3:1 on the surfaces) */
   --mark: #fbe38e;
   --mark-ink: #121512;
@@ -43,11 +48,16 @@
     --line-soft: #232d29;
     --rule: #222b27;
     --row-hover: #1f2925;
-    --a-sales-bg: #5b2e2d; --a-sales-ink: #ffdedc; --a-sales-dot: #ed8b88;
-    --a-purch-bg: #50380f; --a-purch-ink: #f7e5cb; --a-purch-dot: #d4a14a;
-    --a-mat-bg: #50304d;   --a-mat-ink: #f8dff5;   --a-mat-dot: #d58ecf;
-    --a-fin-bg: #1c405d;   --a-fin-ink: #d3ebff;   --a-fin-dot: #65b2f1;
-    --a-gen-bg: #343b43;   --a-gen-ink: #e1e7ee;   --a-gen-dot: #9aa5b1;
+    --a-sales-bg: #512c29; --a-sales-ink: #ffdfdc; --a-sales-dot: #e88f87;
+    --a-pp-bg: #4e301b; --a-pp-ink: #fbe2d2; --a-pp-dot: #e09865;
+    --a-purch-bg: #453513; --a-purch-ink: #f3e7ce; --a-purch-dot: #cba553;
+    --a-qm-bg: #353c19; --a-qm-ink: #e5ecd2; --a-qm-dot: #a5b461;
+    --a-pm-bg: #0a3f4a; --a-pm-ink: #cfeef7; --a-pm-dot: #45bcd6;
+    --a-fin-bg: #213a53; --a-fin-ink: #d7eaff; --a-fin-dot: #73b0ee;
+    --a-ps-bg: #333454; --a-ps-ink: #e4e6ff; --a-ps-dot: #a0a2ef;
+    --a-co-bg: #412f4d; --a-co-ink: #f0e2f9; --a-co-dot: #c296dd;
+    --a-mat-bg: #4c2c3e; --a-mat-ink: #fadfed; --a-mat-dot: #dc8ebb;
+    --a-gen-bg: #383838; --a-gen-ink: #e7e8e8; --a-gen-dot: #aaabab;
     --mark: #4d3b07;
     --mark-ink: #ffe9a6;
     --veil: rgba(0, 0, 0, 0.58);
@@ -70,11 +80,16 @@
   --line-soft: #232d29;
   --rule: #222b27;
   --row-hover: #1f2925;
-  --a-sales-bg: #5b2e2d; --a-sales-ink: #ffdedc; --a-sales-dot: #ed8b88;
-  --a-purch-bg: #50380f; --a-purch-ink: #f7e5cb; --a-purch-dot: #d4a14a;
-  --a-mat-bg: #50304d;   --a-mat-ink: #f8dff5;   --a-mat-dot: #d58ecf;
-  --a-fin-bg: #1c405d;   --a-fin-ink: #d3ebff;   --a-fin-dot: #65b2f1;
-  --a-gen-bg: #343b43;   --a-gen-ink: #e1e7ee;   --a-gen-dot: #9aa5b1;
+  --a-sales-bg: #512c29; --a-sales-ink: #ffdfdc; --a-sales-dot: #e88f87;
+  --a-pp-bg: #4e301b; --a-pp-ink: #fbe2d2; --a-pp-dot: #e09865;
+  --a-purch-bg: #453513; --a-purch-ink: #f3e7ce; --a-purch-dot: #cba553;
+  --a-qm-bg: #353c19; --a-qm-ink: #e5ecd2; --a-qm-dot: #a5b461;
+  --a-pm-bg: #0a3f4a; --a-pm-ink: #cfeef7; --a-pm-dot: #45bcd6;
+  --a-fin-bg: #213a53; --a-fin-ink: #d7eaff; --a-fin-dot: #73b0ee;
+  --a-ps-bg: #333454; --a-ps-ink: #e4e6ff; --a-ps-dot: #a0a2ef;
+  --a-co-bg: #412f4d; --a-co-ink: #f0e2f9; --a-co-dot: #c296dd;
+  --a-mat-bg: #4c2c3e; --a-mat-ink: #fadfed; --a-mat-dot: #dc8ebb;
+  --a-gen-bg: #383838; --a-gen-ink: #e7e8e8; --a-gen-dot: #aaabab;
   --mark: #4d3b07;
   --mark-ink: #ffe9a6;
   --veil: rgba(0, 0, 0, 0.58);
@@ -407,10 +422,32 @@ details.legend { margin-top: 16px; }
   vertical-align: 1px;
 }
 .ab.ab-sales { background: var(--a-sales-bg); color: var(--a-sales-ink); }
+.ab.ab-pp { background: var(--a-pp-bg); color: var(--a-pp-ink); }
 .ab.ab-purch { background: var(--a-purch-bg); color: var(--a-purch-ink); }
-.ab.ab-mat { background: var(--a-mat-bg); color: var(--a-mat-ink); }
+.ab.ab-qm { background: var(--a-qm-bg); color: var(--a-qm-ink); }
+.ab.ab-pm { background: var(--a-pm-bg); color: var(--a-pm-ink); }
 .ab.ab-fin { background: var(--a-fin-bg); color: var(--a-fin-ink); }
+.ab.ab-ps { background: var(--a-ps-bg); color: var(--a-ps-ink); }
+.ab.ab-co { background: var(--a-co-bg); color: var(--a-co-ink); }
+.ab.ab-mat { background: var(--a-mat-bg); color: var(--a-mat-ink); }
 .ab.ab-gen { background: var(--a-gen-bg); color: var(--a-gen-ink); }
+/* "S/4HANA only": an outlined tag in ink, so it never reads as one more area colour */
+.s4 {
+  display: inline-flex;
+  align-items: center;
+  min-height: 20px;
+  padding: 0 7px;
+  margin-left: 8px;
+  border: 1px solid var(--ink);
+  border-radius: 4px;
+  color: var(--ink);
+  font-size: 12px;
+  font-weight: 600;
+  white-space: nowrap;
+  vertical-align: 2px;
+}
+.d-tags .s4 { margin-left: 0; min-height: 22px; }
+.c-comp { display: block; margin-top: 2px; font-size: 12.5px; color: var(--muted); }
 .pager { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px 16px; margin-top: 14px; font-size: 14px; }
 .pg { display: flex; flex-wrap: wrap; gap: 4px; align-items: center; }
 .pg a, .pg .off {
@@ -697,9 +734,14 @@ html.sheet-open, html.pal-open { overflow: hidden; }
 .ab { gap: 6px; min-height: 24px; padding: 0 9px 0 8px; border-radius: 6px; font-weight: 600; }
 .ab::before { content: ''; width: 7px; height: 7px; border-radius: 50%; background: var(--dot); flex: none; }
 .ab-sales, [data-a='sales'] { --dot: var(--a-sales-dot); }
+.ab-pp, [data-a='pp'] { --dot: var(--a-pp-dot); }
 .ab-purch, [data-a='purch'] { --dot: var(--a-purch-dot); }
-.ab-mat, [data-a='mat'] { --dot: var(--a-mat-dot); }
+.ab-qm, [data-a='qm'] { --dot: var(--a-qm-dot); }
+.ab-pm, [data-a='pm'] { --dot: var(--a-pm-dot); }
 .ab-fin, [data-a='fin'] { --dot: var(--a-fin-dot); }
+.ab-ps, [data-a='ps'] { --dot: var(--a-ps-dot); }
+.ab-co, [data-a='co'] { --dot: var(--a-co-dot); }
+.ab-mat, [data-a='mat'] { --dot: var(--a-mat-dot); }
 .ab-gen, [data-a='gen'] { --dot: var(--a-gen-dot); }
 
 /* the search field, alone */

@@ -5,6 +5,7 @@ import path from 'node:path';
 
 export const LANGS = ['es', 'en', 'pt'];
 const NAME_RE = /^[A-Z0-9_/]+$/;
+const COMP_RE = /^[A-Z][A-Z0-9]*(-[A-Z0-9]+)*$/;
 
 /** Detail files are grouped by the first two characters of the table name, so the site never needs one file per table. */
 export function shardOf(id) {
@@ -66,8 +67,11 @@ export function validate(c) {
     ids.add(t.id);
     if (!c.taxonomy.areas[t.area]) err(file, `área desconocida "${t.area}" (ver taxonomy.json)`);
     if (!c.taxonomy.contents[t.contents]) err(file, `contenido desconocido "${t.contents}" (ver taxonomy.json)`);
-    if (!c.taxonomy.categories[t.category]) err(file, `categoría desconocida "${t.category}"`);
-    if (!c.taxonomy.deliveryClasses[t.deliveryClass]) err(file, `clase de entrega desconocida "${t.deliveryClass}"`);
+    // category and delivery class are optional: left out when not known for sure (see docs/pendientes.md)
+    if (t.category !== undefined && !c.taxonomy.categories[t.category]) err(file, `categoría desconocida "${t.category}"`);
+    if (t.deliveryClass !== undefined && !c.taxonomy.deliveryClasses[t.deliveryClass]) err(file, `clase de entrega desconocida "${t.deliveryClass}"`);
+    if (t.component !== undefined && !COMP_RE.test(t.component)) err(file, '"component" debe ser un componente de aplicación como SD-SLS');
+    if (t.s4only !== undefined && typeof t.s4only !== 'boolean') err(file, '"s4only" debe ser true o false');
     if (!isL10n(t.title)) err(file, '"title" necesita texto en es, en y pt');
     if (t.purpose !== undefined && !isL10n(t.purpose)) err(file, '"purpose" necesita texto en es, en y pt');
     if (t.synonyms !== undefined) {
@@ -104,8 +108,10 @@ export function compile(c) {
       id: t.id,
       area: t.area,
       kind: t.contents,
-      cat: t.category,
-      dcl: t.deliveryClass,
+      cat: t.category ?? '',
+      dcl: t.deliveryClass ?? '',
+      ...(t.component ? { comp: t.component } : {}),
+      ...(t.s4only ? { s4: 1 } : {}),
       title: t.title,
       syn: t.synonyms ?? empty,
       f: (t.fields ?? []).map((f) => (f.key ? '*' : '') + f.name),

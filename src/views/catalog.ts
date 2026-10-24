@@ -4,7 +4,7 @@ import { routeHref, type CatalogRoute } from '../lib/router.ts';
 import { esc } from '../lib/text.ts';
 import type { TableSummary } from '../types.ts';
 import {
-  addButton, areaBadge, areaName, catName, countText, dclName, highlight, kindName, loc, modeSeg, optLink, segLink, tableHref, tokenLink, tx, type Ctx,
+  addButton, areaBadge, areaName, catName, countText, dclName, highlight, kindName, loc, modeSeg, optLink, orDash, s4Badge, segLink, tableHref, tokenLink, tx, type Ctx,
 } from './common.ts';
 
 /**
@@ -102,10 +102,12 @@ export function renderCatalog(el: HTMLElement, r: CatalogRoute, c: Ctx): Catalog
 function rowHTML(c: Ctx, t: TableSummary, n: number, r: CatalogRoute): string {
   const meta =
     c.mode === 'tech'
-      ? `<span class="mono">${esc(t.cat)}</span><span class="dot" aria-hidden="true">·</span><span><span class="mono">${esc(t.dcl)}</span> ${esc(dclName(c, t.dcl))}</span>`
+      ? `<span class="mono">${esc(orDash(t.cat))}</span><span class="dot" aria-hidden="true">·</span><span>${t.dcl ? `<span class="mono">${esc(t.dcl)}</span> ${esc(dclName(c, t.dcl))}` : '—'}</span>`
       : `${areaBadge(c, t.area)}<span class="dot" aria-hidden="true">·</span><span>${esc(kindName(c, t.kind))}</span>`;
+  // the technical view also names the SAP application component under the description
+  const comp = c.mode === 'tech' && t.comp ? `<span class="c-comp mono">${esc(t.comp)}</span>` : '';
   const open = r.open === t.id ? ' aria-current="true"' : '';
-  return `<li class="crow"><a class="cmain" href="${esc(tableHref(c, t.id))}" data-link data-open="${esc(t.id)}" aria-haspopup="dialog"${open}><span class="c-n">${n}</span><span class="c-id">${highlight(t.id, r.q)}</span><span class="c-title">${highlight(loc(c, t.title), r.q)}</span><span class="c-meta">${meta}</span></a>${addButton(c, t.id)}</li>`;
+  return `<li class="crow"><a class="cmain" href="${esc(tableHref(c, t.id))}" data-link data-open="${esc(t.id)}" aria-haspopup="dialog"${open}><span class="c-n">${n}</span><span class="c-id">${highlight(t.id, r.q)}</span><span class="c-title">${highlight(loc(c, t.title), r.q)}${s4Badge(c, t)}${comp}</span><span class="c-meta">${meta}</span></a>${addButton(c, t.id)}</li>`;
 }
 
 /** Nothing matched: the words that found nothing, crossed out, and the ways on. */
@@ -157,7 +159,9 @@ function legend(c: Ctx): string {
 
 /** Tab-separated text of every matching row, ready to paste into a spreadsheet. */
 export function catalogTSV(c: Ctx, rows: TableSummary[]): string {
-  const head = ['#', tx(c, 'colTable'), tx(c, 'colDesc'), tx(c, 'colArea'), tx(c, 'colKind'), tx(c, 'colCat'), tx(c, 'colDcl')];
-  const lines = rows.map((t, i) => [i + 1, t.id, loc(c, t.title), areaName(c, t.area), kindName(c, t.kind), t.cat, t.dcl].join('\t'));
+  const head = ['#', tx(c, 'colTable'), tx(c, 'colDesc'), tx(c, 'colArea'), tx(c, 'colKind'), tx(c, 'colCat'), tx(c, 'colDcl'), tx(c, 'comp'), tx(c, 's4only')];
+  const lines = rows.map((t, i) =>
+    [i + 1, t.id, loc(c, t.title), areaName(c, t.area), kindName(c, t.kind), orDash(t.cat), orDash(t.dcl), orDash(t.comp), t.s4 ? '✓' : ''].join('\t'),
+  );
   return [head.join('\t'), ...lines].join('\n');
 }

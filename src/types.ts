@@ -9,10 +9,14 @@ export interface TableSummary {
   area: string;
   /** What the table holds: header, items, master data… */
   kind: string;
-  /** TRANSP, CLUSTER or POOL. */
+  /** TRANSP, CLUSTER or POOL; empty when not known for sure. */
   cat: string;
-  /** Delivery class: A, C, L, G, E, S or W. */
+  /** Delivery class: A, C, L, G, E, S or W; empty when not known for sure. */
   dcl: string;
+  /** SAP application component, such as SD-SLS. */
+  comp?: string;
+  /** 1 when the table exists only in S/4HANA, not in ECC. */
+  s4?: 1;
   title: L10n;
   syn: Record<Lang, string[]>;
   /** Field names; key fields start with "*". */

@@ -15,10 +15,35 @@
       "en": "Materials",
       "pt": "Materiais"
     },
+    "pp": {
+      "es": "Producción",
+      "en": "Production",
+      "pt": "Produção"
+    },
+    "qm": {
+      "es": "Calidad",
+      "en": "Quality",
+      "pt": "Qualidade"
+    },
+    "pm": {
+      "es": "Mantenimiento",
+      "en": "Maintenance",
+      "pt": "Manutenção"
+    },
+    "ps": {
+      "es": "Proyectos",
+      "en": "Projects",
+      "pt": "Projetos"
+    },
     "fin": {
       "es": "Finanzas",
       "en": "Finance",
       "pt": "Finanças"
+    },
+    "co": {
+      "es": "Controlling",
+      "en": "Controlling",
+      "pt": "Controlling"
     },
     "gen": {
       "es": "General",
