@@ -1,0 +1,12 @@
+{
+  "id": "TVTKT",
+  "area": "sales",
+  "contents": "text",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Clases de transporte: textos",
+    "en": "Shipment types: texts",
+    "pt": "Tipos de transporte: textos"
+  }
+}

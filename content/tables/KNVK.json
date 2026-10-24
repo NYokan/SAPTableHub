@@ -1,0 +1,41 @@
+{
+  "id": "KNVK",
+  "area": "sales",
+  "contents": "master",
+  "component": "LO-MD-BP-CM",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Clientes: personas de contacto",
+    "en": "Customers: contact persons",
+    "pt": "Clientes: pessoas de contato"
+  },
+  "purpose": {
+    "es": "Una fila por cada persona de contacto de un cliente: nombre, cargo, departamento y datos de comunicación. Sirve para saber con quién hablar dentro de la empresa cliente.",
+    "en": "One row per contact person of a customer: name, job title, department and contact details. It tells you whom to talk to inside the customer company.",
+    "pt": "Uma linha por pessoa de contato de um cliente: nome, cargo, departamento e dados de comunicação. Serve para saber com quem falar dentro da empresa cliente."
+  },
+  "synonyms": {
+    "es": [
+      "persona de contacto",
+      "contacto del cliente",
+      "interlocutor",
+      "cargo",
+      "departamento"
+    ],
+    "en": [
+      "contact person",
+      "customer contact",
+      "contact",
+      "job title",
+      "department"
+    ],
+    "pt": [
+      "pessoa de contato",
+      "contato do cliente",
+      "interlocutor",
+      "cargo",
+      "departamento"
+    ]
+  }
+}

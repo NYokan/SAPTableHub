@@ -1,0 +1,13 @@
+{
+  "id": "TVKT",
+  "area": "sales",
+  "contents": "config",
+  "component": "SD-BF-ACT",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Grupos de imputación de clientes",
+    "en": "Customer account assignment groups",
+    "pt": "Grupos de classificação contábil de clientes"
+  }
+}

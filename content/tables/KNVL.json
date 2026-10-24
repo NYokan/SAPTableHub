@@ -1,0 +1,12 @@
+{
+  "id": "KNVL",
+  "area": "sales",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Clientes: licencias",
+    "en": "Customers: licenses",
+    "pt": "Clientes: licenças"
+  }
+}

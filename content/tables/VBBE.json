@@ -1,0 +1,12 @@
+{
+  "id": "VBBE",
+  "area": "sales",
+  "contents": "doc",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Necesidades de ventas por material",
+    "en": "Sales requirements per material",
+    "pt": "Necessidades de vendas por material"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "VLPMA",
+  "area": "sales",
+  "contents": "doc",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Índice de entregas por material",
+    "en": "Delivery index by material",
+    "pt": "Índice de remessas por material"
+  }
+}

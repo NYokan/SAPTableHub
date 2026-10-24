@@ -1,0 +1,12 @@
+{
+  "id": "VRPMA",
+  "area": "sales",
+  "contents": "doc",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Índice de facturas por material",
+    "en": "Billing index by material",
+    "pt": "Índice de faturas por material"
+  }
+}

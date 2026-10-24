@@ -1,0 +1,12 @@
+{
+  "id": "A305",
+  "area": "sales",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Registros de condición: cliente y material (con estado de liberación)",
+    "en": "Condition records: customer and material (with release status)",
+    "pt": "Registros de condição: cliente e material (com status de liberação)"
+  }
+}

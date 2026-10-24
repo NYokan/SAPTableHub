@@ -1,0 +1,13 @@
+{
+  "id": "TVAKT",
+  "area": "sales",
+  "contents": "text",
+  "component": "SD-SLS-GF",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Clases de documento de ventas: textos",
+    "en": "Sales document types: texts",
+    "pt": "Tipos de documento de vendas: textos"
+  }
+}

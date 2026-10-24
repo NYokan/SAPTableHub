@@ -1,0 +1,13 @@
+{
+  "id": "TPART",
+  "area": "sales",
+  "contents": "text",
+  "component": "SD-BF-PD",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Funciones de interlocutor: textos",
+    "en": "Partner functions: texts",
+    "pt": "Funções de parceiro: textos"
+  }
+}

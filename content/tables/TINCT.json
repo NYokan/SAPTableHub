@@ -1,0 +1,13 @@
+{
+  "id": "TINCT",
+  "area": "sales",
+  "contents": "text",
+  "component": "SD-BIL-GF",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Incoterms: textos",
+    "en": "Incoterms: texts",
+    "pt": "Incoterms: textos"
+  }
+}

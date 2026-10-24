@@ -1,0 +1,12 @@
+{
+  "id": "A005",
+  "area": "sales",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Registros de condición: precio por cliente y material",
+    "en": "Condition records: price per customer and material",
+    "pt": "Registros de condição: preço por cliente e material"
+  }
+}

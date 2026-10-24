@@ -1,0 +1,13 @@
+{
+  "id": "TVFST",
+  "area": "sales",
+  "contents": "text",
+  "component": "SD-BIL",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Motivos de bloqueo de factura: textos",
+    "en": "Billing block reasons: texts",
+    "pt": "Motivos de bloqueio de faturamento: textos"
+  }
+}

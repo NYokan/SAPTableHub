@@ -1,0 +1,37 @@
+{
+  "id": "KNMT",
+  "area": "sales",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Registros info cliente-material",
+    "en": "Customer-material info records",
+    "pt": "Registros info cliente-material"
+  },
+  "purpose": {
+    "es": "Relaciona un material propio con el código y la descripción que usa un cliente concreto, junto con datos de entrega acordados. Permite recibir pedidos con el número de material del cliente.",
+    "en": "Links your own material to the code and description a specific customer uses, along with agreed delivery data. It lets you take orders using the customer's material number.",
+    "pt": "Relaciona um material próprio com o código e a descrição que um cliente específico usa, junto com dados de remessa acordados. Permite receber ordens com o número de material do cliente."
+  },
+  "synonyms": {
+    "es": [
+      "material del cliente",
+      "código del cliente",
+      "referencia del cliente",
+      "registro info cliente-material"
+    ],
+    "en": [
+      "customer material number",
+      "customer part number",
+      "customer reference",
+      "customer-material info record"
+    ],
+    "pt": [
+      "material do cliente",
+      "código do cliente",
+      "referência do cliente",
+      "registro info cliente-material"
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "TTDS",
+  "area": "sales",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Puestos de planificación de transporte",
+    "en": "Transportation planning points",
+    "pt": "Locais de planejamento de transporte"
+  }
+}

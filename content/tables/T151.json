@@ -1,0 +1,13 @@
+{
+  "id": "T151",
+  "area": "sales",
+  "contents": "config",
+  "component": "SD-MD-MM",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Grupos de clientes",
+    "en": "Customer groups",
+    "pt": "Grupos de clientes"
+  }
+}

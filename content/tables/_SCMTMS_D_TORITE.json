@@ -1,0 +1,11 @@
+{
+  "id": "/SCMTMS/D_TORITE",
+  "area": "sales",
+  "contents": "items",
+  "s4only": true,
+  "title": {
+    "es": "Órdenes de flete (posiciones)",
+    "en": "Freight orders (items)",
+    "pt": "Ordens de frete (itens)"
+  }
+}

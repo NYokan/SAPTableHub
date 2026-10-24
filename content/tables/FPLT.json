@@ -1,0 +1,12 @@
+{
+  "id": "FPLT",
+  "area": "sales",
+  "contents": "items",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Planes de facturación: fechas",
+    "en": "Billing plans: dates",
+    "pt": "Planos de faturamento: datas"
+  }
+}

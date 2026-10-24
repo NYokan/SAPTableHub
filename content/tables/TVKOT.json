@@ -1,0 +1,35 @@
+{
+  "id": "TVKOT",
+  "area": "sales",
+  "contents": "text",
+  "component": "SD-MD-MM",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Organizaciones de ventas: textos",
+    "en": "Sales organizations: texts",
+    "pt": "Organizações de vendas: textos"
+  },
+  "purpose": {
+    "es": "Nombre de cada organización de ventas en cada idioma. Úsala para mostrar el nombre en lugar del código VKORG.",
+    "en": "Name of each sales organization in each language. Use it to show the name instead of the VKORG code.",
+    "pt": "Nome de cada organização de vendas em cada idioma. Use-a para mostrar o nome em vez do código VKORG."
+  },
+  "synonyms": {
+    "es": [
+      "organización de ventas",
+      "nombre de organización de ventas",
+      "VKORG"
+    ],
+    "en": [
+      "sales organization",
+      "sales org name",
+      "VKORG"
+    ],
+    "pt": [
+      "organização de vendas",
+      "nome da organização de vendas",
+      "VKORG"
+    ]
+  }
+}

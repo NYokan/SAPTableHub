@@ -1,0 +1,12 @@
+{
+  "id": "TVROT",
+  "area": "sales",
+  "contents": "text",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Rutas: textos",
+    "en": "Routes: texts",
+    "pt": "Itinerários: textos"
+  }
+}

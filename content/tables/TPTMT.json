@@ -1,0 +1,12 @@
+{
+  "id": "TPTMT",
+  "area": "sales",
+  "contents": "text",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Grupos de tipos de posición: textos",
+    "en": "Item category groups: texts",
+    "pt": "Grupos de categorias de item: textos"
+  }
+}

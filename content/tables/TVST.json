@@ -1,0 +1,38 @@
+{
+  "id": "TVST",
+  "area": "sales",
+  "contents": "config",
+  "component": "LE-SHP-GF",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Puestos de expedición",
+    "en": "Shipping points",
+    "pt": "Locais de expedição"
+  },
+  "purpose": {
+    "es": "Lista los puestos de expedición, los lugares desde donde se preparan y despachan las entregas, con su dirección y calendario. El código aparece en cada entrega (LIKP-VSTEL).",
+    "en": "Lists the shipping points, the places from which deliveries are prepared and dispatched, with their address and calendar. The code appears on every delivery (LIKP-VSTEL).",
+    "pt": "Lista os locais de expedição, de onde as remessas são preparadas e despachadas, com endereço e calendário. O código aparece em cada remessa (LIKP-VSTEL)."
+  },
+  "synonyms": {
+    "es": [
+      "puesto de expedición",
+      "punto de despacho",
+      "muelle",
+      "almacén de salida"
+    ],
+    "en": [
+      "shipping point",
+      "dispatch point",
+      "loading dock",
+      "warehouse exit"
+    ],
+    "pt": [
+      "local de expedição",
+      "ponto de despacho",
+      "doca",
+      "saída do armazém"
+    ]
+  }
+}

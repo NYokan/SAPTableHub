@@ -1,0 +1,13 @@
+{
+  "id": "TSKD",
+  "area": "sales",
+  "contents": "config",
+  "component": "SD-BF-TX",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Clasificación fiscal de clientes",
+    "en": "Customer tax classifications",
+    "pt": "Classificação fiscal de clientes"
+  }
+}

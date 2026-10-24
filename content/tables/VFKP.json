@@ -1,0 +1,12 @@
+{
+  "id": "VFKP",
+  "area": "sales",
+  "contents": "items",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Costes de transporte (posiciones)",
+    "en": "Shipment costs (items)",
+    "pt": "Custos de frete (itens)"
+  }
+}

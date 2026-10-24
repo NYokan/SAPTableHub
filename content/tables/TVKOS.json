@@ -1,0 +1,12 @@
+{
+  "id": "TVKOS",
+  "area": "sales",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Sectores por organización de ventas",
+    "en": "Divisions per sales organization",
+    "pt": "Setores por organização de vendas"
+  }
+}

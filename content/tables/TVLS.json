@@ -1,0 +1,38 @@
+{
+  "id": "TVLS",
+  "area": "sales",
+  "contents": "config",
+  "component": "LE-SHP-GF",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Motivos de bloqueo de entrega",
+    "en": "Delivery block reasons",
+    "pt": "Motivos de bloqueio de remessa"
+  },
+  "purpose": {
+    "es": "Lista los motivos por los que se impide entregar un pedido (crédito, revisión, cliente moroso…). El código aparece en VBAK-LIFSK, en los repartos y en las entregas.",
+    "en": "Lists the reasons why delivery of an order is held (credit, review, overdue customer…). The code appears in VBAK-LIFSK, on schedule lines and on deliveries.",
+    "pt": "Lista os motivos pelos quais a remessa de uma ordem é impedida (crédito, revisão, cliente inadimplente…). O código aparece em VBAK-LIFSK, nas divisões e nas remessas."
+  },
+  "synonyms": {
+    "es": [
+      "bloqueo de entrega",
+      "pedido bloqueado",
+      "retención de envío",
+      "LIFSK"
+    ],
+    "en": [
+      "delivery block",
+      "blocked order",
+      "shipping hold",
+      "LIFSK"
+    ],
+    "pt": [
+      "bloqueio de remessa",
+      "ordem bloqueada",
+      "retenção de envio",
+      "LIFSK"
+    ]
+  }
+}

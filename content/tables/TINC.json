@@ -1,0 +1,41 @@
+{
+  "id": "TINC",
+  "area": "sales",
+  "contents": "config",
+  "component": "SD-BIL-GF",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Incoterms",
+    "en": "Incoterms",
+    "pt": "Incoterms"
+  },
+  "purpose": {
+    "es": "Lista los Incoterms disponibles (EXW, FOB, CIF, DAP…), que fijan quién paga el transporte y asume el riesgo. El código aparece en clientes, pedidos y facturas.",
+    "en": "Lists the available Incoterms (EXW, FOB, CIF, DAP…), which set who pays for transport and bears the risk. The code appears on customers, orders and invoices.",
+    "pt": "Lista os Incoterms disponíveis (EXW, FOB, CIF, DAP…), que definem quem paga o transporte e assume o risco. O código aparece em clientes, ordens e faturas."
+  },
+  "synonyms": {
+    "es": [
+      "incoterm",
+      "condición de entrega",
+      "FOB",
+      "CIF",
+      "término comercial"
+    ],
+    "en": [
+      "incoterm",
+      "delivery terms",
+      "FOB",
+      "CIF",
+      "trade terms"
+    ],
+    "pt": [
+      "incoterm",
+      "condição de entrega",
+      "FOB",
+      "CIF",
+      "termo comercial"
+    ]
+  }
+}

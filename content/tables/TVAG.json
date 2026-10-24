@@ -1,0 +1,38 @@
+{
+  "id": "TVAG",
+  "area": "sales",
+  "contents": "config",
+  "component": "SD-SLS-GF",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Motivos de rechazo",
+    "en": "Rejection reasons",
+    "pt": "Motivos de recusa"
+  },
+  "purpose": {
+    "es": "Lista los motivos por los que se rechaza una posición de pedido o cotización (precio alto, plazo, cliente desistió…). El código aparece en VBAP-ABGRU.",
+    "en": "Lists the reasons why an order or quotation item is rejected (price too high, lead time, customer withdrew…). The code appears in VBAP-ABGRU.",
+    "pt": "Lista os motivos pelos quais um item de ordem ou cotação é recusado (preço alto, prazo, cliente desistiu…). O código aparece em VBAP-ABGRU."
+  },
+  "synonyms": {
+    "es": [
+      "motivo de rechazo",
+      "pedido rechazado",
+      "cotización perdida",
+      "ABGRU"
+    ],
+    "en": [
+      "rejection reason",
+      "rejected item",
+      "lost quotation",
+      "ABGRU"
+    ],
+    "pt": [
+      "motivo de recusa",
+      "item recusado",
+      "cotação perdida",
+      "ABGRU"
+    ]
+  }
+}

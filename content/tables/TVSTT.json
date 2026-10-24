@@ -1,0 +1,13 @@
+{
+  "id": "TVSTT",
+  "area": "sales",
+  "contents": "text",
+  "component": "LE-SHP-GF",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Puestos de expedición: textos",
+    "en": "Shipping points: texts",
+    "pt": "Locais de expedição: textos"
+  }
+}

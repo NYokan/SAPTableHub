@@ -1,0 +1,13 @@
+{
+  "id": "TSKDT",
+  "area": "sales",
+  "contents": "text",
+  "component": "SD-BF-TX",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Clasificación fiscal de clientes: textos",
+    "en": "Customer tax classifications: texts",
+    "pt": "Classificação fiscal de clientes: textos"
+  }
+}

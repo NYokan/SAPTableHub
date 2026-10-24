@@ -1,0 +1,13 @@
+{
+  "id": "TVAGT",
+  "area": "sales",
+  "contents": "text",
+  "component": "SD-SLS-GF",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Motivos de rechazo: textos",
+    "en": "Rejection reasons: texts",
+    "pt": "Motivos de recusa: textos"
+  }
+}

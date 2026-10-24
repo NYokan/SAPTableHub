@@ -1,0 +1,12 @@
+{
+  "id": "TVTK",
+  "area": "sales",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Clases de transporte",
+    "en": "Shipment types",
+    "pt": "Tipos de transporte"
+  }
+}

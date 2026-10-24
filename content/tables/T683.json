@@ -1,0 +1,38 @@
+{
+  "id": "T683",
+  "area": "sales",
+  "contents": "config",
+  "component": "SD-BF-PR",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Esquemas de cálculo de precios",
+    "en": "Pricing procedures",
+    "pt": "Esquemas de cálculo de preços"
+  },
+  "purpose": {
+    "es": "Lista los esquemas de cálculo, la receta que dice qué precios, descuentos e impuestos se calculan en un documento y en qué orden. Los pasos de cada esquema están en T683S.",
+    "en": "Lists the pricing procedures, the recipe that says which prices, discounts and taxes are calculated in a document and in what order. The steps of each procedure are in T683S.",
+    "pt": "Lista os esquemas de cálculo, a receita que diz quais preços, descontos e impostos são calculados num documento e em que ordem. As etapas de cada esquema estão na T683S."
+  },
+  "synonyms": {
+    "es": [
+      "esquema de cálculo",
+      "procedimiento de precios",
+      "determinación de precios",
+      "esquema de precios"
+    ],
+    "en": [
+      "pricing procedure",
+      "pricing schema",
+      "price calculation",
+      "condition procedure"
+    ],
+    "pt": [
+      "esquema de cálculo",
+      "procedimento de preço",
+      "determinação de preço",
+      "esquema de preços"
+    ]
+  }
+}

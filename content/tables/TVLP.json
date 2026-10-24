@@ -1,0 +1,12 @@
+{
+  "id": "TVLP",
+  "area": "sales",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Tipos de posición de entrega",
+    "en": "Delivery item categories",
+    "pt": "Categorias de item de remessa"
+  }
+}

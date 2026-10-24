@@ -1,0 +1,13 @@
+{
+  "id": "TVM3",
+  "area": "sales",
+  "contents": "config",
+  "component": "SD-MD-MM",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Grupos de material 3",
+    "en": "Material groups 3",
+    "pt": "Grupos de material 3"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "TSKMT",
+  "area": "sales",
+  "contents": "text",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Clasificación fiscal de materiales: textos",
+    "en": "Material tax classifications: texts",
+    "pt": "Classificação fiscal de materiais: textos"
+  }
+}

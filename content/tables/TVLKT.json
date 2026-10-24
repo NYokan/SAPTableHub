@@ -1,0 +1,13 @@
+{
+  "id": "TVLKT",
+  "area": "sales",
+  "contents": "text",
+  "component": "LE-SHP-GF",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Clases de entrega: textos",
+    "en": "Delivery types: texts",
+    "pt": "Tipos de remessa: textos"
+  }
+}

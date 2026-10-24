@@ -1,0 +1,38 @@
+{
+  "id": "TVFS",
+  "area": "sales",
+  "contents": "config",
+  "component": "SD-BIL",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Motivos de bloqueo de factura",
+    "en": "Billing block reasons",
+    "pt": "Motivos de bloqueio de faturamento"
+  },
+  "purpose": {
+    "es": "Lista los motivos por los que se impide facturar un pedido o entrega (revisión de precios, crédito, falta documentación…). El código aparece en VBAK-FAKSK y en las posiciones.",
+    "en": "Lists the reasons why billing of an order or delivery is held (price review, credit, missing paperwork…). The code appears in VBAK-FAKSK and on items.",
+    "pt": "Lista os motivos pelos quais o faturamento de uma ordem ou remessa é impedido (revisão de preço, crédito, falta de documentos…). O código aparece em VBAK-FAKSK e nos itens."
+  },
+  "synonyms": {
+    "es": [
+      "bloqueo de factura",
+      "bloqueo de facturación",
+      "retención de factura",
+      "FAKSK"
+    ],
+    "en": [
+      "billing block",
+      "invoice block",
+      "billing hold",
+      "FAKSK"
+    ],
+    "pt": [
+      "bloqueio de faturamento",
+      "bloqueio de fatura",
+      "retenção de fatura",
+      "FAKSK"
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "A004",
+  "area": "sales",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Registros de condición: precio por material",
+    "en": "Condition records: price per material",
+    "pt": "Registros de condição: preço por material"
+  }
+}

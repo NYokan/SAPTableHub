@@ -1,0 +1,13 @@
+{
+  "id": "T188",
+  "area": "sales",
+  "contents": "config",
+  "component": "SD-MD-MM",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Grupos de precios de cliente",
+    "en": "Customer price groups",
+    "pt": "Grupos de preço de cliente"
+  }
+}

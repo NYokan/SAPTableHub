@@ -1,0 +1,12 @@
+{
+  "id": "VTTS",
+  "area": "sales",
+  "contents": "items",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Transportes: etapas",
+    "en": "Shipments: stages",
+    "pt": "Transportes: etapas"
+  }
+}

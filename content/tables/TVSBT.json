@@ -1,0 +1,13 @@
+{
+  "id": "TVSBT",
+  "area": "sales",
+  "contents": "text",
+  "component": "LO-MD-BP-CM",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Condiciones de expedición: textos",
+    "en": "Shipping conditions: texts",
+    "pt": "Condições de expedição: textos"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "VAKPA",
+  "area": "sales",
+  "contents": "doc",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Índice de pedidos por interlocutor",
+    "en": "Sales order index by partner",
+    "pt": "Índice de ordens por parceiro"
+  }
+}

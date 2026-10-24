@@ -1,0 +1,13 @@
+{
+  "id": "TPRIO",
+  "area": "sales",
+  "contents": "config",
+  "component": "LE-SHP-GF",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Prioridades de entrega",
+    "en": "Delivery priorities",
+    "pt": "Prioridades de remessa"
+  }
+}

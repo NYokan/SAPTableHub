@@ -1,0 +1,12 @@
+{
+  "id": "VBKA",
+  "area": "sales",
+  "contents": "header",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Actividades de ventas",
+    "en": "Sales activities",
+    "pt": "Atividades de vendas"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": "T685",
+  "area": "sales",
+  "contents": "config",
+  "component": "SD-MD-CM",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Clases de condición",
+    "en": "Condition types",
+    "pt": "Tipos de condição"
+  },
+  "purpose": {
+    "es": "Lista las clases de condición: cada tipo de precio, descuento, recargo, flete o impuesto que se puede aplicar (por ejemplo PR00 para el precio). Su código aparece en las condiciones de los documentos.",
+    "en": "Lists the condition types: each kind of price, discount, surcharge, freight or tax that can be applied (for example PR00 for price). Its code appears in document conditions.",
+    "pt": "Lista os tipos de condição: cada tipo de preço, desconto, acréscimo, frete ou imposto que pode ser aplicado (por exemplo PR00 para o preço). Seu código aparece nas condições dos documentos."
+  },
+  "synonyms": {
+    "es": [
+      "clase de condición",
+      "tipo de precio",
+      "tipo de descuento",
+      "PR00",
+      "KSCHL"
+    ],
+    "en": [
+      "condition type",
+      "price type",
+      "discount type",
+      "PR00",
+      "KSCHL"
+    ],
+    "pt": [
+      "tipo de condição",
+      "tipo de preço",
+      "tipo de desconto",
+      "PR00",
+      "KSCHL"
+    ]
+  }
+}

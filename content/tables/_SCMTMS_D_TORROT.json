@@ -1,0 +1,11 @@
+{
+  "id": "/SCMTMS/D_TORROT",
+  "area": "sales",
+  "contents": "header",
+  "s4only": true,
+  "title": {
+    "es": "Órdenes de flete (cabecera)",
+    "en": "Freight orders (header)",
+    "pt": "Ordens de frete (cabeçalho)"
+  }
+}

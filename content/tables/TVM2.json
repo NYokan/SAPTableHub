@@ -1,0 +1,13 @@
+{
+  "id": "TVM2",
+  "area": "sales",
+  "contents": "config",
+  "component": "SD-MD-MM",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Grupos de material 2",
+    "en": "Material groups 2",
+    "pt": "Grupos de material 2"
+  }
+}

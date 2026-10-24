@@ -1,0 +1,12 @@
+{
+  "id": "T173",
+  "area": "sales",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Clases de expedición",
+    "en": "Shipping types",
+    "pt": "Tipos de expedição"
+  }
+}

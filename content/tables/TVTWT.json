@@ -1,0 +1,13 @@
+{
+  "id": "TVTWT",
+  "area": "sales",
+  "contents": "text",
+  "component": "SD-CRF-ORG",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Canales de distribución: textos",
+    "en": "Distribution channels: texts",
+    "pt": "Canais de distribuição: textos"
+  }
+}

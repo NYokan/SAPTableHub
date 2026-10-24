@@ -1,0 +1,12 @@
+{
+  "id": "TVSTZ",
+  "area": "sales",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Determinación del puesto de expedición",
+    "en": "Shipping point determination",
+    "pt": "Determinação do local de expedição"
+  }
+}

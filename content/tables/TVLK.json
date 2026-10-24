@@ -1,0 +1,35 @@
+{
+  "id": "TVLK",
+  "area": "sales",
+  "contents": "config",
+  "component": "LE-SHP-GF",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Clases de entrega",
+    "en": "Delivery types",
+    "pt": "Tipos de remessa"
+  },
+  "purpose": {
+    "es": "Lista las clases de entrega (entrega normal, devolución, traslado…) con sus reglas. El código aparece en cada entrega (LIKP-LFART).",
+    "en": "Lists the delivery types (standard delivery, return, stock transfer…) with their rules. The code appears on every delivery (LIKP-LFART).",
+    "pt": "Lista os tipos de remessa (remessa normal, devolução, transferência…) com suas regras. O código aparece em cada remessa (LIKP-LFART)."
+  },
+  "synonyms": {
+    "es": [
+      "clase de entrega",
+      "tipo de entrega",
+      "tipo de despacho"
+    ],
+    "en": [
+      "delivery type",
+      "outbound delivery type",
+      "shipping document type"
+    ],
+    "pt": [
+      "tipo de remessa",
+      "tipo de entrega",
+      "tipo de expedição"
+    ]
+  }
+}

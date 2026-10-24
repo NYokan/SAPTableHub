@@ -1,0 +1,12 @@
+{
+  "id": "TVRO",
+  "area": "sales",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Rutas",
+    "en": "Routes",
+    "pt": "Itinerários"
+  }
+}

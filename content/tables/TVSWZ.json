@@ -1,0 +1,12 @@
+{
+  "id": "TVSWZ",
+  "area": "sales",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Puestos de expedición por centro",
+    "en": "Shipping points per plant",
+    "pt": "Locais de expedição por centro"
+  }
+}

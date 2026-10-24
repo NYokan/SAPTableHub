@@ -1,0 +1,13 @@
+{
+  "id": "TSTL",
+  "area": "sales",
+  "contents": "config",
+  "component": "SD-BF-TX",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Impuestos por país",
+    "en": "Taxes per country",
+    "pt": "Impostos por país"
+  }
+}

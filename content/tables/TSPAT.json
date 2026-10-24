@@ -1,0 +1,13 @@
+{
+  "id": "TSPAT",
+  "area": "sales",
+  "contents": "text",
+  "component": "SD-CRF-ORG",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Sectores: textos",
+    "en": "Divisions: texts",
+    "pt": "Setores de atividade: textos"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "TVKWZ",
+  "area": "sales",
+  "contents": "config",
+  "component": "SD-BF",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Centros permitidos por organización de ventas y canal",
+    "en": "Allowed plants per sales organization and channel",
+    "pt": "Centros permitidos por organização de vendas e canal"
+  }
+}

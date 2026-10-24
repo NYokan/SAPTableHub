@@ -1,0 +1,13 @@
+{
+  "id": "T189",
+  "area": "sales",
+  "contents": "config",
+  "component": "SD-MD-MM",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Tipos de lista de precios",
+    "en": "Price list types",
+    "pt": "Tipos de lista de preços"
+  }
+}

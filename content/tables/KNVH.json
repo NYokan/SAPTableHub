@@ -1,0 +1,12 @@
+{
+  "id": "KNVH",
+  "area": "sales",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Jerarquías de clientes",
+    "en": "Customer hierarchies",
+    "pt": "Hierarquias de clientes"
+  }
+}

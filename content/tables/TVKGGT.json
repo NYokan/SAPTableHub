@@ -1,0 +1,13 @@
+{
+  "id": "TVKGGT",
+  "area": "sales",
+  "contents": "text",
+  "component": "LO-MD-BP-CM",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Grupos de condiciones de cliente: textos",
+    "en": "Customer condition groups: texts",
+    "pt": "Grupos de condições de cliente: textos"
+  }
+}

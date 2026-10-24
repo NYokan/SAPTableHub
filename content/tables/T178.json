@@ -1,0 +1,13 @@
+{
+  "id": "T178",
+  "area": "sales",
+  "contents": "config",
+  "component": "SD-MD-MM",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Grupos de precios de material",
+    "en": "Material pricing groups",
+    "pt": "Grupos de preço de material"
+  }
+}

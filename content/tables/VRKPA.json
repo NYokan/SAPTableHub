@@ -1,0 +1,12 @@
+{
+  "id": "VRKPA",
+  "area": "sales",
+  "contents": "doc",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Índice de facturas por interlocutor",
+    "en": "Billing index by partner",
+    "pt": "Índice de faturas por parceiro"
+  }
+}

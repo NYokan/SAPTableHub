@@ -1,0 +1,12 @@
+{
+  "id": "VLKPA",
+  "area": "sales",
+  "contents": "doc",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Índice de entregas por interlocutor",
+    "en": "Delivery index by partner",
+    "pt": "Índice de remessas por parceiro"
+  }
+}

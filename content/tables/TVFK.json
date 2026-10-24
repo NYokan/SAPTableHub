@@ -1,0 +1,41 @@
+{
+  "id": "TVFK",
+  "area": "sales",
+  "contents": "config",
+  "component": "SD-BIL-GF",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Clases de factura",
+    "en": "Billing types",
+    "pt": "Tipos de documento de faturamento"
+  },
+  "purpose": {
+    "es": "Lista las clases de factura (factura, nota de crédito, nota de débito, anulación…) con sus reglas. El código aparece en cada factura (VBRK-FKART).",
+    "en": "Lists the billing types (invoice, credit memo, debit memo, cancellation…) with their rules. The code appears on every billing document (VBRK-FKART).",
+    "pt": "Lista os tipos de faturamento (fatura, nota de crédito, nota de débito, estorno…) com suas regras. O código aparece em cada fatura (VBRK-FKART)."
+  },
+  "synonyms": {
+    "es": [
+      "clase de factura",
+      "tipo de factura",
+      "nota de crédito",
+      "nota de débito",
+      "anulación"
+    ],
+    "en": [
+      "billing type",
+      "invoice type",
+      "credit memo",
+      "debit memo",
+      "cancellation"
+    ],
+    "pt": [
+      "tipo de fatura",
+      "tipo de faturamento",
+      "nota de crédito",
+      "nota de débito",
+      "estorno"
+    ]
+  }
+}

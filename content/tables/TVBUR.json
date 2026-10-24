@@ -1,0 +1,38 @@
+{
+  "id": "TVBUR",
+  "area": "sales",
+  "contents": "config",
+  "component": "SD-SLS",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Oficinas de ventas",
+    "en": "Sales offices",
+    "pt": "Escritórios de vendas"
+  },
+  "purpose": {
+    "es": "Lista las oficinas de ventas, las sucursales o delegaciones comerciales de la empresa, con su dirección. El código aparece en clientes y pedidos (VKBUR).",
+    "en": "Lists the sales offices, the company's branches or regional sales offices, with their address. The code appears on customers and orders (VKBUR).",
+    "pt": "Lista os escritórios de vendas, as filiais ou escritórios regionais da empresa, com seu endereço. O código aparece em clientes e ordens (VKBUR)."
+  },
+  "synonyms": {
+    "es": [
+      "oficina de ventas",
+      "sucursal",
+      "delegación comercial",
+      "VKBUR"
+    ],
+    "en": [
+      "sales office",
+      "branch office",
+      "regional office",
+      "VKBUR"
+    ],
+    "pt": [
+      "escritório de vendas",
+      "filial",
+      "escritório regional",
+      "VKBUR"
+    ]
+  }
+}

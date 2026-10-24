@@ -1,0 +1,38 @@
+{
+  "id": "TVTW",
+  "area": "sales",
+  "contents": "config",
+  "component": "SD-CRF-ORG",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Canales de distribución",
+    "en": "Distribution channels",
+    "pt": "Canais de distribuição"
+  },
+  "purpose": {
+    "es": "Lista los canales de distribución, es decir, las vías por las que se vende: mayorista, minorista, exportación, internet. El código aparece en pedidos y datos de ventas de clientes.",
+    "en": "Lists the distribution channels, that is, the ways products are sold: wholesale, retail, export, online. The code appears on orders and customer sales data.",
+    "pt": "Lista os canais de distribuição, ou seja, as vias pelas quais se vende: atacado, varejo, exportação, internet. O código aparece nas ordens e nos dados de vendas de clientes."
+  },
+  "synonyms": {
+    "es": [
+      "canal de distribución",
+      "canal de venta",
+      "vía de venta",
+      "VTWEG"
+    ],
+    "en": [
+      "distribution channel",
+      "sales channel",
+      "channel",
+      "VTWEG"
+    ],
+    "pt": [
+      "canal de distribuição",
+      "canal de venda",
+      "via de venda",
+      "VTWEG"
+    ]
+  }
+}

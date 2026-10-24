@@ -1,0 +1,13 @@
+{
+  "id": "TVGRT",
+  "area": "sales",
+  "contents": "text",
+  "component": "SD-CRF-ORG",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Grupos de vendedores: textos",
+    "en": "Sales groups: texts",
+    "pt": "Equipes de vendas: textos"
+  }
+}

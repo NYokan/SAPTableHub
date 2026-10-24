@@ -1,0 +1,38 @@
+{
+  "id": "TVKGR",
+  "area": "sales",
+  "contents": "config",
+  "component": "SD-MD-MM",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Grupos de vendedores",
+    "en": "Sales groups",
+    "pt": "Equipes de vendas"
+  },
+  "purpose": {
+    "es": "Lista los grupos de vendedores, los equipos comerciales dentro de una oficina de ventas. El código aparece en clientes y pedidos (VKGRP) y sirve para analizar ventas por equipo.",
+    "en": "Lists the sales groups, the sales teams within a sales office. The code appears on customers and orders (VKGRP) and is used to analyze sales by team.",
+    "pt": "Lista as equipes de vendas dentro de um escritório de vendas. O código aparece em clientes e ordens (VKGRP) e serve para analisar vendas por equipe."
+  },
+  "synonyms": {
+    "es": [
+      "grupo de vendedores",
+      "equipo de ventas",
+      "equipo comercial",
+      "VKGRP"
+    ],
+    "en": [
+      "sales group",
+      "sales team",
+      "sales unit",
+      "VKGRP"
+    ],
+    "pt": [
+      "equipe de vendas",
+      "grupo de vendedores",
+      "time comercial",
+      "VKGRP"
+    ]
+  }
+}

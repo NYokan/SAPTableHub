@@ -1,0 +1,35 @@
+{
+  "id": "TVTA",
+  "area": "sales",
+  "contents": "config",
+  "component": "SD-MD-MM",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Áreas de ventas",
+    "en": "Sales areas",
+    "pt": "Áreas de vendas"
+  },
+  "purpose": {
+    "es": "Lista las combinaciones válidas de organización de ventas, canal de distribución y sector (áreas de ventas). Solo en estas combinaciones se pueden crear pedidos y datos de clientes.",
+    "en": "Lists the valid combinations of sales organization, distribution channel and division (sales areas). Orders and customer data can only be created in these combinations.",
+    "pt": "Lista as combinações válidas de organização de vendas, canal de distribuição e setor (áreas de vendas). Só nessas combinações se podem criar ordens e dados de clientes."
+  },
+  "synonyms": {
+    "es": [
+      "área de ventas",
+      "estructura de ventas",
+      "organización comercial"
+    ],
+    "en": [
+      "sales area",
+      "sales structure",
+      "sales organization structure"
+    ],
+    "pt": [
+      "área de vendas",
+      "estrutura de vendas",
+      "organização comercial"
+    ]
+  }
+}

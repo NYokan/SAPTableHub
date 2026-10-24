@@ -1,0 +1,13 @@
+{
+  "id": "T683S",
+  "area": "sales",
+  "contents": "config",
+  "component": "SD-BF-PR",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Esquemas de cálculo: pasos",
+    "en": "Pricing procedures: steps",
+    "pt": "Esquemas de cálculo: etapas"
+  }
+}

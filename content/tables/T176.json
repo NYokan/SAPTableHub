@@ -1,0 +1,12 @@
+{
+  "id": "T176",
+  "area": "sales",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Clases de pedido del cliente",
+    "en": "Customer purchase order types",
+    "pt": "Tipos de pedido do cliente"
+  }
+}

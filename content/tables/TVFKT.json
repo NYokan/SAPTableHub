@@ -1,0 +1,13 @@
+{
+  "id": "TVFKT",
+  "area": "sales",
+  "contents": "text",
+  "component": "SD-BIL-GF",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Clases de factura: textos",
+    "en": "Billing types: texts",
+    "pt": "Tipos de documento de faturamento: textos"
+  }
+}

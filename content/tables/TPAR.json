@@ -1,0 +1,38 @@
+{
+  "id": "TPAR",
+  "area": "sales",
+  "contents": "config",
+  "component": "SD-MD-MM",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Funciones de interlocutor",
+    "en": "Partner functions",
+    "pt": "Funções de parceiro"
+  },
+  "purpose": {
+    "es": "Lista las funciones de interlocutor (solicitante, destinatario, responsable de pago, vendedor…) que se asignan a clientes y documentos. El código aparece en KNVP y VBPA.",
+    "en": "Lists the partner functions (sold-to, ship-to, payer, sales rep…) assigned to customers and documents. The code appears in KNVP and VBPA.",
+    "pt": "Lista as funções de parceiro (emissor, recebedor, pagador, vendedor…) atribuídas a clientes e documentos. O código aparece na KNVP e na VBPA."
+  },
+  "synonyms": {
+    "es": [
+      "función de interlocutor",
+      "rol del interlocutor",
+      "tipo de interlocutor",
+      "PARVW"
+    ],
+    "en": [
+      "partner function",
+      "partner role",
+      "partner type",
+      "PARVW"
+    ],
+    "pt": [
+      "função de parceiro",
+      "papel do parceiro",
+      "tipo de parceiro",
+      "PARVW"
+    ]
+  }
+}

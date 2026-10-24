@@ -1,0 +1,13 @@
+{
+  "id": "KNVI",
+  "area": "sales",
+  "contents": "master",
+  "component": "LO-MD-BP-CM",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Clientes: indicadores de impuestos",
+    "en": "Customers: tax indicators",
+    "pt": "Clientes: classificação fiscal"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "id": "KNVP",
+  "area": "sales",
+  "contents": "master",
+  "component": "LO-MD-BP-CM",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Clientes: funciones de interlocutor",
+    "en": "Customers: partner functions",
+    "pt": "Clientes: funções de parceiro"
+  },
+  "purpose": {
+    "es": "Indica, para cada cliente y área de ventas, quiénes actúan en cada función: a quién se factura, quién paga, a dónde se envía y qué vendedor lo atiende. Es la base para proponer los interlocutores en los pedidos.",
+    "en": "For each customer and sales area, it says who acts in each role: who is billed, who pays, where goods are shipped and which sales rep looks after it. It is the basis for proposing partners in orders.",
+    "pt": "Indica, para cada cliente e área de vendas, quem atua em cada função: a quem se fatura, quem paga, para onde se envia e qual vendedor o atende. É a base para propor os parceiros nas ordens."
+  },
+  "synonyms": {
+    "es": [
+      "destinatario de mercancía",
+      "responsable de pago",
+      "destinatario de factura",
+      "solicitante",
+      "vendedor del cliente",
+      "interlocutor"
+    ],
+    "en": [
+      "ship-to party",
+      "payer",
+      "bill-to party",
+      "sold-to party",
+      "sales rep",
+      "business partner role"
+    ],
+    "pt": [
+      "recebedor da mercadoria",
+      "pagador",
+      "recebedor da fatura",
+      "emissor da ordem",
+      "vendedor do cliente",
+      "parceiro"
+    ]
+  }
+}

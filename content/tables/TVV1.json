@@ -1,0 +1,13 @@
+{
+  "id": "TVV1",
+  "area": "sales",
+  "contents": "config",
+  "component": "SD-BF",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Grupos de clientes 1",
+    "en": "Customer groups 1",
+    "pt": "Grupos de clientes 1"
+  }
+}

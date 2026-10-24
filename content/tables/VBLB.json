@@ -1,0 +1,12 @@
+{
+  "id": "VBLB",
+  "area": "sales",
+  "contents": "doc",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Datos de llamadas de entrega de planes de entrega",
+    "en": "Scheduling agreement release data",
+    "pt": "Dados de chamadas de programas de remessa"
+  }
+}

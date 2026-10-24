@@ -1,0 +1,38 @@
+{
+  "id": "TVAK",
+  "area": "sales",
+  "contents": "config",
+  "component": "SD-SLS-GF",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Clases de documento de ventas",
+    "en": "Sales document types",
+    "pt": "Tipos de documento de vendas"
+  },
+  "purpose": {
+    "es": "Lista las clases de documento de ventas (pedido normal, cotización, devolución, contrato…) con sus reglas de funcionamiento. El código aparece en cada pedido (VBAK-AUART).",
+    "en": "Lists the sales document types (standard order, quotation, return, contract…) with their control settings. The code appears on every order (VBAK-AUART).",
+    "pt": "Lista os tipos de documento de vendas (ordem normal, cotação, devolução, contrato…) com suas regras de funcionamento. O código aparece em cada ordem (VBAK-AUART)."
+  },
+  "synonyms": {
+    "es": [
+      "clase de pedido",
+      "tipo de pedido",
+      "clase de documento de ventas",
+      "tipo de orden"
+    ],
+    "en": [
+      "order type",
+      "sales document type",
+      "document type",
+      "sales order type"
+    ],
+    "pt": [
+      "tipo de ordem",
+      "tipo de documento de vendas",
+      "tipo de pedido",
+      "tipo de documento"
+    ]
+  }
+}

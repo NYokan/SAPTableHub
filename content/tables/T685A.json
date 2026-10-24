@@ -1,0 +1,13 @@
+{
+  "id": "T685A",
+  "area": "sales",
+  "contents": "config",
+  "component": "SD-MD-CM",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Clases de condición: datos de precios",
+    "en": "Condition types: pricing data",
+    "pt": "Tipos de condição: dados de preço"
+  }
+}

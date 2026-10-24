@@ -1,0 +1,12 @@
+{
+  "id": "VFKK",
+  "area": "sales",
+  "contents": "header",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Costes de transporte (cabecera)",
+    "en": "Shipment costs (header)",
+    "pt": "Custos de frete (cabeçalho)"
+  }
+}

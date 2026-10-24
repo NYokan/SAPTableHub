@@ -1,0 +1,37 @@
+{
+  "id": "KONA",
+  "area": "sales",
+  "contents": "header",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Acuerdos de rappel",
+    "en": "Rebate agreements",
+    "pt": "Acordos de bônus"
+  },
+  "purpose": {
+    "es": "Una fila por cada acuerdo de rappel: el descuento posterior que se devuelve a un cliente según lo que compre en un período, con su clase, beneficiario y validez.",
+    "en": "One row per rebate agreement: the after-the-fact discount paid back to a customer based on what they buy over a period, with its type, recipient and validity.",
+    "pt": "Uma linha por acordo de bônus: o desconto posterior devolvido a um cliente conforme o que ele compra num período, com seu tipo, beneficiário e validade."
+  },
+  "synonyms": {
+    "es": [
+      "rappel",
+      "acuerdo de rappel",
+      "bonificación por volumen",
+      "descuento posterior"
+    ],
+    "en": [
+      "rebate",
+      "rebate agreement",
+      "volume bonus",
+      "retrospective discount"
+    ],
+    "pt": [
+      "bônus",
+      "acordo de bônus",
+      "bonificação por volume",
+      "desconto posterior"
+    ]
+  }
+}

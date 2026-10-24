@@ -1,0 +1,13 @@
+{
+  "id": "TVAUT",
+  "area": "sales",
+  "contents": "text",
+  "component": "SD-SLS-GF",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Motivos de pedido: textos",
+    "en": "Order reasons: texts",
+    "pt": "Motivos da ordem: textos"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "VTSP",
+  "area": "sales",
+  "contents": "items",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Transportes: asignación de etapas a posiciones",
+    "en": "Shipments: stage-to-item assignment",
+    "pt": "Transportes: atribuição de etapas a itens"
+  }
+}

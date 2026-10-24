@@ -1,0 +1,12 @@
+{
+  "id": "TPTM",
+  "area": "sales",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Grupos de tipos de posición",
+    "en": "Item category groups",
+    "pt": "Grupos de categorias de item"
+  }
+}

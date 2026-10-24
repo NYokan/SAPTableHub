@@ -1,0 +1,13 @@
+{
+  "id": "KONM",
+  "area": "sales",
+  "contents": "items",
+  "component": "SD-MD-CM",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Condiciones: escalas por cantidad",
+    "en": "Conditions: quantity scales",
+    "pt": "Condições: escalas por quantidade"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": "TVAU",
+  "area": "sales",
+  "contents": "config",
+  "component": "SD-SLS-GF",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Motivos de pedido",
+    "en": "Order reasons",
+    "pt": "Motivos da ordem"
+  },
+  "purpose": {
+    "es": "Lista los motivos de pedido, que explican por qué se creó un pedido, una devolución o un abono (reclamación, muestra gratuita, error de precio…). El código aparece en VBAK-AUGRU.",
+    "en": "Lists the order reasons, which explain why an order, return or credit was created (complaint, free sample, pricing error…). The code appears in VBAK-AUGRU.",
+    "pt": "Lista os motivos da ordem, que explicam por que uma ordem, devolução ou crédito foi criado (reclamação, amostra grátis, erro de preço…). O código aparece em VBAK-AUGRU."
+  },
+  "synonyms": {
+    "es": [
+      "motivo de pedido",
+      "motivo de devolución",
+      "motivo de abono",
+      "reclamación",
+      "AUGRU"
+    ],
+    "en": [
+      "order reason",
+      "return reason",
+      "credit reason",
+      "complaint",
+      "AUGRU"
+    ],
+    "pt": [
+      "motivo da ordem",
+      "motivo de devolução",
+      "motivo de crédito",
+      "reclamação",
+      "AUGRU"
+    ]
+  }
+}

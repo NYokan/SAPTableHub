@@ -1,0 +1,12 @@
+{
+  "id": "T173T",
+  "area": "sales",
+  "contents": "text",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Clases de expedición: textos",
+    "en": "Shipping types: texts",
+    "pt": "Tipos de expedição: textos"
+  }
+}

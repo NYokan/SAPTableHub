@@ -1,0 +1,38 @@
+{
+  "id": "TSPA",
+  "area": "sales",
+  "contents": "config",
+  "component": "SD-CRF-ORG",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Sectores",
+    "en": "Divisions",
+    "pt": "Setores de atividade"
+  },
+  "purpose": {
+    "es": "Lista los sectores, que agrupan productos o líneas de negocio para la venta. Junto con la organización de ventas y el canal forma el área de ventas.",
+    "en": "Lists the divisions, which group products or business lines for selling. Together with the sales organization and channel it forms the sales area.",
+    "pt": "Lista os setores de atividade, que agrupam produtos ou linhas de negócio para venda. Junto com a organização de vendas e o canal forma a área de vendas."
+  },
+  "synonyms": {
+    "es": [
+      "sector",
+      "línea de producto",
+      "división",
+      "SPART"
+    ],
+    "en": [
+      "division",
+      "product line",
+      "business line",
+      "SPART"
+    ],
+    "pt": [
+      "setor de atividade",
+      "linha de produto",
+      "divisão",
+      "SPART"
+    ]
+  }
+}

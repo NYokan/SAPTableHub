@@ -1,0 +1,12 @@
+{
+  "id": "VEPVG",
+  "area": "sales",
+  "contents": "doc",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Índice de documentos pendientes de entregar",
+    "en": "Delivery due list index",
+    "pt": "Índice de documentos a remeter"
+  }
+}

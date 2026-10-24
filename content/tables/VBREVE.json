@@ -1,0 +1,12 @@
+{
+  "id": "VBREVE",
+  "area": "sales",
+  "contents": "doc",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Reconocimiento de ingresos: líneas de ingreso",
+    "en": "Revenue recognition: revenue lines",
+    "pt": "Reconhecimento de receita: linhas de receita"
+  }
+}

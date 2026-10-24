@@ -1,0 +1,41 @@
+{
+  "id": "VEDA",
+  "area": "sales",
+  "contents": "doc",
+  "component": "SD-SLS",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Contratos de venta: datos de vigencia",
+    "en": "Sales contracts: validity data",
+    "pt": "Contratos de venda: dados de vigência"
+  },
+  "purpose": {
+    "es": "Guarda los datos de vigencia de los contratos de venta: fecha de inicio y fin, plazos de aviso y reglas de renovación. Hay una fila por contrato y otra por cada posición con datos propios.",
+    "en": "Holds the validity data of sales contracts: start and end dates, notice periods and renewal rules. There is one row per contract and another for each item with its own data.",
+    "pt": "Guarda os dados de vigência dos contratos de venda: datas de início e fim, prazos de aviso e regras de renovação. Há uma linha por contrato e outra por item com dados próprios."
+  },
+  "synonyms": {
+    "es": [
+      "contrato",
+      "vigencia del contrato",
+      "fecha de fin de contrato",
+      "renovación",
+      "contrato de servicio"
+    ],
+    "en": [
+      "contract",
+      "contract validity",
+      "contract end date",
+      "renewal",
+      "service contract"
+    ],
+    "pt": [
+      "contrato",
+      "vigência do contrato",
+      "data de fim do contrato",
+      "renovação",
+      "contrato de serviço"
+    ]
+  }
+}

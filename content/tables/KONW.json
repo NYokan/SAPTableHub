@@ -1,0 +1,12 @@
+{
+  "id": "KONW",
+  "area": "sales",
+  "contents": "items",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Condiciones: escalas por valor",
+    "en": "Conditions: value scales",
+    "pt": "Condições: escalas por valor"
+  }
+}

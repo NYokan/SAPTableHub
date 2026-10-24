@@ -1,0 +1,13 @@
+{
+  "id": "TVKBT",
+  "area": "sales",
+  "contents": "text",
+  "component": "SD-CRF-ORG",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Oficinas de ventas: textos",
+    "en": "Sales offices: texts",
+    "pt": "Escritórios de vendas: textos"
+  }
+}

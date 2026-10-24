@@ -1,0 +1,13 @@
+{
+  "id": "TVM1",
+  "area": "sales",
+  "contents": "config",
+  "component": "SD-MD-MM",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Grupos de material 1",
+    "en": "Material groups 1",
+    "pt": "Grupos de material 1"
+  }
+}

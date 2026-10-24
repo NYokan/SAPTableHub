@@ -1,0 +1,12 @@
+{
+  "id": "TVKMT",
+  "area": "sales",
+  "contents": "text",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Grupos de imputación de material: textos",
+    "en": "Material account assignment groups: texts",
+    "pt": "Grupos de classificação contábil de material: textos"
+  }
+}

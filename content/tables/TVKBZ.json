@@ -1,0 +1,13 @@
+{
+  "id": "TVKBZ",
+  "area": "sales",
+  "contents": "config",
+  "component": "SD-CRF-ORG",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Oficinas de ventas por área de ventas",
+    "en": "Sales offices per sales area",
+    "pt": "Escritórios de vendas por área de vendas"
+  }
+}

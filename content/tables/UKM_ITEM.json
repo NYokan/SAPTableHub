@@ -1,0 +1,12 @@
+{
+  "id": "UKM_ITEM",
+  "area": "sales",
+  "contents": "doc",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Gestión de crédito: compromisos de crédito",
+    "en": "Credit management: credit exposure items",
+    "pt": "Gestão de crédito: compromissos de crédito"
+  }
+}

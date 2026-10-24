@@ -1,0 +1,12 @@
+{
+  "id": "TVKM",
+  "area": "sales",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Grupos de imputación de material",
+    "en": "Material account assignment groups",
+    "pt": "Grupos de classificação contábil de material"
+  }
+}

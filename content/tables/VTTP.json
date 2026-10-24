@@ -1,0 +1,37 @@
+{
+  "id": "VTTP",
+  "area": "sales",
+  "contents": "items",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Transportes (posiciones)",
+    "en": "Shipments (items)",
+    "pt": "Transportes (itens)"
+  },
+  "purpose": {
+    "es": "Indica qué entregas van en cada transporte. Hay una fila por cada entrega asignada, que se une con LIKP por el número de entrega.",
+    "en": "Shows which deliveries travel in each shipment. There is one row per assigned delivery, which joins with LIKP by delivery number.",
+    "pt": "Indica quais remessas vão em cada transporte. Há uma linha por remessa atribuída, que se liga à LIKP pelo número da remessa."
+  },
+  "synonyms": {
+    "es": [
+      "entregas del transporte",
+      "carga del camión",
+      "asignación de entregas",
+      "posición de transporte"
+    ],
+    "en": [
+      "shipment deliveries",
+      "truck load",
+      "delivery assignment",
+      "shipment item"
+    ],
+    "pt": [
+      "remessas do transporte",
+      "carga do caminhão",
+      "atribuição de remessas",
+      "item de transporte"
+    ]
+  }
+}

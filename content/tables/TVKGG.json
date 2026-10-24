@@ -1,0 +1,13 @@
+{
+  "id": "TVKGG",
+  "area": "sales",
+  "contents": "config",
+  "component": "LO-MD-BP-CM",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Grupos de condiciones de cliente",
+    "en": "Customer condition groups",
+    "pt": "Grupos de condições de cliente"
+  }
+}

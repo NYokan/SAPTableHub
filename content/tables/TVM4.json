@@ -1,0 +1,13 @@
+{
+  "id": "TVM4",
+  "area": "sales",
+  "contents": "config",
+  "component": "SD-MD-MM",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Grupos de material 4",
+    "en": "Material groups 4",
+    "pt": "Grupos de material 4"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "TVKOV",
+  "area": "sales",
+  "contents": "config",
+  "component": "SD-MD-MM",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Canales de distribución por organización de ventas",
+    "en": "Distribution channels per sales organization",
+    "pt": "Canais de distribuição por organização de vendas"
+  }
+}

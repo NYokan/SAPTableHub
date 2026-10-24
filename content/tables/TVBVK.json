@@ -1,0 +1,13 @@
+{
+  "id": "TVBVK",
+  "area": "sales",
+  "contents": "config",
+  "component": "SD-CRF-ORG",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Grupos de vendedores por oficina de ventas",
+    "en": "Sales groups per sales office",
+    "pt": "Equipes de vendas por escritório de vendas"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "TVM1T",
+  "area": "sales",
+  "contents": "text",
+  "component": "SD-MD-MM",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Grupos de material 1: textos",
+    "en": "Material groups 1: texts",
+    "pt": "Grupos de material 1: textos"
+  }
+}

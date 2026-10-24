@@ -1,0 +1,12 @@
+{
+  "id": "KNVS",
+  "area": "sales",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Clientes: datos de expedición",
+    "en": "Customers: shipping data",
+    "pt": "Clientes: dados de expedição"
+  }
+}

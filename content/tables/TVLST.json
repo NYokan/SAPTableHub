@@ -1,0 +1,13 @@
+{
+  "id": "TVLST",
+  "area": "sales",
+  "contents": "text",
+  "component": "LE-SHP-GF",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Motivos de bloqueo de entrega: textos",
+    "en": "Delivery block reasons: texts",
+    "pt": "Motivos de bloqueio de remessa: textos"
+  }
+}

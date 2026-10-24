@@ -1,0 +1,13 @@
+{
+  "id": "TVV3",
+  "area": "sales",
+  "contents": "config",
+  "component": "SD-MD-MM",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Grupos de clientes 3",
+    "en": "Customer groups 3",
+    "pt": "Grupos de clientes 3"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "TVLPT",
+  "area": "sales",
+  "contents": "text",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Tipos de posición de entrega: textos",
+    "en": "Delivery item categories: texts",
+    "pt": "Categorias de item de remessa: textos"
+  }
+}

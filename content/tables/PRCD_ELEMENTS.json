@@ -1,0 +1,45 @@
+{
+  "id": "PRCD_ELEMENTS",
+  "area": "sales",
+  "contents": "doc",
+  "component": "SD-BF-PR",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "s4only": true,
+  "title": {
+    "es": "Condiciones de precio de documentos",
+    "en": "Pricing conditions of documents",
+    "pt": "Condições de preço de documentos"
+  },
+  "purpose": {
+    "es": "En S/4HANA guarda los precios, descuentos, fletes e impuestos calculados en cada pedido y factura. Sustituye a KONV de ECC: hay una fila por cada condición de cada posición del documento.",
+    "en": "In S/4HANA it holds the prices, discounts, freight and taxes calculated in each order and invoice. It replaces KONV from ECC: one row per condition of each document item.",
+    "pt": "No S/4HANA guarda os preços, descontos, fretes e impostos calculados em cada ordem e fatura. Substitui a KONV do ECC: uma linha por condição de cada item do documento."
+  },
+  "synonyms": {
+    "es": [
+      "condiciones del pedido",
+      "precio del pedido",
+      "descuento aplicado",
+      "impuesto",
+      "flete",
+      "cálculo de precios"
+    ],
+    "en": [
+      "document conditions",
+      "order price",
+      "applied discount",
+      "tax",
+      "freight",
+      "pricing result"
+    ],
+    "pt": [
+      "condições do documento",
+      "preço da ordem",
+      "desconto aplicado",
+      "imposto",
+      "frete",
+      "cálculo de preço"
+    ]
+  }
+}

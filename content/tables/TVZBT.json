@@ -1,0 +1,13 @@
+{
+  "id": "TVZBT",
+  "area": "sales",
+  "contents": "text",
+  "component": "SD-MD-MM",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Condiciones de pago de clientes: textos",
+    "en": "Customer payment terms: texts",
+    "pt": "Condições de pagamento de clientes: textos"
+  }
+}

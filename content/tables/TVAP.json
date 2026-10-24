@@ -1,0 +1,38 @@
+{
+  "id": "TVAP",
+  "area": "sales",
+  "contents": "config",
+  "component": "SD-SLS-GF",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Tipos de posición de ventas",
+    "en": "Sales item categories",
+    "pt": "Categorias de item de vendas"
+  },
+  "purpose": {
+    "es": "Lista los tipos de posición de ventas, que deciden cómo se comporta cada línea del pedido: si se entrega, si se factura, si tiene precio o si es gratuita.",
+    "en": "Lists the sales item categories, which decide how each order line behaves: whether it is delivered, billed, priced or free of charge.",
+    "pt": "Lista as categorias de item de vendas, que decidem como se comporta cada linha da ordem: se é remetida, faturada, se tem preço ou se é gratuita."
+  },
+  "synonyms": {
+    "es": [
+      "tipo de posición",
+      "categoría de posición",
+      "tipo de línea",
+      "posición gratuita"
+    ],
+    "en": [
+      "item category",
+      "line type",
+      "item type",
+      "free-of-charge item"
+    ],
+    "pt": [
+      "categoria de item",
+      "tipo de item",
+      "tipo de linha",
+      "item gratuito"
+    ]
+  }
+}

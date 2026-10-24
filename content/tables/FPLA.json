@@ -1,0 +1,40 @@
+{
+  "id": "FPLA",
+  "area": "sales",
+  "contents": "header",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Planes de facturación (cabecera)",
+    "en": "Billing plans (header)",
+    "pt": "Planos de faturamento (cabeçalho)"
+  },
+  "purpose": {
+    "es": "Una fila por cada plan de facturación, que reparte la facturación de un pedido o contrato en varias fechas (cuotas, hitos o facturación periódica). Las fechas e importes de cada factura prevista están en FPLT.",
+    "en": "One row per billing plan, which spreads the billing of an order or contract over several dates (installments, milestones or periodic billing). The dates and amounts of each planned invoice are in FPLT.",
+    "pt": "Uma linha por plano de faturamento, que distribui o faturamento de uma ordem ou contrato em várias datas (parcelas, marcos ou faturamento periódico). As datas e valores de cada fatura prevista estão na FPLT."
+  },
+  "synonyms": {
+    "es": [
+      "plan de facturación",
+      "facturación periódica",
+      "facturación por hitos",
+      "cuotas",
+      "facturación parcial"
+    ],
+    "en": [
+      "billing plan",
+      "periodic billing",
+      "milestone billing",
+      "installments",
+      "partial billing"
+    ],
+    "pt": [
+      "plano de faturamento",
+      "faturamento periódico",
+      "faturamento por marcos",
+      "parcelas",
+      "faturamento parcial"
+    ]
+  }
+}

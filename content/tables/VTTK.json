@@ -1,0 +1,43 @@
+{
+  "id": "VTTK",
+  "area": "sales",
+  "contents": "header",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Transportes (cabecera)",
+    "en": "Shipments (header)",
+    "pt": "Transportes (cabeçalho)"
+  },
+  "purpose": {
+    "es": "Una fila por cada transporte: el viaje que lleva una o varias entregas, con transportista, ruta, tipo de transporte y fechas de planificación, carga y salida. Las entregas incluidas están en VTTP.",
+    "en": "One row per shipment: the trip that carries one or more deliveries, with carrier, route, shipment type and planning, loading and departure dates. The included deliveries are in VTTP.",
+    "pt": "Uma linha por transporte: a viagem que leva uma ou várias remessas, com transportadora, itinerário, tipo de transporte e datas de planejamento, carga e saída. As remessas incluídas estão na VTTP."
+  },
+  "synonyms": {
+    "es": [
+      "transporte",
+      "viaje",
+      "embarque",
+      "transportista",
+      "camión",
+      "flete"
+    ],
+    "en": [
+      "shipment",
+      "trip",
+      "transport",
+      "carrier",
+      "truck",
+      "freight"
+    ],
+    "pt": [
+      "transporte",
+      "viagem",
+      "embarque",
+      "transportadora",
+      "caminhão",
+      "frete"
+    ]
+  }
+}

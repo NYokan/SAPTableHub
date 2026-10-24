@@ -1,0 +1,37 @@
+{
+  "id": "VAPMA",
+  "area": "sales",
+  "contents": "doc",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Índice de pedidos por material",
+    "en": "Sales order index by material",
+    "pt": "Índice de ordens por material"
+  },
+  "purpose": {
+    "es": "Índice que permite encontrar rápido los pedidos de venta de un material, con cliente, organización de ventas y fechas. Útil para buscar pedidos por producto sin recorrer VBAP.",
+    "en": "Index that quickly finds the sales orders for a material, with customer, sales organization and dates. Useful to search orders by product without scanning VBAP.",
+    "pt": "Índice que permite encontrar rapidamente as ordens de venda de um material, com cliente, organização de vendas e datas. Útil para buscar ordens por produto sem percorrer a VBAP."
+  },
+  "synonyms": {
+    "es": [
+      "pedidos por material",
+      "búsqueda de pedidos",
+      "índice de pedidos",
+      "ventas de un producto"
+    ],
+    "en": [
+      "orders by material",
+      "order search",
+      "sales order index",
+      "product orders"
+    ],
+    "pt": [
+      "ordens por material",
+      "busca de ordens",
+      "índice de ordens",
+      "vendas de um produto"
+    ]
+  }
+}

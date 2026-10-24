@@ -1,0 +1,41 @@
+{
+  "id": "TVSB",
+  "area": "sales",
+  "contents": "config",
+  "component": "LO-MD-BP-CM",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Condiciones de expedición",
+    "en": "Shipping conditions",
+    "pt": "Condições de expedição"
+  },
+  "purpose": {
+    "es": "Lista las condiciones de expedición, que indican cómo quiere el cliente que se le envíe (urgente, estándar, recoge él mismo). Se usa para determinar el puesto de expedición y la ruta.",
+    "en": "Lists the shipping conditions, which say how the customer wants goods sent (express, standard, customer pickup). It is used to determine the shipping point and route.",
+    "pt": "Lista as condições de expedição, que indicam como o cliente quer que a mercadoria seja enviada (urgente, padrão, retira ele mesmo). É usada para determinar o local de expedição e o itinerário."
+  },
+  "synonyms": {
+    "es": [
+      "condición de expedición",
+      "forma de envío",
+      "envío urgente",
+      "recogida por el cliente",
+      "VSBED"
+    ],
+    "en": [
+      "shipping condition",
+      "shipping method",
+      "express shipping",
+      "customer pickup",
+      "VSBED"
+    ],
+    "pt": [
+      "condição de expedição",
+      "forma de envio",
+      "envio urgente",
+      "retirada pelo cliente",
+      "VSBED"
+    ]
+  }
+}

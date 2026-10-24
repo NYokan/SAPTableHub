@@ -1,0 +1,12 @@
+{
+  "id": "KNMTK",
+  "area": "sales",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Registros info cliente-material (cabecera)",
+    "en": "Customer-material info records (header)",
+    "pt": "Registros info cliente-material (cabeçalho)"
+  }
+}

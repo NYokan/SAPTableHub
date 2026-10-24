@@ -1,0 +1,13 @@
+{
+  "id": "T685T",
+  "area": "sales",
+  "contents": "text",
+  "component": "SD-MD-CM",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Clases de condición: textos",
+    "en": "Condition types: texts",
+    "pt": "Tipos de condição: textos"
+  }
+}

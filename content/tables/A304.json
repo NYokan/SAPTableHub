@@ -1,0 +1,12 @@
+{
+  "id": "A304",
+  "area": "sales",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Registros de condición: material (con estado de liberación)",
+    "en": "Condition records: material (with release status)",
+    "pt": "Registros de condição: material (com status de liberação)"
+  }
+}

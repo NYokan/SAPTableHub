@@ -1,0 +1,12 @@
+{
+  "id": "KNVD",
+  "area": "sales",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Clientes: mensajes de salida por área de ventas",
+    "en": "Customers: output per sales area",
+    "pt": "Clientes: mensagens por área de vendas"
+  }
+}

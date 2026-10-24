@@ -1,0 +1,13 @@
+{
+  "id": "TVEPT",
+  "area": "sales",
+  "contents": "text",
+  "component": "SD-MD-MM",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Tipos de reparto: textos",
+    "en": "Schedule line categories: texts",
+    "pt": "Categorias de divisão de remessa: textos"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "S001",
+  "area": "sales",
+  "contents": "doc",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Estadísticas de ventas por cliente",
+    "en": "Sales statistics per customer",
+    "pt": "Estatísticas de vendas por cliente"
+  }
+}

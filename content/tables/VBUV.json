@@ -1,0 +1,12 @@
+{
+  "id": "VBUV",
+  "area": "sales",
+  "contents": "doc",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Datos incompletos de documentos de ventas",
+    "en": "Incompletion data of sales documents",
+    "pt": "Dados incompletos de documentos de vendas"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "KNVA",
+  "area": "sales",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Clientes: puntos de descarga",
+    "en": "Customers: unloading points",
+    "pt": "Clientes: pontos de descarga"
+  }
+}

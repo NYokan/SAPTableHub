@@ -1,0 +1,12 @@
+{
+  "id": "T176T",
+  "area": "sales",
+  "contents": "text",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Clases de pedido del cliente: textos",
+    "en": "Customer purchase order types: texts",
+    "pt": "Tipos de pedido do cliente: textos"
+  }
+}

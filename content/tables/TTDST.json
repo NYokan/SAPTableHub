@@ -1,0 +1,12 @@
+{
+  "id": "TTDST",
+  "area": "sales",
+  "contents": "text",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Puestos de planificación de transporte: textos",
+    "en": "Transportation planning points: texts",
+    "pt": "Locais de planejamento de transporte: textos"
+  }
+}

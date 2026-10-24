@@ -1,0 +1,12 @@
+{
+  "id": "T171",
+  "area": "sales",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Zonas de ventas",
+    "en": "Sales districts",
+    "pt": "Regiões de vendas"
+  }
+}

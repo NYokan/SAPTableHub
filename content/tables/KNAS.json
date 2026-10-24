@@ -1,0 +1,12 @@
+{
+  "id": "KNAS",
+  "area": "sales",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Clientes: números de IVA adicionales",
+    "en": "Customers: additional VAT numbers",
+    "pt": "Clientes: números de IVA adicionais"
+  }
+}
