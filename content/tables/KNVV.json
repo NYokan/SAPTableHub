@@ -1,0 +1,12 @@
+{
+  "id": "KNVV",
+  "area": "sales",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Clientes: datos de ventas",
+    "en": "Customers: sales data",
+    "pt": "Clientes: dados de vendas"
+  }
+}

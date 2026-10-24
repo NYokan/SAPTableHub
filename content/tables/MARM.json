@@ -1,0 +1,12 @@
+{
+  "id": "MARM",
+  "area": "mat",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Materiales: unidades de medida",
+    "en": "Materials: units of measure",
+    "pt": "Materiais: unidades de medida"
+  }
+}

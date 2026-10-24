@@ -1,0 +1,12 @@
+{
+  "id": "CSKT",
+  "area": "fin",
+  "contents": "text",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Centros de coste (descripciones)",
+    "en": "Cost centers (descriptions)",
+    "pt": "Centros de custo (descrições)"
+  }
+}

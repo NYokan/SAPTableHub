@@ -1,0 +1,498 @@
+{
+  "MANDT": {
+    "type": "CLNT 3",
+    "label": {
+      "es": "Mandante",
+      "en": "Client",
+      "pt": "Mandante"
+    }
+  },
+  "MATNR": {
+    "type": "CHAR 18",
+    "label": {
+      "es": "Número de material",
+      "en": "Material number",
+      "pt": "Número do material"
+    }
+  },
+  "MTART": {
+    "type": "CHAR 4",
+    "label": {
+      "es": "Tipo de material",
+      "en": "Material type",
+      "pt": "Tipo de material"
+    }
+  },
+  "MATKL": {
+    "type": "CHAR 9",
+    "label": {
+      "es": "Grupo de artículos",
+      "en": "Material group",
+      "pt": "Grupo de mercadorias"
+    }
+  },
+  "MEINS": {
+    "type": "UNIT 3",
+    "label": {
+      "es": "Unidad de medida base",
+      "en": "Base unit of measure",
+      "pt": "Unidade de medida básica"
+    }
+  },
+  "BRGEW": {
+    "type": "QUAN 13,3",
+    "label": {
+      "es": "Peso bruto",
+      "en": "Gross weight",
+      "pt": "Peso bruto"
+    }
+  },
+  "NTGEW": {
+    "type": "QUAN 13,3",
+    "label": {
+      "es": "Peso neto",
+      "en": "Net weight",
+      "pt": "Peso líquido"
+    }
+  },
+  "ERSDA": {
+    "type": "DATS 8",
+    "label": {
+      "es": "Fecha de creación",
+      "en": "Created on",
+      "pt": "Data de criação"
+    }
+  },
+  "ERNAM": {
+    "type": "CHAR 12",
+    "label": {
+      "es": "Creado por",
+      "en": "Created by",
+      "pt": "Criado por"
+    }
+  },
+  "SPRAS": {
+    "type": "LANG 1",
+    "label": {
+      "es": "Idioma",
+      "en": "Language",
+      "pt": "Idioma"
+    }
+  },
+  "MAKTX": {
+    "type": "CHAR 40",
+    "label": {
+      "es": "Descripción del material",
+      "en": "Material description",
+      "pt": "Descrição do material"
+    }
+  },
+  "WERKS": {
+    "type": "CHAR 4",
+    "label": {
+      "es": "Centro",
+      "en": "Plant",
+      "pt": "Centro"
+    }
+  },
+  "LGORT": {
+    "type": "CHAR 4",
+    "label": {
+      "es": "Almacén",
+      "en": "Storage location",
+      "pt": "Depósito"
+    }
+  },
+  "LABST": {
+    "type": "QUAN 13,3",
+    "label": {
+      "es": "Stock de libre utilización",
+      "en": "Unrestricted-use stock",
+      "pt": "Estoque de livre utilização"
+    }
+  },
+  "EKGRP": {
+    "type": "CHAR 3",
+    "label": {
+      "es": "Grupo de compras",
+      "en": "Purchasing group",
+      "pt": "Grupo de compradores"
+    }
+  },
+  "DISMM": {
+    "type": "CHAR 2",
+    "label": {
+      "es": "Tipo de planificación (MRP)",
+      "en": "MRP type",
+      "pt": "Tipo de MRP"
+    }
+  },
+  "KUNNR": {
+    "type": "CHAR 10",
+    "label": {
+      "es": "Número de cliente",
+      "en": "Customer number",
+      "pt": "Número do cliente"
+    }
+  },
+  "KUNAG": {
+    "type": "CHAR 10",
+    "label": {
+      "es": "Cliente solicitante",
+      "en": "Sold-to party",
+      "pt": "Cliente solicitante"
+    }
+  },
+  "NAME1": {
+    "type": "CHAR 35",
+    "label": {
+      "es": "Nombre",
+      "en": "Name",
+      "pt": "Nome"
+    }
+  },
+  "LAND1": {
+    "type": "CHAR 3",
+    "label": {
+      "es": "País",
+      "en": "Country",
+      "pt": "País"
+    }
+  },
+  "ORT01": {
+    "type": "CHAR 35",
+    "label": {
+      "es": "Ciudad",
+      "en": "City",
+      "pt": "Cidade"
+    }
+  },
+  "KTOKD": {
+    "type": "CHAR 4",
+    "label": {
+      "es": "Grupo de cuentas de cliente",
+      "en": "Customer account group",
+      "pt": "Grupo de contas do cliente"
+    }
+  },
+  "LIFNR": {
+    "type": "CHAR 10",
+    "label": {
+      "es": "Número de proveedor",
+      "en": "Vendor number",
+      "pt": "Número do fornecedor"
+    }
+  },
+  "KTOKK": {
+    "type": "CHAR 4",
+    "label": {
+      "es": "Grupo de cuentas de proveedor",
+      "en": "Vendor account group",
+      "pt": "Grupo de contas do fornecedor"
+    }
+  },
+  "VBELN": {
+    "type": "CHAR 10",
+    "label": {
+      "es": "Número de documento",
+      "en": "Document number",
+      "pt": "Número do documento"
+    }
+  },
+  "POSNR": {
+    "type": "NUMC 6",
+    "label": {
+      "es": "Posición",
+      "en": "Item",
+      "pt": "Item"
+    }
+  },
+  "AUART": {
+    "type": "CHAR 4",
+    "label": {
+      "es": "Clase de documento de ventas",
+      "en": "Sales document type",
+      "pt": "Tipo de documento de vendas"
+    }
+  },
+  "VKORG": {
+    "type": "CHAR 4",
+    "label": {
+      "es": "Organización de ventas",
+      "en": "Sales organization",
+      "pt": "Organização de vendas"
+    }
+  },
+  "VTWEG": {
+    "type": "CHAR 2",
+    "label": {
+      "es": "Canal de distribución",
+      "en": "Distribution channel",
+      "pt": "Canal de distribuição"
+    }
+  },
+  "SPART": {
+    "type": "CHAR 2",
+    "label": {
+      "es": "Sector",
+      "en": "Division",
+      "pt": "Setor de atividade"
+    }
+  },
+  "ERDAT": {
+    "type": "DATS 8",
+    "label": {
+      "es": "Fecha de creación",
+      "en": "Created on",
+      "pt": "Data de criação"
+    }
+  },
+  "NETWR": {
+    "type": "CURR 15,2",
+    "label": {
+      "es": "Valor neto",
+      "en": "Net value",
+      "pt": "Valor líquido"
+    }
+  },
+  "WAERK": {
+    "type": "CUKY 5",
+    "label": {
+      "es": "Moneda del documento",
+      "en": "Document currency",
+      "pt": "Moeda do documento"
+    }
+  },
+  "KWMENG": {
+    "type": "QUAN 15,3",
+    "label": {
+      "es": "Cantidad pedida",
+      "en": "Ordered quantity",
+      "pt": "Quantidade pedida"
+    }
+  },
+  "FKART": {
+    "type": "CHAR 4",
+    "label": {
+      "es": "Clase de factura",
+      "en": "Billing type",
+      "pt": "Tipo de faturamento"
+    }
+  },
+  "FKDAT": {
+    "type": "DATS 8",
+    "label": {
+      "es": "Fecha de factura",
+      "en": "Billing date",
+      "pt": "Data do faturamento"
+    }
+  },
+  "FKIMG": {
+    "type": "QUAN 13,3",
+    "label": {
+      "es": "Cantidad facturada",
+      "en": "Billed quantity",
+      "pt": "Quantidade faturada"
+    }
+  },
+  "AUBEL": {
+    "type": "CHAR 10",
+    "label": {
+      "es": "Documento de ventas de origen",
+      "en": "Originating sales document",
+      "pt": "Documento de vendas de origem"
+    }
+  },
+  "LFART": {
+    "type": "CHAR 4",
+    "label": {
+      "es": "Clase de entrega",
+      "en": "Delivery type",
+      "pt": "Tipo de remessa"
+    }
+  },
+  "WADAT_IST": {
+    "type": "DATS 8",
+    "label": {
+      "es": "Fecha real de salida de mercancías",
+      "en": "Actual goods issue date",
+      "pt": "Data real de saída de mercadorias"
+    }
+  },
+  "LFIMG": {
+    "type": "QUAN 13,3",
+    "label": {
+      "es": "Cantidad entregada",
+      "en": "Delivered quantity",
+      "pt": "Quantidade entregue"
+    }
+  },
+  "EBELN": {
+    "type": "CHAR 10",
+    "label": {
+      "es": "Número de pedido de compra",
+      "en": "Purchase order number",
+      "pt": "Número do pedido de compra"
+    }
+  },
+  "EBELP": {
+    "type": "NUMC 5",
+    "label": {
+      "es": "Posición del pedido",
+      "en": "Purchase order item",
+      "pt": "Item do pedido"
+    }
+  },
+  "BUKRS": {
+    "type": "CHAR 4",
+    "label": {
+      "es": "Sociedad",
+      "en": "Company code",
+      "pt": "Empresa"
+    }
+  },
+  "BSART": {
+    "type": "CHAR 4",
+    "label": {
+      "es": "Clase de pedido de compra",
+      "en": "Purchasing document type",
+      "pt": "Tipo de documento de compras"
+    }
+  },
+  "EKORG": {
+    "type": "CHAR 4",
+    "label": {
+      "es": "Organización de compras",
+      "en": "Purchasing organization",
+      "pt": "Organização de compras"
+    }
+  },
+  "BEDAT": {
+    "type": "DATS 8",
+    "label": {
+      "es": "Fecha del pedido",
+      "en": "Order date",
+      "pt": "Data do pedido"
+    }
+  },
+  "WAERS": {
+    "type": "CUKY 5",
+    "label": {
+      "es": "Moneda",
+      "en": "Currency",
+      "pt": "Moeda"
+    }
+  },
+  "MENGE": {
+    "type": "QUAN 13,3",
+    "label": {
+      "es": "Cantidad pedida",
+      "en": "Order quantity",
+      "pt": "Quantidade do pedido"
+    }
+  },
+  "NETPR": {
+    "type": "CURR 11,2",
+    "label": {
+      "es": "Precio neto",
+      "en": "Net price",
+      "pt": "Preço líquido"
+    }
+  },
+  "BELNR": {
+    "type": "CHAR 10",
+    "label": {
+      "es": "Número de documento contable",
+      "en": "Accounting document number",
+      "pt": "Número do documento contábil"
+    }
+  },
+  "GJAHR": {
+    "type": "NUMC 4",
+    "label": {
+      "es": "Ejercicio",
+      "en": "Fiscal year",
+      "pt": "Exercício"
+    }
+  },
+  "BLART": {
+    "type": "CHAR 2",
+    "label": {
+      "es": "Clase de documento contable",
+      "en": "Accounting document type",
+      "pt": "Tipo de documento contábil"
+    }
+  },
+  "BLDAT": {
+    "type": "DATS 8",
+    "label": {
+      "es": "Fecha del documento",
+      "en": "Document date",
+      "pt": "Data do documento"
+    }
+  },
+  "BUDAT": {
+    "type": "DATS 8",
+    "label": {
+      "es": "Fecha de contabilización",
+      "en": "Posting date",
+      "pt": "Data de lançamento"
+    }
+  },
+  "USNAM": {
+    "type": "CHAR 12",
+    "label": {
+      "es": "Usuario",
+      "en": "User name",
+      "pt": "Usuário"
+    }
+  },
+  "BUZEI": {
+    "type": "NUMC 3",
+    "label": {
+      "es": "Posición del asiento",
+      "en": "Line item",
+      "pt": "Item do lançamento"
+    }
+  },
+  "HKONT": {
+    "type": "CHAR 10",
+    "label": {
+      "es": "Cuenta de mayor",
+      "en": "General ledger account",
+      "pt": "Conta do razão"
+    }
+  },
+  "DMBTR": {
+    "type": "CURR 13,2",
+    "label": {
+      "es": "Importe en moneda local",
+      "en": "Amount in local currency",
+      "pt": "Montante em moeda interna"
+    }
+  },
+  "SHKZG": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Debe o haber",
+      "en": "Debit or credit",
+      "pt": "Débito ou crédito"
+    }
+  },
+  "BUTXT": {
+    "type": "CHAR 25",
+    "label": {
+      "es": "Nombre de la sociedad",
+      "en": "Company name",
+      "pt": "Nome da empresa"
+    }
+  },
+  "KTOPL": {
+    "type": "CHAR 4",
+    "label": {
+      "es": "Plan de cuentas",
+      "en": "Chart of accounts",
+      "pt": "Plano de contas"
+    }
+  }
+}

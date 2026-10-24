@@ -1,0 +1,12 @@
+{
+  "id": "EKBE",
+  "area": "purch",
+  "contents": "doc",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Pedidos de compra: historial",
+    "en": "Purchase orders: history",
+    "pt": "Pedidos de compra: histórico"
+  }
+}

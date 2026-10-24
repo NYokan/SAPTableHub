@@ -1,0 +1,12 @@
+{
+  "id": "MKPF",
+  "area": "mat",
+  "contents": "header",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Documentos de material (cabecera)",
+    "en": "Material documents (header)",
+    "pt": "Documentos de material (cabeçalho)"
+  }
+}

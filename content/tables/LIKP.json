@@ -1,0 +1,71 @@
+{
+  "id": "LIKP",
+  "area": "sales",
+  "contents": "header",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Entregas (cabecera)",
+    "en": "Deliveries (header)",
+    "pt": "Remessas (cabeçalho)"
+  },
+  "purpose": {
+    "es": "Una fila por cada entrega de mercancía a un cliente: tipo de entrega, destinatario y fecha real de salida. Los productos entregados están en LIPS.",
+    "en": "One row per delivery of goods to a customer: delivery type, recipient and actual goods issue date. The delivered products are in LIPS.",
+    "pt": "Uma linha por remessa de mercadorias a um cliente: tipo de remessa, destinatário e data real de saída. Os produtos remetidos estão na LIPS."
+  },
+  "synonyms": {
+    "es": [
+      "entrega",
+      "envío",
+      "salida de mercancías",
+      "despacho"
+    ],
+    "en": [
+      "delivery",
+      "shipment",
+      "goods issue",
+      "outbound delivery"
+    ],
+    "pt": [
+      "entrega",
+      "remessa",
+      "saída de mercadorias",
+      "expedição"
+    ]
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "VBELN",
+      "key": true
+    },
+    {
+      "name": "LFART"
+    },
+    {
+      "name": "KUNNR"
+    },
+    {
+      "name": "WADAT_IST"
+    },
+    {
+      "name": "ERDAT"
+    }
+  ],
+  "relations": [
+    {
+      "table": "LIPS",
+      "type": "items",
+      "on": "VBELN"
+    },
+    {
+      "table": "KNA1",
+      "type": "master",
+      "on": "KUNNR"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "MAKT",
+  "area": "mat",
+  "contents": "text",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Materiales (descripciones)",
+    "en": "Materials (descriptions)",
+    "pt": "Materiais (descrições)"
+  },
+  "purpose": {
+    "es": "Una fila por material e idioma con el nombre del material. Se une a MARA con el número de material.",
+    "en": "One row per material and language with the material name. It joins to MARA through the material number.",
+    "pt": "Uma linha por material e idioma com o nome do material. Une-se à MARA pelo número do material."
+  },
+  "synonyms": {
+    "es": [
+      "nombre del material",
+      "descripción del material",
+      "texto del material"
+    ],
+    "en": [
+      "material name",
+      "material description",
+      "material text"
+    ],
+    "pt": [
+      "nome do material",
+      "descrição do material",
+      "texto do material"
+    ]
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "MATNR",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "MAKTX"
+    }
+  ],
+  "relations": [
+    {
+      "table": "MARA",
+      "type": "master",
+      "on": "MATNR"
+    }
+  ]
+}

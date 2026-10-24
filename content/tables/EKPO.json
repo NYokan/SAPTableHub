@@ -1,0 +1,78 @@
+{
+  "id": "EKPO",
+  "area": "purch",
+  "contents": "items",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Pedidos de compra (posiciones)",
+    "en": "Purchase orders (items)",
+    "pt": "Pedidos de compra (itens)"
+  },
+  "purpose": {
+    "es": "Una fila por cada producto pedido: material, centro, cantidad y precio neto.",
+    "en": "One row per ordered product: material, plant, quantity and net price.",
+    "pt": "Uma linha por produto pedido: material, centro, quantidade e preço líquido."
+  },
+  "synonyms": {
+    "es": [
+      "línea de pedido de compra",
+      "posiciones de compra",
+      "materiales comprados",
+      "detalle de compra"
+    ],
+    "en": [
+      "purchase order line",
+      "purchase items",
+      "materials bought",
+      "order items"
+    ],
+    "pt": [
+      "item do pedido de compra",
+      "itens de compra",
+      "materiais comprados",
+      "detalhe da compra"
+    ]
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "EBELN",
+      "key": true
+    },
+    {
+      "name": "EBELP",
+      "key": true
+    },
+    {
+      "name": "MATNR"
+    },
+    {
+      "name": "WERKS"
+    },
+    {
+      "name": "MENGE"
+    },
+    {
+      "name": "MEINS"
+    },
+    {
+      "name": "NETPR"
+    }
+  ],
+  "relations": [
+    {
+      "table": "EKKO",
+      "type": "header",
+      "on": "EBELN"
+    },
+    {
+      "table": "MARA",
+      "type": "master",
+      "on": "MATNR"
+    }
+  ]
+}

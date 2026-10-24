@@ -1,0 +1,77 @@
+{
+  "id": "VBRK",
+  "area": "sales",
+  "contents": "header",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Facturas de venta (cabecera)",
+    "en": "Sales invoices (header)",
+    "pt": "Faturas de venda (cabeçalho)"
+  },
+  "purpose": {
+    "es": "Una fila por cada factura emitida a un cliente: fecha, clase de factura, cliente y valor neto. Los productos facturados están en VBRP.",
+    "en": "One row per invoice issued to a customer: date, invoice type, customer and net value. The invoiced products are in VBRP.",
+    "pt": "Uma linha por fatura emitida a um cliente: data, tipo de fatura, cliente e valor líquido. Os produtos faturados estão na VBRP."
+  },
+  "synonyms": {
+    "es": [
+      "factura",
+      "factura de venta",
+      "factura a cliente",
+      "facturación",
+      "nota de crédito"
+    ],
+    "en": [
+      "invoice",
+      "billing document",
+      "customer invoice",
+      "billing",
+      "credit memo"
+    ],
+    "pt": [
+      "fatura",
+      "fatura de venda",
+      "fatura ao cliente",
+      "faturamento",
+      "nota de crédito"
+    ]
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "VBELN",
+      "key": true
+    },
+    {
+      "name": "FKART"
+    },
+    {
+      "name": "FKDAT"
+    },
+    {
+      "name": "KUNAG"
+    },
+    {
+      "name": "NETWR"
+    },
+    {
+      "name": "WAERK"
+    }
+  ],
+  "relations": [
+    {
+      "table": "VBRP",
+      "type": "items",
+      "on": "VBELN"
+    },
+    {
+      "table": "KNA1",
+      "type": "master",
+      "on": "KUNAG = KUNNR"
+    }
+  ]
+}

@@ -1,0 +1,217 @@
+{
+  "areas": {
+    "sales": {
+      "es": "Ventas",
+      "en": "Sales",
+      "pt": "Vendas"
+    },
+    "purch": {
+      "es": "Compras",
+      "en": "Purchasing",
+      "pt": "Compras"
+    },
+    "mat": {
+      "es": "Materiales",
+      "en": "Materials",
+      "pt": "Materiais"
+    },
+    "fin": {
+      "es": "Finanzas",
+      "en": "Finance",
+      "pt": "Finanças"
+    },
+    "gen": {
+      "es": "General",
+      "en": "General",
+      "pt": "Geral"
+    }
+  },
+  "contents": {
+    "doc": {
+      "es": "Datos de documento",
+      "en": "Document data",
+      "pt": "Dados do documento"
+    },
+    "header": {
+      "es": "Cabecera de documento",
+      "en": "Document header",
+      "pt": "Cabeçalho do documento"
+    },
+    "items": {
+      "es": "Posiciones de documento",
+      "en": "Document items",
+      "pt": "Itens do documento"
+    },
+    "master": {
+      "es": "Dato maestro",
+      "en": "Master data",
+      "pt": "Dado mestre"
+    },
+    "text": {
+      "es": "Descripciones",
+      "en": "Descriptions",
+      "pt": "Descrições"
+    },
+    "config": {
+      "es": "Configuración",
+      "en": "Configuration",
+      "pt": "Configuração"
+    }
+  },
+  "categories": {
+    "TRANSP": {
+      "name": {
+        "es": "Tabla transparente",
+        "en": "Transparent table",
+        "pt": "Tabela transparente"
+      },
+      "help": {
+        "es": "Tabla transparente: una tabla real de la base de datos, con los mismos campos.",
+        "en": "Transparent table: a real database table with the same fields.",
+        "pt": "Tabela transparente: uma tabela real do banco de dados, com os mesmos campos."
+      }
+    },
+    "CLUSTER": {
+      "name": {
+        "es": "Tabla cluster",
+        "en": "Cluster table",
+        "pt": "Tabela cluster"
+      },
+      "help": {
+        "es": "Tabla cluster: SAP guarda sus datos agrupados dentro de otra tabla. Común en ECC; en S/4HANA muchas pasaron a ser transparentes.",
+        "en": "Cluster table: SAP stores its data grouped inside another table. Common in ECC; in S/4HANA many became transparent.",
+        "pt": "Tabela cluster: o SAP guarda seus dados agrupados dentro de outra tabela. Comum no ECC; no S/4HANA muitas passaram a ser transparentes."
+      }
+    },
+    "POOL": {
+      "name": {
+        "es": "Tabla pool",
+        "en": "Pooled table",
+        "pt": "Tabela pool"
+      },
+      "help": {
+        "es": "Tabla pool: varias tablas pequeñas guardadas juntas en una sola tabla física.",
+        "en": "Pooled table: several small tables stored together in one physical table.",
+        "pt": "Tabela pool: várias tabelas pequenas guardadas juntas em uma única tabela física."
+      }
+    }
+  },
+  "deliveryClasses": {
+    "A": {
+      "name": {
+        "es": "Aplicación",
+        "en": "Application",
+        "pt": "Aplicação"
+      },
+      "help": {
+        "es": "Aplicación: datos maestros y movimientos del negocio.",
+        "en": "Application: business master and transaction data.",
+        "pt": "Aplicação: dados mestres e movimentos do negócio."
+      }
+    },
+    "C": {
+      "name": {
+        "es": "Customizing",
+        "en": "Customizing",
+        "pt": "Customizing"
+      },
+      "help": {
+        "es": "Customizing: configuración que mantiene cada empresa.",
+        "en": "Customizing: configuration maintained by each company.",
+        "pt": "Customizing: configuração mantida por cada empresa."
+      }
+    },
+    "L": {
+      "name": {
+        "es": "Temporal",
+        "en": "Temporary",
+        "pt": "Temporária"
+      },
+      "help": {
+        "es": "Temporal: datos temporales.",
+        "en": "Temporary: temporary data.",
+        "pt": "Temporária: dados temporários."
+      }
+    },
+    "G": {
+      "name": {
+        "es": "Customizing protegido",
+        "en": "Protected customizing",
+        "pt": "Customizing protegido"
+      },
+      "help": {
+        "es": "Customizing protegido: SAP puede añadir registros, pero no cambiar los existentes.",
+        "en": "Protected customizing: SAP may add records but not change existing ones.",
+        "pt": "Customizing protegido: a SAP pode adicionar registros, mas não alterar os existentes."
+      }
+    },
+    "E": {
+      "name": {
+        "es": "Control",
+        "en": "Control",
+        "pt": "Controle"
+      },
+      "help": {
+        "es": "Control: SAP y el cliente usan rangos de claves separados.",
+        "en": "Control: SAP and the customer use separate key ranges.",
+        "pt": "Controle: a SAP e o cliente usam faixas de chaves separadas."
+      }
+    },
+    "S": {
+      "name": {
+        "es": "Sistema",
+        "en": "System",
+        "pt": "Sistema"
+      },
+      "help": {
+        "es": "Sistema: solo la mantiene SAP.",
+        "en": "System: maintained by SAP only.",
+        "pt": "Sistema: mantida somente pela SAP."
+      }
+    },
+    "W": {
+      "name": {
+        "es": "Sistema (transporte)",
+        "en": "System (transport)",
+        "pt": "Sistema (transporte)"
+      },
+      "help": {
+        "es": "Sistema (transporte): su contenido se transporta con objetos propios.",
+        "en": "System (transport): its contents travel with their own objects.",
+        "pt": "Sistema (transporte): seu conteúdo é transportado com objetos próprios."
+      }
+    }
+  },
+  "relationTypes": {
+    "items": {
+      "es": "Sus posiciones",
+      "en": "Its items",
+      "pt": "Seus itens"
+    },
+    "header": {
+      "es": "Su cabecera",
+      "en": "Its header",
+      "pt": "Seu cabeçalho"
+    },
+    "master": {
+      "es": "Dato maestro",
+      "en": "Master data",
+      "pt": "Dado mestre"
+    },
+    "text": {
+      "es": "Sus descripciones",
+      "en": "Its descriptions",
+      "pt": "Suas descrições"
+    },
+    "rel": {
+      "es": "Relacionada",
+      "en": "Related",
+      "pt": "Relacionada"
+    },
+    "config": {
+      "es": "Configuración",
+      "en": "Configuration",
+      "pt": "Configuração"
+    }
+  }
+}

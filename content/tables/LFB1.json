@@ -1,0 +1,12 @@
+{
+  "id": "LFB1",
+  "area": "fin",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Proveedores: datos por sociedad",
+    "en": "Vendors: company code data",
+    "pt": "Fornecedores: dados por empresa"
+  }
+}

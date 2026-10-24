@@ -1,0 +1,12 @@
+{
+  "id": "CDPOS",
+  "area": "gen",
+  "contents": "items",
+  "category": "CLUSTER",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Historial de cambios (posiciones)",
+    "en": "Change history (items)",
+    "pt": "Histórico de alterações (itens)"
+  }
+}

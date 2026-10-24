@@ -1,0 +1,12 @@
+{
+  "id": "CDHDR",
+  "area": "gen",
+  "contents": "header",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Historial de cambios (cabecera)",
+    "en": "Change history (header)",
+    "pt": "Histórico de alterações (cabeçalho)"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "EINA",
+  "area": "purch",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Registros info de compras",
+    "en": "Purchasing info records",
+    "pt": "Registros info de compras"
+  }
+}

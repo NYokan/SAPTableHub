@@ -1,0 +1,12 @@
+{
+  "id": "T001L",
+  "area": "mat",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Almacenes",
+    "en": "Storage locations",
+    "pt": "Depósitos"
+  }
+}

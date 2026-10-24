@@ -1,0 +1,12 @@
+{
+  "id": "VBFA",
+  "area": "sales",
+  "contents": "doc",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Flujo de documentos de ventas",
+    "en": "Sales document flow",
+    "pt": "Fluxo de documentos de vendas"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "EKET",
+  "area": "purch",
+  "contents": "items",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Pedidos de compra: repartos",
+    "en": "Purchase orders: schedule lines",
+    "pt": "Pedidos de compra: divisões de remessa"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "id": "KNA1",
+  "area": "sales",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Clientes (datos generales)",
+    "en": "Customers (general data)",
+    "pt": "Clientes (dados gerais)"
+  },
+  "purpose": {
+    "es": "Una fila por cada cliente: nombre, país, ciudad y grupo de cuentas. Es la ficha base que reutilizan pedidos, entregas y facturas.",
+    "en": "One row per customer: name, country, city and account group. It is the base record reused by orders, deliveries and invoices.",
+    "pt": "Uma linha por cliente: nome, país, cidade e grupo de contas. É o cadastro base reutilizado por pedidos, remessas e faturas."
+  },
+  "synonyms": {
+    "es": [
+      "cliente",
+      "clientes",
+      "maestro de clientes",
+      "deudor",
+      "comprador"
+    ],
+    "en": [
+      "customer",
+      "customers",
+      "customer master",
+      "buyer",
+      "client"
+    ],
+    "pt": [
+      "cliente",
+      "clientes",
+      "cadastro de clientes",
+      "mestre de clientes",
+      "comprador"
+    ]
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "KUNNR",
+      "key": true
+    },
+    {
+      "name": "NAME1"
+    },
+    {
+      "name": "LAND1"
+    },
+    {
+      "name": "ORT01"
+    },
+    {
+      "name": "KTOKD"
+    }
+  ],
+  "relations": [
+    {
+      "table": "VBAK",
+      "type": "rel",
+      "on": "KUNNR"
+    },
+    {
+      "table": "VBRK",
+      "type": "rel",
+      "on": "KUNAG = KUNNR"
+    }
+  ]
+}

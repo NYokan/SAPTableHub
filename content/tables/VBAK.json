@@ -1,0 +1,91 @@
+{
+  "id": "VBAK",
+  "area": "sales",
+  "contents": "header",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Pedidos de venta (cabecera)",
+    "en": "Sales orders (header)",
+    "pt": "Pedidos de venda (cabeçalho)"
+  },
+  "purpose": {
+    "es": "Una fila por cada documento de ventas: pedido, cotización, devolución. Guarda los datos generales: quién compra, cuándo, qué clase de documento es y su valor total. Las líneas con cada producto están en VBAP.",
+    "en": "One row per sales document: order, quotation, return. It holds the general data: who is buying, when, what type of document it is and its total value. The lines with each product are in VBAP.",
+    "pt": "Uma linha por documento de vendas: pedido, cotação, devolução. Guarda os dados gerais: quem compra, quando, que tipo de documento é e seu valor total. As linhas com cada produto estão na VBAP."
+  },
+  "synonyms": {
+    "es": [
+      "pedido de venta",
+      "orden de venta",
+      "pedido de cliente",
+      "cotización",
+      "oferta",
+      "devolución",
+      "documento de ventas"
+    ],
+    "en": [
+      "sales order",
+      "customer order",
+      "quotation",
+      "quote",
+      "return",
+      "order header",
+      "sales document"
+    ],
+    "pt": [
+      "pedido de venda",
+      "ordem de venda",
+      "pedido do cliente",
+      "cotação",
+      "devolução",
+      "documento de vendas"
+    ]
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "VBELN",
+      "key": true
+    },
+    {
+      "name": "ERDAT"
+    },
+    {
+      "name": "AUART"
+    },
+    {
+      "name": "VKORG"
+    },
+    {
+      "name": "VTWEG"
+    },
+    {
+      "name": "SPART"
+    },
+    {
+      "name": "KUNNR"
+    },
+    {
+      "name": "NETWR"
+    },
+    {
+      "name": "WAERK"
+    }
+  ],
+  "relations": [
+    {
+      "table": "VBAP",
+      "type": "items",
+      "on": "VBELN"
+    },
+    {
+      "table": "KNA1",
+      "type": "master",
+      "on": "KUNNR"
+    }
+  ]
+}

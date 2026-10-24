@@ -1,0 +1,12 @@
+{
+  "id": "COEP",
+  "area": "fin",
+  "contents": "doc",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Controlling: partidas individuales",
+    "en": "Controlling: line items",
+    "pt": "Controlling: partidas individuais"
+  }
+}

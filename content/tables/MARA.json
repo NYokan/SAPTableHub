@@ -1,0 +1,86 @@
+{
+  "id": "MARA",
+  "area": "mat",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Materiales (datos generales)",
+    "en": "Materials (general data)",
+    "pt": "Materiais (dados gerais)"
+  },
+  "purpose": {
+    "es": "Una fila por cada material o producto. Guarda lo que es igual para toda la empresa: tipo, grupo, unidad de medida, pesos y fecha de creación. Los datos por centro están en MARC y los nombres en MAKT.",
+    "en": "One row per material or product. It holds what is the same across the whole company: type, group, unit of measure, weights and creation date. Plant data is in MARC and names are in MAKT.",
+    "pt": "Uma linha por material ou produto. Guarda o que é igual para toda a empresa: tipo, grupo, unidade de medida, pesos e data de criação. Os dados por centro estão na MARC e os nomes na MAKT."
+  },
+  "synonyms": {
+    "es": [
+      "material",
+      "materiales",
+      "producto",
+      "artículo",
+      "maestro de materiales",
+      "sku"
+    ],
+    "en": [
+      "material",
+      "product",
+      "item",
+      "article",
+      "material master",
+      "sku"
+    ],
+    "pt": [
+      "material",
+      "materiais",
+      "produto",
+      "artigo",
+      "mestre de materiais",
+      "sku"
+    ]
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "MATNR",
+      "key": true
+    },
+    {
+      "name": "MTART"
+    },
+    {
+      "name": "MATKL"
+    },
+    {
+      "name": "MEINS"
+    },
+    {
+      "name": "BRGEW"
+    },
+    {
+      "name": "NTGEW"
+    },
+    {
+      "name": "ERSDA"
+    },
+    {
+      "name": "ERNAM"
+    }
+  ],
+  "relations": [
+    {
+      "table": "MAKT",
+      "type": "text",
+      "on": "MATNR"
+    },
+    {
+      "table": "MARC",
+      "type": "rel",
+      "on": "MATNR"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "id": "VBAP",
+  "area": "sales",
+  "contents": "items",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Pedidos de venta (posiciones)",
+    "en": "Sales orders (items)",
+    "pt": "Pedidos de venda (itens)"
+  },
+  "purpose": {
+    "es": "Una fila por cada línea de un documento de ventas: qué producto, cuánta cantidad y a qué valor. Cada línea pertenece a un documento de VBAK.",
+    "en": "One row per line of a sales document: which product, how much, and at what value. Each line belongs to a document in VBAK.",
+    "pt": "Uma linha por item de um documento de vendas: qual produto, quanta quantidade e a que valor. Cada item pertence a um documento da VBAK."
+  },
+  "synonyms": {
+    "es": [
+      "línea de pedido",
+      "posiciones del pedido",
+      "detalle del pedido",
+      "productos vendidos"
+    ],
+    "en": [
+      "order line",
+      "order items",
+      "line items",
+      "products sold",
+      "sales order items"
+    ],
+    "pt": [
+      "linha do pedido",
+      "itens do pedido",
+      "detalhe do pedido",
+      "produtos vendidos"
+    ]
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "VBELN",
+      "key": true
+    },
+    {
+      "name": "POSNR",
+      "key": true
+    },
+    {
+      "name": "MATNR"
+    },
+    {
+      "name": "KWMENG"
+    },
+    {
+      "name": "NETWR"
+    },
+    {
+      "name": "WERKS"
+    }
+  ],
+  "relations": [
+    {
+      "table": "VBAK",
+      "type": "header",
+      "on": "VBELN"
+    },
+    {
+      "table": "MARA",
+      "type": "master",
+      "on": "MATNR"
+    }
+  ]
+}

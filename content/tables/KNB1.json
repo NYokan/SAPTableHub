@@ -1,0 +1,12 @@
+{
+  "id": "KNB1",
+  "area": "fin",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Clientes: datos por sociedad",
+    "en": "Customers: company code data",
+    "pt": "Clientes: dados por empresa"
+  }
+}

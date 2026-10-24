@@ -1,0 +1,12 @@
+{
+  "id": "SKB1",
+  "area": "fin",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Cuentas de mayor: datos por sociedad",
+    "en": "G/L accounts: company code data",
+    "pt": "Contas do razão: dados por empresa"
+  }
+}

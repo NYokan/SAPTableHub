@@ -1,0 +1,12 @@
+{
+  "id": "CSKS",
+  "area": "fin",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Centros de coste",
+    "en": "Cost centers",
+    "pt": "Centros de custo"
+  }
+}

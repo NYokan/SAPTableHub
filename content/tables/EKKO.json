@@ -1,0 +1,87 @@
+{
+  "id": "EKKO",
+  "area": "purch",
+  "contents": "header",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Pedidos de compra (cabecera)",
+    "en": "Purchase orders (header)",
+    "pt": "Pedidos de compra (cabeçalho)"
+  },
+  "purpose": {
+    "es": "Una fila por cada pedido de compra a un proveedor: proveedor, sociedad, organización de compras, fecha y moneda. Las líneas están en EKPO.",
+    "en": "One row per purchase order to a vendor: vendor, company code, purchasing organization, date and currency. The lines are in EKPO.",
+    "pt": "Uma linha por pedido de compra a um fornecedor: fornecedor, empresa, organização de compras, data e moeda. Os itens estão na EKPO."
+  },
+  "synonyms": {
+    "es": [
+      "pedido de compra",
+      "orden de compra",
+      "compra",
+      "pedido a proveedor",
+      "oc"
+    ],
+    "en": [
+      "purchase order",
+      "po",
+      "purchasing document",
+      "order to vendor",
+      "procurement"
+    ],
+    "pt": [
+      "pedido de compra",
+      "ordem de compra",
+      "compra",
+      "pedido ao fornecedor"
+    ]
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "EBELN",
+      "key": true
+    },
+    {
+      "name": "BUKRS"
+    },
+    {
+      "name": "BSART"
+    },
+    {
+      "name": "LIFNR"
+    },
+    {
+      "name": "EKORG"
+    },
+    {
+      "name": "EKGRP"
+    },
+    {
+      "name": "BEDAT"
+    },
+    {
+      "name": "WAERS"
+    }
+  ],
+  "relations": [
+    {
+      "table": "EKPO",
+      "type": "items",
+      "on": "EBELN"
+    },
+    {
+      "table": "LFA1",
+      "type": "master",
+      "on": "LIFNR"
+    },
+    {
+      "table": "T001",
+      "type": "config",
+      "on": "BUKRS"
+    }
+  ]
+}

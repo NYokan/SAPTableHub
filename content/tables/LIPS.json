@@ -1,0 +1,69 @@
+{
+  "id": "LIPS",
+  "area": "sales",
+  "contents": "items",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Entregas (posiciones)",
+    "en": "Deliveries (items)",
+    "pt": "Remessas (itens)"
+  },
+  "purpose": {
+    "es": "Una fila por cada producto incluido en una entrega, con la cantidad entregada.",
+    "en": "One row per product included in a delivery, with the delivered quantity.",
+    "pt": "Uma linha por produto incluído em uma remessa, com a quantidade entregue."
+  },
+  "synonyms": {
+    "es": [
+      "línea de entrega",
+      "posiciones de entrega",
+      "productos entregados"
+    ],
+    "en": [
+      "delivery line",
+      "delivery items",
+      "delivered products"
+    ],
+    "pt": [
+      "linha da remessa",
+      "itens da remessa",
+      "produtos entregues"
+    ]
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "VBELN",
+      "key": true
+    },
+    {
+      "name": "POSNR",
+      "key": true
+    },
+    {
+      "name": "MATNR"
+    },
+    {
+      "name": "WERKS"
+    },
+    {
+      "name": "LFIMG"
+    }
+  ],
+  "relations": [
+    {
+      "table": "LIKP",
+      "type": "header",
+      "on": "VBELN"
+    },
+    {
+      "table": "MARA",
+      "type": "master",
+      "on": "MATNR"
+    }
+  ]
+}

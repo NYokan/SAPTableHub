@@ -1,0 +1,12 @@
+{
+  "id": "BSAD",
+  "area": "fin",
+  "contents": "doc",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Clientes: partidas compensadas",
+    "en": "Customers: cleared items",
+    "pt": "Clientes: partidas compensadas"
+  }
+}

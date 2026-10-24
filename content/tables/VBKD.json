@@ -1,0 +1,12 @@
+{
+  "id": "VBKD",
+  "area": "sales",
+  "contents": "doc",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Documentos de ventas: datos comerciales",
+    "en": "Sales documents: business data",
+    "pt": "Documentos de vendas: dados comerciais"
+  }
+}

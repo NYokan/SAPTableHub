@@ -1,0 +1,12 @@
+{
+  "id": "MCHB",
+  "area": "mat",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Stock por lote",
+    "en": "Stock by batch",
+    "pt": "Estoque por lote"
+  }
+}

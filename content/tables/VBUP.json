@@ -1,0 +1,12 @@
+{
+  "id": "VBUP",
+  "area": "sales",
+  "contents": "items",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Documentos de ventas: estado de posición",
+    "en": "Sales documents: item status",
+    "pt": "Documentos de vendas: status do item"
+  }
+}

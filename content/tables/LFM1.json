@@ -1,0 +1,12 @@
+{
+  "id": "LFM1",
+  "area": "purch",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Proveedores: datos de compras",
+    "en": "Vendors: purchasing data",
+    "pt": "Fornecedores: dados de compras"
+  }
+}

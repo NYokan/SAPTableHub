@@ -1,0 +1,12 @@
+{
+  "id": "VBEP",
+  "area": "sales",
+  "contents": "items",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Pedidos de venta: repartos",
+    "en": "Sales orders: schedule lines",
+    "pt": "Pedidos de venda: divisões de remessa"
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "id": "BKPF",
+  "area": "fin",
+  "contents": "header",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Documentos contables (cabecera)",
+    "en": "Accounting documents (header)",
+    "pt": "Documentos contábeis (cabeçalho)"
+  },
+  "purpose": {
+    "es": "Una fila por cada asiento contable: sociedad, número, ejercicio, clase, fechas y usuario. Los importes por cuenta están en BSEG.",
+    "en": "One row per accounting entry: company code, number, fiscal year, type, dates and user. The amounts per account are in BSEG.",
+    "pt": "Uma linha por lançamento contábil: empresa, número, exercício, tipo, datas e usuário. Os montantes por conta estão na BSEG."
+  },
+  "synonyms": {
+    "es": [
+      "asiento contable",
+      "documento contable",
+      "asiento",
+      "contabilidad",
+      "póliza"
+    ],
+    "en": [
+      "accounting document",
+      "journal entry",
+      "posting",
+      "ledger entry"
+    ],
+    "pt": [
+      "documento contábil",
+      "lançamento contábil",
+      "lançamento",
+      "contabilidade"
+    ]
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "BUKRS",
+      "key": true
+    },
+    {
+      "name": "BELNR",
+      "key": true
+    },
+    {
+      "name": "GJAHR",
+      "key": true
+    },
+    {
+      "name": "BLART"
+    },
+    {
+      "name": "BLDAT"
+    },
+    {
+      "name": "BUDAT"
+    },
+    {
+      "name": "WAERS"
+    },
+    {
+      "name": "USNAM"
+    }
+  ],
+  "relations": [
+    {
+      "table": "BSEG",
+      "type": "items",
+      "on": "BUKRS + BELNR + GJAHR"
+    },
+    {
+      "table": "T001",
+      "type": "config",
+      "on": "BUKRS"
+    }
+  ]
+}

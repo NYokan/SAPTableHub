@@ -1,0 +1,12 @@
+{
+  "id": "ADRC",
+  "area": "gen",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Direcciones",
+    "en": "Addresses",
+    "pt": "Endereços"
+  }
+}

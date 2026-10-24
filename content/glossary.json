@@ -1,0 +1,74 @@
+[
+  {
+    "term": {
+      "es": "Mandante",
+      "en": "Client",
+      "pt": "Mandante"
+    },
+    "definition": {
+      "es": "Entorno de datos independiente dentro de un mismo sistema SAP. Casi todas las tablas lo incluyen como primer campo (MANDT).",
+      "en": "An independent data environment inside one SAP system. Nearly every table includes it as its first field (MANDT).",
+      "pt": "Ambiente de dados independente dentro de um mesmo sistema SAP. Quase todas as tabelas o incluem como primeiro campo (MANDT)."
+    }
+  },
+  {
+    "term": {
+      "es": "Cabecera y posiciones",
+      "en": "Header and items",
+      "pt": "Cabeçalho e itens"
+    },
+    "definition": {
+      "es": "Un documento (pedido, factura, entrega) guarda sus datos generales en la cabecera y cada línea en las posiciones.",
+      "en": "A document (order, invoice, delivery) keeps its general data in the header and each line in the items.",
+      "pt": "Um documento (pedido, fatura, remessa) guarda seus dados gerais no cabeçalho e cada linha nos itens."
+    }
+  },
+  {
+    "term": {
+      "es": "Dato maestro",
+      "en": "Master data",
+      "pt": "Dado mestre"
+    },
+    "definition": {
+      "es": "Información que cambia poco y se reutiliza en muchos documentos: clientes, proveedores, materiales.",
+      "en": "Information that rarely changes and is reused across many documents: customers, vendors, materials.",
+      "pt": "Informação que muda pouco e é reutilizada em muitos documentos: clientes, fornecedores, materiais."
+    }
+  },
+  {
+    "term": {
+      "es": "Campo clave",
+      "en": "Key field",
+      "pt": "Campo-chave"
+    },
+    "definition": {
+      "es": "Campo, o combinación de campos, que identifica de forma única cada fila de la tabla.",
+      "en": "A field, or combination of fields, that uniquely identifies each row of the table.",
+      "pt": "Campo, ou combinação de campos, que identifica de forma única cada linha da tabela."
+    }
+  },
+  {
+    "term": {
+      "es": "Centro",
+      "en": "Plant",
+      "pt": "Centro"
+    },
+    "definition": {
+      "es": "Unidad operativa donde se produce, compra o almacena: una fábrica, un almacén o una sucursal.",
+      "en": "An operating unit where goods are produced, bought or stored: a factory, warehouse or branch.",
+      "pt": "Unidade operacional onde se produz, compra ou armazena: fábrica, depósito ou filial."
+    }
+  },
+  {
+    "term": {
+      "es": "Sociedad",
+      "en": "Company code",
+      "pt": "Empresa"
+    },
+    "definition": {
+      "es": "Empresa legal para la que se lleva la contabilidad (campo BUKRS).",
+      "en": "The legal company for which accounts are kept (field BUKRS).",
+      "pt": "Empresa legal para a qual a contabilidade é mantida (campo BUKRS)."
+    }
+  }
+]

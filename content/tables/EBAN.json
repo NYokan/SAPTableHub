@@ -1,0 +1,12 @@
+{
+  "id": "EBAN",
+  "area": "purch",
+  "contents": "items",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Solicitudes de pedido",
+    "en": "Purchase requisitions",
+    "pt": "Requisições de compra"
+  }
+}

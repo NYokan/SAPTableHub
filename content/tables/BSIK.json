@@ -1,0 +1,12 @@
+{
+  "id": "BSIK",
+  "area": "fin",
+  "contents": "doc",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Proveedores: partidas abiertas",
+    "en": "Vendors: open items",
+    "pt": "Fornecedores: partidas em aberto"
+  }
+}

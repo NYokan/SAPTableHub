@@ -1,0 +1,123 @@
+// Reads the editable content in content/, checks it and compiles what the site loads.
+// Messages are in Spanish because they are meant for whoever edits the content files.
+import fs from 'node:fs';
+import path from 'node:path';
+
+export const LANGS = ['es', 'en', 'pt'];
+const NAME_RE = /^[A-Z0-9_/]+$/;
+
+/** Detail files are grouped by the first two characters of the table name, so the site never needs one file per table. */
+export function shardOf(id) {
+  return id.slice(0, 2).toUpperCase().replace(/[^A-Z0-9]/g, '_').padEnd(2, '_');
+}
+
+/** File name for a table id: namespaced tables such as /ABC/TABLE are stored as _ABC_TABLE.json. */
+export const fileNameOf = (id) => id.replace(/\//g, '_') + '.json';
+
+export function loadContent(dir) {
+  const read = (f) => JSON.parse(fs.readFileSync(path.join(dir, f), 'utf8'));
+  const tablesDir = path.join(dir, 'tables');
+  const tables = fs
+    .readdirSync(tablesDir)
+    .filter((f) => f.endsWith('.json'))
+    .sort()
+    .map((f) => {
+      const file = 'tables/' + f;
+      try {
+        return { file, data: JSON.parse(fs.readFileSync(path.join(tablesDir, f), 'utf8')) };
+      } catch (e) {
+        return { file, data: null, parseError: e.message };
+      }
+    });
+  return { taxonomy: read('taxonomy.json'), fields: read('fields.json'), glossary: read('glossary.json'), tables };
+}
+
+const isText = (v) => typeof v === 'string' && v.trim() !== '';
+const isL10n = (o) => !!o && typeof o === 'object' && LANGS.every((l) => isText(o[l]));
+
+/** Returns a list of problems; an empty list means the content is ready to build. */
+export function validate(c) {
+  const errors = [];
+  const err = (where, msg) => errors.push(`${where}: ${msg}`);
+
+  for (const [group, entries] of Object.entries(c.taxonomy)) {
+    for (const [k, v] of Object.entries(entries)) {
+      const named = group === 'categories' || group === 'deliveryClasses';
+      if (named ? !(isL10n(v.name) && isL10n(v.help)) : !isL10n(v)) {
+        err(`taxonomy.json ${group}.${k}`, 'falta texto en es, en o pt');
+      }
+    }
+  }
+  for (const [k, v] of Object.entries(c.fields)) {
+    if (!NAME_RE.test(k)) err(`fields.json ${k}`, 'el nombre del campo solo admite mayúsculas, dígitos, _ y /');
+    if (!isText(v.type)) err(`fields.json ${k}`, 'falta "type" (por ejemplo "CHAR 10")');
+    if (!isL10n(v.label)) err(`fields.json ${k}`, '"label" necesita texto en es, en y pt');
+  }
+  c.glossary.forEach((g, i) => {
+    if (!isL10n(g.term) || !isL10n(g.definition)) err(`glossary.json entrada ${i + 1}`, '"term" y "definition" necesitan es, en y pt');
+  });
+
+  const ids = new Set();
+  for (const { file, data: t, parseError } of c.tables) {
+    if (parseError) { err(file, `no es JSON válido (${parseError})`); continue; }
+    if (!t || !isText(t.id) || !NAME_RE.test(t.id)) { err(file, '"id" solo admite mayúsculas, dígitos, _ y /'); continue; }
+    if (file !== 'tables/' + fileNameOf(t.id)) err(file, `el archivo debe llamarse ${fileNameOf(t.id)}`);
+    if (ids.has(t.id)) err(file, `la tabla ${t.id} está repetida`);
+    ids.add(t.id);
+    if (!c.taxonomy.areas[t.area]) err(file, `área desconocida "${t.area}" (ver taxonomy.json)`);
+    if (!c.taxonomy.contents[t.contents]) err(file, `contenido desconocido "${t.contents}" (ver taxonomy.json)`);
+    if (!c.taxonomy.categories[t.category]) err(file, `categoría desconocida "${t.category}"`);
+    if (!c.taxonomy.deliveryClasses[t.deliveryClass]) err(file, `clase de entrega desconocida "${t.deliveryClass}"`);
+    if (!isL10n(t.title)) err(file, '"title" necesita texto en es, en y pt');
+    if (t.purpose !== undefined && !isL10n(t.purpose)) err(file, '"purpose" necesita texto en es, en y pt');
+    if (t.synonyms !== undefined) {
+      for (const l of LANGS) {
+        const list = t.synonyms[l];
+        if (!Array.isArray(list) || list.some((s) => !isText(s))) err(file, `"synonyms.${l}" debe ser una lista de palabras`);
+      }
+    }
+    const seen = new Set();
+    for (const f of t.fields ?? []) {
+      if (!c.fields[f.name]) err(file, `el campo ${f.name} no está en fields.json`);
+      if (seen.has(f.name)) err(file, `el campo ${f.name} está repetido`);
+      seen.add(f.name);
+    }
+    if ((t.fields ?? []).length && !t.fields.some((f) => f.key)) err(file, 'al menos un campo debe tener "key": true');
+  }
+  for (const { file, data: t } of c.tables) {
+    if (!t || !isText(t.id)) continue;
+    for (const r of t.relations ?? []) {
+      if (!ids.has(r.table)) err(file, `relación con una tabla que no existe: ${r.table}`);
+      if (!c.taxonomy.relationTypes[r.type]) err(file, `tipo de relación desconocido "${r.type}"`);
+      if (!isText(r.on)) err(file, `la relación con ${r.table} necesita "on"`);
+    }
+  }
+  return errors;
+}
+
+/** Builds the small index the site loads first and the detail groups it loads on demand. */
+export function compile(c) {
+  const tables = c.tables.map((x) => x.data).sort((a, b) => a.id.localeCompare(b.id));
+  const empty = { es: [], en: [], pt: [] };
+  const index = {
+    tables: tables.map((t) => ({
+      id: t.id,
+      area: t.area,
+      kind: t.contents,
+      cat: t.category,
+      dcl: t.deliveryClass,
+      title: t.title,
+      syn: t.synonyms ?? empty,
+      f: (t.fields ?? []).map((f) => (f.key ? '*' : '') + f.name),
+      p: t.purpose ? 1 : 0,
+    })),
+    fields: c.fields,
+    taxonomy: c.taxonomy,
+    glossary: c.glossary,
+  };
+  const details = {};
+  for (const t of tables) {
+    (details[shardOf(t.id)] ??= {})[t.id] = { purpose: t.purpose ?? null, rel: t.relations ?? [] };
+  }
+  return { index, details };
+}

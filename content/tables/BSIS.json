@@ -1,0 +1,12 @@
+{
+  "id": "BSIS",
+  "area": "fin",
+  "contents": "doc",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Cuentas de mayor: partidas abiertas",
+    "en": "G/L accounts: open items",
+    "pt": "Contas do razão: partidas em aberto"
+  }
+}

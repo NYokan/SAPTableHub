@@ -1,0 +1,69 @@
+{
+  "id": "LFA1",
+  "area": "purch",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Proveedores (datos generales)",
+    "en": "Vendors (general data)",
+    "pt": "Fornecedores (dados gerais)"
+  },
+  "purpose": {
+    "es": "Una fila por cada proveedor: nombre, país, ciudad y grupo de cuentas. Es la ficha base que reutilizan los pedidos de compra y la contabilidad.",
+    "en": "One row per vendor: name, country, city and account group. It is the base record reused by purchase orders and accounting.",
+    "pt": "Uma linha por fornecedor: nome, país, cidade e grupo de contas. É o cadastro base reutilizado por pedidos de compra e contabilidade."
+  },
+  "synonyms": {
+    "es": [
+      "proveedor",
+      "proveedores",
+      "acreedor",
+      "maestro de proveedores",
+      "suplidor"
+    ],
+    "en": [
+      "vendor",
+      "vendors",
+      "supplier",
+      "vendor master",
+      "creditor"
+    ],
+    "pt": [
+      "fornecedor",
+      "fornecedores",
+      "credor",
+      "cadastro de fornecedores",
+      "mestre de fornecedores"
+    ]
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "LIFNR",
+      "key": true
+    },
+    {
+      "name": "NAME1"
+    },
+    {
+      "name": "LAND1"
+    },
+    {
+      "name": "ORT01"
+    },
+    {
+      "name": "KTOKK"
+    }
+  ],
+  "relations": [
+    {
+      "table": "EKKO",
+      "type": "rel",
+      "on": "LIFNR"
+    }
+  ]
+}

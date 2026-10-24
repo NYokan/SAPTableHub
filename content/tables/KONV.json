@@ -1,0 +1,12 @@
+{
+  "id": "KONV",
+  "area": "sales",
+  "contents": "doc",
+  "category": "CLUSTER",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Condiciones de precio de documentos",
+    "en": "Pricing conditions of documents",
+    "pt": "Condições de preço dos documentos"
+  }
+}

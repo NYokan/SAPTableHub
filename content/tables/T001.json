@@ -1,0 +1,71 @@
+{
+  "id": "T001",
+  "area": "fin",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Sociedades (empresas)",
+    "en": "Company codes (companies)",
+    "pt": "Empresas (sociedades)"
+  },
+  "purpose": {
+    "es": "Lista de las sociedades, es decir, las empresas legales del sistema, con su nombre, país, moneda y plan de cuentas. Sirve para saber a qué empresa pertenece cada documento.",
+    "en": "The list of company codes, meaning the legal companies in the system, with their name, country, currency and chart of accounts. It tells you which company each document belongs to.",
+    "pt": "A lista das empresas legais do sistema, com nome, país, moeda e plano de contas. Serve para saber a qual empresa pertence cada documento."
+  },
+  "synonyms": {
+    "es": [
+      "sociedad",
+      "empresa",
+      "compañía",
+      "código de sociedad",
+      "entidad legal"
+    ],
+    "en": [
+      "company code",
+      "company",
+      "legal entity"
+    ],
+    "pt": [
+      "empresa",
+      "sociedade",
+      "código da empresa",
+      "entidade legal"
+    ]
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "BUKRS",
+      "key": true
+    },
+    {
+      "name": "BUTXT"
+    },
+    {
+      "name": "LAND1"
+    },
+    {
+      "name": "WAERS"
+    },
+    {
+      "name": "KTOPL"
+    }
+  ],
+  "relations": [
+    {
+      "table": "BKPF",
+      "type": "rel",
+      "on": "BUKRS"
+    },
+    {
+      "table": "EKKO",
+      "type": "rel",
+      "on": "BUKRS"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "id": "MSEG",
+  "area": "mat",
+  "contents": "items",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Documentos de material (posiciones)",
+    "en": "Material documents (items)",
+    "pt": "Documentos de material (itens)"
+  }
+}

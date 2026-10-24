@@ -1,0 +1,12 @@
+{
+  "id": "BSID",
+  "area": "fin",
+  "contents": "doc",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Clientes: partidas abiertas",
+    "en": "Customers: open items",
+    "pt": "Clientes: partidas em aberto"
+  }
+}

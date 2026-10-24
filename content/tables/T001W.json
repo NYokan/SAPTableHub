@@ -1,0 +1,12 @@
+{
+  "id": "T001W",
+  "area": "mat",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Centros",
+    "en": "Plants",
+    "pt": "Centros"
+  }
+}

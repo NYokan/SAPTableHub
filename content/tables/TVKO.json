@@ -1,0 +1,12 @@
+{
+  "id": "TVKO",
+  "area": "sales",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Organizaciones de ventas",
+    "en": "Sales organizations",
+    "pt": "Organizações de vendas"
+  }
+}

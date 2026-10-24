@@ -1,0 +1,80 @@
+{
+  "id": "VBRP",
+  "area": "sales",
+  "contents": "items",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Facturas de venta (posiciones)",
+    "en": "Sales invoices (items)",
+    "pt": "Faturas de venda (itens)"
+  },
+  "purpose": {
+    "es": "Una fila por cada línea facturada: producto, cantidad facturada y valor. Indica también de qué documento de ventas viene (campo AUBEL).",
+    "en": "One row per invoiced line: product, billed quantity and value. It also says which sales document it came from (field AUBEL).",
+    "pt": "Uma linha por item faturado: produto, quantidade faturada e valor. Indica também de qual documento de vendas veio (campo AUBEL)."
+  },
+  "synonyms": {
+    "es": [
+      "línea de factura",
+      "posiciones de factura",
+      "detalle de factura",
+      "productos facturados"
+    ],
+    "en": [
+      "invoice line",
+      "invoice items",
+      "billing items",
+      "invoiced products"
+    ],
+    "pt": [
+      "linha da fatura",
+      "itens da fatura",
+      "detalhe da fatura",
+      "produtos faturados"
+    ]
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "VBELN",
+      "key": true
+    },
+    {
+      "name": "POSNR",
+      "key": true
+    },
+    {
+      "name": "MATNR"
+    },
+    {
+      "name": "FKIMG"
+    },
+    {
+      "name": "NETWR"
+    },
+    {
+      "name": "AUBEL"
+    }
+  ],
+  "relations": [
+    {
+      "table": "VBRK",
+      "type": "header",
+      "on": "VBELN"
+    },
+    {
+      "table": "MARA",
+      "type": "master",
+      "on": "MATNR"
+    },
+    {
+      "table": "VBAK",
+      "type": "rel",
+      "on": "AUBEL = VBELN"
+    }
+  ]
+}

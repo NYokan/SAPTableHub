@@ -1,0 +1,12 @@
+{
+  "id": "SKA1",
+  "area": "fin",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Cuentas de mayor (plan de cuentas)",
+    "en": "G/L accounts (chart of accounts)",
+    "pt": "Contas do razão (plano de contas)"
+  }
+}

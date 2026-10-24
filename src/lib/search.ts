@@ -1,0 +1,136 @@
+import { LANGS, type DataIndex, type Lang, type TableSummary } from '../types.ts';
+import { norm, osa, tokenize } from './text.ts';
+
+const STOP = new Set([
+  'de', 'del', 'la', 'el', 'los', 'las', 'un', 'una', 'y', 'en', 'por', 'para', 'a',
+  'of', 'the', 'an', 'and', 'for', 'in', 'to',
+  'da', 'do', 'das', 'dos', 'o', 'as', 'os', 'um', 'uma', 'e', 'em',
+]);
+
+interface Phrase {
+  lang: Lang;
+  raw: string;
+  n: string;
+  tok: string[];
+}
+
+interface FieldEntry {
+  name: string;
+  key: boolean;
+  lc: string;
+  labels: string[][];
+}
+
+/** A table prepared for searching and filtering. */
+export interface Entry {
+  t: TableSummary;
+  order: number;
+  id: string;
+  titles: Phrase[];
+  syns: Phrase[];
+  words: string[];
+  fields: FieldEntry[];
+  /** Everything the list filter looks at, per language. */
+  hay: Record<Lang, string>;
+}
+
+export function buildEntries(data: DataIndex): Entry[] {
+  const tx = data.taxonomy;
+  return data.tables.map((t, order) => {
+    const phrase = (lang: Lang, raw: string): Phrase => ({ lang, raw, n: norm(raw), tok: tokenize(raw) });
+    const titles = LANGS.map((lang) => phrase(lang, t.title[lang]));
+    const syns = LANGS.flatMap((lang) => t.syn[lang].map((raw) => phrase(lang, raw)));
+    const words = [...new Set([...titles, ...syns].flatMap((p) => p.tok))];
+    const fields = t.f.map((f) => {
+      const key = f.startsWith('*');
+      const name = key ? f.slice(1) : f;
+      const def = data.fields[name];
+      return { name, key, lc: name.toLowerCase(), labels: LANGS.map((l) => tokenize(def ? def.label[l] : '')) };
+    });
+    const hay = {} as Record<Lang, string>;
+    for (const l of LANGS) {
+      hay[l] = norm([t.id, t.title[l], tx.areas[t.area]?.[l] ?? '', tx.contents[t.kind]?.[l] ?? '', ...t.syn[l]].join(' '));
+    }
+    return { t, order, id: t.id.toLowerCase(), titles, syns, words, fields, hay };
+  });
+}
+
+/** Why a result matched, when the reason is not visible in its name or title. */
+export type Via = { syn: string } | { field: string } | null;
+
+export interface Hit {
+  t: TableSummary;
+  via: Via;
+}
+
+export interface SearchResult {
+  hits: Hit[];
+  /** True when no table matched every word and the hits match only some of them. */
+  partial: boolean;
+}
+
+function scoreEntry(x: Entry, words: string[], full: string, lang: Lang) {
+  let total = 0;
+  let matched = 0;
+  let via: Via = null;
+  let viaScore = 0;
+  for (const qt of words) {
+    const best = { score: 0, via: null as Via };
+    const cand = (score: number, v: Via = null) => {
+      if (score > best.score) {
+        best.score = score;
+        best.via = v;
+      }
+    };
+    if (x.id === qt) cand(120);
+    else if (x.id.startsWith(qt)) cand(70);
+    else if (qt.length >= 3 && x.id.includes(qt)) cand(25);
+    for (const p of x.titles) for (const w of p.tok) if (w.startsWith(qt)) cand(p.lang === lang ? 30 : 22);
+    for (const p of x.syns) for (const w of p.tok) if (w.startsWith(qt)) cand(p.lang === lang ? 26 : 19, { syn: p.raw });
+    for (const f of x.fields) {
+      // a field name points to its "home" table first: the one where it is a key of master data
+      if (f.lc === qt) cand(18 + (f.key ? 10 : 0) + (x.t.kind === 'master' ? 8 : 0), { field: f.name });
+      else if (qt.length >= 3 && f.labels.some((ws) => ws.some((w) => w.startsWith(qt)))) cand(7, { field: f.name });
+    }
+    if (best.score === 0 && qt.length >= 4) {
+      const max = qt.length >= 8 ? 2 : 1;
+      const near = (w: string) =>
+        osa(qt, w, max) <= max || (w.length > qt.length && osa(qt, w.slice(0, qt.length), max) <= max);
+      if (x.titles.some((p) => p.tok.some(near))) cand(16);
+      else if (x.words.some(near)) cand(12);
+    }
+    if (best.score > 0) {
+      matched++;
+      total += best.score;
+      if (best.via && best.score > viaScore) {
+        via = best.via;
+        viaScore = best.score;
+      }
+    }
+  }
+  if (full.length >= 3 && (x.syns.some((p) => p.n.includes(full)) || x.titles.some((p) => p.n.includes(full)))) total += 25;
+  return { total, matched, via };
+}
+
+/**
+ * Ranks tables for a query written in business language or as a table/field name.
+ * Every word must match; when nothing matches every word, tables matching some of them are returned as partial.
+ */
+export function search(entries: Entry[], query: string, lang: Lang, area = ''): SearchResult {
+  const pool = area ? entries.filter((x) => x.t.area === area) : entries;
+  const raw = tokenize(query);
+  if (!raw.length) return { hits: pool.map((x) => ({ t: x.t, via: null })), partial: false };
+  let words = raw.filter((w) => !STOP.has(w));
+  if (!words.length) words = raw;
+  const full = norm(query).trim();
+  const scored = pool.map((x) => ({ x, ...scoreEntry(x, words, full, lang) }));
+  // ties go to tables with editorial content, which are the commonly used ones
+  const tie = (a: (typeof scored)[number], b: (typeof scored)[number]) => b.x.t.p - a.x.t.p || a.x.order - b.x.order;
+  const toHit = (r: (typeof scored)[number]): Hit => ({ t: r.x.t, via: r.via });
+  const all = scored.filter((r) => r.matched === words.length).sort((a, b) => b.total - a.total || tie(a, b));
+  if (all.length) return { hits: all.map(toHit), partial: false };
+  const some = scored
+    .filter((r) => r.matched > 0)
+    .sort((a, b) => b.matched - a.matched || b.total - a.total || tie(a, b));
+  return { hits: some.map(toHit), partial: some.length > 0 };
+}

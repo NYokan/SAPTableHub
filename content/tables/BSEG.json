@@ -1,0 +1,94 @@
+{
+  "id": "BSEG",
+  "area": "fin",
+  "contents": "items",
+  "category": "CLUSTER",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Documentos contables (posiciones)",
+    "en": "Accounting documents (items)",
+    "pt": "Documentos contábeis (itens)"
+  },
+  "purpose": {
+    "es": "Una fila por cada línea de un asiento: cuenta de mayor, importe, si va al debe o al haber, y el cliente o proveedor asociado.",
+    "en": "One row per line of an accounting entry: ledger account, amount, whether it is a debit or a credit, and the related customer or vendor.",
+    "pt": "Uma linha por item de um lançamento: conta do razão, montante, se é débito ou crédito, e o cliente ou fornecedor associado."
+  },
+  "synonyms": {
+    "es": [
+      "línea de asiento",
+      "cuenta contable",
+      "debe haber",
+      "importe contable",
+      "partida"
+    ],
+    "en": [
+      "accounting line",
+      "ledger account",
+      "debit credit",
+      "accounting amount",
+      "line item"
+    ],
+    "pt": [
+      "item do lançamento",
+      "conta contábil",
+      "débito crédito",
+      "montante contábil",
+      "partida"
+    ]
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "BUKRS",
+      "key": true
+    },
+    {
+      "name": "BELNR",
+      "key": true
+    },
+    {
+      "name": "GJAHR",
+      "key": true
+    },
+    {
+      "name": "BUZEI",
+      "key": true
+    },
+    {
+      "name": "HKONT"
+    },
+    {
+      "name": "DMBTR"
+    },
+    {
+      "name": "SHKZG"
+    },
+    {
+      "name": "KUNNR"
+    },
+    {
+      "name": "LIFNR"
+    }
+  ],
+  "relations": [
+    {
+      "table": "BKPF",
+      "type": "header",
+      "on": "BUKRS + BELNR + GJAHR"
+    },
+    {
+      "table": "KNA1",
+      "type": "master",
+      "on": "KUNNR"
+    },
+    {
+      "table": "LFA1",
+      "type": "master",
+      "on": "LIFNR"
+    }
+  ]
+}

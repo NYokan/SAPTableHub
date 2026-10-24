@@ -1,0 +1,12 @@
+{
+  "id": "BSAK",
+  "area": "fin",
+  "contents": "doc",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Proveedores: partidas compensadas",
+    "en": "Vendors: cleared items",
+    "pt": "Fornecedores: partidas compensadas"
+  }
+}

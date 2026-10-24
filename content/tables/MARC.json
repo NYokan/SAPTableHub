@@ -1,0 +1,69 @@
+{
+  "id": "MARC",
+  "area": "mat",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Materiales por centro",
+    "en": "Materials by plant",
+    "pt": "Materiais por centro"
+  },
+  "purpose": {
+    "es": "Datos de cada material en cada centro: planificación de necesidades, grupo de compras y más. Una fila por material y centro.",
+    "en": "Data of each material in each plant: requirements planning, purchasing group and more. One row per material and plant.",
+    "pt": "Dados de cada material em cada centro: planejamento de necessidades, grupo de compradores e mais. Uma linha por material e centro."
+  },
+  "synonyms": {
+    "es": [
+      "datos de planta",
+      "material por centro",
+      "planificación",
+      "mrp"
+    ],
+    "en": [
+      "plant data",
+      "material by plant",
+      "planning",
+      "mrp"
+    ],
+    "pt": [
+      "dados do centro",
+      "material por centro",
+      "planejamento",
+      "mrp"
+    ]
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "MATNR",
+      "key": true
+    },
+    {
+      "name": "WERKS",
+      "key": true
+    },
+    {
+      "name": "DISMM"
+    },
+    {
+      "name": "EKGRP"
+    }
+  ],
+  "relations": [
+    {
+      "table": "MARA",
+      "type": "master",
+      "on": "MATNR"
+    },
+    {
+      "table": "MARD",
+      "type": "rel",
+      "on": "MATNR + WERKS"
+    }
+  ]
+}

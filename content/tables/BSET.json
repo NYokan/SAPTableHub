@@ -1,0 +1,12 @@
+{
+  "id": "BSET",
+  "area": "fin",
+  "contents": "doc",
+  "category": "CLUSTER",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Documentos contables: datos de impuestos",
+    "en": "Accounting documents: tax data",
+    "pt": "Documentos contábeis: dados de impostos"
+  }
+}

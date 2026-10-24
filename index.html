@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+    <title>SAPTableHub</title>
+    <meta name="description" content="Listado de tablas estándar de SAP ERP en español, inglés y portugués, con explicaciones en lenguaje llano.">
+    <meta name="theme-color" content="#f4f6f3" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#0f1513" media="(prefers-color-scheme: dark)">
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+    <script>
+      // apply a saved theme before the first paint, so the page does not flash
+      try {
+        var th = localStorage.getItem('sth-theme');
+        if (th === 'light' || th === 'dark') document.documentElement.setAttribute('data-theme', th);
+      } catch (e) {}
+    </script>
+  </head>
+  <body>
+    <div class="app">
+      <header class="hdr">
+        <div class="hdr-in wrap">
+          <a class="brand" href="/" data-link data-nav="catalog" aria-label="SAPTableHub">
+            <svg class="i mark" viewBox="0 0 24 24" width="24" height="24" fill="currentColor" aria-hidden="true"><rect x="3" y="3" width="8" height="8" rx="2"/><rect x="13" y="3" width="8" height="8" rx="2" opacity=".5"/><rect x="3" y="13" width="8" height="8" rx="2" opacity=".5"/><rect x="13" y="13" width="8" height="8" rx="2"/></svg>
+            <span>SAPTableHub</span>
+          </a>
+          <span class="tag beta" data-i="beta">Beta</span>
+          <nav class="tabs" aria-label="SAPTableHub">
+            <a id="tab-c" href="/" data-link data-nav="catalog" data-i="navCatalog">Listado</a>
+            <a id="tab-s" href="/" data-link data-nav="search" data-i="navSearch">Buscar</a>
+          </nav>
+          <div class="hdr-r">
+            <label class="sel"><span class="vh" data-i="lang">Idioma</span>
+              <select id="lang">
+                <option value="es">ES · Español</option>
+                <option value="en">EN · English</option>
+                <option value="pt">PT · Português</option>
+              </select>
+            </label>
+            <button type="button" class="icon-btn" id="themebtn" data-act="theme" data-al="theme"></button>
+            <a class="btn ghost list-btn" href="/" data-link data-nav="selection"><span id="ic-sel-h"></span><span data-i="mySelection">Mi selección</span><span class="count zero" id="cnt-h">0</span></a>
+          </div>
+        </div>
+      </header>
+
+      <main class="wrap view" id="view" tabindex="-1"><p class="loading muted" data-i="loading">Cargando…</p></main>
+
+      <footer class="wrap foot"><span data-i="dataNote"></span><span data-i="foot"></span></footer>
+
+      <nav class="bnav" aria-label="SAPTableHub">
+        <a id="nav-c" href="/" data-link data-nav="catalog"><span id="ic-nav-c"></span><span data-i="navCatalog">Listado</span></a>
+        <a id="nav-s" href="/" data-link data-nav="search"><span id="ic-nav-s"></span><span data-i="navSearch">Buscar</span></a>
+        <a id="nav-l" href="/" data-link data-nav="selection"><span id="ic-nav-l"></span><span data-i="mySelection">Mi selección</span><span class="count zero" id="cnt-n">0</span></a>
+      </nav>
+      <div class="toast" id="toast" role="status" aria-live="polite"></div>
+    </div>
+    <noscript>SAPTableHub necesita JavaScript. SAPTableHub needs JavaScript. O SAPTableHub precisa de JavaScript.</noscript>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

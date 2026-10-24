@@ -1,0 +1,68 @@
+{
+  "id": "MARD",
+  "area": "mat",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Stock por almacén",
+    "en": "Stock by storage location",
+    "pt": "Estoque por depósito"
+  },
+  "purpose": {
+    "es": "Cantidad de cada material disponible en cada almacén de un centro. Una fila por material, centro y almacén.",
+    "en": "Quantity of each material available in each storage location of a plant. One row per material, plant and storage location.",
+    "pt": "Quantidade de cada material disponível em cada depósito de um centro. Uma linha por material, centro e depósito."
+  },
+  "synonyms": {
+    "es": [
+      "stock",
+      "inventario",
+      "existencias",
+      "saldo de almacén",
+      "disponible"
+    ],
+    "en": [
+      "stock",
+      "inventory",
+      "on hand",
+      "warehouse stock",
+      "available quantity"
+    ],
+    "pt": [
+      "estoque",
+      "inventário",
+      "saldo em estoque",
+      "depósito",
+      "disponível"
+    ]
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "MATNR",
+      "key": true
+    },
+    {
+      "name": "WERKS",
+      "key": true
+    },
+    {
+      "name": "LGORT",
+      "key": true
+    },
+    {
+      "name": "LABST"
+    }
+  ],
+  "relations": [
+    {
+      "table": "MARC",
+      "type": "master",
+      "on": "MATNR + WERKS"
+    }
+  ]
+}

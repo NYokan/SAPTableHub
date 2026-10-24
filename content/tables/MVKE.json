@@ -1,0 +1,12 @@
+{
+  "id": "MVKE",
+  "area": "mat",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Materiales: datos de ventas",
+    "en": "Materials: sales data",
+    "pt": "Materiais: dados de vendas"
+  }
+}

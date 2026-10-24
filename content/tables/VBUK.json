@@ -1,0 +1,12 @@
+{
+  "id": "VBUK",
+  "area": "sales",
+  "contents": "header",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Documentos de ventas: estado de cabecera",
+    "en": "Sales documents: header status",
+    "pt": "Documentos de vendas: status do cabeçalho"
+  }
+}
