@@ -1,0 +1,41 @@
+{
+  "id": "AFVV",
+  "area": "pp",
+  "contents": "items",
+  "component": "PP-SFC",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Operaciones de órdenes (cantidades, fechas y tiempos)",
+    "en": "Order operations (quantities, dates and times)",
+    "pt": "Operações de ordens (quantidades, datas e tempos)"
+  },
+  "purpose": {
+    "es": "Las cifras de cada operación de orden: tiempos de preparación y de máquina, cantidades previstas y notificadas, y fechas programadas y reales. Comparte clave con AFVC.",
+    "en": "The figures for each order operation: setup and machine times, planned and confirmed quantities, and scheduled and actual dates. It shares its key with AFVC.",
+    "pt": "Os números de cada operação da ordem: tempos de preparação e de máquina, quantidades previstas e confirmadas, e datas programadas e reais. Compartilha a chave com a AFVC."
+  },
+  "synonyms": {
+    "es": [
+      "tiempo de máquina",
+      "tiempo de preparación",
+      "fechas de operación",
+      "cantidad notificada",
+      "tiempos de fabricación"
+    ],
+    "en": [
+      "machine time",
+      "setup time",
+      "operation dates",
+      "confirmed quantity",
+      "processing time"
+    ],
+    "pt": [
+      "tempo de máquina",
+      "tempo de preparação",
+      "datas da operação",
+      "quantidade confirmada",
+      "tempos de produção"
+    ]
+  }
+}

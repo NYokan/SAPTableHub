@@ -1,0 +1,13 @@
+{
+  "id": "KBED",
+  "area": "pp",
+  "contents": "doc",
+  "component": "PP-CRP-SCH",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Necesidades de capacidad (detalle)",
+    "en": "Capacity requirements (detail)",
+    "pt": "Necessidades de capacidade (detalhe)"
+  }
+}

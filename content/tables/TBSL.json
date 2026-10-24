@@ -1,0 +1,40 @@
+{
+  "id": "TBSL",
+  "area": "fin",
+  "contents": "config",
+  "component": "FI-AP-AP-B",
+  "category": "TRANSP",
+  "title": {
+    "es": "Claves de contabilización",
+    "en": "Posting keys",
+    "pt": "Chaves de lançamento"
+  },
+  "purpose": {
+    "es": "Las claves de contabilización que indican en cada posición si es debe o haber y a qué tipo de cuenta va (cliente, proveedor, mayor, activo). Por ejemplo, 40 es debe en mayor y 50 haber en mayor.",
+    "en": "The posting keys that tell, for each line item, whether it is a debit or credit and which account type it goes to (customer, vendor, G/L, asset). For example, 40 is a G/L debit and 50 a G/L credit.",
+    "pt": "As chaves de lançamento que indicam em cada item se é débito ou crédito e para que tipo de conta vai (cliente, fornecedor, razão, ativo). Por exemplo, 40 é débito no razão e 50 crédito no razão."
+  },
+  "synonyms": {
+    "es": [
+      "clave de contabilización",
+      "debe y haber",
+      "BSCHL",
+      "tipo de cuenta",
+      "clave contable"
+    ],
+    "en": [
+      "posting key",
+      "debit and credit",
+      "BSCHL",
+      "account type",
+      "posting code"
+    ],
+    "pt": [
+      "chave de lançamento",
+      "débito e crédito",
+      "BSCHL",
+      "tipo de conta",
+      "código de lançamento"
+    ]
+  }
+}

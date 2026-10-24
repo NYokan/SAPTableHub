@@ -1,0 +1,40 @@
+{
+  "id": "MCHA",
+  "area": "mat",
+  "contents": "master",
+  "component": "LO-BM-MD",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Lotes (nivel centro)",
+    "en": "Batches (plant level)",
+    "pt": "Lotes (nível centro)"
+  },
+  "purpose": {
+    "es": "Una fila por lote y centro. Contiene los datos del lote en cada centro, como su estado, la fecha de entrada y la clase de valoración cuando el lote se valora por separado. El stock del lote por almacén está en MCHB.",
+    "en": "One row per batch and plant. It contains the batch data in each plant, such as its status, receipt date and valuation type when the batch is valuated separately. Batch stock per storage location is in MCHB.",
+    "pt": "Uma linha por lote e centro. Contém os dados do lote em cada centro, como seu status, a data de entrada e o tipo de avaliação quando o lote é avaliado separadamente. O estoque do lote por depósito está na MCHB."
+  },
+  "synonyms": {
+    "es": [
+      "lote",
+      "lote por centro",
+      "estado del lote",
+      "partida",
+      "fecha de entrada"
+    ],
+    "en": [
+      "batch",
+      "batch per plant",
+      "batch status",
+      "lot",
+      "receipt date"
+    ],
+    "pt": [
+      "lote",
+      "lote por centro",
+      "status do lote",
+      "data de entrada"
+    ]
+  }
+}

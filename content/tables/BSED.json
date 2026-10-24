@@ -1,0 +1,13 @@
+{
+  "id": "BSED",
+  "area": "fin",
+  "contents": "doc",
+  "component": "FI",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Documentos contables: datos de letras de cambio",
+    "en": "Accounting documents: bill of exchange data",
+    "pt": "Documentos contábeis: dados de letras de câmbio"
+  }
+}

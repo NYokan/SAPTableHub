@@ -1,0 +1,12 @@
+{
+  "id": "STAS",
+  "area": "pp",
+  "contents": "items",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Listas de materiales: selección de posiciones por alternativa",
+    "en": "Bills of material: item selection per alternative",
+    "pt": "Listas técnicas: seleção de itens por alternativa"
+  }
+}

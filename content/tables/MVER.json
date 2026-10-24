@@ -1,0 +1,12 @@
+{
+  "id": "MVER",
+  "area": "mat",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Materiales: consumos por centro",
+    "en": "Materials: consumption by plant",
+    "pt": "Materiais: consumos por centro"
+  }
+}

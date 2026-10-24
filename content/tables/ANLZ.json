@@ -1,0 +1,37 @@
+{
+  "id": "ANLZ",
+  "area": "fin",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Activos fijos: asignaciones por período",
+    "en": "Fixed assets: time-dependent assignments",
+    "pt": "Ativos fixos: atribuições por período"
+  },
+  "purpose": {
+    "es": "Las asignaciones de cada activo fijo que pueden cambiar con el tiempo, con su período de validez: centro de coste, división, centro, ubicación o responsable.",
+    "en": "The assignments of each fixed asset that can change over time, with their validity period: cost center, business area, plant, location or person responsible.",
+    "pt": "As atribuições de cada ativo fixo que podem mudar com o tempo, com seu período de validade: centro de custo, divisão, centro, localização ou responsável."
+  },
+  "synonyms": {
+    "es": [
+      "centro de coste del activo",
+      "ubicación del activo",
+      "asignación de activo",
+      "responsable del activo"
+    ],
+    "en": [
+      "asset cost center",
+      "asset location",
+      "asset assignment",
+      "asset owner"
+    ],
+    "pt": [
+      "centro de custo do ativo",
+      "localização do ativo",
+      "atribuição do ativo",
+      "responsável pelo ativo"
+    ]
+  }
+}

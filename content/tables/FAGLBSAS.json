@@ -1,0 +1,12 @@
+{
+  "id": "FAGLBSAS",
+  "area": "fin",
+  "contents": "doc",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Nuevo mayor: partidas compensadas de cuentas de mayor",
+    "en": "New G/L: cleared items of G/L accounts",
+    "pt": "Novo razão: partidas compensadas de contas do razão"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "id": "IFLOT",
+  "area": "pm",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Ubicaciones técnicas (datos generales)",
+    "en": "Functional locations (general data)",
+    "pt": "Locais de instalação (dados gerais)"
+  },
+  "purpose": {
+    "es": "Una fila por cada ubicación técnica: un lugar de la planta organizado en jerarquía, como una línea, un área o un edificio, donde se montan equipos. Guarda su código, clase y ubicación superior.",
+    "en": "One row per functional location: a place in the plant organized in a hierarchy, such as a line, an area or a building, where equipment is installed. It holds its code, category and superior location.",
+    "pt": "Uma linha por local de instalação: um lugar da planta organizado em hierarquia, como uma linha, uma área ou um prédio, onde se instalam equipamentos. Guarda seu código, categoria e local superior."
+  },
+  "synonyms": {
+    "es": [
+      "ubicación técnica",
+      "jerarquía de planta",
+      "línea",
+      "área",
+      "instalación",
+      "sistema"
+    ],
+    "en": [
+      "functional location",
+      "plant hierarchy",
+      "line",
+      "area",
+      "installation",
+      "system"
+    ],
+    "pt": [
+      "local de instalação",
+      "hierarquia da planta",
+      "linha",
+      "área",
+      "instalação",
+      "sistema"
+    ]
+  }
+}

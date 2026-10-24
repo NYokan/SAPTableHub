@@ -1,0 +1,34 @@
+{
+  "id": "RPSQT",
+  "area": "ps",
+  "contents": "doc",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Totales de proyecto (cantidades)",
+    "en": "Project totals (quantities)",
+    "pt": "Totais de projeto (quantidades)"
+  },
+  "purpose": {
+    "es": "Totales de cantidades del proyecto, como horas o unidades, por objeto, periodo y año. Complementa los importes de RPSCO.",
+    "en": "Project quantity totals, such as hours or units, by object, period and year. It complements the amounts in RPSCO.",
+    "pt": "Totais de quantidades do projeto, como horas ou unidades, por objeto, período e ano. Complementa os valores da RPSCO."
+  },
+  "synonyms": {
+    "es": [
+      "cantidades de proyecto",
+      "horas de proyecto",
+      "totales de cantidades"
+    ],
+    "en": [
+      "project quantities",
+      "project hours",
+      "quantity totals"
+    ],
+    "pt": [
+      "quantidades do projeto",
+      "horas do projeto",
+      "totais de quantidades"
+    ]
+  }
+}

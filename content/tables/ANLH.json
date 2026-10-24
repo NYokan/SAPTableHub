@@ -1,0 +1,12 @@
+{
+  "id": "ANLH",
+  "area": "fin",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Activos fijos: número principal",
+    "en": "Fixed assets: main asset number",
+    "pt": "Ativos fixos: número principal"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "id": "QMEL",
+  "area": "qm",
+  "contents": "header",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Avisos (cabecera)",
+    "en": "Notifications (header)",
+    "pt": "Notas (cabeçalho)"
+  },
+  "purpose": {
+    "es": "Una fila por cada aviso: reclamaciones de clientes, reclamaciones a proveedores, problemas internos de calidad y avisos de mantenimiento. Guarda la clase de aviso, el material, el cliente o proveedor, las fechas y el estado.",
+    "en": "One row per notification: customer complaints, vendor complaints, internal quality problems and maintenance notifications. It holds the notification type, material, customer or vendor, dates and status.",
+    "pt": "Uma linha por nota: reclamações de clientes, reclamações a fornecedores, problemas internos de qualidade e notas de manutenção. Guarda o tipo de nota, o material, o cliente ou fornecedor, as datas e o status."
+  },
+  "synonyms": {
+    "es": [
+      "aviso de calidad",
+      "reclamación",
+      "queja de cliente",
+      "no conformidad",
+      "aviso de mantenimiento",
+      "incidencia"
+    ],
+    "en": [
+      "quality notification",
+      "complaint",
+      "customer complaint",
+      "nonconformance",
+      "maintenance notification",
+      "issue"
+    ],
+    "pt": [
+      "nota de qualidade",
+      "reclamação",
+      "não conformidade",
+      "nota de manutenção",
+      "ocorrência"
+    ]
+  }
+}

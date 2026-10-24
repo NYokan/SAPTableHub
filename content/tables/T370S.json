@@ -1,0 +1,12 @@
+{
+  "id": "T370S",
+  "area": "pm",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Indicadores de estructura de ubicaciones técnicas",
+    "en": "Functional location structure indicators",
+    "pt": "Indicadores de estrutura de locais de instalação"
+  }
+}

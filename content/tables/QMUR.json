@@ -1,0 +1,37 @@
+{
+  "id": "QMUR",
+  "area": "qm",
+  "contents": "items",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Avisos: causas",
+    "en": "Notifications: causes",
+    "pt": "Notas: causas"
+  },
+  "purpose": {
+    "es": "Las causas identificadas para cada defecto de un aviso, con su código de catálogo y texto. Sirve para análisis de causa raíz.",
+    "en": "The causes identified for each defect of a notification, with catalog code and text. It is used for root cause analysis.",
+    "pt": "As causas identificadas para cada defeito de uma nota, com código de catálogo e texto. Serve para análise de causa raiz."
+  },
+  "synonyms": {
+    "es": [
+      "causa",
+      "causa raíz",
+      "motivo del defecto",
+      "análisis de causa"
+    ],
+    "en": [
+      "cause",
+      "root cause",
+      "defect reason",
+      "cause analysis"
+    ],
+    "pt": [
+      "causa",
+      "causa raiz",
+      "motivo do defeito",
+      "análise de causa"
+    ]
+  }
+}

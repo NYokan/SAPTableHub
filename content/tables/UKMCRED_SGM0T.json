@@ -1,0 +1,12 @@
+{
+  "id": "UKMCRED_SGM0T",
+  "area": "fin",
+  "contents": "text",
+  "component": "FIN-FSCM-CR-CR",
+  "category": "TRANSP",
+  "title": {
+    "es": "Gestión de créditos SAP: textos de segmentos de crédito",
+    "en": "SAP Credit Management: credit segment texts",
+    "pt": "Gestão de crédito SAP: textos de segmentos de crédito"
+  }
+}

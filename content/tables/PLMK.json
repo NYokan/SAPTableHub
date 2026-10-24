@@ -1,0 +1,12 @@
+{
+  "id": "PLMK",
+  "area": "qm",
+  "contents": "items",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Planes de inspección: características",
+    "en": "Inspection plans: characteristics",
+    "pt": "Planos de inspeção: características"
+  }
+}

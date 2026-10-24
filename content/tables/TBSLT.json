@@ -1,0 +1,11 @@
+{
+  "id": "TBSLT",
+  "area": "fin",
+  "contents": "text",
+  "category": "TRANSP",
+  "title": {
+    "es": "Claves de contabilización: textos",
+    "en": "Posting keys: texts",
+    "pt": "Chaves de lançamento: textos"
+  }
+}

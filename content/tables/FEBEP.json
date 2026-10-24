@@ -1,0 +1,40 @@
+{
+  "id": "FEBEP",
+  "area": "fin",
+  "contents": "items",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Extractos bancarios electrónicos: movimientos",
+    "en": "Electronic bank statements: line items",
+    "pt": "Extratos bancários eletrônicos: movimentos"
+  },
+  "purpose": {
+    "es": "Cada movimiento de un extracto bancario: importe, fecha valor, código de operación, referencias y el documento contable que generó. Se une a FEBKO por la clave del extracto.",
+    "en": "Each line of a bank statement: amount, value date, transaction code, references and the accounting document it created. It joins FEBKO by the statement key.",
+    "pt": "Cada movimento de um extrato bancário: valor, data valor, código da operação, referências e o documento contábil gerado. Liga-se à FEBKO pela chave do extrato."
+  },
+  "synonyms": {
+    "es": [
+      "movimientos bancarios",
+      "extracto bancario",
+      "conciliación bancaria",
+      "abonos y cargos",
+      "cartola bancaria"
+    ],
+    "en": [
+      "bank transactions",
+      "bank statement lines",
+      "bank reconciliation",
+      "credits and debits",
+      "statement items"
+    ],
+    "pt": [
+      "movimentos bancários",
+      "extrato bancário",
+      "conciliação bancária",
+      "créditos e débitos",
+      "itens do extrato"
+    ]
+  }
+}

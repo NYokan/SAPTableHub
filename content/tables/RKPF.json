@@ -1,0 +1,12 @@
+{
+  "id": "RKPF",
+  "area": "mat",
+  "contents": "header",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Reservas (cabecera)",
+    "en": "Reservations (header)",
+    "pt": "Reservas (cabeçalho)"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "VBSEGK",
+  "area": "fin",
+  "contents": "items",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Documentos preliminares: posiciones de proveedor",
+    "en": "Parked documents: vendor items",
+    "pt": "Documentos pré-editados: itens de fornecedor"
+  }
+}

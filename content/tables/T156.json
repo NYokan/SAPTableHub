@@ -1,0 +1,38 @@
+{
+  "id": "T156",
+  "area": "mat",
+  "contents": "config",
+  "component": "MM-IM",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Clases de movimiento",
+    "en": "Movement types",
+    "pt": "Tipos de movimento"
+  },
+  "purpose": {
+    "es": "Lista de clases de movimiento (101, 201, 261, 311, 601…) que se usan para clasificar cada movimiento de mercancías, con sus parámetros de control. Sirve para entender qué tipo de entrada, salida o traspaso es cada línea de MSEG o MATDOC. Los nombres están en T156T.",
+    "en": "List of movement types (101, 201, 261, 311, 601…) used to classify each goods movement, with their control settings. Use it to understand what kind of receipt, issue or transfer each line in MSEG or MATDOC is. The names are in T156T.",
+    "pt": "Lista de tipos de movimento (101, 201, 261, 311, 601…) usados para classificar cada movimento de mercadorias, com seus parâmetros de controle. Serve para entender que tipo de entrada, saída ou transferência é cada linha da MSEG ou MATDOC. Os nomes estão na T156T."
+  },
+  "synonyms": {
+    "es": [
+      "clase de movimiento",
+      "tipo de movimiento",
+      "BWART",
+      "movimiento 101",
+      "código de movimiento"
+    ],
+    "en": [
+      "movement type",
+      "BWART",
+      "goods movement type",
+      "movement code"
+    ],
+    "pt": [
+      "tipo de movimento",
+      "BWART",
+      "código de movimento"
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "TWEW",
+  "area": "mat",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Grupos de artículos externos",
+    "en": "External material groups",
+    "pt": "Grupos de mercadorias externos"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "BUT020",
+  "area": "gen",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Socios de negocio (direcciones)",
+    "en": "Business partners (addresses)",
+    "pt": "Parceiros de negócios (endereços)"
+  }
+}

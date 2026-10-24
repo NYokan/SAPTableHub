@@ -1,0 +1,12 @@
+{
+  "id": "ADCP",
+  "area": "gen",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Asignación de personas a direcciones",
+    "en": "Person to address assignments",
+    "pt": "Atribuição de pessoas a endereços"
+  }
+}

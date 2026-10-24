@@ -1,0 +1,12 @@
+{
+  "id": "T416",
+  "area": "pp",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Utilizaciones de listas de materiales",
+    "en": "Bill of material usages",
+    "pt": "Utilizações de listas técnicas"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "CRCO",
+  "area": "pp",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Puestos de trabajo: asignación a centros de coste",
+    "en": "Work centers: cost center assignment",
+    "pt": "Centros de trabalho: atribuição a centros de custo"
+  }
+}

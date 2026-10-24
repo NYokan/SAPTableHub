@@ -1,0 +1,37 @@
+{
+  "id": "PRHI",
+  "area": "ps",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Elementos PEP (jerarquía)",
+    "en": "WBS elements (hierarchy)",
+    "pt": "Elementos PEP (hierarquia)"
+  },
+  "purpose": {
+    "es": "Dice cómo se ordenan los elementos PEP dentro del proyecto: cuál es el superior, el primero de abajo y los vecinos de cada uno. Sirve para reconstruir el árbol del proyecto.",
+    "en": "It tells how WBS elements are arranged in the project: the superior, the first one below and the neighbours of each. It is used to rebuild the project tree.",
+    "pt": "Indica como os elementos PEP se organizam no projeto: o superior, o primeiro abaixo e os vizinhos de cada um. Serve para reconstruir a árvore do projeto."
+  },
+  "synonyms": {
+    "es": [
+      "jerarquía de proyecto",
+      "árbol PEP",
+      "estructura",
+      "nivel superior"
+    ],
+    "en": [
+      "project hierarchy",
+      "WBS tree",
+      "structure",
+      "parent element"
+    ],
+    "pt": [
+      "hierarquia do projeto",
+      "árvore PEP",
+      "estrutura",
+      "nível superior"
+    ]
+  }
+}

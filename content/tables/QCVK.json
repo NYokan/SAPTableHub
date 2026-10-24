@@ -1,0 +1,11 @@
+{
+  "id": "QCVK",
+  "area": "qm",
+  "contents": "master",
+  "category": "TRANSP",
+  "title": {
+    "es": "Perfiles de certificado (cabecera)",
+    "en": "Certificate profiles (header)",
+    "pt": "Perfis de certificado (cabeçalho)"
+  }
+}

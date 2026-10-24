@@ -1,0 +1,12 @@
+{
+  "id": "T418T",
+  "area": "pp",
+  "contents": "text",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Tipos de posición de listas de materiales (descripciones)",
+    "en": "Bill of material item categories (descriptions)",
+    "pt": "Categorias de item de listas técnicas (descrições)"
+  }
+}

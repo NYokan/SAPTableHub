@@ -1,0 +1,13 @@
+{
+  "id": "LTBP",
+  "area": "mat",
+  "contents": "items",
+  "component": "LE-WM",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Necesidades de transporte WM (posiciones)",
+    "en": "WM transfer requirements (items)",
+    "pt": "Necessidades de transferência WM (itens)"
+  }
+}

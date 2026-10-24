@@ -1,0 +1,12 @@
+{
+  "id": "TIBAN",
+  "area": "gen",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Números IBAN",
+    "en": "IBAN numbers",
+    "pt": "Números IBAN"
+  }
+}

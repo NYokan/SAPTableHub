@@ -1,0 +1,12 @@
+{
+  "id": "KAKT",
+  "area": "pp",
+  "contents": "text",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Capacidades (descripciones)",
+    "en": "Capacities (descriptions)",
+    "pt": "Capacidades (descrições)"
+  }
+}

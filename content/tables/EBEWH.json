@@ -1,0 +1,12 @@
+{
+  "id": "EBEWH",
+  "area": "mat",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Valoración de stock de pedido de cliente (histórico)",
+    "en": "Sales order stock valuation (history)",
+    "pt": "Avaliação do estoque de ordem do cliente (histórico)"
+  }
+}

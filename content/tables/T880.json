@@ -1,0 +1,12 @@
+{
+  "id": "T880",
+  "area": "fin",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Sociedades GL asociadas",
+    "en": "Trading partners (companies)",
+    "pt": "Sociedades parceiras"
+  }
+}

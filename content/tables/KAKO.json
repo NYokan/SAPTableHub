@@ -1,0 +1,40 @@
+{
+  "id": "KAKO",
+  "area": "pp",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Capacidades (cabecera)",
+    "en": "Capacities (header)",
+    "pt": "Capacidades (cabeçalho)"
+  },
+  "purpose": {
+    "es": "Cada capacidad disponible de un puesto de trabajo (máquinas, mano de obra) con su calendario, horario de inicio y fin y utilización. Se usa para comparar carga con disponibilidad.",
+    "en": "Each available capacity of a work center (machines, labor) with its calendar, start and end times and utilization. It is used to compare load against availability.",
+    "pt": "Cada capacidade disponível de um centro de trabalho (máquinas, mão de obra) com seu calendário, horário de início e fim e utilização. Serve para comparar carga com disponibilidade."
+  },
+  "synonyms": {
+    "es": [
+      "capacidad",
+      "capacidad disponible",
+      "horas disponibles",
+      "turnos",
+      "utilización"
+    ],
+    "en": [
+      "capacity",
+      "available capacity",
+      "available hours",
+      "shifts",
+      "utilization"
+    ],
+    "pt": [
+      "capacidade",
+      "capacidade disponível",
+      "horas disponíveis",
+      "turnos",
+      "utilização"
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "CRFH",
+  "area": "pp",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Medios auxiliares de fabricación (maestro)",
+    "en": "Production resources/tools (master)",
+    "pt": "Recursos auxiliares de produção (mestre)"
+  }
+}

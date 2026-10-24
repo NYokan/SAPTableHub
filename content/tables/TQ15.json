@@ -1,0 +1,12 @@
+{
+  "id": "TQ15",
+  "area": "qm",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Tipos de catálogo",
+    "en": "Catalog types",
+    "pt": "Tipos de catálogo"
+  }
+}

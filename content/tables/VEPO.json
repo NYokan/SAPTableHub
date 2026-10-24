@@ -1,0 +1,38 @@
+{
+  "id": "VEPO",
+  "area": "mat",
+  "contents": "items",
+  "component": "LO-HU-BF",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Unidades de manipulación (contenido)",
+    "en": "Handling units (contents)",
+    "pt": "Unidades de manuseio (conteúdo)"
+  },
+  "purpose": {
+    "es": "Contenido de cada unidad de manipulación: una fila por material o HU que va dentro, con su cantidad, lote y unidad. Se une a VEKP por el identificador interno de la HU.",
+    "en": "Contents of each handling unit: one row per material or HU packed inside, with its quantity, batch and unit. It joins to VEKP on the internal HU identifier.",
+    "pt": "Conteúdo de cada unidade de manuseio: uma linha por material ou HU embalado dentro, com sua quantidade, lote e unidade. Liga-se à VEKP pelo identificador interno da HU."
+  },
+  "synonyms": {
+    "es": [
+      "contenido de HU",
+      "posición de HU",
+      "material embalado",
+      "embalaje"
+    ],
+    "en": [
+      "HU contents",
+      "HU item",
+      "packed material",
+      "packing item"
+    ],
+    "pt": [
+      "conteúdo da HU",
+      "item da HU",
+      "material embalado",
+      "embalagem"
+    ]
+  }
+}

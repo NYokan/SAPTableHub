@@ -1,0 +1,40 @@
+{
+  "id": "T074U",
+  "area": "fin",
+  "contents": "config",
+  "component": "FI",
+  "category": "TRANSP",
+  "title": {
+    "es": "Indicadores de mayor especial",
+    "en": "Special G/L indicators",
+    "pt": "Códigos de razão especial"
+  },
+  "purpose": {
+    "es": "Los indicadores de mayor especial, como anticipos, garantías o letras de cambio, que separan esas partidas de clientes y proveedores de las deudas normales. Sus nombres están en T074T.",
+    "en": "The special G/L indicators, such as down payments, guarantees or bills of exchange, that keep those customer and vendor items apart from normal receivables and payables. Their names are in T074T.",
+    "pt": "Os códigos de razão especial, como adiantamentos, garantias ou letras de câmbio, que separam essas partidas de clientes e fornecedores das dívidas normais. Seus nomes estão na T074T."
+  },
+  "synonyms": {
+    "es": [
+      "mayor especial",
+      "anticipo",
+      "garantía",
+      "UMSKZ",
+      "letra de cambio"
+    ],
+    "en": [
+      "special G/L",
+      "down payment",
+      "guarantee",
+      "UMSKZ",
+      "bill of exchange"
+    ],
+    "pt": [
+      "razão especial",
+      "adiantamento",
+      "garantia",
+      "UMSKZ",
+      "letra de câmbio"
+    ]
+  }
+}

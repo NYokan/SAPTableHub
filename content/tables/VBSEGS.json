@@ -1,0 +1,12 @@
+{
+  "id": "VBSEGS",
+  "area": "fin",
+  "contents": "items",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Documentos preliminares: posiciones de mayor",
+    "en": "Parked documents: G/L account items",
+    "pt": "Documentos pré-editados: itens do razão"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "PRST",
+  "area": "pp",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Listas de materiales de proyecto (elemento PEP)",
+    "en": "Project bills of material (WBS element)",
+    "pt": "Listas técnicas de projeto (elemento PEP)"
+  }
+}

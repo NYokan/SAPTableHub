@@ -1,0 +1,13 @@
+{
+  "id": "T303T",
+  "area": "mat",
+  "contents": "text",
+  "component": "LE-WM",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Tipos de ubicación (textos)",
+    "en": "Storage bin types (texts)",
+    "pt": "Tipos de posição (textos)"
+  }
+}

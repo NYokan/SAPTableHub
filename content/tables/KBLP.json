@@ -1,0 +1,13 @@
+{
+  "id": "KBLP",
+  "area": "fin",
+  "contents": "items",
+  "component": "FI-FM",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Compromisos de fondos: posiciones",
+    "en": "Earmarked funds: items",
+    "pt": "Compromissos de fundos: itens"
+  }
+}

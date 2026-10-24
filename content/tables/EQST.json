@@ -1,0 +1,12 @@
+{
+  "id": "EQST",
+  "area": "pm",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Asignación de listas de materiales a equipos",
+    "en": "Bill of material links to equipment",
+    "pt": "Atribuição de listas técnicas a equipamentos"
+  }
+}

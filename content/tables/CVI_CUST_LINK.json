@@ -1,0 +1,12 @@
+{
+  "id": "CVI_CUST_LINK",
+  "area": "gen",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Enlace entre socio de negocio y cliente",
+    "en": "Link between business partner and customer",
+    "pt": "Vínculo entre parceiro de negócios e cliente"
+  }
+}

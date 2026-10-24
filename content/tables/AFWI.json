@@ -1,0 +1,12 @@
+{
+  "id": "AFWI",
+  "area": "pp",
+  "contents": "doc",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Movimientos de mercancías contabilizados después de la notificación",
+    "en": "Goods movements posted after confirmation",
+    "pt": "Movimentos de mercadorias lançados após a confirmação"
+  }
+}

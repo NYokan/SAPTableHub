@@ -1,0 +1,36 @@
+{
+  "id": "MARDH",
+  "area": "mat",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Stock por almacén (histórico de periodos)",
+    "en": "Stock by storage location (period history)",
+    "pt": "Estoque por depósito (histórico de períodos)"
+  },
+  "purpose": {
+    "es": "Stock por almacén al cierre de periodos anteriores. Igual que MARD pero por periodo; solo hay fila cuando el stock cambió en el periodo siguiente.",
+    "en": "Stock by storage location at the close of past periods. Same as MARD but per period; a row exists only when stock changed in the following period.",
+    "pt": "Estoque por depósito no fechamento de períodos anteriores. Igual à MARD, mas por período; só há linha quando o estoque mudou no período seguinte."
+  },
+  "synonyms": {
+    "es": [
+      "stock histórico",
+      "stock a fin de mes",
+      "stock por periodo",
+      "existencias anteriores"
+    ],
+    "en": [
+      "stock history",
+      "month-end stock",
+      "stock by period",
+      "historical inventory"
+    ],
+    "pt": [
+      "estoque histórico",
+      "estoque no fim do mês",
+      "estoque por período"
+    ]
+  }
+}

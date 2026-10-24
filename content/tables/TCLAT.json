@@ -1,0 +1,12 @@
+{
+  "id": "TCLAT",
+  "area": "gen",
+  "contents": "text",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Tipos de clase (textos)",
+    "en": "Class types (texts)",
+    "pt": "Tipos de classe (textos)"
+  }
+}

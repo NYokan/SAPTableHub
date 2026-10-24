@@ -1,0 +1,13 @@
+{
+  "id": "MSLBH",
+  "area": "mat",
+  "contents": "master",
+  "component": "MM-IM-GF",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Stock especial en proveedor (histórico)",
+    "en": "Special stock at vendor (history)",
+    "pt": "Estoque especial no fornecedor (histórico)"
+  }
+}

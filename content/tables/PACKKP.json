@@ -1,0 +1,13 @@
+{
+  "id": "PACKKP",
+  "area": "mat",
+  "contents": "master",
+  "component": "LO-HU-MD",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Instrucciones de embalaje (cabecera)",
+    "en": "Packing instructions (header)",
+    "pt": "Instruções de embalagem (cabeçalho)"
+  }
+}

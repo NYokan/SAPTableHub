@@ -1,0 +1,13 @@
+{
+  "id": "TCURX",
+  "area": "gen",
+  "contents": "config",
+  "component": "BC-SRV-BSF-CUR",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Decimales por moneda",
+    "en": "Decimal places per currency",
+    "pt": "Casas decimais por moeda"
+  }
+}

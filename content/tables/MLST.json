@@ -1,0 +1,37 @@
+{
+  "id": "MLST",
+  "area": "ps",
+  "contents": "doc",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Hitos",
+    "en": "Milestones",
+    "pt": "Marcos"
+  },
+  "purpose": {
+    "es": "Una fila por cada hito de un elemento PEP o actividad de red: un evento clave del proyecto con su fecha planificada y real. Se usa también para facturar por hitos.",
+    "en": "One row per milestone of a WBS element or network activity: a key project event with its planned and actual date. It is also used for milestone billing.",
+    "pt": "Uma linha por marco de um elemento PEP ou atividade de rede: um evento-chave do projeto com sua data planejada e real. Também é usado para faturamento por marcos."
+  },
+  "synonyms": {
+    "es": [
+      "hito",
+      "evento de proyecto",
+      "facturación por hitos",
+      "entregable"
+    ],
+    "en": [
+      "milestone",
+      "project event",
+      "milestone billing",
+      "deliverable"
+    ],
+    "pt": [
+      "marco",
+      "evento do projeto",
+      "faturamento por marcos",
+      "entregável"
+    ]
+  }
+}

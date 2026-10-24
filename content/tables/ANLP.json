@@ -1,0 +1,12 @@
+{
+  "id": "ANLP",
+  "area": "fin",
+  "contents": "doc",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Activos fijos: amortización contabilizada por período",
+    "en": "Fixed assets: posted depreciation per period",
+    "pt": "Ativos fixos: depreciação lançada por período"
+  }
+}

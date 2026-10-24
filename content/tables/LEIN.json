@@ -1,0 +1,13 @@
+{
+  "id": "LEIN",
+  "area": "mat",
+  "contents": "master",
+  "component": "LE-WM",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Unidades de almacén",
+    "en": "Storage units",
+    "pt": "Unidades de depósito"
+  }
+}

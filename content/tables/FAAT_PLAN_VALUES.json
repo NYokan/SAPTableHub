@@ -1,0 +1,13 @@
+{
+  "id": "FAAT_PLAN_VALUES",
+  "area": "fin",
+  "contents": "doc",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "s4only": true,
+  "title": {
+    "es": "Activos fijos: amortización planificada por período (S/4HANA)",
+    "en": "Fixed assets: planned depreciation per period (S/4HANA)",
+    "pt": "Ativos fixos: depreciação planejada por período (S/4HANA)"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "FKKVK",
+  "area": "fin",
+  "contents": "master",
+  "component": "FI-CA",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Cuentas de contrato (cabecera)",
+    "en": "Contract accounts (header)",
+    "pt": "Contas de contrato (cabeçalho)"
+  }
+}

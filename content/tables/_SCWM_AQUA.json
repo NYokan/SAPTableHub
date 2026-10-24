@@ -1,0 +1,12 @@
+{
+  "id": "/SCWM/AQUA",
+  "area": "mat",
+  "contents": "master",
+  "category": "TRANSP",
+  "s4only": true,
+  "title": {
+    "es": "EWM: cuantos disponibles",
+    "en": "EWM: available quants",
+    "pt": "EWM: quantos disponíveis"
+  }
+}

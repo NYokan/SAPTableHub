@@ -1,0 +1,11 @@
+{
+  "id": "TABWG",
+  "area": "fin",
+  "contents": "config",
+  "category": "TRANSP",
+  "title": {
+    "es": "Activos fijos: grupos de clases de movimiento",
+    "en": "Fixed assets: transaction type groups",
+    "pt": "Ativos fixos: grupos de tipos de movimento"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "T014",
+  "area": "fin",
+  "contents": "config",
+  "component": "FI-AR-AR",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Áreas de control de créditos",
+    "en": "Credit control areas",
+    "pt": "Áreas de controle de crédito"
+  }
+}

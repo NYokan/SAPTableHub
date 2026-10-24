@@ -1,0 +1,37 @@
+{
+  "id": "MSPR",
+  "area": "mat",
+  "contents": "master",
+  "component": "MM-IM-GF",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Stock de proyecto",
+    "en": "Project stock",
+    "pt": "Estoque de projeto"
+  },
+  "purpose": {
+    "es": "Stock asignado a un elemento PEP de un proyecto (stock especial Q). Una fila por material, centro, almacén, lote y elemento PEP.",
+    "en": "Stock assigned to a WBS element of a project (special stock Q). One row per material, plant, storage location, batch and WBS element.",
+    "pt": "Estoque atribuído a um elemento PEP de um projeto (estoque especial Q). Uma linha por material, centro, depósito, lote e elemento PEP."
+  },
+  "synonyms": {
+    "es": [
+      "stock de proyecto",
+      "elemento PEP",
+      "stock especial Q",
+      "stock asignado a proyecto"
+    ],
+    "en": [
+      "project stock",
+      "WBS element",
+      "special stock Q",
+      "project inventory"
+    ],
+    "pt": [
+      "estoque de projeto",
+      "elemento PEP",
+      "estoque especial Q"
+    ]
+  }
+}

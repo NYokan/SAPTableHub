@@ -1,0 +1,40 @@
+{
+  "id": "MEAN",
+  "area": "mat",
+  "contents": "master",
+  "component": "LO-MD-MM",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Materiales: códigos EAN/GTIN",
+    "en": "Materials: EAN/GTIN codes",
+    "pt": "Materiais: códigos EAN/GTIN"
+  },
+  "purpose": {
+    "es": "Códigos EAN/GTIN de cada material y unidad de medida, cuando un material tiene varios códigos de barras. El código principal también está en MARA y MARM.",
+    "en": "EAN/GTIN codes for each material and unit of measure, when a material has several barcodes. The main code is also in MARA and MARM.",
+    "pt": "Códigos EAN/GTIN de cada material e unidade de medida, quando um material tem vários códigos de barras. O código principal também está na MARA e MARM."
+  },
+  "synonyms": {
+    "es": [
+      "código de barras",
+      "EAN",
+      "GTIN",
+      "UPC",
+      "código EAN"
+    ],
+    "en": [
+      "barcode",
+      "EAN",
+      "GTIN",
+      "UPC",
+      "EAN code"
+    ],
+    "pt": [
+      "código de barras",
+      "EAN",
+      "GTIN",
+      "UPC"
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "TFACS",
+  "area": "gen",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Calendarios de fábrica (días laborables por año)",
+    "en": "Factory calendars (working days by year)",
+    "pt": "Calendários de fábrica (dias úteis por ano)"
+  }
+}

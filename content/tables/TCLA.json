@@ -1,0 +1,12 @@
+{
+  "id": "TCLA",
+  "area": "gen",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Tipos de clase",
+    "en": "Class types",
+    "pt": "Tipos de classe"
+  }
+}

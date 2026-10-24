@@ -1,0 +1,12 @@
+{
+  "id": "SETNODE",
+  "area": "fin",
+  "contents": "master",
+  "component": "FI-SL-SL-MD-SE",
+  "category": "TRANSP",
+  "title": {
+    "es": "Grupos (sets): subgrupos",
+    "en": "Sets (groups): subgroups",
+    "pt": "Grupos (sets): subgrupos"
+  }
+}

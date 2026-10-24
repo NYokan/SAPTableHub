@@ -1,0 +1,12 @@
+{
+  "id": "T002",
+  "area": "gen",
+  "contents": "config",
+  "component": "BC-DOC-TTL",
+  "category": "TRANSP",
+  "title": {
+    "es": "Idiomas",
+    "en": "Languages",
+    "pt": "Idiomas"
+  }
+}

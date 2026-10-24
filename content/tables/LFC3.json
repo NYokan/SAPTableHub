@@ -1,0 +1,12 @@
+{
+  "id": "LFC3",
+  "area": "fin",
+  "contents": "doc",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Proveedores: cifras de operaciones especiales de mayor",
+    "en": "Vendors: special G/L transaction figures",
+    "pt": "Fornecedores: cifras de operações especiais do razão"
+  }
+}

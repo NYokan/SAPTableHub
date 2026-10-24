@@ -1,0 +1,11 @@
+{
+  "id": "PPH_DBVM",
+  "area": "pp",
+  "contents": "doc",
+  "s4only": true,
+  "title": {
+    "es": "Fichero de planificación de MRP Live",
+    "en": "MRP Live planning file entries",
+    "pt": "Arquivo de planejamento do MRP Live"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "MPLA",
+  "area": "pm",
+  "contents": "header",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Planes de mantenimiento",
+    "en": "Maintenance plans",
+    "pt": "Planos de manutenção"
+  },
+  "purpose": {
+    "es": "Una fila por cada plan de mantenimiento: el plan que genera órdenes o avisos de forma periódica. Guarda su tipo, estrategia y datos de programación. Lo que se mantiene está en MPOS.",
+    "en": "One row per maintenance plan: the plan that creates orders or notifications periodically. It holds its type, strategy and scheduling data. What gets maintained is in MPOS.",
+    "pt": "Uma linha por plano de manutenção: o plano que gera ordens ou notas periodicamente. Guarda seu tipo, estratégia e dados de programação. O que é mantido fica na MPOS."
+  },
+  "synonyms": {
+    "es": [
+      "plan de mantenimiento",
+      "mantenimiento preventivo",
+      "plan periódico",
+      "estrategia",
+      "mantenimiento planificado"
+    ],
+    "en": [
+      "maintenance plan",
+      "preventive maintenance",
+      "periodic plan",
+      "strategy",
+      "planned maintenance"
+    ],
+    "pt": [
+      "plano de manutenção",
+      "manutenção preventiva",
+      "plano periódico",
+      "estratégia",
+      "manutenção planejada"
+    ]
+  }
+}

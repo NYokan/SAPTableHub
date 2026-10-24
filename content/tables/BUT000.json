@@ -1,0 +1,44 @@
+{
+  "id": "BUT000",
+  "area": "gen",
+  "contents": "master",
+  "component": "BC-SRV-BP",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Socios de negocio (datos generales)",
+    "en": "Business partners (general data)",
+    "pt": "Parceiros de negócios (dados gerais)"
+  },
+  "purpose": {
+    "es": "Una fila por cada socio de negocio: persona, organización o grupo con el que la empresa se relaciona. Guarda nombre, tipo, agrupación y datos generales. Clientes y proveedores se enlazan a él.",
+    "en": "One row per business partner: a person, organization or group the company deals with. It holds name, type, grouping and general data. Customers and vendors are linked to it.",
+    "pt": "Uma linha por parceiro de negócios: pessoa, organização ou grupo com que a empresa se relaciona. Guarda nome, tipo, agrupamento e dados gerais. Clientes e fornecedores se vinculam a ele."
+  },
+  "synonyms": {
+    "es": [
+      "socio de negocio",
+      "BP",
+      "interlocutor",
+      "persona",
+      "organización",
+      "tercero"
+    ],
+    "en": [
+      "business partner",
+      "BP",
+      "partner",
+      "person",
+      "organization",
+      "third party"
+    ],
+    "pt": [
+      "parceiro de negócios",
+      "BP",
+      "parceiro",
+      "pessoa",
+      "organização",
+      "terceiro"
+    ]
+  }
+}

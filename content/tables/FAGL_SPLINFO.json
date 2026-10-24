@@ -1,0 +1,12 @@
+{
+  "id": "FAGL_SPLINFO",
+  "area": "fin",
+  "contents": "doc",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Nuevo mayor: información de desdoblamiento de documentos",
+    "en": "New G/L: document splitting information",
+    "pt": "Novo razão: informação de divisão de documentos"
+  }
+}

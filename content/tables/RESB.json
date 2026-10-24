@@ -1,0 +1,42 @@
+{
+  "id": "RESB",
+  "area": "pp",
+  "contents": "items",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Reservas y necesidades secundarias (componentes de órdenes)",
+    "en": "Reservations and dependent requirements (order components)",
+    "pt": "Reservas e necessidades dependentes (componentes de ordens)"
+  },
+  "purpose": {
+    "es": "Los materiales que se necesitan y se reservan: componentes de órdenes de fabricación y de mantenimiento, reservas manuales y necesidades secundarias. Muestra cantidad requerida, cantidad ya retirada y fecha de necesidad.",
+    "en": "The materials that are needed and reserved: components of production and maintenance orders, manual reservations and dependent requirements. It shows the required quantity, quantity already withdrawn and requirement date.",
+    "pt": "Os materiais necessários e reservados: componentes de ordens de produção e de manutenção, reservas manuais e necessidades dependentes. Mostra a quantidade necessária, a quantidade já retirada e a data de necessidade."
+  },
+  "synonyms": {
+    "es": [
+      "reserva",
+      "componentes de la orden",
+      "consumo de materiales",
+      "necesidad secundaria",
+      "retiro de material",
+      "lista de picking"
+    ],
+    "en": [
+      "reservation",
+      "order components",
+      "material consumption",
+      "dependent requirement",
+      "material withdrawal",
+      "picking list"
+    ],
+    "pt": [
+      "reserva",
+      "componentes da ordem",
+      "consumo de materiais",
+      "necessidade dependente",
+      "retirada de material"
+    ]
+  }
+}

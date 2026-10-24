@@ -1,0 +1,12 @@
+{
+  "id": "SWOR",
+  "area": "gen",
+  "contents": "text",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Clases de clasificación (descripciones)",
+    "en": "Classification classes (descriptions)",
+    "pt": "Classes de classificação (descrições)"
+  }
+}

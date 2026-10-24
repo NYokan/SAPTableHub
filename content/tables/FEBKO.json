@@ -1,0 +1,40 @@
+{
+  "id": "FEBKO",
+  "area": "fin",
+  "contents": "header",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Extractos bancarios electrónicos (cabecera)",
+    "en": "Electronic bank statements (header)",
+    "pt": "Extratos bancários eletrônicos (cabeçalho)"
+  },
+  "purpose": {
+    "es": "Una fila por cada extracto bancario cargado en SAP: banco propio, cuenta, fecha, número de extracto y saldos inicial y final. Los movimientos del extracto están en FEBEP.",
+    "en": "One row per bank statement loaded into SAP: house bank, account, date, statement number and opening and closing balances. The statement lines are in FEBEP.",
+    "pt": "Uma linha por extrato bancário carregado no SAP: banco próprio, conta, data, número do extrato e saldos inicial e final. Os movimentos do extrato estão na FEBEP."
+  },
+  "synonyms": {
+    "es": [
+      "extracto bancario",
+      "conciliación bancaria",
+      "saldo bancario",
+      "MT940",
+      "cartola bancaria"
+    ],
+    "en": [
+      "bank statement",
+      "bank reconciliation",
+      "bank balance",
+      "MT940",
+      "electronic statement"
+    ],
+    "pt": [
+      "extrato bancário",
+      "conciliação bancária",
+      "saldo bancário",
+      "MT940",
+      "extrato eletrônico"
+    ]
+  }
+}

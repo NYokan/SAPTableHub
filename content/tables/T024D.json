@@ -1,0 +1,13 @@
+{
+  "id": "T024D",
+  "area": "pp",
+  "contents": "config",
+  "component": "PP-MRP-BD",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Planificadores de necesidades",
+    "en": "MRP controllers",
+    "pt": "Planejadores de necessidades"
+  }
+}

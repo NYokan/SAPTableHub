@@ -1,0 +1,12 @@
+{
+  "id": "TJ20",
+  "area": "gen",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Esquemas de estado de usuario",
+    "en": "User status profiles",
+    "pt": "Esquemas de status do usuário"
+  }
+}

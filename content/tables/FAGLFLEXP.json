@@ -1,0 +1,12 @@
+{
+  "id": "FAGLFLEXP",
+  "area": "fin",
+  "contents": "items",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Nuevo mayor: partidas individuales de plan",
+    "en": "New G/L: plan line items",
+    "pt": "Novo razão: partidas individuais de plano"
+  }
+}

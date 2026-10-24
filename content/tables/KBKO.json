@@ -1,0 +1,12 @@
+{
+  "id": "KBKO",
+  "area": "pp",
+  "contents": "header",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Necesidades de capacidad (cabecera)",
+    "en": "Capacity requirements (header)",
+    "pt": "Necessidades de capacidade (cabeçalho)"
+  }
+}

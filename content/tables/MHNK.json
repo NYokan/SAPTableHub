@@ -1,0 +1,40 @@
+{
+  "id": "MHNK",
+  "area": "fin",
+  "contents": "header",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Reclamaciones: cuentas reclamadas",
+    "en": "Dunning: dunned accounts",
+    "pt": "Advertências: contas advertidas"
+  },
+  "purpose": {
+    "es": "Una fila por cada cliente o proveedor incluido en una ejecución de reclamación: nivel de reclamación alcanzado, importe reclamado y fecha. Las partidas reclamadas están en MHND.",
+    "en": "One row per customer or vendor included in a dunning run: dunning level reached, amount dunned and date. The dunned items are in MHND.",
+    "pt": "Uma linha por cliente ou fornecedor incluído em uma execução de advertência: nível de advertência atingido, valor cobrado e data. As partidas advertidas estão na MHND."
+  },
+  "synonyms": {
+    "es": [
+      "reclamación",
+      "carta de reclamación",
+      "cobranza",
+      "nivel de reclamación",
+      "deudas vencidas"
+    ],
+    "en": [
+      "dunning",
+      "dunning letter",
+      "collections",
+      "dunning level",
+      "overdue receivables"
+    ],
+    "pt": [
+      "advertência",
+      "carta de cobrança",
+      "cobrança",
+      "nível de advertência",
+      "dívidas vencidas"
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "MSKU",
+  "area": "mat",
+  "contents": "master",
+  "component": "MM-IM-GF",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Stock especial en cliente",
+    "en": "Special stock at customer",
+    "pt": "Estoque especial no cliente"
+  },
+  "purpose": {
+    "es": "Stock propio que está físicamente en el cliente: consignación en cliente (W) o embalajes retornables (V). Una fila por material, centro, lote y cliente.",
+    "en": "Own stock physically held at the customer: customer consignment (W) or returnable packaging (V). One row per material, plant, batch and customer.",
+    "pt": "Estoque próprio que está fisicamente no cliente: consignação no cliente (W) ou embalagens retornáveis (V). Uma linha por material, centro, lote e cliente."
+  },
+  "synonyms": {
+    "es": [
+      "consignación en cliente",
+      "stock en cliente",
+      "envases retornables",
+      "stock especial W",
+      "depósito en cliente"
+    ],
+    "en": [
+      "customer consignment",
+      "stock at customer",
+      "returnable packaging",
+      "special stock W",
+      "consignment stock"
+    ],
+    "pt": [
+      "consignação no cliente",
+      "estoque no cliente",
+      "embalagens retornáveis",
+      "estoque especial W"
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "SETHEADERT",
+  "area": "fin",
+  "contents": "text",
+  "component": "FI-SL-SL-MD-SE",
+  "category": "TRANSP",
+  "title": {
+    "es": "Grupos (sets): textos",
+    "en": "Sets (groups): texts",
+    "pt": "Grupos (sets): textos"
+  }
+}

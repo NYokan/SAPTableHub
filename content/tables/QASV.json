@@ -1,0 +1,12 @@
+{
+  "id": "QASV",
+  "area": "qm",
+  "contents": "items",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Lotes de inspección: especificaciones por muestra",
+    "en": "Inspection lots: specifications per sample",
+    "pt": "Lotes de inspeção: especificações por amostra"
+  }
+}

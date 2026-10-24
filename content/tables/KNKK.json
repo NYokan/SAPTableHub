@@ -1,0 +1,12 @@
+{
+  "id": "KNKK",
+  "area": "fin",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Clientes: crédito por área de control de créditos",
+    "en": "Customers: credit data per credit control area",
+    "pt": "Clientes: crédito por área de controle de crédito"
+  }
+}

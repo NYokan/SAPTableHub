@@ -1,0 +1,12 @@
+{
+  "id": "T096",
+  "area": "fin",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Planes de valoración de activos fijos",
+    "en": "Charts of depreciation",
+    "pt": "Planos de avaliação de ativos fixos"
+  }
+}

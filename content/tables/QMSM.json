@@ -1,0 +1,40 @@
+{
+  "id": "QMSM",
+  "area": "qm",
+  "contents": "items",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Avisos: medidas",
+    "en": "Notifications: tasks",
+    "pt": "Notas: medidas"
+  },
+  "purpose": {
+    "es": "Las medidas que hay que realizar para resolver un aviso: qué hacer, quién es responsable, fechas planificadas y estado. Incluye acciones correctivas y preventivas.",
+    "en": "The tasks to carry out to resolve a notification: what to do, who is responsible, planned dates and status. It includes corrective and preventive actions.",
+    "pt": "As medidas a realizar para resolver uma nota: o que fazer, quem é responsável, datas planejadas e status. Inclui ações corretivas e preventivas."
+  },
+  "synonyms": {
+    "es": [
+      "medida",
+      "acción correctiva",
+      "acción preventiva",
+      "tarea",
+      "CAPA"
+    ],
+    "en": [
+      "task",
+      "corrective action",
+      "preventive action",
+      "CAPA",
+      "follow-up action"
+    ],
+    "pt": [
+      "medida",
+      "ação corretiva",
+      "ação preventiva",
+      "tarefa",
+      "CAPA"
+    ]
+  }
+}

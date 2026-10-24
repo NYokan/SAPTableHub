@@ -1,0 +1,12 @@
+{
+  "id": "JSTO",
+  "area": "gen",
+  "contents": "doc",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Estados de objeto (perfil y tipo de cada objeto)",
+    "en": "Object statuses (profile and type of each object)",
+    "pt": "Status de objeto (perfil e tipo de cada objeto)"
+  }
+}

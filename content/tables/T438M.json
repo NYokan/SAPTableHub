@@ -1,0 +1,12 @@
+{
+  "id": "T438M",
+  "area": "pp",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Grupos de planificación de necesidades",
+    "en": "MRP groups",
+    "pt": "Grupos de MRP"
+  }
+}

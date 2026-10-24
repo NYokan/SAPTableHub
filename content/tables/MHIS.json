@@ -1,0 +1,37 @@
+{
+  "id": "MHIS",
+  "area": "pm",
+  "contents": "doc",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Planes de mantenimiento (historial de llamadas)",
+    "en": "Maintenance plans (call history)",
+    "pt": "Planos de manutenção (histórico de chamadas)"
+  },
+  "purpose": {
+    "es": "El historial de llamadas de cada plan de mantenimiento: cada fecha planificada, cuándo se llamó y si se omitió. Sirve para ver el cumplimiento del mantenimiento preventivo.",
+    "en": "The call history of each maintenance plan: each planned date, when it was called and whether it was skipped. It shows compliance with preventive maintenance.",
+    "pt": "O histórico de chamadas de cada plano de manutenção: cada data planejada, quando foi chamada e se foi omitida. Mostra o cumprimento da manutenção preventiva."
+  },
+  "synonyms": {
+    "es": [
+      "historial de planes",
+      "llamadas de mantenimiento",
+      "fechas planificadas",
+      "cumplimiento"
+    ],
+    "en": [
+      "plan history",
+      "maintenance calls",
+      "planned dates",
+      "compliance"
+    ],
+    "pt": [
+      "histórico de planos",
+      "chamadas de manutenção",
+      "datas planejadas",
+      "cumprimento"
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "TCJ_POSITIONS",
+  "area": "fin",
+  "contents": "items",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Libro de caja: posiciones de documentos",
+    "en": "Cash journal: document items",
+    "pt": "Livro de caixa: itens de documentos"
+  }
+}

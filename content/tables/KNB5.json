@@ -1,0 +1,12 @@
+{
+  "id": "KNB5",
+  "area": "fin",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Clientes: datos de reclamación",
+    "en": "Customers: dunning data",
+    "pt": "Clientes: dados de advertência"
+  }
+}

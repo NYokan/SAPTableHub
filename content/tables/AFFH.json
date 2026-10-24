@@ -1,0 +1,12 @@
+{
+  "id": "AFFH",
+  "area": "pp",
+  "contents": "items",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Medios auxiliares de fabricación en órdenes",
+    "en": "Production resources/tools in orders",
+    "pt": "Recursos auxiliares de produção em ordens"
+  }
+}

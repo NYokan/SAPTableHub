@@ -1,0 +1,36 @@
+{
+  "id": "T148",
+  "area": "mat",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Indicadores de stock especial",
+    "en": "Special stock indicators",
+    "pt": "Códigos de estoque especial"
+  },
+  "purpose": {
+    "es": "Lista de indicadores de stock especial (E pedido de cliente, K consignación, O subcontratación, Q proyecto, W consignación en cliente…). Explica la columna SOBKZ de los documentos y stocks.",
+    "en": "List of special stock indicators (E sales order, K consignment, O subcontracting, Q project, W customer consignment…). It explains the SOBKZ column in documents and stocks.",
+    "pt": "Lista de códigos de estoque especial (E ordem do cliente, K consignação, O subcontratação, Q projeto, W consignação no cliente…). Explica a coluna SOBKZ dos documentos e estoques."
+  },
+  "synonyms": {
+    "es": [
+      "stock especial",
+      "SOBKZ",
+      "consignación",
+      "indicador de stock especial"
+    ],
+    "en": [
+      "special stock",
+      "SOBKZ",
+      "consignment",
+      "special stock indicator"
+    ],
+    "pt": [
+      "estoque especial",
+      "SOBKZ",
+      "consignação"
+    ]
+  }
+}

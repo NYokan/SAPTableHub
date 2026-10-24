@@ -1,0 +1,13 @@
+{
+  "id": "TCURT",
+  "area": "gen",
+  "contents": "text",
+  "component": "BC-SRV-BSF-CUR",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Monedas (nombres)",
+    "en": "Currencies (names)",
+    "pt": "Moedas (nomes)"
+  }
+}

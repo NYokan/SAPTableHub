@@ -1,0 +1,13 @@
+{
+  "id": "LUBU",
+  "area": "mat",
+  "contents": "doc",
+  "component": "LE-WM",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Avisos de traspaso WM",
+    "en": "WM posting change notices",
+    "pt": "Avisos de transferência WM"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "PVBE",
+  "area": "pp",
+  "contents": "config",
+  "category": "TRANSP",
+  "title": {
+    "es": "Áreas de suministro a producción",
+    "en": "Production supply areas",
+    "pt": "Áreas de abastecimento da produção"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "UKMBP_CMS_SGM",
+  "area": "fin",
+  "contents": "master",
+  "component": "FIN-FSCM-CR-CR",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Gestión de créditos SAP: datos del interlocutor por segmento de crédito",
+    "en": "SAP Credit Management: business partner data per credit segment",
+    "pt": "Gestão de crédito SAP: dados do parceiro por segmento de crédito"
+  }
+}

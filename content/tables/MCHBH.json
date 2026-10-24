@@ -1,0 +1,12 @@
+{
+  "id": "MCHBH",
+  "area": "mat",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Stock por lote (histórico de periodos)",
+    "en": "Stock by batch (period history)",
+    "pt": "Estoque por lote (histórico de períodos)"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "T008",
+  "area": "fin",
+  "contents": "config",
+  "component": "FI",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Motivos de bloqueo de pago",
+    "en": "Payment block reasons",
+    "pt": "Motivos de bloqueio de pagamento"
+  }
+}

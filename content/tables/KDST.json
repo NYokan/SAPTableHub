@@ -1,0 +1,12 @@
+{
+  "id": "KDST",
+  "area": "pp",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Listas de materiales de pedido de cliente",
+    "en": "Sales order bills of material",
+    "pt": "Listas técnicas de pedido do cliente"
+  }
+}

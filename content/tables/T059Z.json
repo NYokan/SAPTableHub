@@ -1,0 +1,12 @@
+{
+  "id": "T059Z",
+  "area": "fin",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Indicadores de retención de impuestos",
+    "en": "Withholding tax codes",
+    "pt": "Códigos de imposto retido na fonte"
+  }
+}

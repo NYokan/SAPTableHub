@@ -1,0 +1,12 @@
+{
+  "id": "THOCI",
+  "area": "gen",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Asignación de festivos a calendarios",
+    "en": "Holiday to calendar assignments",
+    "pt": "Atribuição de feriados a calendários"
+  }
+}

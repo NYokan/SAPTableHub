@@ -1,0 +1,12 @@
+{
+  "id": "FINSC_LEDGER_T",
+  "area": "fin",
+  "contents": "text",
+  "category": "TRANSP",
+  "s4only": true,
+  "title": {
+    "es": "Ledgers contables: textos",
+    "en": "Accounting ledgers: texts",
+    "pt": "Ledgers contábeis: textos"
+  }
+}

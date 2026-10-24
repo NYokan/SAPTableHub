@@ -1,0 +1,12 @@
+{
+  "id": "ADR12",
+  "area": "gen",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Direcciones (páginas web)",
+    "en": "Addresses (web addresses)",
+    "pt": "Endereços (páginas web)"
+  }
+}

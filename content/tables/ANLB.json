@@ -1,0 +1,12 @@
+{
+  "id": "ANLB",
+  "area": "fin",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Activos fijos: parámetros de amortización",
+    "en": "Fixed assets: depreciation terms",
+    "pt": "Ativos fixos: parâmetros de depreciação"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": "PKHD",
+  "area": "pp",
+  "contents": "master",
+  "component": "PP-KAB",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Ciclos de control kanban",
+    "en": "Kanban control cycles",
+    "pt": "Ciclos de controle kanban"
+  },
+  "purpose": {
+    "es": "Los ciclos de control kanban: qué material se repone en qué área de suministro, con cuántos contenedores, qué cantidad por contenedor y cómo se repone (fabricación, compra o traslado).",
+    "en": "The kanban control cycles: which material is replenished at which supply area, with how many containers, how much per container and how it is replenished (production, purchase or transfer).",
+    "pt": "Os ciclos de controle kanban: qual material é reabastecido em qual área de abastecimento, com quantos contêineres, quanto por contêiner e como é reabastecido (produção, compra ou transferência)."
+  },
+  "synonyms": {
+    "es": [
+      "kanban",
+      "ciclo de control",
+      "reposición",
+      "contenedor",
+      "abastecimiento a línea"
+    ],
+    "en": [
+      "kanban",
+      "control cycle",
+      "replenishment",
+      "container",
+      "line supply"
+    ],
+    "pt": [
+      "kanban",
+      "ciclo de controle",
+      "reabastecimento",
+      "contêiner",
+      "abastecimento de linha"
+    ]
+  }
+}

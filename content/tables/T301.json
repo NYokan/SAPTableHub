@@ -1,0 +1,13 @@
+{
+  "id": "T301",
+  "area": "mat",
+  "contents": "config",
+  "component": "LE-WM",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Tipos de almacén",
+    "en": "Storage types",
+    "pt": "Tipos de depósito"
+  }
+}

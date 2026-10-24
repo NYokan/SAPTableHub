@@ -1,0 +1,12 @@
+{
+  "id": "T010O",
+  "area": "fin",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Variantes de períodos contables",
+    "en": "Posting period variants",
+    "pt": "Variantes de períodos contábeis"
+  }
+}

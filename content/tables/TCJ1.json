@@ -1,0 +1,12 @@
+{
+  "id": "TCJ1",
+  "area": "ps",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Tipos de proyecto",
+    "en": "Project types",
+    "pt": "Tipos de projeto"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "id": "REGUH",
+  "area": "fin",
+  "contents": "header",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Programa de pagos: pagos generados",
+    "en": "Payment program: payments generated",
+    "pt": "Programa de pagamento: pagamentos gerados"
+  },
+  "purpose": {
+    "es": "Una fila por cada pago que propone o genera el programa de pagos: a quién se paga, desde qué banco propio, con qué vía de pago y por cuánto. Las facturas que cubre cada pago están en REGUP.",
+    "en": "One row per payment proposed or created by the payment program: who is paid, from which house bank, with which payment method and how much. The invoices each payment covers are in REGUP.",
+    "pt": "Uma linha por pagamento proposto ou gerado pelo programa de pagamento: a quem se paga, de qual banco próprio, com qual forma de pagamento e quanto. As faturas cobertas por cada pagamento estão na REGUP."
+  },
+  "synonyms": {
+    "es": [
+      "pagos",
+      "propuesta de pago",
+      "programa de pagos",
+      "F110",
+      "transferencias",
+      "pago a proveedores"
+    ],
+    "en": [
+      "payments",
+      "payment proposal",
+      "payment run",
+      "F110",
+      "bank transfers",
+      "vendor payments"
+    ],
+    "pt": [
+      "pagamentos",
+      "proposta de pagamento",
+      "programa de pagamento",
+      "F110",
+      "transferências",
+      "pagamento a fornecedores"
+    ]
+  }
+}

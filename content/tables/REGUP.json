@@ -1,0 +1,40 @@
+{
+  "id": "REGUP",
+  "area": "fin",
+  "contents": "items",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Programa de pagos: partidas pagadas",
+    "en": "Payment program: items paid",
+    "pt": "Programa de pagamento: partidas pagas"
+  },
+  "purpose": {
+    "es": "Las partidas (normalmente facturas) que entran en cada pago del programa de pagos, con su importe y descuento. Se une a REGUH para saber qué se pagó en cada pago.",
+    "en": "The items (usually invoices) included in each payment of the payment program, with their amount and cash discount. It joins REGUH to know what was paid in each payment.",
+    "pt": "As partidas (normalmente faturas) incluídas em cada pagamento do programa de pagamento, com seu valor e desconto. Liga-se à REGUH para saber o que foi pago em cada pagamento."
+  },
+  "synonyms": {
+    "es": [
+      "facturas pagadas",
+      "partidas pagadas",
+      "programa de pagos",
+      "F110",
+      "detalle de pago"
+    ],
+    "en": [
+      "paid invoices",
+      "paid items",
+      "payment run",
+      "F110",
+      "payment details"
+    ],
+    "pt": [
+      "faturas pagas",
+      "partidas pagas",
+      "programa de pagamento",
+      "F110",
+      "detalhe do pagamento"
+    ]
+  }
+}

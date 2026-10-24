@@ -1,0 +1,12 @@
+{
+  "id": "TAPL",
+  "area": "pm",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Asignación de hojas de ruta a ubicaciones técnicas",
+    "en": "Task list assignments to functional locations",
+    "pt": "Atribuição de listas de tarefas a locais de instalação"
+  }
+}

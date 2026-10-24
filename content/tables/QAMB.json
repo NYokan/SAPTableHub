@@ -1,0 +1,12 @@
+{
+  "id": "QAMB",
+  "area": "qm",
+  "contents": "doc",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Lotes de inspección: vínculo con documentos de material",
+    "en": "Inspection lots: link to material documents",
+    "pt": "Lotes de inspeção: vínculo com documentos de material"
+  }
+}

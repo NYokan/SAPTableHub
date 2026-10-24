@@ -1,0 +1,36 @@
+{
+  "id": "T001K",
+  "area": "mat",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Áreas de valoración",
+    "en": "Valuation areas",
+    "pt": "Áreas de avaliação"
+  },
+  "purpose": {
+    "es": "Áreas de valoración: el nivel (normalmente el centro) en el que se valora el stock, y la sociedad a la que pertenece. Une MBEW con la contabilidad.",
+    "en": "Valuation areas: the level (usually the plant) at which stock is valuated, and the company code it belongs to. It links MBEW to accounting.",
+    "pt": "Áreas de avaliação: o nível (normalmente o centro) em que o estoque é avaliado, e a empresa a que pertence. Liga a MBEW à contabilidade."
+  },
+  "synonyms": {
+    "es": [
+      "área de valoración",
+      "BWKEY",
+      "centro y sociedad",
+      "nivel de valoración"
+    ],
+    "en": [
+      "valuation area",
+      "BWKEY",
+      "plant to company code",
+      "valuation level"
+    ],
+    "pt": [
+      "área de avaliação",
+      "BWKEY",
+      "centro e empresa"
+    ]
+  }
+}

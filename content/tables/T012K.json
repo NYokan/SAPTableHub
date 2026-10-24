@@ -1,0 +1,40 @@
+{
+  "id": "T012K",
+  "area": "fin",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Bancos propios: cuentas",
+    "en": "House bank accounts",
+    "pt": "Bancos próprios: contas"
+  },
+  "purpose": {
+    "es": "Las cuentas que la empresa tiene en sus bancos propios, con el número de cuenta y la cuenta de mayor que la refleja en contabilidad. El banco propio en sí está en T012.",
+    "en": "The accounts the company holds at its house banks, with the account number and the G/L account that mirrors it in accounting. The house bank itself is in T012.",
+    "pt": "As contas que a empresa possui em seus bancos próprios, com o número da conta e a conta do razão que a reflete na contabilidade. O banco próprio em si está na T012."
+  },
+  "synonyms": {
+    "es": [
+      "cuenta bancaria propia",
+      "banco propio",
+      "cuenta de banco",
+      "tesorería",
+      "HKTID"
+    ],
+    "en": [
+      "house bank account",
+      "company bank account",
+      "bank account",
+      "treasury",
+      "HKTID"
+    ],
+    "pt": [
+      "conta bancária própria",
+      "banco próprio",
+      "conta do banco",
+      "tesouraria",
+      "HKTID"
+    ]
+  }
+}

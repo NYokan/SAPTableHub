@@ -1,0 +1,12 @@
+{
+  "id": "T077D",
+  "area": "fin",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Clientes: grupos de cuentas",
+    "en": "Customers: account groups",
+    "pt": "Clientes: grupos de contas"
+  }
+}

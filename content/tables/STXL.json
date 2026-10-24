@@ -1,0 +1,12 @@
+{
+  "id": "STXL",
+  "area": "gen",
+  "contents": "doc",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Textos largos (contenido)",
+    "en": "Long texts (content)",
+    "pt": "Textos longos (conteúdo)"
+  }
+}

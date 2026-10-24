@@ -1,0 +1,12 @@
+{
+  "id": "EBEW",
+  "area": "mat",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Valoración de stock de pedido de cliente",
+    "en": "Sales order stock valuation",
+    "pt": "Avaliação do estoque de ordem do cliente"
+  }
+}

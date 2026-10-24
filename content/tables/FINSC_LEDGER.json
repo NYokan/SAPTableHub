@@ -1,0 +1,12 @@
+{
+  "id": "FINSC_LEDGER",
+  "area": "fin",
+  "contents": "config",
+  "category": "TRANSP",
+  "s4only": true,
+  "title": {
+    "es": "Ledgers contables (S/4HANA)",
+    "en": "Accounting ledgers (S/4HANA)",
+    "pt": "Ledgers contábeis (S/4HANA)"
+  }
+}

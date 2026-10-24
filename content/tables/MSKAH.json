@@ -1,0 +1,12 @@
+{
+  "id": "MSKAH",
+  "area": "mat",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Stock de pedido de cliente (histórico)",
+    "en": "Sales order stock (history)",
+    "pt": "Estoque de ordem do cliente (histórico)"
+  }
+}

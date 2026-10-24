@@ -1,0 +1,13 @@
+{
+  "id": "T040S",
+  "area": "fin",
+  "contents": "config",
+  "component": "FI-AR-AR-C",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Motivos de bloqueo de reclamación",
+    "en": "Dunning block reasons",
+    "pt": "Motivos de bloqueio de advertência"
+  }
+}

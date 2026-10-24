@@ -1,0 +1,13 @@
+{
+  "id": "LTBK",
+  "area": "mat",
+  "contents": "header",
+  "component": "LE-WM",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Necesidades de transporte WM (cabecera)",
+    "en": "WM transfer requirements (header)",
+    "pt": "Necessidades de transferência WM (cabeçalho)"
+  }
+}

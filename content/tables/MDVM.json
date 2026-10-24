@@ -1,0 +1,12 @@
+{
+  "id": "MDVM",
+  "area": "pp",
+  "contents": "doc",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Fichero de planificación (por centro)",
+    "en": "Planning file entries (per plant)",
+    "pt": "Arquivo de planejamento (por centro)"
+  }
+}

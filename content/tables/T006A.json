@@ -1,0 +1,12 @@
+{
+  "id": "T006A",
+  "area": "gen",
+  "contents": "text",
+  "component": "BC-SRV-ASF-UOM",
+  "category": "TRANSP",
+  "title": {
+    "es": "Unidades de medida (textos)",
+    "en": "Units of measure (texts)",
+    "pt": "Unidades de medida (textos)"
+  }
+}

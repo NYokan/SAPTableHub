@@ -1,0 +1,12 @@
+{
+  "id": "T093",
+  "area": "fin",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Áreas de valoración de activos fijos",
+    "en": "Asset depreciation areas",
+    "pt": "Áreas de avaliação de ativos fixos"
+  }
+}

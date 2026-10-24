@@ -1,0 +1,13 @@
+{
+  "id": "T331",
+  "area": "mat",
+  "contents": "config",
+  "component": "LE-WM",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Tipos de almacén: control",
+    "en": "Storage types: control",
+    "pt": "Tipos de depósito: controle"
+  }
+}

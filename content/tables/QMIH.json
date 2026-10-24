@@ -1,0 +1,40 @@
+{
+  "id": "QMIH",
+  "area": "pm",
+  "contents": "doc",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Avisos de mantenimiento (datos de mantenimiento)",
+    "en": "Maintenance notifications (maintenance data)",
+    "pt": "Notas de manutenção (dados de manutenção)"
+  },
+  "purpose": {
+    "es": "Para cada aviso de mantenimiento guarda los datos de mantenimiento: equipo o ubicación técnica afectados, avería, parada y orden asociada. El aviso en sí (tipo, fecha, descripción) está en QMEL.",
+    "en": "For each maintenance notification it holds the maintenance data: affected equipment or functional location, breakdown, downtime and related order. The notification itself (type, date, description) is in QMEL.",
+    "pt": "Para cada nota de manutenção guarda os dados de manutenção: equipamento ou local de instalação afetado, avaria, parada e ordem associada. A nota em si (tipo, data, descrição) fica na QMEL."
+  },
+  "synonyms": {
+    "es": [
+      "aviso de mantenimiento",
+      "avería",
+      "falla",
+      "parada",
+      "solicitud de mantenimiento"
+    ],
+    "en": [
+      "maintenance notification",
+      "breakdown",
+      "malfunction",
+      "downtime",
+      "maintenance request"
+    ],
+    "pt": [
+      "nota de manutenção",
+      "avaria",
+      "falha",
+      "parada",
+      "solicitação de manutenção"
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "T005",
+  "area": "gen",
+  "contents": "config",
+  "component": "BC-SRV-ADR",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Países",
+    "en": "Countries",
+    "pt": "Países"
+  },
+  "purpose": {
+    "es": "La lista de países con sus ajustes: código ISO, moneda, formato de dirección y reglas fiscales. Los nombres de los países están en T005T.",
+    "en": "The list of countries with their settings: ISO code, currency, address format and tax rules. Country names are in T005T.",
+    "pt": "A lista de países com seus ajustes: código ISO, moeda, formato de endereço e regras fiscais. Os nomes dos países estão na T005T."
+  },
+  "synonyms": {
+    "es": [
+      "país",
+      "código de país",
+      "código ISO",
+      "nacionalidad"
+    ],
+    "en": [
+      "country",
+      "country code",
+      "ISO code",
+      "nationality"
+    ],
+    "pt": [
+      "país",
+      "código do país",
+      "código ISO",
+      "nacionalidade"
+    ]
+  }
+}

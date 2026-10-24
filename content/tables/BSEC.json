@@ -1,0 +1,13 @@
+{
+  "id": "BSEC",
+  "area": "fin",
+  "contents": "doc",
+  "component": "FI",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Documentos contables: datos de clientes/proveedores ocasionales",
+    "en": "Accounting documents: one-time customer/vendor data",
+    "pt": "Documentos contábeis: dados de clientes/fornecedores eventuais"
+  }
+}

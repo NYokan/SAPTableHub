@@ -1,0 +1,40 @@
+{
+  "id": "IKPF",
+  "area": "mat",
+  "contents": "header",
+  "component": "MM-IM-PI",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Inventario físico (cabecera)",
+    "en": "Physical inventory (header)",
+    "pt": "Inventário físico (cabeçalho)"
+  },
+  "purpose": {
+    "es": "Cabecera de los documentos de inventario físico: centro, almacén, fechas planificada y de recuento y estado del recuento. Las líneas con cada material contado están en ISEG.",
+    "en": "Header of physical inventory documents: plant, storage location, planned and count dates and count status. The lines with each counted material are in ISEG.",
+    "pt": "Cabeçalho dos documentos de inventário físico: centro, depósito, datas planejada e de contagem e status da contagem. As linhas com cada material contado estão na ISEG."
+  },
+  "synonyms": {
+    "es": [
+      "inventario físico",
+      "recuento",
+      "toma de inventario",
+      "conteo",
+      "documento de inventario"
+    ],
+    "en": [
+      "physical inventory",
+      "stock count",
+      "stocktaking",
+      "cycle count",
+      "inventory document"
+    ],
+    "pt": [
+      "inventário físico",
+      "contagem",
+      "inventário",
+      "documento de inventário"
+    ]
+  }
+}

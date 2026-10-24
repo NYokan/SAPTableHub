@@ -1,0 +1,43 @@
+{
+  "id": "AFKO",
+  "area": "pp",
+  "contents": "header",
+  "component": "PP-SFC",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Órdenes de fabricación y de proceso (cabecera)",
+    "en": "Production and process orders (header)",
+    "pt": "Ordens de produção e de processo (cabeçalho)"
+  },
+  "purpose": {
+    "es": "Una fila por cada orden de fabricación o de proceso con sus datos de planificación: fechas de inicio y fin, cantidad total, hoja de ruta usada y planificador. El número de orden es el mismo de la tabla general de órdenes de Controlling (AUFK).",
+    "en": "One row per production or process order with its planning data: start and finish dates, total quantity, routing used and scheduler. The order number is the same as in the general Controlling order table (AUFK).",
+    "pt": "Uma linha por ordem de produção ou de processo com seus dados de planejamento: datas de início e fim, quantidade total, roteiro usado e programador. O número da ordem é o mesmo da tabela geral de ordens do Controlling (AUFK)."
+  },
+  "synonyms": {
+    "es": [
+      "orden de fabricación",
+      "orden de producción",
+      "orden de proceso",
+      "OF",
+      "fechas de orden",
+      "producción planificada"
+    ],
+    "en": [
+      "production order",
+      "manufacturing order",
+      "process order",
+      "work order",
+      "order dates",
+      "shop order"
+    ],
+    "pt": [
+      "ordem de produção",
+      "ordem de fabricação",
+      "ordem de processo",
+      "OP",
+      "datas da ordem"
+    ]
+  }
+}

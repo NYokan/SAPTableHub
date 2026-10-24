@@ -1,0 +1,12 @@
+{
+  "id": "FAGL_SPLINFO_VAL",
+  "area": "fin",
+  "contents": "doc",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Nuevo mayor: importes del desdoblamiento de documentos",
+    "en": "New G/L: document splitting amounts",
+    "pt": "Novo razão: valores da divisão de documentos"
+  }
+}

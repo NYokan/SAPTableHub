@@ -1,0 +1,12 @@
+{
+  "id": "PLAS",
+  "area": "pp",
+  "contents": "items",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Hojas de ruta: selección de operaciones",
+    "en": "Routings: operation selection",
+    "pt": "Roteiros: seleção de operações"
+  }
+}

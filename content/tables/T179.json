@@ -1,0 +1,12 @@
+{
+  "id": "T179",
+  "area": "mat",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Jerarquía de productos",
+    "en": "Product hierarchy",
+    "pt": "Hierarquia de produtos"
+  }
+}

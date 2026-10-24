@@ -1,0 +1,40 @@
+{
+  "id": "VBKPF",
+  "area": "fin",
+  "contents": "header",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Documentos preliminares (cabecera)",
+    "en": "Parked documents (header)",
+    "pt": "Documentos pré-editados (cabeçalho)"
+  },
+  "purpose": {
+    "es": "La cabecera de los documentos contables preliminares: facturas o asientos guardados pero aún no contabilizados, a la espera de revisión o aprobación. Cuando se contabilizan pasan a BKPF.",
+    "en": "The header of parked accounting documents: invoices or entries saved but not yet posted, awaiting review or approval. When posted they move to BKPF.",
+    "pt": "O cabeçalho dos documentos contábeis pré-editados: faturas ou lançamentos salvos mas ainda não lançados, aguardando revisão ou aprovação. Quando lançados passam para a BKPF."
+  },
+  "synonyms": {
+    "es": [
+      "documento preliminar",
+      "documento aparcado",
+      "factura pendiente",
+      "aprobación",
+      "borrador de asiento"
+    ],
+    "en": [
+      "parked document",
+      "held document",
+      "pending invoice",
+      "approval",
+      "draft journal entry"
+    ],
+    "pt": [
+      "documento pré-editado",
+      "documento estacionado",
+      "fatura pendente",
+      "aprovação",
+      "rascunho de lançamento"
+    ]
+  }
+}

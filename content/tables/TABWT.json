@@ -1,0 +1,11 @@
+{
+  "id": "TABWT",
+  "area": "fin",
+  "contents": "text",
+  "category": "TRANSP",
+  "title": {
+    "es": "Activos fijos: textos de clases de movimiento",
+    "en": "Fixed assets: transaction type texts",
+    "pt": "Ativos fixos: textos de tipos de movimento"
+  }
+}

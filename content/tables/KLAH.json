@@ -1,0 +1,12 @@
+{
+  "id": "KLAH",
+  "area": "gen",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Clases de clasificación (cabecera)",
+    "en": "Classification classes (header)",
+    "pt": "Classes de classificação (cabeçalho)"
+  }
+}

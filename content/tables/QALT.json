@@ -1,0 +1,12 @@
+{
+  "id": "QALT",
+  "area": "qm",
+  "contents": "items",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Lotes parciales de inspección",
+    "en": "Inspection partial lots",
+    "pt": "Lotes parciais de inspeção"
+  }
+}

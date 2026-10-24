@@ -1,0 +1,12 @@
+{
+  "id": "KSML",
+  "area": "gen",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Características asignadas a cada clase",
+    "en": "Characteristics assigned to each class",
+    "pt": "Características atribuídas a cada classe"
+  }
+}

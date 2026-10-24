@@ -1,0 +1,13 @@
+{
+  "id": "T459A",
+  "area": "pp",
+  "contents": "config",
+  "component": "PP-MP-DEM",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Tipos de necesidad",
+    "en": "Requirements types",
+    "pt": "Tipos de necessidade"
+  }
+}

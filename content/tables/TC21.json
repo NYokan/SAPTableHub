@@ -1,0 +1,11 @@
+{
+  "id": "TC21",
+  "area": "pp",
+  "contents": "config",
+  "category": "TRANSP",
+  "title": {
+    "es": "Claves de valores estándar",
+    "en": "Standard value keys",
+    "pt": "Chaves de valores standard"
+  }
+}

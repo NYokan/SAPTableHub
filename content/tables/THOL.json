@@ -1,0 +1,12 @@
+{
+  "id": "THOL",
+  "area": "gen",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Días festivos",
+    "en": "Public holidays",
+    "pt": "Feriados"
+  }
+}

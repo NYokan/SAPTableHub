@@ -1,0 +1,12 @@
+{
+  "id": "T007S",
+  "area": "fin",
+  "contents": "text",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Indicadores de impuestos: textos",
+    "en": "Tax codes: texts",
+    "pt": "Códigos de imposto: textos"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "JCDS",
+  "area": "gen",
+  "contents": "doc",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Estados de objeto (historial de cambios)",
+    "en": "Object statuses (change history)",
+    "pt": "Status de objeto (histórico de alterações)"
+  }
+}

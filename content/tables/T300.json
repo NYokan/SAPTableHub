@@ -1,0 +1,13 @@
+{
+  "id": "T300",
+  "area": "mat",
+  "contents": "config",
+  "component": "LE-WM",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Números de almacén",
+    "en": "Warehouse numbers",
+    "pt": "Números de armazém"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "IMRG",
+  "area": "pm",
+  "contents": "doc",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Documentos de medida",
+    "en": "Measurement documents",
+    "pt": "Documentos de medição"
+  },
+  "purpose": {
+    "es": "Una fila por cada lectura tomada en un punto de medida o contador: valor, fecha, hora y quién la registró. Es la fuente para ver la evolución de mediciones y horas de uso.",
+    "en": "One row per reading taken at a measuring point or counter: value, date, time and who recorded it. It is the source to follow the trend of measurements and usage hours.",
+    "pt": "Uma linha por leitura feita em um ponto de medição ou contador: valor, data, hora e quem registrou. É a fonte para acompanhar a evolução das medições e horas de uso."
+  },
+  "synonyms": {
+    "es": [
+      "documento de medida",
+      "lectura",
+      "medición",
+      "lectura de contador",
+      "valor medido"
+    ],
+    "en": [
+      "measurement document",
+      "reading",
+      "measurement",
+      "counter reading",
+      "measured value"
+    ],
+    "pt": [
+      "documento de medição",
+      "leitura",
+      "medição",
+      "leitura de contador",
+      "valor medido"
+    ]
+  }
+}

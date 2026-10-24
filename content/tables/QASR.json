@@ -1,0 +1,12 @@
+{
+  "id": "QASR",
+  "area": "qm",
+  "contents": "doc",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Resultados por muestra",
+    "en": "Results per sample",
+    "pt": "Resultados por amostra"
+  }
+}

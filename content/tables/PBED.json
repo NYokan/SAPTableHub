@@ -1,0 +1,42 @@
+{
+  "id": "PBED",
+  "area": "pp",
+  "contents": "items",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Necesidades primarias (cantidades por fecha)",
+    "en": "Independent requirements (quantities by date)",
+    "pt": "Necessidades independentes (quantidades por data)"
+  },
+  "purpose": {
+    "es": "Las cantidades de demanda prevista que se cargan para planificar la producción: material, periodo o fecha y cantidad. Es el programa de producción o pronóstico que alimenta el MRP; la cabecera está en PBIM.",
+    "en": "The forecast demand quantities loaded to plan production: material, period or date and quantity. It is the production program or forecast that feeds MRP; the header is in PBIM.",
+    "pt": "As quantidades de demanda prevista carregadas para planejar a produção: material, período ou data e quantidade. É o programa de produção ou previsão que alimenta o MRP; o cabeçalho está na PBIM."
+  },
+  "synonyms": {
+    "es": [
+      "necesidad primaria",
+      "pronóstico",
+      "previsión de demanda",
+      "programa maestro",
+      "plan de producción",
+      "demanda planificada"
+    ],
+    "en": [
+      "independent requirement",
+      "forecast",
+      "demand plan",
+      "master production schedule",
+      "MPS",
+      "planned demand"
+    ],
+    "pt": [
+      "necessidade independente",
+      "previsão",
+      "previsão de demanda",
+      "programa mestre",
+      "plano de produção"
+    ]
+  }
+}

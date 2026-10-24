@@ -1,0 +1,12 @@
+{
+  "id": "T430",
+  "area": "pp",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Claves de control de operaciones",
+    "en": "Operation control keys",
+    "pt": "Chaves de controle de operações"
+  }
+}

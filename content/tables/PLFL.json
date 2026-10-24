@@ -1,0 +1,12 @@
+{
+  "id": "PLFL",
+  "area": "pp",
+  "contents": "items",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Hojas de ruta: secuencias",
+    "en": "Routings: sequences",
+    "pt": "Roteiros: sequências"
+  }
+}

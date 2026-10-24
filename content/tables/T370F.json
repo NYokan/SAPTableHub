@@ -1,0 +1,12 @@
+{
+  "id": "T370F",
+  "area": "pm",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Clases de ubicación técnica",
+    "en": "Functional location categories",
+    "pt": "Categorias de local de instalação"
+  }
+}

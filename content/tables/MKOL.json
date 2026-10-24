@@ -1,0 +1,36 @@
+{
+  "id": "MKOL",
+  "area": "mat",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Stock especial de proveedor (consignación)",
+    "en": "Vendor special stock (consignment)",
+    "pt": "Estoque especial de fornecedor (consignação)"
+  },
+  "purpose": {
+    "es": "Stock de un proveedor que está en nuestras instalaciones pero sigue siendo suyo: consignación de proveedor (K) y otros stocks especiales de proveedor. Una fila por material, centro, almacén, lote, stock especial y proveedor.",
+    "en": "Vendor-owned stock kept at our premises: vendor consignment (K) and other vendor special stocks. One row per material, plant, storage location, batch, special stock and vendor.",
+    "pt": "Estoque do fornecedor que está nas nossas instalações mas continua sendo dele: consignação de fornecedor (K) e outros estoques especiais de fornecedor. Uma linha por material, centro, depósito, lote, estoque especial e fornecedor."
+  },
+  "synonyms": {
+    "es": [
+      "consignación de proveedor",
+      "stock en consignación",
+      "stock especial K",
+      "stock del proveedor"
+    ],
+    "en": [
+      "vendor consignment",
+      "consignment stock",
+      "special stock K",
+      "supplier-owned stock"
+    ],
+    "pt": [
+      "consignação de fornecedor",
+      "estoque em consignação",
+      "estoque especial K"
+    ]
+  }
+}

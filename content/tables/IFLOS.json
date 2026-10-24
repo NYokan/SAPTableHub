@@ -1,0 +1,12 @@
+{
+  "id": "IFLOS",
+  "area": "pm",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Ubicaciones técnicas (etiquetas alternativas)",
+    "en": "Functional locations (alternative labels)",
+    "pt": "Locais de instalação (rótulos alternativos)"
+  }
+}

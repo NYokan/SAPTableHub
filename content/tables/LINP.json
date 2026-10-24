@@ -1,0 +1,13 @@
+{
+  "id": "LINP",
+  "area": "mat",
+  "contents": "items",
+  "component": "LE-WM",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Inventario WM (ubicaciones)",
+    "en": "WM inventory documents (bins)",
+    "pt": "Inventário WM (posições)"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "T415S",
+  "area": "pp",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Status de listas de materiales",
+    "en": "Bill of material statuses",
+    "pt": "Status de listas técnicas"
+  }
+}

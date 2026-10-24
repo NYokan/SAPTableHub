@@ -1,0 +1,11 @@
+{
+  "id": "TABW",
+  "area": "fin",
+  "contents": "config",
+  "category": "TRANSP",
+  "title": {
+    "es": "Activos fijos: clases de movimiento",
+    "en": "Fixed assets: transaction types",
+    "pt": "Ativos fixos: tipos de movimento"
+  }
+}

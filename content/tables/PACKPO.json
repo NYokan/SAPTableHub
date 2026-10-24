@@ -1,0 +1,13 @@
+{
+  "id": "PACKPO",
+  "area": "mat",
+  "contents": "master",
+  "component": "LO-HU-MD",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Instrucciones de embalaje (posiciones)",
+    "en": "Packing instructions (items)",
+    "pt": "Instruções de embalagem (itens)"
+  }
+}

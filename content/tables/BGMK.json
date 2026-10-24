@@ -1,0 +1,12 @@
+{
+  "id": "BGMK",
+  "area": "pm",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Garantías maestras (cabecera)",
+    "en": "Master warranties (header)",
+    "pt": "Garantias mestras (cabeçalho)"
+  }
+}

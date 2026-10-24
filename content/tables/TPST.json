@@ -1,0 +1,12 @@
+{
+  "id": "TPST",
+  "area": "pm",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Asignación de listas de materiales a ubicaciones técnicas",
+    "en": "Bill of material links to functional locations",
+    "pt": "Atribuição de listas técnicas a locais de instalação"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "id": "EQUI",
+  "area": "pm",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Equipos (datos generales)",
+    "en": "Equipment (general data)",
+    "pt": "Equipamentos (dados gerais)"
+  },
+  "purpose": {
+    "es": "Una fila por cada equipo: una máquina, vehículo o instrumento que se mantiene por separado. Guarda su tipo, fabricante, número de serie y material. Dónde está instalado se ve en EQUZ e ILOA.",
+    "en": "One row per piece of equipment: a machine, vehicle or instrument that is maintained on its own. It holds its type, manufacturer, serial number and material. Where it is installed is in EQUZ and ILOA.",
+    "pt": "Uma linha por equipamento: uma máquina, veículo ou instrumento mantido individualmente. Guarda seu tipo, fabricante, número de série e material. Onde está instalado fica na EQUZ e na ILOA."
+  },
+  "synonyms": {
+    "es": [
+      "equipo",
+      "máquina",
+      "activo",
+      "maestro de equipos",
+      "número de serie",
+      "vehículo"
+    ],
+    "en": [
+      "equipment",
+      "machine",
+      "asset",
+      "equipment master",
+      "serial number",
+      "vehicle"
+    ],
+    "pt": [
+      "equipamento",
+      "máquina",
+      "ativo",
+      "mestre de equipamentos",
+      "número de série",
+      "veículo"
+    ]
+  }
+}

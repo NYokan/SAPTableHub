@@ -1,0 +1,37 @@
+{
+  "id": "MKAL",
+  "area": "pp",
+  "contents": "master",
+  "component": "PP-PI-MD",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Versiones de fabricación",
+    "en": "Production versions",
+    "pt": "Versões de produção"
+  },
+  "purpose": {
+    "es": "Las versiones de fabricación de cada material y centro: qué lista de materiales y qué hoja de ruta se usan juntas, con su rango de lotes y fechas de validez.",
+    "en": "The production versions of each material and plant: which bill of material and which routing are used together, with their lot-size range and validity dates.",
+    "pt": "As versões de produção de cada material e centro: qual lista técnica e qual roteiro são usados juntos, com sua faixa de lote e datas de validade."
+  },
+  "synonyms": {
+    "es": [
+      "versión de fabricación",
+      "versión de producción",
+      "combinación lista y ruta",
+      "alternativa de fabricación"
+    ],
+    "en": [
+      "production version",
+      "manufacturing version",
+      "BOM and routing combination",
+      "production alternative"
+    ],
+    "pt": [
+      "versão de produção",
+      "versão de fabricação",
+      "combinação lista e roteiro"
+    ]
+  }
+}

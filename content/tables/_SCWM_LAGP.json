@@ -1,0 +1,12 @@
+{
+  "id": "/SCWM/LAGP",
+  "area": "mat",
+  "contents": "master",
+  "category": "TRANSP",
+  "s4only": true,
+  "title": {
+    "es": "EWM: ubicaciones de almacén",
+    "en": "EWM: storage bins",
+    "pt": "EWM: posições no depósito"
+  }
+}

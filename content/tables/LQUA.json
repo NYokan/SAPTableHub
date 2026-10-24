@@ -1,0 +1,40 @@
+{
+  "id": "LQUA",
+  "area": "mat",
+  "contents": "master",
+  "component": "LE-WM",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Cuantos (stock por ubicación)",
+    "en": "Quants (stock by storage bin)",
+    "pt": "Quantos (estoque por posição)"
+  },
+  "purpose": {
+    "es": "Stock en la gestión de almacenes (WM): una fila por cuanto, es decir, una cantidad de un material (y lote) en una ubicación concreta. Muestra dónde está físicamente cada cosa dentro del almacén.",
+    "en": "Stock in Warehouse Management (WM): one row per quant, a quantity of a material (and batch) in a specific storage bin. It shows where each item physically sits inside the warehouse.",
+    "pt": "Estoque no gerenciamento de depósitos (WM): uma linha por quanto, ou seja, uma quantidade de um material (e lote) numa posição específica. Mostra onde cada coisa está fisicamente dentro do depósito."
+  },
+  "synonyms": {
+    "es": [
+      "cuanto",
+      "stock por ubicación",
+      "stock WM",
+      "posición de almacén",
+      "existencias en ubicación"
+    ],
+    "en": [
+      "quant",
+      "stock per bin",
+      "WM stock",
+      "bin stock",
+      "warehouse stock"
+    ],
+    "pt": [
+      "quanto",
+      "estoque por posição",
+      "estoque WM",
+      "estoque no depósito"
+    ]
+  }
+}

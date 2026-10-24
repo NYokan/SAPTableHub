@@ -1,0 +1,39 @@
+{
+  "id": "QAVE",
+  "area": "qm",
+  "contents": "doc",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Decisiones de empleo de lotes de inspección",
+    "en": "Inspection lot usage decisions",
+    "pt": "Decisões de utilização de lotes de inspeção"
+  },
+  "purpose": {
+    "es": "La decisión final sobre cada lote de inspección: si se acepta o rechaza, con qué código, quién la tomó y cuándo. De ella depende si el stock pasa a libre utilización o queda bloqueado.",
+    "en": "The final decision on each inspection lot: accepted or rejected, with which code, who made it and when. It determines whether the stock is released to unrestricted use or stays blocked.",
+    "pt": "A decisão final sobre cada lote de inspeção: aceito ou rejeitado, com qual código, quem decidiu e quando. Dela depende se o estoque passa para utilização livre ou fica bloqueado."
+  },
+  "synonyms": {
+    "es": [
+      "decisión de empleo",
+      "aprobación de lote",
+      "rechazo de lote",
+      "liberación de calidad",
+      "aceptación"
+    ],
+    "en": [
+      "usage decision",
+      "lot acceptance",
+      "lot rejection",
+      "quality release",
+      "UD"
+    ],
+    "pt": [
+      "decisão de utilização",
+      "aprovação de lote",
+      "rejeição de lote",
+      "liberação de qualidade"
+    ]
+  }
+}

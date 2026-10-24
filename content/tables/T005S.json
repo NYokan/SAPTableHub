@@ -1,0 +1,12 @@
+{
+  "id": "T005S",
+  "area": "gen",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Regiones (provincias, estados)",
+    "en": "Regions (provinces, states)",
+    "pt": "Regiões (províncias, estados)"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "MAST",
+  "area": "pp",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Listas de materiales: asignación a materiales",
+    "en": "Bills of material: material assignment",
+    "pt": "Listas técnicas: atribuição a materiais"
+  },
+  "purpose": {
+    "es": "Une cada material y centro con su lista de materiales, indicando la utilización (producción, ingeniería, costes) y la alternativa. Es el punto de entrada para encontrar la lista de un producto.",
+    "en": "Links each material and plant to its bill of material, with the usage (production, engineering, costing) and the alternative. It is the entry point to find the BOM of a product.",
+    "pt": "Liga cada material e centro à sua lista técnica, indicando a utilização (produção, engenharia, custos) e a alternativa. É o ponto de entrada para encontrar a lista de um produto."
+  },
+  "synonyms": {
+    "es": [
+      "lista de materiales",
+      "BOM",
+      "receta",
+      "estructura de producto",
+      "escandallo"
+    ],
+    "en": [
+      "bill of material",
+      "BOM",
+      "recipe",
+      "product structure",
+      "material BOM"
+    ],
+    "pt": [
+      "lista técnica",
+      "lista de materiais",
+      "BOM",
+      "estrutura de produto",
+      "receita"
+    ]
+  }
+}

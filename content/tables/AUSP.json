@@ -1,0 +1,40 @@
+{
+  "id": "AUSP",
+  "area": "gen",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Valores de características por objeto",
+    "en": "Characteristic values per object",
+    "pt": "Valores de características por objeto"
+  },
+  "purpose": {
+    "es": "Guarda el valor de cada característica de clasificación para cada objeto clasificado, como un material, lote o equipo. Es donde se buscan atributos como color, tamaño o calidad.",
+    "en": "It holds the value of each classification characteristic for each classified object, such as a material, batch or equipment. It is where attributes like color, size or grade are found.",
+    "pt": "Guarda o valor de cada característica de classificação para cada objeto classificado, como um material, lote ou equipamento. É onde ficam atributos como cor, tamanho ou qualidade."
+  },
+  "synonyms": {
+    "es": [
+      "valor de característica",
+      "atributo",
+      "clasificación",
+      "propiedad",
+      "característica de lote"
+    ],
+    "en": [
+      "characteristic value",
+      "attribute",
+      "classification",
+      "property",
+      "batch characteristic"
+    ],
+    "pt": [
+      "valor de característica",
+      "atributo",
+      "classificação",
+      "propriedade",
+      "característica de lote"
+    ]
+  }
+}

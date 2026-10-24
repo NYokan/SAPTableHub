@@ -1,0 +1,40 @@
+{
+  "id": "ILOA",
+  "area": "pm",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Datos de emplazamiento e imputación de objetos de mantenimiento",
+    "en": "Location and account assignment of maintenance objects",
+    "pt": "Dados de localização e imputação de objetos de manutenção"
+  },
+  "purpose": {
+    "es": "Guarda dónde está y a quién se imputa un objeto de mantenimiento: centro, emplazamiento, sala, sociedad, centro de coste y elemento PEP. Equipos, ubicaciones técnicas y órdenes apuntan a una fila de aquí.",
+    "en": "It holds where a maintenance object is and who is charged for it: plant, location, room, company code, cost center and WBS element. Equipment, functional locations and orders point to a row here.",
+    "pt": "Guarda onde está e a quem se imputa um objeto de manutenção: centro, localização, sala, empresa, centro de custo e elemento PEP. Equipamentos, locais de instalação e ordens apontam para uma linha daqui."
+  },
+  "synonyms": {
+    "es": [
+      "emplazamiento",
+      "centro de coste",
+      "imputación",
+      "ubicación física",
+      "sala"
+    ],
+    "en": [
+      "location",
+      "cost center",
+      "account assignment",
+      "physical location",
+      "room"
+    ],
+    "pt": [
+      "localização",
+      "centro de custo",
+      "imputação",
+      "local físico",
+      "sala"
+    ]
+  }
+}

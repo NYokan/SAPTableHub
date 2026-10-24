@@ -1,0 +1,34 @@
+{
+  "id": "IFLOTX",
+  "area": "pm",
+  "contents": "text",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Ubicaciones técnicas (textos breves)",
+    "en": "Functional locations (short texts)",
+    "pt": "Locais de instalação (textos breves)"
+  },
+  "purpose": {
+    "es": "La descripción breve de cada ubicación técnica en cada idioma. Se usa con IFLOT para mostrar el nombre del lugar.",
+    "en": "The short description of each functional location in each language. It is used with IFLOT to show the name of the place.",
+    "pt": "A descrição breve de cada local de instalação em cada idioma. É usada com a IFLOT para mostrar o nome do lugar."
+  },
+  "synonyms": {
+    "es": [
+      "descripción de ubicación técnica",
+      "nombre de ubicación",
+      "texto de ubicación"
+    ],
+    "en": [
+      "functional location description",
+      "location name",
+      "location text"
+    ],
+    "pt": [
+      "descrição do local de instalação",
+      "nome do local",
+      "texto do local"
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "ANEA",
+  "area": "fin",
+  "contents": "items",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Activos fijos: valores proporcionales de movimientos",
+    "en": "Fixed assets: proportional values of transactions",
+    "pt": "Ativos fixos: valores proporcionais de movimentos"
+  }
+}

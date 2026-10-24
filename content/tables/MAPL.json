@@ -1,0 +1,36 @@
+{
+  "id": "MAPL",
+  "area": "pp",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Hojas de ruta: asignación a materiales",
+    "en": "Routings: material assignment",
+    "pt": "Roteiros: atribuição a materiais"
+  },
+  "purpose": {
+    "es": "Indica qué hoja de ruta o plan corresponde a cada material y centro. Se usa para encontrar la ruta de fabricación o el plan de inspección de un producto.",
+    "en": "Shows which routing or task list belongs to each material and plant. It is used to find the manufacturing routing or inspection plan of a product.",
+    "pt": "Indica qual roteiro ou plano corresponde a cada material e centro. Serve para encontrar o roteiro de produção ou o plano de inspeção de um produto."
+  },
+  "synonyms": {
+    "es": [
+      "ruta del material",
+      "asignación de hoja de ruta",
+      "plan del material",
+      "hoja de ruta por producto"
+    ],
+    "en": [
+      "material routing",
+      "routing assignment",
+      "task list allocation",
+      "product routing"
+    ],
+    "pt": [
+      "roteiro do material",
+      "atribuição de roteiro",
+      "plano do material"
+    ]
+  }
+}

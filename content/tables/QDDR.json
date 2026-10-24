@@ -1,0 +1,11 @@
+{
+  "id": "QDDR",
+  "area": "qm",
+  "contents": "master",
+  "category": "TRANSP",
+  "title": {
+    "es": "Reglas de modificación dinámica",
+    "en": "Dynamic modification rules",
+    "pt": "Regras de modificação dinâmica"
+  }
+}

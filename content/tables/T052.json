@@ -1,0 +1,40 @@
+{
+  "id": "T052",
+  "area": "fin",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Condiciones de pago",
+    "en": "Terms of payment",
+    "pt": "Condições de pagamento"
+  },
+  "purpose": {
+    "es": "Las condiciones de pago: en cuántos días vence una factura y qué descuentos por pronto pago se aplican. Clientes, proveedores y documentos guardan su clave (por ejemplo ZTERM).",
+    "en": "The terms of payment: how many days until an invoice is due and which cash discounts apply. Customers, vendors and documents store their key (for example ZTERM).",
+    "pt": "As condições de pagamento: em quantos dias uma fatura vence e quais descontos por pagamento antecipado se aplicam. Clientes, fornecedores e documentos guardam sua chave (por exemplo ZTERM)."
+  },
+  "synonyms": {
+    "es": [
+      "condiciones de pago",
+      "plazo de pago",
+      "vencimiento",
+      "descuento por pronto pago",
+      "ZTERM"
+    ],
+    "en": [
+      "payment terms",
+      "due date",
+      "cash discount",
+      "net days",
+      "ZTERM"
+    ],
+    "pt": [
+      "condições de pagamento",
+      "prazo de pagamento",
+      "vencimento",
+      "desconto por pagamento antecipado",
+      "ZTERM"
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "SETLEAF",
+  "area": "fin",
+  "contents": "master",
+  "component": "FI-SL-SL-MD-SE",
+  "category": "TRANSP",
+  "title": {
+    "es": "Grupos (sets): valores incluidos",
+    "en": "Sets (groups): included values",
+    "pt": "Grupos (sets): valores incluídos"
+  }
+}

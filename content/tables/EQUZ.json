@@ -1,0 +1,40 @@
+{
+  "id": "EQUZ",
+  "area": "pm",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Equipos (segmentos de tiempo)",
+    "en": "Equipment (time segments)",
+    "pt": "Equipamentos (segmentos de tempo)"
+  },
+  "purpose": {
+    "es": "Guarda la historia del equipo por periodos: en cada tramo de fechas, dónde estaba montado, a qué equipo superior pertenecía y quién lo planificaba. La fila vigente es la que llega hasta 31.12.9999.",
+    "en": "It keeps the equipment history by periods: for each date range, where it was installed, which superior equipment it belonged to and who planned it. The current row is the one valid until 31.12.9999.",
+    "pt": "Guarda o histórico do equipamento por períodos: em cada intervalo de datas, onde estava instalado, a que equipamento superior pertencia e quem o planejava. A linha vigente é a que vai até 31.12.9999."
+  },
+  "synonyms": {
+    "es": [
+      "historial de equipo",
+      "instalación de equipo",
+      "montaje",
+      "equipo superior",
+      "periodo de validez"
+    ],
+    "en": [
+      "equipment history",
+      "equipment installation",
+      "installed at",
+      "superior equipment",
+      "validity period"
+    ],
+    "pt": [
+      "histórico do equipamento",
+      "instalação do equipamento",
+      "montagem",
+      "equipamento superior",
+      "período de validade"
+    ]
+  }
+}

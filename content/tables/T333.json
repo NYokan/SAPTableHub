@@ -1,0 +1,13 @@
+{
+  "id": "T333",
+  "area": "mat",
+  "contents": "config",
+  "component": "LE-WM",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Clases de movimiento WM",
+    "en": "WM movement types",
+    "pt": "Tipos de movimento WM"
+  }
+}

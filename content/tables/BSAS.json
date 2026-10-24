@@ -1,0 +1,40 @@
+{
+  "id": "BSAS",
+  "area": "fin",
+  "contents": "doc",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Cuentas de mayor: partidas compensadas",
+    "en": "G/L accounts: cleared items",
+    "pt": "Contas do razão: partidas compensadas"
+  },
+  "purpose": {
+    "es": "Índice de las partidas de cuentas de mayor gestionadas por partidas abiertas que ya están compensadas, por ejemplo una cuenta puente ya cuadrada. Sus partidas abiertas están en BSIS.",
+    "en": "Index of the line items of open-item-managed G/L accounts that have already been cleared, for example a clearing account that is already balanced. Its open items are in BSIS.",
+    "pt": "Índice das partidas de contas do razão com controle de partidas em aberto que já foram compensadas, por exemplo uma conta transitória já conciliada. As partidas em aberto estão na BSIS."
+  },
+  "synonyms": {
+    "es": [
+      "partidas compensadas",
+      "cuenta puente",
+      "conciliación",
+      "movimientos de mayor",
+      "partidas liquidadas"
+    ],
+    "en": [
+      "cleared items",
+      "clearing account",
+      "reconciliation",
+      "G/L line items",
+      "settled items"
+    ],
+    "pt": [
+      "partidas compensadas",
+      "conta transitória",
+      "conciliação",
+      "movimentos do razão",
+      "partidas liquidadas"
+    ]
+  }
+}

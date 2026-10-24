@@ -1,0 +1,12 @@
+{
+  "id": "T012",
+  "area": "fin",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Bancos propios",
+    "en": "House banks",
+    "pt": "Bancos próprios"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "/SCWM/ORDIM_O",
+  "area": "mat",
+  "contents": "doc",
+  "category": "TRANSP",
+  "s4only": true,
+  "title": {
+    "es": "EWM: tareas de almacén abiertas",
+    "en": "EWM: open warehouse tasks",
+    "pt": "EWM: tarefas de depósito abertas"
+  }
+}

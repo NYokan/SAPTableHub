@@ -1,0 +1,12 @@
+{
+  "id": "MHIO",
+  "area": "pm",
+  "contents": "doc",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Planes de mantenimiento (objetos generados por llamada)",
+    "en": "Maintenance plans (objects created by calls)",
+    "pt": "Planos de manutenção (objetos gerados por chamada)"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "TCJ_C_JOURNALS",
+  "area": "fin",
+  "contents": "config",
+  "category": "TRANSP",
+  "title": {
+    "es": "Libros de caja",
+    "en": "Cash journals",
+    "pt": "Livros de caixa"
+  }
+}

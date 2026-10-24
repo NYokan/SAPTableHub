@@ -1,0 +1,13 @@
+{
+  "id": "AFVU",
+  "area": "pp",
+  "contents": "items",
+  "component": "PP-SFC",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Operaciones de órdenes (campos de usuario)",
+    "en": "Order operations (user fields)",
+    "pt": "Operações de ordens (campos do usuário)"
+  }
+}

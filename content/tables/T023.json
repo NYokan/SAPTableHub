@@ -1,0 +1,40 @@
+{
+  "id": "T023",
+  "area": "mat",
+  "contents": "config",
+  "component": "LO-MD-MM",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Grupos de artículos",
+    "en": "Material groups",
+    "pt": "Grupos de mercadorias"
+  },
+  "purpose": {
+    "es": "Lista de grupos de artículos, la agrupación de materiales por familia o categoría de compra que más se usa en informes de compras y stocks. Los nombres están en T023T.",
+    "en": "List of material groups, the grouping of materials by family or purchasing category most used in purchasing and stock reports. The names are in T023T.",
+    "pt": "Lista de grupos de mercadorias, o agrupamento de materiais por família ou categoria de compra mais usado em relatórios de compras e estoques. Os nomes estão na T023T."
+  },
+  "synonyms": {
+    "es": [
+      "grupo de artículos",
+      "grupo de materiales",
+      "familia de materiales",
+      "MATKL",
+      "categoría de compra"
+    ],
+    "en": [
+      "material group",
+      "commodity group",
+      "material family",
+      "MATKL",
+      "merchandise category"
+    ],
+    "pt": [
+      "grupo de mercadorias",
+      "grupo de materiais",
+      "família de materiais",
+      "MATKL"
+    ]
+  }
+}

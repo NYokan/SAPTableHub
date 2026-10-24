@@ -1,0 +1,12 @@
+{
+  "id": "TNAPR",
+  "area": "gen",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Programas y formularios por clase de mensaje",
+    "en": "Programs and forms per output type",
+    "pt": "Programas e formulários por tipo de mensagem"
+  }
+}

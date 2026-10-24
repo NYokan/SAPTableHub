@@ -1,0 +1,13 @@
+{
+  "id": "FKKVKP",
+  "area": "fin",
+  "contents": "master",
+  "component": "FI-CA",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Cuentas de contrato: datos por interlocutor",
+    "en": "Contract accounts: business partner data",
+    "pt": "Contas de contrato: dados por parceiro"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "PRTE",
+  "area": "ps",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Elementos PEP (fechas de programación)",
+    "en": "WBS elements (scheduling dates)",
+    "pt": "Elementos PEP (datas de programação)"
+  },
+  "purpose": {
+    "es": "Las fechas planificadas, previstas y reales de inicio y fin de cada elemento PEP. Sirve para seguir el calendario del proyecto.",
+    "en": "The planned, forecast and actual start and finish dates of each WBS element. It is used to follow the project schedule.",
+    "pt": "As datas planejadas, previstas e reais de início e fim de cada elemento PEP. Serve para acompanhar o cronograma do projeto."
+  },
+  "synonyms": {
+    "es": [
+      "fechas de proyecto",
+      "calendario de proyecto",
+      "fecha de inicio",
+      "fecha de fin",
+      "plazos"
+    ],
+    "en": [
+      "project dates",
+      "project schedule",
+      "start date",
+      "finish date",
+      "deadlines"
+    ],
+    "pt": [
+      "datas do projeto",
+      "cronograma do projeto",
+      "data de início",
+      "data de fim",
+      "prazos"
+    ]
+  }
+}

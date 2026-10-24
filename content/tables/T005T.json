@@ -1,0 +1,13 @@
+{
+  "id": "T005T",
+  "area": "gen",
+  "contents": "text",
+  "component": "BC-SRV-ADR",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Países (nombres)",
+    "en": "Countries (names)",
+    "pt": "Países (nomes)"
+  }
+}

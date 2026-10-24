@@ -1,0 +1,12 @@
+{
+  "id": "ANKT",
+  "area": "fin",
+  "contents": "text",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Clases de activos fijos: textos",
+    "en": "Asset classes: texts",
+    "pt": "Classes de ativos fixos: textos"
+  }
+}

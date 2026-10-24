@@ -1,0 +1,12 @@
+{
+  "id": "AVIK",
+  "area": "fin",
+  "contents": "header",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Avisos de pago (cabecera)",
+    "en": "Payment advice notes (header)",
+    "pt": "Avisos de pagamento (cabeçalho)"
+  }
+}

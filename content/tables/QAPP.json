@@ -1,0 +1,12 @@
+{
+  "id": "QAPP",
+  "area": "qm",
+  "contents": "doc",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Puntos de inspección",
+    "en": "Inspection points",
+    "pt": "Pontos de inspeção"
+  }
+}

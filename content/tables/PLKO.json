@@ -1,0 +1,43 @@
+{
+  "id": "PLKO",
+  "area": "pp",
+  "contents": "header",
+  "component": "PP-BD-RTG",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Hojas de ruta y planes (cabecera)",
+    "en": "Routings and task lists (header)",
+    "pt": "Roteiros e listas de tarefas (cabeçalho)"
+  },
+  "purpose": {
+    "es": "Los datos generales de cada hoja de ruta, receta maestra o plan de inspección o de mantenimiento: tipo de plan, uso, status, cantidades y validez. El tipo de plan (PLNTY) indica qué clase es.",
+    "en": "The general data of each routing, master recipe, inspection plan or maintenance task list: list type, usage, status, quantities and validity. The task list type (PLNTY) tells which kind it is.",
+    "pt": "Os dados gerais de cada roteiro, receita mestre, plano de inspeção ou de manutenção: tipo de roteiro, utilização, status, quantidades e validade. O tipo de roteiro (PLNTY) indica qual é."
+  },
+  "synonyms": {
+    "es": [
+      "hoja de ruta",
+      "ruta de fabricación",
+      "receta maestra",
+      "plan de inspección",
+      "hoja de ruta de mantenimiento",
+      "proceso de fabricación"
+    ],
+    "en": [
+      "routing",
+      "task list",
+      "master recipe",
+      "inspection plan",
+      "maintenance task list",
+      "manufacturing process"
+    ],
+    "pt": [
+      "roteiro",
+      "lista de tarefas",
+      "receita mestre",
+      "plano de inspeção",
+      "processo de fabricação"
+    ]
+  }
+}

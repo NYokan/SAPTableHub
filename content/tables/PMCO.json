@@ -1,0 +1,12 @@
+{
+  "id": "PMCO",
+  "area": "pm",
+  "contents": "doc",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Órdenes de mantenimiento (costes estimados por grupo de valor)",
+    "en": "Maintenance orders (estimated costs by value category)",
+    "pt": "Ordens de manutenção (custos estimados por categoria de valor)"
+  }
+}

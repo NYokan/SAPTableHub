@@ -1,0 +1,12 @@
+{
+  "id": "T143",
+  "area": "mat",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Condiciones de temperatura",
+    "en": "Temperature conditions",
+    "pt": "Condições de temperatura"
+  }
+}

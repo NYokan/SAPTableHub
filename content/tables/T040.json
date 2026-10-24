@@ -1,0 +1,12 @@
+{
+  "id": "T040",
+  "area": "fin",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Claves de reclamación",
+    "en": "Dunning keys",
+    "pt": "Chaves de advertência"
+  }
+}

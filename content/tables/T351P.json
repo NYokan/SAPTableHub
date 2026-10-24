@@ -1,0 +1,12 @@
+{
+  "id": "T351P",
+  "area": "pm",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Paquetes de mantenimiento por estrategia",
+    "en": "Maintenance packages by strategy",
+    "pt": "Pacotes de manutenção por estratégia"
+  }
+}

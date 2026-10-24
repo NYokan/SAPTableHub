@@ -1,0 +1,12 @@
+{
+  "id": "TFACT",
+  "area": "gen",
+  "contents": "text",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Calendarios de fábrica (textos)",
+    "en": "Factory calendars (texts)",
+    "pt": "Calendários de fábrica (textos)"
+  }
+}

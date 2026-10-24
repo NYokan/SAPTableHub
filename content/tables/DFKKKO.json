@@ -1,0 +1,13 @@
+{
+  "id": "DFKKKO",
+  "area": "fin",
+  "contents": "header",
+  "component": "FI-CA",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Contabilidad de contratos: documentos (cabecera)",
+    "en": "Contract accounting: documents (header)",
+    "pt": "Contabilidade de contratos: documentos (cabeçalho)"
+  }
+}

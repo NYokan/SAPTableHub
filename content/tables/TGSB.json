@@ -1,0 +1,12 @@
+{
+  "id": "TGSB",
+  "area": "fin",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Divisiones",
+    "en": "Business areas",
+    "pt": "Divisões"
+  }
+}

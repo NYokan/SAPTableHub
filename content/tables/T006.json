@@ -1,0 +1,12 @@
+{
+  "id": "T006",
+  "area": "gen",
+  "contents": "config",
+  "component": "BC-SRV-ASF-UOM",
+  "category": "TRANSP",
+  "title": {
+    "es": "Unidades de medida",
+    "en": "Units of measure",
+    "pt": "Unidades de medida"
+  }
+}

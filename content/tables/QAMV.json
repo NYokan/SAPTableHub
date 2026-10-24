@@ -1,0 +1,42 @@
+{
+  "id": "QAMV",
+  "area": "qm",
+  "contents": "items",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Lotes de inspección: características a inspeccionar",
+    "en": "Inspection lots: characteristics to inspect",
+    "pt": "Lotes de inspeção: características a inspecionar"
+  },
+  "purpose": {
+    "es": "Las características que hay que inspeccionar en cada lote, copiadas del plan de inspección: qué se mide, límites de tolerancia, valor objetivo y tamaño de muestra.",
+    "en": "The characteristics to inspect in each lot, copied from the inspection plan: what is measured, tolerance limits, target value and sample size.",
+    "pt": "As características a inspecionar em cada lote, copiadas do plano de inspeção: o que se mede, limites de tolerância, valor-alvo e tamanho da amostra."
+  },
+  "synonyms": {
+    "es": [
+      "especificación",
+      "tolerancia",
+      "límite superior",
+      "límite inferior",
+      "valor objetivo",
+      "característica de inspección"
+    ],
+    "en": [
+      "specification",
+      "tolerance",
+      "upper limit",
+      "lower limit",
+      "target value",
+      "inspection characteristic"
+    ],
+    "pt": [
+      "especificação",
+      "tolerância",
+      "limite superior",
+      "limite inferior",
+      "valor-alvo"
+    ]
+  }
+}

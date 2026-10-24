@@ -1,0 +1,37 @@
+{
+  "id": "MPOS",
+  "area": "pm",
+  "contents": "items",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Posiciones de mantenimiento",
+    "en": "Maintenance items",
+    "pt": "Itens de manutenção"
+  },
+  "purpose": {
+    "es": "Una fila por cada posición de mantenimiento: qué objeto se mantiene (equipo o ubicación técnica), con qué hoja de ruta y qué tipo de orden se crea. Cada posición pertenece a un plan de MPLA.",
+    "en": "One row per maintenance item: which object is maintained (equipment or functional location), with which task list and what order type is created. Each item belongs to a plan in MPLA.",
+    "pt": "Uma linha por item de manutenção: qual objeto é mantido (equipamento ou local de instalação), com qual lista de tarefas e que tipo de ordem é criado. Cada item pertence a um plano da MPLA."
+  },
+  "synonyms": {
+    "es": [
+      "posición de mantenimiento",
+      "objeto a mantener",
+      "hoja de ruta",
+      "plan de mantenimiento"
+    ],
+    "en": [
+      "maintenance item",
+      "object to maintain",
+      "task list",
+      "maintenance plan"
+    ],
+    "pt": [
+      "item de manutenção",
+      "objeto a manter",
+      "lista de tarefas",
+      "plano de manutenção"
+    ]
+  }
+}

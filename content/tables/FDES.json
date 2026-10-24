@@ -1,0 +1,12 @@
+{
+  "id": "FDES",
+  "area": "fin",
+  "contents": "doc",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Gestión de tesorería: avisos de tesorería",
+    "en": "Cash management: memo records",
+    "pt": "Gestão de caixa: avisos de tesouraria"
+  }
+}

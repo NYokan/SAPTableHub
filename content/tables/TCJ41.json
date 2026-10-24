@@ -1,0 +1,12 @@
+{
+  "id": "TCJ41",
+  "area": "ps",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Perfiles de proyecto",
+    "en": "Project profiles",
+    "pt": "Perfis de projeto"
+  }
+}

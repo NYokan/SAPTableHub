@@ -1,0 +1,34 @@
+{
+  "id": "EQKT",
+  "area": "pm",
+  "contents": "text",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Equipos (textos breves)",
+    "en": "Equipment (short texts)",
+    "pt": "Equipamentos (textos breves)"
+  },
+  "purpose": {
+    "es": "La descripción breve de cada equipo en cada idioma. Úsala junto con EQUI para mostrar el nombre del equipo.",
+    "en": "The short description of each piece of equipment in each language. Use it with EQUI to show the equipment name.",
+    "pt": "A descrição breve de cada equipamento em cada idioma. Use-a junto com a EQUI para mostrar o nome do equipamento."
+  },
+  "synonyms": {
+    "es": [
+      "descripción de equipo",
+      "nombre del equipo",
+      "texto de equipo"
+    ],
+    "en": [
+      "equipment description",
+      "equipment name",
+      "equipment text"
+    ],
+    "pt": [
+      "descrição do equipamento",
+      "nome do equipamento",
+      "texto do equipamento"
+    ]
+  }
+}

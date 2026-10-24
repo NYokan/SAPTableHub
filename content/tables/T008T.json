@@ -1,0 +1,13 @@
+{
+  "id": "T008T",
+  "area": "fin",
+  "contents": "text",
+  "component": "FI",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Motivos de bloqueo de pago: textos",
+    "en": "Payment block reasons: texts",
+    "pt": "Motivos de bloqueio de pagamento: textos"
+  }
+}

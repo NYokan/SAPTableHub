@@ -1,0 +1,12 @@
+{
+  "id": "MKOLH",
+  "area": "mat",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Stock especial de proveedor (histórico)",
+    "en": "Vendor special stock (history)",
+    "pt": "Estoque especial de fornecedor (histórico)"
+  }
+}

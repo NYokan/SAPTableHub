@@ -1,0 +1,12 @@
+{
+  "id": "TQ30",
+  "area": "qm",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Tipos de inspección",
+    "en": "Inspection types",
+    "pt": "Tipos de inspeção"
+  }
+}

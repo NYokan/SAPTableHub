@@ -1,0 +1,37 @@
+{
+  "id": "MLGN",
+  "area": "mat",
+  "contents": "master",
+  "component": "LO-MD-MM",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Materiales: datos por número de almacén (WM)",
+    "en": "Materials: warehouse number data (WM)",
+    "pt": "Materiais: dados por número de armazém (WM)"
+  },
+  "purpose": {
+    "es": "Datos de cada material para un número de almacén gestionado con WM: unidad de almacén, indicadores de estrategia de entrada y salida y cantidades por unidad de carga. Se usa para entender cómo se almacena el material en el almacén.",
+    "en": "Data for each material in a WM-managed warehouse number: storage unit type, putaway and picking strategy indicators and quantities per load carrier. Use it to understand how the material is stored in the warehouse.",
+    "pt": "Dados de cada material para um número de armazém gerenciado com WM: tipo de unidade de depósito, códigos de estratégia de entrada e saída e quantidades por unidade de carga. Serve para entender como o material é armazenado no depósito."
+  },
+  "synonyms": {
+    "es": [
+      "vista almacén",
+      "datos WM del material",
+      "estrategia de ubicación",
+      "unidad de almacén"
+    ],
+    "en": [
+      "warehouse view",
+      "material WM data",
+      "putaway strategy",
+      "storage unit type"
+    ],
+    "pt": [
+      "visão depósito",
+      "dados WM do material",
+      "estratégia de armazenagem"
+    ]
+  }
+}

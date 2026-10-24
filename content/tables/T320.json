@@ -1,0 +1,13 @@
+{
+  "id": "T320",
+  "area": "mat",
+  "contents": "config",
+  "component": "LE-WM",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Asignación centro/almacén a número de almacén",
+    "en": "Plant/storage location to warehouse assignment",
+    "pt": "Atribuição centro/depósito a número de armazém"
+  }
+}

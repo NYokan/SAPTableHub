@@ -1,0 +1,35 @@
+{
+  "id": "MDTB",
+  "area": "pp",
+  "contents": "items",
+  "title": {
+    "es": "Documentos de planificación de necesidades (líneas)",
+    "en": "MRP documents (lines)",
+    "pt": "Documentos de planejamento de necessidades (linhas)"
+  },
+  "purpose": {
+    "es": "Las líneas de la lista MRP guardada: cada necesidad y cada entrada prevista (pedidos, órdenes, reservas, propuestas) con fecha, cantidad y stock disponible resultante.",
+    "en": "The lines of the saved MRP list: each requirement and each expected receipt (orders, reservations, proposals) with date, quantity and resulting available stock.",
+    "pt": "As linhas da lista MRP gravada: cada necessidade e cada entrada prevista (pedidos, ordens, reservas, propostas) com data, quantidade e estoque disponível resultante."
+  },
+  "synonyms": {
+    "es": [
+      "líneas MRP",
+      "necesidades y entradas",
+      "stock disponible proyectado",
+      "cobertura"
+    ],
+    "en": [
+      "MRP lines",
+      "requirements and receipts",
+      "projected available stock",
+      "coverage"
+    ],
+    "pt": [
+      "linhas MRP",
+      "necessidades e entradas",
+      "estoque disponível projetado",
+      "cobertura"
+    ]
+  }
+}

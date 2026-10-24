@@ -1,0 +1,44 @@
+{
+  "id": "MATDOC",
+  "area": "mat",
+  "contents": "doc",
+  "component": "MM-IM-GF",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "s4only": true,
+  "title": {
+    "es": "Documentos de material (S/4HANA)",
+    "en": "Material documents (S/4HANA)",
+    "pt": "Documentos de material (S/4HANA)"
+  },
+  "purpose": {
+    "es": "En S/4HANA, una fila por cada línea de un documento de material: entradas, salidas y traspasos de stock. Reúne en una sola tabla lo que en ECC estaba en MKPF (cabecera) y MSEG (posiciones), y de ella se calculan los stocks.",
+    "en": "In S/4HANA, one row per line of a material document: goods receipts, goods issues and stock transfers. It merges into a single table what ECC kept in MKPF (header) and MSEG (items), and stock levels are calculated from it.",
+    "pt": "No S/4HANA, uma linha por linha de documento de material: entradas, saídas e transferências de estoque. Junta numa só tabela o que no ECC ficava na MKPF (cabeçalho) e na MSEG (itens), e os estoques são calculados a partir dela."
+  },
+  "synonyms": {
+    "es": [
+      "movimiento de mercancías",
+      "entrada de mercancías",
+      "salida de mercancías",
+      "traspaso",
+      "documento de material",
+      "kardex"
+    ],
+    "en": [
+      "goods movement",
+      "goods receipt",
+      "goods issue",
+      "stock transfer",
+      "material document",
+      "inventory movement"
+    ],
+    "pt": [
+      "movimento de mercadorias",
+      "entrada de mercadorias",
+      "saída de mercadorias",
+      "transferência",
+      "documento de material"
+    ]
+  }
+}

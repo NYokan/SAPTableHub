@@ -1,0 +1,12 @@
+{
+  "id": "ADR6",
+  "area": "gen",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Direcciones (correos electrónicos)",
+    "en": "Addresses (email addresses)",
+    "pt": "Endereços (e-mails)"
+  }
+}

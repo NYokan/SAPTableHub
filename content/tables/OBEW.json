@@ -1,0 +1,12 @@
+{
+  "id": "OBEW",
+  "area": "mat",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Valoración de stock especial en proveedor",
+    "en": "Vendor special stock valuation",
+    "pt": "Avaliação do estoque especial no fornecedor"
+  }
+}

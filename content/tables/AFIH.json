@@ -1,0 +1,42 @@
+{
+  "id": "AFIH",
+  "area": "pm",
+  "contents": "header",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Órdenes de mantenimiento (cabecera de mantenimiento)",
+    "en": "Maintenance orders (maintenance header)",
+    "pt": "Ordens de manutenção (cabeçalho de manutenção)"
+  },
+  "purpose": {
+    "es": "Una fila por cada orden de mantenimiento con los datos propios de mantenimiento: equipo o ubicación técnica, prioridad, clase de actividad, grupo de planificación y aviso de origen. Los datos generales de la orden están en AUFK.",
+    "en": "One row per maintenance order with the maintenance-specific data: equipment or functional location, priority, activity type, planner group and originating notification. The general order data is in AUFK.",
+    "pt": "Uma linha por ordem de manutenção com os dados próprios de manutenção: equipamento ou local de instalação, prioridade, tipo de atividade, grupo de planejamento e nota de origem. Os dados gerais da ordem estão na AUFK."
+  },
+  "synonyms": {
+    "es": [
+      "orden de mantenimiento",
+      "orden de trabajo",
+      "OT",
+      "reparación",
+      "mantenimiento correctivo",
+      "mantenimiento preventivo"
+    ],
+    "en": [
+      "maintenance order",
+      "work order",
+      "repair order",
+      "corrective maintenance",
+      "preventive maintenance"
+    ],
+    "pt": [
+      "ordem de manutenção",
+      "ordem de serviço",
+      "OS",
+      "reparo",
+      "manutenção corretiva",
+      "manutenção preventiva"
+    ]
+  }
+}

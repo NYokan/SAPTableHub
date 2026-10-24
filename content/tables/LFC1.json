@@ -1,0 +1,40 @@
+{
+  "id": "LFC1",
+  "area": "fin",
+  "contents": "doc",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Proveedores: cifras de movimientos por período",
+    "en": "Vendors: transaction figures per period",
+    "pt": "Fornecedores: cifras de movimento por período"
+  },
+  "purpose": {
+    "es": "Los importes de debe, haber y compras de cada proveedor por sociedad, ejercicio y período. Sirve para ver el saldo de un proveedor sin sumar sus partidas una a una.",
+    "en": "The debit, credit and purchase amounts of each vendor per company code, fiscal year and period. It gives a vendor balance without adding up the items one by one.",
+    "pt": "Os valores de débito, crédito e compras de cada fornecedor por empresa, exercício e período. Serve para ver o saldo de um fornecedor sem somar as partidas uma a uma."
+  },
+  "synonyms": {
+    "es": [
+      "saldo de proveedor",
+      "cuenta corriente de proveedor",
+      "cifras de proveedor",
+      "acreedores",
+      "saldo por período"
+    ],
+    "en": [
+      "vendor balance",
+      "payables balance",
+      "vendor totals",
+      "creditors",
+      "period balance"
+    ],
+    "pt": [
+      "saldo do fornecedor",
+      "conta corrente do fornecedor",
+      "cifras do fornecedor",
+      "credores",
+      "saldo por período"
+    ]
+  }
+}

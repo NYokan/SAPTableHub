@@ -1,0 +1,41 @@
+{
+  "id": "TCURR",
+  "area": "gen",
+  "contents": "config",
+  "component": "BC-SRV-BSF-CUR",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Tipos de cambio",
+    "en": "Exchange rates",
+    "pt": "Taxas de câmbio"
+  },
+  "purpose": {
+    "es": "Los tipos de cambio entre monedas por clase de tipo de cambio y fecha de validez. La fecha se guarda invertida, así que la más reciente aparece primero.",
+    "en": "Exchange rates between currencies by exchange rate type and validity date. The date is stored inverted, so the most recent one comes first.",
+    "pt": "As taxas de câmbio entre moedas por categoria de taxa e data de validade. A data é guardada invertida, então a mais recente aparece primeiro."
+  },
+  "synonyms": {
+    "es": [
+      "tipo de cambio",
+      "tasa de cambio",
+      "cotización",
+      "divisa",
+      "conversión de moneda"
+    ],
+    "en": [
+      "exchange rate",
+      "FX rate",
+      "currency rate",
+      "foreign currency",
+      "currency conversion"
+    ],
+    "pt": [
+      "taxa de câmbio",
+      "câmbio",
+      "cotação",
+      "divisa",
+      "conversão de moeda"
+    ]
+  }
+}

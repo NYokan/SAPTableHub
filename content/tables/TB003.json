@@ -1,0 +1,12 @@
+{
+  "id": "TB003",
+  "area": "gen",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Roles de socio de negocio",
+    "en": "Business partner roles",
+    "pt": "Funções de parceiro de negócios"
+  }
+}

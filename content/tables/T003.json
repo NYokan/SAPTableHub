@@ -1,0 +1,41 @@
+{
+  "id": "T003",
+  "area": "fin",
+  "contents": "config",
+  "component": "FI",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Clases de documento contable",
+    "en": "Accounting document types",
+    "pt": "Tipos de documento contábil"
+  },
+  "purpose": {
+    "es": "La lista de clases de documento contable (factura de proveedor, pago, asiento manual…) y cómo se comporta cada una, por ejemplo su rango de numeración y qué tipos de cuenta admite. Los nombres están en T003T.",
+    "en": "The list of accounting document types (vendor invoice, payment, manual entry…) and how each one behaves, for example its number range and which account types it allows. The names are in T003T.",
+    "pt": "A lista de tipos de documento contábil (fatura de fornecedor, pagamento, lançamento manual…) e como cada um se comporta, por exemplo sua faixa de numeração e quais tipos de conta aceita. Os nomes estão na T003T."
+  },
+  "synonyms": {
+    "es": [
+      "clase de documento",
+      "tipo de documento",
+      "tipo de asiento",
+      "BLART",
+      "numeración de documentos"
+    ],
+    "en": [
+      "document type",
+      "journal entry type",
+      "BLART",
+      "document numbering",
+      "posting type"
+    ],
+    "pt": [
+      "tipo de documento",
+      "classe de documento",
+      "tipo de lançamento",
+      "BLART",
+      "numeração de documentos"
+    ]
+  }
+}

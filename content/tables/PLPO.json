@@ -1,0 +1,40 @@
+{
+  "id": "PLPO",
+  "area": "pp",
+  "contents": "items",
+  "component": "PP-BD-RTG",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Hojas de ruta y planes (operaciones)",
+    "en": "Routings and task lists (operations)",
+    "pt": "Roteiros e listas de tarefas (operações)"
+  },
+  "purpose": {
+    "es": "Las operaciones de cada hoja de ruta o plan: puesto de trabajo, clave de control, descripción y tiempos estándar por cantidad base. Es la base para programar órdenes y calcular costes.",
+    "en": "The operations of each routing or task list: work center, control key, description and standard times per base quantity. It is the basis for scheduling orders and costing.",
+    "pt": "As operações de cada roteiro ou plano: centro de trabalho, chave de controle, descrição e tempos padrão por quantidade básica. É a base para programar ordens e calcular custos."
+  },
+  "synonyms": {
+    "es": [
+      "operación de hoja de ruta",
+      "tiempo estándar",
+      "valor estándar",
+      "paso de fabricación",
+      "fase"
+    ],
+    "en": [
+      "routing operation",
+      "standard time",
+      "standard value",
+      "process step",
+      "task list operation"
+    ],
+    "pt": [
+      "operação do roteiro",
+      "tempo padrão",
+      "valor standard",
+      "etapa de produção"
+    ]
+  }
+}

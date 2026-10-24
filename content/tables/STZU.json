@@ -1,0 +1,12 @@
+{
+  "id": "STZU",
+  "area": "pp",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Listas de materiales: datos permanentes",
+    "en": "Bills of material: permanent data",
+    "pt": "Listas técnicas: dados permanentes"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "T059P",
+  "area": "fin",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Tipos de retención de impuestos",
+    "en": "Withholding tax types",
+    "pt": "Tipos de imposto retido na fonte"
+  }
+}

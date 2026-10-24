@@ -1,0 +1,12 @@
+{
+  "id": "FINSC_LD_CMP",
+  "area": "fin",
+  "contents": "config",
+  "category": "TRANSP",
+  "s4only": true,
+  "title": {
+    "es": "Ledgers por sociedad",
+    "en": "Ledgers per company code",
+    "pt": "Ledgers por empresa"
+  }
+}

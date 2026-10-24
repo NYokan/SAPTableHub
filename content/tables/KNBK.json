@@ -1,0 +1,40 @@
+{
+  "id": "KNBK",
+  "area": "fin",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Clientes: datos bancarios",
+    "en": "Customers: bank details",
+    "pt": "Clientes: dados bancários"
+  },
+  "purpose": {
+    "es": "Las cuentas bancarias de cada cliente: país, clave de banco, número de cuenta e IBAN. Se usan, por ejemplo, para cobros por domiciliación.",
+    "en": "The bank accounts of each customer: country, bank key, account number and IBAN. They are used, for example, for direct debit collections.",
+    "pt": "As contas bancárias de cada cliente: país, chave do banco, número da conta e IBAN. São usadas, por exemplo, para cobranças por débito automático."
+  },
+  "synonyms": {
+    "es": [
+      "cuenta bancaria de cliente",
+      "IBAN",
+      "datos bancarios",
+      "domiciliación",
+      "banco del cliente"
+    ],
+    "en": [
+      "customer bank account",
+      "IBAN",
+      "bank details",
+      "direct debit",
+      "customer bank"
+    ],
+    "pt": [
+      "conta bancária do cliente",
+      "IBAN",
+      "dados bancários",
+      "débito automático",
+      "banco do cliente"
+    ]
+  }
+}

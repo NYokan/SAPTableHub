@@ -1,0 +1,40 @@
+{
+  "id": "LTAP",
+  "area": "mat",
+  "contents": "items",
+  "component": "LE-WM",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Órdenes de transporte WM (posiciones)",
+    "en": "WM transfer orders (items)",
+    "pt": "Ordens de transferência WM (itens)"
+  },
+  "purpose": {
+    "es": "Posiciones de las órdenes de transporte de WM: qué material y cantidad se mueve, desde qué ubicación hasta cuál, y las cantidades confirmadas o con diferencia.",
+    "en": "Items of WM transfer orders: which material and quantity is moved, from which bin to which, and the confirmed or difference quantities.",
+    "pt": "Itens das ordens de transferência do WM: que material e quantidade se move, de que posição para qual, e as quantidades confirmadas ou com diferença."
+  },
+  "synonyms": {
+    "es": [
+      "posición de orden de transporte",
+      "picking",
+      "ubicación origen",
+      "ubicación destino",
+      "confirmación de OT"
+    ],
+    "en": [
+      "transfer order item",
+      "picking line",
+      "source bin",
+      "destination bin",
+      "TO confirmation"
+    ],
+    "pt": [
+      "item da ordem de transferência",
+      "posição de origem",
+      "posição de destino",
+      "confirmação de OT"
+    ]
+  }
+}

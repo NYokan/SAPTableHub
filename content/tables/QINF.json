@@ -1,0 +1,12 @@
+{
+  "id": "QINF",
+  "area": "qm",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Registros info de calidad en compras",
+    "en": "Quality info records for procurement",
+    "pt": "Registros info de qualidade em compras"
+  }
+}

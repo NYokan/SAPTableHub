@@ -1,0 +1,12 @@
+{
+  "id": "MARCH",
+  "area": "mat",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Materiales por centro (histórico de periodos)",
+    "en": "Materials by plant (period history)",
+    "pt": "Materiais por centro (histórico de períodos)"
+  }
+}

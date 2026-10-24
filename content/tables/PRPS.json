@@ -1,0 +1,40 @@
+{
+  "id": "PRPS",
+  "area": "ps",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Elementos PEP",
+    "en": "WBS elements",
+    "pt": "Elementos PEP"
+  },
+  "purpose": {
+    "es": "Una fila por cada elemento PEP: cada parte de la estructura de un proyecto a la que se imputan costes, ingresos y presupuesto. Guarda su código, descripción, proyecto, responsable y centro de coste.",
+    "en": "One row per WBS element: each part of a project structure that costs, revenues and budget are charged to. It holds its code, description, project, person responsible and cost center.",
+    "pt": "Uma linha por elemento PEP: cada parte da estrutura de um projeto à qual se imputam custos, receitas e orçamento. Guarda seu código, descrição, projeto, responsável e centro de custo."
+  },
+  "synonyms": {
+    "es": [
+      "elemento PEP",
+      "WBS",
+      "estructura de proyecto",
+      "partida del proyecto",
+      "imputación de proyecto"
+    ],
+    "en": [
+      "WBS element",
+      "work breakdown structure",
+      "project structure",
+      "project element",
+      "project account assignment"
+    ],
+    "pt": [
+      "elemento PEP",
+      "WBS",
+      "estrutura do projeto",
+      "item do projeto",
+      "imputação de projeto"
+    ]
+  }
+}

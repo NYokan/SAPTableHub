@@ -1,0 +1,12 @@
+{
+  "id": "T353I",
+  "area": "pm",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Clases de actividad de mantenimiento",
+    "en": "Maintenance activity types",
+    "pt": "Tipos de atividade de manutenção"
+  }
+}

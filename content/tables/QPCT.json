@@ -1,0 +1,37 @@
+{
+  "id": "QPCT",
+  "area": "qm",
+  "contents": "text",
+  "component": "QM-PT-BD-CAT",
+  "category": "TRANSP",
+  "title": {
+    "es": "Catálogos de calidad: textos de códigos",
+    "en": "Quality catalogs: code texts",
+    "pt": "Catálogos de qualidade: textos de códigos"
+  },
+  "purpose": {
+    "es": "La descripción en cada idioma de los códigos de catálogo de calidad (defectos, causas, medidas, decisiones). Se usa para mostrar textos legibles junto a los códigos de avisos y resultados.",
+    "en": "The description in each language of the quality catalog codes (defects, causes, tasks, decisions). It is used to show readable texts next to the codes in notifications and results.",
+    "pt": "A descrição em cada idioma dos códigos de catálogo de qualidade (defeitos, causas, medidas, decisões). Serve para mostrar textos legíveis junto aos códigos de notas e resultados."
+  },
+  "synonyms": {
+    "es": [
+      "texto de código",
+      "descripción de defecto",
+      "descripción de causa",
+      "catálogo"
+    ],
+    "en": [
+      "code text",
+      "defect description",
+      "cause description",
+      "catalog text"
+    ],
+    "pt": [
+      "texto do código",
+      "descrição do defeito",
+      "descrição da causa",
+      "catálogo"
+    ]
+  }
+}

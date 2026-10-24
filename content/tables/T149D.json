@@ -1,0 +1,12 @@
+{
+  "id": "T149D",
+  "area": "mat",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Clases de valoración (valoración separada)",
+    "en": "Valuation types (split valuation)",
+    "pt": "Tipos de avaliação (avaliação separada)"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "QASE",
+  "area": "qm",
+  "contents": "doc",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Resultados individuales de inspección",
+    "en": "Individual inspection results",
+    "pt": "Resultados individuais de inspeção"
+  },
+  "purpose": {
+    "es": "Cada valor medido por separado en una inspección (una fila por medición o unidad de muestra), cuando la característica se registra con resultados individuales.",
+    "en": "Each value measured separately in an inspection (one row per measurement or sample unit), when the characteristic is recorded with single results.",
+    "pt": "Cada valor medido separadamente em uma inspeção (uma linha por medição ou unidade de amostra), quando a característica é registrada com resultados individuais."
+  },
+  "synonyms": {
+    "es": [
+      "valor individual",
+      "medición individual",
+      "lectura",
+      "resultado por unidad"
+    ],
+    "en": [
+      "single result",
+      "individual measurement",
+      "reading",
+      "result per unit"
+    ],
+    "pt": [
+      "valor individual",
+      "medição individual",
+      "leitura",
+      "resultado por unidade"
+    ]
+  }
+}

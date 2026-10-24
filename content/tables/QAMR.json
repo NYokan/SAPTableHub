@@ -1,0 +1,40 @@
+{
+  "id": "QAMR",
+  "area": "qm",
+  "contents": "doc",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Resultados por característica",
+    "en": "Results per characteristic",
+    "pt": "Resultados por característica"
+  },
+  "purpose": {
+    "es": "El resultado resumido de cada característica inspeccionada en un lote: valor medio, mínimo y máximo, número de defectos y si se aceptó o rechazó.",
+    "en": "The summarized result of each characteristic inspected in a lot: mean, minimum and maximum value, number of defects and whether it was accepted or rejected.",
+    "pt": "O resultado resumido de cada característica inspecionada em um lote: valor médio, mínimo e máximo, número de defeitos e se foi aceita ou rejeitada."
+  },
+  "synonyms": {
+    "es": [
+      "resultado de inspección",
+      "resultado de laboratorio",
+      "valor medido",
+      "análisis",
+      "medición"
+    ],
+    "en": [
+      "inspection result",
+      "lab result",
+      "measured value",
+      "test result",
+      "measurement"
+    ],
+    "pt": [
+      "resultado de inspeção",
+      "resultado de laboratório",
+      "valor medido",
+      "análise",
+      "medição"
+    ]
+  }
+}

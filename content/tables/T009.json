@@ -1,0 +1,12 @@
+{
+  "id": "T009",
+  "area": "fin",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Variantes de ejercicio",
+    "en": "Fiscal year variants",
+    "pt": "Variantes de exercício"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "T074",
+  "area": "fin",
+  "contents": "config",
+  "component": "FI",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Cuentas de mayor especial",
+    "en": "Special G/L accounts",
+    "pt": "Contas do razão especial"
+  }
+}

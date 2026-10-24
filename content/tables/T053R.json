@@ -1,0 +1,12 @@
+{
+  "id": "T053R",
+  "area": "fin",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Motivos de diferencias de pago",
+    "en": "Payment difference reason codes",
+    "pt": "Motivos de diferenças de pagamento"
+  }
+}

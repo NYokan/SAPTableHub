@@ -1,0 +1,12 @@
+{
+  "id": "T002T",
+  "area": "gen",
+  "contents": "text",
+  "component": "BC-DOC-TTL",
+  "category": "TRANSP",
+  "title": {
+    "es": "Idiomas (nombres)",
+    "en": "Languages (names)",
+    "pt": "Idiomas (nomes)"
+  }
+}

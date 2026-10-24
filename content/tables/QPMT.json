@@ -1,0 +1,12 @@
+{
+  "id": "QPMT",
+  "area": "qm",
+  "contents": "text",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Características maestras de inspección (descripciones)",
+    "en": "Master inspection characteristics (descriptions)",
+    "pt": "Características mestre de inspeção (descrições)"
+  }
+}

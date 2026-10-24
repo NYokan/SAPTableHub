@@ -1,0 +1,12 @@
+{
+  "id": "REGUV",
+  "area": "fin",
+  "contents": "doc",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Programa de pagos: control de ejecuciones",
+    "en": "Payment program: run control",
+    "pt": "Programa de pagamento: controle de execuções"
+  }
+}

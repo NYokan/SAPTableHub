@@ -1,0 +1,12 @@
+{
+  "id": "FEBRE",
+  "area": "fin",
+  "contents": "text",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Extractos bancarios electrónicos: texto de referencia",
+    "en": "Electronic bank statements: reference text",
+    "pt": "Extratos bancários eletrônicos: texto de referência"
+  }
+}

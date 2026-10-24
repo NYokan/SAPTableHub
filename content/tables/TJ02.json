@@ -1,0 +1,11 @@
+{
+  "id": "TJ02",
+  "area": "gen",
+  "contents": "config",
+  "category": "TRANSP",
+  "title": {
+    "es": "Estados del sistema",
+    "en": "System statuses",
+    "pt": "Status do sistema"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "QPRS",
+  "area": "qm",
+  "contents": "doc",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Muestras físicas",
+    "en": "Physical samples",
+    "pt": "Amostras físicas"
+  }
+}

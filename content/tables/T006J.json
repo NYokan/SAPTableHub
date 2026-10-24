@@ -1,0 +1,12 @@
+{
+  "id": "T006J",
+  "area": "gen",
+  "contents": "text",
+  "component": "BC-SRV-ASF-UOM",
+  "category": "TRANSP",
+  "title": {
+    "es": "Códigos ISO de unidades de medida (textos)",
+    "en": "ISO codes for units of measure (texts)",
+    "pt": "Códigos ISO de unidades de medida (textos)"
+  }
+}

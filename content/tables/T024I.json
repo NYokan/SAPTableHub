@@ -1,0 +1,12 @@
+{
+  "id": "T024I",
+  "area": "pm",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Grupos de planificación de mantenimiento",
+    "en": "Maintenance planner groups",
+    "pt": "Grupos de planejamento de manutenção"
+  }
+}

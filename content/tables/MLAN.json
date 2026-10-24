@@ -1,0 +1,13 @@
+{
+  "id": "MLAN",
+  "area": "mat",
+  "contents": "master",
+  "component": "LO-MD-MM",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Materiales: clasificación fiscal",
+    "en": "Materials: tax classification",
+    "pt": "Materiais: classificação fiscal"
+  }
+}

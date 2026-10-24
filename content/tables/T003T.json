@@ -1,0 +1,12 @@
+{
+  "id": "T003T",
+  "area": "fin",
+  "contents": "text",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Clases de documento contable: textos",
+    "en": "Accounting document types: texts",
+    "pt": "Tipos de documento contábil: textos"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "PCEC",
+  "area": "fin",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Talonarios de cheques prenumerados",
+    "en": "Prenumbered check lots",
+    "pt": "Talões de cheques pré-numerados"
+  }
+}

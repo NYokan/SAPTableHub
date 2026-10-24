@@ -1,0 +1,12 @@
+{
+  "id": "TVEGR",
+  "area": "mat",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Grupos de materiales de embalaje",
+    "en": "Packaging material groups",
+    "pt": "Grupos de materiais de embalagem"
+  }
+}

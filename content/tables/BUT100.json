@@ -1,0 +1,12 @@
+{
+  "id": "BUT100",
+  "area": "gen",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Socios de negocio (roles)",
+    "en": "Business partners (roles)",
+    "pt": "Parceiros de negócios (funções)"
+  }
+}

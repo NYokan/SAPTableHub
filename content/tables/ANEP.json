@@ -1,0 +1,40 @@
+{
+  "id": "ANEP",
+  "area": "fin",
+  "contents": "items",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Activos fijos: movimientos por área de valoración",
+    "en": "Fixed assets: transactions per depreciation area",
+    "pt": "Ativos fixos: movimentos por área de avaliação"
+  },
+  "purpose": {
+    "es": "Cada movimiento de activo fijo por área de valoración: altas, bajas, traspasos y su importe, fecha y clase de movimiento. Sirve para ver la historia de un activo.",
+    "en": "Each fixed asset transaction per depreciation area: acquisitions, retirements, transfers and their amount, date and transaction type. It shows the history of an asset.",
+    "pt": "Cada movimento de ativo fixo por área de avaliação: aquisições, baixas, transferências e seu valor, data e tipo de movimento. Mostra a história de um ativo."
+  },
+  "synonyms": {
+    "es": [
+      "movimientos de activo",
+      "alta de activo",
+      "baja de activo",
+      "traspaso de activo",
+      "historial del activo"
+    ],
+    "en": [
+      "asset transactions",
+      "asset acquisition",
+      "asset retirement",
+      "asset transfer",
+      "asset history"
+    ],
+    "pt": [
+      "movimentos do ativo",
+      "aquisição de ativo",
+      "baixa de ativo",
+      "transferência de ativo",
+      "histórico do ativo"
+    ]
+  }
+}

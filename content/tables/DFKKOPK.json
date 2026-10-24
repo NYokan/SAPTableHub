@@ -1,0 +1,13 @@
+{
+  "id": "DFKKOPK",
+  "area": "fin",
+  "contents": "items",
+  "component": "FI-CA",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Contabilidad de contratos: posiciones de mayor",
+    "en": "Contract accounting: G/L items",
+    "pt": "Contabilidade de contratos: itens do razão"
+  }
+}

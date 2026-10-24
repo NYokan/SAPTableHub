@@ -1,0 +1,12 @@
+{
+  "id": "TJ30",
+  "area": "gen",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Estados de usuario",
+    "en": "User statuses",
+    "pt": "Status do usuário"
+  }
+}

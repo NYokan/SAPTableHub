@@ -1,0 +1,40 @@
+{
+  "id": "STXH",
+  "area": "gen",
+  "contents": "header",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Textos largos (cabecera)",
+    "en": "Long texts (header)",
+    "pt": "Textos longos (cabeçalho)"
+  },
+  "purpose": {
+    "es": "Una fila por cada texto largo guardado en SAP: a qué objeto pertenece, qué tipo de texto es, el idioma y quién lo creó. El contenido del texto está en STXL y se lee con funciones de texto, no directamente.",
+    "en": "One row per long text stored in SAP: which object it belongs to, what text type it is, the language and who created it. The text content is in STXL and is read with text functions, not directly.",
+    "pt": "Uma linha por texto longo guardado no SAP: a qual objeto pertence, que tipo de texto é, o idioma e quem o criou. O conteúdo do texto está na STXL e é lido com funções de texto, não diretamente."
+  },
+  "synonyms": {
+    "es": [
+      "texto largo",
+      "nota",
+      "comentario",
+      "observación",
+      "texto de cabecera"
+    ],
+    "en": [
+      "long text",
+      "note",
+      "comment",
+      "remark",
+      "header text"
+    ],
+    "pt": [
+      "texto longo",
+      "nota",
+      "comentário",
+      "observação",
+      "texto de cabeçalho"
+    ]
+  }
+}

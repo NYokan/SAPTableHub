@@ -1,0 +1,42 @@
+{
+  "id": "T134",
+  "area": "mat",
+  "contents": "config",
+  "component": "LO-MD-MM",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Tipos de material",
+    "en": "Material types",
+    "pt": "Tipos de material"
+  },
+  "purpose": {
+    "es": "Lista de tipos de material (materia prima, producto terminado, semiterminado, repuesto…) con su configuración: qué vistas se mantienen, numeración y si se valora. Cada material de MARA tiene uno.",
+    "en": "List of material types (raw material, finished product, semi-finished, spare part…) with their settings: which views are maintained, numbering and whether it is valuated. Every material in MARA has one.",
+    "pt": "Lista de tipos de material (matéria-prima, produto acabado, semiacabado, peça de reposição…) com sua configuração: que visões são mantidas, numeração e se é avaliado. Cada material da MARA tem um."
+  },
+  "synonyms": {
+    "es": [
+      "tipo de material",
+      "MTART",
+      "materia prima",
+      "producto terminado",
+      "ROH",
+      "FERT"
+    ],
+    "en": [
+      "material type",
+      "MTART",
+      "raw material",
+      "finished good",
+      "ROH",
+      "FERT"
+    ],
+    "pt": [
+      "tipo de material",
+      "MTART",
+      "matéria-prima",
+      "produto acabado"
+    ]
+  }
+}

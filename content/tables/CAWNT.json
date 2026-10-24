@@ -1,0 +1,12 @@
+{
+  "id": "CAWNT",
+  "area": "gen",
+  "contents": "text",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Valores de características (descripciones)",
+    "en": "Characteristic values (descriptions)",
+    "pt": "Valores de características (descrições)"
+  }
+}

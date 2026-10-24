@@ -1,0 +1,12 @@
+{
+  "id": "T142",
+  "area": "mat",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Condiciones de almacenaje",
+    "en": "Storage conditions",
+    "pt": "Condições de armazenagem"
+  }
+}

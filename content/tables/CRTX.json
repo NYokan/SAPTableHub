@@ -1,0 +1,13 @@
+{
+  "id": "CRTX",
+  "area": "pp",
+  "contents": "text",
+  "component": "PP-BD-WKC",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Puestos de trabajo (descripciones)",
+    "en": "Work centers (descriptions)",
+    "pt": "Centros de trabalho (descrições)"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "WITH_ITEM",
+  "area": "fin",
+  "contents": "doc",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Documentos contables: retenciones de impuestos",
+    "en": "Accounting documents: withholding tax items",
+    "pt": "Documentos contábeis: impostos retidos na fonte"
+  },
+  "purpose": {
+    "es": "Las retenciones de impuestos de cada posición de documento contable: tipo e indicador de retención, base y importe retenido. Sirve para los certificados y declaraciones de retenciones.",
+    "en": "The withholding taxes of each accounting document item: withholding type and code, base and amount withheld. It is used for withholding certificates and returns.",
+    "pt": "Os impostos retidos na fonte de cada item de documento contábil: tipo e código de retenção, base e valor retido. Serve para os comprovantes e declarações de retenção."
+  },
+  "synonyms": {
+    "es": [
+      "retenciones",
+      "impuesto retenido",
+      "retención en la fuente",
+      "certificado de retención",
+      "IRPF"
+    ],
+    "en": [
+      "withholding tax",
+      "tax withheld",
+      "WHT",
+      "withholding certificate",
+      "retention"
+    ],
+    "pt": [
+      "retenções",
+      "imposto retido",
+      "retenção na fonte",
+      "IRRF",
+      "comprovante de retenção"
+    ]
+  }
+}

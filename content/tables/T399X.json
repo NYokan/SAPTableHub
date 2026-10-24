@@ -1,0 +1,12 @@
+{
+  "id": "T399X",
+  "area": "pp",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Parámetros por clase de orden y centro",
+    "en": "Parameters per order type and plant",
+    "pt": "Parâmetros por tipo de ordem e centro"
+  }
+}

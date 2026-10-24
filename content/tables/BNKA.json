@@ -1,0 +1,41 @@
+{
+  "id": "BNKA",
+  "area": "gen",
+  "contents": "master",
+  "component": "CA-BK-BNK",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Bancos (directorio de bancos)",
+    "en": "Banks (bank directory)",
+    "pt": "Bancos (diretório de bancos)"
+  },
+  "purpose": {
+    "es": "El directorio de bancos: una fila por banco con su país, clave bancaria, nombre, dirección y código SWIFT. Las cuentas de clientes y proveedores apuntan aquí.",
+    "en": "The bank directory: one row per bank with its country, bank key, name, address and SWIFT code. Customer and vendor bank accounts point here.",
+    "pt": "O diretório de bancos: uma linha por banco com seu país, chave bancária, nome, endereço e código SWIFT. As contas de clientes e fornecedores apontam para cá."
+  },
+  "synonyms": {
+    "es": [
+      "banco",
+      "clave bancaria",
+      "SWIFT",
+      "BIC",
+      "sucursal bancaria"
+    ],
+    "en": [
+      "bank",
+      "bank key",
+      "SWIFT",
+      "BIC",
+      "bank branch"
+    ],
+    "pt": [
+      "banco",
+      "chave bancária",
+      "SWIFT",
+      "BIC",
+      "agência bancária"
+    ]
+  }
+}

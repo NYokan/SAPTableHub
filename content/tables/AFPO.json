@@ -1,0 +1,41 @@
+{
+  "id": "AFPO",
+  "area": "pp",
+  "contents": "items",
+  "component": "PP-SFC",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Órdenes de fabricación (posiciones)",
+    "en": "Production orders (items)",
+    "pt": "Ordens de produção (itens)"
+  },
+  "purpose": {
+    "es": "El producto que fabrica cada orden: material, cantidad pedida, cantidad entregada al almacén y fecha de entrega. Normalmente hay una posición por orden; las coproducciones tienen varias.",
+    "en": "The product each order makes: material, ordered quantity, quantity delivered to stock and delivery date. Usually there is one item per order; co-products have several.",
+    "pt": "O produto que cada ordem fabrica: material, quantidade pedida, quantidade entregue ao estoque e data de entrega. Normalmente há um item por ordem; coprodutos têm vários."
+  },
+  "synonyms": {
+    "es": [
+      "producto fabricado",
+      "cantidad fabricada",
+      "entrada de producción",
+      "producto terminado",
+      "coproducto"
+    ],
+    "en": [
+      "produced material",
+      "order quantity",
+      "goods receipt from production",
+      "finished product",
+      "co-product"
+    ],
+    "pt": [
+      "produto fabricado",
+      "quantidade produzida",
+      "entrada da produção",
+      "produto acabado",
+      "coproduto"
+    ]
+  }
+}

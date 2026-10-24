@@ -1,0 +1,12 @@
+{
+  "id": "T370T",
+  "area": "pm",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Clases de equipo",
+    "en": "Equipment categories",
+    "pt": "Categorias de equipamento"
+  }
+}

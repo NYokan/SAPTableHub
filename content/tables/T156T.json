@@ -1,0 +1,33 @@
+{
+  "id": "T156T",
+  "area": "mat",
+  "contents": "text",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Clases de movimiento (textos)",
+    "en": "Movement types (texts)",
+    "pt": "Tipos de movimento (textos)"
+  },
+  "purpose": {
+    "es": "Nombres de las clases de movimiento en cada idioma, también según el stock especial y el indicador de movimiento. Úsala para mostrar «Entrada de mercancías por pedido» en vez de 101.",
+    "en": "Names of the movement types in each language, also by special stock and movement indicator. Use it to show \"Goods receipt for purchase order\" instead of 101.",
+    "pt": "Nomes dos tipos de movimento em cada idioma, também por estoque especial e código de movimento. Use-a para mostrar «Entrada de mercadorias por pedido» em vez de 101."
+  },
+  "synonyms": {
+    "es": [
+      "texto clase de movimiento",
+      "descripción de movimiento",
+      "nombre del movimiento"
+    ],
+    "en": [
+      "movement type text",
+      "movement description",
+      "movement type name"
+    ],
+    "pt": [
+      "texto do tipo de movimento",
+      "descrição do movimento"
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "T077Z",
+  "area": "fin",
+  "contents": "text",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Cuentas de mayor: textos de grupos de cuentas",
+    "en": "G/L accounts: account group texts",
+    "pt": "Contas do razão: textos de grupos de contas"
+  }
+}

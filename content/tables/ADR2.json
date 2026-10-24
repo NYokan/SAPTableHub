@@ -1,0 +1,12 @@
+{
+  "id": "ADR2",
+  "area": "gen",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Direcciones (teléfonos)",
+    "en": "Addresses (telephone numbers)",
+    "pt": "Endereços (telefones)"
+  }
+}

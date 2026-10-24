@@ -1,0 +1,12 @@
+{
+  "id": "PLKZ",
+  "area": "pp",
+  "contents": "header",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Hojas de ruta: datos generales del grupo",
+    "en": "Routings: general group data",
+    "pt": "Roteiros: dados gerais do grupo"
+  }
+}

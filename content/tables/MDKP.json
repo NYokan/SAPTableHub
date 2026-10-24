@@ -1,0 +1,39 @@
+{
+  "id": "MDKP",
+  "area": "pp",
+  "contents": "header",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Documentos de planificación de necesidades (cabecera)",
+    "en": "MRP documents (header)",
+    "pt": "Documentos de planejamento de necessidades (cabeçalho)"
+  },
+  "purpose": {
+    "es": "Una fila por cada material y centro (o ámbito) que pasó por la planificación de necesidades: cuándo se planificó, con qué parámetros y si hay mensajes de excepción. Las líneas de la lista MRP están en MDTB.",
+    "en": "One row per material and plant (or MRP area) that went through MRP: when it was planned, with which parameters and whether there are exception messages. The MRP list lines are in MDTB.",
+    "pt": "Uma linha por material e centro (ou área) que passou pelo planejamento de necessidades: quando foi planejado, com quais parâmetros e se há mensagens de exceção. As linhas da lista MRP estão na MDTB."
+  },
+  "synonyms": {
+    "es": [
+      "lista MRP",
+      "planificación de necesidades",
+      "resultado MRP",
+      "mensajes de excepción",
+      "corrida MRP"
+    ],
+    "en": [
+      "MRP list",
+      "material requirements planning",
+      "MRP result",
+      "exception messages",
+      "MRP run"
+    ],
+    "pt": [
+      "lista MRP",
+      "planejamento de necessidades",
+      "resultado do MRP",
+      "mensagens de exceção"
+    ]
+  }
+}

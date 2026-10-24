@@ -1,0 +1,13 @@
+{
+  "id": "KBLK",
+  "area": "fin",
+  "contents": "header",
+  "component": "FI-FM",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Compromisos de fondos (cabecera)",
+    "en": "Earmarked funds (header)",
+    "pt": "Compromissos de fundos (cabeçalho)"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "T399D",
+  "area": "pp",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Parámetros de planificación de necesidades por centro",
+    "en": "MRP control parameters per plant",
+    "pt": "Parâmetros de planejamento de necessidades por centro"
+  }
+}

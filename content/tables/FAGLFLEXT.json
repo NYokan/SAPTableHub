@@ -1,0 +1,43 @@
+{
+  "id": "FAGLFLEXT",
+  "area": "fin",
+  "contents": "doc",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Nuevo mayor: saldos por período",
+    "en": "New G/L: balances per period",
+    "pt": "Novo razão: saldos por período"
+  },
+  "purpose": {
+    "es": "Saldos del nuevo mayor por ledger, sociedad, cuenta y ejercicio, con los importes de cada período y desgloses como centro de beneficio o segmento. Es la base del balance y la cuenta de resultados en ECC con nuevo mayor.",
+    "en": "New G/L balances per ledger, company code, account and fiscal year, with the amounts for each period and breakdowns such as profit center or segment. It is the basis of the balance sheet and income statement in ECC with the new G/L.",
+    "pt": "Saldos do novo razão por ledger, empresa, conta e exercício, com os valores de cada período e detalhamentos como centro de lucro ou segmento. É a base do balanço e da DRE no ECC com novo razão."
+  },
+  "synonyms": {
+    "es": [
+      "saldos de mayor",
+      "balance de comprobación",
+      "nuevo mayor",
+      "balance",
+      "cuenta de resultados",
+      "totales por período"
+    ],
+    "en": [
+      "G/L balances",
+      "trial balance",
+      "new general ledger",
+      "balance sheet",
+      "income statement",
+      "period totals"
+    ],
+    "pt": [
+      "saldos do razão",
+      "balancete",
+      "novo razão",
+      "balanço",
+      "demonstração de resultados",
+      "totais por período"
+    ]
+  }
+}

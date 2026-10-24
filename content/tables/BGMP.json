@@ -1,0 +1,12 @@
+{
+  "id": "BGMP",
+  "area": "pm",
+  "contents": "items",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Garantías maestras (servicios cubiertos)",
+    "en": "Master warranties (covered services)",
+    "pt": "Garantias mestras (serviços cobertos)"
+  }
+}

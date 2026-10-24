@@ -1,0 +1,36 @@
+{
+  "id": "T025",
+  "area": "mat",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Categorías de valoración",
+    "en": "Valuation classes",
+    "pt": "Classes de avaliação"
+  },
+  "purpose": {
+    "es": "Lista de categorías de valoración, que agrupan materiales para decidir a qué cuentas contables va su stock. Cada material la tiene en MBEW (BKLAS).",
+    "en": "List of valuation classes, which group materials to decide which G/L accounts their stock posts to. Each material has one in MBEW (BKLAS).",
+    "pt": "Lista de classes de avaliação, que agrupam materiais para decidir para quais contas contábeis vai seu estoque. Cada material a tem na MBEW (BKLAS)."
+  },
+  "synonyms": {
+    "es": [
+      "categoría de valoración",
+      "clase de valoración",
+      "BKLAS",
+      "cuenta de inventario"
+    ],
+    "en": [
+      "valuation class",
+      "BKLAS",
+      "inventory account",
+      "stock account"
+    ],
+    "pt": [
+      "classe de avaliação",
+      "BKLAS",
+      "conta de estoque"
+    ]
+  }
+}

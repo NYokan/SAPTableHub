@@ -1,0 +1,11 @@
+{
+  "id": "MARV",
+  "area": "mat",
+  "contents": "config",
+  "category": "TRANSP",
+  "title": {
+    "es": "Periodos de materiales por sociedad",
+    "en": "Material periods per company code",
+    "pt": "Períodos de materiais por empresa"
+  }
+}

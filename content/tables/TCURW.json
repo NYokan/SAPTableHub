@@ -1,0 +1,12 @@
+{
+  "id": "TCURW",
+  "area": "gen",
+  "contents": "text",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Clases de tipo de cambio (textos)",
+    "en": "Exchange rate types (texts)",
+    "pt": "Categorias de taxa de câmbio (textos)"
+  }
+}

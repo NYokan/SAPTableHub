@@ -1,0 +1,12 @@
+{
+  "id": "QBEW",
+  "area": "mat",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Valoración de stock de proyecto",
+    "en": "Project stock valuation",
+    "pt": "Avaliação do estoque de projeto"
+  }
+}

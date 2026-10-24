@@ -1,0 +1,12 @@
+{
+  "id": "BSEGC",
+  "area": "fin",
+  "contents": "doc",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Documentos contables: datos de tarjetas de pago",
+    "en": "Accounting documents: payment card data",
+    "pt": "Documentos contábeis: dados de cartões de pagamento"
+  }
+}

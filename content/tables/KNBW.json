@@ -1,0 +1,12 @@
+{
+  "id": "KNBW",
+  "area": "fin",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Clientes: datos de retención de impuestos",
+    "en": "Customers: withholding tax data",
+    "pt": "Clientes: dados de imposto retido na fonte"
+  }
+}

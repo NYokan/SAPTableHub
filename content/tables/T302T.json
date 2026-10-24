@@ -1,0 +1,13 @@
+{
+  "id": "T302T",
+  "area": "mat",
+  "contents": "text",
+  "component": "LE-WM",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Áreas de almacenamiento (textos)",
+    "en": "Storage sections (texts)",
+    "pt": "Áreas de armazenagem (textos)"
+  }
+}

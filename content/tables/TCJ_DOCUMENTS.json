@@ -1,0 +1,12 @@
+{
+  "id": "TCJ_DOCUMENTS",
+  "area": "fin",
+  "contents": "header",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Libro de caja: documentos",
+    "en": "Cash journal: documents",
+    "pt": "Livro de caixa: documentos"
+  }
+}

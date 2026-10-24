@@ -1,0 +1,12 @@
+{
+  "id": "T144",
+  "area": "mat",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Requisitos de contenedor",
+    "en": "Container requirements",
+    "pt": "Requisitos de contêiner"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": "QPMK",
+  "area": "qm",
+  "contents": "master",
+  "component": "QM-PT-BD",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Características maestras de inspección",
+    "en": "Master inspection characteristics",
+    "pt": "Características mestre de inspeção"
+  },
+  "purpose": {
+    "es": "Las características maestras de inspección: definiciones reutilizables de qué se mide o revisa (por ejemplo, humedad o diámetro), con su unidad, tipo cuantitativo o cualitativo y método. Los planes de inspección las referencian.",
+    "en": "The master inspection characteristics: reusable definitions of what is measured or checked (for example moisture or diameter), with unit, quantitative or qualitative type and method. Inspection plans refer to them.",
+    "pt": "As características mestre de inspeção: definições reutilizáveis do que se mede ou verifica (por exemplo, umidade ou diâmetro), com unidade, tipo quantitativo ou qualitativo e método. Os planos de inspeção as referenciam."
+  },
+  "synonyms": {
+    "es": [
+      "característica maestra",
+      "parámetro de calidad",
+      "ensayo",
+      "prueba",
+      "especificación de calidad"
+    ],
+    "en": [
+      "master inspection characteristic",
+      "MIC",
+      "quality parameter",
+      "test",
+      "quality specification"
+    ],
+    "pt": [
+      "característica mestre",
+      "parâmetro de qualidade",
+      "ensaio",
+      "teste",
+      "especificação de qualidade"
+    ]
+  }
+}

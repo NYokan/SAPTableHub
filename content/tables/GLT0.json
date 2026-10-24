@@ -1,0 +1,40 @@
+{
+  "id": "GLT0",
+  "area": "fin",
+  "contents": "doc",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Cuentas de mayor: saldos por período (mayor clásico)",
+    "en": "G/L accounts: balances per period (classic G/L)",
+    "pt": "Contas do razão: saldos por período (razão clássico)"
+  },
+  "purpose": {
+    "es": "Saldos de las cuentas de mayor por sociedad, ejercicio y moneda, con los importes de debe y haber de cada período. Es la tabla de totales del mayor clásico; con el nuevo mayor se usa FAGLFLEXT.",
+    "en": "G/L account balances per company code, fiscal year and currency, with the debit and credit amounts for each period. It is the totals table of the classic G/L; with the new G/L, FAGLFLEXT is used instead.",
+    "pt": "Saldos das contas do razão por empresa, exercício e moeda, com os valores de débito e crédito de cada período. É a tabela de totais do razão clássico; com o novo razão usa-se a FAGLFLEXT."
+  },
+  "synonyms": {
+    "es": [
+      "saldos de mayor",
+      "balance de comprobación",
+      "totales por período",
+      "saldo de cuenta",
+      "mayor clásico"
+    ],
+    "en": [
+      "G/L balances",
+      "trial balance",
+      "period totals",
+      "account balance",
+      "classic general ledger"
+    ],
+    "pt": [
+      "saldos do razão",
+      "balancete",
+      "totais por período",
+      "saldo da conta",
+      "razão clássico"
+    ]
+  }
+}

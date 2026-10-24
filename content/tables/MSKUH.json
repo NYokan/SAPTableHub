@@ -1,0 +1,12 @@
+{
+  "id": "MSKUH",
+  "area": "mat",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Stock especial en cliente (histórico)",
+    "en": "Special stock at customer (history)",
+    "pt": "Estoque especial no cliente (histórico)"
+  }
+}

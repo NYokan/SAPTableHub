@@ -1,0 +1,12 @@
+{
+  "id": "MDMA",
+  "area": "pp",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Datos de planificación del material por ámbito de planificación",
+    "en": "Material MRP data per MRP area",
+    "pt": "Dados de planejamento do material por área de planejamento"
+  }
+}

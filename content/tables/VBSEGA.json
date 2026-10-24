@@ -1,0 +1,12 @@
+{
+  "id": "VBSEGA",
+  "area": "fin",
+  "contents": "items",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Documentos preliminares: posiciones de activo fijo",
+    "en": "Parked documents: asset items",
+    "pt": "Documentos pré-editados: itens de ativo"
+  }
+}

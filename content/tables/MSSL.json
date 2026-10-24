@@ -1,0 +1,12 @@
+{
+  "id": "MSSL",
+  "area": "mat",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Stock especial en proveedor (totales)",
+    "en": "Special stock at vendor (totals)",
+    "pt": "Estoque especial no fornecedor (totais)"
+  }
+}

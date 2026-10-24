@@ -1,0 +1,12 @@
+{
+  "id": "DBVM",
+  "area": "pp",
+  "contents": "doc",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Fichero de planificación (por ámbito de planificación)",
+    "en": "Planning file entries (per MRP area)",
+    "pt": "Arquivo de planejamento (por área de planejamento)"
+  }
+}

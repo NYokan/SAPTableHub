@@ -1,0 +1,12 @@
+{
+  "id": "UDMCASEATTR00",
+  "area": "fin",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Gestión de litigios: casos de litigio",
+    "en": "Dispute management: dispute cases",
+    "pt": "Gestão de litígios: casos de litígio"
+  }
+}

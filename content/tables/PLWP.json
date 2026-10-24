@@ -1,0 +1,12 @@
+{
+  "id": "PLWP",
+  "area": "pm",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Hojas de ruta de mantenimiento (paquetes por operación)",
+    "en": "Maintenance task lists (packages per operation)",
+    "pt": "Listas de tarefas de manutenção (pacotes por operação)"
+  }
+}

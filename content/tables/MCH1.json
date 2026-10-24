@@ -1,0 +1,43 @@
+{
+  "id": "MCH1",
+  "area": "mat",
+  "contents": "master",
+  "component": "LO-BM-MD",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Lotes (nivel material)",
+    "en": "Batches (material level)",
+    "pt": "Lotes (nível material)"
+  },
+  "purpose": {
+    "es": "Una fila por cada lote de un material, válida para todos los centros. Guarda datos del lote como fecha de fabricación, fecha de caducidad y el lote del proveedor.",
+    "en": "One row per batch of a material, valid across all plants. It holds batch data such as production date, shelf-life expiration date and the vendor's batch number.",
+    "pt": "Uma linha por lote de um material, válida para todos os centros. Guarda dados do lote como data de fabricação, data de vencimento e o lote do fornecedor."
+  },
+  "synonyms": {
+    "es": [
+      "lote",
+      "partida",
+      "número de lote",
+      "fecha de caducidad",
+      "vencimiento",
+      "trazabilidad"
+    ],
+    "en": [
+      "batch",
+      "lot",
+      "batch number",
+      "expiration date",
+      "shelf life",
+      "traceability"
+    ],
+    "pt": [
+      "lote",
+      "número de lote",
+      "data de validade",
+      "vencimento",
+      "rastreabilidade"
+    ]
+  }
+}

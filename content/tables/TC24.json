@@ -1,0 +1,12 @@
+{
+  "id": "TC24",
+  "area": "pp",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Responsables de puestos de trabajo",
+    "en": "Persons responsible for work centers",
+    "pt": "Responsáveis por centros de trabalho"
+  }
+}

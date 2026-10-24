@@ -1,0 +1,12 @@
+{
+  "id": "S067",
+  "area": "fin",
+  "contents": "doc",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Gestión de créditos: entregas y facturas abiertas",
+    "en": "Credit management: open deliveries and billing",
+    "pt": "Gestão de crédito: remessas e faturas em aberto"
+  }
+}

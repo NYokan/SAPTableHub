@@ -1,0 +1,39 @@
+{
+  "id": "QPCD",
+  "area": "qm",
+  "contents": "master",
+  "category": "TRANSP",
+  "title": {
+    "es": "Catálogos de calidad: códigos",
+    "en": "Quality catalogs: codes",
+    "pt": "Catálogos de qualidade: códigos"
+  },
+  "purpose": {
+    "es": "Los códigos de los catálogos de calidad, agrupados por tipo de catálogo y grupo: defectos, causas, medidas, decisiones de empleo, etc. Sus descripciones están en QPCT.",
+    "en": "The codes of the quality catalogs, grouped by catalog type and code group: defects, causes, tasks, usage decisions and so on. Their descriptions are in QPCT.",
+    "pt": "Os códigos dos catálogos de qualidade, agrupados por tipo de catálogo e grupo: defeitos, causas, medidas, decisões de utilização etc. Suas descrições estão na QPCT."
+  },
+  "synonyms": {
+    "es": [
+      "código de defecto",
+      "código de causa",
+      "catálogo",
+      "tipo de defecto",
+      "código de calidad"
+    ],
+    "en": [
+      "defect code",
+      "cause code",
+      "catalog",
+      "defect type",
+      "quality code"
+    ],
+    "pt": [
+      "código de defeito",
+      "código de causa",
+      "catálogo",
+      "tipo de defeito",
+      "código de qualidade"
+    ]
+  }
+}

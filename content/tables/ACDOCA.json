@@ -1,0 +1,45 @@
+{
+  "id": "ACDOCA",
+  "area": "fin",
+  "contents": "items",
+  "component": "FI-GL-GL",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "s4only": true,
+  "title": {
+    "es": "Diario universal: apuntes contables (S/4HANA)",
+    "en": "Universal journal: accounting line items (S/4HANA)",
+    "pt": "Diário universal: lançamentos contábeis (S/4HANA)"
+  },
+  "purpose": {
+    "es": "En S/4HANA, una fila por cada apunte contable de cualquier ledger: reúne en un solo lugar lo que en ECC estaba repartido entre BSEG, los totales del mayor, el Controlling y los activos fijos. Es la fuente principal para saldos, resultados e informes financieros.",
+    "en": "In S/4HANA, one row per accounting line item in any ledger: it brings together in one place what ECC spread across BSEG, the G/L totals, Controlling and fixed assets. It is the main source for balances, results and financial reports.",
+    "pt": "No S/4HANA, uma linha por lançamento contábil em qualquer ledger: reúne em um só lugar o que no ECC ficava dividido entre BSEG, os totais do razão, o Controlling e os ativos fixos. É a fonte principal para saldos, resultados e relatórios financeiros."
+  },
+  "synonyms": {
+    "es": [
+      "diario universal",
+      "apuntes contables",
+      "libro mayor",
+      "asientos",
+      "contabilidad S/4HANA",
+      "saldos contables"
+    ],
+    "en": [
+      "universal journal",
+      "journal entries",
+      "general ledger",
+      "accounting line items",
+      "S/4HANA accounting",
+      "account balances"
+    ],
+    "pt": [
+      "diário universal",
+      "lançamentos contábeis",
+      "razão geral",
+      "partidas contábeis",
+      "contabilidade S/4HANA",
+      "saldos contábeis"
+    ]
+  }
+}

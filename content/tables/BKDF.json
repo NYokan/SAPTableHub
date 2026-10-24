@@ -1,0 +1,12 @@
+{
+  "id": "BKDF",
+  "area": "fin",
+  "contents": "header",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Documentos periódicos (cabecera)",
+    "en": "Recurring documents (header)",
+    "pt": "Documentos recorrentes (cabeçalho)"
+  }
+}

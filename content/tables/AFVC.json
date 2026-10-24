@@ -1,0 +1,40 @@
+{
+  "id": "AFVC",
+  "area": "pp",
+  "contents": "items",
+  "component": "PP-SFC",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Operaciones de órdenes",
+    "en": "Order operations",
+    "pt": "Operações de ordens"
+  },
+  "purpose": {
+    "es": "Los pasos de trabajo de cada orden: número de operación, puesto de trabajo, clave de control y descripción. Se une a la orden por el número de plan de la cabecera (AUFPL). Las cantidades y tiempos de cada paso están en AFVV.",
+    "en": "The work steps of each order: operation number, work center, control key and description. It joins the order through the routing number in the header (AUFPL). The quantities and times of each step are in AFVV.",
+    "pt": "As etapas de trabalho de cada ordem: número da operação, centro de trabalho, chave de controle e descrição. Liga-se à ordem pelo número de roteiro do cabeçalho (AUFPL). As quantidades e tempos de cada etapa estão na AFVV."
+  },
+  "synonyms": {
+    "es": [
+      "operación",
+      "fase",
+      "paso de trabajo",
+      "operaciones de la orden",
+      "actividad de fabricación"
+    ],
+    "en": [
+      "operation",
+      "work step",
+      "order operation",
+      "phase",
+      "routing step"
+    ],
+    "pt": [
+      "operação",
+      "fase",
+      "etapa de trabalho",
+      "operações da ordem"
+    ]
+  }
+}

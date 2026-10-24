@@ -1,0 +1,12 @@
+{
+  "id": "OBJK",
+  "area": "pm",
+  "contents": "items",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Listas de objetos (equipos y números de serie de un documento)",
+    "en": "Object lists (equipment and serial numbers of a document)",
+    "pt": "Listas de objetos (equipamentos e números de série de um documento)"
+  }
+}

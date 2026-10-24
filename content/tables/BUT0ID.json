@@ -1,0 +1,12 @@
+{
+  "id": "BUT0ID",
+  "area": "gen",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Socios de negocio (números de identificación)",
+    "en": "Business partners (identification numbers)",
+    "pt": "Parceiros de negócios (números de identificação)"
+  }
+}

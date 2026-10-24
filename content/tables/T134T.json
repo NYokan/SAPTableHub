@@ -1,0 +1,32 @@
+{
+  "id": "T134T",
+  "area": "mat",
+  "contents": "text",
+  "component": "LO-MD-MM",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Tipos de material (textos)",
+    "en": "Material types (texts)",
+    "pt": "Tipos de material (textos)"
+  },
+  "purpose": {
+    "es": "Nombres de los tipos de material en cada idioma.",
+    "en": "Names of the material types in each language.",
+    "pt": "Nomes dos tipos de material em cada idioma."
+  },
+  "synonyms": {
+    "es": [
+      "texto tipo de material",
+      "descripción tipo de material"
+    ],
+    "en": [
+      "material type text",
+      "material type description"
+    ],
+    "pt": [
+      "texto do tipo de material",
+      "descrição do tipo de material"
+    ]
+  }
+}

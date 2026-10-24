@@ -1,0 +1,12 @@
+{
+  "id": "TB001",
+  "area": "gen",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Agrupaciones de socios de negocio",
+    "en": "Business partner groupings",
+    "pt": "Agrupamentos de parceiros de negócios"
+  }
+}

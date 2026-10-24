@@ -1,0 +1,45 @@
+{
+  "id": "AFRU",
+  "area": "pp",
+  "contents": "doc",
+  "component": "PP-SFC-EXE-CON",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Notificaciones de órdenes",
+    "en": "Order confirmations",
+    "pt": "Confirmações de ordens"
+  },
+  "purpose": {
+    "es": "Cada notificación que registra el avance real de una orden: cantidad buena y rechazo, tiempos trabajados, quién notificó y cuándo. Sirve para medir productividad y mermas por operación.",
+    "en": "Every confirmation that records the actual progress of an order: yield and scrap, hours worked, who confirmed it and when. It is used to measure productivity and scrap per operation.",
+    "pt": "Cada confirmação que registra o avanço real de uma ordem: quantidade boa e refugo, tempos trabalhados, quem confirmou e quando. Serve para medir produtividade e perdas por operação."
+  },
+  "synonyms": {
+    "es": [
+      "notificación",
+      "confirmación de producción",
+      "avance de orden",
+      "merma",
+      "rechazo",
+      "horas trabajadas",
+      "parte de producción"
+    ],
+    "en": [
+      "confirmation",
+      "production confirmation",
+      "order progress",
+      "scrap",
+      "yield",
+      "labor hours",
+      "time ticket"
+    ],
+    "pt": [
+      "confirmação",
+      "apontamento de produção",
+      "avanço da ordem",
+      "refugo",
+      "horas trabalhadas"
+    ]
+  }
+}

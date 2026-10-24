@@ -1,0 +1,39 @@
+{
+  "id": "T141",
+  "area": "mat",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Estados de material",
+    "en": "Material statuses",
+    "pt": "Status de material"
+  },
+  "purpose": {
+    "es": "Lista de estados de material (por ejemplo bloqueado para compras, en fase de baja, obsoleto) y qué operaciones bloquea o avisa cada uno. Explica los campos de estado de MARA y MARC. Los nombres están en T141T.",
+    "en": "List of material statuses (for example blocked for purchasing, being phased out, obsolete) and which operations each one blocks or warns about. It explains the status fields in MARA and MARC. The names are in T141T.",
+    "pt": "Lista de status de material (por exemplo bloqueado para compras, em descontinuação, obsoleto) e que operações cada um bloqueia ou avisa. Explica os campos de status da MARA e MARC. Os nomes estão na T141T."
+  },
+  "synonyms": {
+    "es": [
+      "estado de material",
+      "material bloqueado",
+      "material obsoleto",
+      "estatus de material",
+      "MSTAE"
+    ],
+    "en": [
+      "material status",
+      "blocked material",
+      "obsolete material",
+      "discontinued",
+      "MSTAE"
+    ],
+    "pt": [
+      "status de material",
+      "material bloqueado",
+      "material obsoleto",
+      "descontinuado"
+    ]
+  }
+}

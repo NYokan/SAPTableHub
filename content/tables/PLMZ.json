@@ -1,0 +1,12 @@
+{
+  "id": "PLMZ",
+  "area": "pp",
+  "contents": "items",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Hojas de ruta: componentes asignados a operaciones",
+    "en": "Routings: components assigned to operations",
+    "pt": "Roteiros: componentes atribuídos às operações"
+  }
+}

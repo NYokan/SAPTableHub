@@ -1,0 +1,12 @@
+{
+  "id": "/SCWM/ORDIM_C",
+  "area": "mat",
+  "contents": "doc",
+  "category": "TRANSP",
+  "s4only": true,
+  "title": {
+    "es": "EWM: tareas de almacén confirmadas",
+    "en": "EWM: confirmed warehouse tasks",
+    "pt": "EWM: tarefas de depósito confirmadas"
+  }
+}

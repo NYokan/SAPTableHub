@@ -1,0 +1,43 @@
+{
+  "id": "CRHD",
+  "area": "pp",
+  "contents": "master",
+  "component": "PP-BD-WKC",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Puestos de trabajo (cabecera)",
+    "en": "Work centers (header)",
+    "pt": "Centros de trabalho (cabeçalho)"
+  },
+  "purpose": {
+    "es": "Una fila por cada puesto de trabajo (máquina, línea, grupo de personas o recurso) con su centro, categoría, responsable y fórmulas. Lo usan producción y mantenimiento; su descripción está en CRTX.",
+    "en": "One row per work center (machine, line, group of people or resource) with its plant, category, person responsible and formulas. Production and maintenance both use it; its description is in CRTX.",
+    "pt": "Uma linha por centro de trabalho (máquina, linha, grupo de pessoas ou recurso) com seu centro, categoria, responsável e fórmulas. Produção e manutenção o usam; sua descrição está na CRTX."
+  },
+  "synonyms": {
+    "es": [
+      "puesto de trabajo",
+      "centro de trabajo",
+      "máquina",
+      "línea de producción",
+      "recurso",
+      "estación de trabajo"
+    ],
+    "en": [
+      "work center",
+      "workstation",
+      "machine",
+      "production line",
+      "resource",
+      "work centre"
+    ],
+    "pt": [
+      "centro de trabalho",
+      "posto de trabalho",
+      "máquina",
+      "linha de produção",
+      "recurso"
+    ]
+  }
+}

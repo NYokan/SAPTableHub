@@ -1,0 +1,41 @@
+{
+  "id": "UKM_TOTALS",
+  "area": "fin",
+  "contents": "doc",
+  "component": "FIN-FSCM-CR-CR",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Gestión de créditos SAP: compromisos acumulados",
+    "en": "SAP Credit Management: credit exposure totals",
+    "pt": "Gestão de crédito SAP: compromissos acumulados"
+  },
+  "purpose": {
+    "es": "Los compromisos de crédito acumulados de cada interlocutor por segmento de crédito en SAP Credit Management: pedidos, entregas y facturas abiertas que consumen su límite.",
+    "en": "The accumulated credit exposure of each business partner per credit segment in SAP Credit Management: open orders, deliveries and invoices that use up its limit.",
+    "pt": "Os compromissos de crédito acumulados de cada parceiro por segmento de crédito no SAP Credit Management: pedidos, remessas e faturas em aberto que consomem seu limite."
+  },
+  "synonyms": {
+    "es": [
+      "riesgo de crédito",
+      "compromiso de crédito",
+      "límite de crédito",
+      "exposición",
+      "crédito de cliente"
+    ],
+    "en": [
+      "credit exposure",
+      "credit commitment",
+      "credit limit",
+      "exposure",
+      "customer credit"
+    ],
+    "pt": [
+      "risco de crédito",
+      "compromisso de crédito",
+      "limite de crédito",
+      "exposição",
+      "crédito do cliente"
+    ]
+  }
+}

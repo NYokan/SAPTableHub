@@ -1,0 +1,12 @@
+{
+  "id": "QMMA",
+  "area": "qm",
+  "contents": "items",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Avisos: acciones",
+    "en": "Notifications: activities",
+    "pt": "Notas: ações"
+  }
+}

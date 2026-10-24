@@ -1,0 +1,40 @@
+{
+  "id": "LAGP",
+  "area": "mat",
+  "contents": "master",
+  "component": "LE-WM",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Ubicaciones de almacén",
+    "en": "Storage bins",
+    "pt": "Posições no depósito"
+  },
+  "purpose": {
+    "es": "Una fila por cada ubicación (hueco, estantería) de un almacén gestionado con WM, con su tipo de almacén, área, capacidad y si está bloqueada o vacía.",
+    "en": "One row per storage bin (slot, rack location) in a WM-managed warehouse, with its storage type, section, capacity and whether it is blocked or empty.",
+    "pt": "Uma linha por posição (vão, prateleira) de um depósito gerenciado com WM, com seu tipo de depósito, área, capacidade e se está bloqueada ou vazia."
+  },
+  "synonyms": {
+    "es": [
+      "ubicación",
+      "hueco",
+      "casillero",
+      "estantería",
+      "ubicaciones vacías"
+    ],
+    "en": [
+      "storage bin",
+      "bin location",
+      "slot",
+      "rack location",
+      "empty bins"
+    ],
+    "pt": [
+      "posição",
+      "endereço",
+      "prateleira",
+      "posições vazias"
+    ]
+  }
+}

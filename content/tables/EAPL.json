@@ -1,0 +1,12 @@
+{
+  "id": "EAPL",
+  "area": "pm",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Asignación de hojas de ruta a equipos",
+    "en": "Task list assignments to equipment",
+    "pt": "Atribuição de listas de tarefas a equipamentos"
+  }
+}

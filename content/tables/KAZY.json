@@ -1,0 +1,12 @@
+{
+  "id": "KAZY",
+  "area": "pp",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Capacidad disponible: intervalos",
+    "en": "Available capacity: intervals",
+    "pt": "Capacidade disponível: intervalos"
+  }
+}

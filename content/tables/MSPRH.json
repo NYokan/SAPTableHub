@@ -1,0 +1,12 @@
+{
+  "id": "MSPRH",
+  "area": "mat",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Stock de proyecto (histórico)",
+    "en": "Project stock (history)",
+    "pt": "Estoque de projeto (histórico)"
+  }
+}

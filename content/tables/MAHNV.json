@@ -1,0 +1,12 @@
+{
+  "id": "MAHNV",
+  "area": "fin",
+  "contents": "doc",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Reclamaciones: control de ejecuciones",
+    "en": "Dunning: run control",
+    "pt": "Advertências: controle de execuções"
+  }
+}

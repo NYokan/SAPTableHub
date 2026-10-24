@@ -1,0 +1,41 @@
+{
+  "id": "SKAT",
+  "area": "fin",
+  "contents": "text",
+  "component": "FI",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Cuentas de mayor: textos",
+    "en": "G/L accounts: texts",
+    "pt": "Contas do razão: textos"
+  },
+  "purpose": {
+    "es": "El nombre corto y largo de cada cuenta de mayor por plan de cuentas e idioma. Se usa para mostrar la descripción de la cuenta junto a su número.",
+    "en": "The short and long name of each G/L account per chart of accounts and language. It is used to show the account description next to its number.",
+    "pt": "O nome curto e longo de cada conta do razão por plano de contas e idioma. É usado para mostrar a descrição da conta junto ao seu número."
+  },
+  "synonyms": {
+    "es": [
+      "nombre de cuenta",
+      "descripción de cuenta",
+      "cuenta contable",
+      "plan de cuentas",
+      "texto de cuenta"
+    ],
+    "en": [
+      "account name",
+      "account description",
+      "G/L account",
+      "chart of accounts",
+      "account text"
+    ],
+    "pt": [
+      "nome da conta",
+      "descrição da conta",
+      "conta contábil",
+      "plano de contas",
+      "texto da conta"
+    ]
+  }
+}

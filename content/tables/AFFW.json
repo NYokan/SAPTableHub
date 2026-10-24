@@ -1,0 +1,12 @@
+{
+  "id": "AFFW",
+  "area": "pp",
+  "contents": "doc",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Movimientos de mercancías erróneos de notificaciones",
+    "en": "Failed goods movements from confirmations",
+    "pt": "Movimentos de mercadorias com erro de confirmações"
+  }
+}

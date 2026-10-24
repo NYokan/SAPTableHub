@@ -1,0 +1,13 @@
+{
+  "id": "T333T",
+  "area": "mat",
+  "contents": "text",
+  "component": "LE-WM",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Clases de movimiento WM (textos)",
+    "en": "WM movement types (texts)",
+    "pt": "Tipos de movimento WM (textos)"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "T042A",
+  "area": "fin",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Programa de pagos: selección de bancos",
+    "en": "Payment program: bank selection",
+    "pt": "Programa de pagamento: seleção de bancos"
+  }
+}

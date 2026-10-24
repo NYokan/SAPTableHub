@@ -1,0 +1,12 @@
+{
+  "id": "TCJ04",
+  "area": "ps",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Responsables de proyecto",
+    "en": "Persons responsible for projects",
+    "pt": "Responsáveis por projeto"
+  }
+}

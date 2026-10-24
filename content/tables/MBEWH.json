@@ -1,0 +1,39 @@
+{
+  "id": "MBEWH",
+  "area": "mat",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Materiales: valoración (histórico de periodos)",
+    "en": "Materials: valuation (period history)",
+    "pt": "Materiais: avaliação (histórico de períodos)"
+  },
+  "purpose": {
+    "es": "Foto de la valoración de cada material al cierre de periodos anteriores: stock total, valor y precio. Solo se graba una fila cuando cambia algo, así que para un periodo sin fila vale la siguiente más reciente o MBEW.",
+    "en": "Snapshot of each material's valuation at the close of past periods: total stock, value and price. A row is only written when something changes, so for a period without a row the next more recent one, or MBEW, applies.",
+    "pt": "Foto da avaliação de cada material no fechamento de períodos anteriores: estoque total, valor e preço. Só se grava uma linha quando algo muda, então para um período sem linha vale a seguinte mais recente ou a MBEW."
+  },
+  "synonyms": {
+    "es": [
+      "valoración histórica",
+      "stock valorizado por periodo",
+      "precio histórico",
+      "cierre de mes",
+      "valor del inventario"
+    ],
+    "en": [
+      "valuation history",
+      "stock value by period",
+      "historical price",
+      "month end",
+      "inventory value"
+    ],
+    "pt": [
+      "avaliação histórica",
+      "estoque valorizado por período",
+      "preço histórico",
+      "fechamento do mês"
+    ]
+  }
+}

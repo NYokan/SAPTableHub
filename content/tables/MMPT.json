@@ -1,0 +1,37 @@
+{
+  "id": "MMPT",
+  "area": "pm",
+  "contents": "doc",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Planes de mantenimiento (ciclos y parámetros de programación)",
+    "en": "Maintenance plans (cycles and scheduling parameters)",
+    "pt": "Planos de manutenção (ciclos e parâmetros de programação)"
+  },
+  "purpose": {
+    "es": "Guarda los ciclos de cada plan de mantenimiento: cada cuánto se repite (por tiempo o por contador) y con qué unidad. Junto con MPLA permite saber la frecuencia de cada plan.",
+    "en": "It holds the cycles of each maintenance plan: how often it repeats (by time or by counter) and in which unit. Together with MPLA it gives the frequency of each plan.",
+    "pt": "Guarda os ciclos de cada plano de manutenção: com que frequência se repete (por tempo ou por contador) e em que unidade. Junto com a MPLA mostra a frequência de cada plano."
+  },
+  "synonyms": {
+    "es": [
+      "ciclo de mantenimiento",
+      "frecuencia",
+      "intervalo",
+      "programación"
+    ],
+    "en": [
+      "maintenance cycle",
+      "frequency",
+      "interval",
+      "scheduling"
+    ],
+    "pt": [
+      "ciclo de manutenção",
+      "frequência",
+      "intervalo",
+      "programação"
+    ]
+  }
+}

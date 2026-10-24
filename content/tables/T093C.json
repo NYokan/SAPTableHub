@@ -1,0 +1,12 @@
+{
+  "id": "T093C",
+  "area": "fin",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Activos fijos: parámetros por sociedad",
+    "en": "Fixed assets: company code settings",
+    "pt": "Ativos fixos: parâmetros por empresa"
+  }
+}

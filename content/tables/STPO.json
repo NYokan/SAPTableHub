@@ -1,0 +1,42 @@
+{
+  "id": "STPO",
+  "area": "pp",
+  "contents": "items",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Listas de materiales (componentes)",
+    "en": "Bills of material (components)",
+    "pt": "Listas técnicas (componentes)"
+  },
+  "purpose": {
+    "es": "Cada componente de una lista de materiales: qué material, cuánta cantidad, unidad, tipo de posición y desde cuándo vale. Con ella se calcula cuánto se consume de cada insumo por producto.",
+    "en": "Each component of a bill of material: which material, how much, unit, item category and valid-from date. It is used to work out how much of each input a product consumes.",
+    "pt": "Cada componente de uma lista técnica: qual material, quanta quantidade, unidade, categoria de item e desde quando vale. Com ela se calcula quanto de cada insumo um produto consome."
+  },
+  "synonyms": {
+    "es": [
+      "componente",
+      "insumo",
+      "materia prima",
+      "posición de lista de materiales",
+      "consumo por unidad",
+      "ingredientes"
+    ],
+    "en": [
+      "component",
+      "BOM item",
+      "raw material",
+      "input material",
+      "ingredients",
+      "usage per unit"
+    ],
+    "pt": [
+      "componente",
+      "insumo",
+      "matéria-prima",
+      "item da lista técnica",
+      "ingredientes"
+    ]
+  }
+}

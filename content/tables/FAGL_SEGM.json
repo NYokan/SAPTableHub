@@ -1,0 +1,12 @@
+{
+  "id": "FAGL_SEGM",
+  "area": "fin",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Segmentos",
+    "en": "Segments",
+    "pt": "Segmentos"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "T048",
+  "area": "fin",
+  "contents": "config",
+  "component": "FI",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Tipos de correspondencia",
+    "en": "Correspondence types",
+    "pt": "Tipos de correspondência"
+  }
+}

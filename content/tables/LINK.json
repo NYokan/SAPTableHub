@@ -1,0 +1,13 @@
+{
+  "id": "LINK",
+  "area": "mat",
+  "contents": "header",
+  "component": "LE-WM",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Inventario WM (cabecera)",
+    "en": "WM inventory documents (header)",
+    "pt": "Inventário WM (cabeçalho)"
+  }
+}

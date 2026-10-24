@@ -1,0 +1,12 @@
+{
+  "id": "SETHEADER",
+  "area": "fin",
+  "contents": "master",
+  "component": "FI-SL-SL-MD-SE",
+  "category": "TRANSP",
+  "title": {
+    "es": "Grupos (sets): cabecera",
+    "en": "Sets (groups): header",
+    "pt": "Grupos (sets): cabeçalho"
+  }
+}

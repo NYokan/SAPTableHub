@@ -1,0 +1,41 @@
+{
+  "id": "DFKKOP",
+  "area": "fin",
+  "contents": "items",
+  "component": "FI-CA",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Contabilidad de contratos: partidas de interlocutor",
+    "en": "Contract accounting: business partner items",
+    "pt": "Contabilidade de contratos: partidas do parceiro"
+  },
+  "purpose": {
+    "es": "Las partidas de clientes o interlocutores en la contabilidad de contratos (FI-CA), usada por empresas con muchos clientes como servicios públicos o telecomunicaciones: importe, vencimiento y si están abiertas o compensadas.",
+    "en": "Customer or business partner items in contract accounting (FI-CA), used by companies with many customers such as utilities or telecoms: amount, due date and whether they are open or cleared.",
+    "pt": "As partidas de clientes ou parceiros na contabilidade de contratos (FI-CA), usada por empresas com muitos clientes como serviços públicos ou telecomunicações: valor, vencimento e se estão em aberto ou compensadas."
+  },
+  "synonyms": {
+    "es": [
+      "contabilidad de contratos",
+      "FI-CA",
+      "partidas de interlocutor",
+      "deuda de cliente",
+      "facturación masiva"
+    ],
+    "en": [
+      "contract accounting",
+      "FI-CA",
+      "business partner items",
+      "customer receivables",
+      "mass billing"
+    ],
+    "pt": [
+      "contabilidade de contratos",
+      "FI-CA",
+      "partidas do parceiro",
+      "dívida do cliente",
+      "faturamento em massa"
+    ]
+  }
+}

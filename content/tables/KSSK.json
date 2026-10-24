@@ -1,0 +1,12 @@
+{
+  "id": "KSSK",
+  "area": "gen",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Asignación de objetos a clases",
+    "en": "Object to class assignments",
+    "pt": "Atribuição de objetos a classes"
+  }
+}

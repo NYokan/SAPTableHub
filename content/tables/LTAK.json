@@ -1,0 +1,41 @@
+{
+  "id": "LTAK",
+  "area": "mat",
+  "contents": "header",
+  "component": "LE-WM",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Órdenes de transporte WM (cabecera)",
+    "en": "WM transfer orders (header)",
+    "pt": "Ordens de transferência WM (cabeçalho)"
+  },
+  "purpose": {
+    "es": "Cabecera de las órdenes de transporte de WM, que mandan mover material dentro del almacén (ubicar, retirar, traspasar). Guarda el número de almacén, la clase de movimiento WM, quién la creó y si está confirmada. Las líneas están en LTAP.",
+    "en": "Header of WM transfer orders, which instruct moving material within the warehouse (put away, pick, transfer). It holds the warehouse number, WM movement type, who created it and whether it is confirmed. The lines are in LTAP.",
+    "pt": "Cabeçalho das ordens de transferência do WM, que mandam mover material dentro do depósito (armazenar, retirar, transferir). Guarda o número do armazém, o tipo de movimento WM, quem criou e se está confirmada. As linhas estão na LTAP."
+  },
+  "synonyms": {
+    "es": [
+      "orden de transporte",
+      "OT",
+      "picking",
+      "ubicación de material",
+      "movimiento de almacén"
+    ],
+    "en": [
+      "transfer order",
+      "TO",
+      "picking",
+      "putaway",
+      "warehouse movement"
+    ],
+    "pt": [
+      "ordem de transferência",
+      "OT",
+      "picking",
+      "armazenagem",
+      "movimento de depósito"
+    ]
+  }
+}

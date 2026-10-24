@@ -1,0 +1,12 @@
+{
+  "id": "ANKB",
+  "area": "fin",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Clases de activos fijos: valores por defecto por área de valoración",
+    "en": "Asset classes: defaults per depreciation area",
+    "pt": "Classes de ativos fixos: valores padrão por área de avaliação"
+  }
+}

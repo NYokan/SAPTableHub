@@ -1,0 +1,13 @@
+{
+  "id": "TCURF",
+  "area": "gen",
+  "contents": "config",
+  "component": "BC-SRV-BSF-CUR",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Factores de conversión entre monedas",
+    "en": "Currency conversion factors",
+    "pt": "Fatores de conversão entre moedas"
+  }
+}

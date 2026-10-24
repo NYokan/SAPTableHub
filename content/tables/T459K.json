@@ -1,0 +1,12 @@
+{
+  "id": "T459K",
+  "area": "pp",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Clases de necesidad",
+    "en": "Requirements classes",
+    "pt": "Classes de necessidade"
+  }
+}

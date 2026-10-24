@@ -1,0 +1,12 @@
+{
+  "id": "TSAD3",
+  "area": "gen",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Tratamientos (Sr., Sra., Empresa)",
+    "en": "Forms of address (Mr., Ms., Company)",
+    "pt": "Tratamentos (Sr., Sra., Empresa)"
+  }
+}

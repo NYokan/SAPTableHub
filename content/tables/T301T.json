@@ -1,0 +1,13 @@
+{
+  "id": "T301T",
+  "area": "mat",
+  "contents": "text",
+  "component": "LE-WM",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Tipos de almacén (textos)",
+    "en": "Storage types (texts)",
+    "pt": "Tipos de depósito (textos)"
+  }
+}

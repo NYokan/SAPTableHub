@@ -1,0 +1,12 @@
+{
+  "id": "T004T",
+  "area": "fin",
+  "contents": "text",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Planes de cuentas: textos",
+    "en": "Charts of accounts: texts",
+    "pt": "Planos de contas: textos"
+  }
+}

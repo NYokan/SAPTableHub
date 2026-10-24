@@ -1,0 +1,12 @@
+{
+  "id": "T001B",
+  "area": "fin",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Períodos contables abiertos",
+    "en": "Open posting periods",
+    "pt": "Períodos contábeis abertos"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "S066",
+  "area": "fin",
+  "contents": "doc",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Gestión de créditos: pedidos abiertos",
+    "en": "Credit management: open orders",
+    "pt": "Gestão de crédito: pedidos em aberto"
+  }
+}

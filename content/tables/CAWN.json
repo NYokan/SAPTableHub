@@ -1,0 +1,12 @@
+{
+  "id": "CAWN",
+  "area": "gen",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Valores permitidos de características",
+    "en": "Allowed characteristic values",
+    "pt": "Valores permitidos de características"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "T460A",
+  "area": "pp",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Claves de aprovisionamiento especial",
+    "en": "Special procurement keys",
+    "pt": "Chaves de suprimento especial"
+  }
+}

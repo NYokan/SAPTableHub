@@ -1,0 +1,12 @@
+{
+  "id": "T881",
+  "area": "fin",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Ledgers (mayor clásico y nuevo mayor)",
+    "en": "Ledgers (classic and new G/L)",
+    "pt": "Ledgers (razão clássico e novo razão)"
+  }
+}

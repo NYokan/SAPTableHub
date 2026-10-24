@@ -1,0 +1,12 @@
+{
+  "id": "ADRP",
+  "area": "gen",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Personas (central de direcciones)",
+    "en": "Persons (address management)",
+    "pt": "Pessoas (gestão de endereços)"
+  }
+}

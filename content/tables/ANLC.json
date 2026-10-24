@@ -1,0 +1,40 @@
+{
+  "id": "ANLC",
+  "area": "fin",
+  "contents": "doc",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Activos fijos: valores acumulados por ejercicio",
+    "en": "Fixed assets: cumulative values per fiscal year",
+    "pt": "Ativos fixos: valores acumulados por exercício"
+  },
+  "purpose": {
+    "es": "Los valores de cada activo fijo por ejercicio y área de valoración: valor de adquisición, altas, bajas y amortización acumulada y del año. Es la base para obtener el valor contable.",
+    "en": "The values of each fixed asset per fiscal year and depreciation area: acquisition value, additions, retirements and accumulated and current-year depreciation. It is the basis for the net book value.",
+    "pt": "Os valores de cada ativo fixo por exercício e área de avaliação: valor de aquisição, adições, baixas e depreciação acumulada e do ano. É a base para obter o valor contábil."
+  },
+  "synonyms": {
+    "es": [
+      "valor contable",
+      "amortización acumulada",
+      "valor de adquisición",
+      "depreciación",
+      "valores del activo"
+    ],
+    "en": [
+      "net book value",
+      "accumulated depreciation",
+      "acquisition cost",
+      "depreciation",
+      "asset values"
+    ],
+    "pt": [
+      "valor contábil",
+      "depreciação acumulada",
+      "valor de aquisição",
+      "depreciação",
+      "valores do ativo"
+    ]
+  }
+}

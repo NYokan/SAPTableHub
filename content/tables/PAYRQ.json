@@ -1,0 +1,12 @@
+{
+  "id": "PAYRQ",
+  "area": "fin",
+  "contents": "doc",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Solicitudes de pago",
+    "en": "Payment requests",
+    "pt": "Solicitações de pagamento"
+  }
+}

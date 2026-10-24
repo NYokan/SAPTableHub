@@ -1,0 +1,40 @@
+{
+  "id": "NAST",
+  "area": "gen",
+  "contents": "doc",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Mensajes de salida",
+    "en": "Output messages",
+    "pt": "Mensagens de saída"
+  },
+  "purpose": {
+    "es": "Una fila por cada mensaje de salida de un documento, como la impresión de un pedido o el envío de una factura por correo. Guarda la clase de mensaje, destinatario, medio y si se procesó bien.",
+    "en": "One row per output message of a document, such as printing an order or emailing an invoice. It holds the output type, recipient, medium and whether it was processed successfully.",
+    "pt": "Uma linha por mensagem de saída de um documento, como a impressão de um pedido ou o envio de uma fatura por e-mail. Guarda o tipo de mensagem, destinatário, meio e se foi processada com sucesso."
+  },
+  "synonyms": {
+    "es": [
+      "mensaje de salida",
+      "impresión",
+      "output",
+      "envío de documento",
+      "formulario"
+    ],
+    "en": [
+      "output message",
+      "printout",
+      "output",
+      "document dispatch",
+      "form"
+    ],
+    "pt": [
+      "mensagem de saída",
+      "impressão",
+      "output",
+      "envio de documento",
+      "formulário"
+    ]
+  }
+}

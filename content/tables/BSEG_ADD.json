@@ -1,0 +1,42 @@
+{
+  "id": "BSEG_ADD",
+  "area": "fin",
+  "contents": "items",
+  "component": "FI-GL-GL",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "s4only": true,
+  "title": {
+    "es": "Documentos contables: posiciones de ledgers adicionales",
+    "en": "Accounting documents: items for additional ledgers",
+    "pt": "Documentos contábeis: itens de ledgers adicionais"
+  },
+  "purpose": {
+    "es": "Posiciones de documentos contables que se registran solo en ledgers adicionales (no en el principal), por ejemplo ajustes para otra norma contable. Existe solo en S/4HANA.",
+    "en": "Accounting document items posted only to additional ledgers (not the leading one), for example adjustments for another accounting standard. Exists only in S/4HANA.",
+    "pt": "Itens de documentos contábeis lançados apenas em ledgers adicionais (não no principal), por exemplo ajustes para outra norma contábil. Existe apenas no S/4HANA."
+  },
+  "synonyms": {
+    "es": [
+      "ledger no principal",
+      "ajuste de norma",
+      "IFRS",
+      "posiciones de ledger",
+      "contabilidad paralela"
+    ],
+    "en": [
+      "non-leading ledger",
+      "GAAP adjustment",
+      "IFRS",
+      "ledger-specific items",
+      "parallel accounting"
+    ],
+    "pt": [
+      "ledger não principal",
+      "ajuste de norma",
+      "IFRS",
+      "itens de ledger",
+      "contabilidade paralela"
+    ]
+  }
+}

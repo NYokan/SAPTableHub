@@ -1,0 +1,12 @@
+{
+  "id": "T356A",
+  "area": "pm",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Tipos de prioridad",
+    "en": "Priority types",
+    "pt": "Tipos de prioridade"
+  }
+}

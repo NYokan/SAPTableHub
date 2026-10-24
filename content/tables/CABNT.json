@@ -1,0 +1,12 @@
+{
+  "id": "CABNT",
+  "area": "gen",
+  "contents": "text",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Características (descripciones)",
+    "en": "Characteristics (descriptions)",
+    "pt": "Características (descrições)"
+  }
+}

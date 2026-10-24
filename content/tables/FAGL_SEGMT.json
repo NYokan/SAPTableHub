@@ -1,0 +1,12 @@
+{
+  "id": "FAGL_SEGMT",
+  "area": "fin",
+  "contents": "text",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Segmentos: textos",
+    "en": "Segments: texts",
+    "pt": "Segmentos: textos"
+  }
+}

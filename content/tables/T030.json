@@ -1,0 +1,12 @@
+{
+  "id": "T030",
+  "area": "fin",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Determinación automática de cuentas",
+    "en": "Automatic account determination",
+    "pt": "Determinação automática de contas"
+  }
+}

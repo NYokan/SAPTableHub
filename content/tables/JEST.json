@@ -1,0 +1,40 @@
+{
+  "id": "JEST",
+  "area": "gen",
+  "contents": "doc",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Estados de objeto (individuales)",
+    "en": "Object statuses (individual)",
+    "pt": "Status de objeto (individuais)"
+  },
+  "purpose": {
+    "es": "Los estados activos e inactivos de cada objeto, como una orden, aviso, proyecto o equipo: liberado, cerrado, bloqueado, etc. Los nombres de los estados están en TJ02T y TJ30T.",
+    "en": "The active and inactive statuses of each object, such as an order, notification, project or equipment: released, closed, locked, etc. Status names are in TJ02T and TJ30T.",
+    "pt": "Os status ativos e inativos de cada objeto, como uma ordem, nota, projeto ou equipamento: liberado, encerrado, bloqueado etc. Os nomes dos status estão na TJ02T e na TJ30T."
+  },
+  "synonyms": {
+    "es": [
+      "estado",
+      "estatus",
+      "liberado",
+      "cerrado",
+      "estado de orden"
+    ],
+    "en": [
+      "status",
+      "object status",
+      "released",
+      "closed",
+      "order status"
+    ],
+    "pt": [
+      "status",
+      "situação",
+      "liberado",
+      "encerrado",
+      "status da ordem"
+    ]
+  }
+}

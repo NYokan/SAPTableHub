@@ -1,0 +1,37 @@
+{
+  "id": "EQBS",
+  "area": "pm",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Equipos (datos de stock del número de serie)",
+    "en": "Equipment (serial number stock data)",
+    "pt": "Equipamentos (dados de estoque do número de série)"
+  },
+  "purpose": {
+    "es": "Para equipos con número de serie, dice en qué stock está la pieza: centro, almacén, lote, cliente o proveedor. Sirve para saber dónde se encuentra físicamente cada unidad serializada.",
+    "en": "For equipment with a serial number, it tells which stock the unit is in: plant, storage location, batch, customer or vendor. It shows where each serialized unit physically is.",
+    "pt": "Para equipamentos com número de série, indica em que estoque está a peça: centro, depósito, lote, cliente ou fornecedor. Mostra onde fica fisicamente cada unidade serializada."
+  },
+  "synonyms": {
+    "es": [
+      "número de serie",
+      "stock serializado",
+      "ubicación de la pieza",
+      "serie en almacén"
+    ],
+    "en": [
+      "serial number",
+      "serialized stock",
+      "unit location",
+      "serial in stock"
+    ],
+    "pt": [
+      "número de série",
+      "estoque serializado",
+      "localização da peça",
+      "série em estoque"
+    ]
+  }
+}

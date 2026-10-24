@@ -1,0 +1,40 @@
+{
+  "id": "ANLA",
+  "area": "fin",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Activos fijos: datos generales",
+    "en": "Fixed assets: general data",
+    "pt": "Ativos fixos: dados gerais"
+  },
+  "purpose": {
+    "es": "Una fila por cada activo fijo de una sociedad: clase de activo, descripción, fecha de alta, número de inventario y otros datos generales. Las asignaciones a centro de coste, valores y amortizaciones están en ANLZ, ANLB y ANLC.",
+    "en": "One row per fixed asset in a company code: asset class, description, capitalization date, inventory number and other general data. Cost center assignments, values and depreciation are in ANLZ, ANLB and ANLC.",
+    "pt": "Uma linha por ativo fixo de uma empresa: classe do ativo, descrição, data de incorporação, número de inventário e outros dados gerais. As atribuições a centro de custo, valores e depreciações estão na ANLZ, ANLB e ANLC."
+  },
+  "synonyms": {
+    "es": [
+      "activo fijo",
+      "inmovilizado",
+      "bien de uso",
+      "ficha de activo",
+      "maestro de activos"
+    ],
+    "en": [
+      "fixed asset",
+      "asset master",
+      "capital asset",
+      "property plant and equipment",
+      "asset register"
+    ],
+    "pt": [
+      "ativo fixo",
+      "imobilizado",
+      "ativo imobilizado",
+      "ficha do ativo",
+      "mestre de ativos"
+    ]
+  }
+}

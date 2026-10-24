@@ -1,0 +1,39 @@
+{
+  "id": "STKO",
+  "area": "pp",
+  "contents": "header",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Listas de materiales (cabecera)",
+    "en": "Bills of material (header)",
+    "pt": "Listas técnicas (cabeçalho)"
+  },
+  "purpose": {
+    "es": "Los datos generales de cada lista de materiales: cantidad base, status, fecha de validez y quién la creó. Los componentes están en STPO.",
+    "en": "The general data of each bill of material: base quantity, status, validity date and who created it. The components are in STPO.",
+    "pt": "Os dados gerais de cada lista técnica: quantidade básica, status, data de validade e quem a criou. Os componentes estão na STPO."
+  },
+  "synonyms": {
+    "es": [
+      "cabecera de lista de materiales",
+      "BOM",
+      "cantidad base",
+      "receta",
+      "estructura de producto"
+    ],
+    "en": [
+      "BOM header",
+      "bill of material",
+      "base quantity",
+      "recipe",
+      "product structure"
+    ],
+    "pt": [
+      "cabeçalho da lista técnica",
+      "BOM",
+      "quantidade básica",
+      "receita"
+    ]
+  }
+}

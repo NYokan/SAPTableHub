@@ -1,0 +1,40 @@
+{
+  "id": "QALS",
+  "area": "qm",
+  "contents": "header",
+  "component": "QM-IM",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Lotes de inspección",
+    "en": "Inspection lots",
+    "pt": "Lotes de inspeção"
+  },
+  "purpose": {
+    "es": "Una fila por cada lote de inspección: qué material o pedido se inspecciona, por qué motivo (recepción, producción, entrega), cantidad, fechas y estado. Es el punto de partida de los resultados y de la decisión de empleo.",
+    "en": "One row per inspection lot: which material or order is inspected, for what reason (goods receipt, production, delivery), quantity, dates and status. It is the starting point for results and the usage decision.",
+    "pt": "Uma linha por lote de inspeção: qual material ou ordem é inspecionado, por qual motivo (recebimento, produção, entrega), quantidade, datas e status. É o ponto de partida dos resultados e da decisão de utilização."
+  },
+  "synonyms": {
+    "es": [
+      "lote de inspección",
+      "inspección de calidad",
+      "control de calidad",
+      "inspección de recepción",
+      "muestra"
+    ],
+    "en": [
+      "inspection lot",
+      "quality inspection",
+      "quality control",
+      "incoming inspection",
+      "QC lot"
+    ],
+    "pt": [
+      "lote de inspeção",
+      "inspeção de qualidade",
+      "controle de qualidade",
+      "inspeção de recebimento"
+    ]
+  }
+}

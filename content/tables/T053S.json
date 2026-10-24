@@ -1,0 +1,12 @@
+{
+  "id": "T053S",
+  "area": "fin",
+  "contents": "text",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Motivos de diferencias de pago: textos",
+    "en": "Payment difference reason codes: texts",
+    "pt": "Motivos de diferenças de pagamento: textos"
+  }
+}

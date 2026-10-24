@@ -1,0 +1,13 @@
+{
+  "id": "T011",
+  "area": "fin",
+  "contents": "config",
+  "component": "FI-GL-GL-N",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Estructuras de balance",
+    "en": "Financial statement versions",
+    "pt": "Estruturas de balanço"
+  }
+}

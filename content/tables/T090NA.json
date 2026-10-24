@@ -1,0 +1,11 @@
+{
+  "id": "T090NA",
+  "area": "fin",
+  "contents": "config",
+  "category": "TRANSP",
+  "title": {
+    "es": "Claves de amortización",
+    "en": "Depreciation keys",
+    "pt": "Chaves de depreciação"
+  }
+}

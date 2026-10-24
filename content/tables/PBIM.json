@@ -1,0 +1,12 @@
+{
+  "id": "PBIM",
+  "area": "pp",
+  "contents": "header",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Necesidades primarias por material",
+    "en": "Independent requirements per material",
+    "pt": "Necessidades independentes por material"
+  }
+}

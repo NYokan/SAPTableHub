@@ -1,0 +1,40 @@
+{
+  "id": "KNC1",
+  "area": "fin",
+  "contents": "doc",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Clientes: cifras de movimientos por período",
+    "en": "Customers: transaction figures per period",
+    "pt": "Clientes: cifras de movimento por período"
+  },
+  "purpose": {
+    "es": "Los importes de debe, haber y ventas de cada cliente por sociedad, ejercicio y período. Sirve para ver el saldo de un cliente sin sumar sus partidas una a una.",
+    "en": "The debit, credit and sales amounts of each customer per company code, fiscal year and period. It gives a customer balance without adding up the items one by one.",
+    "pt": "Os valores de débito, crédito e vendas de cada cliente por empresa, exercício e período. Serve para ver o saldo de um cliente sem somar as partidas uma a uma."
+  },
+  "synonyms": {
+    "es": [
+      "saldo de cliente",
+      "cuenta corriente de cliente",
+      "cifras de cliente",
+      "deudores",
+      "saldo por período"
+    ],
+    "en": [
+      "customer balance",
+      "receivables balance",
+      "customer totals",
+      "debtors",
+      "period balance"
+    ],
+    "pt": [
+      "saldo do cliente",
+      "conta corrente do cliente",
+      "cifras do cliente",
+      "devedores",
+      "saldo por período"
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "T439A",
+  "area": "pp",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Procedimientos de cálculo de tamaño de lote",
+    "en": "Lot-sizing procedures",
+    "pt": "Procedimentos de dimensionamento de lote"
+  }
+}

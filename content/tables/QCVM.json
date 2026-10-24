@@ -1,0 +1,11 @@
+{
+  "id": "QCVM",
+  "area": "qm",
+  "contents": "items",
+  "category": "TRANSP",
+  "title": {
+    "es": "Perfiles de certificado: características",
+    "en": "Certificate profiles: characteristics",
+    "pt": "Perfis de certificado: características"
+  }
+}

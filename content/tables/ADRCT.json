@@ -1,0 +1,12 @@
+{
+  "id": "ADRCT",
+  "area": "gen",
+  "contents": "text",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Direcciones (observaciones)",
+    "en": "Addresses (remarks)",
+    "pt": "Endereços (observações)"
+  }
+}

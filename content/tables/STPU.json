@@ -1,0 +1,12 @@
+{
+  "id": "STPU",
+  "area": "pp",
+  "contents": "items",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Listas de materiales (subposiciones)",
+    "en": "Bills of material (sub-items)",
+    "pt": "Listas técnicas (subitens)"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "ADR3",
+  "area": "gen",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Direcciones (faxes)",
+    "en": "Addresses (fax numbers)",
+    "pt": "Endereços (faxes)"
+  }
+}

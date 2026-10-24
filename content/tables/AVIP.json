@@ -1,0 +1,12 @@
+{
+  "id": "AVIP",
+  "area": "fin",
+  "contents": "items",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Avisos de pago: posiciones",
+    "en": "Payment advice notes: items",
+    "pt": "Avisos de pagamento: itens"
+  }
+}

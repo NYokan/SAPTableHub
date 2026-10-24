@@ -1,0 +1,38 @@
+{
+  "id": "T004",
+  "area": "fin",
+  "contents": "config",
+  "component": "FI",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Planes de cuentas",
+    "en": "Charts of accounts",
+    "pt": "Planos de contas"
+  },
+  "purpose": {
+    "es": "La lista de planes de cuentas: el catálogo de cuentas de mayor que comparten una o varias sociedades. Cada sociedad de T001 tiene asignado uno.",
+    "en": "The list of charts of accounts: the catalog of G/L accounts shared by one or more company codes. Each company code in T001 has one assigned.",
+    "pt": "A lista de planos de contas: o catálogo de contas do razão compartilhado por uma ou mais empresas. Cada empresa da T001 tem um atribuído."
+  },
+  "synonyms": {
+    "es": [
+      "plan de cuentas",
+      "catálogo de cuentas",
+      "plan contable",
+      "KTOPL"
+    ],
+    "en": [
+      "chart of accounts",
+      "account catalog",
+      "accounting plan",
+      "KTOPL"
+    ],
+    "pt": [
+      "plano de contas",
+      "catálogo de contas",
+      "plano contábil",
+      "KTOPL"
+    ]
+  }
+}

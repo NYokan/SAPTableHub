@@ -1,0 +1,12 @@
+{
+  "id": "T134M",
+  "area": "mat",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Tipos de material: actualización de cantidad y valor",
+    "en": "Material types: quantity and value updating",
+    "pt": "Tipos de material: atualização de quantidade e valor"
+  }
+}

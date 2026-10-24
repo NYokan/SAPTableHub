@@ -1,0 +1,40 @@
+{
+  "id": "FAGLFLEXA",
+  "area": "fin",
+  "contents": "items",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Nuevo mayor: partidas individuales reales",
+    "en": "New G/L: actual line items",
+    "pt": "Novo razão: partidas individuais reais"
+  },
+  "purpose": {
+    "es": "Una fila por cada posición contable del nuevo mayor y ledger, con datos como centro de beneficio y segmento. Permite ver los apuntes que forman los saldos de FAGLFLEXT.",
+    "en": "One row per new G/L accounting line and ledger, with data such as profit center and segment. It shows the postings that make up the FAGLFLEXT balances.",
+    "pt": "Uma linha por lançamento contábil do novo razão e ledger, com dados como centro de lucro e segmento. Mostra os lançamentos que formam os saldos da FAGLFLEXT."
+  },
+  "synonyms": {
+    "es": [
+      "partidas individuales",
+      "apuntes de mayor",
+      "nuevo mayor",
+      "ledger",
+      "segmento"
+    ],
+    "en": [
+      "line items",
+      "G/L postings",
+      "new general ledger",
+      "ledger",
+      "segment"
+    ],
+    "pt": [
+      "partidas individuais",
+      "lançamentos do razão",
+      "novo razão",
+      "ledger",
+      "segmento"
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "MHND",
+  "area": "fin",
+  "contents": "items",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Reclamaciones: partidas reclamadas",
+    "en": "Dunning: dunned items",
+    "pt": "Advertências: partidas advertidas"
+  }
+}

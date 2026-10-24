@@ -1,0 +1,13 @@
+{
+  "id": "TCURN",
+  "area": "gen",
+  "contents": "config",
+  "component": "BC-SRV-BSF-CUR",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Cotización de tipos de cambio (directa o indirecta)",
+    "en": "Exchange rate quotation (direct or indirect)",
+    "pt": "Cotação de taxas de câmbio (direta ou indireta)"
+  }
+}

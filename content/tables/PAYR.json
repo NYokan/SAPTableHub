@@ -1,0 +1,40 @@
+{
+  "id": "PAYR",
+  "area": "fin",
+  "contents": "doc",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Registro de cheques emitidos",
+    "en": "Check register",
+    "pt": "Registro de cheques emitidos"
+  },
+  "purpose": {
+    "es": "Una fila por cada cheque emitido: número de cheque, banco propio, beneficiario, importe, fecha y si fue cobrado o anulado. Sirve para controlar y conciliar los cheques.",
+    "en": "One row per check issued: check number, house bank, payee, amount, date and whether it was cashed or voided. It is used to track and reconcile checks.",
+    "pt": "Uma linha por cheque emitido: número do cheque, banco próprio, beneficiário, valor, data e se foi compensado ou anulado. Serve para controlar e conciliar os cheques."
+  },
+  "synonyms": {
+    "es": [
+      "cheques",
+      "registro de cheques",
+      "cheque emitido",
+      "cheque anulado",
+      "pago con cheque"
+    ],
+    "en": [
+      "checks",
+      "cheques",
+      "check register",
+      "issued check",
+      "voided check"
+    ],
+    "pt": [
+      "cheques",
+      "registro de cheques",
+      "cheque emitido",
+      "cheque anulado",
+      "pagamento com cheque"
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "MSKA",
+  "area": "mat",
+  "contents": "master",
+  "component": "MM-IM-GF",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Stock de pedido de cliente",
+    "en": "Sales order stock",
+    "pt": "Estoque de ordem do cliente"
+  },
+  "purpose": {
+    "es": "Stock reservado para un pedido de cliente concreto (stock especial E). Una fila por material, centro, almacén, lote y posición de pedido, con las cantidades libre, en control de calidad y bloqueada.",
+    "en": "Stock set aside for a specific sales order (special stock E). One row per material, plant, storage location, batch and order item, with unrestricted, quality inspection and blocked quantities.",
+    "pt": "Estoque reservado para uma ordem de cliente específica (estoque especial E). Uma linha por material, centro, depósito, lote e item da ordem, com quantidades de utilização livre, em controle de qualidade e bloqueada."
+  },
+  "synonyms": {
+    "es": [
+      "stock de pedido",
+      "stock de cliente",
+      "fabricación contra pedido",
+      "stock especial E",
+      "stock asignado"
+    ],
+    "en": [
+      "sales order stock",
+      "make to order",
+      "special stock E",
+      "customer order stock",
+      "assigned stock"
+    ],
+    "pt": [
+      "estoque de ordem",
+      "estoque do cliente",
+      "produção sob encomenda",
+      "estoque especial E"
+    ]
+  }
+}

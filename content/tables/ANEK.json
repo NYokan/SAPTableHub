@@ -1,0 +1,12 @@
+{
+  "id": "ANEK",
+  "area": "fin",
+  "contents": "header",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Activos fijos: movimientos (cabecera)",
+    "en": "Fixed assets: transactions (header)",
+    "pt": "Ativos fixos: movimentos (cabeçalho)"
+  }
+}

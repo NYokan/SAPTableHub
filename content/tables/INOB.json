@@ -1,0 +1,12 @@
+{
+  "id": "INOB",
+  "area": "gen",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Números internos de objetos clasificados",
+    "en": "Internal numbers of classified objects",
+    "pt": "Números internos de objetos classificados"
+  }
+}

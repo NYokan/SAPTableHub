@@ -1,0 +1,13 @@
+{
+  "id": "PLFH",
+  "area": "pp",
+  "contents": "items",
+  "component": "PP-BD-RTG",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Medios auxiliares de fabricación en hojas de ruta",
+    "en": "Production resources/tools in task lists",
+    "pt": "Recursos auxiliares de produção em roteiros"
+  }
+}

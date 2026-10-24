@@ -1,0 +1,12 @@
+{
+  "id": "MSSA",
+  "area": "mat",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Stock de pedido de cliente (totales)",
+    "en": "Sales order stock (totals)",
+    "pt": "Estoque de ordem do cliente (totais)"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "T307",
+  "area": "mat",
+  "contents": "config",
+  "component": "LE-WM",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Tipos de unidad de almacén",
+    "en": "Storage unit types",
+    "pt": "Tipos de unidade de depósito"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "ANKA",
+  "area": "fin",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Clases de activos fijos",
+    "en": "Asset classes",
+    "pt": "Classes de ativos fixos"
+  }
+}

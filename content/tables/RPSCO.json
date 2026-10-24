@@ -1,0 +1,40 @@
+{
+  "id": "RPSCO",
+  "area": "ps",
+  "contents": "doc",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Totales de proyecto (costes, ingresos y presupuesto)",
+    "en": "Project totals (costs, revenues and budget)",
+    "pt": "Totais de projeto (custos, receitas e orçamento)"
+  },
+  "purpose": {
+    "es": "Totales de costes, ingresos, planes y presupuesto de cada objeto del proyecto por periodo y año. Es la base de los informes de proyecto; sirve para comparar plan, presupuesto y real sin sumar documentos.",
+    "en": "Totals of costs, revenues, plans and budget for each project object by period and year. It is the basis of project reports and lets you compare plan, budget and actual without adding up documents.",
+    "pt": "Totais de custos, receitas, planos e orçamento de cada objeto do projeto por período e ano. É a base dos relatórios de projeto e permite comparar plano, orçamento e real sem somar documentos."
+  },
+  "synonyms": {
+    "es": [
+      "costes de proyecto",
+      "real contra plan",
+      "presupuesto de proyecto",
+      "totales de proyecto",
+      "ingresos de proyecto"
+    ],
+    "en": [
+      "project costs",
+      "actual vs plan",
+      "project budget",
+      "project totals",
+      "project revenues"
+    ],
+    "pt": [
+      "custos do projeto",
+      "real versus plano",
+      "orçamento do projeto",
+      "totais do projeto",
+      "receitas do projeto"
+    ]
+  }
+}

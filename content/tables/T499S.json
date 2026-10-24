@@ -1,0 +1,12 @@
+{
+  "id": "T499S",
+  "area": "pm",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Emplazamientos por centro",
+    "en": "Locations by plant",
+    "pt": "Localizações por centro"
+  }
+}

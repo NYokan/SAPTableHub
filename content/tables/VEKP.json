@@ -1,0 +1,44 @@
+{
+  "id": "VEKP",
+  "area": "mat",
+  "contents": "header",
+  "component": "LO-HU-BF",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Unidades de manipulación (cabecera)",
+    "en": "Handling units (header)",
+    "pt": "Unidades de manuseio (cabeçalho)"
+  },
+  "purpose": {
+    "es": "Una fila por cada unidad de manipulación (HU): un palé, caja o contenedor con su embalaje y su contenido. Guarda el número de HU, el material de embalaje, pesos, volumen y a qué documento u objeto está asignada. Lo que lleva dentro está en VEPO.",
+    "en": "One row per handling unit (HU): a pallet, box or container with its packaging and contents. It holds the HU number, packaging material, weights, volume and the document or object it is assigned to. What it contains is in VEPO.",
+    "pt": "Uma linha por unidade de manuseio (HU): um palete, caixa ou contêiner com sua embalagem e conteúdo. Guarda o número da HU, o material de embalagem, pesos, volume e a que documento ou objeto está atribuída. O conteúdo está na VEPO."
+  },
+  "synonyms": {
+    "es": [
+      "unidad de manipulación",
+      "HU",
+      "palé",
+      "bulto",
+      "embalaje",
+      "SSCC"
+    ],
+    "en": [
+      "handling unit",
+      "HU",
+      "pallet",
+      "package",
+      "packing",
+      "SSCC"
+    ],
+    "pt": [
+      "unidade de manuseio",
+      "HU",
+      "palete",
+      "volume",
+      "embalagem",
+      "SSCC"
+    ]
+  }
+}

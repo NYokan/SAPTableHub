@@ -1,0 +1,40 @@
+{
+  "id": "IMPTT",
+  "area": "pm",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Puntos de medida y contadores",
+    "en": "Measuring points and counters",
+    "pt": "Pontos de medição e contadores"
+  },
+  "purpose": {
+    "es": "Una fila por cada punto de medida o contador definido en un equipo o ubicación técnica, como temperatura, presión o horas de funcionamiento. Guarda la característica medida, la unidad y los límites.",
+    "en": "One row per measuring point or counter defined on equipment or a functional location, such as temperature, pressure or operating hours. It holds the measured characteristic, unit and limits.",
+    "pt": "Uma linha por ponto de medição ou contador definido em um equipamento ou local de instalação, como temperatura, pressão ou horas de operação. Guarda a característica medida, a unidade e os limites."
+  },
+  "synonyms": {
+    "es": [
+      "punto de medida",
+      "contador",
+      "horómetro",
+      "lectura",
+      "medición"
+    ],
+    "en": [
+      "measuring point",
+      "counter",
+      "hour meter",
+      "reading",
+      "measurement"
+    ],
+    "pt": [
+      "ponto de medição",
+      "contador",
+      "horímetro",
+      "leitura",
+      "medição"
+    ]
+  }
+}

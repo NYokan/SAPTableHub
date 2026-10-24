@@ -1,0 +1,12 @@
+{
+  "id": "KNC3",
+  "area": "fin",
+  "contents": "doc",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Clientes: cifras de operaciones especiales de mayor",
+    "en": "Customers: special G/L transaction figures",
+    "pt": "Clientes: cifras de operações especiais do razão"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "id": "PROJ",
+  "area": "ps",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Definiciones de proyecto",
+    "en": "Project definitions",
+    "pt": "Definições de projeto"
+  },
+  "purpose": {
+    "es": "Una fila por cada proyecto: su código, descripción, perfil, responsable, sociedad y fechas. Los elementos PEP que lo forman están en PRPS.",
+    "en": "One row per project: its code, description, profile, person responsible, company code and dates. The WBS elements that make it up are in PRPS.",
+    "pt": "Uma linha por projeto: seu código, descrição, perfil, responsável, empresa e datas. Os elementos PEP que o compõem estão na PRPS."
+  },
+  "synonyms": {
+    "es": [
+      "proyecto",
+      "definición de proyecto",
+      "código de proyecto",
+      "obra"
+    ],
+    "en": [
+      "project",
+      "project definition",
+      "project code",
+      "capital project"
+    ],
+    "pt": [
+      "projeto",
+      "definição de projeto",
+      "código do projeto",
+      "obra"
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "CHVW",
+  "area": "mat",
+  "contents": "doc",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Lotes: lista de utilización",
+    "en": "Batches: where-used list",
+    "pt": "Lotes: lista de utilização"
+  }
+}

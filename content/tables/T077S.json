@@ -1,0 +1,12 @@
+{
+  "id": "T077S",
+  "area": "fin",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Cuentas de mayor: grupos de cuentas",
+    "en": "G/L accounts: account groups",
+    "pt": "Contas do razão: grupos de contas"
+  }
+}

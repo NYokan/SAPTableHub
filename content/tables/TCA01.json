@@ -1,0 +1,11 @@
+{
+  "id": "TCA01",
+  "area": "pp",
+  "contents": "config",
+  "category": "TRANSP",
+  "title": {
+    "es": "Tipos de hoja de ruta",
+    "en": "Task list types",
+    "pt": "Tipos de roteiro"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "TCURV",
+  "area": "gen",
+  "contents": "config",
+  "component": "BC-SRV-BSF-CUR",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Clases de tipo de cambio",
+    "en": "Exchange rate types",
+    "pt": "Categorias de taxa de câmbio"
+  }
+}

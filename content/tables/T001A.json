@@ -1,0 +1,12 @@
+{
+  "id": "T001A",
+  "area": "fin",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Sociedades: monedas adicionales",
+    "en": "Company codes: additional currencies",
+    "pt": "Empresas: moedas adicionais"
+  }
+}

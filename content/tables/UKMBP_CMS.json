@@ -1,0 +1,12 @@
+{
+  "id": "UKMBP_CMS",
+  "area": "fin",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Gestión de créditos SAP: perfil de crédito del interlocutor",
+    "en": "SAP Credit Management: business partner credit profile",
+    "pt": "Gestão de crédito SAP: perfil de crédito do parceiro"
+  }
+}

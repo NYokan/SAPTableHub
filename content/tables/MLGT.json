@@ -1,0 +1,13 @@
+{
+  "id": "MLGT",
+  "area": "mat",
+  "contents": "master",
+  "component": "LO-MD-MM",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Materiales: datos por tipo de almacén (WM)",
+    "en": "Materials: storage type data (WM)",
+    "pt": "Materiais: dados por tipo de depósito (WM)"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "SAFK",
+  "area": "pp",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Fabricación en serie: cabecera de programa",
+    "en": "Repetitive manufacturing: run schedule header",
+    "pt": "Produção repetitiva: cabeçalho do programa"
+  }
+}

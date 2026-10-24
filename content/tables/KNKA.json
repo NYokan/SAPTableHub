@@ -1,0 +1,12 @@
+{
+  "id": "KNKA",
+  "area": "fin",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Clientes: límite de crédito central",
+    "en": "Customers: central credit limit",
+    "pt": "Clientes: limite de crédito central"
+  }
+}

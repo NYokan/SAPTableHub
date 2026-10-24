@@ -1,0 +1,12 @@
+{
+  "id": "PKPS",
+  "area": "pp",
+  "contents": "items",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Kanbans (contenedores del ciclo de control)",
+    "en": "Kanbans (control cycle containers)",
+    "pt": "Kanbans (contêineres do ciclo de controle)"
+  }
+}

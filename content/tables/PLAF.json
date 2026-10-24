@@ -1,0 +1,39 @@
+{
+  "id": "PLAF",
+  "area": "pp",
+  "contents": "doc",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Órdenes previsionales",
+    "en": "Planned orders",
+    "pt": "Ordens planejadas"
+  },
+  "purpose": {
+    "es": "Las propuestas que genera la planificación de necesidades (MRP) para fabricar o comprar un material: cantidad, fechas y tipo de aprovisionamiento. Cuando se aprueban se convierten en orden de fabricación o en solicitud de pedido.",
+    "en": "The proposals created by material requirements planning (MRP) to make or buy a material: quantity, dates and procurement type. Once approved they become a production order or a purchase requisition.",
+    "pt": "As propostas geradas pelo planejamento de necessidades (MRP) para produzir ou comprar um material: quantidade, datas e tipo de suprimento. Quando aprovadas viram ordem de produção ou requisição de compra."
+  },
+  "synonyms": {
+    "es": [
+      "orden previsional",
+      "orden planificada",
+      "propuesta de MRP",
+      "propuesta de fabricación",
+      "plan de producción"
+    ],
+    "en": [
+      "planned order",
+      "MRP proposal",
+      "production proposal",
+      "production plan",
+      "procurement proposal"
+    ],
+    "pt": [
+      "ordem planejada",
+      "proposta do MRP",
+      "proposta de produção",
+      "plano de produção"
+    ]
+  }
+}

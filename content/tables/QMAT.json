@@ -1,0 +1,12 @@
+{
+  "id": "QMAT",
+  "area": "qm",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Tipos de inspección por material",
+    "en": "Inspection types per material",
+    "pt": "Tipos de inspeção por material"
+  }
+}

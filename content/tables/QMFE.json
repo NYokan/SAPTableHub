@@ -1,0 +1,40 @@
+{
+  "id": "QMFE",
+  "area": "qm",
+  "contents": "items",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Avisos: posiciones (defectos)",
+    "en": "Notifications: items (defects)",
+    "pt": "Notas: itens (defeitos)"
+  },
+  "purpose": {
+    "es": "Los defectos registrados en cada aviso: código de defecto, parte afectada, cantidad defectuosa y descripción. Un aviso puede tener varios.",
+    "en": "The defects recorded in each notification: defect code, affected part, defective quantity and description. A notification can have several.",
+    "pt": "Os defeitos registrados em cada nota: código do defeito, parte afetada, quantidade defeituosa e descrição. Uma nota pode ter vários."
+  },
+  "synonyms": {
+    "es": [
+      "defecto",
+      "falla",
+      "daño",
+      "posición de aviso",
+      "cantidad defectuosa"
+    ],
+    "en": [
+      "defect",
+      "failure",
+      "damage",
+      "notification item",
+      "defective quantity"
+    ],
+    "pt": [
+      "defeito",
+      "falha",
+      "dano",
+      "item da nota",
+      "quantidade defeituosa"
+    ]
+  }
+}

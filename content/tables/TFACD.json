@@ -1,0 +1,12 @@
+{
+  "id": "TFACD",
+  "area": "gen",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Calendarios de fábrica",
+    "en": "Factory calendars",
+    "pt": "Calendários de fábrica"
+  }
+}

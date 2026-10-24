@@ -1,0 +1,12 @@
+{
+  "id": "T024F",
+  "area": "pp",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Responsables de control de producción",
+    "en": "Production supervisors",
+    "pt": "Responsáveis pelo controle de produção"
+  }
+}

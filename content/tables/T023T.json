@@ -1,0 +1,32 @@
+{
+  "id": "T023T",
+  "area": "mat",
+  "contents": "text",
+  "component": "LO-MD-MM",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Grupos de artículos (textos)",
+    "en": "Material groups (texts)",
+    "pt": "Grupos de mercadorias (textos)"
+  },
+  "purpose": {
+    "es": "Nombres de los grupos de artículos en cada idioma.",
+    "en": "Names of the material groups in each language.",
+    "pt": "Nomes dos grupos de mercadorias em cada idioma."
+  },
+  "synonyms": {
+    "es": [
+      "texto grupo de artículos",
+      "descripción grupo de materiales"
+    ],
+    "en": [
+      "material group text",
+      "material group description"
+    ],
+    "pt": [
+      "texto do grupo de mercadorias",
+      "descrição do grupo de materiais"
+    ]
+  }
+}

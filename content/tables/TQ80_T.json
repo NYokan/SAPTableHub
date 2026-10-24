@@ -1,0 +1,12 @@
+{
+  "id": "TQ80_T",
+  "area": "qm",
+  "contents": "text",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Clases de aviso (descripciones)",
+    "en": "Notification types (descriptions)",
+    "pt": "Tipos de nota (descrições)"
+  }
+}

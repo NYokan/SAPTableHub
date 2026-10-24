@@ -1,0 +1,12 @@
+{
+  "id": "AFFL",
+  "area": "pp",
+  "contents": "items",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Secuencias de órdenes",
+    "en": "Order sequences",
+    "pt": "Sequências de ordens"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "PLMW",
+  "area": "qm",
+  "contents": "items",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Planes de inspección: valores por característica",
+    "en": "Inspection plans: characteristic values",
+    "pt": "Planos de inspeção: valores por característica"
+  }
+}

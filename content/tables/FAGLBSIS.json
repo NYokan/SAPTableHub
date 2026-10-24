@@ -1,0 +1,12 @@
+{
+  "id": "FAGLBSIS",
+  "area": "fin",
+  "contents": "doc",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Nuevo mayor: partidas abiertas de cuentas de mayor",
+    "en": "New G/L: open items of G/L accounts",
+    "pt": "Novo razão: partidas em aberto de contas do razão"
+  }
+}

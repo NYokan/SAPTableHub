@@ -1,0 +1,41 @@
+{
+  "id": "MSLB",
+  "area": "mat",
+  "contents": "master",
+  "component": "MM-IM-GF",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Stock especial en proveedor",
+    "en": "Special stock at vendor",
+    "pt": "Estoque especial no fornecedor"
+  },
+  "purpose": {
+    "es": "Stock propio que se entregó a un proveedor, sobre todo material enviado para subcontratación (stock especial O). Una fila por material, centro, lote y proveedor.",
+    "en": "Own stock provided to a vendor, mainly material sent for subcontracting (special stock O). One row per material, plant, batch and vendor.",
+    "pt": "Estoque próprio entregue a um fornecedor, principalmente material enviado para subcontratação (estoque especial O). Uma linha por material, centro, lote e fornecedor."
+  },
+  "synonyms": {
+    "es": [
+      "subcontratación",
+      "stock en proveedor",
+      "material provisto",
+      "maquila",
+      "stock especial O"
+    ],
+    "en": [
+      "subcontracting",
+      "stock at vendor",
+      "stock provided to vendor",
+      "toll manufacturing",
+      "special stock O"
+    ],
+    "pt": [
+      "subcontratação",
+      "estoque no fornecedor",
+      "material fornecido",
+      "beneficiamento",
+      "estoque especial O"
+    ]
+  }
+}

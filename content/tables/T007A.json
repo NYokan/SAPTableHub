@@ -1,0 +1,43 @@
+{
+  "id": "T007A",
+  "area": "fin",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Indicadores de impuestos",
+    "en": "Tax codes",
+    "pt": "Códigos de imposto"
+  },
+  "purpose": {
+    "es": "Los indicadores de impuestos de cada procedimiento fiscal: identifican cada tipo de IVA o impuesto (soportado o repercutido) que se usa en las facturas. Sus nombres están en T007S.",
+    "en": "The tax codes of each tax procedure: they identify each VAT or sales tax type (input or output) used on invoices. Their names are in T007S.",
+    "pt": "Os códigos de imposto de cada procedimento fiscal: identificam cada tipo de imposto (de entrada ou de saída) usado nas faturas. Seus nomes estão na T007S."
+  },
+  "synonyms": {
+    "es": [
+      "indicador de IVA",
+      "código de impuesto",
+      "IVA",
+      "MWSKZ",
+      "impuesto soportado",
+      "impuesto repercutido"
+    ],
+    "en": [
+      "tax code",
+      "VAT code",
+      "sales tax",
+      "MWSKZ",
+      "input tax",
+      "output tax"
+    ],
+    "pt": [
+      "código de imposto",
+      "código de IVA",
+      "ICMS",
+      "MWSKZ",
+      "imposto de entrada",
+      "imposto de saída"
+    ]
+  }
+}

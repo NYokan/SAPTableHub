@@ -1,0 +1,12 @@
+{
+  "id": "T436A",
+  "area": "pp",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Claves de horizonte de planificación",
+    "en": "Scheduling margin keys",
+    "pt": "Chaves de margem de programação"
+  }
+}

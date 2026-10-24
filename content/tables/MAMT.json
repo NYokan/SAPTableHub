@@ -1,0 +1,13 @@
+{
+  "id": "MAMT",
+  "area": "mat",
+  "contents": "text",
+  "component": "LO-MD-MM",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Materiales: textos por unidad de medida",
+    "en": "Materials: texts per unit of measure",
+    "pt": "Materiais: textos por unidade de medida"
+  }
+}

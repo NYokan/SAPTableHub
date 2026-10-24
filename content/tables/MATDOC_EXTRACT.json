@@ -1,0 +1,11 @@
+{
+  "id": "MATDOC_EXTRACT",
+  "area": "mat",
+  "contents": "doc",
+  "s4only": true,
+  "title": {
+    "es": "Documentos de material: extracto de stocks (S/4HANA)",
+    "en": "Material documents: stock extract (S/4HANA)",
+    "pt": "Documentos de material: extrato de estoques (S/4HANA)"
+  }
+}

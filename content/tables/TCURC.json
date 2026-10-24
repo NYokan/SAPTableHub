@@ -1,0 +1,13 @@
+{
+  "id": "TCURC",
+  "area": "gen",
+  "contents": "config",
+  "component": "BC-SRV-BSF-CUR",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Monedas (códigos)",
+    "en": "Currencies (codes)",
+    "pt": "Moedas (códigos)"
+  }
+}

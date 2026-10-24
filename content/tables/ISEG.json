@@ -1,0 +1,40 @@
+{
+  "id": "ISEG",
+  "area": "mat",
+  "contents": "items",
+  "component": "MM-IM-PI",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Inventario físico (posiciones)",
+    "en": "Physical inventory (items)",
+    "pt": "Inventário físico (itens)"
+  },
+  "purpose": {
+    "es": "Posiciones del inventario físico: una fila por material (y lote) contado, con la cantidad en libros, la cantidad contada y la diferencia contabilizada.",
+    "en": "Physical inventory items: one row per counted material (and batch), with book quantity, counted quantity and the posted difference.",
+    "pt": "Itens do inventário físico: uma linha por material (e lote) contado, com a quantidade contábil, a quantidade contada e a diferença lançada."
+  },
+  "synonyms": {
+    "es": [
+      "diferencia de inventario",
+      "recuento",
+      "cantidad contada",
+      "ajuste de inventario",
+      "conteo"
+    ],
+    "en": [
+      "inventory difference",
+      "count result",
+      "counted quantity",
+      "inventory adjustment",
+      "stocktake"
+    ],
+    "pt": [
+      "diferença de inventário",
+      "contagem",
+      "quantidade contada",
+      "ajuste de inventário"
+    ]
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "AFAB",
+  "area": "ps",
+  "contents": "doc",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Redes (relaciones entre actividades)",
+    "en": "Networks (relationships between activities)",
+    "pt": "Diagramas de rede (relações entre atividades)"
+  },
+  "purpose": {
+    "es": "Guarda las relaciones de orden entre actividades de las redes del proyecto: qué actividad debe terminar o empezar antes que otra y con qué desfase.",
+    "en": "It holds the sequence relationships between activities in project networks: which activity must finish or start before another and with what time offset.",
+    "pt": "Guarda as relações de sequência entre atividades dos diagramas de rede do projeto: qual atividade deve terminar ou começar antes de outra e com que defasagem."
+  },
+  "synonyms": {
+    "es": [
+      "relación de actividades",
+      "red",
+      "predecesora",
+      "sucesora",
+      "dependencia"
+    ],
+    "en": [
+      "activity relationship",
+      "network",
+      "predecessor",
+      "successor",
+      "dependency"
+    ],
+    "pt": [
+      "relação de atividades",
+      "diagrama de rede",
+      "predecessora",
+      "sucessora",
+      "dependência"
+    ]
+  }
+}

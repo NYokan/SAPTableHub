@@ -1,0 +1,12 @@
+{
+  "id": "MAHNS",
+  "area": "fin",
+  "contents": "doc",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Reclamaciones: cuentas bloqueadas por una ejecución",
+    "en": "Dunning: accounts locked by a run",
+    "pt": "Advertências: contas bloqueadas por uma execução"
+  }
+}
