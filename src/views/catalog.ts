@@ -3,7 +3,7 @@ import { LETTERS, pageList, runCatalog, type CatalogResult } from '../lib/catalo
 import { routeHref, type CatalogRoute } from '../lib/router.ts';
 import { esc } from '../lib/text.ts';
 import type { TableSummary } from '../types.ts';
-import { addButton, areaName, chipLink, countText, dclName, kindName, loc, modeSeg, segLink, tableHref, tx, type Ctx } from './common.ts';
+import { addButton, areaBadge, areaName, chipLink, countText, dclName, kindName, loc, modeSeg, segLink, tableHref, tx, type Ctx } from './common.ts';
 
 /** The table list: the improved version of an A–Z index of SAP tables. */
 export function renderCatalog(el: HTMLElement, r: CatalogRoute, c: Ctx): CatalogResult {
@@ -16,7 +16,7 @@ export function renderCatalog(el: HTMLElement, r: CatalogRoute, c: Ctx): Catalog
       <p class="c-intro" id="cintro"></p>
       <div class="c-ctl">
         <form class="cfilter" id="cform" role="search"><span class="si">${ic('search', 18)}</span><label class="vh" for="cq" id="cqlabel"></label><input id="cq" type="search" autocomplete="off" autocapitalize="none" spellcheck="false" enterkeyhint="search"></form>
-        <div class="chips" id="cchips" role="group"></div>
+        <div class="c-area"><span class="lbl" id="carea"></span><div class="chips" id="cchips" role="group" aria-labelledby="carea"></div></div>
         <div class="c-row2" id="crow"></div>
       </div>
       <nav class="az" id="az"></nav>
@@ -30,6 +30,7 @@ export function renderCatalog(el: HTMLElement, r: CatalogRoute, c: Ctx): Catalog
   get('ctitle').textContent = tx(c, 'catTitle') + (r.letter ? ' · ' + r.letter : '');
   get('cintro').textContent = tx(c, 'catIntro');
   get('cqlabel').textContent = tx(c, 'cfilter');
+  get('carea').textContent = tx(c, 'colArea');
   const input = get('cq') as HTMLInputElement;
   input.placeholder = tx(c, 'cfilter');
   if (document.activeElement !== input && input.value !== r.q) input.value = r.q;
@@ -73,7 +74,7 @@ function rowHTML(c: Ctx, t: TableSummary, n: number): string {
   const meta =
     c.mode === 'tech'
       ? `<span class="mono">${esc(t.cat)}</span><span class="dot" aria-hidden="true">·</span><span><span class="mono">${esc(t.dcl)}</span> ${esc(dclName(c, t.dcl))}</span>`
-      : `<span>${esc(areaName(c, t.area))}</span><span class="dot" aria-hidden="true">·</span><span>${esc(kindName(c, t.kind))}</span>`;
+      : `${areaBadge(c, t.area)}<span class="dot" aria-hidden="true">·</span><span>${esc(kindName(c, t.kind))}</span>`;
   return `<li class="crow"><a class="cmain" href="${esc(tableHref(c, t.id))}" data-link><span class="c-n">${n}</span><span class="c-id">${esc(t.id)}</span><span class="c-title">${esc(loc(c, t.title))}</span><span class="c-meta">${meta}</span></a>${addButton(c, t.id)}</li>`;
 }
 

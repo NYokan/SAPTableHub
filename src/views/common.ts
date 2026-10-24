@@ -23,7 +23,10 @@ export const kindName = (c: Ctx, k: string) => loc(c, c.data.taxonomy.contents[k
 export const catName = (c: Ctx, k: string) => loc(c, c.data.taxonomy.categories[k]?.name);
 export const dclName = (c: Ctx, k: string) => loc(c, c.data.taxonomy.deliveryClasses[k]?.name);
 
-export const tableHref = (c: Ctx, id: string) => routeHref({ name: 'table', lang: c.lang, id });
+/** An area as a small tinted tag; each area has its own muted hue (see the --a-* tokens). */
+export const areaBadge = (c: Ctx, k: string) => `<span class="ab ab-${esc(k)}">${esc(areaName(c, k))}</span>`;
+
+export const tableHref =(c: Ctx, id: string) => routeHref({ name: 'table', lang: c.lang, id });
 export const countText = (c: Ctx, n: number) => (n === 1 ? tx(c, 'count1') : tx(c, 'countN', { n }));
 
 /** The small "+" button that adds a table to the selection. */
