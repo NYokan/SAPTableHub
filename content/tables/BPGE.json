@@ -1,0 +1,12 @@
+{
+  "id": "BPGE",
+  "area": "co",
+  "contents": "doc",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Presupuesto y plan global por objeto",
+    "en": "Overall budget and plan per object",
+    "pt": "Orçamento e plano global por objeto"
+  }
+}

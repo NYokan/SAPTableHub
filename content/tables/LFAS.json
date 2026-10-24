@@ -1,0 +1,13 @@
+{
+  "id": "LFAS",
+  "area": "purch",
+  "contents": "master",
+  "component": "LO-MD-BP-VM",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Proveedores: números de IVA en la UE",
+    "en": "Vendors: EU VAT registration numbers",
+    "pt": "Fornecedores: números de IVA na UE"
+  }
+}

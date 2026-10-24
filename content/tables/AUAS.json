@@ -1,0 +1,12 @@
+{
+  "id": "AUAS",
+  "area": "co",
+  "contents": "items",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Documentos de liquidación (emisores)",
+    "en": "Settlement documents (senders)",
+    "pt": "Documentos de liquidação (emissores)"
+  }
+}

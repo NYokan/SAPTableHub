@@ -1,0 +1,40 @@
+{
+  "id": "TKA01",
+  "area": "co",
+  "contents": "config",
+  "component": "CO-OM",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Sociedades CO",
+    "en": "Controlling areas",
+    "pt": "Áreas de contabilidade de custos"
+  },
+  "purpose": {
+    "es": "Sociedades CO (áreas de Controlling): la unidad organizativa en la que se gestionan los costes, a la que pertenecen centros de coste, órdenes y clases de coste. Guarda el nombre, la moneda, el plan de cuentas y la variante de ejercicio.",
+    "en": "Controlling areas: the organizational unit in which costs are managed and to which cost centers, orders and cost elements belong. It holds the name, currency, chart of accounts and fiscal year variant.",
+    "pt": "Áreas de contabilidade de custos: a unidade organizacional em que os custos são geridos e à qual pertencem centros de custo, ordens e classes de custo. Guarda o nome, a moeda, o plano de contas e a variante de exercício."
+  },
+  "synonyms": {
+    "es": [
+      "sociedad CO",
+      "área de Controlling",
+      "área de contabilidad de costes",
+      "KOKRS",
+      "estructura organizativa"
+    ],
+    "en": [
+      "controlling area",
+      "CO area",
+      "KOKRS",
+      "cost accounting area",
+      "organizational structure"
+    ],
+    "pt": [
+      "área de contabilidade de custos",
+      "área de Controlling",
+      "KOKRS",
+      "estrutura organizacional"
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": "CSLA",
+  "area": "co",
+  "contents": "master",
+  "component": "CO-OM",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Tipos de actividad",
+    "en": "Activity types",
+    "pt": "Tipos de atividade"
+  },
+  "purpose": {
+    "es": "Tipos de actividad: los servicios internos que un centro de coste presta y que se miden en cantidad, como horas máquina u horas de mano de obra. Guarda la unidad, la clase de coste con que se imputa y la validez. Los nombres están en CSLT.",
+    "en": "Activity types: the internal services a cost center provides that are measured in quantity, such as machine hours or labor hours. It holds the unit, the cost element used to allocate them and the validity. The names are in CSLT.",
+    "pt": "Tipos de atividade: os serviços internos que um centro de custo presta e que são medidos em quantidade, como horas-máquina ou horas de mão de obra. Guarda a unidade, a classe de custo usada na alocação e a validade. Os nomes estão na CSLT."
+  },
+  "synonyms": {
+    "es": [
+      "tipo de actividad",
+      "hora máquina",
+      "hora hombre",
+      "actividad interna",
+      "tarifa interna"
+    ],
+    "en": [
+      "activity type",
+      "machine hour",
+      "labor hour",
+      "internal activity",
+      "internal rate"
+    ],
+    "pt": [
+      "tipo de atividade",
+      "hora-máquina",
+      "hora-homem",
+      "atividade interna",
+      "tarifa interna"
+    ]
+  }
+}

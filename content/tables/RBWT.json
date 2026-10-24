@@ -1,0 +1,13 @@
+{
+  "id": "RBWT",
+  "area": "purch",
+  "contents": "doc",
+  "component": "MM-IV-LIV",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Facturas de proveedor: retenciones",
+    "en": "Vendor invoices: withholding tax",
+    "pt": "Faturas de fornecedor: retenções na fonte"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "COSP",
+  "area": "co",
+  "contents": "doc",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Totales CO de costes primarios",
+    "en": "CO totals for primary costs",
+    "pt": "Totais CO de custos primários"
+  },
+  "purpose": {
+    "es": "Totales de costes primarios (los que vienen de Finanzas, como sueldos o compras) por objeto de CO, clase de coste, año y versión, con un importe por cada periodo. Incluye real, plan y compromisos. Es la base de los informes de centros de coste y órdenes.",
+    "en": "Totals of primary costs (those coming from Finance, such as salaries or purchases) per CO object, cost element, year and version, with one amount per period. It includes actual, plan and commitments. It is the basis of cost center and order reports.",
+    "pt": "Totais de custos primários (os que vêm de Finanças, como salários ou compras) por objeto de CO, classe de custo, ano e versão, com um valor por período. Inclui real, plano e compromissos. É a base dos relatórios de centros de custo e ordens."
+  },
+  "synonyms": {
+    "es": [
+      "totales de costes",
+      "costes primarios",
+      "real contra plan",
+      "gasto por centro de coste",
+      "saldos CO"
+    ],
+    "en": [
+      "cost totals",
+      "primary costs",
+      "actual vs plan",
+      "spend by cost center",
+      "CO balances"
+    ],
+    "pt": [
+      "totais de custos",
+      "custos primários",
+      "real versus plano",
+      "gasto por centro de custo",
+      "saldos CO"
+    ]
+  }
+}

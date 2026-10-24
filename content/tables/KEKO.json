@@ -1,0 +1,42 @@
+{
+  "id": "KEKO",
+  "area": "co",
+  "contents": "header",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Cálculos de coste del producto (cabecera)",
+    "en": "Product cost estimates (header)",
+    "pt": "Cálculos de custo do produto (cabeçalho)"
+  },
+  "purpose": {
+    "es": "Una fila por cada cálculo de coste de un material: el coste previsto de fabricarlo o comprarlo, con su variante de cálculo, fecha, lote y estado (por ejemplo, liberado como precio estándar). El detalle por componentes está en KEPH y CKIS.",
+    "en": "One row per material cost estimate: the expected cost of making or buying it, with its costing variant, date, lot size and status (for example, released as standard price). The breakdown by components is in KEPH and CKIS.",
+    "pt": "Uma linha por cálculo de custo de um material: o custo previsto de fabricá-lo ou comprá-lo, com sua variante de cálculo, data, lote e status (por exemplo, liberado como preço padrão). O detalhe por componentes está na KEPH e na CKIS."
+  },
+  "synonyms": {
+    "es": [
+      "cálculo de costes",
+      "coste estándar",
+      "precio estándar",
+      "coste del producto",
+      "costeo",
+      "escandallo"
+    ],
+    "en": [
+      "cost estimate",
+      "standard cost",
+      "standard price",
+      "product cost",
+      "costing",
+      "cost roll-up"
+    ],
+    "pt": [
+      "cálculo de custos",
+      "custo padrão",
+      "preço padrão",
+      "custo do produto",
+      "custeio"
+    ]
+  }
+}

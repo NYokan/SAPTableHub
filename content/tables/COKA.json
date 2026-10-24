@@ -1,0 +1,12 @@
+{
+  "id": "COKA",
+  "area": "co",
+  "contents": "doc",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Datos de control por objeto y clase de coste",
+    "en": "Control data per object and cost element",
+    "pt": "Dados de controle por objeto e classe de custo"
+  }
+}

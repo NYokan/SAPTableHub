@@ -1,0 +1,12 @@
+{
+  "id": "COEJL",
+  "area": "co",
+  "contents": "items",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Partidas de plan de actividades",
+    "en": "Plan line items for activities",
+    "pt": "Partidas de plano de atividades"
+  }
+}

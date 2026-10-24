@@ -1,0 +1,13 @@
+{
+  "id": "LFBW",
+  "area": "purch",
+  "contents": "master",
+  "component": "LO-MD-BP-VM",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Proveedores: retenciones de impuestos",
+    "en": "Vendors: withholding tax",
+    "pt": "Fornecedores: impostos retidos na fonte"
+  }
+}

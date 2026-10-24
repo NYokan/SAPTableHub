@@ -1,0 +1,12 @@
+{
+  "id": "COEPR",
+  "area": "co",
+  "contents": "items",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Partidas reales de magnitudes estadísticas",
+    "en": "Actual line items for statistical key figures",
+    "pt": "Partidas reais de índices estatísticos"
+  }
+}

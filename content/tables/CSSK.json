@@ -1,0 +1,12 @@
+{
+  "id": "CSSK",
+  "area": "co",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Centro de coste y clase de coste",
+    "en": "Cost center and cost element",
+    "pt": "Centro de custo e classe de custo"
+  }
+}

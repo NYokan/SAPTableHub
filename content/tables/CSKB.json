@@ -1,0 +1,41 @@
+{
+  "id": "CSKB",
+  "area": "co",
+  "contents": "master",
+  "component": "CO-OM",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Clases de coste (sociedad CO)",
+    "en": "Cost elements (controlling area)",
+    "pt": "Classes de custo (área de contabilidade de custos)"
+  },
+  "purpose": {
+    "es": "Datos de cada clase de coste dentro de una sociedad CO, con su periodo de validez: categoría (primaria, secundaria, de reparto…) y unidad de medida. Sirve para saber cómo se comporta una clase de coste en Controlling.",
+    "en": "Data of each cost element within a controlling area, with its validity period: category (primary, secondary, assessment…) and unit of measure. Use it to know how a cost element behaves in Controlling.",
+    "pt": "Dados de cada classe de custo dentro de uma área de contabilidade de custos, com seu período de validade: categoria (primária, secundária, rateio…) e unidade de medida. Serve para saber como uma classe de custo se comporta no Controlling."
+  },
+  "synonyms": {
+    "es": [
+      "clase de coste",
+      "categoría de clase de coste",
+      "coste primario",
+      "coste secundario",
+      "elemento de coste"
+    ],
+    "en": [
+      "cost element",
+      "cost element category",
+      "primary cost",
+      "secondary cost",
+      "cost element master"
+    ],
+    "pt": [
+      "classe de custo",
+      "categoria de classe de custo",
+      "custo primário",
+      "custo secundário",
+      "elemento de custo"
+    ]
+  }
+}

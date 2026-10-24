@@ -1,0 +1,12 @@
+{
+  "id": "BPEG",
+  "area": "co",
+  "contents": "items",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Documentos de presupuesto (partidas globales)",
+    "en": "Budget documents (overall line items)",
+    "pt": "Documentos de orçamento (partidas globais)"
+  }
+}

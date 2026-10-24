@@ -1,0 +1,12 @@
+{
+  "id": "COFIT",
+  "area": "co",
+  "contents": "doc",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Ledger de conciliación (totales)",
+    "en": "Reconciliation ledger (totals)",
+    "pt": "Ledger de reconciliação (totais)"
+  }
+}

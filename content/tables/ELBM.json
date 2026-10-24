@@ -1,0 +1,12 @@
+{
+  "id": "ELBM",
+  "area": "purch",
+  "contents": "doc",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Evaluación de proveedores: notas por criterio principal",
+    "en": "Vendor evaluation: main criteria scores",
+    "pt": "Avaliação de fornecedores: notas por critério principal"
+  }
+}

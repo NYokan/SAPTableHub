@@ -1,0 +1,41 @@
+{
+  "id": "EKPA",
+  "area": "purch",
+  "contents": "doc",
+  "component": "MM-PUR",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Documentos de compras: interlocutores",
+    "en": "Purchasing documents: partners",
+    "pt": "Documentos de compras: parceiros"
+  },
+  "purpose": {
+    "es": "Los interlocutores de cada documento de compras distintos del proveedor principal: quién factura, quién entrega, a quién se paga, etc.",
+    "en": "The partners of each purchasing document besides the main vendor: who invoices, who delivers, who gets paid, and so on.",
+    "pt": "Os parceiros de cada documento de compras além do fornecedor principal: quem fatura, quem entrega, quem recebe o pagamento etc."
+  },
+  "synonyms": {
+    "es": [
+      "interlocutor",
+      "emisor de factura",
+      "proveedor de mercancías",
+      "función de interlocutor",
+      "pedido de compra"
+    ],
+    "en": [
+      "partner",
+      "invoicing party",
+      "goods supplier",
+      "partner function",
+      "purchase order"
+    ],
+    "pt": [
+      "parceiro",
+      "emissor da fatura",
+      "fornecedor de mercadorias",
+      "função de parceiro",
+      "pedido de compra"
+    ]
+  }
+}

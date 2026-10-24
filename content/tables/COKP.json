@@ -1,0 +1,12 @@
+{
+  "id": "COKP",
+  "area": "co",
+  "contents": "doc",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Datos de control de planificación primaria",
+    "en": "Primary cost planning control data",
+    "pt": "Dados de controle do planejamento primário"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "TKA02",
+  "area": "co",
+  "contents": "config",
+  "component": "CO-OM",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Asignación de sociedades a sociedad CO",
+    "en": "Company codes per controlling area",
+    "pt": "Empresas por área de contabilidade de custos"
+  },
+  "purpose": {
+    "es": "Indica a qué sociedad CO pertenece cada sociedad (empresa). Sirve para pasar de la sociedad de Finanzas a la sociedad CO cuando se cruzan datos de ambas áreas.",
+    "en": "Shows which controlling area each company code belongs to. Use it to go from the Finance company code to the controlling area when combining data from both areas.",
+    "pt": "Indica a qual área de contabilidade de custos pertence cada empresa. Serve para passar da empresa de Finanças para a área de custos ao cruzar dados das duas áreas."
+  },
+  "synonyms": {
+    "es": [
+      "asignación sociedad CO",
+      "sociedad y sociedad CO",
+      "estructura organizativa",
+      "KOKRS por sociedad"
+    ],
+    "en": [
+      "controlling area assignment",
+      "company code to controlling area",
+      "organizational structure",
+      "KOKRS per company"
+    ],
+    "pt": [
+      "atribuição área de custos",
+      "empresa e área de custos",
+      "estrutura organizacional",
+      "KOKRS por empresa"
+    ]
+  }
+}

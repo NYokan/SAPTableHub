@@ -1,0 +1,12 @@
+{
+  "id": "COEPB",
+  "area": "co",
+  "contents": "items",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Partidas CO por periodo (cálculo de resultados)",
+    "en": "CO period line items (results analysis)",
+    "pt": "Partidas CO por período (análise de resultados)"
+  }
+}

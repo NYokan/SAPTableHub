@@ -1,0 +1,41 @@
+{
+  "id": "CEPC",
+  "area": "co",
+  "contents": "master",
+  "component": "EC-PCA",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Centros de beneficio",
+    "en": "Profit centers",
+    "pt": "Centros de lucro"
+  },
+  "purpose": {
+    "es": "Datos maestros de los centros de beneficio: responsable, área, segmento y periodo de validez. Un centro de beneficio es una parte de la empresa de la que se mide el resultado (ingresos menos costes). Los nombres están en CEPCT.",
+    "en": "Master data of profit centers: person responsible, department, segment and validity period. A profit center is a part of the company whose result (revenue minus costs) is measured. The names are in CEPCT.",
+    "pt": "Dados mestres dos centros de lucro: responsável, área, segmento e período de validade. Um centro de lucro é uma parte da empresa cujo resultado (receitas menos custos) é medido. Os nomes estão na CEPCT."
+  },
+  "synonyms": {
+    "es": [
+      "centro de beneficio",
+      "unidad de negocio",
+      "segmento",
+      "línea de negocio",
+      "responsable de resultado"
+    ],
+    "en": [
+      "profit center",
+      "business unit",
+      "segment",
+      "line of business",
+      "profit responsibility"
+    ],
+    "pt": [
+      "centro de lucro",
+      "unidade de negócio",
+      "segmento",
+      "linha de negócio",
+      "responsável pelo resultado"
+    ]
+  }
+}

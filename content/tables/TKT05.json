@@ -1,0 +1,12 @@
+{
+  "id": "TKT05",
+  "area": "co",
+  "contents": "text",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Clases de centro de coste (textos)",
+    "en": "Cost center categories (texts)",
+    "pt": "Categorias de centro de custo (textos)"
+  }
+}

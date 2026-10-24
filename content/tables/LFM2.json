@@ -1,0 +1,13 @@
+{
+  "id": "LFM2",
+  "area": "purch",
+  "contents": "master",
+  "component": "LO-MD-BP-VM",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Proveedores: datos de compras por centro o gama",
+    "en": "Vendors: purchasing data by plant or sub-range",
+    "pt": "Fornecedores: dados de compras por centro ou subgama"
+  }
+}

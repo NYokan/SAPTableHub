@@ -1,0 +1,10 @@
+{
+  "id": "CVI_VEND_LINK",
+  "area": "purch",
+  "contents": "master",
+  "title": {
+    "es": "Vínculo entre proveedor e interlocutor comercial",
+    "en": "Link between vendor and business partner",
+    "pt": "Vínculo entre fornecedor e parceiro de negócios"
+  }
+}

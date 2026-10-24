@@ -1,0 +1,12 @@
+{
+  "id": "COSB",
+  "area": "co",
+  "contents": "doc",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Totales CO de desviaciones y cálculo de resultados",
+    "en": "CO totals for variances and results analysis",
+    "pt": "Totais CO de desvios e análise de resultados"
+  }
+}

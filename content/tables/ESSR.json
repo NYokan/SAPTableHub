@@ -1,0 +1,41 @@
+{
+  "id": "ESSR",
+  "area": "purch",
+  "contents": "header",
+  "component": "MM-SRV",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Hojas de entrada de servicios",
+    "en": "Service entry sheets",
+    "pt": "Folhas de registro de serviços"
+  },
+  "purpose": {
+    "es": "Una fila por cada hoja de entrada de servicios: el registro de que un servicio pedido se prestó. Indica el pedido, la posición, el período y si está aceptada.",
+    "en": "One row per service entry sheet: the record that an ordered service was performed. It shows the order, item, period and whether it has been accepted.",
+    "pt": "Uma linha por folha de registro de serviços: o registro de que um serviço pedido foi prestado. Indica o pedido, o item, o período e se foi aceita."
+  },
+  "synonyms": {
+    "es": [
+      "hoja de entrada de servicios",
+      "HES",
+      "aceptación de servicio",
+      "recepción de servicios",
+      "ML81N"
+    ],
+    "en": [
+      "service entry sheet",
+      "SES",
+      "service acceptance",
+      "service receipt",
+      "ML81N"
+    ],
+    "pt": [
+      "folha de registro de serviços",
+      "FRS",
+      "aceite de serviço",
+      "recebimento de serviços",
+      "ML81N"
+    ]
+  }
+}

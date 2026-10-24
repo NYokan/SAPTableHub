@@ -1,0 +1,12 @@
+{
+  "id": "COST",
+  "area": "co",
+  "contents": "doc",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Tarifas de actividades (totales de precios)",
+    "en": "Activity prices (price totals)",
+    "pt": "Tarifas de atividades (totais de preços)"
+  }
+}

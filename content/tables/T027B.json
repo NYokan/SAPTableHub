@@ -1,0 +1,13 @@
+{
+  "id": "T027B",
+  "area": "purch",
+  "contents": "text",
+  "component": "MM-PUR",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Instrucciones de envío: textos",
+    "en": "Shipping instructions: texts",
+    "pt": "Instruções de envio: textos"
+  }
+}

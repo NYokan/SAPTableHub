@@ -1,0 +1,13 @@
+{
+  "id": "ASMDT",
+  "area": "purch",
+  "contents": "text",
+  "component": "MM-SRV",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Maestro de servicios: textos",
+    "en": "Service master: texts",
+    "pt": "Mestre de serviços: textos"
+  }
+}

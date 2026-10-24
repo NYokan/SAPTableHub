@@ -1,0 +1,13 @@
+{
+  "id": "CSLT",
+  "area": "co",
+  "contents": "text",
+  "component": "CO-OM",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Tipos de actividad (textos)",
+    "en": "Activity types (texts)",
+    "pt": "Tipos de atividade (textos)"
+  }
+}

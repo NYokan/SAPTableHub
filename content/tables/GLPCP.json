@@ -1,0 +1,12 @@
+{
+  "id": "GLPCP",
+  "area": "co",
+  "contents": "items",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Partidas de plan de centros de beneficio",
+    "en": "Profit center plan line items",
+    "pt": "Partidas de plano de centros de lucro"
+  }
+}

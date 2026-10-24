@@ -1,0 +1,13 @@
+{
+  "id": "RKWA",
+  "area": "purch",
+  "contents": "doc",
+  "component": "MM-IV-LIV",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Retiros de consignación y pipeline por liquidar",
+    "en": "Consignment and pipeline withdrawals to settle",
+    "pt": "Retiradas de consignação e pipeline a liquidar"
+  }
+}

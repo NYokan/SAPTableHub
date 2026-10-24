@@ -1,0 +1,39 @@
+{
+  "id": "CKIS",
+  "area": "co",
+  "contents": "items",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Cálculos de coste (posiciones)",
+    "en": "Cost estimates (itemization)",
+    "pt": "Cálculos de custo (itens)"
+  },
+  "purpose": {
+    "es": "Posiciones de un cálculo de coste: cada componente, operación o gasto general que suma al coste del producto, con su cantidad, precio y valor. Es la lista detallada que hay detrás del coste estándar.",
+    "en": "Items of a cost estimate: each component, operation or overhead adding to the product cost, with its quantity, price and value. It is the detailed list behind the standard cost.",
+    "pt": "Itens de um cálculo de custo: cada componente, operação ou custo indireto que soma ao custo do produto, com sua quantidade, preço e valor. É a lista detalhada por trás do custo padrão."
+  },
+  "synonyms": {
+    "es": [
+      "posiciones del cálculo de costes",
+      "desglose de costes",
+      "lista de costes",
+      "coste por componente",
+      "itemización"
+    ],
+    "en": [
+      "cost estimate items",
+      "itemization",
+      "cost breakdown",
+      "cost per component",
+      "costed BOM"
+    ],
+    "pt": [
+      "itens do cálculo de custos",
+      "detalhamento de custos",
+      "lista de custos",
+      "custo por componente"
+    ]
+  }
+}

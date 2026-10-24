@@ -1,0 +1,13 @@
+{
+  "id": "EKPV",
+  "area": "purch",
+  "contents": "doc",
+  "component": "MM-PUR",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Pedidos de traslado: datos de expedición",
+    "en": "Stock transport orders: shipping data",
+    "pt": "Pedidos de transferência: dados de expedição"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "MLCR",
+  "area": "co",
+  "contents": "items",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Documentos del ledger de materiales (valores)",
+    "en": "Material ledger documents (values)",
+    "pt": "Documentos do ledger de materiais (valores)"
+  }
+}

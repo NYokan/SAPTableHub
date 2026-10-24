@@ -1,0 +1,12 @@
+{
+  "id": "COSR",
+  "area": "co",
+  "contents": "doc",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Totales CO de magnitudes estadísticas",
+    "en": "CO totals for statistical key figures",
+    "pt": "Totais CO de índices estatísticos"
+  }
+}

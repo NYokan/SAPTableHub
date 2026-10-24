@@ -1,0 +1,43 @@
+{
+  "id": "EKKN",
+  "area": "purch",
+  "contents": "doc",
+  "component": "MM-PUR",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Documentos de compras: imputación",
+    "en": "Purchasing documents: account assignment",
+    "pt": "Documentos de compras: classificação contábil"
+  },
+  "purpose": {
+    "es": "A qué se carga cada posición de un pedido, contrato o plan de entregas: centro de coste, orden, elemento PEP, activo o cuenta de mayor. Una posición puede repartirse en varias líneas.",
+    "en": "What each item of a purchase order, contract or scheduling agreement is charged to: cost center, order, WBS element, asset or G/L account. One item can be split over several lines.",
+    "pt": "Para onde é lançado cada item de um pedido, contrato ou programa de remessa: centro de custo, ordem, elemento PEP, imobilizado ou conta do razão. Um item pode ser dividido em várias linhas."
+  },
+  "synonyms": {
+    "es": [
+      "imputación",
+      "centro de coste del pedido",
+      "pedido imputado",
+      "cuenta de mayor",
+      "elemento PEP",
+      "orden interna"
+    ],
+    "en": [
+      "account assignment",
+      "PO cost center",
+      "cost object",
+      "G/L account",
+      "WBS element",
+      "internal order"
+    ],
+    "pt": [
+      "classificação contábil",
+      "centro de custo do pedido",
+      "objeto de custo",
+      "conta do razão",
+      "elemento PEP"
+    ]
+  }
+}

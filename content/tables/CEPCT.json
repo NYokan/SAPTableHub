@@ -1,0 +1,13 @@
+{
+  "id": "CEPCT",
+  "area": "co",
+  "contents": "text",
+  "component": "EC-PCA",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Centros de beneficio (textos)",
+    "en": "Profit centers (texts)",
+    "pt": "Centros de lucro (textos)"
+  }
+}

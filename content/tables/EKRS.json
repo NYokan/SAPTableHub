@@ -1,0 +1,12 @@
+{
+  "id": "EKRS",
+  "area": "purch",
+  "contents": "doc",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Entradas pendientes de autofacturación (ERS)",
+    "en": "Goods receipts pending evaluated receipt settlement (ERS)",
+    "pt": "Entradas pendentes de autofaturamento (ERS)"
+  }
+}

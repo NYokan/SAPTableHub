@@ -1,0 +1,40 @@
+{
+  "id": "EKBZ",
+  "area": "purch",
+  "contents": "doc",
+  "component": "MM-PUR",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Historial de pedidos: costes de entrega",
+    "en": "Purchase order history: delivery costs",
+    "pt": "Histórico de pedidos: custos de entrega"
+  },
+  "purpose": {
+    "es": "El historial de los costes de entrega de cada posición de pedido (fletes, aduanas): lo registrado en la entrada de mercancías y en las facturas de esos costes.",
+    "en": "The history of the delivery costs of each order item (freight, customs): what was posted at goods receipt and in the invoices for those costs.",
+    "pt": "O histórico dos custos de entrega de cada item do pedido (fretes, alfândega): o que foi lançado na entrada de mercadorias e nas faturas desses custos."
+  },
+  "synonyms": {
+    "es": [
+      "costes de entrega",
+      "flete",
+      "costes adicionales",
+      "historial de pedido",
+      "aduana"
+    ],
+    "en": [
+      "delivery costs",
+      "freight",
+      "additional costs",
+      "PO history",
+      "customs"
+    ],
+    "pt": [
+      "custos de entrega",
+      "frete",
+      "custos adicionais",
+      "histórico do pedido"
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "MLIT",
+  "area": "co",
+  "contents": "items",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Documentos del ledger de materiales (posiciones)",
+    "en": "Material ledger documents (items)",
+    "pt": "Documentos do ledger de materiais (itens)"
+  }
+}

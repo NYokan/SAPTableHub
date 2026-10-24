@@ -1,0 +1,12 @@
+{
+  "id": "COKS",
+  "area": "co",
+  "contents": "doc",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Datos de control de planificación secundaria",
+    "en": "Secondary cost planning control data",
+    "pt": "Dados de controle do planejamento secundário"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "COOI",
+  "area": "co",
+  "contents": "items",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Compromisos (partidas individuales)",
+    "en": "Commitments (line items)",
+    "pt": "Compromissos (partidas individuais)"
+  },
+  "purpose": {
+    "es": "Compromisos: costes ya comprometidos pero aún no contabilizados, por ejemplo pedidos de compra o solicitudes de pedido imputados a un centro de coste u orden. Una fila por cada línea de compromiso abierta.",
+    "en": "Commitments: costs already committed but not yet posted, for example purchase orders or purchase requisitions assigned to a cost center or order. One row per open commitment line.",
+    "pt": "Compromissos: custos já comprometidos mas ainda não lançados, por exemplo pedidos de compra ou requisições atribuídos a um centro de custo ou ordem. Uma linha por item de compromisso em aberto."
+  },
+  "synonyms": {
+    "es": [
+      "compromiso",
+      "gasto comprometido",
+      "pedido abierto",
+      "obligo",
+      "presupuesto comprometido"
+    ],
+    "en": [
+      "commitment",
+      "committed spend",
+      "open purchase order",
+      "encumbrance",
+      "committed budget"
+    ],
+    "pt": [
+      "compromisso",
+      "gasto comprometido",
+      "pedido em aberto",
+      "obrigação",
+      "orçamento comprometido"
+    ]
+  }
+}

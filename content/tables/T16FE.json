@@ -1,0 +1,13 @@
+{
+  "id": "T16FE",
+  "area": "purch",
+  "contents": "text",
+  "component": "MM-PUR",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Indicadores de liberación: textos",
+    "en": "Release indicators: texts",
+    "pt": "Indicadores de liberação: textos"
+  }
+}

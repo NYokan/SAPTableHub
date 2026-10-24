@@ -1,0 +1,41 @@
+{
+  "id": "EBKN",
+  "area": "purch",
+  "contents": "doc",
+  "component": "MM-PUR",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Solicitudes de pedido: imputación",
+    "en": "Purchase requisitions: account assignment",
+    "pt": "Requisições de compra: classificação contábil"
+  },
+  "purpose": {
+    "es": "A qué se cargará cada solicitud de pedido: centro de coste, orden, elemento PEP o cuenta de mayor. Pasa al pedido de compra cuando se convierte la solicitud.",
+    "en": "What each purchase requisition will be charged to: cost center, order, WBS element or G/L account. It carries over to the purchase order when the requisition is converted.",
+    "pt": "Para onde será lançada cada requisição de compra: centro de custo, ordem, elemento PEP ou conta do razão. Passa para o pedido de compra quando a requisição é convertida."
+  },
+  "synonyms": {
+    "es": [
+      "imputación de solicitud",
+      "centro de coste",
+      "solicitud de pedido",
+      "solped",
+      "elemento PEP"
+    ],
+    "en": [
+      "requisition account assignment",
+      "cost center",
+      "purchase requisition",
+      "PR",
+      "WBS element"
+    ],
+    "pt": [
+      "classificação da requisição",
+      "centro de custo",
+      "requisição de compra",
+      "RC",
+      "elemento PEP"
+    ]
+  }
+}

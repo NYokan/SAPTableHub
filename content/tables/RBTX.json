@@ -1,0 +1,13 @@
+{
+  "id": "RBTX",
+  "area": "purch",
+  "contents": "doc",
+  "component": "MM-IV-LIV",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Facturas de proveedor: impuestos",
+    "en": "Vendor invoices: taxes",
+    "pt": "Faturas de fornecedor: impostos"
+  }
+}

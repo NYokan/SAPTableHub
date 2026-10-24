@@ -1,0 +1,13 @@
+{
+  "id": "LFB5",
+  "area": "purch",
+  "contents": "master",
+  "component": "LO-MD-BP-VM",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Proveedores: datos de reclamación",
+    "en": "Vendors: dunning data",
+    "pt": "Fornecedores: dados de advertência"
+  }
+}

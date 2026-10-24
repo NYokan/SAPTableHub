@@ -1,0 +1,12 @@
+{
+  "id": "COEJR",
+  "area": "co",
+  "contents": "items",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Partidas de plan de magnitudes estadísticas",
+    "en": "Plan line items for statistical key figures",
+    "pt": "Partidas de plano de índices estatísticos"
+  }
+}

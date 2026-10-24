@@ -1,0 +1,12 @@
+{
+  "id": "ELBK",
+  "area": "purch",
+  "contents": "header",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Evaluación de proveedores (cabecera)",
+    "en": "Vendor evaluation (header)",
+    "pt": "Avaliação de fornecedores (cabeçalho)"
+  }
+}

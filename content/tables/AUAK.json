@@ -1,0 +1,12 @@
+{
+  "id": "AUAK",
+  "area": "co",
+  "contents": "header",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Documentos de liquidación (cabecera)",
+    "en": "Settlement documents (header)",
+    "pt": "Documentos de liquidação (cabeçalho)"
+  }
+}

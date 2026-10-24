@@ -1,0 +1,13 @@
+{
+  "id": "T16FT",
+  "area": "purch",
+  "contents": "text",
+  "component": "MM-PUR",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Estrategias de liberación: textos",
+    "en": "Release strategies: texts",
+    "pt": "Estratégias de liberação: textos"
+  }
+}

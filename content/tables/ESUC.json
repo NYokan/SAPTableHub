@@ -1,0 +1,13 @@
+{
+  "id": "ESUC",
+  "area": "purch",
+  "contents": "doc",
+  "component": "MM-SRV",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Servicios: límites por contrato",
+    "en": "Services: limits per contract",
+    "pt": "Serviços: limites por contrato"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "CKMLHD",
+  "area": "co",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Ledger de materiales (cabecera por material)",
+    "en": "Material ledger (header per material)",
+    "pt": "Ledger de materiais (cabeçalho por material)"
+  }
+}

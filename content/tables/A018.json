@@ -1,0 +1,12 @@
+{
+  "id": "A018",
+  "area": "purch",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Condiciones de compra por registro info",
+    "en": "Purchasing conditions by info record",
+    "pt": "Condições de compra por registro info"
+  }
+}

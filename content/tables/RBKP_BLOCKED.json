@@ -1,0 +1,13 @@
+{
+  "id": "RBKP_BLOCKED",
+  "area": "purch",
+  "contents": "doc",
+  "component": "MM-IV-LIV",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Facturas de proveedor bloqueadas para pago",
+    "en": "Vendor invoices blocked for payment",
+    "pt": "Faturas de fornecedor bloqueadas para pagamento"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "EKETH",
+  "area": "purch",
+  "contents": "doc",
+  "component": "MM-PUR",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Planes de entrega: historial de repartos",
+    "en": "Scheduling agreements: schedule line history",
+    "pt": "Programas de remessa: histórico de divisões"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "TKA09",
+  "area": "co",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Versiones por sociedad CO",
+    "en": "Versions per controlling area",
+    "pt": "Versões por área de contabilidade de custos"
+  }
+}

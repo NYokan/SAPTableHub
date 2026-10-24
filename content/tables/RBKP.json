@@ -1,0 +1,44 @@
+{
+  "id": "RBKP",
+  "area": "purch",
+  "contents": "header",
+  "component": "MM-IV-LIV",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Facturas de proveedor (cabecera)",
+    "en": "Vendor invoices (header)",
+    "pt": "Faturas de fornecedor (cabeçalho)"
+  },
+  "purpose": {
+    "es": "Una fila por cada factura o abono de proveedor registrado en la verificación de facturas (MIRO): proveedor, sociedad, fecha, importe bruto, moneda y estado. Las líneas están en RSEG.",
+    "en": "One row per vendor invoice or credit memo entered in invoice verification (MIRO): vendor, company code, date, gross amount, currency and status. The lines are in RSEG.",
+    "pt": "Uma linha por fatura ou nota de crédito de fornecedor lançada na revisão de faturas (MIRO): fornecedor, empresa, data, valor bruto, moeda e status. Os itens estão na RSEG."
+  },
+  "synonyms": {
+    "es": [
+      "factura de proveedor",
+      "verificación de facturas",
+      "MIRO",
+      "abono",
+      "factura recibida",
+      "cuentas por pagar"
+    ],
+    "en": [
+      "vendor invoice",
+      "invoice verification",
+      "MIRO",
+      "credit memo",
+      "supplier invoice",
+      "accounts payable"
+    ],
+    "pt": [
+      "fatura de fornecedor",
+      "revisão de faturas",
+      "MIRO",
+      "nota de crédito",
+      "nota fiscal de entrada",
+      "contas a pagar"
+    ]
+  }
+}

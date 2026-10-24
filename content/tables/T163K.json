@@ -1,0 +1,36 @@
+{
+  "id": "T163K",
+  "area": "purch",
+  "contents": "config",
+  "component": "MM-PUR",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Tipos de imputación",
+    "en": "Account assignment categories",
+    "pt": "Categorias de classificação contábil"
+  },
+  "purpose": {
+    "es": "Los tipos de imputación de compras (centro de coste, orden, activo, proyecto…) y qué datos contables exige cada uno.",
+    "en": "The purchasing account assignment categories (cost center, order, asset, project…) and which accounting data each one requires.",
+    "pt": "As categorias de classificação contábil de compras (centro de custo, ordem, imobilizado, projeto…) e quais dados contábeis cada uma exige."
+  },
+  "synonyms": {
+    "es": [
+      "tipo de imputación",
+      "KNTTP",
+      "categoría de imputación",
+      "compra imputada"
+    ],
+    "en": [
+      "account assignment category",
+      "KNTTP",
+      "cost assignment type"
+    ],
+    "pt": [
+      "categoria de classificação contábil",
+      "KNTTP",
+      "tipo de classificação"
+    ]
+  }
+}

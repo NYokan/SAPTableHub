@@ -1,0 +1,12 @@
+{
+  "id": "CKIT",
+  "area": "co",
+  "contents": "text",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Cálculos de coste (textos de posiciones)",
+    "en": "Cost estimates (item texts)",
+    "pt": "Cálculos de custo (textos dos itens)"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": "RSEG",
+  "area": "purch",
+  "contents": "items",
+  "component": "MM-IV-LIV",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Facturas de proveedor (posiciones)",
+    "en": "Vendor invoices (items)",
+    "pt": "Faturas de fornecedor (itens)"
+  },
+  "purpose": {
+    "es": "Las líneas de cada factura de proveedor que se refieren a un pedido de compra: pedido y posición, material, cantidad e importe facturado. La cabecera está en RBKP.",
+    "en": "The lines of each vendor invoice that refer to a purchase order: order and item, material, quantity and invoiced amount. The header is in RBKP.",
+    "pt": "Os itens de cada fatura de fornecedor que se referem a um pedido de compra: pedido e item, material, quantidade e valor faturado. O cabeçalho está na RBKP."
+  },
+  "synonyms": {
+    "es": [
+      "posición de factura",
+      "línea de factura",
+      "factura de proveedor",
+      "cantidad facturada",
+      "importe facturado"
+    ],
+    "en": [
+      "invoice item",
+      "invoice line",
+      "vendor invoice",
+      "invoiced quantity",
+      "invoiced amount"
+    ],
+    "pt": [
+      "item da fatura",
+      "linha da fatura",
+      "fatura de fornecedor",
+      "quantidade faturada",
+      "valor faturado"
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "TKA05",
+  "area": "co",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Clases de centro de coste",
+    "en": "Cost center categories",
+    "pt": "Categorias de centro de custo"
+  }
+}

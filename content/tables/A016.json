@@ -1,0 +1,12 @@
+{
+  "id": "A016",
+  "area": "purch",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Condiciones de compra por posición de contrato",
+    "en": "Purchasing conditions by contract item",
+    "pt": "Condições de compra por item de contrato"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "WYT3",
+  "area": "purch",
+  "contents": "master",
+  "component": "LO-MD-BP-VM",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Proveedores: funciones de interlocutor",
+    "en": "Vendors: partner functions",
+    "pt": "Fornecedores: funções de parceiro"
+  }
+}

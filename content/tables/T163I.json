@@ -1,0 +1,13 @@
+{
+  "id": "T163I",
+  "area": "purch",
+  "contents": "text",
+  "component": "MM-PUR",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Tipos de imputación: textos",
+    "en": "Account assignment categories: texts",
+    "pt": "Categorias de classificação contábil: textos"
+  }
+}

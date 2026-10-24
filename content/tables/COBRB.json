@@ -1,0 +1,40 @@
+{
+  "id": "COBRB",
+  "area": "co",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Reglas de liquidación (reglas de reparto)",
+    "en": "Settlement rules (distribution rules)",
+    "pt": "Regras de liquidação (regras de distribuição)"
+  },
+  "purpose": {
+    "es": "Reglas de reparto de la liquidación: indican a qué receptores (centro de coste, activo, cuenta, otra orden…) y en qué porcentaje o importe se liquidan los costes de una orden o proyecto.",
+    "en": "Settlement distribution rules: they say to which receivers (cost center, asset, account, another order…) and in what percentage or amount the costs of an order or project are settled.",
+    "pt": "Regras de distribuição da liquidação: indicam para quais receptores (centro de custo, imobilizado, conta, outra ordem…) e em que percentual ou valor os custos de uma ordem ou projeto são liquidados."
+  },
+  "synonyms": {
+    "es": [
+      "regla de liquidación",
+      "receptor de liquidación",
+      "liquidación de órdenes",
+      "porcentaje de reparto",
+      "destino de costes"
+    ],
+    "en": [
+      "settlement rule",
+      "settlement receiver",
+      "order settlement",
+      "distribution percentage",
+      "cost destination"
+    ],
+    "pt": [
+      "regra de liquidação",
+      "receptor da liquidação",
+      "liquidação de ordens",
+      "percentual de distribuição",
+      "destino de custos"
+    ]
+  }
+}

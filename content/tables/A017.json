@@ -1,0 +1,36 @@
+{
+  "id": "A017",
+  "area": "purch",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Condiciones de compra por registro info y centro",
+    "en": "Purchasing conditions by info record and plant",
+    "pt": "Condições de compra por registro info e centro"
+  },
+  "purpose": {
+    "es": "Indica qué registros de condición de compra existen para un proveedor y material en una organización de compras y centro, y su validez. Los importes están en KONP.",
+    "en": "Shows which purchasing condition records exist for a vendor and material in a purchasing organization and plant, and their validity. The amounts are in KONP.",
+    "pt": "Indica quais registros de condição de compra existem para um fornecedor e material em uma organização de compras e centro, e sua validade. Os valores estão na KONP."
+  },
+  "synonyms": {
+    "es": [
+      "precio de compra por centro",
+      "condición de registro info",
+      "precio del proveedor",
+      "validez de precio"
+    ],
+    "en": [
+      "plant purchase price",
+      "info record condition",
+      "vendor price",
+      "price validity"
+    ],
+    "pt": [
+      "preço de compra por centro",
+      "condição do registro info",
+      "preço do fornecedor"
+    ]
+  }
+}

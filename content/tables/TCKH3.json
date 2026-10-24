@@ -1,0 +1,12 @@
+{
+  "id": "TCKH3",
+  "area": "co",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Componentes de coste",
+    "en": "Cost components",
+    "pt": "Componentes de custo"
+  }
+}

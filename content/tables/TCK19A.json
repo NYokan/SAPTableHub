@@ -1,0 +1,12 @@
+{
+  "id": "TCK19A",
+  "area": "co",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Variantes de cálculo de costes",
+    "en": "Costing variants",
+    "pt": "Variantes de cálculo de custos"
+  }
+}

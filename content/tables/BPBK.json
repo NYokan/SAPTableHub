@@ -1,0 +1,12 @@
+{
+  "id": "BPBK",
+  "area": "co",
+  "contents": "header",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Documentos de presupuesto (cabecera)",
+    "en": "Budget documents (header)",
+    "pt": "Documentos de orçamento (cabeçalho)"
+  }
+}

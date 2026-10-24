@@ -1,0 +1,12 @@
+{
+  "id": "CSSL",
+  "area": "co",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Tipos de actividad por centro de coste",
+    "en": "Activity types per cost center",
+    "pt": "Tipos de atividade por centro de custo"
+  }
+}

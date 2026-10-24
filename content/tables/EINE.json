@@ -1,0 +1,43 @@
+{
+  "id": "EINE",
+  "area": "purch",
+  "contents": "master",
+  "component": "MM-PUR",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Registros info: datos por organización de compras",
+    "en": "Purchasing info records: purchasing organization data",
+    "pt": "Registros info: dados por organização de compras"
+  },
+  "purpose": {
+    "es": "Las condiciones que un proveedor da para un material en cada organización de compras (y centro): precio neto, plazo de entrega, cantidad mínima y tolerancias. La parte general del registro info está en EINA.",
+    "en": "The terms a vendor offers for a material in each purchasing organization (and plant): net price, delivery time, minimum quantity and tolerances. The general part of the info record is in EINA.",
+    "pt": "As condições que um fornecedor oferece para um material em cada organização de compras (e centro): preço líquido, prazo de entrega, quantidade mínima e tolerâncias. A parte geral do registro info está na EINA."
+  },
+  "synonyms": {
+    "es": [
+      "registro info",
+      "precio de compra",
+      "precio del proveedor",
+      "plazo de entrega",
+      "condiciones de compra",
+      "tarifa de proveedor"
+    ],
+    "en": [
+      "info record",
+      "purchase price",
+      "vendor price",
+      "delivery time",
+      "lead time",
+      "purchasing conditions"
+    ],
+    "pt": [
+      "registro info",
+      "preço de compra",
+      "preço do fornecedor",
+      "prazo de entrega",
+      "condições de compra"
+    ]
+  }
+}

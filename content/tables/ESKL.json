@@ -1,0 +1,13 @@
+{
+  "id": "ESKL",
+  "area": "purch",
+  "contents": "doc",
+  "component": "MM-SRV",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Servicios: reparto de valores por imputación",
+    "en": "Services: value distribution by account assignment",
+    "pt": "Serviços: distribuição de valores por classificação"
+  }
+}

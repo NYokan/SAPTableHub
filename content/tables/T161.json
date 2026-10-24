@@ -1,0 +1,40 @@
+{
+  "id": "T161",
+  "area": "purch",
+  "contents": "config",
+  "component": "MM-PUR",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Clases de documentos de compras",
+    "en": "Purchasing document types",
+    "pt": "Tipos de documentos de compras"
+  },
+  "purpose": {
+    "es": "Las clases de documento de compras (pedido normal, traslado, contrato, solicitud…) y cómo se comporta cada una: numeración y tipos de posición permitidos.",
+    "en": "The purchasing document types (standard order, stock transfer, contract, requisition…) and how each behaves: numbering and allowed item categories.",
+    "pt": "Os tipos de documento de compras (pedido normal, transferência, contrato, requisição…) e como cada um se comporta: numeração e categorias de item permitidas."
+  },
+  "synonyms": {
+    "es": [
+      "clase de pedido",
+      "tipo de pedido",
+      "clase de documento",
+      "BSART",
+      "NB"
+    ],
+    "en": [
+      "order type",
+      "document type",
+      "PO type",
+      "BSART",
+      "NB"
+    ],
+    "pt": [
+      "tipo de pedido",
+      "tipo de documento",
+      "BSART",
+      "NB"
+    ]
+  }
+}

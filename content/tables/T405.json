@@ -1,0 +1,13 @@
+{
+  "id": "T405",
+  "area": "purch",
+  "contents": "config",
+  "component": "MM-PUR",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Claves de valores de compras",
+    "en": "Purchasing value keys",
+    "pt": "Chaves de valores de compras"
+  }
+}

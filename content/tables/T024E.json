@@ -1,0 +1,38 @@
+{
+  "id": "T024E",
+  "area": "purch",
+  "contents": "config",
+  "component": "MM-PUR",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Organizaciones de compras",
+    "en": "Purchasing organizations",
+    "pt": "Organizações de compras"
+  },
+  "purpose": {
+    "es": "La lista de organizaciones de compras: las unidades que negocian con los proveedores. Cada pedido pertenece a una de ellas.",
+    "en": "The list of purchasing organizations: the units that negotiate with vendors. Every purchase order belongs to one of them.",
+    "pt": "A lista de organizações de compras: as unidades que negociam com os fornecedores. Cada pedido pertence a uma delas."
+  },
+  "synonyms": {
+    "es": [
+      "organización de compras",
+      "org. compras",
+      "EKORG",
+      "estructura de compras"
+    ],
+    "en": [
+      "purchasing organization",
+      "purch. org",
+      "EKORG",
+      "procurement organization"
+    ],
+    "pt": [
+      "organização de compras",
+      "org. de compras",
+      "EKORG",
+      "estrutura de compras"
+    ]
+  }
+}

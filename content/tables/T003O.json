@@ -1,0 +1,12 @@
+{
+  "id": "T003O",
+  "area": "co",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Clases de orden",
+    "en": "Order types",
+    "pt": "Tipos de ordem"
+  }
+}

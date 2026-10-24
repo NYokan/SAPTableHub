@@ -1,0 +1,37 @@
+{
+  "id": "ESLH",
+  "area": "purch",
+  "contents": "header",
+  "component": "MM-SRV",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Paquetes de servicios (cabecera)",
+    "en": "Service packages (header)",
+    "pt": "Pacotes de serviços (cabeçalho)"
+  },
+  "purpose": {
+    "es": "La cabecera de cada paquete de servicios: el conjunto de líneas de servicio que cuelga de una posición de solicitud, pedido, contrato u hoja de entrada. Las líneas están en ESLL.",
+    "en": "The header of each service package: the set of service lines attached to a requisition, order, contract or entry sheet item. The lines are in ESLL.",
+    "pt": "O cabeçalho de cada pacote de serviços: o conjunto de linhas de serviço ligado a um item de requisição, pedido, contrato ou folha de registro. As linhas estão na ESLL."
+  },
+  "synonyms": {
+    "es": [
+      "paquete de servicios",
+      "servicios",
+      "especificaciones de servicio",
+      "número de paquete"
+    ],
+    "en": [
+      "service package",
+      "services",
+      "service specifications",
+      "package number"
+    ],
+    "pt": [
+      "pacote de serviços",
+      "serviços",
+      "especificações de serviço"
+    ]
+  }
+}

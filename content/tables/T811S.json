@@ -1,0 +1,11 @@
+{
+  "id": "T811S",
+  "area": "co",
+  "contents": "config",
+  "category": "TRANSP",
+  "title": {
+    "es": "Segmentos de ciclos de reparto",
+    "en": "Allocation cycle segments",
+    "pt": "Segmentos de ciclos de rateio"
+  }
+}

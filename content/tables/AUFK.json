@@ -1,0 +1,43 @@
+{
+  "id": "AUFK",
+  "area": "co",
+  "contents": "master",
+  "component": "CO-OM-OPA",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Órdenes (datos maestros)",
+    "en": "Orders (master data)",
+    "pt": "Ordens (dados mestres)"
+  },
+  "purpose": {
+    "es": "Una fila por cada orden: órdenes internas de CO, órdenes de fabricación, de mantenimiento y otras. Guarda la clase de orden, la descripción, la sociedad, el centro de coste o de beneficio responsable y el estado general. Sirve para saber a qué corresponde el número de orden que aparece en los costes.",
+    "en": "One row per order: CO internal orders, production orders, maintenance orders and others. It holds the order type, description, company code, responsible cost or profit center and general status. Use it to find out what an order number seen in cost postings refers to.",
+    "pt": "Uma linha por ordem: ordens internas de CO, ordens de produção, de manutenção e outras. Guarda o tipo de ordem, a descrição, a empresa, o centro de custo ou de lucro responsável e o status geral. Serve para saber a que corresponde o número de ordem que aparece nos custos."
+  },
+  "synonyms": {
+    "es": [
+      "orden interna",
+      "orden CO",
+      "número de orden",
+      "orden de inversión",
+      "proyecto de gasto",
+      "maestro de órdenes"
+    ],
+    "en": [
+      "internal order",
+      "CO order",
+      "order number",
+      "investment order",
+      "order master",
+      "cost collector"
+    ],
+    "pt": [
+      "ordem interna",
+      "ordem CO",
+      "número da ordem",
+      "ordem de investimento",
+      "mestre de ordens"
+    ]
+  }
+}

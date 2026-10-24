@@ -87,6 +87,8 @@ function scoreEntry(x: Entry, words: string[], full: string, lang: Lang) {
     else if (qt.length >= 3 && x.id.includes(qt)) cand(25);
     for (const p of x.titles) for (const w of p.tok) if (w.startsWith(qt)) cand(p.lang === lang ? 30 : 22);
     for (const p of x.syns) for (const w of p.tok) if (w.startsWith(qt)) cand(p.lang === lang ? 26 : 19, { syn: p.raw });
+    // a synonym that is exactly the word searched beats a title that merely contains it ("factura" → VBRK, not RBCO)
+    for (const p of x.syns) if (p.n === qt) cand(p.lang === lang ? 34 : 27, { syn: p.raw });
     for (const f of x.fields) {
       // a field name points to its "home" table first: the one where it is a key of master data
       if (f.lc === qt) cand(18 + (f.key ? 10 : 0) + (x.t.kind === 'master' ? 8 : 0), { field: f.name });
@@ -96,7 +98,9 @@ function scoreEntry(x: Entry, words: string[], full: string, lang: Lang) {
       const max = qt.length >= 8 ? 2 : 1;
       const near = (w: string) =>
         osa(qt, w, max) <= max || (w.length > qt.length && osa(qt, w.slice(0, qt.length), max) <= max);
-      if (x.titles.some((p) => p.tok.some(near))) cand(16);
+      // a one-word synonym one typo away is the closest reading ("provedor" → LFA1, whose synonym is "proveedor")
+      if (x.syns.some((p) => p.tok.length === 1 && osa(qt, p.n, max) <= max)) cand(18, null);
+      else if (x.titles.some((p) => p.tok.some(near))) cand(16);
       else if (x.words.some(near)) cand(12);
     }
     if (best.score > 0) {
@@ -112,6 +116,12 @@ function scoreEntry(x: Entry, words: string[], full: string, lang: Lang) {
   return { total, matched, via };
 }
 
+const KIND_ORDER = ['master', 'header', 'doc', 'items', 'text', 'config'];
+const kindRank = (k: string) => {
+  const i = KIND_ORDER.indexOf(k);
+  return i < 0 ? KIND_ORDER.length : i;
+};
+
 /**
  * Ranks tables for a query written in business language or as a table/field name.
  * Every word must match; when nothing matches every word, tables matching some of them are returned as partial.
@@ -124,8 +134,10 @@ export function search(entries: Entry[], query: string, lang: Lang, area = ''): 
   if (!words.length) words = raw;
   const full = norm(query).trim();
   const scored = pool.map((x) => ({ x, ...scoreEntry(x, words, full, lang) }));
-  // ties go to tables with editorial content, which are the commonly used ones
-  const tie = (a: (typeof scored)[number], b: (typeof scored)[number]) => b.x.t.p - a.x.t.p || a.x.order - b.x.order;
+  // ties go to tables with editorial content, which are the commonly used ones, then to master data and
+  // headers before items, texts and configuration, and only then to alphabetical order
+  const tie = (a: (typeof scored)[number], b: (typeof scored)[number]) =>
+    b.x.t.p - a.x.t.p || kindRank(a.x.t.kind) - kindRank(b.x.t.kind) || a.x.order - b.x.order;
   const toHit = (r: (typeof scored)[number]): Hit => ({ t: r.x.t, via: r.via });
   const all = scored.filter((r) => r.matched === words.length).sort((a, b) => b.total - a.total || tie(a, b));
   if (all.length) return { hits: all.map(toHit), partial: false };

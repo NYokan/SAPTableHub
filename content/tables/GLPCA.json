@@ -1,0 +1,40 @@
+{
+  "id": "GLPCA",
+  "area": "co",
+  "contents": "items",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Partidas reales de centros de beneficio",
+    "en": "Profit center actual line items",
+    "pt": "Partidas reais de centros de lucro"
+  },
+  "purpose": {
+    "es": "Partidas individuales reales de la contabilidad de centros de beneficio (ECC): cada importe imputado a un centro de beneficio con su cuenta, sociedad, periodo y documento de origen. En S/4HANA estos datos pasan al Universal Journal (ACDOCA).",
+    "en": "Actual line items of profit center accounting (ECC): each amount posted to a profit center with its account, company code, period and source document. In S/4HANA this data moves to the Universal Journal (ACDOCA).",
+    "pt": "Partidas individuais reais da contabilidade de centros de lucro (ECC): cada valor lançado em um centro de lucro com sua conta, empresa, período e documento de origem. No S/4HANA esses dados passam para o Universal Journal (ACDOCA)."
+  },
+  "synonyms": {
+    "es": [
+      "partidas de centro de beneficio",
+      "PCA",
+      "resultado por centro de beneficio",
+      "cuenta de resultados por unidad",
+      "EC-PCA"
+    ],
+    "en": [
+      "profit center line items",
+      "PCA",
+      "profit center result",
+      "P&L by unit",
+      "EC-PCA"
+    ],
+    "pt": [
+      "partidas de centro de lucro",
+      "PCA",
+      "resultado por centro de lucro",
+      "DRE por unidade",
+      "EC-PCA"
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "COFIS",
+  "area": "co",
+  "contents": "items",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Ledger de conciliación (partidas)",
+    "en": "Reconciliation ledger (line items)",
+    "pt": "Ledger de reconciliação (partidas)"
+  }
+}

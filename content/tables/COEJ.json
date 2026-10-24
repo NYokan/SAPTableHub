@@ -1,0 +1,12 @@
+{
+  "id": "COEJ",
+  "area": "co",
+  "contents": "items",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Partidas individuales CO de plan",
+    "en": "CO plan line items",
+    "pt": "Partidas individuais CO de plano"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "COSS",
+  "area": "co",
+  "contents": "doc",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Totales CO de costes secundarios",
+    "en": "CO totals for secondary costs",
+    "pt": "Totais CO de custos secundários"
+  },
+  "purpose": {
+    "es": "Totales de costes secundarios, los que nacen dentro de Controlling (repartos, distribuciones, imputación de actividades, liquidaciones), por objeto, clase de coste, año y versión, con un importe por periodo.",
+    "en": "Totals of secondary costs, those created inside Controlling (assessments, distributions, activity allocations, settlements), per object, cost element, year and version, with one amount per period.",
+    "pt": "Totais de custos secundários, os que surgem dentro do Controlling (rateios, distribuições, alocação de atividades, liquidações), por objeto, classe de custo, ano e versão, com um valor por período."
+  },
+  "synonyms": {
+    "es": [
+      "costes secundarios",
+      "repartos",
+      "imputación interna",
+      "totales CO",
+      "distribución de costes"
+    ],
+    "en": [
+      "secondary costs",
+      "assessments",
+      "internal allocation",
+      "CO totals",
+      "cost distribution"
+    ],
+    "pt": [
+      "custos secundários",
+      "rateios",
+      "alocação interna",
+      "totais CO",
+      "distribuição de custos"
+    ]
+  }
+}

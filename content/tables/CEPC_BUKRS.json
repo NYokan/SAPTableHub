@@ -1,0 +1,12 @@
+{
+  "id": "CEPC_BUKRS",
+  "area": "co",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Centros de beneficio por sociedad",
+    "en": "Profit centers per company code",
+    "pt": "Centros de lucro por empresa"
+  }
+}

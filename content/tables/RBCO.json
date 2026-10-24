@@ -1,0 +1,41 @@
+{
+  "id": "RBCO",
+  "area": "purch",
+  "contents": "doc",
+  "component": "MM-IV-LIV",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Facturas de proveedor: imputación",
+    "en": "Vendor invoices: account assignment",
+    "pt": "Faturas de fornecedor: classificação contábil"
+  },
+  "purpose": {
+    "es": "Reparto contable de las facturas de proveedor: a qué cuenta de mayor, centro de coste, orden o elemento PEP va cada importe facturado.",
+    "en": "Account assignment of vendor invoices: which G/L account, cost center, order or WBS element each invoiced amount goes to.",
+    "pt": "Classificação contábil das faturas de fornecedor: para qual conta do razão, centro de custo, ordem ou elemento PEP vai cada valor faturado."
+  },
+  "synonyms": {
+    "es": [
+      "imputación de factura",
+      "centro de coste",
+      "cuenta de mayor",
+      "reparto de factura",
+      "factura de proveedor"
+    ],
+    "en": [
+      "invoice account assignment",
+      "cost center",
+      "G/L account",
+      "invoice split",
+      "vendor invoice"
+    ],
+    "pt": [
+      "classificação da fatura",
+      "centro de custo",
+      "conta do razão",
+      "rateio da fatura",
+      "fatura de fornecedor"
+    ]
+  }
+}

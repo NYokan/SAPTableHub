@@ -1,0 +1,40 @@
+{
+  "id": "GLPCT",
+  "area": "co",
+  "contents": "doc",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Totales de centros de beneficio",
+    "en": "Profit center totals",
+    "pt": "Totais de centros de lucro"
+  },
+  "purpose": {
+    "es": "Totales de la contabilidad de centros de beneficio por centro, cuenta, año y periodo, en real y plan. Permite sacar saldos y cuentas de resultados por centro de beneficio sin sumar las partidas una a una.",
+    "en": "Profit center accounting totals per center, account, year and period, actual and plan. It lets you get balances and P&L by profit center without adding up line items one by one.",
+    "pt": "Totais da contabilidade de centros de lucro por centro, conta, ano e período, real e plano. Permite obter saldos e DRE por centro de lucro sem somar as partidas uma a uma."
+  },
+  "synonyms": {
+    "es": [
+      "totales de centro de beneficio",
+      "saldos PCA",
+      "resultado por centro de beneficio",
+      "EC-PCA",
+      "balance por unidad"
+    ],
+    "en": [
+      "profit center totals",
+      "PCA balances",
+      "profit center result",
+      "EC-PCA",
+      "balance by unit"
+    ],
+    "pt": [
+      "totais de centro de lucro",
+      "saldos PCA",
+      "resultado por centro de lucro",
+      "EC-PCA",
+      "saldo por unidade"
+    ]
+  }
+}

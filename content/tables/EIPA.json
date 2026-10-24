@@ -1,0 +1,38 @@
+{
+  "id": "EIPA",
+  "area": "purch",
+  "contents": "doc",
+  "component": "MM-PUR",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Registros info: historial de precios de pedidos",
+    "en": "Purchasing info records: order price history",
+    "pt": "Registros info: histórico de preços de pedidos"
+  },
+  "purpose": {
+    "es": "El historial de precios de pedido de cada registro info: en cada pedido se guarda el precio, la cantidad y la fecha, para ver cómo ha cambiado lo que se paga a un proveedor.",
+    "en": "The order price history of each info record: every order stores its price, quantity and date, to see how what is paid to a vendor has changed.",
+    "pt": "O histórico de preços de pedido de cada registro info: cada pedido guarda o preço, a quantidade e a data, para ver como mudou o que se paga a um fornecedor."
+  },
+  "synonyms": {
+    "es": [
+      "historial de precios",
+      "último precio de compra",
+      "evolución de precios",
+      "precio de pedido"
+    ],
+    "en": [
+      "price history",
+      "last purchase price",
+      "price trend",
+      "order price"
+    ],
+    "pt": [
+      "histórico de preços",
+      "último preço de compra",
+      "evolução de preços",
+      "preço do pedido"
+    ]
+  }
+}

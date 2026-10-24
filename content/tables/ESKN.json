@@ -1,0 +1,13 @@
+{
+  "id": "ESKN",
+  "area": "purch",
+  "contents": "doc",
+  "component": "MM-SRV",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Servicios: imputación",
+    "en": "Services: account assignment",
+    "pt": "Serviços: classificação contábil"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "AUAA",
+  "area": "co",
+  "contents": "items",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Documentos de liquidación (receptores)",
+    "en": "Settlement documents (receivers)",
+    "pt": "Documentos de liquidação (receptores)"
+  }
+}

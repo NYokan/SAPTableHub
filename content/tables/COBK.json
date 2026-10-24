@@ -1,0 +1,41 @@
+{
+  "id": "COBK",
+  "area": "co",
+  "contents": "header",
+  "component": "CO-OM",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Documentos CO (cabecera)",
+    "en": "CO documents (header)",
+    "pt": "Documentos CO (cabeçalho)"
+  },
+  "purpose": {
+    "es": "Una fila por cada documento de Controlling: quién lo registró, cuándo, en qué periodo y con qué operación (imputación, reparto, liquidación…). Las líneas con los importes de cada centro u orden están en COEP.",
+    "en": "One row per Controlling document: who posted it, when, in which period and with which business transaction (posting, allocation, settlement…). The lines with the amounts for each center or order are in COEP.",
+    "pt": "Uma linha por documento de Controlling: quem o registrou, quando, em que período e com qual operação (lançamento, rateio, liquidação…). As linhas com os valores de cada centro ou ordem estão na COEP."
+  },
+  "synonyms": {
+    "es": [
+      "documento CO",
+      "documento de costes",
+      "número de documento CO",
+      "reparto",
+      "imputación de costes"
+    ],
+    "en": [
+      "CO document",
+      "cost document",
+      "CO document number",
+      "allocation",
+      "cost posting"
+    ],
+    "pt": [
+      "documento CO",
+      "documento de custos",
+      "número do documento CO",
+      "rateio",
+      "lançamento de custos"
+    ]
+  }
+}

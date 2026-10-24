@@ -1,0 +1,12 @@
+{
+  "id": "KONH",
+  "area": "purch",
+  "contents": "header",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Registros de condición (cabecera)",
+    "en": "Condition records (header)",
+    "pt": "Registros de condição (cabeçalho)"
+  }
+}

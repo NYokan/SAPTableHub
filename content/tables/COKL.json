@@ -1,0 +1,12 @@
+{
+  "id": "COKL",
+  "area": "co",
+  "contents": "doc",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Datos de control de planificación de actividades",
+    "en": "Activity planning control data",
+    "pt": "Dados de controle do planejamento de atividades"
+  }
+}

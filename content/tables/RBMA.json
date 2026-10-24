@@ -1,0 +1,38 @@
+{
+  "id": "RBMA",
+  "area": "purch",
+  "contents": "doc",
+  "component": "MM-IV-LIV",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Facturas de proveedor: posiciones de material",
+    "en": "Vendor invoices: material items",
+    "pt": "Faturas de fornecedor: itens de material"
+  },
+  "purpose": {
+    "es": "Líneas de una factura de proveedor que se contabilizan directamente contra un material, sin pedido de compra detrás: material, centro, cantidad e importe.",
+    "en": "Lines of a vendor invoice posted directly to a material, without a purchase order behind them: material, plant, quantity and amount.",
+    "pt": "Itens de uma fatura de fornecedor lançados diretamente em um material, sem pedido de compra: material, centro, quantidade e valor."
+  },
+  "synonyms": {
+    "es": [
+      "factura sin pedido",
+      "posición de material",
+      "factura de proveedor",
+      "contabilización directa"
+    ],
+    "en": [
+      "invoice without PO",
+      "material item",
+      "vendor invoice",
+      "direct posting"
+    ],
+    "pt": [
+      "fatura sem pedido",
+      "item de material",
+      "fatura de fornecedor",
+      "lançamento direto"
+    ]
+  }
+}

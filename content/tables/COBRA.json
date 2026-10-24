@@ -1,0 +1,12 @@
+{
+  "id": "COBRA",
+  "area": "co",
+  "contents": "master",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Reglas de liquidación (cabecera)",
+    "en": "Settlement rules (header)",
+    "pt": "Regras de liquidação (cabeçalho)"
+  }
+}

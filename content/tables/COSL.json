@@ -1,0 +1,40 @@
+{
+  "id": "COSL",
+  "area": "co",
+  "contents": "doc",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Totales CO de actividades y capacidades",
+    "en": "CO totals for activities and capacity",
+    "pt": "Totais CO de atividades e capacidades"
+  },
+  "purpose": {
+    "es": "Totales de actividades por centro de coste y tipo de actividad: cantidades planificadas y reales, y capacidad disponible, con un valor por periodo. Sirve para ver cuántas horas o unidades se produjeron frente a lo previsto.",
+    "en": "Activity totals per cost center and activity type: planned and actual quantities and available capacity, with one value per period. Use it to see how many hours or units were produced compared with plan.",
+    "pt": "Totais de atividades por centro de custo e tipo de atividade: quantidades planejadas e reais e capacidade disponível, com um valor por período. Serve para ver quantas horas ou unidades foram produzidas frente ao previsto."
+  },
+  "synonyms": {
+    "es": [
+      "cantidad de actividad",
+      "horas reales",
+      "capacidad",
+      "actividad planificada",
+      "utilización"
+    ],
+    "en": [
+      "activity quantity",
+      "actual hours",
+      "capacity",
+      "planned activity",
+      "utilization"
+    ],
+    "pt": [
+      "quantidade de atividade",
+      "horas reais",
+      "capacidade",
+      "atividade planejada",
+      "utilização"
+    ]
+  }
+}

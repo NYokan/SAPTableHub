@@ -1,0 +1,40 @@
+{
+  "id": "KEPH",
+  "area": "co",
+  "contents": "items",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Cálculos de coste (componentes de coste)",
+    "en": "Cost estimates (cost components)",
+    "pt": "Cálculos de custo (componentes de custo)"
+  },
+  "purpose": {
+    "es": "Desglose del cálculo de coste de un material en componentes de coste: material, mano de obra, máquina, gastos generales, etc. Sirve para ver de qué está hecho el coste estándar.",
+    "en": "Breakdown of a material cost estimate into cost components: material, labor, machine, overhead and so on. Use it to see what the standard cost is made of.",
+    "pt": "Detalhamento do cálculo de custo de um material em componentes de custo: material, mão de obra, máquina, custos indiretos etc. Serve para ver do que é feito o custo padrão."
+  },
+  "synonyms": {
+    "es": [
+      "componentes de coste",
+      "desglose del coste",
+      "estructura de costes",
+      "coste estándar",
+      "gastos generales"
+    ],
+    "en": [
+      "cost components",
+      "cost breakdown",
+      "cost structure",
+      "standard cost",
+      "overhead"
+    ],
+    "pt": [
+      "componentes de custo",
+      "detalhamento do custo",
+      "estrutura de custos",
+      "custo padrão",
+      "custos indiretos"
+    ]
+  }
+}

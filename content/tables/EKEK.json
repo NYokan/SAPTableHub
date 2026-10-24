@@ -1,0 +1,13 @@
+{
+  "id": "EKEK",
+  "area": "purch",
+  "contents": "header",
+  "component": "MM-PUR",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Planes de entrega: cabecera de llamadas",
+    "en": "Scheduling agreements: release header",
+    "pt": "Programas de remessa: cabeçalho de liberações"
+  }
+}

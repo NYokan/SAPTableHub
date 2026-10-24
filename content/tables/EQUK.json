@@ -1,0 +1,37 @@
+{
+  "id": "EQUK",
+  "area": "purch",
+  "contents": "header",
+  "component": "MM-PUR",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Regulaciones de cuotas (cabecera)",
+    "en": "Quota arrangements (header)",
+    "pt": "Regulamentos de quotas (cabeçalho)"
+  },
+  "purpose": {
+    "es": "Una fila por cada regulación de cuotas de un material en un centro y su período de validez. Las cuotas de cada proveedor están en EQUP.",
+    "en": "One row per quota arrangement for a material in a plant and its validity period. The quota for each vendor is in EQUP.",
+    "pt": "Uma linha por regulamento de quotas de um material em um centro e seu período de validade. As quotas de cada fornecedor estão na EQUP."
+  },
+  "synonyms": {
+    "es": [
+      "regulación de cuotas",
+      "cuota de proveedor",
+      "reparto entre proveedores",
+      "abastecimiento múltiple"
+    ],
+    "en": [
+      "quota arrangement",
+      "vendor quota",
+      "supplier split",
+      "multiple sourcing"
+    ],
+    "pt": [
+      "regulamento de quotas",
+      "quota de fornecedor",
+      "divisão entre fornecedores"
+    ]
+  }
+}

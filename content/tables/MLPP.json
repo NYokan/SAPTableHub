@@ -1,0 +1,12 @@
+{
+  "id": "MLPP",
+  "area": "co",
+  "contents": "items",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Documentos del ledger de materiales (cantidades)",
+    "en": "Material ledger documents (quantities)",
+    "pt": "Documentos do ledger de materiais (quantidades)"
+  }
+}

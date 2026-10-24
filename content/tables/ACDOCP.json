@@ -1,0 +1,13 @@
+{
+  "id": "ACDOCP",
+  "area": "co",
+  "contents": "items",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "s4only": true,
+  "title": {
+    "es": "Datos de plan (S/4HANA)",
+    "en": "Plan data line items (S/4HANA)",
+    "pt": "Dados de plano (S/4HANA)"
+  }
+}

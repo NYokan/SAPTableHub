@@ -1,0 +1,12 @@
+{
+  "id": "BPEJ",
+  "area": "co",
+  "contents": "items",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Documentos de presupuesto (partidas anuales)",
+    "en": "Budget documents (annual line items)",
+    "pt": "Documentos de orçamento (partidas anuais)"
+  }
+}

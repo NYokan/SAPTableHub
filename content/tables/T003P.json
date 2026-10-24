@@ -1,0 +1,12 @@
+{
+  "id": "T003P",
+  "area": "co",
+  "contents": "text",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Clases de orden (textos)",
+    "en": "Order types (texts)",
+    "pt": "Tipos de ordem (textos)"
+  }
+}

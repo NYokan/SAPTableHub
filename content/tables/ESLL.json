@@ -1,0 +1,40 @@
+{
+  "id": "ESLL",
+  "area": "purch",
+  "contents": "items",
+  "component": "MM-SRV",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Líneas de servicios",
+    "en": "Service lines",
+    "pt": "Linhas de serviços"
+  },
+  "purpose": {
+    "es": "Las líneas de servicio de pedidos, contratos y hojas de entrada: qué servicio, cantidad, unidad y precio. Se enlazan con su documento a través del número de paquete (ESLH).",
+    "en": "The service lines of orders, contracts and entry sheets: which service, quantity, unit and price. They link to their document through the package number (ESLH).",
+    "pt": "As linhas de serviço de pedidos, contratos e folhas de registro: qual serviço, quantidade, unidade e preço. Ligam-se ao documento pelo número do pacote (ESLH)."
+  },
+  "synonyms": {
+    "es": [
+      "línea de servicio",
+      "servicio contratado",
+      "partida de servicio",
+      "pedido de servicios",
+      "servicio prestado"
+    ],
+    "en": [
+      "service line",
+      "contracted service",
+      "service item",
+      "service order",
+      "performed service"
+    ],
+    "pt": [
+      "linha de serviço",
+      "serviço contratado",
+      "item de serviço",
+      "pedido de serviços"
+    ]
+  }
+}

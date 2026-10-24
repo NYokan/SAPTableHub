@@ -1,0 +1,13 @@
+{
+  "id": "ESUH",
+  "area": "purch",
+  "contents": "doc",
+  "component": "MM-SRV",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Servicios: límites para servicios no planificados",
+    "en": "Services: limits for unplanned services",
+    "pt": "Serviços: limites para serviços não planejados"
+  }
+}

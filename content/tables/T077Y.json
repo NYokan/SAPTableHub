@@ -1,0 +1,13 @@
+{
+  "id": "T077Y",
+  "area": "purch",
+  "contents": "text",
+  "component": "LO-MD-BP-VM",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Grupos de cuentas de proveedores: textos",
+    "en": "Vendor account groups: texts",
+    "pt": "Grupos de contas de fornecedores: textos"
+  }
+}

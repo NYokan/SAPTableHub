@@ -1,0 +1,12 @@
+{
+  "id": "COEPL",
+  "area": "co",
+  "contents": "items",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Partidas reales de actividades",
+    "en": "Actual line items for activities",
+    "pt": "Partidas reais de atividades"
+  }
+}

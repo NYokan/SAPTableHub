@@ -1,0 +1,42 @@
+{
+  "id": "KONP",
+  "area": "purch",
+  "contents": "items",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Registros de condición (posiciones)",
+    "en": "Condition records (items)",
+    "pt": "Registros de condição (itens)"
+  },
+  "purpose": {
+    "es": "Los importes, precios y porcentajes de cada registro de condición: por ejemplo, el precio pactado con un proveedor o un descuento. Lo usan compras y ventas; la tabla Axxx de cada combinación dice a qué registro se aplica.",
+    "en": "The amounts, prices and percentages of each condition record: for example, the price agreed with a vendor or a discount. Used by purchasing and sales; the Axxx table for each key combination says which record applies.",
+    "pt": "Os valores, preços e percentuais de cada registro de condição: por exemplo, o preço acordado com um fornecedor ou um desconto. Usada por compras e vendas; a tabela Axxx de cada combinação diz qual registro se aplica."
+  },
+  "synonyms": {
+    "es": [
+      "registro de condición",
+      "precio",
+      "descuento",
+      "tarifa",
+      "condición de precio",
+      "PB00"
+    ],
+    "en": [
+      "condition record",
+      "price",
+      "discount",
+      "rate",
+      "pricing condition",
+      "PB00"
+    ],
+    "pt": [
+      "registro de condição",
+      "preço",
+      "desconto",
+      "tarifa",
+      "condição de preço"
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "ELBP",
+  "area": "purch",
+  "contents": "doc",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Evaluación de proveedores: notas por subcriterio",
+    "en": "Vendor evaluation: subcriteria scores",
+    "pt": "Avaliação de fornecedores: notas por subcritério"
+  }
+}

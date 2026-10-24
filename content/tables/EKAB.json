@@ -1,0 +1,40 @@
+{
+  "id": "EKAB",
+  "area": "purch",
+  "contents": "doc",
+  "component": "MM-PUR",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Contratos: documentación de pedidos de liberación",
+    "en": "Contracts: release order documentation",
+    "pt": "Contratos: documentação de pedidos de liberação"
+  },
+  "purpose": {
+    "es": "Qué pedidos de llamada se han hecho contra cada contrato marco: pedido, fecha, cantidad y valor. Permite ver cuánto se ha consumido de un contrato.",
+    "en": "Which release orders have been placed against each outline contract: order, date, quantity and value. It shows how much of a contract has been used.",
+    "pt": "Quais pedidos de liberação foram feitos contra cada contrato básico: pedido, data, quantidade e valor. Mostra quanto de um contrato já foi consumido."
+  },
+  "synonyms": {
+    "es": [
+      "pedido contra contrato",
+      "consumo de contrato",
+      "contrato marco",
+      "llamada de contrato",
+      "pedido de llamada"
+    ],
+    "en": [
+      "release order",
+      "contract consumption",
+      "outline agreement",
+      "contract call-off",
+      "contract release"
+    ],
+    "pt": [
+      "pedido de liberação",
+      "consumo de contrato",
+      "contrato básico",
+      "chamada de contrato"
+    ]
+  }
+}

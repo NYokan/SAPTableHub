@@ -1,0 +1,38 @@
+{
+  "id": "EQUP",
+  "area": "purch",
+  "contents": "items",
+  "component": "MM-PUR",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Regulaciones de cuotas (posiciones)",
+    "en": "Quota arrangements (items)",
+    "pt": "Regulamentos de quotas (itens)"
+  },
+  "purpose": {
+    "es": "El reparto de una regulación de cuotas: qué porcentaje de las necesidades de un material se asigna a cada proveedor o fuente, y cuánto lleva ya asignado.",
+    "en": "The split of a quota arrangement: what share of a material’s requirements goes to each vendor or source, and how much has already been allocated.",
+    "pt": "A divisão de um regulamento de quotas: que parte das necessidades de um material vai para cada fornecedor ou fonte, e quanto já foi atribuído."
+  },
+  "synonyms": {
+    "es": [
+      "cuota",
+      "porcentaje por proveedor",
+      "regulación de cuotas",
+      "reparto de compras"
+    ],
+    "en": [
+      "quota",
+      "vendor share",
+      "quota arrangement",
+      "sourcing split"
+    ],
+    "pt": [
+      "quota",
+      "percentual por fornecedor",
+      "regulamento de quotas",
+      "divisão de compras"
+    ]
+  }
+}

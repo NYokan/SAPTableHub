@@ -28,8 +28,14 @@ describe('table list', () => {
   it('filters by category, area and text', () => {
     assert.deepEqual(runCatalog(entries, q({ cat: 'CLUSTER' }), 'es').all.map((t) => t.id), ['BSEG', 'BSET', 'CDPOS', 'KONV']);
     assert.ok(runCatalog(entries, q({ area: 'purch' }), 'es').all.every((t) => t.area === 'purch'));
-    assert.deepEqual(runCatalog(entries, q({ q: 'factura' }), 'es').all.map((t) => t.id), ['VBRK', 'VBRP']);
-    assert.deepEqual(runCatalog(entries, q({ q: 'historial' }), 'es').all.map((t) => t.id), ['CDHDR', 'CDPOS', 'EKBE']);
+    // the text filter keeps exactly the tables whose name, title, area, contents or synonyms contain the words
+    const hay = new Map(entries.map((x) => [x.t.id, x.hay.es]));
+    for (const [word, expected] of [['factura', ['VBRK', 'VBRP']], ['historial', ['CDHDR', 'CDPOS', 'EKBE']]] as const) {
+      const found = runCatalog(entries, q({ q: word }), 'es').all.map((t) => t.id);
+      for (const id of expected) assert.ok(found.includes(id), `${word} → ${id}`);
+      assert.ok(found.every((id) => hay.get(id)!.includes(word)), `${word}: only tables that contain it`);
+      assert.equal(found.length, entries.filter((x) => x.hay.es.includes(word)).length, `${word}: every table that contains it`);
+    }
   });
   it('sorts by description in the chosen language', () => {
     const titles = runCatalog(entries, q({ sort: 'desc' }), 'pt').all.map((t) => t.title.pt);

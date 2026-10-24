@@ -1,0 +1,13 @@
+{
+  "id": "T161T",
+  "area": "purch",
+  "contents": "text",
+  "component": "MM-PUR",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Clases de documentos de compras: textos",
+    "en": "Purchasing document types: texts",
+    "pt": "Tipos de documentos de compras: textos"
+  }
+}

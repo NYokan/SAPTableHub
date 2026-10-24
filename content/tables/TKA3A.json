@@ -1,0 +1,12 @@
+{
+  "id": "TKA3A",
+  "area": "co",
+  "contents": "config",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Imputación automática por clase de coste",
+    "en": "Default account assignment per cost element",
+    "pt": "Atribuição automática por classe de custo"
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "ASMD",
+  "area": "purch",
+  "contents": "master",
+  "component": "MM-SRV",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Maestro de servicios",
+    "en": "Service master",
+    "pt": "Mestre de serviços"
+  },
+  "purpose": {
+    "es": "El catálogo de servicios estándar que se compran: número de servicio, descripción, unidad de medida y grupo de artículos. Es el equivalente al maestro de materiales para servicios.",
+    "en": "The catalog of standard services that are purchased: service number, description, unit of measure and material group. It is the services counterpart of the material master.",
+    "pt": "O catálogo de serviços padrão que são comprados: número do serviço, descrição, unidade de medida e grupo de mercadorias. É o equivalente ao mestre de materiais para serviços."
+  },
+  "synonyms": {
+    "es": [
+      "maestro de servicios",
+      "número de servicio",
+      "catálogo de servicios",
+      "servicio estándar"
+    ],
+    "en": [
+      "service master",
+      "service number",
+      "service catalog",
+      "standard service"
+    ],
+    "pt": [
+      "mestre de serviços",
+      "número do serviço",
+      "catálogo de serviços",
+      "serviço padrão"
+    ]
+  }
+}

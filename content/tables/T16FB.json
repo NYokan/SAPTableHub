@@ -1,0 +1,13 @@
+{
+  "id": "T16FB",
+  "area": "purch",
+  "contents": "config",
+  "component": "MM-PUR",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Indicadores de liberación",
+    "en": "Release indicators",
+    "pt": "Indicadores de liberação"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "EKAN",
+  "area": "purch",
+  "contents": "doc",
+  "component": "MM-PUR",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Documentos de compras: dirección del proveedor",
+    "en": "Purchasing documents: vendor address",
+    "pt": "Documentos de compras: endereço do fornecedor"
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "EKES",
+  "area": "purch",
+  "contents": "doc",
+  "component": "MM-PUR",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Confirmaciones del proveedor",
+    "en": "Vendor confirmations",
+    "pt": "Confirmações do fornecedor"
+  },
+  "purpose": {
+    "es": "Lo que el proveedor confirma sobre cada posición del pedido: confirmaciones de pedido, avisos de entrega y fechas y cantidades que promete entregar.",
+    "en": "What the vendor confirms for each order item: order acknowledgments, shipping notifications and the dates and quantities it promises to deliver.",
+    "pt": "O que o fornecedor confirma para cada item do pedido: confirmações de pedido, avisos de remessa e as datas e quantidades que promete entregar."
+  },
+  "synonyms": {
+    "es": [
+      "confirmación de pedido",
+      "aviso de entrega",
+      "fecha confirmada",
+      "acuse de recibo",
+      "ASN"
+    ],
+    "en": [
+      "order acknowledgment",
+      "order confirmation",
+      "shipping notification",
+      "confirmed date",
+      "ASN"
+    ],
+    "pt": [
+      "confirmação de pedido",
+      "aviso de remessa",
+      "data confirmada",
+      "ASN"
+    ]
+  }
+}

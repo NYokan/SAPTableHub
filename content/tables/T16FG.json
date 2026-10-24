@@ -1,0 +1,13 @@
+{
+  "id": "T16FG",
+  "area": "purch",
+  "contents": "config",
+  "component": "MM-PUR",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Grupos de liberación",
+    "en": "Release groups",
+    "pt": "Grupos de liberação"
+  }
+}

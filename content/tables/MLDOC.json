@@ -1,0 +1,13 @@
+{
+  "id": "MLDOC",
+  "area": "co",
+  "contents": "items",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "s4only": true,
+  "title": {
+    "es": "Documentos del ledger de materiales (S/4HANA)",
+    "en": "Material ledger documents (S/4HANA)",
+    "pt": "Documentos do ledger de materiais (S/4HANA)"
+  }
+}

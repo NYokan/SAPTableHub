@@ -1,0 +1,13 @@
+{
+  "id": "T163Y",
+  "area": "purch",
+  "contents": "text",
+  "component": "MM-PUR",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Tipos de posición en compras: textos",
+    "en": "Purchasing item categories: texts",
+    "pt": "Categorias de item em compras: textos"
+  }
+}

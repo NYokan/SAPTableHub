@@ -1,0 +1,13 @@
+{
+  "id": "T16FD",
+  "area": "purch",
+  "contents": "text",
+  "component": "MM-PUR",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Códigos de liberación: textos",
+    "en": "Release codes: texts",
+    "pt": "Códigos de liberação: textos"
+  }
+}

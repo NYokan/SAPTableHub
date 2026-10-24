@@ -1,0 +1,41 @@
+{
+  "id": "CSKA",
+  "area": "co",
+  "contents": "master",
+  "component": "CO-OM",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Clases de coste (plan de cuentas)",
+    "en": "Cost elements (chart of accounts)",
+    "pt": "Classes de custo (plano de contas)"
+  },
+  "purpose": {
+    "es": "Lista de clases de coste por plan de cuentas. Una clase de coste indica de qué tipo es un coste (sueldos, energía, materiales…); las primarias coinciden con cuentas de mayor. Los textos están en CSKU y los datos por sociedad CO en CSKB.",
+    "en": "List of cost elements per chart of accounts. A cost element says what kind of cost something is (salaries, energy, materials…); primary ones match general ledger accounts. Texts are in CSKU and the controlling-area data in CSKB.",
+    "pt": "Lista de classes de custo por plano de contas. Uma classe de custo indica o tipo de custo (salários, energia, materiais…); as primárias coincidem com contas do razão. Os textos estão na CSKU e os dados por área de custos na CSKB."
+  },
+  "synonyms": {
+    "es": [
+      "clase de coste",
+      "elemento de coste",
+      "naturaleza de gasto",
+      "tipo de coste",
+      "cuenta de coste"
+    ],
+    "en": [
+      "cost element",
+      "cost type",
+      "expense type",
+      "cost account",
+      "nature of expense"
+    ],
+    "pt": [
+      "classe de custo",
+      "elemento de custo",
+      "natureza de despesa",
+      "tipo de custo",
+      "conta de custo"
+    ]
+  }
+}

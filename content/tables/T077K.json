@@ -1,0 +1,13 @@
+{
+  "id": "T077K",
+  "area": "purch",
+  "contents": "config",
+  "component": "LO-MD-BP-VM",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Grupos de cuentas de proveedores",
+    "en": "Vendor account groups",
+    "pt": "Grupos de contas de fornecedores"
+  }
+}

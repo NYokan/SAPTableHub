@@ -1,0 +1,40 @@
+{
+  "id": "CKMLCR",
+  "area": "co",
+  "contents": "doc",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Ledger de materiales (valores por periodo y moneda)",
+    "en": "Material ledger (values per period and currency)",
+    "pt": "Ledger de materiais (valores por período e moeda)"
+  },
+  "purpose": {
+    "es": "Valores del ledger de materiales por material, periodo y moneda: stock valorado, precio estándar, precio periódico y diferencias de precio. Sirve para ver el coste real de los materiales cuando se usa el ledger de materiales.",
+    "en": "Material ledger values per material, period and currency: valuated stock, standard price, periodic price and price differences. Use it to see the actual cost of materials when the material ledger is active.",
+    "pt": "Valores do ledger de materiais por material, período e moeda: estoque valorizado, preço padrão, preço periódico e diferenças de preço. Serve para ver o custo real dos materiais quando o ledger de materiais é usado."
+  },
+  "synonyms": {
+    "es": [
+      "ledger de materiales",
+      "coste real",
+      "precio periódico",
+      "diferencias de precio",
+      "valor de stock"
+    ],
+    "en": [
+      "material ledger",
+      "actual costing",
+      "periodic unit price",
+      "price differences",
+      "stock value"
+    ],
+    "pt": [
+      "ledger de materiais",
+      "custo real",
+      "preço periódico",
+      "diferenças de preço",
+      "valor do estoque"
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "CKMLPP",
+  "area": "co",
+  "contents": "doc",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Ledger de materiales (cantidades por periodo)",
+    "en": "Material ledger (quantities per period)",
+    "pt": "Ledger de materiais (quantidades por período)"
+  }
+}

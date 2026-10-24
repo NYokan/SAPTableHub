@@ -1,0 +1,40 @@
+{
+  "id": "LFBK",
+  "area": "purch",
+  "contents": "master",
+  "component": "LO-MD-BP-VM",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Proveedores: datos bancarios",
+    "en": "Vendors: bank details",
+    "pt": "Fornecedores: dados bancários"
+  },
+  "purpose": {
+    "es": "Las cuentas bancarias de cada proveedor: país, banco, número de cuenta e IBAN. Se usan para pagarle.",
+    "en": "The bank accounts of each vendor: country, bank, account number and IBAN. They are used to pay the vendor.",
+    "pt": "As contas bancárias de cada fornecedor: país, banco, número da conta e IBAN. São usadas para pagá-lo."
+  },
+  "synonyms": {
+    "es": [
+      "cuenta bancaria del proveedor",
+      "IBAN",
+      "datos bancarios",
+      "banco del proveedor",
+      "cuenta de pago"
+    ],
+    "en": [
+      "vendor bank account",
+      "IBAN",
+      "bank details",
+      "supplier bank",
+      "payment account"
+    ],
+    "pt": [
+      "conta bancária do fornecedor",
+      "IBAN",
+      "dados bancários",
+      "banco do fornecedor"
+    ]
+  }
+}

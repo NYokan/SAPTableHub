@@ -1,0 +1,13 @@
+{
+  "id": "T027A",
+  "area": "purch",
+  "contents": "config",
+  "component": "MM-PUR",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Instrucciones de envío",
+    "en": "Shipping instructions",
+    "pt": "Instruções de envio"
+  }
+}

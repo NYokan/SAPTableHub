@@ -1,0 +1,40 @@
+{
+  "id": "EORD",
+  "area": "purch",
+  "contents": "master",
+  "component": "MM-PUR",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Listas de fuentes de aprovisionamiento",
+    "en": "Source lists",
+    "pt": "Listas de fontes de suprimento"
+  },
+  "purpose": {
+    "es": "Qué proveedores (o contratos) están permitidos para comprar un material en un centro y durante qué período, y cuál es el fijo o el bloqueado.",
+    "en": "Which vendors (or contracts) are allowed for buying a material in a plant and for which period, and which one is fixed or blocked.",
+    "pt": "Quais fornecedores (ou contratos) são permitidos para comprar um material em um centro e em qual período, e qual é o fixo ou o bloqueado."
+  },
+  "synonyms": {
+    "es": [
+      "lista de fuentes",
+      "proveedor fijo",
+      "fuente de aprovisionamiento",
+      "proveedor homologado",
+      "proveedor autorizado"
+    ],
+    "en": [
+      "source list",
+      "fixed vendor",
+      "source of supply",
+      "approved vendor",
+      "approved supplier"
+    ],
+    "pt": [
+      "lista de fontes",
+      "fornecedor fixo",
+      "fonte de suprimento",
+      "fornecedor homologado"
+    ]
+  }
+}
