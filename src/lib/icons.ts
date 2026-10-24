@@ -13,6 +13,10 @@ const PATHS = {
   x: '<path d="M6 6l12 12M18 6 6 18"/>',
   table: '<rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 10h18M9 4v16"/>',
   sel: '<path d="m9 11 3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/>',
+  filter: '<path d="M4 6h16M7 12h10M10 18h4"/>',
+  arrow: '<path d="M5 12h14M13 6l6 6-6 6"/>',
+  command: '<path d="M9 6a3 3 0 1 0-3 3h12a3 3 0 1 0-3-3v12a3 3 0 1 0 3-3H6a3 3 0 1 0 3 3z"/>',
+  expand: '<path d="M14 4h6v6M10 20H4v-6M20 4l-7 7M4 20l7-7"/>',
 } as const;
 
 export type IconName = keyof typeof PATHS;

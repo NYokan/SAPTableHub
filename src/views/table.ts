@@ -3,9 +3,22 @@ import { ic } from '../lib/icons.ts';
 import { catalogRoute, routeHref, type TableRoute } from '../lib/router.ts';
 import { esc } from '../lib/text.ts';
 import type { TableDetail, TableSummary } from '../types.ts';
-import { areaName, bigAddButton, catName, dclName, kindName, loc, modeSeg, tableHref, tx, type Ctx } from './common.ts';
+import { areaBadge, bigAddButton, catName, dclName, kindName, loc, modeSeg, tableHref, tx, type Ctx } from './common.ts';
 
 const cache = new Map<string, TableDetail | null>();
+
+/** The detail of a table if it is already here; otherwise undefined, and `done` runs when it arrives. */
+export function withDetail(id: string, done: (d: TableDetail | null) => void): TableDetail | null | undefined {
+  if (cache.has(id)) return cache.get(id);
+  loadDetail(id).then(
+    (d) => {
+      cache.set(id, d);
+      done(d);
+    },
+    () => done(null),
+  );
+  return undefined;
+}
 
 /** One table's page. The summary renders at once; the explanation and relations arrive with its detail file. */
 export function renderTable(el: HTMLElement, r: TableRoute, c: Ctx): TableSummary | undefined {
@@ -18,32 +31,26 @@ export function renderTable(el: HTMLElement, r: TableRoute, c: Ctx): TableSummar
     return undefined;
   }
   const paint = (d: TableDetail | null | undefined) => {
-    el.innerHTML = back + pageHTML(c, t, d);
+    el.innerHTML = back + detailHTML(c, t, d);
   };
-  if (cache.has(t.id)) {
-    paint(cache.get(t.id));
-    return t;
-  }
-  paint(undefined);
-  const settle = (d: TableDetail | null) => {
+  const d = withDetail(t.id, (got) => {
     // the person may have moved on while the detail was loading
     if (el.dataset.view !== 'table:' + r.id) return;
     const y = window.scrollY;
-    paint(d);
+    paint(got);
     window.scrollTo(0, y);
-  };
-  loadDetail(t.id).then(
-    (d) => {
-      cache.set(t.id, d);
-      settle(d);
-    },
-    () => settle(null),
-  );
+  });
+  paint(d);
   return t;
 }
 
-/** `d` is undefined while the detail is loading and null when the table has none. */
-function pageHTML(c: Ctx, t: TableSummary, d: TableDetail | null | undefined): string {
+/**
+ * A table's full reading: name, purpose, fields, technical data, relations and glossary.
+ * `d` is undefined while the detail is loading and null when the table has none.
+ * `sheet` is set when it is shown in the side sheet over the list: the name is then the dialog's
+ * heading, related tables open in the same sheet, and there is a link to the full page.
+ */
+export function detailHTML(c: Ctx, t: TableSummary, d: TableDetail | null | undefined, sheet?: { relHref: (id: string) => string }): string {
   const tech = c.mode === 'tech';
   const fields = t.f.map((f) => {
     const key = f.startsWith('*');
@@ -92,7 +99,7 @@ function pageHTML(c: Ctx, t: TableSummary, d: TableDetail | null | undefined): s
       rels
         .map((x) => {
           const o = c.byId.get(x.table)!;
-          return `<a class="rel" href="${esc(tableHref(c, o.id))}" data-link><span class="tx"><span class="kind">${esc(loc(c, c.data.taxonomy.relationTypes[x.type]))}</span><span class="tt"><span class="rid">${esc(o.id)}</span><span class="rt">${esc(loc(c, o.title))}</span></span>${tech ? `<span class="jn">${esc(tx(c, 'joinBy'))} ${esc(x.on)}</span>` : ''}</span>${ic('chev', 18)}</a>`;
+          return `<a class="rel" href="${esc(sheet ? sheet.relHref(o.id) : tableHref(c, o.id))}" data-link><span class="tx"><span class="kind">${esc(loc(c, c.data.taxonomy.relationTypes[x.type]))}</span><span class="tt"><span class="rid">${esc(o.id)}</span><span class="rt">${esc(loc(c, o.title))}</span></span>${tech ? `<span class="jn">${esc(tx(c, 'joinBy'))} ${esc(x.on)}</span>` : ''}</span>${ic('chev', 18)}</a>`;
         })
         .join('') +
       '</div></section>'
@@ -102,10 +109,13 @@ function pageHTML(c: Ctx, t: TableSummary, d: TableDetail | null | undefined): s
     .map((g) => `<dt>${esc(loc(c, g.term))}</dt><dd>${esc(loc(c, g.definition))}</dd>`)
     .join('')}</dl></details></section>`;
 
+  const title = sheet
+    ? `<h2 class="d-title" id="sheet-title">${esc(t.id)}</h2>`
+    : `<h1 class="d-title" id="dh" tabindex="-1">${esc(t.id)}</h1>`;
   return `
     <div class="d-head">
-      <div class="d-tags"><span class="tag">${esc(kindName(c, t.kind))}</span><span class="tag">${esc(areaName(c, t.area))}</span></div>
-      <h1 class="d-title" id="dh" tabindex="-1">${esc(t.id)}</h1>
+      <div class="d-tags">${areaBadge(c, t.area)}<span class="tag">${esc(kindName(c, t.kind))}</span></div>
+      ${title}
       <p class="d-sub">${esc(loc(c, t.title))}</p>
     </div>
     <div class="actions">${bigAddButton(c, t.id)}<button type="button" class="btn" data-act="copyname" data-id="${esc(t.id)}">${ic('copy', 18)}${esc(tx(c, 'copyName'))}</button></div>

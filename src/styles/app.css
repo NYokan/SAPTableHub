@@ -18,12 +18,18 @@
   --line-soft: #e1e6df;
   --rule: #e8ece6;
   --row-hover: #f3f6f2;
-  /* one muted hue per area, none of them the accent's teal; every pair is over 7:1 */
-  --a-sales-bg: #ffe3e2; --a-sales-ink: #743839;
-  --a-purch-bg: #f8e9d4; --a-purch-ink: #684507;
-  --a-mat-bg: #f7e4f7;   --a-mat-ink: #643c66;
-  --a-fin-bg: #d9efff;   --a-fin-ink: #155276;
-  --a-gen-bg: #ebebeb;   --a-gen-ink: #4d4d4d;
+  /* each area's colour, from the explore concept: a fill, its ink and a dot. General is a neutral slate
+     there instead of green, so no area reads as the accent */
+  --a-sales-bg: #ffc4c1; --a-sales-ink: #4d1517; --a-sales-dot: #b34f4e;
+  --a-purch-bg: #f0d1a2; --a-purch-ink: #422400; --a-purch-dot: #946500;
+  --a-mat-bg: #f1c6ec;   --a-mat-ink: #42183f;   --a-mat-dot: #9a5294;
+  --a-fin-bg: #b0dcff;   --a-fin-ink: #002e52;   --a-fin-dot: #22719f;
+  --a-gen-bg: #d9dee4;   --a-gen-ink: #1e2833;   --a-gen-dot: #5c6773;
+  /* matched words, the veil behind dialogs, and borders of controls (3:1 on the surfaces) */
+  --mark: #fbe38e;
+  --mark-ink: #121512;
+  --veil: rgba(10, 20, 16, 0.38);
+  --ctl: #7f8a84;
   --hdr: 60px;
   --r: 12px;
   color-scheme: light;
@@ -37,11 +43,15 @@
     --line-soft: #232d29;
     --rule: #222b27;
     --row-hover: #1f2925;
-    --a-sales-bg: #3d2323; --a-sales-ink: #f8b8b6;
-    --a-purch-bg: #372813; --a-purch-ink: #e8c494;
-    --a-mat-bg: #352436;   --a-mat-ink: #e4bae6;
-    --a-fin-bg: #182e3d;   --a-fin-ink: #9ed2f7;
-    --a-gen-bg: #2b2b2b;   --a-gen-ink: #cacaca;
+    --a-sales-bg: #5b2e2d; --a-sales-ink: #ffdedc; --a-sales-dot: #ed8b88;
+    --a-purch-bg: #50380f; --a-purch-ink: #f7e5cb; --a-purch-dot: #d4a14a;
+    --a-mat-bg: #50304d;   --a-mat-ink: #f8dff5;   --a-mat-dot: #d58ecf;
+    --a-fin-bg: #1c405d;   --a-fin-ink: #d3ebff;   --a-fin-dot: #65b2f1;
+    --a-gen-bg: #343b43;   --a-gen-ink: #e1e7ee;   --a-gen-dot: #9aa5b1;
+    --mark: #4d3b07;
+    --mark-ink: #ffe9a6;
+    --veil: rgba(0, 0, 0, 0.58);
+    --ctl: #66746d;
     --surface2: #1e2723;
     --line: #2a352f;
     --ink: #e8eeea;
@@ -60,11 +70,15 @@
   --line-soft: #232d29;
   --rule: #222b27;
   --row-hover: #1f2925;
-  --a-sales-bg: #3d2323; --a-sales-ink: #f8b8b6;
-  --a-purch-bg: #372813; --a-purch-ink: #e8c494;
-  --a-mat-bg: #352436;   --a-mat-ink: #e4bae6;
-  --a-fin-bg: #182e3d;   --a-fin-ink: #9ed2f7;
-  --a-gen-bg: #2b2b2b;   --a-gen-ink: #cacaca;
+  --a-sales-bg: #5b2e2d; --a-sales-ink: #ffdedc; --a-sales-dot: #ed8b88;
+  --a-purch-bg: #50380f; --a-purch-ink: #f7e5cb; --a-purch-dot: #d4a14a;
+  --a-mat-bg: #50304d;   --a-mat-ink: #f8dff5;   --a-mat-dot: #d58ecf;
+  --a-fin-bg: #1c405d;   --a-fin-ink: #d3ebff;   --a-fin-dot: #65b2f1;
+  --a-gen-bg: #343b43;   --a-gen-ink: #e1e7ee;   --a-gen-dot: #9aa5b1;
+  --mark: #4d3b07;
+  --mark-ink: #ffe9a6;
+  --veil: rgba(0, 0, 0, 0.58);
+  --ctl: #66746d;
   --surface2: #1e2723;
   --line: #2a352f;
   --ink: #e8eeea;
@@ -651,4 +665,272 @@ details.legend { margin-top: 16px; }
 }
 @media (prefers-reduced-motion: reduce) {
   .toast, .chip, .seg a, .seg button, .az a, .pg a, .crow, .row, .add, .grp .sel select, .c-row2 .btn.ghost { transition: none; }
+}
+
+/* ---------- concepto tabla: the list stays a table, with more air and fewer controls in view ----------
+   One search field alone on top; Área, Categoría, Ordenar (and the letters, on phones) behind "Filtros",
+   the filters in effect as chips; the A–Z as a rail beside the table; rows open the ficha in a side
+   sheet; every action is also in the Ctrl/Cmd+K palette. Two active states, as before: A, the chosen
+   option (soft accent fill + accent text: options, letters, chips, current page, the open row);
+   B, where you are (accent text and underline: header tabs, bottom bar). */
+
+mark { background: var(--mark); color: var(--mark-ink); border-radius: 3px; padding: 0 1px; }
+kbd {
+  font: 500 12px/1.4 var(--mono);
+  color: var(--muted);
+  border: 1px solid var(--line);
+  border-bottom-width: 2px;
+  border-radius: 5px;
+  padding: 1px 6px;
+  background: var(--surface2);
+}
+html.sheet-open, html.pal-open { overflow: hidden; }
+.toast { z-index: 70; }
+
+/* headings: more presence than before, still a tool */
+.c-head { margin-top: 12px; }
+.c-head h1, .view-search h1, .l-head h1 { font-size: clamp(30px, 4.2vw, 46px); line-height: 1.08; letter-spacing: -0.025em; }
+.c-intro { margin-top: 10px; font-size: 17px; }
+.d-title { font-size: clamp(32px, 5vw, 46px); }
+
+/* area tags: the area's fill, ink and dot */
+.ab { gap: 6px; min-height: 24px; padding: 0 9px 0 8px; border-radius: 6px; font-weight: 600; }
+.ab::before { content: ''; width: 7px; height: 7px; border-radius: 50%; background: var(--dot); flex: none; }
+.ab-sales, [data-a='sales'] { --dot: var(--a-sales-dot); }
+.ab-purch, [data-a='purch'] { --dot: var(--a-purch-dot); }
+.ab-mat, [data-a='mat'] { --dot: var(--a-mat-dot); }
+.ab-fin, [data-a='fin'] { --dot: var(--a-fin-dot); }
+.ab-gen, [data-a='gen'] { --dot: var(--a-gen-dot); }
+
+/* the search field, alone */
+.cfilter { margin-top: 26px; }
+.cfilter .si { left: 18px; }
+.cfilter input { height: 56px; padding: 0 52px 0 50px; border-radius: 14px; border: 1.5px solid var(--ctl); font-size: 17px; }
+.cfilter input:hover { border-color: var(--ink); }
+.cfilter .kbd { right: 16px; }
+
+/* one quiet row under it: Filtros and its chips on the left, count, view and copy on the right */
+.c-tools { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px 16px; margin-top: 14px; }
+.t-left, .t-right { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 10px; min-width: 0; }
+.tbtn { display: inline-flex; align-items: center; gap: 8px; min-height: 36px; padding: 0 10px; border: 0; border-radius: 8px; background: none; color: var(--muted); font-size: 14px; font-weight: 500; }
+.tbtn:hover { color: var(--ink); background: var(--surface2); }
+
+.pop { position: relative; }
+.fbtn {
+  list-style: none;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 40px;
+  padding: 0 14px;
+  border-radius: 10px;
+  border: 1.5px solid var(--ctl);
+  background: var(--surface);
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  user-select: none;
+}
+.fbtn::-webkit-details-marker { display: none; }
+.fbtn:hover, .pop[open] .fbtn { border-color: var(--ink); }
+.fn { min-width: 20px; height: 20px; padding: 0 6px; display: inline-grid; place-items: center; border-radius: 999px; background: var(--accent); color: var(--accent-ink); font: 600 12px/1 var(--mono); }
+.pop-in {
+  position: absolute;
+  left: 0;
+  top: calc(100% + 8px);
+  z-index: 25;
+  width: min(340px, calc(100vw - 32px));
+  max-height: min(70vh, 640px);
+  overflow-y: auto;
+  padding: 4px 16px 18px;
+  border-radius: var(--r);
+  border: 1px solid var(--line);
+  background: var(--surface);
+  box-shadow: 0 18px 50px rgba(0, 0, 0, 0.18);
+  transform-origin: top left;
+}
+.pop[open] .pop-in { animation: pop 0.16s ease-out; }
+.pop-h { display: block; margin: 16px 0 6px; font-size: 13px; font-weight: 600; color: var(--muted); }
+.opts { display: grid; gap: 2px; }
+.opt { display: flex; align-items: center; gap: 10px; min-height: 38px; padding: 0 10px; border-radius: 8px; font-weight: 500; }
+.opt:hover { background: var(--surface2); }
+.opt[data-a]::before { content: ''; width: 8px; height: 8px; border-radius: 50%; background: var(--dot); flex: none; }
+.opt[aria-current='true'] { background: var(--accent-soft); color: var(--accent); font-weight: 600; }
+.pop .sel { display: block; }
+.pop .sel select { width: 100%; height: 40px; border: 1.5px solid var(--ctl); border-radius: 10px; background: var(--surface); font-size: 15px; }
+.lgrid { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 4px; }
+.lgrid .opt { justify-content: center; padding: 0; min-height: 40px; }
+.lgrid .opt:first-child { grid-column: span 2; }
+.lgrid .off { color: var(--muted); opacity: 0.45; }
+
+.token {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 36px;
+  padding: 0 8px 0 12px;
+  border-radius: 999px;
+  background: var(--accent-soft);
+  color: var(--accent);
+  font-size: 14px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+.token .tk-l { font-weight: 400; }
+.token:hover { box-shadow: inset 0 0 0 1.5px var(--accent); }
+
+/* the table and its rail */
+.c-body { margin-top: 18px; }
+.cwrap { margin-top: 0; min-width: 0; }
+.crow:has(.cmain[aria-current='true']) { background: var(--accent-soft); }
+.cmain { padding-block: 14px; }
+
+/* nothing found: the words, crossed out, and the ways on */
+.none { padding: 24px 0 8px; display: grid; gap: 14px; justify-items: start; }
+.none-q {
+  font-size: clamp(56px, 9vw, 112px);
+  line-height: 0.95;
+  font-style: italic;
+  font-weight: 400;
+  letter-spacing: -0.04em;
+  color: var(--muted);
+  text-decoration: line-through 4px var(--accent);
+  overflow-wrap: anywhere;
+  max-width: 100%;
+}
+.none h2 { font-size: clamp(22px, 2.6vw, 30px); font-weight: 600; letter-spacing: -0.02em; overflow-wrap: anywhere; }
+.none > .muted { font-size: 17px; max-width: 56ch; }
+.ways { display: flex; flex-wrap: wrap; gap: 4px 28px; }
+.go { display: inline-flex; align-items: center; gap: 8px; min-height: 44px; font-weight: 600; color: var(--accent); }
+.go svg { transition: transform 0.18s; }
+.go:hover svg { transform: translateX(4px); }
+
+/* the ficha in a side sheet (full screen on phones) */
+.sheet { position: fixed; inset: 0; z-index: 50; }
+.sheet-veil { position: absolute; inset: 0; background: var(--veil); animation: fade 0.2s ease-out; }
+.sheet-box {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background: var(--bg);
+  animation: slide 0.26s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+.sheet-bar {
+  flex: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  min-height: 60px;
+  padding: calc(8px + env(safe-area-inset-top, 0px)) 8px 8px 16px;
+  border-bottom: 1px solid var(--line);
+}
+.sheet-full { display: inline-flex; align-items: center; gap: 8px; min-height: 44px; font-weight: 600; color: var(--accent); }
+.sheet-full:hover span { text-decoration: underline; text-underline-offset: 3px; }
+.sheet-x { width: 44px; height: 44px; display: grid; place-items: center; border: 0; border-radius: 10px; background: none; color: var(--ink); }
+.sheet-x:hover { background: var(--surface2); }
+.sheet-body { flex: 1; overflow-y: auto; overscroll-behavior: contain; padding: 20px 16px calc(36px + env(safe-area-inset-bottom, 0px)); }
+.sheet-body .actions .btn { flex: 1 1 180px; }
+
+/* the command palette: full screen on phones, a centred box on wider screens */
+.pal { position: fixed; inset: 0; z-index: 60; display: flex; flex-direction: column; align-items: center; }
+.pal-veil { position: absolute; inset: 0; background: var(--veil); animation: fade 0.16s ease-out; }
+.pal-box {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  min-height: 0;
+  width: 100%;
+  padding-top: env(safe-area-inset-top, 0px);
+  background: var(--surface);
+  animation: pop 0.18s ease-out;
+}
+.pal-top { display: flex; align-items: center; gap: 10px; min-height: 64px; padding: 10px 12px 10px 18px; border-bottom: 1px solid var(--line); }
+.pal-crumb { flex: none; padding: 3px 8px; border-radius: 6px; background: var(--accent-soft); color: var(--accent); font-size: 14px; font-weight: 600; }
+#pal-q { flex: 1; min-width: 0; height: 48px; border: 0; background: none; font-size: 19px; outline: none; }
+#pal-q::placeholder { color: var(--muted); }
+.pal-x { flex: none; min-width: 44px; height: 44px; display: grid; place-items: center; border: 0; border-radius: 8px; background: none; }
+.pal-list { list-style: none; margin: 0; padding: 8px; overflow-y: auto; flex: 1; overscroll-behavior: contain; }
+.pal-g { padding: 14px 10px 6px; font-size: 13px; font-weight: 600; color: var(--muted); }
+.pal-o { display: flex; align-items: center; gap: 12px; min-height: 48px; padding: 6px 10px; border-radius: 8px; cursor: pointer; }
+.pal-o[aria-selected='true'] { background: var(--surface2); box-shadow: inset 3px 0 0 var(--accent); }
+.pal-i { width: 20px; display: grid; place-items: center; color: var(--muted); flex: none; }
+.pal-c { color: var(--muted); font-size: 14px; white-space: nowrap; }
+.pal-l { min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 16px; font-weight: 500; }
+.pal-l.code { font: 600 15px var(--mono); }
+.pal-n { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; color: var(--muted); font-size: 14px; }
+.pal-on { display: inline-grid; place-items: center; width: 22px; height: 22px; border-radius: 6px; background: var(--accent-soft); color: var(--accent); flex: none; }
+.pal-k { margin-left: auto; display: flex; align-items: center; gap: 4px; color: var(--muted); flex: none; }
+.pal-none { padding: 32px 12px; color: var(--muted); }
+.pal-foot { display: none; gap: 18px; padding: 10px 18px; border-top: 1px solid var(--line); font-size: 13px; color: var(--muted); }
+.pal-foot span { display: inline-flex; align-items: center; gap: 4px; }
+
+/* the palette's buttons: in the header on wide screens, in the bottom bar on phones */
+.cmdk { display: none; align-items: center; gap: 8px; min-height: 44px; padding: 0 10px; border: 1px solid var(--line); border-radius: 10px; background: var(--surface); color: var(--muted); font-size: 14px; }
+.cmdk:hover { color: var(--ink); border-color: var(--ctl); }
+.cmdk [data-i], .cmdk kbd { display: none; }
+.bnav button {
+  flex: 1;
+  min-height: 52px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  border: 0;
+  border-radius: 10px;
+  background: none;
+  color: var(--muted);
+  font-size: 12.5px;
+}
+
+@keyframes pop { from { opacity: 0; transform: translateY(-6px) scale(0.985); } }
+@keyframes fade { from { opacity: 0; } }
+@keyframes slide { from { opacity: 0; transform: translateX(40px); } }
+
+@media (max-width: 879px) {
+  .az { display: none; }
+  .tbtn span { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+}
+@media (min-width: 880px) {
+  .pop-letters { display: none; }
+  .cmdk { display: inline-flex; }
+  /* the rail: Todas, then the letters, beside the table and following it down the page */
+  .c-body { display: grid; grid-template-columns: 48px minmax(0, 1fr); gap: 14px; align-items: start; }
+  .az {
+    position: sticky;
+    top: calc(var(--hdr) + env(safe-area-inset-top, 0px) + 14px);
+    flex-direction: column;
+    gap: 0;
+    overflow: visible;
+    margin: 0;
+    padding: 2px 0;
+    border: 0;
+    background: none;
+  }
+  .az a, .az span { width: 48px; min-width: 0; height: 22px; padding: 0; font-size: 13px; border-radius: 6px; }
+  .az .az-all { height: 32px; margin-bottom: 6px; font-size: 12px; }
+  .cmain { min-height: 58px; padding-block: 10px; }
+  .c-id { font-size: 17px; }
+  .c-title { font-size: 16px; }
+  .sheet-box { width: min(680px, 92vw); border-left: 1px solid var(--line); box-shadow: -24px 0 60px rgba(0, 0, 0, 0.24); }
+  .sheet-bar { padding-left: 28px; padding-right: 16px; }
+  .sheet-body { padding: 28px 32px 48px; }
+  .pal { padding-top: 12vh; }
+  .pal-box { flex: none; width: min(680px, calc(100vw - 48px)); max-height: 70vh; border-radius: 14px; border: 1px solid var(--line); box-shadow: 0 24px 64px rgba(0, 0, 0, 0.3); }
+  .pal-foot { display: flex; }
+}
+@media (min-width: 1100px) {
+  .cmdk [data-i], .cmdk kbd { display: inline; }
+  .cmdk { padding: 0 8px 0 12px; }
+}
+.opt, .token, .fbtn, .tbtn, .go, .sheet-x, .cmdk { transition: background-color 0.12s, color 0.12s, border-color 0.12s, box-shadow 0.12s; }
+@media (prefers-reduced-motion: reduce) {
+  .pop[open] .pop-in, .sheet-veil, .sheet-box, .pal-veil, .pal-box { animation: none; }
+  .opt, .token, .fbtn, .tbtn, .go, .go svg, .sheet-x, .cmdk { transition: none; }
 }

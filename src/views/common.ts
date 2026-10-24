@@ -2,7 +2,7 @@ import { t, type StrKey, type Vars } from '../i18n/index.ts';
 import { ic } from '../lib/icons.ts';
 import { routeHref } from '../lib/router.ts';
 import type { Entry } from '../lib/search.ts';
-import { esc } from '../lib/text.ts';
+import { esc, norm, tokenize } from '../lib/text.ts';
 import type { DataIndex, L10n, Lang, Mode, TableSummary } from '../types.ts';
 
 /** What every view needs to render. */
@@ -23,11 +23,44 @@ export const kindName = (c: Ctx, k: string) => loc(c, c.data.taxonomy.contents[k
 export const catName = (c: Ctx, k: string) => loc(c, c.data.taxonomy.categories[k]?.name);
 export const dclName = (c: Ctx, k: string) => loc(c, c.data.taxonomy.deliveryClasses[k]?.name);
 
-/** An area as a small tinted tag; each area has its own muted hue (see the --a-* tokens). */
+/** An area as a tag in its own colour, with a dot of the same hue (see the --a-* tokens). */
 export const areaBadge = (c: Ctx, k: string) => `<span class="ab ab-${esc(k)}">${esc(areaName(c, k))}</span>`;
 
-export const tableHref =(c: Ctx, id: string) => routeHref({ name: 'table', lang: c.lang, id });
+export const tableHref = (c: Ctx, id: string) => routeHref({ name: 'table', lang: c.lang, id });
 export const countText = (c: Ctx, n: number) => (n === 1 ? tx(c, 'count1') : tx(c, 'countN', { n }));
+
+/**
+ * Escaped text with every word of the query that starts a word in it wrapped in <mark>,
+ * ignoring case and accents ("factu" marks "Facturación").
+ */
+export function highlight(text: string, q: string): string {
+  const words = tokenize(q);
+  if (!words.length || !text) return esc(text);
+  const chars = [...text];
+  // one folded character per original character, so the indexes line up
+  const folded = chars.map((ch) => (norm(ch) || ch).charAt(0)).join('');
+  const on = new Array<boolean>(chars.length).fill(false);
+  for (const w of words) {
+    for (let i = folded.indexOf(w); i >= 0; i = folded.indexOf(w, i + 1)) {
+      if (i === 0 || !/[a-z0-9]/.test(folded[i - 1])) on.fill(true, i, i + w.length);
+    }
+  }
+  let out = '';
+  for (let i = 0; i < chars.length; i++) {
+    if (on[i] && !on[i - 1]) out += '<mark>';
+    out += esc(chars[i]);
+    if (on[i] && !on[i + 1]) out += '</mark>';
+  }
+  return out;
+}
+
+/** One option of a list inside the Filtros popover; the chosen one carries aria-current. */
+export const optLink = (href: string, label: string, on: boolean, k: string, extra = '') =>
+  `<a class="opt" href="${esc(href)}" data-link data-k="${esc(k)}"${on ? ' aria-current="true"' : ''}${extra}>${esc(label)}</a>`;
+
+/** A filter in effect, shown next to the Filtros button: clicking it removes that filter. */
+export const tokenLink = (c: Ctx, href: string, label: string, value: string) =>
+  `<a class="token" href="${esc(href)}" data-link aria-label="${esc(tx(c, 'removeFilter', { f: `${label} ${value}` }))}"><span class="tk-l">${esc(label)}</span><span>${esc(value)}</span>${ic('x', 14)}</a>`;
 
 /** The small "+" button that adds a table to the selection. */
 export function addButton(c: Ctx, id: string): string {
@@ -47,13 +80,13 @@ export const bigAddLabel = (c: Ctx, on: boolean) =>
 /** Simple / Technical switch. */
 export function modeSeg(c: Ctx): string {
   const b = (v: Mode, key: StrKey) =>
-    `<button type="button" data-act="mode" data-v="${v}" aria-pressed="${c.mode === v}">${esc(tx(c, key))}</button>`;
+    `<button type="button" data-act="mode" data-v="${v}" data-k="mode-${v}" aria-pressed="${c.mode === v}">${esc(tx(c, key))}</button>`;
   return `<div class="seg" role="group" aria-label="${esc(tx(c, 'view'))}">${b('simple', 'simple')}${b('tech', 'tech')}</div>`;
 }
 
 /** A link styled as one option of a segmented control. */
-export const segLink = (href: string, label: string, on: boolean) =>
-  `<a href="${esc(href)}" data-link${on ? ' aria-current="true"' : ''}>${esc(label)}</a>`;
+export const segLink = (href: string, label: string, on: boolean, k = '') =>
+  `<a href="${esc(href)}" data-link${k ? ` data-k="${esc(k)}"` : ''}${on ? ' aria-current="true"' : ''}>${esc(label)}</a>`;
 
 export const chipLink = (href: string, label: string, on: boolean) =>
   `<a class="chip" href="${esc(href)}" data-link${on ? ' aria-current="true"' : ''}>${esc(label)}</a>`;

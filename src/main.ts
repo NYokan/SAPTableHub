@@ -1,23 +1,26 @@
 import '@fontsource/instrument-sans/latin-400.css';
+import '@fontsource/instrument-sans/latin-400-italic.css';
 import '@fontsource/instrument-sans/latin-500.css';
 import '@fontsource/instrument-sans/latin-600.css';
 import '@fontsource/jetbrains-mono/latin-400.css';
 import '@fontsource/jetbrains-mono/latin-500.css';
 import '@fontsource/jetbrains-mono/latin-600.css';
 import './styles/app.css';
-import { t, type StrKey } from './i18n/index.ts';
-import { runCatalog } from './lib/catalog.ts';
+import { t, type StrKey, type Vars } from './i18n/index.ts';
+import { LETTERS, runCatalog } from './lib/catalog.ts';
 import { loadIndex } from './lib/data.ts';
 import { ic } from './lib/icons.ts';
-import { catalogRoute, isLang, parseRoute, routeHref, withLang, type Route } from './lib/router.ts';
-import { buildEntries } from './lib/search.ts';
+import { catalogRoute, isLang, parseRoute, routeHref, withLang, type CatalogRoute, type Route } from './lib/router.ts';
+import { buildEntries, search } from './lib/search.ts';
 import { KEYS, load, save } from './lib/store.ts';
-import type { Lang, TableSummary } from './types.ts';
+import { LANGS, type Lang, type Mode, type TableSummary } from './types.ts';
 import { catalogTSV, renderCatalog } from './views/catalog.ts';
-import { bigAddLabel, type Ctx } from './views/common.ts';
+import { areaName, bigAddLabel, catName, countText, loc, tableHref, type Ctx } from './views/common.ts';
+import { createPalette, type Cmd } from './views/palette.ts';
 import { renderSearch } from './views/search.ts';
 import { renderSelection, selectionText, setFormat, sharedIds, type Format } from './views/selection.ts';
-import { renderTable } from './views/table.ts';
+import { createSheet } from './views/sheet.ts';
+import { detailHTML, renderTable, withDetail } from './views/table.ts';
 
 const $ = <T extends HTMLElement = HTMLElement>(sel: string) => document.querySelector<T>(sel)!;
 const view = $('#view');
@@ -118,10 +121,12 @@ function render() {
   ctx.lang = route.lang;
   let title: string;
   switch (route.name) {
-    case 'catalog':
+    case 'catalog': {
       renderCatalog(view, route, ctx);
-      title = t(route.lang, 'catTitle') + (route.letter ? ' · ' + route.letter : '');
+      const open = ctx.byId.get(route.open);
+      title = open ? `${open.id} · ${open.title[route.lang]}` : t(route.lang, 'catTitle') + (route.letter ? ' · ' + route.letter : '');
       break;
+    }
     case 'search':
       renderSearch(view, route, ctx);
       title = t(route.lang, 'navSearch') + (route.q ? ': ' + route.q : '');
@@ -143,12 +148,62 @@ function render() {
       break;
   }
   document.title = `${title} · SAPTableHub`;
+  syncSheet();
+  palette.refresh();
+}
+
+/* ---------- the ficha in a side sheet over the list ---------- */
+
+/** The row that opened the sheet, so focus can go back to it when the sheet closes. */
+let sheetFrom = '';
+
+const sheet = createSheet(() => closeSheet());
+
+function closeSheet() {
+  if (route.name !== 'catalog' || !route.open) return;
+  // opened from the list: going back closes it and leaves no extra step in the history
+  if (history.state?.sheet) history.back();
+  else navigate(routeHref({ ...route, open: '' }), true);
+}
+
+function openSheet(id: string) {
+  if (route.name !== 'catalog') return;
+  const replace = !!route.open;
+  navigate(routeHref({ ...route, open: id }), replace);
+  if (!replace) history.replaceState({ ...(history.state ?? {}), sheet: true }, '');
+}
+
+/** Shows the table named in ?open= in the sheet, or closes the sheet when there is none. */
+function syncSheet() {
+  const c = ctx;
+  const id = c && route.name === 'catalog' ? route.open : '';
+  const tb = id ? c?.byId.get(id) : undefined;
+  if (!c || !tb || route.name !== 'catalog') {
+    if (sheet.isOpen()) {
+      sheet.hide();
+      const back = sheetFrom && route.name === 'catalog' ? view.querySelector<HTMLElement>(`.cmain[data-open="${CSS.escape(sheetFrom)}"]`) : null;
+      back?.focus();
+    }
+    return;
+  }
+  if (!sheet.isOpen()) sheetFrom = id;
+  const r = route;
+  const paint = (d: Parameters<typeof detailHTML>[2]) =>
+    sheet.show(id, detailHTML(c, tb, d, { relHref: (other) => routeHref({ ...r, open: other }) }), {
+      full: t(c.lang, 'openFull'),
+      fullHref: tableHref(c, id),
+      close: t(c.lang, 'closeSheet'),
+    });
+  paint(withDetail(id, (d) => {
+    if (sheet.id() === id) paint(d);
+  }));
 }
 
 /** Moves to another page of the site. `replace` is for changes that should not add a Back step, like typing in a filter. */
 function navigate(href: string, replace = false) {
   const url = new URL(href, location.href);
   const path = url.pathname + url.search;
+  const prev = route;
   const before = route.name;
   if (replace) {
     history.replaceState(history.state, '', path);
@@ -159,6 +214,8 @@ function navigate(href: string, replace = false) {
   route = currentRoute();
   render();
   if (replace) return;
+  // only the sheet changed: the list stays where it is
+  if (prev.name === 'catalog' && route.name === 'catalog' && routeHref({ ...prev, open: '' }) === routeHref({ ...route, open: '' })) return;
   if (before === 'catalog' && route.name === 'catalog') {
     // letter, page or filter changed: keep the start of the list in view
     const table = document.getElementById('ctable');
@@ -231,9 +288,19 @@ function toggleTheme() {
 
 document.addEventListener('click', (e) => {
   const target = e.target as Element;
+  // a click anywhere else closes the Filtros popover
+  document.querySelectorAll<HTMLDetailsElement>('details.pop[open]').forEach((d) => {
+    if (!d.contains(target)) d.open = false;
+  });
   const a = target.closest<HTMLAnchorElement>('a[data-link]');
   if (a) {
     if (e.defaultPrevented || e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+    if (a.dataset.open && route.name === 'catalog') {
+      // a row opens its ficha over the list; Ctrl+click still opens the full page
+      e.preventDefault();
+      openSheet(a.dataset.open);
+      return;
+    }
     if (a.target === '_blank' || a.origin !== location.origin) return;
     e.preventDefault();
     if (a.hasAttribute('data-back') && history.state?.internal) history.back();
@@ -243,6 +310,7 @@ document.addEventListener('click', (e) => {
   const b = target.closest<HTMLElement>('[data-act]');
   if (!b) return;
   if (b.dataset.act === 'theme') return toggleTheme();
+  if (b.dataset.act === 'palette') return palette.open();
   if (!ctx) return;
   const c = ctx;
   const id = b.dataset.id ?? '';
@@ -326,6 +394,21 @@ document.addEventListener('submit', (e) => {
 });
 
 document.addEventListener('keydown', (e) => {
+  if ((e.ctrlKey || e.metaKey) && !e.altKey && e.key.toLowerCase() === 'k') {
+    e.preventDefault();
+    if (palette.isOpen()) palette.close();
+    else palette.open();
+    return;
+  }
+  // the palette and the sheet handle their own keys
+  if (palette.isOpen() || sheet.isOpen()) return;
+  const pop = document.querySelector<HTMLDetailsElement>('details.pop[open]');
+  if (e.key === 'Escape' && pop) {
+    e.preventDefault();
+    pop.open = false;
+    pop.querySelector<HTMLElement>('summary')?.focus();
+    return;
+  }
   const tag = (e.target as HTMLElement).tagName;
   const typing = tag === 'INPUT' || tag === 'SELECT' || tag === 'TEXTAREA';
   if (e.key === '/' && !typing && !e.ctrlKey && !e.metaKey && !e.altKey) {
@@ -367,12 +450,184 @@ window.addEventListener('storage', (e) => {
 
 narrowScreen.addEventListener('change', paintLangOptions);
 
+/* ---------- command palette (Ctrl/Cmd+K) ---------- */
+
+const S = (key: StrKey, vars?: Vars) => t(route.lang, key, vars);
+const LANG_LABELS: Record<Lang, string> = LANG_NAMES;
+const isDark = () => {
+  const cur = document.documentElement.getAttribute('data-theme');
+  return cur === 'dark' || (!cur && window.matchMedia('(prefers-color-scheme: dark)').matches);
+};
+
+/** The list the filters apply to: the current one, or a fresh one when you are elsewhere. */
+const listBase = (): CatalogRoute => (route.name === 'catalog' ? route : catalogRoute(route.lang));
+const applyList = (over: Partial<CatalogRoute>) => navigate(routeHref({ ...listBase(), page: 1, open: '', ...over }));
+
+function setMode(m: Mode) {
+  if (!ctx) return;
+  ctx.mode = m;
+  save(KEYS.mode, m);
+  render();
+}
+
+function setTheme(th: 'light' | 'dark') {
+  document.documentElement.setAttribute('data-theme', th);
+  save(KEYS.theme, th);
+  paintThemeButton();
+}
+
+function setLang(l: Lang) {
+  save(KEYS.lang, l);
+  navigate(routeHref(withLang(route, l)), true);
+}
+
+function toggleAdd(id: string) {
+  if (!ctx || !id) return;
+  const i = ctx.selection.indexOf(id);
+  if (i >= 0) ctx.selection.splice(i, 1);
+  else ctx.selection.push(id);
+  saveSelection();
+  updateAddButtons();
+}
+
+function paletteFor(page: string): { title: string; cmds: Cmd[] } {
+  const c = ctx;
+  if (!c) return { title: S('cmd'), cmds: [] };
+  const lr = listBase();
+  switch (page) {
+    case 'area':
+      return {
+        title: S('colArea'),
+        cmds: [
+          { id: 'area:', label: S('all'), on: !lr.area, run: () => applyList({ area: '' }) },
+          ...Object.keys(c.data.taxonomy.areas).map((k) => ({ id: 'area:' + k, label: areaName(c, k), on: lr.area === k, run: () => applyList({ area: k }) })),
+        ],
+      };
+    case 'cat':
+      return {
+        title: S('colCat'),
+        cmds: [
+          { id: 'cat:', label: S('allCats'), on: !lr.cat, run: () => applyList({ cat: '' }) },
+          ...Object.keys(c.data.taxonomy.categories).map((k) => ({ id: 'cat:' + k, label: k, note: catName(c, k), code: true, on: lr.cat === k, run: () => applyList({ cat: k }) })),
+        ],
+      };
+    case 'letter': {
+      const counts = runCatalog(c.entries, { ...lr, letter: '' }, c.lang).letterCounts;
+      return {
+        title: S('letters'),
+        cmds: [
+          { id: 'l:', label: S('allLetters'), on: !lr.letter, run: () => applyList({ letter: '' }) },
+          ...LETTERS.filter((l) => counts[l]).map((l) => ({ id: 'l:' + l, label: l, note: countText(c, counts[l]), code: true, on: lr.letter === l, words: S('letterN', { l }), run: () => applyList({ letter: l }) })),
+        ],
+      };
+    }
+    case 'sort':
+      return {
+        title: S('sortBy'),
+        cmds: [
+          { id: 'sort:name', label: S('sortName'), on: lr.sort === 'name', run: () => applyList({ sort: 'name' }) },
+          { id: 'sort:desc', label: S('sortDesc'), on: lr.sort === 'desc', run: () => applyList({ sort: 'desc' }) },
+        ],
+      };
+    case 'view':
+      return {
+        title: S('view'),
+        cmds: [
+          { id: 'mode:simple', label: S('simple'), on: c.mode === 'simple', run: () => setMode('simple') },
+          { id: 'mode:tech', label: S('tech'), on: c.mode === 'tech', run: () => setMode('tech') },
+        ],
+      };
+    case 'lang':
+      return {
+        title: S('lang'),
+        cmds: LANGS.map((l) => ({ id: 'lang:' + l, label: LANG_LABELS[l], note: l.toUpperCase(), on: route.lang === l, run: () => setLang(l) })),
+      };
+  }
+  // the first page: what you can do with the open table, then filters, places and preferences
+  const acts: Cmd[] = [];
+  const open = route.name === 'catalog' ? route.open : route.name === 'table' ? route.id : '';
+  if (open && c.byId.has(open)) {
+    const on = c.selection.includes(open);
+    acts.push({ id: 'add', label: S(on ? 'rmId' : 'addId', { id: open }), icon: on ? 'check' : 'plus', run: () => toggleAdd(open) });
+    acts.push({ id: 'copyname', label: S('copyId', { id: open }), icon: 'copy', run: () => copy(open) });
+    if (route.name === 'catalog') acts.push({ id: 'full', label: S('openFull'), icon: 'expand', run: () => navigate(tableHref(c, open)) });
+  }
+  if (route.name === 'catalog') {
+    const r = route;
+    acts.push({ id: 'copyview', label: S('copyView'), icon: 'copy', run: () => copy(catalogTSV(c, runCatalog(c.entries, r, c.lang).all)) });
+  }
+  if (route.name === 'selection') {
+    const r = route;
+    const ids = r.shared ? sharedIds(c, r) : c.selection;
+    if (ids.length) acts.push({ id: 'copylist', label: S('copyList'), icon: 'copy', run: () => copy(selectionText(c, ids)) });
+    if (!r.shared && ids.length) acts.push({ id: 'copylink', label: S('copyLink'), icon: 'link', run: () => copy(location.origin + routeHref({ name: 'selection', lang: c.lang, shared: c.selection })) });
+  }
+  const filters: Cmd[] = [
+    { id: 'p:area', label: S('colArea'), note: lr.area ? areaName(c, lr.area) : S('all'), page: 'area' },
+    { id: 'p:cat', label: S('colCat'), note: lr.cat || S('allCats'), page: 'cat' },
+    { id: 'p:letter', label: S('letters'), note: lr.letter || S('allLetters'), page: 'letter' },
+    { id: 'p:sort', label: S('sortBy'), note: S(lr.sort === 'desc' ? 'sortDesc' : 'sortName'), page: 'sort' },
+  ];
+  if (lr.area || lr.cat || lr.letter || lr.sort === 'desc' || lr.q) {
+    filters.push({ id: 'clear', label: S('clearFilters'), icon: 'x', run: () => applyList({ q: '', area: '', cat: '', letter: '', sort: 'name' }) });
+  }
+  const go: Cmd[] = [
+    { id: 'go:catalog', label: S('navCatalog'), icon: 'table', on: route.name === 'catalog', run: () => navigate(routeHref(catalogRoute(route.lang))) },
+    { id: 'go:search', label: S('navSearch'), icon: 'search', on: route.name === 'search', run: () => navigate(routeHref({ name: 'search', lang: route.lang, q: '', area: '' })) },
+    { id: 'go:sel', label: S('mySelection'), note: String(c.selection.length), icon: 'sel', on: route.name === 'selection' && !route.shared, run: () => navigate(routeHref({ name: 'selection', lang: route.lang, shared: null })) },
+  ];
+  const prefs: Cmd[] = [
+    { id: 'p:view', label: S('view'), note: S(c.mode === 'tech' ? 'tech' : 'simple'), page: 'view' },
+    { id: 'p:lang', label: S('lang'), note: LANG_LABELS[route.lang], page: 'lang' },
+    { id: 'theme:light', label: S('themeLight'), icon: 'sun', on: !isDark(), run: () => setTheme('light') },
+    { id: 'theme:dark', label: S('themeDark'), icon: 'moon', on: isDark(), run: () => setTheme('dark') },
+  ];
+  const group = (g: StrKey, xs: Cmd[]) => xs.map((x) => ({ ...x, group: S(g) }));
+  return {
+    title: S('cmd'),
+    cmds: [...group('grpActions', acts), ...group('grpFilter', filters), ...group('grpGo', go), ...group('grpPrefs', prefs)],
+  };
+}
+
+const palette = createPalette({
+  page: paletteFor,
+  leaves() {
+    const first = paletteFor('').cmds.filter((x) => !x.page);
+    const deeper = ['area', 'cat', 'letter', 'sort', 'view', 'lang'].flatMap((p) => {
+      const pg = paletteFor(p);
+      return pg.cmds.map((x) => ({ ...x, crumb: pg.title, group: '' }));
+    });
+    return [...first.map((x) => ({ ...x, group: '' })), ...deeper];
+  },
+  tables(q) {
+    const c = ctx;
+    if (!c) return [];
+    return search(c.entries, q, c.lang)
+      .hits.slice(0, 6)
+      .map((h) => ({
+        id: 'table:' + h.t.id,
+        label: h.t.id,
+        note: loc(c, h.t.title),
+        code: true,
+        group: S('grpTables'),
+        run: () => {
+          if (route.name === 'catalog') openSheet(h.t.id);
+          else navigate(routeHref({ ...catalogRoute(route.lang), open: h.t.id }));
+        },
+      }));
+  },
+  str: (key, vars) => S(key, vars),
+});
+
 /* ---------- start ---------- */
 
 $('#ic-sel-h').innerHTML = ic('sel', 18);
 $('#ic-nav-c').innerHTML = ic('table', 22);
 $('#ic-nav-s').innerHTML = ic('search', 22);
 $('#ic-nav-l').innerHTML = ic('sel', 22);
+$('#ic-nav-k').innerHTML = ic('command', 22);
+$('#ic-cmd').innerHTML = ic('command', 16);
+if (/Mac|iPhone|iPad/.test(navigator.platform)) $('#cmdk-k').textContent = '⌘ K';
 history.scrollRestoration = 'manual';
 if (!parseRoute(location.pathname, location.search)) history.replaceState(history.state, '', `/${detectLang()}/`);
 route = currentRoute();

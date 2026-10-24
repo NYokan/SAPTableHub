@@ -10,6 +10,8 @@ export type CatalogRoute = {
   letter: string;
   sort: Sort;
   page: number;
+  /** The table whose ficha is open in the side sheet over the list ('' when none). */
+  open: string;
 };
 export type SearchRoute = { name: 'search'; lang: Lang; q: string; area: string };
 export type TableRoute = { name: 'table'; lang: Lang; id: string };
@@ -20,7 +22,7 @@ export type Route = CatalogRoute | SearchRoute | TableRoute | SelectionRoute | N
 export const isLang = (s: string): s is Lang => (LANGS as readonly string[]).includes(s);
 
 export const catalogRoute = (lang: Lang, over: Partial<Omit<CatalogRoute, 'name' | 'lang'>> = {}): CatalogRoute => ({
-  name: 'catalog', lang, q: '', area: '', cat: '', letter: '', sort: 'name', page: 1, ...over,
+  name: 'catalog', lang, q: '', area: '', cat: '', letter: '', sort: 'name', page: 1, open: '', ...over,
 });
 
 const decode = (s: string) => {
@@ -33,7 +35,7 @@ const decode = (s: string) => {
 
 /**
  * URLs:
- *   /es/                       table list (?q, area, cat, letter, sort=desc, page)
+ *   /es/                       table list (?q, area, cat, letter, sort=desc, page, open=VBAK)
  *   /es/search?q=factura       search in business language
  *   /es/table/VBAK             one table
  *   /es/selection?t=VBAK,VBAP  my selection, or a shared one when ?t is present
@@ -54,6 +56,7 @@ export function parseRoute(pathname: string, search: string): Route | null {
       letter: get('letter').toUpperCase(),
       sort: get('sort') === 'desc' ? 'desc' : 'name',
       page: Math.max(1, parseInt(get('page') || '1', 10) || 1),
+      open: get('open').toUpperCase(),
     });
   }
   if (page === 'search' && !rest.length) return { name: 'search', lang, q: get('q'), area: get('area') };
@@ -80,6 +83,7 @@ export function routeHref(r: Route): string {
       if (r.letter) p.set('letter', r.letter);
       if (r.sort === 'desc') p.set('sort', 'desc');
       if (r.page > 1) p.set('page', String(r.page));
+      if (r.open) p.set('open', r.open);
       return base + qs(p);
     }
     case 'search': {

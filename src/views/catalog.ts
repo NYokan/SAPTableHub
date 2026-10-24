@@ -3,84 +3,133 @@ import { LETTERS, pageList, runCatalog, type CatalogResult } from '../lib/catalo
 import { routeHref, type CatalogRoute } from '../lib/router.ts';
 import { esc } from '../lib/text.ts';
 import type { TableSummary } from '../types.ts';
-import { addButton, areaBadge, areaName, chipLink, countText, dclName, kindName, loc, modeSeg, segLink, tableHref, tx, type Ctx } from './common.ts';
+import {
+  addButton, areaBadge, areaName, catName, countText, dclName, highlight, kindName, loc, modeSeg, optLink, segLink, tableHref, tokenLink, tx, type Ctx,
+} from './common.ts';
 
-/** The table list: the improved version of an A–Z index of SAP tables. */
+/**
+ * The table list, table first: one search field alone on top, every other filter behind a "Filtros"
+ * popover with the active ones as removable chips, the A–Z as a rail beside the table, and rows that
+ * open the table's ficha in a side sheet (see sheet.ts).
+ */
 export function renderCatalog(el: HTMLElement, r: CatalogRoute, c: Ctx): CatalogResult {
   if (el.dataset.view !== 'catalog') {
     el.dataset.view = 'catalog';
     el.className = 'wrap view view-catalog';
     // the filter box is created once, so typing is never interrupted by a re-render
     el.innerHTML = `
-      <div class="c-head"><h1 id="ctitle" tabindex="-1"></h1></div>
-      <p class="c-intro" id="cintro"></p>
-      <div class="c-ctl">
-        <form class="cfilter" id="cform" role="search"><span class="si">${ic('search', 18)}</span><label class="vh" for="cq" id="cqlabel"></label><input id="cq" type="search" autocomplete="off" autocapitalize="none" spellcheck="false" enterkeyhint="search"></form>
-        <div class="c-area"><span class="lbl" id="carea"></span><div class="chips" id="cchips" role="group" aria-labelledby="carea"></div></div>
-        <div class="c-row2" id="crow"></div>
-      </div>
-      <nav class="az" id="az"></nav>
-      <div class="cwrap" id="ctable"></div>`;
+      <div class="c-head"><h1 id="ctitle" tabindex="-1"></h1><p class="c-intro" id="cintro"></p></div>
+      <form class="cfilter" id="cform" role="search"><span class="si">${ic('search', 20)}</span><label class="vh" for="cq" id="cqlabel"></label><input id="cq" type="search" autocomplete="off" autocapitalize="none" spellcheck="false" enterkeyhint="search"><kbd class="kbd" aria-hidden="true">/</kbd></form>
+      <div class="c-tools" id="ctools"></div>
+      <div class="c-body"><nav class="az" id="az"></nav><div class="cwrap" id="ctable"></div></div>`;
   }
   const get = (id: string) => el.querySelector<HTMLElement>('#' + id)!;
   const res = runCatalog(c.entries, r, c.lang);
-  const at = (over: Partial<CatalogRoute>) => routeHref({ ...r, page: 1, ...over });
+  const at = (over: Partial<CatalogRoute>) => routeHref({ ...r, page: 1, open: '', ...over });
   const tech = c.mode === 'tech';
 
   get('ctitle').textContent = tx(c, 'catTitle') + (r.letter ? ' · ' + r.letter : '');
   get('cintro').textContent = tx(c, 'catIntro');
   get('cqlabel').textContent = tx(c, 'cfilter');
-  get('carea').textContent = tx(c, 'colArea');
   const input = get('cq') as HTMLInputElement;
   input.placeholder = tx(c, 'cfilter');
   if (document.activeElement !== input && input.value !== r.q) input.value = r.q;
 
-  get('cchips').innerHTML =
-    chipLink(at({ area: '' }), tx(c, 'all'), !r.area) +
-    Object.keys(c.data.taxonomy.areas).map((k) => chipLink(at({ area: k }), areaName(c, k), r.area === k)).join('');
-
+  // the popover keeps its open state and the focused option across re-renders
+  const tools = get('ctools');
+  const wasOpen = tools.querySelector<HTMLDetailsElement>('details')?.open ?? false;
+  const focusK = tools.contains(document.activeElement) ? (document.activeElement as HTMLElement).dataset.k : undefined;
   const cats = Object.keys(c.data.taxonomy.categories)
-    .map((k) => `<option value="${esc(k)}"${r.cat === k ? ' selected' : ''}>${esc(k)}</option>`)
+    .map((k) => `<option value="${esc(k)}"${r.cat === k ? ' selected' : ''}>${esc(k)} · ${esc(catName(c, k))}</option>`)
     .join('');
-  get('crow').innerHTML = `
-    <div class="grp"><span class="lbl">${esc(tx(c, 'sortBy'))}</span><div class="seg" role="group" aria-label="${esc(tx(c, 'sortBy'))}">${segLink(at({ sort: 'name' }), tx(c, 'sortName'), r.sort === 'name')}${segLink(at({ sort: 'desc' }), tx(c, 'sortDesc'), r.sort === 'desc')}</div></div>
-    <div class="grp"><label class="lbl" for="ccat">${esc(tx(c, 'colCat'))}</label><span class="sel"><select id="ccat"><option value="">${esc(tx(c, 'allCats'))}</option>${cats}</select></span></div>
-    <div class="grp">${modeSeg(c)}</div>
-    <div class="grp"><span class="ccount" aria-live="polite">${esc(countText(c, res.total))}</span><button type="button" class="btn ghost" data-act="copyview">${ic('copy', 18)}${esc(tx(c, 'copyView'))}</button></div>`;
+  const letters =
+    optLink(at({ letter: '' }), tx(c, 'all'), !r.letter, 'pl-', ' role="listitem"') +
+    LETTERS.map((l) =>
+      res.letterCounts[l]
+        ? optLink(at({ letter: l }), l, r.letter === l, 'pl-' + l, ` role="listitem" aria-label="${esc(`${l} · ${countText(c, res.letterCounts[l])}`)}"`)
+        : `<span class="opt off" role="listitem" aria-label="${esc(`${l} · ${countText(c, 0)}`)}">${esc(l)}</span>`,
+    ).join('');
+  const body =
+    `<p class="pop-h" id="ph-area">${esc(tx(c, 'colArea'))}</p><div class="opts" role="group" aria-labelledby="ph-area">` +
+    optLink(at({ area: '' }), tx(c, 'all'), !r.area, 'area-') +
+    Object.keys(c.data.taxonomy.areas).map((k) => optLink(at({ area: k }), areaName(c, k), r.area === k, 'area-' + k, ` data-a="${esc(k)}"`)).join('') +
+    `</div><label class="pop-h" for="ccat">${esc(tx(c, 'colCat'))}</label><span class="sel"><select id="ccat" data-k="cat"><option value="">${esc(tx(c, 'allCats'))}</option>${cats}</select></span>` +
+    `<p class="pop-h" id="ph-sort">${esc(tx(c, 'sortBy'))}</p><div class="seg" role="group" aria-labelledby="ph-sort">${segLink(at({ sort: 'name' }), tx(c, 'sortName'), r.sort === 'name', 'sort-name')}${segLink(at({ sort: 'desc' }), tx(c, 'sortDesc'), r.sort === 'desc', 'sort-desc')}</div>` +
+    `<div class="pop-letters"><p class="pop-h" id="ph-l">${esc(tx(c, 'letters'))}</p><div class="lgrid" role="list" aria-labelledby="ph-l">${letters}</div></div>`;
+  const tokens = [
+    r.area ? tokenLink(c, at({ area: '' }), tx(c, 'colArea'), areaName(c, r.area)) : '',
+    r.cat ? tokenLink(c, at({ cat: '' }), tx(c, 'colCat'), r.cat) : '',
+    r.sort === 'desc' ? tokenLink(c, at({ sort: 'name' }), tx(c, 'sortBy'), tx(c, 'sortDesc')) : '',
+    r.letter ? tokenLink(c, at({ letter: '' }), tx(c, 'letter'), r.letter) : '',
+  ].filter(Boolean);
+  const n = tokens.length;
+  tools.innerHTML = `
+    <div class="t-left">
+      <details class="pop" id="cfilt"><summary class="fbtn" data-k="fbtn" aria-label="${esc(tx(c, 'filters') + (n ? ` (${n})` : ''))}">${ic('filter', 18)}<span>${esc(tx(c, 'filters'))}</span>${n ? `<span class="fn" aria-hidden="true">${n}</span>` : ''}</summary><div class="pop-in">${body}</div></details>
+      ${tokens.join('')}
+    </div>
+    <div class="t-right">
+      <span class="ccount" aria-live="polite">${esc(countText(c, res.total))}</span>
+      ${modeSeg(c)}
+      <button type="button" class="tbtn" data-act="copyview" data-k="copy">${ic('copy', 18)}<span>${esc(tx(c, 'copyView'))}</span></button>
+    </div>`;
+  if (wasOpen) (tools.querySelector('details') as HTMLDetailsElement).open = true;
+  if (focusK) tools.querySelector<HTMLElement>(`[data-k="${focusK}"]`)?.focus();
 
   const az = get('az');
   az.setAttribute('aria-label', tx(c, 'letters'));
   az.innerHTML =
-    `<a href="${esc(at({ letter: '' }))}" data-link${!r.letter ? ' aria-current="true"' : ''}>${esc(tx(c, 'all'))}</a>` +
+    `<a class="az-all" href="${esc(at({ letter: '' }))}" data-link${!r.letter ? ' aria-current="true"' : ''}>${esc(tx(c, 'all'))}</a>` +
     LETTERS.map((l) => {
-      const n = res.letterCounts[l] ?? 0;
-      const label = esc(`${l} · ${countText(c, n)}`);
-      if (!n) return `<span class="off" aria-label="${label}">${esc(l)}</span>`;
+      const k = res.letterCounts[l] ?? 0;
+      const label = esc(`${l} · ${countText(c, k)}`);
+      if (!k) return `<span class="off" aria-label="${label}">${esc(l)}</span>`;
       return `<a href="${esc(at({ letter: l }))}" data-link aria-label="${label}"${r.letter === l ? ' aria-current="true"' : ''}>${esc(l)}</a>`;
     }).join('');
 
   const table = get('ctable');
   if (!res.total) {
-    table.innerHTML = `<div class="panel empty"><strong>${esc(tx(c, 'noneCat'))}</strong></div>`;
+    table.innerHTML = noneHTML(c, r, at);
     return res;
   }
   const head = `<div class="chead" aria-hidden="true"><span class="c-n">#</span><span>${esc(tx(c, 'colTable'))}</span><span>${esc(tx(c, 'colDesc'))}</span><span>${esc(tx(c, tech ? 'colCat' : 'colArea'))}</span><span>${esc(tx(c, tech ? 'colDcl' : 'colKind'))}</span></div>`;
-  const rows = res.rows.map((t, i) => rowHTML(c, t, res.start + i + 1)).join('');
+  const rows = res.rows.map((t, i) => rowHTML(c, t, res.start + i + 1, r)).join('');
   table.innerHTML = `<div class="panel">${head}<ul class="rows">${rows}</ul></div>${pager(c, r, res)}${tech ? legend(c) : ''}`;
   return res;
 }
 
-function rowHTML(c: Ctx, t: TableSummary, n: number): string {
+/** A row: a link to the table's page (so Ctrl+click and "open in new tab" work); a plain click opens the sheet. */
+function rowHTML(c: Ctx, t: TableSummary, n: number, r: CatalogRoute): string {
   const meta =
     c.mode === 'tech'
       ? `<span class="mono">${esc(t.cat)}</span><span class="dot" aria-hidden="true">·</span><span><span class="mono">${esc(t.dcl)}</span> ${esc(dclName(c, t.dcl))}</span>`
       : `${areaBadge(c, t.area)}<span class="dot" aria-hidden="true">·</span><span>${esc(kindName(c, t.kind))}</span>`;
-  return `<li class="crow"><a class="cmain" href="${esc(tableHref(c, t.id))}" data-link><span class="c-n">${n}</span><span class="c-id">${esc(t.id)}</span><span class="c-title">${esc(loc(c, t.title))}</span><span class="c-meta">${meta}</span></a>${addButton(c, t.id)}</li>`;
+  const open = r.open === t.id ? ' aria-current="true"' : '';
+  return `<li class="crow"><a class="cmain" href="${esc(tableHref(c, t.id))}" data-link data-open="${esc(t.id)}" aria-haspopup="dialog"${open}><span class="c-n">${n}</span><span class="c-id">${highlight(t.id, r.q)}</span><span class="c-title">${highlight(loc(c, t.title), r.q)}</span><span class="c-meta">${meta}</span></a>${addButton(c, t.id)}</li>`;
+}
+
+/** Nothing matched: the words that found nothing, crossed out, and the ways on. */
+function noneHTML(c: Ctx, r: CatalogRoute, at: (o: Partial<CatalogRoute>) => string): string {
+  const filtered = !!(r.area || r.cat || r.letter);
+  const shown = r.q || r.letter || '—';
+  const title = r.q ? tx(c, 'none', { q: r.q }) : r.letter ? tx(c, 'noneLetter', { l: r.letter }) : tx(c, 'noneCat');
+  const go = (href: string, label: string) => `<a class="go" href="${esc(href)}" data-link><span>${esc(label)}</span>${ic('arrow', 18)}</a>`;
+  const ways = [
+    r.q ? go(at({ q: '' }), tx(c, 'clearText')) : '',
+    filtered ? go(at({ area: '', cat: '', letter: '' }), tx(c, 'clearFilters')) : '',
+    r.q ? go(routeHref({ name: 'search', lang: c.lang, q: r.q, area: '' }), tx(c, 'tryBiz', { q: r.q })) : '',
+  ].join('');
+  return `<div class="none">
+    <p class="none-q" aria-hidden="true">${esc(shown)}</p>
+    <h2>${esc(title)}</h2>
+    <p class="muted">${esc(tx(c, 'noneHelp'))}</p>
+    <div class="ways">${ways}</div>
+  </div>`;
 }
 
 function pager(c: Ctx, r: CatalogRoute, res: CatalogResult): string {
   if (res.pages < 2) return '';
-  const go = (page: number) => esc(routeHref({ ...r, page }));
+  const go = (page: number) => esc(routeHref({ ...r, page, open: '' }));
   const prev = res.page > 1
     ? `<a href="${go(res.page - 1)}" data-link>${ic('back', 16)}${esc(tx(c, 'prev'))}</a>`
     : `<span class="off">${ic('back', 16)}${esc(tx(c, 'prev'))}</span>`;

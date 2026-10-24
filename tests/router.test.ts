@@ -30,6 +30,12 @@ describe('router', () => {
     ];
     for (const r of routes) assert.deepEqual(parse(routeHref(r)), r, routeHref(r));
   });
+  it('remembers the table open in the side sheet', () => {
+    assert.equal((parse('/es/?open=vbak') as { open: string }).open, 'VBAK');
+    for (const r of [catalogRoute('es', { open: 'MARA' }), catalogRoute('pt', { area: 'sales', page: 2, q: 'pedido', open: '/SAPAPO/MATKEY' })]) {
+      assert.deepEqual(parse(routeHref(r)), r, routeHref(r));
+    }
+  });
   it('keeps the page when switching language', () => {
     assert.equal(routeHref(withLang({ name: 'table', lang: 'es', id: 'MARA' }, 'pt')), '/pt/table/MARA');
   });
