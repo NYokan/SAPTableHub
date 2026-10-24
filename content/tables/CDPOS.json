@@ -2,6 +2,7 @@
   "id": "CDPOS",
   "area": "gen",
   "contents": "items",
+  "component": "BC-SRV-ASF-CHD",
   "category": "CLUSTER",
   "deliveryClass": "A",
   "title": {

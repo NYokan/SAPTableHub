@@ -2,6 +2,7 @@
   "id": "KONV",
   "area": "sales",
   "contents": "doc",
+  "component": "SD-BF-PR",
   "category": "CLUSTER",
   "deliveryClass": "A",
   "title": {

@@ -1,0 +1,19 @@
+SAPTableHub
+Copyright 2026 SAPTableHub contributors
+
+This product includes data derived from SAP/abap-atc-cr-cv-s4hc
+(https://github.com/SAP/abap-atc-cr-cv-s4hc), file
+src/objectReleaseInfo_PCELatest.json:
+the names of SAP database tables and their application components.
+
+Copyright 2020-2025 SAP SE or an SAP affiliate company and
+abap-atc-cr-cv-s4hc contributors.
+Licensed under the Apache License, Version 2.0
+(http://www.apache.org/licenses/LICENSE-2.0).
+
+Only table names and application components were taken from that file.
+Titles, explanations and synonyms in content/ are original writing for
+this project and are not SAP's official descriptions.
+
+SAPTableHub is an independent project, not affiliated with SAP SE.
+SAP and S/4HANA are trademarks or registered trademarks of SAP SE.

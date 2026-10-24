@@ -2,6 +2,7 @@
   "id": "BSEG",
   "area": "fin",
   "contents": "items",
+  "component": "FI",
   "category": "CLUSTER",
   "deliveryClass": "A",
   "title": {

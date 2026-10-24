@@ -2,6 +2,7 @@
   "id": "SKA1",
   "area": "fin",
   "contents": "master",
+  "component": "FI",
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

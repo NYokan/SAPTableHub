@@ -2,6 +2,7 @@
   "id": "BKPF",
   "area": "fin",
   "contents": "header",
+  "component": "FI",
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

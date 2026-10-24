@@ -2,6 +2,7 @@
   "id": "VBAP",
   "area": "sales",
   "contents": "items",
+  "component": "SD-SLS",
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

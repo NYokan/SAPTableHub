@@ -2,6 +2,7 @@
   "id": "SKB1",
   "area": "fin",
   "contents": "master",
+  "component": "FI-GL-GL-N",
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

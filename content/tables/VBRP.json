@@ -2,6 +2,7 @@
   "id": "VBRP",
   "area": "sales",
   "contents": "items",
+  "component": "SD-BIL",
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

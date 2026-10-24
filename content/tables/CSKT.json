@@ -1,7 +1,8 @@
 {
   "id": "CSKT",
-  "area": "fin",
+  "area": "co",
   "contents": "text",
+  "component": "CO-OM",
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

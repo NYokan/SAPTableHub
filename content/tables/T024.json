@@ -2,6 +2,7 @@
   "id": "T024",
   "area": "purch",
   "contents": "config",
+  "component": "MM-PUR",
   "category": "TRANSP",
   "deliveryClass": "C",
   "title": {

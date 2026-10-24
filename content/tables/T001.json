@@ -2,6 +2,7 @@
   "id": "T001",
   "area": "fin",
   "contents": "config",
+  "component": "FI",
   "category": "TRANSP",
   "deliveryClass": "C",
   "title": {

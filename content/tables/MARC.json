@@ -2,6 +2,7 @@
   "id": "MARC",
   "area": "mat",
   "contents": "master",
+  "component": "LO-MD-MM",
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

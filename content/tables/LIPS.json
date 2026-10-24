@@ -2,6 +2,7 @@
   "id": "LIPS",
   "area": "sales",
   "contents": "items",
+  "component": "LE-SHP-GF",
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

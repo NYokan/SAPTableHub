@@ -59,13 +59,14 @@ public/               archivos que se publican tal cual (favicon, cabeceras de C
 
 ## Añadir o editar una tabla
 
-Crea `content/tables/NOMBRE.json`. Solo `id`, `area`, `contents`, `category`, `deliveryClass` y `title` son obligatorios:
+Crea `content/tables/NOMBRE.json`. Solo `id`, `area`, `contents` y `title` son obligatorios. `category` y `deliveryClass` se rellenan solo cuando se conocen con seguridad (si faltan, el sitio muestra «—» y la tabla se anota en `docs/pendientes.md`); `component` guarda el componente de aplicación de SAP (por ejemplo `SD-SLS`) y `s4only: true` marca las tablas que solo existen en S/4HANA:
 
 ```json
 {
   "id": "VBAK",
   "area": "sales",
   "contents": "header",
+  "component": "SD-SLS",
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": { "es": "Pedidos de venta (cabecera)", "en": "Sales orders (header)", "pt": "Pedidos de venda (cabeçalho)" },
@@ -115,5 +116,11 @@ El sitio no tiene `404.html`, así que Cloudflare Pages lo trata como una aplica
 ## Licencia
 
 Código bajo [Apache 2.0](LICENSE).
+
+### Atribución de los datos
+
+Los nombres de tabla y los componentes de aplicación de SAP proceden de [SAP/abap-atc-cr-cv-s4hc](https://github.com/SAP/abap-atc-cr-cv-s4hc) (archivo `src/objectReleaseInfo_PCELatest.json`), © SAP SE o una empresa filial de SAP y los colaboradores de abap-atc-cr-cv-s4hc, publicados bajo [Apache-2.0](http://www.apache.org/licenses/LICENSE-2.0). Ver [NOTICE](NOTICE).
+
+De ese archivo solo se toman los nombres y los componentes de aplicación. Los títulos, explicaciones y sinónimos de `content/` están escritos para este proyecto y no reproducen las descripciones oficiales de SAP. Las tablas que no figuran en esa lista se añadieron a mano; las que solo existen en S/4HANA llevan la marca «Solo S/4HANA».
 
 Proyecto independiente, sin relación con SAP SE. SAP es una marca registrada de SAP SE.

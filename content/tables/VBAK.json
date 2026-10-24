@@ -2,6 +2,7 @@
   "id": "VBAK",
   "area": "sales",
   "contents": "header",
+  "component": "SD-SLS",
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

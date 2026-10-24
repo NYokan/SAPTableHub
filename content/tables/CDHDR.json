@@ -2,6 +2,7 @@
   "id": "CDHDR",
   "area": "gen",
   "contents": "header",
+  "component": "BC-SRV-ASF-CHD",
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

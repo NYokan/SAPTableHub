@@ -2,6 +2,7 @@
   "id": "EBAN",
   "area": "purch",
   "contents": "items",
+  "component": "MM-PUR",
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

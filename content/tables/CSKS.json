@@ -1,7 +1,8 @@
 {
   "id": "CSKS",
-  "area": "fin",
+  "area": "co",
   "contents": "master",
+  "component": "CO-OM",
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {
