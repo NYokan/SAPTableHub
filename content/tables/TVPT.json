@@ -1,0 +1,50 @@
+{
+  "id": "TVPT",
+  "area": "sales",
+  "contents": "config",
+  "component": "FI-AR-AR",
+  "category": "TRANSP",
+  "title": {
+    "es": "Tipos de posición: objeto de uso",
+    "en": "Item categories: object of use",
+    "pt": "Tipos de item: objeto de uso"
+  },
+  "purpose": {
+    "es": "Indica, para cada tipo de posición de los documentos de ventas, el objeto para el que se definió. Complementa la configuración de los tipos de posición de TVAP.",
+    "en": "States, for each item category of sales documents, the object it was defined for. It complements the item category settings in TVAP.",
+    "pt": "Indica, para cada tipo de item dos documentos de vendas, o objeto para o qual foi definido. Complementa a configuração dos tipos de item da TVAP."
+  },
+  "synonyms": {
+    "es": [
+      "tipo de posición",
+      "categoría de posición"
+    ],
+    "en": [
+      "item category"
+    ],
+    "pt": [
+      "tipo de item",
+      "categoria de item"
+    ]
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "PSTYV",
+      "key": true
+    },
+    {
+      "name": "PSTYO"
+    }
+  ],
+  "relations": [
+    {
+      "table": "TVAP",
+      "type": "config",
+      "on": "PSTYV"
+    }
+  ]
+}

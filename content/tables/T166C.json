@@ -1,0 +1,59 @@
+{
+  "id": "T166C",
+  "area": "purch",
+  "contents": "config",
+  "component": "MM-PUR",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Compras: cambios que se imprimen",
+    "en": "Purchasing: changes that are printed",
+    "pt": "Compras: modificações que são impressas"
+  },
+  "purpose": {
+    "es": "Qué campos de los documentos de compras, al modificarse, deben aparecer en la impresión de cambios que se envía al proveedor (en pedidos, solicitudes de oferta, contratos o planes de entrega), y con qué texto se anuncia el cambio.",
+    "en": "Which fields of purchasing documents, when changed, must appear in the change printout sent to the vendor (in purchase orders, RFQs, contracts or scheduling agreements), and the text that announces the change.",
+    "pt": "Quais campos dos documentos de compras, ao serem modificados, devem aparecer na impressão de modificações enviada ao fornecedor (em pedidos, solicitações de cotação, contratos ou programas de remessa), e com que texto a modificação é anunciada."
+  },
+  "synonyms": {
+    "es": [
+      "impresión de modificaciones",
+      "cambios relevantes para impresión"
+    ],
+    "en": [
+      "change printout",
+      "print-relevant changes"
+    ],
+    "pt": [
+      "impressão de modificações",
+      "modificações relevantes para impressão"
+    ]
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "TNAME",
+      "key": true
+    },
+    {
+      "name": "FNAME",
+      "key": true
+    },
+    {
+      "name": "XBEST"
+    },
+    {
+      "name": "CTXNR"
+    }
+  ],
+  "relations": [
+    {
+      "table": "T166T",
+      "type": "text",
+      "on": "CTXNR"
+    }
+  ]
+}

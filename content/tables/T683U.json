@@ -57,5 +57,12 @@
       "name": "VTEXT",
       "type": "CHAR 30"
     }
+  ],
+  "relations": [
+    {
+      "table": "T683T",
+      "type": "rel",
+      "on": "KVEWE + KAPPL + KALSM"
+    }
   ]
 }

@@ -1,0 +1,74 @@
+{
+  "id": "DD07T",
+  "area": "gen",
+  "contents": "text",
+  "component": "BC-DWB-DIC-AC",
+  "category": "TRANSP",
+  "title": {
+    "es": "Diccionario: textos de los valores fijos",
+    "en": "Dictionary: fixed value texts",
+    "pt": "Dicionário: textos dos valores fixos"
+  },
+  "purpose": {
+    "es": "El significado de cada valor fijo de un dominio en cada idioma. Sirve para traducir códigos de una letra o dos (estados, indicadores, tipos) a su descripción en informes y extracciones.",
+    "en": "The meaning of each fixed value of a domain in each language. It is used to translate one- or two-letter codes (statuses, indicators, types) into their description in reports and extracts.",
+    "pt": "O significado de cada valor fixo de um domínio em cada idioma. Serve para traduzir códigos de uma ou duas letras (status, indicadores, tipos) em sua descrição em relatórios e extrações."
+  },
+  "synonyms": {
+    "es": [
+      "texto de valor fijo",
+      "significado del código",
+      "descripción del valor"
+    ],
+    "en": [
+      "fixed value text",
+      "code meaning",
+      "value description"
+    ],
+    "pt": [
+      "texto de valor fixo",
+      "significado do código",
+      "descrição do valor"
+    ]
+  },
+  "fields": [
+    {
+      "name": "DOMNAME",
+      "key": true
+    },
+    {
+      "name": "DDLANGUAGE",
+      "key": true
+    },
+    {
+      "name": "AS4LOCAL",
+      "key": true
+    },
+    {
+      "name": "VALPOS",
+      "key": true
+    },
+    {
+      "name": "AS4VERS",
+      "key": true
+    },
+    {
+      "name": "DDTEXT",
+      "label": {
+        "es": "Texto del valor",
+        "en": "Value text",
+        "pt": "Texto do valor"
+      }
+    },
+    {
+      "name": "DOMVALUE_L"
+    }
+  ],
+  "relations": [
+    {
+      "table": "DD07L",
+      "type": "rel",
+      "on": "DOMNAME + VALPOS"
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "id": "DD07L",
+  "area": "gen",
+  "contents": "config",
+  "component": "BC-DWB-DIC-AC",
+  "category": "TRANSP",
+  "title": {
+    "es": "Diccionario: valores fijos de los dominios",
+    "en": "Dictionary: domain fixed values",
+    "pt": "Dicionário: valores fixos dos domínios"
+  },
+  "purpose": {
+    "es": "Los valores permitidos de cada dominio que tiene una lista fija (por ejemplo, los posibles estados de un documento), uno por fila, o el rango si se definen con límite inferior y superior. Sus textos están en DD07T.",
+    "en": "The allowed values of each domain that has a fixed list (for example, the possible statuses of a document), one per row, or the range when defined with a lower and upper limit. Their texts are in DD07T.",
+    "pt": "Os valores permitidos de cada domínio que tem uma lista fixa (por exemplo, os possíveis status de um documento), um por linha, ou o intervalo quando definidos com limite inferior e superior. Seus textos estão na DD07T."
+  },
+  "synonyms": {
+    "es": [
+      "valores fijos",
+      "valores del dominio",
+      "lista de valores permitidos"
+    ],
+    "en": [
+      "fixed values",
+      "domain values",
+      "allowed values"
+    ],
+    "pt": [
+      "valores fixos",
+      "valores do domínio",
+      "lista de valores permitidos"
+    ]
+  },
+  "fields": [
+    {
+      "name": "DOMNAME",
+      "key": true
+    },
+    {
+      "name": "AS4LOCAL",
+      "key": true
+    },
+    {
+      "name": "VALPOS",
+      "key": true
+    },
+    {
+      "name": "AS4VERS",
+      "key": true
+    },
+    {
+      "name": "DOMVALUE_L"
+    },
+    {
+      "name": "DOMVALUE_H"
+    }
+  ],
+  "relations": [
+    {
+      "table": "DD07T",
+      "type": "text",
+      "on": "DOMNAME + VALPOS"
+    }
+  ]
+}

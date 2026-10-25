@@ -1,0 +1,49 @@
+{
+  "id": "TDEVC",
+  "area": "gen",
+  "contents": "master",
+  "component": "BC-CTS-ORG",
+  "category": "TRANSP",
+  "title": {
+    "es": "Paquetes de desarrollo",
+    "en": "Development packages",
+    "pt": "Pacotes de desenvolvimento"
+  },
+  "purpose": {
+    "es": "Los paquetes en los que se agrupan los objetos de desarrollo, con su componente de software, su componente de aplicación, su paquete superior y su responsable.",
+    "en": "The packages that group development objects, with their software component, application component, parent package and person responsible.",
+    "pt": "Os pacotes que agrupam os objetos de desenvolvimento, com seu componente de software, componente de aplicação, pacote superior e responsável."
+  },
+  "synonyms": {
+    "es": [
+      "paquete",
+      "clase de desarrollo"
+    ],
+    "en": [
+      "package",
+      "development class"
+    ],
+    "pt": [
+      "pacote",
+      "classe de desenvolvimento"
+    ]
+  },
+  "fields": [
+    {
+      "name": "DEVCLASS",
+      "key": true
+    },
+    {
+      "name": "DLVUNIT"
+    },
+    {
+      "name": "COMPONENT"
+    },
+    {
+      "name": "PARENTCL"
+    },
+    {
+      "name": "AS4USER"
+    }
+  ]
+}

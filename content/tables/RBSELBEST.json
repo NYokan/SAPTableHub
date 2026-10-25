@@ -1,0 +1,71 @@
+{
+  "id": "RBSELBEST",
+  "area": "purch",
+  "contents": "doc",
+  "component": "MM-IV-LIV",
+  "category": "TRANSP",
+  "deliveryClass": "A",
+  "title": {
+    "es": "Verificación de facturas: pedidos seleccionados",
+    "en": "Invoice verification: selected purchase orders",
+    "pt": "Verificação de faturas: pedidos selecionados"
+  },
+  "purpose": {
+    "es": "Los pedidos de compra (y sus posiciones) que se seleccionaron al registrar una factura de proveedor en la verificación de facturas logística. Permite ver con qué pedidos se asignó una factura.",
+    "en": "The purchase orders (and their items) selected when entering a vendor invoice in logistics invoice verification. It shows which orders an invoice was assigned to.",
+    "pt": "Os pedidos de compra (e seus itens) selecionados ao registrar uma fatura de fornecedor na verificação de faturas logística. Mostra a quais pedidos uma fatura foi atribuída."
+  },
+  "synonyms": {
+    "es": [
+      "pedidos de la factura",
+      "selección de pedidos en factura"
+    ],
+    "en": [
+      "invoice purchase orders",
+      "purchase order selection for invoice"
+    ],
+    "pt": [
+      "pedidos da fatura",
+      "seleção de pedidos na fatura"
+    ]
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "BELNR",
+      "key": true,
+      "label": {
+        "es": "Número de factura",
+        "en": "Invoice number",
+        "pt": "Número da fatura"
+      }
+    },
+    {
+      "name": "GJAHR",
+      "key": true
+    },
+    {
+      "name": "EBELN",
+      "key": true
+    },
+    {
+      "name": "EBELP",
+      "key": true
+    }
+  ],
+  "relations": [
+    {
+      "table": "RBKP",
+      "type": "header",
+      "on": "BELNR + GJAHR"
+    },
+    {
+      "table": "EKPO",
+      "type": "rel",
+      "on": "EBELN + EBELP"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "id": "TTYPT",
+  "area": "fin",
+  "contents": "text",
+  "component": "FI",
+  "category": "TRANSP",
+  "title": {
+    "es": "Operaciones de referencia: nombres",
+    "en": "Reference transactions: names",
+    "pt": "Operações de referência: nomes"
+  },
+  "purpose": {
+    "es": "El nombre, en cada idioma, de cada operación de referencia (el campo AWTYP de BKPF), que indica de qué tipo de documento de origen viene un asiento contable: factura de ventas, factura de proveedor, movimiento de mercancías, etc.",
+    "en": "The name, in each language, of each reference transaction (field AWTYP in BKPF), which tells what kind of source document an accounting entry comes from: sales invoice, vendor invoice, goods movement, etc.",
+    "pt": "O nome, em cada idioma, de cada operação de referência (o campo AWTYP da BKPF), que indica de que tipo de documento de origem vem um lançamento contábil: fatura de vendas, fatura de fornecedor, movimento de mercadorias etc."
+  },
+  "synonyms": {
+    "es": [
+      "origen del documento contable",
+      "tipo de objeto de referencia"
+    ],
+    "en": [
+      "accounting document origin",
+      "reference object type"
+    ],
+    "pt": [
+      "origem do documento contábil",
+      "tipo de objeto de referência"
+    ]
+  },
+  "fields": [
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "AWTYP",
+      "key": true
+    },
+    {
+      "name": "OTEXT"
+    }
+  ],
+  "relations": [
+    {
+      "table": "BKPF",
+      "type": "rel",
+      "on": "AWTYP"
+    }
+  ]
+}

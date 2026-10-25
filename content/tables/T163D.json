@@ -1,0 +1,48 @@
+{
+  "id": "T163D",
+  "area": "purch",
+  "contents": "config",
+  "component": "MM-PUR",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Clases de confirmación: interna y externa",
+    "en": "Confirmation categories: internal and external",
+    "pt": "Categorias de confirmação: interna e externa"
+  },
+  "purpose": {
+    "es": "Asigna a cada clase de confirmación interna (por ejemplo, la entrega entrante) la clase de confirmación que se usa en los pedidos y la clase de entrega que se crea con ella.",
+    "en": "Assigns to each internal confirmation category (for example, the inbound delivery) the confirmation category used in purchase orders and the delivery type created with it.",
+    "pt": "Atribui a cada categoria de confirmação interna (por exemplo, a entrega de entrada) a categoria de confirmação usada nos pedidos e o tipo de entrega criado com ela."
+  },
+  "synonyms": {
+    "es": [
+      "confirmación de pedido",
+      "clase de confirmación interna"
+    ],
+    "en": [
+      "order confirmation",
+      "internal confirmation category"
+    ],
+    "pt": [
+      "confirmação de pedido",
+      "categoria de confirmação interna"
+    ]
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "IBTYP",
+      "key": true
+    },
+    {
+      "name": "EBTYP"
+    },
+    {
+      "name": "LFART"
+    }
+  ]
+}

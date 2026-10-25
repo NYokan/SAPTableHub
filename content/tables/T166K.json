@@ -1,0 +1,68 @@
+{
+  "id": "T166K",
+  "area": "purch",
+  "contents": "config",
+  "component": "MM-PUR",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Compras: textos de cabecera en la impresión",
+    "en": "Purchasing: header texts in printouts",
+    "pt": "Compras: textos de cabeçalho na impressão"
+  },
+  "purpose": {
+    "es": "Qué textos de cabecera se imprimen en cada clase de documento de compras y en qué orden, según la operación de impresión (documento nuevo, modificación…).",
+    "en": "Which header texts are printed for each purchasing document type and in what order, depending on the print operation (new document, change…).",
+    "pt": "Quais textos de cabeçalho são impressos em cada tipo de documento de compras e em que ordem, conforme a operação de impressão (documento novo, modificação…)."
+  },
+  "synonyms": {
+    "es": [
+      "textos impresos del pedido",
+      "texto de cabecera en impresión"
+    ],
+    "en": [
+      "printed order texts",
+      "header text in printout"
+    ],
+    "pt": [
+      "textos impressos do pedido",
+      "texto de cabeçalho na impressão"
+    ]
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "DRUVO",
+      "key": true
+    },
+    {
+      "name": "BSTYP",
+      "key": true
+    },
+    {
+      "name": "BSART",
+      "key": true
+    },
+    {
+      "name": "TDOBJECT",
+      "key": true
+    },
+    {
+      "name": "TDID",
+      "key": true
+    },
+    {
+      "name": "DRFLG"
+    }
+  ],
+  "relations": [
+    {
+      "table": "T161",
+      "type": "config",
+      "on": "BSTYP + BSART"
+    }
+  ]
+}

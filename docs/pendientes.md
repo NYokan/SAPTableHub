@@ -127,7 +127,7 @@ Las explicaciones de las tablas de texto (…T) siguen una plantilla común y al
 
 ## Tablas sin campos (80)
 
-921 de las 1.001 tablas tienen su clave completa y sus campos principales. Los nombres, las claves y los tipos de todas ellas, salvo cuatro de S/4HANA, se contrastaron con la referencia pública del diccionario de ECC 6.0 de leanx.eu. Quedan sin campos:
+938 de las 1.018 tablas tienen su clave completa y sus campos principales. Los nombres, las claves y los tipos de todas ellas, salvo cuatro de S/4HANA, se contrastaron con la referencia pública del diccionario de ECC 6.0 de leanx.eu. Quedan sin campos:
 
 - **Solo S/4HANA, sin referencia pública con la que contrastar** (19): `ACDOCA_M_EXTRACT`, `ACDOCP`, `FAAT_DOC_IT`, `FAAT_PLAN_VALUES`, `FAAT_YDDA`, `FINSC_LD_CMP`, `FINSC_LEDGER`, `FINSC_LEDGER_T`, `FQM_FLOW`, `MATDOC`, `MATDOC_EXTRACT`, `MLDOC`, `MLDOCCCS`, `MLDOC_EXTRACT`, `PPH_DBVM`, `/SCWM/AQUA`, `/SCWM/LAGP`, `/SCWM/ORDIM_C`, `/SCWM/ORDIM_O`. Los campos de `ACDOCA`, `PRCD_ELEMENTS`, `/SCMTMS/D_TORITE` y `/SCMTMS/D_TORROT` se escribieron sin poder contrastarlos.
 - **No se tenía claro el significado de algún campo** (61):
@@ -158,3 +158,11 @@ Estas tablas se prepararon pero se quitaron antes de entrar en `content/`:
 - En `DOST` y `QAKL` se quitó la clase de entrega por no tener seguridad.
 
 Algunas dudas de la sección anterior mencionan estas tablas: ya no están en el sitio.
+
+## Contraste con la lista oficial de SAP
+
+De las 271 tablas de base de datos de `objectReleaseInfo_PCELatest.json` (las que no están liberadas para la nube; las liberadas son casi todas estructuras), el sitio tiene 265. Se añadieron DD04T, DD07L, DD07T, RBSELBEST, T163D, T166C, T166K, T166P, T166T, T683T, TADIR, TDEVC, TTYPT, TVCIN, TVCINT, TVPT y VBFS, con campos contrastados en leanx.eu. Quedan fuera:
+
+- BAPIRET1, BAPIRETURN, BAPIRETURN1, LDBCB y SCX_SRCPOS: son estructuras, no tablas.
+- EHEWAD_WA_TRRQLA (gestión de residuos de EHS, solo S/4HANA): no hay referencia pública con la que escribir su ficha.
+- TVPT: la categoría de entrega y el sentido exacto de PSTYO están por confirmar.

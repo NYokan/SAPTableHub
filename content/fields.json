@@ -18118,5 +18118,317 @@
       "en": "Due date",
       "pt": "Data de vencimento"
     }
+  },
+  "ROLLNAME": {
+    "type": "CHAR 30",
+    "label": {
+      "es": "Elemento de datos",
+      "en": "Data element",
+      "pt": "Elemento de dados"
+    }
+  },
+  "DDLANGUAGE": {
+    "type": "LANG 1",
+    "label": {
+      "es": "Idioma",
+      "en": "Language",
+      "pt": "Idioma"
+    }
+  },
+  "AS4LOCAL": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Estado de activación",
+      "en": "Activation status",
+      "pt": "Status de ativação"
+    }
+  },
+  "AS4VERS": {
+    "type": "NUMC 4",
+    "label": {
+      "es": "Versión de la entrada",
+      "en": "Entry version",
+      "pt": "Versão da entrada"
+    }
+  },
+  "DDTEXT": {
+    "type": "CHAR 60",
+    "label": {
+      "es": "Descripción breve",
+      "en": "Short description",
+      "pt": "Descrição breve"
+    }
+  },
+  "REPTEXT": {
+    "type": "CHAR 55",
+    "label": {
+      "es": "Encabezado de columna",
+      "en": "Column heading",
+      "pt": "Cabeçalho de coluna"
+    }
+  },
+  "SCRTEXT_S": {
+    "type": "CHAR 10",
+    "label": {
+      "es": "Etiqueta corta",
+      "en": "Short label",
+      "pt": "Rótulo curto"
+    }
+  },
+  "SCRTEXT_M": {
+    "type": "CHAR 20",
+    "label": {
+      "es": "Etiqueta media",
+      "en": "Medium label",
+      "pt": "Rótulo médio"
+    }
+  },
+  "SCRTEXT_L": {
+    "type": "CHAR 40",
+    "label": {
+      "es": "Etiqueta larga",
+      "en": "Long label",
+      "pt": "Rótulo longo"
+    }
+  },
+  "DOMNAME": {
+    "type": "CHAR 30",
+    "label": {
+      "es": "Dominio",
+      "en": "Domain",
+      "pt": "Domínio"
+    }
+  },
+  "VALPOS": {
+    "type": "NUMC 4",
+    "label": {
+      "es": "Posición del valor",
+      "en": "Value position",
+      "pt": "Posição do valor"
+    }
+  },
+  "DOMVALUE_L": {
+    "type": "CHAR 10",
+    "label": {
+      "es": "Valor (o límite inferior)",
+      "en": "Value (or lower limit)",
+      "pt": "Valor (ou limite inferior)"
+    }
+  },
+  "DOMVALUE_H": {
+    "type": "CHAR 10",
+    "label": {
+      "es": "Límite superior",
+      "en": "Upper limit",
+      "pt": "Limite superior"
+    }
+  },
+  "IBTYP": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Clase de confirmación interna",
+      "en": "Internal confirmation category",
+      "pt": "Categoria de confirmação interna"
+    }
+  },
+  "TNAME": {
+    "type": "CHAR 30",
+    "label": {
+      "es": "Nombre de la tabla",
+      "en": "Table name",
+      "pt": "Nome da tabela"
+    }
+  },
+  "XBEST": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Relevante para la impresión",
+      "en": "Relevant for printing",
+      "pt": "Relevante para impressão"
+    }
+  },
+  "CTXNR": {
+    "type": "CHAR 10",
+    "label": {
+      "es": "Número de texto de modificación",
+      "en": "Change text number",
+      "pt": "Número do texto de modificação"
+    }
+  },
+  "DRUVO": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Operación de impresión",
+      "en": "Print operation",
+      "pt": "Operação de impressão"
+    }
+  },
+  "DRFLG": {
+    "type": "NUMC 2",
+    "label": {
+      "es": "Orden de impresión",
+      "en": "Print sequence",
+      "pt": "Ordem de impressão"
+    }
+  },
+  "CHTXT": {
+    "type": "CHAR 30",
+    "label": {
+      "es": "Texto del cambio impreso",
+      "en": "Printed change text",
+      "pt": "Texto da modificação impresso"
+    }
+  },
+  "PGMID": {
+    "type": "CHAR 4",
+    "label": {
+      "es": "ID de programa",
+      "en": "Program ID",
+      "pt": "ID de programa"
+    }
+  },
+  "OBJ_NAME": {
+    "type": "CHAR 40",
+    "label": {
+      "es": "Nombre del objeto",
+      "en": "Object name",
+      "pt": "Nome do objeto"
+    }
+  },
+  "AUTHOR": {
+    "type": "CHAR 12",
+    "label": {
+      "es": "Responsable",
+      "en": "Person responsible",
+      "pt": "Responsável"
+    }
+  },
+  "DEVCLASS": {
+    "type": "CHAR 30",
+    "label": {
+      "es": "Paquete",
+      "en": "Package",
+      "pt": "Pacote"
+    }
+  },
+  "SRCSYSTEM": {
+    "type": "CHAR 10",
+    "label": {
+      "es": "Sistema de origen",
+      "en": "Original system",
+      "pt": "Sistema de origem"
+    }
+  },
+  "MASTERLANG": {
+    "type": "LANG 1",
+    "label": {
+      "es": "Idioma original",
+      "en": "Original language",
+      "pt": "Idioma original"
+    }
+  },
+  "DLVUNIT": {
+    "type": "CHAR 30",
+    "label": {
+      "es": "Componente de software",
+      "en": "Software component",
+      "pt": "Componente de software"
+    }
+  },
+  "COMPONENT": {
+    "type": "CHAR 20",
+    "label": {
+      "es": "Componente de aplicación",
+      "en": "Application component",
+      "pt": "Componente de aplicação"
+    }
+  },
+  "PARENTCL": {
+    "type": "CHAR 30",
+    "label": {
+      "es": "Paquete superior",
+      "en": "Parent package",
+      "pt": "Pacote superior"
+    }
+  },
+  "AS4USER": {
+    "type": "CHAR 12",
+    "label": {
+      "es": "Responsable",
+      "en": "Person responsible",
+      "pt": "Responsável"
+    }
+  },
+  "OTEXT": {
+    "type": "CHAR 20",
+    "label": {
+      "es": "Nombre del tipo de objeto",
+      "en": "Object type name",
+      "pt": "Nome do tipo de objeto"
+    }
+  },
+  "FNCHK": {
+    "type": "CHAR 30",
+    "label": {
+      "es": "Función de verificación de la tarjeta",
+      "en": "Card check function",
+      "pt": "Função de verificação do cartão"
+    }
+  },
+  "TGVAL": {
+    "type": "NUMC 3",
+    "label": {
+      "es": "Validez de la autorización",
+      "en": "Authorization validity",
+      "pt": "Validade da autorização"
+    }
+  },
+  "PSTYO": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Objeto del tipo de posición",
+      "en": "Item category object",
+      "pt": "Objeto do tipo de item"
+    }
+  },
+  "SAMMG": {
+    "type": "CHAR 10",
+    "label": {
+      "es": "Grupo de procesamiento",
+      "en": "Processing group",
+      "pt": "Grupo de processamento"
+    }
+  },
+  "MSGID": {
+    "type": "CHAR 20",
+    "label": {
+      "es": "Clase de mensaje",
+      "en": "Message class",
+      "pt": "Classe de mensagem"
+    }
+  },
+  "MSGNO": {
+    "type": "CHAR 3",
+    "label": {
+      "es": "Número de mensaje",
+      "en": "Message number",
+      "pt": "Número da mensagem"
+    }
+  },
+  "MSGTY": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Tipo de mensaje",
+      "en": "Message type",
+      "pt": "Tipo de mensagem"
+    }
+  },
+  "MSGV1": {
+    "type": "CHAR 50",
+    "label": {
+      "es": "Variable del mensaje 1",
+      "en": "Message variable 1",
+      "pt": "Variável da mensagem 1"
+    }
   }
 }

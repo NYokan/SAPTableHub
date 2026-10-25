@@ -1,0 +1,56 @@
+{
+  "id": "T166T",
+  "area": "purch",
+  "contents": "text",
+  "component": "MM-PUR",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Compras: textos de los cambios impresos",
+    "en": "Purchasing: texts of printed changes",
+    "pt": "Compras: textos das modificações impressas"
+  },
+  "purpose": {
+    "es": "El texto, en cada idioma, con el que la impresión de cambios de un documento de compras anuncia qué se modificó (por ejemplo, «Nueva fecha de entrega»). Lo usan los campos definidos en T166C.",
+    "en": "The text, in each language, with which the change printout of a purchasing document announces what was changed (for example, \"New delivery date\"). It is used by the fields defined in T166C.",
+    "pt": "O texto, em cada idioma, com que a impressão de modificações de um documento de compras anuncia o que foi alterado (por exemplo, «Nova data de entrega»). É usado pelos campos definidos na T166C."
+  },
+  "synonyms": {
+    "es": [
+      "texto de modificación",
+      "aviso de cambio impreso"
+    ],
+    "en": [
+      "change text",
+      "printed change notice"
+    ],
+    "pt": [
+      "texto de modificação",
+      "aviso de modificação impresso"
+    ]
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "CTXNR",
+      "key": true
+    },
+    {
+      "name": "CHTXT"
+    }
+  ],
+  "relations": [
+    {
+      "table": "T166C",
+      "type": "rel",
+      "on": "CTXNR"
+    }
+  ]
+}

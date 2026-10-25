@@ -1,0 +1,68 @@
+{
+  "id": "TADIR",
+  "area": "gen",
+  "contents": "master",
+  "component": "BC-CTS-ORG",
+  "category": "TRANSP",
+  "title": {
+    "es": "Directorio de objetos del repositorio",
+    "en": "Directory of repository objects",
+    "pt": "Diretório de objetos do repositório"
+  },
+  "purpose": {
+    "es": "Una fila por cada objeto de desarrollo del sistema (programas, tablas, clases, funciones…), con su paquete, su responsable, su sistema de origen y su idioma original. Sirve para saber a qué paquete pertenece un objeto o qué objetos creó el cliente.",
+    "en": "One row for each development object in the system (programs, tables, classes, functions…), with its package, the person responsible, its original system and its original language. It is used to find which package an object belongs to or which objects the customer created.",
+    "pt": "Uma linha para cada objeto de desenvolvimento do sistema (programas, tabelas, classes, funções…), com seu pacote, o responsável, o sistema de origem e o idioma original. Serve para saber a que pacote pertence um objeto ou quais objetos o cliente criou."
+  },
+  "synonyms": {
+    "es": [
+      "objetos de desarrollo",
+      "catálogo de objetos",
+      "objeto del repositorio"
+    ],
+    "en": [
+      "development objects",
+      "object catalog",
+      "repository object"
+    ],
+    "pt": [
+      "objetos de desenvolvimento",
+      "catálogo de objetos",
+      "objeto do repositório"
+    ]
+  },
+  "fields": [
+    {
+      "name": "PGMID",
+      "key": true
+    },
+    {
+      "name": "OBJECT",
+      "key": true,
+      "type": "CHAR 4"
+    },
+    {
+      "name": "OBJ_NAME",
+      "key": true
+    },
+    {
+      "name": "DEVCLASS"
+    },
+    {
+      "name": "AUTHOR"
+    },
+    {
+      "name": "SRCSYSTEM"
+    },
+    {
+      "name": "MASTERLANG"
+    }
+  ],
+  "relations": [
+    {
+      "table": "TDEVC",
+      "type": "master",
+      "on": "DEVCLASS"
+    }
+  ]
+}

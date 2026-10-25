@@ -1,0 +1,72 @@
+{
+  "id": "T166P",
+  "area": "purch",
+  "contents": "config",
+  "component": "MM-PUR",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Compras: textos de posición en la impresión",
+    "en": "Purchasing: item texts in printouts",
+    "pt": "Compras: textos de item na impressão"
+  },
+  "purpose": {
+    "es": "Qué textos de posición se imprimen en cada clase de documento de compras y tipo de posición, y en qué orden, según la operación de impresión.",
+    "en": "Which item texts are printed for each purchasing document type and item category, and in what order, depending on the print operation.",
+    "pt": "Quais textos de item são impressos em cada tipo de documento de compras e categoria de item, e em que ordem, conforme a operação de impressão."
+  },
+  "synonyms": {
+    "es": [
+      "textos de posición impresos",
+      "texto de posición en impresión"
+    ],
+    "en": [
+      "printed item texts",
+      "item text in printout"
+    ],
+    "pt": [
+      "textos de item impressos",
+      "texto de item na impressão"
+    ]
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "DRUVO",
+      "key": true
+    },
+    {
+      "name": "BSTYP",
+      "key": true
+    },
+    {
+      "name": "BSART",
+      "key": true
+    },
+    {
+      "name": "PSTYP",
+      "key": true
+    },
+    {
+      "name": "TDOBJECT",
+      "key": true
+    },
+    {
+      "name": "TDID",
+      "key": true
+    },
+    {
+      "name": "DRFLG"
+    }
+  ],
+  "relations": [
+    {
+      "table": "T161",
+      "type": "config",
+      "on": "BSTYP + BSART"
+    }
+  ]
+}

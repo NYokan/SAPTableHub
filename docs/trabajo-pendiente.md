@@ -16,9 +16,9 @@ Claude Code bloqueó estas acciones por afectar a la rama principal o borrar ram
 
 ## Contenido
 
-- **Campos y relaciones.** 921 de las 1.001 tablas tienen su clave completa y sus campos principales, y 453 tienen relaciones. Nombres, claves y tipos se contrastaron con la referencia pública del diccionario de ECC 6.0 de leanx.eu (el 95 % de las claves escritas de memoria eran exactas; el resto se corrigió). Faltan 80 tablas: 19 de S/4HANA sin referencia pública y 61 en las que no se tenía claro el significado de algún campo. Las relaciones de las tablas añadidas en la segunda pasada están por hacer. Una extracción de un sistema real (DD03L, DD04T, DD08L) permitiría completar y confirmar todo, incluidas las etiquetas oficiales.
+- **Campos y relaciones.** 938 de las 1.018 tablas tienen su clave completa y sus campos principales, y 467 tienen relaciones. Nombres, claves y tipos se contrastaron con la referencia pública del diccionario de ECC 6.0 de leanx.eu (el 95 % de las claves escritas de memoria eran exactas; el resto se corrigió). Faltan 80 tablas: 19 de S/4HANA sin referencia pública y 61 en las que no se tenía claro el significado de algún campo. Las relaciones de las tablas añadidas en la segunda pasada están por hacer. Una extracción de un sistema real (DD03L, DD04T, DD08L) permitiría completar y confirmar todo, incluidas las etiquetas oficiales.
 - **Espacio en `main`.** `src/views/common.ts:29` dice `tableHref =(` en `main`; en `concepto-tabla` ya está corregido y se arregla al integrar.
-- **Explicaciones.** 991 de 1.001 tablas tienen explicación y sinónimos. Las 10 restantes y las que conviene repasar están en `pendientes.md`.
+- **Explicaciones.** 1.008 de 1.018 tablas tienen explicación y sinónimos. Las 10 restantes y las que conviene repasar están en `pendientes.md`.
 - **Lista oficial de SAP.** De las 271 tablas clásicas de la lista de liberación de objetos, 249 están en el sitio; las 22 restantes se descartaron a propósito (vistas, tablas de sistema o contenido dudoso).
 - **Más tablas.** Se pueden añadir cuando se puedan verificar; no se rellenó con tablas dudosas.
 

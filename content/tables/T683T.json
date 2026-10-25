@@ -1,0 +1,73 @@
+{
+  "id": "T683T",
+  "area": "sales",
+  "contents": "text",
+  "component": "SD-BF-PR",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Esquemas de cálculo: textos de los pasos",
+    "en": "Pricing procedures: step texts",
+    "pt": "Esquemas de cálculo: textos das etapas"
+  },
+  "purpose": {
+    "es": "La descripción, en cada idioma, de cada paso de un esquema de cálculo (por ejemplo, «Precio bruto» o «Subtotal»). Los pasos se definen en T683S; el nombre del esquema está en T683U.",
+    "en": "The description, in each language, of each step of a pricing procedure (for example, \"Gross price\" or \"Subtotal\"). The steps are defined in T683S; the name of the procedure is in T683U.",
+    "pt": "A descrição, em cada idioma, de cada etapa de um esquema de cálculo (por exemplo, «Preço bruto» ou «Subtotal»). As etapas são definidas na T683S; o nome do esquema está na T683U."
+  },
+  "synonyms": {
+    "es": [
+      "texto del paso del esquema",
+      "descripción del subtotal"
+    ],
+    "en": [
+      "pricing step text",
+      "subtotal description"
+    ],
+    "pt": [
+      "texto da etapa do esquema",
+      "descrição do subtotal"
+    ]
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "KVEWE",
+      "key": true
+    },
+    {
+      "name": "KAPPL",
+      "key": true
+    },
+    {
+      "name": "KALSM",
+      "key": true
+    },
+    {
+      "name": "STUNR",
+      "key": true
+    },
+    {
+      "name": "ZAEHK",
+      "key": true
+    },
+    {
+      "name": "VTEXT",
+      "type": "CHAR 30"
+    }
+  ],
+  "relations": [
+    {
+      "table": "T683S",
+      "type": "config",
+      "on": "KVEWE + KAPPL + KALSM + STUNR + ZAEHK"
+    }
+  ]
+}

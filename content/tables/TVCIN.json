@@ -1,0 +1,55 @@
+{
+  "id": "TVCIN",
+  "area": "sales",
+  "contents": "config",
+  "component": "SD-BIL-GF",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Tarjetas de pago: tipos",
+    "en": "Payment cards: types",
+    "pt": "Cartões de pagamento: tipos"
+  },
+  "purpose": {
+    "es": "Los tipos de tarjeta de pago que se aceptan en ventas (por ejemplo, Visa o Mastercard), con la función que comprueba el número de tarjeta y cuántos días vale una autorización.",
+    "en": "The payment card types accepted in sales (for example, Visa or Mastercard), with the function that checks the card number and how many days an authorization is valid.",
+    "pt": "Os tipos de cartão de pagamento aceitos em vendas (por exemplo, Visa ou Mastercard), com a função que verifica o número do cartão e por quantos dias uma autorização é válida."
+  },
+  "synonyms": {
+    "es": [
+      "tarjeta de crédito",
+      "tipo de tarjeta"
+    ],
+    "en": [
+      "credit card",
+      "card type"
+    ],
+    "pt": [
+      "cartão de crédito",
+      "tipo de cartão"
+    ]
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "CCINS",
+      "key": true
+    },
+    {
+      "name": "FNCHK"
+    },
+    {
+      "name": "TGVAL"
+    }
+  ],
+  "relations": [
+    {
+      "table": "TVCINT",
+      "type": "text",
+      "on": "CCINS"
+    }
+  ]
+}

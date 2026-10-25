@@ -1,0 +1,67 @@
+{
+  "id": "DD04T",
+  "area": "gen",
+  "contents": "text",
+  "component": "BC-DWB-DIC-AC",
+  "category": "TRANSP",
+  "title": {
+    "es": "Diccionario: textos de los elementos de datos",
+    "en": "Dictionary: data element texts",
+    "pt": "Dicionário: textos dos elementos de dados"
+  },
+  "purpose": {
+    "es": "Las etiquetas de cada elemento de datos en cada idioma: la descripción breve, el encabezado de columna y las etiquetas corta, media y larga que se ven en pantallas e informes. Es la tabla a consultar para poner nombre legible a los campos de cualquier tabla.",
+    "en": "The labels of each data element in each language: the short description, the column heading and the short, medium and long labels seen on screens and in reports. It is the table to query to give readable names to the fields of any table.",
+    "pt": "Os rótulos de cada elemento de dados em cada idioma: a descrição breve, o cabeçalho de coluna e os rótulos curto, médio e longo vistos em telas e relatórios. É a tabela a consultar para dar nomes legíveis aos campos de qualquer tabela."
+  },
+  "synonyms": {
+    "es": [
+      "etiqueta de campo",
+      "texto del elemento de datos",
+      "descripción de campo"
+    ],
+    "en": [
+      "field label",
+      "data element text",
+      "field description"
+    ],
+    "pt": [
+      "rótulo de campo",
+      "texto do elemento de dados",
+      "descrição de campo"
+    ]
+  },
+  "fields": [
+    {
+      "name": "ROLLNAME",
+      "key": true
+    },
+    {
+      "name": "DDLANGUAGE",
+      "key": true
+    },
+    {
+      "name": "AS4LOCAL",
+      "key": true
+    },
+    {
+      "name": "AS4VERS",
+      "key": true
+    },
+    {
+      "name": "DDTEXT"
+    },
+    {
+      "name": "REPTEXT"
+    },
+    {
+      "name": "SCRTEXT_S"
+    },
+    {
+      "name": "SCRTEXT_M"
+    },
+    {
+      "name": "SCRTEXT_L"
+    }
+  ]
+}

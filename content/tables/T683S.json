@@ -80,6 +80,11 @@
       "table": "T685",
       "type": "config",
       "on": "KVEWE + KAPPL + KSCHL"
+    },
+    {
+      "table": "T683T",
+      "type": "text",
+      "on": "KVEWE + KAPPL + KALSM + STUNR + ZAEHK"
     }
   ]
 }
