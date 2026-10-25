@@ -1,28 +1,28 @@
 # Trabajo pendiente
 
-Estado a 24 de octubre de 2026, en la rama `concepto-tabla` (commit `3db4e23` y siguientes). Lo que queda por verificar tabla a tabla (categoría, clase de entrega, dudas) está en [`pendientes.md`](pendientes.md); este archivo recoge el resto.
+Estado a 25 de octubre de 2026, en la rama `concepto-tabla`. Lo que queda por verificar tabla a tabla (categoría, clase de entrega, dudas y tablas sin explicación) está en [`pendientes.md`](pendientes.md); este archivo recoge el resto.
 
-## Decisiones del propietario
+## Integración en `main` y limpieza (requieren confirmación manual)
 
-- **Integrar `concepto-tabla` en `main`.** `main` sigue con el restyle base (`17096e5`) y 56 tablas; `origin/main` está aún en `baa09f3`. Nada de esta rama se ha mezclado con `main`.
-- **Rama duplicada `concepto-tabla-v1`.** Apunta a `3f6efc1`, un estado anterior de `concepto-tabla`, y está también en GitHub. Se puede borrar (local y remota) si ya no hace falta.
-- **Otros conceptos.** Las ramas `concepto-buscador`, `concepto-explorar` y `concepto-libre` siguen con sus worktrees en `Desktop\Proyectos\SAPTableHub\` (`wt-buscador`, `wt-explorar`, `wt-concepto-libre`). Cuando se elija la dirección definitiva, se pueden quitar con `git worktree remove` y borrar las ramas.
+Claude Code bloqueó estas acciones por afectar a la rama principal o borrar ramas, así que siguen pendientes:
+
+- **Integrar `concepto-tabla` en `main`.** `main` está en `17096e5` (56 tablas) y `concepto-tabla` sale de ese mismo commit, así que la integración es directa (sin conflictos). Desde la carpeta `SAPTableHub`:
+  `git merge --ff-only concepto-tabla` y `git push origin main`.
+- **`concepto-tabla-v1`** (local y en GitHub): es un estado anterior de `concepto-tabla` (`3f6efc1`) y no contiene nada que no esté ya en `concepto-tabla`. Para borrarla:
+  `git branch -d concepto-tabla-v1` y `git push origin --delete concepto-tabla-v1`.
+- **Conceptos descartados**: las ramas locales `concepto-buscador`, `concepto-explorar` y `concepto-libre` y sus carpetas `wt-buscador`, `wt-explorar` y `wt-concepto-libre` en `Desktop\Proyectos\SAPTableHub\`. Las carpetas no tienen cambios sin guardar. Para quitarlas sin perder las ramas:
+  `git worktree remove ../wt-buscador` (y lo mismo con las otras dos).
+- **`concepto-tabla`** y su carpeta `wt-tabla`: se pueden quitar igual una vez integrada en `main`.
 
 ## Contenido
 
-- **Campos y relaciones.** Solo 17 de las 1.003 tablas tienen campos y relaciones. Las demás muestran título, área, contenido y, cuando se conocen, componente, categoría y clase de entrega. Conviene cargarlos desde una fuente fiable (por ejemplo, una extracción de DD03L/DD04T y DD05S/DD08L de un sistema real), no escribirlos a mano.
-- **Explicaciones.** 215 tablas tienen explicación (`purpose`) y sinónimos; las otras 788 no. Las búsquedas en lenguaje de negocio funcionan mejor en las que sí tienen.
-- **Lista oficial de SAP.** De las 271 tablas clásicas de la lista de liberación de objetos (`objectReleaseInfo_PCELatest.json`), 249 están en el sitio. Las 22 restantes se descartaron por ser vistas, tablas de sistema o tener contenido dudoso (ver «Descartadas al integrar» en `pendientes.md`).
-- **Volumen.** 1.003 tablas, justo por encima del objetivo de 1.000. No se rellenó con tablas dudosas; se pueden añadir más cuando se puedan verificar.
+- **Campos y relaciones.** Solo 17 de las 1.003 tablas tienen campos y relaciones. No se escribieron a mano para no introducir errores; conviene cargarlos desde una extracción de un sistema real (DD03L/DD04T para campos, DD05S/DD08L para claves externas).
+- **Espacio en `main`.** `src/views/common.ts:29` dice `tableHref =(` en `main`; en `concepto-tabla` ya está corregido y se arregla al integrar.
+- **Explicaciones.** 993 de 1.003 tablas tienen explicación y sinónimos. Las 10 restantes y las que conviene repasar están en `pendientes.md`.
+- **Lista oficial de SAP.** De las 271 tablas clásicas de la lista de liberación de objetos, 249 están en el sitio; las 22 restantes se descartaron a propósito (vistas, tablas de sistema o contenido dudoso).
+- **Más tablas.** Se pueden añadir cuando se puedan verificar; no se rellenó con tablas dudosas.
 
 ## Técnico
 
-- **Tamaño del índice.** El índice pasa de 7,2 KB a 51,7 KB comprimido con gzip (312 KB sin comprimir). Si el catálogo crece mucho más (sobre 300 KB comprimido), habría que dividirlo por letra o por área.
-- **Espacio que falta en `main`.** `src/views/common.ts:29` dice `tableHref =(` en `main`; en esta rama ya está corregido. Se arregla solo al integrar.
-
-## Hecho en esta ronda (para referencia)
-
-- Esquema ampliado: `component`, `s4only`, y `category`/`deliveryClass` opcionales; cinco áreas nuevas (Producción, Calidad, Mantenimiento, Proyectos, Controlling).
-- De 56 a 1.003 tablas, con atribución de los datos de SAP en `NOTICE` y el README.
-- Búsqueda: sinónimos exactos, erratas y desempate por tipo de contenido.
-- Listado: los códigos largos solo se parten tras el espacio de nombres o un guion bajo, y los títulos de tablas solo S/4HANA ya no repiten «(S/4HANA)».
+- **Tamaño del índice.** 474 KB sin comprimir y 89,6 KB con gzip. Si el catálogo crece mucho más (sobre 300 KB comprimido), habría que dividirlo por letra o por área.
+- **Servidores de desarrollo.** Claude Code los cerraba cuando faltaba memoria; se activó `CLAUDE_CODE_DISABLE_BG_SHELL_PRESSURE_REAP=1` (variable de usuario de Windows y `~/.claude/settings.json`). Se aplica al abrir Claude Code de nuevo.
