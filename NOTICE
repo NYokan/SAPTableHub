@@ -15,9 +15,11 @@ Only table names and application components were taken from that file.
 Application components of tables not in that file were assigned by this
 project and are marked as such (componentInferred).
 
-Field names, key flags and data types were checked against the public
-ECC 6.0 dictionary reference at leanx.eu. Only those technical facts
-were used; field labels are original writing for this project.
+Field names, key flags and data types were checked once against the
+public ECC 6.0 dictionary reference at leanx.eu. Only those technical
+facts were used; field labels are original writing for this project.
+That site is not consulted automatically again, and the fields are
+still to be verified against a real SAP system.
 Titles, explanations and synonyms in content/ are original writing for
 this project and are not SAP's official descriptions.
 

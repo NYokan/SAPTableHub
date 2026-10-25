@@ -604,7 +604,6 @@ $('#ic-sel-h').innerHTML = ic('sel', 18);
 $('#ic-nav-c').innerHTML = ic('table', 22);
 $('#ic-nav-s').innerHTML = ic('search', 22);
 $('#ic-nav-l').innerHTML = ic('sel', 22);
-$('#ic-nav-k').innerHTML = ic('command', 22);
 $('#ic-cmd').innerHTML = ic('command', 16);
 if (/Mac|iPhone|iPad/.test(navigator.platform)) $('#cmdk-k').textContent = '⌘ K';
 history.scrollRestoration = 'manual';

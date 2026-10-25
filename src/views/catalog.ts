@@ -106,7 +106,7 @@ const breakable = (id: string, html: string) => {
 function rowHTML(c: Ctx, t: TableSummary, n: number, r: CatalogRoute): string {
   // the area with the whole SAP component, then what the table holds with its category and delivery class
   const tech = [t.cat, t.dcl].filter(Boolean).join(' · ');
-  const meta = `<span class="c-ar">${areaBadge(c, t.area)}${modTag(c, t, true)}</span><span class="dot" aria-hidden="true">·</span><span class="c-kind">${esc(kindName(c, t.kind))}${tech ? `<span class="c-tech mono" title="${esc([t.cat && catName(c, t.cat), t.dcl && dclName(c, t.dcl)].filter(Boolean).join(' · '))}">${esc(tech)}</span>` : ''}</span>`;
+  const meta = `<span class="c-ar">${areaBadge(c, t.area)}${modTag(c, t, true)}</span><span class="dot" aria-hidden="true">·</span><span class="c-kind">${esc(kindName(c, t.kind))}${tech ? `<span class="c-tech mono" title="${esc([t.cat && catName(c, t.cat), t.dcl && dclName(c, t.dcl)].filter(Boolean).join(' · '))}">${esc(tech)}</span>` : ''}</span>${t.s4 ? `<span class="c-s4"><span class="dot" aria-hidden="true">·</span>${esc(tx(c, 's4only'))}</span>` : ''}`;
   const open = r.open === t.id ? ' aria-current="true"' : '';
   return `<li class="crow"><a class="cmain" href="${esc(tableHref(c, t.id))}" data-link data-open="${esc(t.id)}" aria-haspopup="dialog"${open}><span class="c-n">${n}</span><span class="c-id${t.id.length > 10 ? ' long' : ''}">${breakable(t.id, highlight(t.id, r.q))}</span><span class="c-title">${highlight(loc(c, t.title), r.q)}${s4Badge(c, t)}</span><span class="c-meta">${meta}</span></a>${addButton(c, t.id)}</li>`;
 }

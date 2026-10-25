@@ -6,11 +6,12 @@ import { entries } from './helpers.ts';
 const q = (over: Partial<CatalogQuery> = {}): CatalogQuery => ({ q: '', area: '', cat: '', letter: '', sort: 'name', page: 1, ...over });
 
 describe('table list', () => {
-  it('lists every table alphabetically by name', () => {
+  it('lists every table alphabetically by name, namespaced ones last', () => {
     const res = runCatalog(entries, q(), 'es');
     assert.equal(res.total, entries.length);
     const names = res.all.map((t) => t.id);
-    assert.deepEqual(names, [...names].sort((a, b) => a.localeCompare(b)));
+    const ns = (id: string) => (id.startsWith('/') ? 1 : 0);
+    assert.deepEqual(names, [...names].sort((a, b) => ns(a) - ns(b) || a.localeCompare(b)));
   });
   it('pages the list', () => {
     const one = runCatalog(entries, q(), 'es');
@@ -26,7 +27,8 @@ describe('table list', () => {
     assert.equal(res.letterCounts.Z, undefined);
   });
   it('filters by category, area and text', () => {
-    assert.deepEqual(runCatalog(entries, q({ cat: 'CLUSTER' }), 'es').all.map((t) => t.id), ['BSEG', 'BSET', 'CDPOS', 'KONV']);
+    assert.deepEqual(runCatalog(entries, q({ cat: 'CLUSTER' }), 'es').all.map((t) => t.id), ['BSEC', 'BSED', 'BSEG', 'BSET', 'CDPOS', 'KONV', 'REGUP']);
+    assert.deepEqual(runCatalog(entries, q({ cat: 'POOL' }), 'es').all.map((t) => t.id), ['A004', 'A005']);
     assert.ok(runCatalog(entries, q({ area: 'purch' }), 'es').all.every((t) => t.area === 'purch'));
     // the text filter keeps exactly the tables whose name, title, area, contents or synonyms contain the words
     const hay = new Map(entries.map((x) => [x.t.id, x.hay.es]));
@@ -40,6 +42,13 @@ describe('table list', () => {
   it('sorts by description in the chosen language', () => {
     const titles = runCatalog(entries, q({ sort: 'desc' }), 'pt').all.map((t) => t.title.pt);
     assert.deepEqual(titles, [...titles].sort((a, b) => a.localeCompare(b, 'pt')));
+  });
+  it('lists namespaced tables after Z when sorting by name', () => {
+    const names = runCatalog(entries, q(), 'es').all.map((t) => t.id);
+    const first = names.findIndex((id) => id.startsWith('/'));
+    assert.ok(first > 0, 'the list does not start with a namespaced table');
+    assert.ok(names.slice(first).every((id) => id.startsWith('/')), 'every namespaced table comes after the rest');
+    assert.deepEqual(names.slice(0, first), [...names.slice(0, first)].sort((a, b) => a.localeCompare(b)));
   });
   it('puts namespaced tables under "/"', () => {
     assert.equal(letterOf('/SAPAPO/MATKEY'), '/');

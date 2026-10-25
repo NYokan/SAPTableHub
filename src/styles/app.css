@@ -925,24 +925,10 @@ html.sheet-open, html.pal-open { overflow: hidden; }
 .pal-foot { display: none; gap: 18px; padding: 10px 18px; border-top: 1px solid var(--line); font-size: 13px; color: var(--muted); }
 .pal-foot span { display: inline-flex; align-items: center; gap: 4px; }
 
-/* the palette's buttons: in the header on wide screens, in the bottom bar on phones */
+/* the palette's button: in the header on wide screens (phones use Buscar in the bottom bar) */
 .cmdk { display: none; align-items: center; gap: 8px; min-height: 44px; padding: 0 10px; border: 1px solid var(--line); border-radius: 10px; background: var(--surface); color: var(--muted); font-size: 14px; }
 .cmdk:hover { color: var(--ink); border-color: var(--ctl); }
 .cmdk [data-i], .cmdk kbd { display: none; }
-.bnav button {
-  flex: 1;
-  min-height: 52px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 2px;
-  border: 0;
-  border-radius: 10px;
-  background: none;
-  color: var(--muted);
-  font-size: 12.5px;
-}
 
 @keyframes pop { from { opacity: 0; transform: translateY(-6px) scale(0.985); } }
 @keyframes fade { from { opacity: 0; } }
@@ -990,4 +976,16 @@ html.sheet-open, html.pal-open { overflow: hidden; }
 @media (prefers-reduced-motion: reduce) {
   .pop[open] .pop-in, .sheet-veil, .sheet-box, .pal-veil, .pal-box { animation: none; }
   .opt, .token, .fbtn, .tbtn, .go, .go svg, .sheet-x, .cmdk { transition: none; }
+}
+
+/* phones: each row is the name, the description under it and one quiet line "Área · Contenido";
+   the area colour, the component code and the technical codes stay in the ficha */
+.c-s4 { display: none; }
+@media (max-width: 879px) {
+  .cmain { row-gap: 4px; }
+  .c-title { flex: 1 0 100%; }
+  .c-title .s4, .c-meta .mod, .c-meta .c-tech { display: none; }
+  .c-meta .ab { display: inline; min-height: 0; padding: 0; border-radius: 0; background: none; color: inherit; font-size: inherit; font-weight: 400; vertical-align: baseline; }
+  .c-meta .ab::before { display: none; }
+  .c-s4 { display: inline; color: var(--ink); font-weight: 600; white-space: nowrap; }
 }

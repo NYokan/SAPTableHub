@@ -4,7 +4,7 @@
   "contents": "items",
   "component": "FI-AP-AP",
   "componentInferred": true,
-  "category": "TRANSP",
+  "category": "CLUSTER",
   "deliveryClass": "A",
   "title": {
     "es": "Programa de pagos: partidas pagadas",

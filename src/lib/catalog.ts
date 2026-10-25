@@ -50,10 +50,12 @@ export function runCatalog(entries: Entry[], q: CatalogQuery, lang: Lang): Catal
     const l = letterOf(t.id);
     letterCounts[l] = (letterCounts[l] ?? 0) + 1;
   }
+  // by name, namespaced tables (/SCWM/…) go last, as the "/" letter does in the index
+  const ns = (t: TableSummary) => (t.id.startsWith('/') ? 1 : 0);
   const all = (q.letter ? base.filter((t) => letterOf(t.id) === q.letter) : base.slice()).sort((a, b) =>
     q.sort === 'desc'
       ? a.title[lang].localeCompare(b.title[lang], lang) || a.id.localeCompare(b.id)
-      : a.id.localeCompare(b.id),
+      : ns(a) - ns(b) || a.id.localeCompare(b.id),
   );
   const pages = Math.max(1, Math.ceil(all.length / PAGE_SIZE));
   const page = Math.min(Math.max(1, q.page), pages);

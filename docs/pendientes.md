@@ -2,12 +2,12 @@
 
 Este archivo se genera al ampliar el contenido. Recoge lo que **no** se rellenó por no tener total seguridad, para revisarlo contra un sistema SAP real.
 
-## Tablas sin categoría (8)
+## Tablas sin categoría (13)
 
-En el sitio se muestran con «—» en la categoría. Solo BSEG, BSET, KONV y CDPOS están marcadas como cluster (ECC).
+En el sitio se muestran con «—» en la categoría. En ECC están marcadas como cluster BSEC, BSED, BSEG, BSET, CDPOS, KONV y REGUP, y como pool A004 y A005.
 
-- **Ventas** (2): `/SCMTMS/D_TORITE`, `/SCMTMS/D_TORROT`
-- **Compras** (1): `CVI_VEND_LINK`
+- **Ventas** (4): `/SCMTMS/D_TORITE`, `/SCMTMS/D_TORROT`, `A304`, `A305`
+- **Compras** (4): `A016`, `A017`, `A018`, `CVI_VEND_LINK`
 - **Materiales** (2): `ACDOCA_M_EXTRACT`, `MATDOC_EXTRACT`
 - **Producción** (2): `MDTB`, `PPH_DBVM`
 - **Controlling** (1): `MLDOC_EXTRACT`
@@ -26,7 +26,7 @@ En el sitio se muestran con «—» en la clase de entrega.
 - **Controlling** (9): `CBPR`, `CBPT`, `MLDOC_EXTRACT`, `T811C`, `T811S`, `TJ01`, `TJ01T`, `TKA03`, `TKT03`
 - **General** (12): `T002`, `T002T`, `T006`, `T006A`, `T006B`, `T006C`, `T006D`, `T006I`, `T006J`, `T006T`, `TJ02`, `TJ02T`
 
-## Dudas anotadas al preparar el contenido (81)
+## Dudas anotadas al preparar el contenido (82)
 
 - (Controlling) SETHEADER/SETHEADERT/SETNODE/SETLEAF (jerarquías de grupos de CO) no incluidas: figuran en official-fin.json, se dejan a Finanzas para evitar duplicados.
 - (Controlling) T003O/T003P (clases de orden) son compartidas con Producción/Mantenimiento; incluidas aquí por las órdenes internas. Revisar si otra área también las preparó.
@@ -49,7 +49,7 @@ En el sitio se muestran con «—» en la clase de entrega.
 - (General) CVI_VEND_LINK ya existe en content/: no se recrea.
 - (Materiales) CKMLHD, CKMLPP, CKMLCR, MLHD, MLIT, MLPP, MLCR y MLDOC ya existen en content/ (las añadió otra área); no se recrean.
 - (Materiales) VEKP y VEPO (lista oficial de mat, LO-HU) también están en staging/sales: duplicado a resolver al integrar. TVTY/TVTYT las dejé a Ventas.
-- (Materiales) Las 4 tablas /SCWM/ (EWM) se guardan como _SCWM_*.json; el verificador ignora archivos que empiezan por _, así que no las valida. Marcadas s4only: no existen en ECC 6.0 (sí en sistemas SCM EWM independientes).
+- (Materiales) Las 4 tablas /SCWM/ (EWM) se guardan como _SCWM_*.json y se validan igual que las demás. Marcadas s4only: no existen en ECC 6.0 (sí en sistemas SCM EWM independientes).
 - (Materiales) RKPF (cabecera de reservas) incluida como reserva MM aunque RESB va a Producción.
 - (Materiales) MARV sin clase de entrega; MATDOC_EXTRACT sin categoría ni clase; VEVW y tablas /SCWM/ sin clase.
 - (Mantenimiento) No hay lista oficial para PM; todos los componentes se omiten por no estar seguro del componente exacto.
@@ -85,6 +85,7 @@ En el sitio se muestran con «—» en la clase de entrega.
 - (Ventas) TVKM/TVKMT, TPTM/TPTMT y TSKM/TSKMT se refieren a campos del material en su vista de ventas; se dejan en ventas.
 - (Ventas) VEKP, VEPO, TVTY y TVTYT (unidades de manipulación/embalaje) las prepara el lote de materiales; se omiten aquí para no duplicar.
 - (Ventas) Componentes solo en tablas de la lista oficial; en las propias se omite.
+- (Ventas/Compras) Categoría de las tablas de condiciones A016, A017, A018, A304 y A305: muchas tablas de condiciones son pool en ECC (pool KAPOL), como A004 y A005, pero no hay certeza para estas cinco; se dejan sin categoría.
 - (Controlling) MLDOC_EXTRACT: categoría y clase de entrega omitidas.
 - (Controlling) Pocas incorporaciones: casi todas las tablas clásicas seguras de CO-OM/CO-PC/EC-PCA ya están en el sitio.
 - (Finanzas) T047A: título genérico (parámetros de control del procedimiento de reclamación); no afirmo más detalle.
@@ -127,7 +128,7 @@ Las explicaciones de las tablas de texto (…T) siguen una plantilla común y al
 
 ## Tablas sin campos (80)
 
-938 de las 1.018 tablas tienen su clave completa y sus campos principales. Los nombres, las claves y los tipos de todas ellas, salvo cuatro de S/4HANA, se contrastaron con la referencia pública del diccionario de ECC 6.0 de leanx.eu. Quedan sin campos:
+938 de las 1.018 tablas tienen su clave completa y sus campos principales. Los nombres, las claves y los tipos de todas ellas, salvo cuatro de S/4HANA, se contrastaron una vez con la referencia pública del diccionario de ECC 6.0 de leanx.eu; esa consulta no se repite de forma automática y siguen pendientes de verificar contra un sistema SAP real. Quedan sin campos:
 
 - **Solo S/4HANA, sin referencia pública con la que contrastar** (19): `ACDOCA_M_EXTRACT`, `ACDOCP`, `FAAT_DOC_IT`, `FAAT_PLAN_VALUES`, `FAAT_YDDA`, `FINSC_LD_CMP`, `FINSC_LEDGER`, `FINSC_LEDGER_T`, `FQM_FLOW`, `MATDOC`, `MATDOC_EXTRACT`, `MLDOC`, `MLDOCCCS`, `MLDOC_EXTRACT`, `PPH_DBVM`, `/SCWM/AQUA`, `/SCWM/LAGP`, `/SCWM/ORDIM_C`, `/SCWM/ORDIM_O`. Los campos de `ACDOCA`, `PRCD_ELEMENTS`, `/SCMTMS/D_TORITE` y `/SCMTMS/D_TORROT` se escribieron sin poder contrastarlos.
 - **No se tenía claro el significado de algún campo** (61):
