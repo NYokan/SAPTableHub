@@ -2,6 +2,8 @@
   "id": "EQST",
   "area": "pm",
   "contents": "master",
+  "component": "PM-EQM-EQ",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

@@ -2,6 +2,8 @@
   "id": "ILOA",
   "area": "pm",
   "contents": "master",
+  "component": "PM-EQM",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

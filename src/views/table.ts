@@ -4,7 +4,7 @@ import { ic } from '../lib/icons.ts';
 import { catalogRoute, routeHref, type TableRoute } from '../lib/router.ts';
 import { esc } from '../lib/text.ts';
 import type { TableDetail, TableSummary } from '../types.ts';
-import { areaBadge, bigAddButton, catName, dclName, kindName, loc, modeSeg, orDash, s4Badge, tableHref, tx, type Ctx } from './common.ts';
+import { areaBadge, bigAddButton, catName, dclName, kindName, loc, modeSeg, modTag, orDash, s4Badge, tableHref, tx, type Ctx } from './common.ts';
 
 const cache = new Map<string, TableDetail | null>();
 
@@ -90,7 +90,7 @@ export function detailHTML(c: Ctx, t: TableSummary, d: TableDetail | null | unde
     ? `<section class="sec"><h2>${esc(tx(c, 'about'))}</h2><dl class="meta panel">
         <div><dt>${esc(tx(c, 'objType'))}</dt><dd>${t.cat ? `${esc(catName(c, t.cat))} (${esc(t.cat)})` : '—'}</dd></div>
         <div><dt>${esc(tx(c, 'colDcl'))}</dt><dd>${t.dcl ? `${esc(t.dcl)} · ${esc(dclName(c, t.dcl))}` : '—'}</dd></div>
-        <div><dt>${esc(tx(c, 'comp'))}</dt><dd>${esc(orDash(t.comp))}</dd></div>
+        <div><dt>${esc(tx(c, 'comp'))}</dt><dd>${esc(orDash(t.comp))}${t.ci ? ` <span class="muted">(${esc(tx(c, 'compInf'))})</span>` : ''}</dd></div>
         <div><dt>${esc(tx(c, 'pkey'))}</dt><dd>${esc(pk)}</dd></div>
         <div><dt>${esc(tx(c, 'official'))}</dt><dd class="pend">${esc(tx(c, 'pending'))}</dd></div>
       </dl><p class="fnote">${esc(tx(c, 'verNote'))}</p></section>`
@@ -117,7 +117,7 @@ export function detailHTML(c: Ctx, t: TableSummary, d: TableDetail | null | unde
     : `<h1 class="d-title" id="dh" tabindex="-1">${esc(t.id)}</h1>`;
   return `
     <div class="d-head">
-      <div class="d-tags">${areaBadge(c, t.area)}<span class="tag">${esc(kindName(c, t.kind))}</span>${s4Badge(c, t)}</div>
+      <div class="d-tags">${areaBadge(c, t.area)}${modTag(c, t, true)}<span class="tag">${esc(kindName(c, t.kind))}</span>${s4Badge(c, t)}</div>
       ${title}
       <p class="d-sub">${esc(loc(c, t.title))}</p>
     </div>

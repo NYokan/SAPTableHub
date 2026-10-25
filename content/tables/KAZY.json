@@ -2,6 +2,8 @@
   "id": "KAZY",
   "area": "pp",
   "contents": "master",
+  "component": "PP-BD-CAP",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

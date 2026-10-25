@@ -2,6 +2,8 @@
   "id": "KNB4",
   "area": "fin",
   "contents": "master",
+  "component": "LO-MD-BP-CM",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

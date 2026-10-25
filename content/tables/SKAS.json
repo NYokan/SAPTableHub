@@ -2,6 +2,8 @@
   "id": "SKAS",
   "area": "fin",
   "contents": "text",
+  "component": "FI",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

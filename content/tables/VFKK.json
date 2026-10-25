@@ -2,6 +2,8 @@
   "id": "VFKK",
   "area": "sales",
   "contents": "header",
+  "component": "LE-TRA-FC",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

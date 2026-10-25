@@ -2,6 +2,8 @@
   "id": "QPMT",
   "area": "qm",
   "contents": "text",
+  "component": "QM-PT-BD",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

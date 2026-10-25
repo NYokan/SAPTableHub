@@ -2,6 +2,8 @@
   "id": "S001",
   "area": "sales",
   "contents": "doc",
+  "component": "SD-IS",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

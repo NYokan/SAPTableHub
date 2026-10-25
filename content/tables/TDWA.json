@@ -2,6 +2,8 @@
   "id": "TDWA",
   "area": "gen",
   "contents": "config",
+  "component": "CA-DMS",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "C",
   "title": {

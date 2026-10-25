@@ -2,6 +2,8 @@
   "id": "SAFK",
   "area": "pp",
   "contents": "master",
+  "component": "PP-REM",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

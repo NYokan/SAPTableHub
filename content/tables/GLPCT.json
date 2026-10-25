@@ -2,6 +2,8 @@
   "id": "GLPCT",
   "area": "co",
   "contents": "doc",
+  "component": "EC-PCA",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

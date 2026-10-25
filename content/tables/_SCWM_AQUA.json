@@ -2,6 +2,8 @@
   "id": "/SCWM/AQUA",
   "area": "mat",
   "contents": "master",
+  "component": "SCM-EWM",
+  "componentInferred": true,
   "category": "TRANSP",
   "s4only": true,
   "title": {

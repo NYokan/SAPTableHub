@@ -2,6 +2,8 @@
   "id": "MLDOC_EXTRACT",
   "area": "co",
   "contents": "doc",
+  "component": "CO-PC-ACT",
+  "componentInferred": true,
   "s4only": true,
   "title": {
     "es": "Extracto de documentos del ledger de materiales",

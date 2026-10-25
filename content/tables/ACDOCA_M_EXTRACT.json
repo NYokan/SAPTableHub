@@ -2,6 +2,8 @@
   "id": "ACDOCA_M_EXTRACT",
   "area": "mat",
   "contents": "doc",
+  "component": "CO-PC-ML",
+  "componentInferred": true,
   "s4only": true,
   "title": {
     "es": "Valoración de stocks: extracto del Universal Journal",

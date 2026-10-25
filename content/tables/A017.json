@@ -2,6 +2,8 @@
   "id": "A017",
   "area": "purch",
   "contents": "master",
+  "component": "MM-PUR",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

@@ -2,6 +2,8 @@
   "id": "TVKMT",
   "area": "sales",
   "contents": "text",
+  "component": "SD-BF-ACT",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "C",
   "title": {

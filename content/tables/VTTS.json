@@ -2,6 +2,8 @@
   "id": "VTTS",
   "area": "sales",
   "contents": "items",
+  "component": "LE-TRA",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

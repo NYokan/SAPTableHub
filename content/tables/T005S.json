@@ -2,6 +2,8 @@
   "id": "T005S",
   "area": "gen",
   "contents": "config",
+  "component": "BC-SRV-ADR",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "C",
   "title": {

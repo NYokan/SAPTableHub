@@ -2,6 +2,8 @@
   "id": "COEJ",
   "area": "co",
   "contents": "items",
+  "component": "CO-OM",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

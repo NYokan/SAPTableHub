@@ -2,6 +2,8 @@
   "id": "TCJ1T",
   "area": "ps",
   "contents": "text",
+  "component": "PS-ST",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "C",
   "title": {

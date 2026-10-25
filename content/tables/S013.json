@@ -2,6 +2,8 @@
   "id": "S013",
   "area": "purch",
   "contents": "doc",
+  "component": "MM-IS-VE",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

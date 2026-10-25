@@ -2,6 +2,8 @@
   "id": "ELBK",
   "area": "purch",
   "contents": "header",
+  "component": "MM-IS-VE",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

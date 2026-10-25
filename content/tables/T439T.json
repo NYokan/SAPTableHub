@@ -2,6 +2,8 @@
   "id": "T439T",
   "area": "pp",
   "contents": "text",
+  "component": "PP-MRP-BD",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "C",
   "title": {

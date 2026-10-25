@@ -2,6 +2,8 @@
   "id": "T353I_T",
   "area": "pm",
   "contents": "text",
+  "component": "PM-WOC-MO",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "C",
   "title": {

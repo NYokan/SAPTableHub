@@ -3,6 +3,7 @@
   "area": "mat",
   "contents": "header",
   "component": "LE-WM",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

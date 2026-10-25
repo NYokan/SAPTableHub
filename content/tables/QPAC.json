@@ -2,6 +2,8 @@
   "id": "QPAC",
   "area": "qm",
   "contents": "items",
+  "component": "QM-PT-BD-CAT",
+  "componentInferred": true,
   "category": "TRANSP",
   "title": {
     "es": "Catálogos de calidad: códigos de conjuntos seleccionados",

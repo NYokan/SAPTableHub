@@ -2,6 +2,8 @@
   "id": "/SCMTMS/D_TORROT",
   "area": "sales",
   "contents": "header",
+  "component": "TM-FRM-FRO",
+  "componentInferred": true,
   "s4only": true,
   "title": {
     "es": "Órdenes de flete (cabecera)",

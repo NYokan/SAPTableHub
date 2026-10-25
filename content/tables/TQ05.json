@@ -2,6 +2,8 @@
   "id": "TQ05",
   "area": "qm",
   "contents": "config",
+  "component": "QM-CA",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "C",
   "title": {

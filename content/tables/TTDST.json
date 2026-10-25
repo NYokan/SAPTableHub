@@ -2,6 +2,8 @@
   "id": "TTDST",
   "area": "sales",
   "contents": "text",
+  "component": "LE-TRA",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "C",
   "title": {

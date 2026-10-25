@@ -2,6 +2,8 @@
   "id": "ANEA",
   "area": "fin",
   "contents": "items",
+  "component": "FI-AA",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

@@ -2,6 +2,8 @@
   "id": "T370U",
   "area": "pm",
   "contents": "text",
+  "component": "PM-EQM-EQ",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "C",
   "title": {

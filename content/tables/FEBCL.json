@@ -2,6 +2,8 @@
   "id": "FEBCL",
   "area": "fin",
   "contents": "doc",
+  "component": "FI-BL-PT",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

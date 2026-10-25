@@ -2,6 +2,8 @@
   "id": "CKIT",
   "area": "co",
   "contents": "text",
+  "component": "CO-PC-PCP",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

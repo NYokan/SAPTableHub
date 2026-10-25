@@ -2,6 +2,8 @@
   "id": "KNKK",
   "area": "fin",
   "contents": "master",
+  "component": "FI-AR-AR",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

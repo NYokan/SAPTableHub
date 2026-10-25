@@ -2,6 +2,8 @@
   "id": "COBRA",
   "area": "co",
   "contents": "master",
+  "component": "CO-OM",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

@@ -2,6 +2,8 @@
   "id": "T370F_T",
   "area": "pm",
   "contents": "text",
+  "component": "PM-EQM-FL",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "C",
   "title": {

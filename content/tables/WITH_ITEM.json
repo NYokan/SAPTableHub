@@ -2,6 +2,8 @@
   "id": "WITH_ITEM",
   "area": "fin",
   "contents": "doc",
+  "component": "FI-AP-AP-Q",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

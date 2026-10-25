@@ -2,6 +2,8 @@
   "id": "QAKL",
   "area": "qm",
   "contents": "items",
+  "component": "QM-IM-RR",
+  "componentInferred": true,
   "category": "TRANSP",
   "title": {
     "es": "Resultados de inspección por clases de valores",

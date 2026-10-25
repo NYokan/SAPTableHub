@@ -2,6 +2,8 @@
   "id": "TFACT",
   "area": "gen",
   "contents": "text",
+  "component": "BC-SRV-ASF-CAL",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "C",
   "title": {

@@ -2,6 +2,8 @@
   "id": "T001W",
   "area": "mat",
   "contents": "config",
+  "component": "LO-MD",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "C",
   "title": {

@@ -2,6 +2,8 @@
   "id": "S032",
   "area": "mat",
   "contents": "doc",
+  "component": "MM-IS-IC",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

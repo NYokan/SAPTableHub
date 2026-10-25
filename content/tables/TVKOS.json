@@ -2,6 +2,8 @@
   "id": "TVKOS",
   "area": "sales",
   "contents": "config",
+  "component": "SD-CRF-ORG",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "C",
   "title": {

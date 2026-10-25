@@ -2,6 +2,8 @@
   "id": "T042D",
   "area": "fin",
   "contents": "config",
+  "component": "FI-AP-AP",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "C",
   "title": {

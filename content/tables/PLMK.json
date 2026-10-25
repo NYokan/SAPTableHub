@@ -2,6 +2,8 @@
   "id": "PLMK",
   "area": "qm",
   "contents": "items",
+  "component": "QM-PT-IP",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

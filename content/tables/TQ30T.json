@@ -2,6 +2,8 @@
   "id": "TQ30T",
   "area": "qm",
   "contents": "text",
+  "component": "QM-IM",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "C",
   "title": {

@@ -2,6 +2,8 @@
   "id": "T399X",
   "area": "pp",
   "contents": "config",
+  "component": "PP-SFC",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "C",
   "title": {

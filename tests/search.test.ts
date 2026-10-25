@@ -51,6 +51,18 @@ describe('search', () => {
     const hit = search(entries, 'MATNR', 'es').hits.find((h) => h.t.id === 'VBAP');
     assert.deepEqual(hit?.via, { field: 'MATNR' });
   });
+  it('lists the tables of a module or component code', () => {
+    const sd = search(entries, 'SD', 'es').hits;
+    assert.ok(sd.length > 50);
+    assert.ok(sd.slice(0, 50).every((h) => h.t.comp?.startsWith('SD')));
+    assert.deepEqual(sd[0].via, { comp: sd[0].t.comp });
+    const aa = ids('FI-AA');
+    assert.ok(aa.includes('ANLA'));
+    assert.ok(search(entries, 'fi-aa', 'es').hits.slice(0, aa.length).every((h) => h.t.comp === 'FI-AA' || h.t.comp?.startsWith('FI-AA-') || h.via === null));
+    // a table name still comes first, and plain words are not read as codes
+    assert.equal(ids('MARA')[0], 'MARA');
+    assert.equal(ids('cliente')[0], 'KNA1');
+  });
   it('says which synonym matched', () => {
     const hit = search(entries, 'cotización', 'es').hits[0];
     assert.equal(hit.t.id, 'VBAK');

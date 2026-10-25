@@ -2,6 +2,8 @@
   "id": "TSKM",
   "area": "sales",
   "contents": "config",
+  "component": "SD-BF-TX",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "C",
   "title": {

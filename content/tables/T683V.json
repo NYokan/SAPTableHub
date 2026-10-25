@@ -2,6 +2,8 @@
   "id": "T683V",
   "area": "sales",
   "contents": "config",
+  "component": "SD-BF-PR",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "C",
   "title": {

@@ -2,6 +2,8 @@
   "id": "QDQL",
   "area": "qm",
   "contents": "doc",
+  "component": "QM-PT-BD-SPL",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

@@ -2,6 +2,8 @@
   "id": "T459K",
   "area": "pp",
   "contents": "config",
+  "component": "PP-MP-DEM",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "C",
   "title": {

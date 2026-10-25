@@ -2,6 +2,8 @@
   "id": "T090NAT",
   "area": "fin",
   "contents": "text",
+  "component": "FI-AA",
+  "componentInferred": true,
   "category": "TRANSP",
   "title": {
     "es": "Claves de amortización: textos",

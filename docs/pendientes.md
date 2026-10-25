@@ -166,3 +166,14 @@ De las 271 tablas de base de datos de `objectReleaseInfo_PCELatest.json` (las qu
 - BAPIRET1, BAPIRETURN, BAPIRETURN1, LDBCB y SCX_SRCPOS: son estructuras, no tablas.
 - EHEWAD_WA_TRRQLA (gestión de residuos de EHS, solo S/4HANA): no hay referencia pública con la que escribir su ficha.
 - TVPT: la categoría de entrega y el sentido exacto de PSTYO están por confirmar.
+
+## Componentes de aplicación
+
+Las 1.018 tablas tienen componente. 265 vienen de la lista oficial de SAP; los otros 753 los asignó el proyecto (`componentInferred: true`, la ficha lo indica). De las 675 asignadas en la última pasada (RESB se tomó de la lista oficial), 185 se dieron como seguras, 436 con el módulo seguro y el subcomponente probable, y 55 solo al nivel de módulo. La lista de códigos de referencia es la de S/4HANA Cloud, que no trae algunos componentes clásicos (FI-AR-CR, TR-CM, PP-BD-BOM, SD-BIL-RR, MM-IS-PU): en esos casos se usó el equivalente actual o el nivel superior. Dudas señaladas:
+
+- Gestión de status (JEST, JCDS, JSTO, TJ02, TJ20, TJ30 y sus textos): solo «CA».
+- Gestión de créditos (KNKK, KNKA, T691A, T691T): FI-AR-AR en lugar de FI-AR-CR.
+- Cash management (FDES, FDSB, FDSR): FIN-FSCM-CLM en lugar de TR-CM.
+- Ledger de materiales (CKML*, ML*, MLDOC*): CO-PC-ACT.
+- Listas de materiales (STKO, STPO, MAST…): LO-MD-BOM.
+- Ciclos de reparto T811C y T811S (CO-OM o FI-SL), ACDOCP (FI-GL), PVBE y PVKT (PP-KAB), S011 y S012 (MM-PUR), VBREVE y VBREVK (SD-BIL), KONA (SD-BIL), TQ80 (QM-QN).

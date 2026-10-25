@@ -2,6 +2,8 @@
   "id": "T352R",
   "area": "pm",
   "contents": "config",
+  "component": "PM-WOC-MO",
+  "componentInferred": true,
   "category": "TRANSP",
   "title": {
     "es": "Revisiones de mantenimiento",

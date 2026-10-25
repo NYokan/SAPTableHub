@@ -2,6 +2,8 @@
   "id": "KNVH",
   "area": "sales",
   "contents": "master",
+  "component": "SD-MD-CH",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

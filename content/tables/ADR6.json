@@ -2,6 +2,8 @@
   "id": "ADR6",
   "area": "gen",
   "contents": "master",
+  "component": "BC-SRV-ADR",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

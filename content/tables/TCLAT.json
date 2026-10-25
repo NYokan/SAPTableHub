@@ -2,6 +2,8 @@
   "id": "TCLAT",
   "area": "gen",
   "contents": "text",
+  "component": "CA-CL-CLS",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "C",
   "title": {

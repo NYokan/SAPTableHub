@@ -2,6 +2,8 @@
   "id": "KBKO",
   "area": "pp",
   "contents": "header",
+  "component": "PP-CRP-SCH",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

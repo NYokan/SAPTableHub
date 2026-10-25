@@ -2,6 +2,8 @@
   "id": "FEBKO",
   "area": "fin",
   "contents": "header",
+  "component": "FI-BL-PT",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

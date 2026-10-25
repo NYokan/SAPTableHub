@@ -2,6 +2,8 @@
   "id": "T009B",
   "area": "fin",
   "contents": "config",
+  "component": "BC-SRV-ASF-FYV",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "C",
   "title": {

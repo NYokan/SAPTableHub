@@ -2,6 +2,8 @@
   "id": "T143T",
   "area": "mat",
   "contents": "text",
+  "component": "LO-MD-MM",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "C",
   "title": {

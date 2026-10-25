@@ -4,7 +4,7 @@ import { routeHref, type CatalogRoute } from '../lib/router.ts';
 import { esc } from '../lib/text.ts';
 import type { TableSummary } from '../types.ts';
 import {
-  addButton, areaBadge, areaName, catName, countText, dclName, highlight, kindName, loc, modeSeg, optLink, orDash, s4Badge, segLink, tableHref, tokenLink, tx, type Ctx,
+  addButton, areaBadge, areaName, catName, countText, dclName, highlight, kindName, loc, modeSeg, modTag, optLink, orDash, s4Badge, segLink, tableHref, tokenLink, tx, type Ctx,
 } from './common.ts';
 
 /**
@@ -92,7 +92,7 @@ export function renderCatalog(el: HTMLElement, r: CatalogRoute, c: Ctx): Catalog
     table.innerHTML = noneHTML(c, r, at);
     return res;
   }
-  const head = `<div class="chead" aria-hidden="true"><span class="c-n">#</span><span>${esc(tx(c, 'colTable'))}</span><span>${esc(tx(c, 'colDesc'))}</span><span>${esc(tx(c, tech ? 'colCat' : 'colArea'))}</span><span>${esc(tx(c, tech ? 'colDcl' : 'colKind'))}</span></div>`;
+  const head = `<div class="chead" aria-hidden="true"><span class="c-n">#</span><span>${esc(tx(c, 'colTable'))}</span><span>${esc(tx(c, 'colDesc'))}</span><span>${esc(tx(c, tech ? 'colCat' : 'colAreaMod'))}</span><span>${esc(tx(c, tech ? 'colDcl' : 'colKind'))}</span></div>`;
   const rows = res.rows.map((t, i) => rowHTML(c, t, res.start + i + 1, r)).join('');
   table.innerHTML = `<div class="panel">${head}<ul class="rows">${rows}</ul></div>${pager(c, r, res)}${tech ? legend(c) : ''}`;
   return res;
@@ -109,7 +109,7 @@ function rowHTML(c: Ctx, t: TableSummary, n: number, r: CatalogRoute): string {
   const meta =
     c.mode === 'tech'
       ? `<span class="mono">${esc(orDash(t.cat))}</span><span class="dot" aria-hidden="true">·</span><span>${t.dcl ? `<span class="mono">${esc(t.dcl)}</span> ${esc(dclName(c, t.dcl))}` : '—'}</span>`
-      : `${areaBadge(c, t.area)}<span class="dot" aria-hidden="true">·</span><span>${esc(kindName(c, t.kind))}</span>`;
+      : `<span class="c-ar">${areaBadge(c, t.area)}${modTag(c, t)}</span><span class="dot" aria-hidden="true">·</span><span>${esc(kindName(c, t.kind))}</span>`;
   // the technical view also names the SAP application component under the description
   const comp = c.mode === 'tech' && t.comp ? `<span class="c-comp mono">${esc(t.comp)}</span>` : '';
   const open = r.open === t.id ? ' aria-current="true"' : '';

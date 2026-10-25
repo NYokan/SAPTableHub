@@ -2,6 +2,8 @@
   "id": "TIBAN",
   "area": "gen",
   "contents": "master",
+  "component": "CA-BK-BNK",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

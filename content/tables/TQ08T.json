@@ -2,6 +2,8 @@
   "id": "TQ08T",
   "area": "qm",
   "contents": "text",
+  "component": "QM-PT-RP-PRC",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "C",
   "title": {

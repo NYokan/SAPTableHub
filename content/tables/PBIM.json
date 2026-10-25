@@ -2,6 +2,8 @@
   "id": "PBIM",
   "area": "pp",
   "contents": "header",
+  "component": "PP-MP-DEM",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

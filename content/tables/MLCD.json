@@ -2,6 +2,8 @@
   "id": "MLCD",
   "area": "co",
   "contents": "doc",
+  "component": "CO-PC-ACT",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

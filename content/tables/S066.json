@@ -2,6 +2,8 @@
   "id": "S066",
   "area": "fin",
   "contents": "doc",
+  "component": "SD-BF-CM",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

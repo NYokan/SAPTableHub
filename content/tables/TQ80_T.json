@@ -2,6 +2,8 @@
   "id": "TQ80_T",
   "area": "qm",
   "contents": "text",
+  "component": "QM-QN",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "C",
   "title": {

@@ -2,6 +2,8 @@
   "id": "TVOIT",
   "area": "fin",
   "contents": "text",
+  "component": "FI-BL-PT",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "C",
   "title": {

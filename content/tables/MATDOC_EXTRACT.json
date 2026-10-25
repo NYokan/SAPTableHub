@@ -2,6 +2,8 @@
   "id": "MATDOC_EXTRACT",
   "area": "mat",
   "contents": "doc",
+  "component": "MM-IM-GF",
+  "componentInferred": true,
   "s4only": true,
   "title": {
     "es": "Documentos de material: extracto de stocks",

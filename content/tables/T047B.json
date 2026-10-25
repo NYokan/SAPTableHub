@@ -2,6 +2,8 @@
   "id": "T047B",
   "area": "fin",
   "contents": "config",
+  "component": "FI-AR-AR-C",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "C",
   "title": {

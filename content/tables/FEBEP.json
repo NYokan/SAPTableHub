@@ -2,6 +2,8 @@
   "id": "FEBEP",
   "area": "fin",
   "contents": "items",
+  "component": "FI-BL-PT",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

@@ -2,6 +2,8 @@
   "id": "COSS",
   "area": "co",
   "contents": "doc",
+  "component": "CO-OM",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

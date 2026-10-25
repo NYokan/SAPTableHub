@@ -2,6 +2,8 @@
   "id": "RKPF",
   "area": "mat",
   "contents": "header",
+  "component": "MM-IM-RS",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

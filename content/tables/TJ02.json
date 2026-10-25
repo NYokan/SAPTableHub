@@ -2,6 +2,8 @@
   "id": "TJ02",
   "area": "gen",
   "contents": "config",
+  "component": "CA",
+  "componentInferred": true,
   "category": "TRANSP",
   "title": {
     "es": "Estados del sistema",

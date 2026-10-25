@@ -3,6 +3,7 @@
   "area": "purch",
   "contents": "master",
   "component": "LO-MD-BP-VM",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

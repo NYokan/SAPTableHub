@@ -2,6 +2,8 @@
   "id": "PLAS",
   "area": "pp",
   "contents": "items",
+  "component": "PP-BD-RTG",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

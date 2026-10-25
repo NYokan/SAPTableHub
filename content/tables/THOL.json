@@ -2,6 +2,8 @@
   "id": "THOL",
   "area": "gen",
   "contents": "config",
+  "component": "BC-SRV-ASF-CAL",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "C",
   "title": {

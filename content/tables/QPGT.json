@@ -2,6 +2,8 @@
   "id": "QPGT",
   "area": "qm",
   "contents": "text",
+  "component": "QM-PT-BD-CAT",
+  "componentInferred": true,
   "category": "TRANSP",
   "title": {
     "es": "Catálogos de calidad: textos de grupos de códigos",

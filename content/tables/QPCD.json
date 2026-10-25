@@ -2,6 +2,8 @@
   "id": "QPCD",
   "area": "qm",
   "contents": "master",
+  "component": "QM-PT-BD-CAT",
+  "componentInferred": true,
   "category": "TRANSP",
   "title": {
     "es": "Catálogos de calidad: códigos",

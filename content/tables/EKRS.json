@@ -2,6 +2,8 @@
   "id": "EKRS",
   "area": "purch",
   "contents": "doc",
+  "component": "MM-IV-LIV",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

@@ -2,6 +2,8 @@
   "id": "MAKT",
   "area": "mat",
   "contents": "text",
+  "component": "LO-MD-MM",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

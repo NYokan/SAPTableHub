@@ -2,6 +2,8 @@
   "id": "ANLC",
   "area": "fin",
   "contents": "doc",
+  "component": "FI-AA",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

@@ -2,6 +2,8 @@
   "id": "T811S",
   "area": "co",
   "contents": "config",
+  "component": "CO-OM",
+  "componentInferred": true,
   "category": "TRANSP",
   "title": {
     "es": "Segmentos de ciclos de reparto",

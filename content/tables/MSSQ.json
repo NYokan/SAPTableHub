@@ -2,6 +2,8 @@
   "id": "MSSQ",
   "area": "mat",
   "contents": "master",
+  "component": "MM-IM-GF",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

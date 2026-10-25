@@ -2,6 +2,8 @@
   "id": "TPTM",
   "area": "sales",
   "contents": "config",
+  "component": "SD-MD-MM",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "C",
   "title": {

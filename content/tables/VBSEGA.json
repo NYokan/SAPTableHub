@@ -2,6 +2,8 @@
   "id": "VBSEGA",
   "area": "fin",
   "contents": "items",
+  "component": "FI",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

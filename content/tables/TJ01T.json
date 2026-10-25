@@ -2,6 +2,8 @@
   "id": "TJ01T",
   "area": "co",
   "contents": "text",
+  "component": "CO-OM",
+  "componentInferred": true,
   "category": "TRANSP",
   "title": {
     "es": "Operaciones empresariales (textos)",

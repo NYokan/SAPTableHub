@@ -2,6 +2,8 @@
   "id": "BGMK",
   "area": "pm",
   "contents": "master",
+  "component": "PM-EQM-SF-WA",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

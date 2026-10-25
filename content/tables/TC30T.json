@@ -2,6 +2,8 @@
   "id": "TC30T",
   "area": "pp",
   "contents": "text",
+  "component": "PP-BD-WKC",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "C",
   "title": {

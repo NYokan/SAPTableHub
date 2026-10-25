@@ -2,6 +2,8 @@
   "id": "TC21",
   "area": "pp",
   "contents": "config",
+  "component": "PP-BD-WKC",
+  "componentInferred": true,
   "category": "TRANSP",
   "title": {
     "es": "Claves de valores estándar",

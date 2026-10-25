@@ -2,6 +2,8 @@
   "id": "T412T",
   "area": "pp",
   "contents": "text",
+  "component": "PP-BD-RTG",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "C",
   "title": {

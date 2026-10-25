@@ -2,6 +2,8 @@
   "id": "TCURW",
   "area": "gen",
   "contents": "text",
+  "component": "BC-SRV-BSF-CUR",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "C",
   "title": {

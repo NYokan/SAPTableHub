@@ -2,6 +2,8 @@
   "id": "PGMI",
   "area": "pp",
   "contents": "master",
+  "component": "PP-SOP-BD",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

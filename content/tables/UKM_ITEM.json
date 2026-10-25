@@ -2,6 +2,8 @@
   "id": "UKM_ITEM",
   "area": "sales",
   "contents": "doc",
+  "component": "FIN-FSCM-CR-CR",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

@@ -2,6 +2,8 @@
   "id": "T356A_T",
   "area": "pm",
   "contents": "text",
+  "component": "PM-WOC",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "C",
   "title": {

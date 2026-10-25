@@ -3,6 +3,7 @@
   "area": "purch",
   "contents": "master",
   "component": "MM-SRV",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

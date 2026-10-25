@@ -2,6 +2,8 @@
   "id": "FDSR",
   "area": "fin",
   "contents": "doc",
+  "component": "FIN-FSCM-CLM",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

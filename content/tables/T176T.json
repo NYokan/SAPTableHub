@@ -2,6 +2,8 @@
   "id": "T176T",
   "area": "sales",
   "contents": "text",
+  "component": "SD-SLS-GF",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "C",
   "title": {

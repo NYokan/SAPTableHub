@@ -2,6 +2,8 @@
   "id": "T003P",
   "area": "co",
   "contents": "text",
+  "component": "CO-OM-OPA",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "C",
   "title": {

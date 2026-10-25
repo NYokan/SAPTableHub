@@ -2,6 +2,8 @@
   "id": "T171",
   "area": "sales",
   "contents": "config",
+  "component": "SD-MD-MM",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "C",
   "title": {

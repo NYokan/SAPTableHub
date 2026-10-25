@@ -2,6 +2,8 @@
   "id": "UKMBP_CMS",
   "area": "fin",
   "contents": "master",
+  "component": "FIN-FSCM-CR-CR",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

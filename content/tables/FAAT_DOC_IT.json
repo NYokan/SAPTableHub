@@ -2,6 +2,8 @@
   "id": "FAAT_DOC_IT",
   "area": "fin",
   "contents": "items",
+  "component": "FI-AA",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "s4only": true,

@@ -2,6 +2,8 @@
   "id": "TKA07",
   "area": "co",
   "contents": "config",
+  "component": "CO-OM",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "C",
   "title": {

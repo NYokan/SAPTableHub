@@ -3,6 +3,7 @@
   "area": "mat",
   "contents": "items",
   "component": "MM-IM-PI",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

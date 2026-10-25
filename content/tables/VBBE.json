@@ -2,6 +2,8 @@
   "id": "VBBE",
   "area": "sales",
   "contents": "doc",
+  "component": "SD-SLS",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

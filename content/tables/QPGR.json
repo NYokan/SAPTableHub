@@ -2,6 +2,8 @@
   "id": "QPGR",
   "area": "qm",
   "contents": "master",
+  "component": "QM-PT-BD-CAT",
+  "componentInferred": true,
   "category": "TRANSP",
   "title": {
     "es": "Catálogos de calidad: grupos de códigos",

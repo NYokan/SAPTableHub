@@ -2,6 +2,8 @@
   "id": "TJ30T",
   "area": "gen",
   "contents": "text",
+  "component": "CA",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "C",
   "title": {

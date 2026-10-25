@@ -2,6 +2,8 @@
   "id": "JSTO",
   "area": "gen",
   "contents": "doc",
+  "component": "CA",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

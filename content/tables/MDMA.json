@@ -2,6 +2,8 @@
   "id": "MDMA",
   "area": "pp",
   "contents": "master",
+  "component": "PP-MRP-BD",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

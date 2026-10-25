@@ -2,6 +2,8 @@
   "id": "T148T",
   "area": "mat",
   "contents": "text",
+  "component": "MM-IM",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "C",
   "title": {

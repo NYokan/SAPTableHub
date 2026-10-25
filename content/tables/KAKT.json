@@ -2,6 +2,8 @@
   "id": "KAKT",
   "area": "pp",
   "contents": "text",
+  "component": "PP-BD-CAP",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

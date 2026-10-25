@@ -72,6 +72,7 @@ export function validate(c) {
     if (t.category !== undefined && !c.taxonomy.categories[t.category]) err(file, `categoría desconocida "${t.category}"`);
     if (t.deliveryClass !== undefined && !c.taxonomy.deliveryClasses[t.deliveryClass]) err(file, `clase de entrega desconocida "${t.deliveryClass}"`);
     if (t.component !== undefined && !COMP_RE.test(t.component)) err(file, '"component" debe ser un componente de aplicación como SD-SLS');
+    if (t.componentInferred !== undefined && (typeof t.componentInferred !== 'boolean' || !t.component)) err(file, '"componentInferred" debe ser true o false y acompañar a "component"');
     if (t.s4only !== undefined && typeof t.s4only !== 'boolean') err(file, '"s4only" debe ser true o false');
     if (!isL10n(t.title)) err(file, '"title" necesita texto en es, en y pt');
     if (t.purpose !== undefined && !isL10n(t.purpose)) err(file, '"purpose" necesita texto en es, en y pt');
@@ -117,6 +118,8 @@ export function compile(c) {
       cat: t.category ?? '',
       dcl: t.deliveryClass ?? '',
       ...(t.component ? { comp: t.component } : {}),
+      // a component the project assigned, not one taken from SAP's official list
+      ...(t.componentInferred ? { ci: 1 } : {}),
       ...(t.s4only ? { s4: 1 } : {}),
       title: t.title,
       syn: t.synonyms ?? empty,

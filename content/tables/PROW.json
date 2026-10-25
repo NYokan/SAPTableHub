@@ -2,6 +2,8 @@
   "id": "PROW",
   "area": "mat",
   "contents": "doc",
+  "component": "MM-CBP",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

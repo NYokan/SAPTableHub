@@ -2,6 +2,8 @@
   "id": "STKO",
   "area": "pp",
   "contents": "header",
+  "component": "LO-MD-BOM",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

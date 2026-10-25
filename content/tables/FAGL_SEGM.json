@@ -2,6 +2,8 @@
   "id": "FAGL_SEGM",
   "area": "fin",
   "contents": "config",
+  "component": "FI-GL",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "C",
   "title": {

@@ -2,6 +2,8 @@
   "id": "VFKP",
   "area": "sales",
   "contents": "items",
+  "component": "LE-TRA-FC",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

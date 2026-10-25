@@ -36,6 +36,8 @@ export interface Entry {
   fields: FieldEntry[];
   /** The one key field besides the client, when there is just one: the field this table is the home of. */
   soleKey: string;
+  /** SAP application component in lower case ("fi-aa"), or empty. */
+  comp: string;
   /** Everything the list filter looks at, per language. */
   hay: Record<Lang, string>;
 }
@@ -54,16 +56,17 @@ export function buildEntries(data: DataIndex): Entry[] {
     });
     const keys = fields.filter((f) => f.key && !CLIENT.has(f.name));
     const soleKey = keys.length === 1 ? keys[0].name : '';
+    const comp = norm(t.comp ?? '');
     const hay = {} as Record<Lang, string>;
     for (const l of LANGS) {
-      hay[l] = norm([t.id, t.title[l], tx.areas[t.area]?.[l] ?? '', tx.contents[t.kind]?.[l] ?? '', ...t.syn[l]].join(' '));
+      hay[l] = norm([t.id, t.title[l], tx.areas[t.area]?.[l] ?? '', tx.contents[t.kind]?.[l] ?? '', comp, ...t.syn[l]].join(' '));
     }
-    return { t, order, id: t.id.toLowerCase(), titles, syns, words, fields, soleKey, hay };
+    return { t, order, id: t.id.toLowerCase(), titles, syns, words, fields, soleKey, comp, hay };
   });
 }
 
 /** Why a result matched, when the reason is not visible in its name or title. */
-export type Via = { syn: string } | { field: string } | null;
+export type Via = { syn: string } | { field: string } | { comp: string } | null;
 
 export interface Hit {
   t: TableSummary;
@@ -128,7 +131,10 @@ function scoreEntry(x: Entry, words: string[], full: string, lang: Lang) {
   return { total, matched, via };
 }
 
-const KIND_ORDER = ['master', 'header', 'doc', 'items', 'text', 'config'];
+// what a module or component code looks like once normalised: "sd", "fi-aa", "mm-pur"
+const COMP_Q = /^[a-z][a-z0-9]*(-[a-z0-9]+)*$/;
+
+const KIND_ORDER =['master', 'header', 'doc', 'items', 'text', 'config'];
 const kindRank = (k: string) => {
   const i = KIND_ORDER.indexOf(k);
   return i < 0 ? KIND_ORDER.length : i;
@@ -157,6 +163,24 @@ export function search(entries: Entry[], query: string, lang: Lang, area = ''): 
     a.x.order - b.x.order;
   const toHit = (r: (typeof scored)[number]): Hit => ({ t: r.x.t, via: r.via });
   const all = scored.filter((r) => r.matched === words.length).sort((a, b) => b.total - a.total || tie(a, b));
+  // a module or component code ("SD", "FI-AA", "MM-PUR") lists that component's tables, after a table of that exact
+  // name if there is one and before anything that merely contains the letters
+  if (COMP_Q.test(full)) {
+    const inComp = scored.filter((r) => r.x.comp === full || r.x.comp.startsWith(full + '-')).sort(tie);
+    if (inComp.length) {
+      const taken = new Set(inComp.map((r) => r.x));
+      const exact = all.filter((r) => r.x.id === full);
+      for (const r of exact) taken.add(r.x);
+      return {
+        hits: [
+          ...exact.map(toHit),
+          ...inComp.filter((r) => r.x.id !== full).map((r) => ({ t: r.x.t, via: { comp: r.x.t.comp! } })),
+          ...all.filter((r) => !taken.has(r.x)).map(toHit),
+        ],
+        partial: false,
+      };
+    }
+  }
   if (all.length) return { hits: all.map(toHit), partial: false };
   const some = scored
     .filter((r) => r.matched > 0)

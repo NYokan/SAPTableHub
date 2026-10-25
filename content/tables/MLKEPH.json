@@ -2,6 +2,8 @@
   "id": "MLKEPH",
   "area": "co",
   "contents": "items",
+  "component": "CO-PC-ACT",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

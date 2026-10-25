@@ -2,6 +2,8 @@
   "id": "MAST",
   "area": "pp",
   "contents": "master",
+  "component": "LO-MD-BOM",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

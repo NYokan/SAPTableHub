@@ -2,6 +2,8 @@
   "id": "VBREVE",
   "area": "sales",
   "contents": "doc",
+  "component": "SD-BIL",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

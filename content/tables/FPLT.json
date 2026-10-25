@@ -2,6 +2,8 @@
   "id": "FPLT",
   "area": "sales",
   "contents": "items",
+  "component": "SD-BIL-IV-BP",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

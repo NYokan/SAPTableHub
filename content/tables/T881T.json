@@ -2,6 +2,8 @@
   "id": "T881T",
   "area": "fin",
   "contents": "text",
+  "component": "FI-SL-SL",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "C",
   "title": {

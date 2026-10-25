@@ -2,6 +2,8 @@
   "id": "TTXD",
   "area": "fin",
   "contents": "config",
+  "component": "FI",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "C",
   "title": {

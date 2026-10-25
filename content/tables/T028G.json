@@ -2,6 +2,8 @@
   "id": "T028G",
   "area": "fin",
   "contents": "config",
+  "component": "FI-BL-PT",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "C",
   "title": {

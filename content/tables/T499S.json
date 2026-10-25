@@ -2,6 +2,8 @@
   "id": "T499S",
   "area": "pm",
   "contents": "config",
+  "component": "PM-EQM",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "C",
   "title": {

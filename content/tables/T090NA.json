@@ -2,6 +2,8 @@
   "id": "T090NA",
   "area": "fin",
   "contents": "config",
+  "component": "FI-AA",
+  "componentInferred": true,
   "category": "TRANSP",
   "title": {
     "es": "Claves de amortización",

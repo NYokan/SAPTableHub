@@ -2,6 +2,8 @@
   "id": "STXH",
   "area": "gen",
   "contents": "header",
+  "component": "BC-SRV-SCR",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

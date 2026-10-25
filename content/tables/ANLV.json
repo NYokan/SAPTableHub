@@ -2,6 +2,8 @@
   "id": "ANLV",
   "area": "fin",
   "contents": "master",
+  "component": "FI-AA",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

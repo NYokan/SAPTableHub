@@ -2,6 +2,8 @@
   "id": "CVI_CUST_LINK",
   "area": "gen",
   "contents": "master",
+  "component": "AP-MD-BF-SYN",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

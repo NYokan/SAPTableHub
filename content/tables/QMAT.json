@@ -2,6 +2,8 @@
   "id": "QMAT",
   "area": "qm",
   "contents": "master",
+  "component": "QM-PT-BD",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

@@ -15,6 +15,8 @@ export interface TableSummary {
   dcl: string;
   /** SAP application component, such as SD-SLS. */
   comp?: string;
+  /** 1 when the component was assigned by the project rather than taken from SAP's official list. */
+  ci?: 1;
   /** 1 when the table exists only in S/4HANA, not in ECC. */
   s4?: 1;
   title: L10n;

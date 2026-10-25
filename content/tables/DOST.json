@@ -2,6 +2,8 @@
   "id": "DOST",
   "area": "pp",
   "contents": "master",
+  "component": "LO-MD-BOM",
+  "componentInferred": true,
   "category": "TRANSP",
   "title": {
     "es": "Asignación de listas de materiales a documentos",

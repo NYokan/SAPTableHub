@@ -2,6 +2,8 @@
   "id": "MPLA",
   "area": "pm",
   "contents": "header",
+  "component": "PM-PRM-MP",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

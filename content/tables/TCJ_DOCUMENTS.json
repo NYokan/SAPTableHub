@@ -2,6 +2,8 @@
   "id": "TCJ_DOCUMENTS",
   "area": "fin",
   "contents": "header",
+  "component": "FI",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

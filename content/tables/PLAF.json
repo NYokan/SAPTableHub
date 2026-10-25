@@ -2,6 +2,8 @@
   "id": "PLAF",
   "area": "pp",
   "contents": "doc",
+  "component": "PP-PLO",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

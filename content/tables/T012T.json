@@ -2,6 +2,8 @@
   "id": "T012T",
   "area": "fin",
   "contents": "text",
+  "component": "FI-BL-MD",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "C",
   "title": {

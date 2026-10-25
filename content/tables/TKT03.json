@@ -2,6 +2,8 @@
   "id": "TKT03",
   "area": "co",
   "contents": "text",
+  "component": "CO-OM",
+  "componentInferred": true,
   "category": "TRANSP",
   "title": {
     "es": "Magnitudes estadísticas (textos)",

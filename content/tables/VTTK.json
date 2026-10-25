@@ -2,6 +2,8 @@
   "id": "VTTK",
   "area": "sales",
   "contents": "header",
+  "component": "LE-TRA",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

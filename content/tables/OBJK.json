@@ -2,6 +2,8 @@
   "id": "OBJK",
   "area": "pm",
   "contents": "items",
+  "component": "LO-MD-SN",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

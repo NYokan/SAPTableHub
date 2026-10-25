@@ -2,6 +2,8 @@
   "id": "CHVW",
   "area": "mat",
   "contents": "doc",
+  "component": "LO-BM",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

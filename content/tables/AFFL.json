@@ -2,6 +2,8 @@
   "id": "AFFL",
   "area": "pp",
   "contents": "items",
+  "component": "PP-SFC",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

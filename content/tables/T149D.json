@@ -2,6 +2,8 @@
   "id": "T149D",
   "area": "mat",
   "contents": "config",
+  "component": "MM-IM",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "C",
   "title": {

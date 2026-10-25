@@ -2,6 +2,8 @@
   "id": "T087",
   "area": "fin",
   "contents": "config",
+  "component": "FI-AA",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "C",
   "title": {

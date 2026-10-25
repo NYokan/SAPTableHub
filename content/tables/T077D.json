@@ -2,6 +2,8 @@
   "id": "T077D",
   "area": "fin",
   "contents": "config",
+  "component": "LO-MD-BP-CM",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "C",
   "title": {

@@ -2,6 +2,8 @@
   "id": "MHIS",
   "area": "pm",
   "contents": "doc",
+  "component": "PM-PRM-MP",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

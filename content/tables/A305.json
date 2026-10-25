@@ -2,6 +2,8 @@
   "id": "A305",
   "area": "sales",
   "contents": "master",
+  "component": "SD-MD-CM",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

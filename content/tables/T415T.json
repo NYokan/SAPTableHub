@@ -2,6 +2,8 @@
   "id": "T415T",
   "area": "pp",
   "contents": "text",
+  "component": "LO-MD-BOM",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "C",
   "title": {

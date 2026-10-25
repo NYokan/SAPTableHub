@@ -26,6 +26,15 @@ export const dclName = (c: Ctx, k: string) => loc(c, c.data.taxonomy.deliveryCla
 /** An area as a tag in its own colour, with a dot of the same hue (see the --a-* tokens). */
 export const areaBadge = (c: Ctx, k: string) => `<span class="ab ab-${esc(k)}">${esc(areaName(c, k))}</span>`;
 
+/**
+ * The SAP module ("SD") or, with `full`, the whole application component ("SD-BF-PR") as a quiet code tag;
+ * its tooltip says when the project assigned it rather than SAP's official list. Empty when not known.
+ */
+export const modTag = (c: Ctx, t: TableSummary, full = false) =>
+  t.comp
+    ? `<span class="mod" title="${esc(tx(c, t.ci ? 'compTipInf' : 'compTip', { comp: t.comp }))}">${esc(full ? t.comp : t.comp.split('-')[0])}</span>`
+    : '';
+
 /** The visible "S/4HANA only" mark for tables that do not exist in ECC; empty for the rest. */
 export const s4Badge = (c: Ctx, t: TableSummary) => (t.s4 ? `<span class="s4" title="${esc(tx(c, 's4note'))}">${esc(tx(c, 's4only'))}</span>` : '');
 

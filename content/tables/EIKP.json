@@ -3,6 +3,7 @@
   "area": "purch",
   "contents": "header",
   "component": "SD-FT",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

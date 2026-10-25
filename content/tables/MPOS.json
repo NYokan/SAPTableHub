@@ -2,6 +2,8 @@
   "id": "MPOS",
   "area": "pm",
   "contents": "items",
+  "component": "PM-PRM-MP",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

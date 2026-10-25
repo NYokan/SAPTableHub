@@ -2,6 +2,8 @@
   "id": "KEPH",
   "area": "co",
   "contents": "items",
+  "component": "CO-PC-PCP",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

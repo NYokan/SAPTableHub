@@ -2,6 +2,8 @@
   "id": "TVKM",
   "area": "sales",
   "contents": "config",
+  "component": "SD-BF-ACT",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "C",
   "title": {

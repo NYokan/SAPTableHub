@@ -2,6 +2,8 @@
   "id": "PVKT",
   "area": "pp",
   "contents": "text",
+  "component": "PP-KAB",
+  "componentInferred": true,
   "category": "TRANSP",
   "title": {
     "es": "Áreas de suministro a producción (descripciones)",

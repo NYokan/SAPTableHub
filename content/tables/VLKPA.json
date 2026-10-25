@@ -2,6 +2,8 @@
   "id": "VLKPA",
   "area": "sales",
   "contents": "doc",
+  "component": "LE-SHP-GF",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

@@ -2,6 +2,8 @@
   "id": "REGUH",
   "area": "fin",
   "contents": "header",
+  "component": "FI-AP-AP",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

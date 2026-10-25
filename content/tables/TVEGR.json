@@ -2,6 +2,8 @@
   "id": "TVEGR",
   "area": "mat",
   "contents": "config",
+  "component": "SD-MD-MM",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "C",
   "title": {

@@ -59,7 +59,7 @@ public/               archivos que se publican tal cual (favicon, cabeceras de C
 
 ## Añadir o editar una tabla
 
-Crea `content/tables/NOMBRE.json`. Solo `id`, `area`, `contents` y `title` son obligatorios. `category` y `deliveryClass` se rellenan solo cuando se conocen con seguridad (si faltan, el sitio muestra «—» y la tabla se anota en `docs/pendientes.md`); `component` guarda el componente de aplicación de SAP (por ejemplo `SD-SLS`) y `s4only: true` marca las tablas que solo existen en S/4HANA:
+Crea `content/tables/NOMBRE.json`. Solo `id`, `area`, `contents` y `title` son obligatorios. `category` y `deliveryClass` se rellenan solo cuando se conocen con seguridad (si faltan, el sitio muestra «—» y la tabla se anota en `docs/pendientes.md`); `component` guarda el componente de aplicación de SAP (por ejemplo `SD-SLS`), con `componentInferred: true` cuando no viene de la lista oficial de SAP sino que lo asignó el proyecto, y `s4only: true` marca las tablas que solo existen en S/4HANA:
 
 ```json
 {
@@ -121,7 +121,7 @@ Código bajo [Apache 2.0](LICENSE).
 
 Los nombres de tabla y los componentes de aplicación de SAP proceden de [SAP/abap-atc-cr-cv-s4hc](https://github.com/SAP/abap-atc-cr-cv-s4hc) (archivo `src/objectReleaseInfo_PCELatest.json`), © SAP SE o una empresa filial de SAP y los colaboradores de abap-atc-cr-cv-s4hc, publicados bajo [Apache-2.0](http://www.apache.org/licenses/LICENSE-2.0). Ver [NOTICE](NOTICE).
 
-De ese archivo solo se toman los nombres y los componentes de aplicación. Los títulos, explicaciones y sinónimos de `content/` están escritos para este proyecto y no reproducen las descripciones oficiales de SAP. Las tablas que no figuran en esa lista se añadieron a mano; las que solo existen en S/4HANA llevan la marca «Solo S/4HANA».
+De ese archivo solo se toman los nombres y los componentes de aplicación. Los títulos, explicaciones y sinónimos de `content/` están escritos para este proyecto y no reproducen las descripciones oficiales de SAP. Las tablas que no figuran en esa lista se añadieron a mano; las que solo existen en S/4HANA llevan la marca «Solo S/4HANA». El componente de aplicación de esas tablas lo asignó el proyecto por conocimiento de SAP y está marcado como tal en la ficha (`componentInferred`).
 
 Los campos principales (nombre, clave y tipo) se contrastaron con la referencia pública del diccionario de ECC 6.0 de [leanx.eu](https://leanx.eu/), consultada una vez y despacio, con permiso de su `robots.txt`. De ella solo se usan esos datos técnicos; las etiquetas de los campos están escritas para este proyecto. Las tablas que solo existen en S/4HANA no figuran en esa referencia y sus campos no se han podido contrastar.
 

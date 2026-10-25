@@ -2,6 +2,8 @@
   "id": "QALT",
   "area": "qm",
   "contents": "items",
+  "component": "QM-IM",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

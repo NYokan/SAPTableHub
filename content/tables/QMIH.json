@@ -2,6 +2,8 @@
   "id": "QMIH",
   "area": "pm",
   "contents": "doc",
+  "component": "PM-WOC-MN",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

@@ -2,6 +2,8 @@
   "id": "FAGLFLEXA",
   "area": "fin",
   "contents": "items",
+  "component": "FI-GL-FL",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

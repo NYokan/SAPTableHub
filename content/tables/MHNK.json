@@ -2,6 +2,8 @@
   "id": "MHNK",
   "area": "fin",
   "contents": "header",
+  "component": "FI-AR-AR-C",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

@@ -2,6 +2,8 @@
   "id": "TNAPR",
   "area": "gen",
   "contents": "config",
+  "component": "SD-BF-OC",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "C",
   "title": {

@@ -2,6 +2,8 @@
   "id": "CRFH",
   "area": "pp",
   "contents": "master",
+  "component": "PP-BD-PRT",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

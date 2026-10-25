@@ -2,6 +2,8 @@
   "id": "SER01",
   "area": "pm",
   "contents": "header",
+  "component": "LO-MD-SN",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

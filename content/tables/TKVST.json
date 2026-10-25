@@ -2,6 +2,8 @@
   "id": "TKVST",
   "area": "co",
   "contents": "text",
+  "component": "CO-OM",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "C",
   "title": {

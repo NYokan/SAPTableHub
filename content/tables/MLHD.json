@@ -2,6 +2,8 @@
   "id": "MLHD",
   "area": "co",
   "contents": "header",
+  "component": "CO-PC-ACT",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

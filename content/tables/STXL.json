@@ -2,6 +2,8 @@
   "id": "STXL",
   "area": "gen",
   "contents": "doc",
+  "component": "BC-SRV-SCR",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

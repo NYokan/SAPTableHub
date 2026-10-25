@@ -2,6 +2,8 @@
   "id": "T189T",
   "area": "sales",
   "contents": "text",
+  "component": "SD-MD-MM",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "C",
   "title": {

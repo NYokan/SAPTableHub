@@ -2,6 +2,8 @@
   "id": "TC26",
   "area": "pp",
   "contents": "config",
+  "component": "PP-BD-CAP",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "C",
   "title": {

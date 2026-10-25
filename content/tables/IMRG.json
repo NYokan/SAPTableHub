@@ -2,6 +2,8 @@
   "id": "IMRG",
   "area": "pm",
   "contents": "doc",
+  "component": "PM-EQM-SF-MPC",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

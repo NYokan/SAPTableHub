@@ -2,6 +2,8 @@
   "id": "TCA01",
   "area": "pp",
   "contents": "config",
+  "component": "PP-BD-RTG",
+  "componentInferred": true,
   "category": "TRANSP",
   "title": {
     "es": "Tipos de hoja de ruta",

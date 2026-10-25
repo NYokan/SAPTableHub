@@ -2,6 +2,8 @@
   "id": "AUAK",
   "area": "co",
   "contents": "header",
+  "component": "CO-OM",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

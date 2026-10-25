@@ -3,6 +3,7 @@
   "area": "purch",
   "contents": "doc",
   "component": "MM-PUR",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

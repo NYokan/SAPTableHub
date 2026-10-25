@@ -2,6 +2,8 @@
   "id": "IHPA",
   "area": "pm",
   "contents": "doc",
+  "component": "PM-EQM",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

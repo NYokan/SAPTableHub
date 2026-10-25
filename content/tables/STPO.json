@@ -2,6 +2,8 @@
   "id": "STPO",
   "area": "pp",
   "contents": "items",
+  "component": "LO-MD-BOM",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

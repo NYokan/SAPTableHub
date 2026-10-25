@@ -2,6 +2,8 @@
   "id": "QPRS",
   "area": "qm",
   "contents": "doc",
+  "component": "QM-IM-SM",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

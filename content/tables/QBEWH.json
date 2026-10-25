@@ -2,6 +2,8 @@
   "id": "QBEWH",
   "area": "mat",
   "contents": "master",
+  "component": "MM-IM",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

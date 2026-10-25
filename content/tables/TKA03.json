@@ -2,6 +2,8 @@
   "id": "TKA03",
   "area": "co",
   "contents": "master",
+  "component": "CO-OM",
+  "componentInferred": true,
   "category": "TRANSP",
   "title": {
     "es": "Magnitudes estadísticas",

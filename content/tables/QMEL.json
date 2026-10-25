@@ -2,6 +2,8 @@
   "id": "QMEL",
   "area": "qm",
   "contents": "header",
+  "component": "QM-QN",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

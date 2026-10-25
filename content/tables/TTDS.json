@@ -2,6 +2,8 @@
   "id": "TTDS",
   "area": "sales",
   "contents": "config",
+  "component": "LE-TRA",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "C",
   "title": {

@@ -2,6 +2,8 @@
   "id": "BSAK",
   "area": "fin",
   "contents": "doc",
+  "component": "FI",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

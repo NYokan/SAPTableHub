@@ -2,6 +2,8 @@
   "id": "TB003T",
   "area": "gen",
   "contents": "text",
+  "component": "BC-SRV-BP",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "C",
   "title": {

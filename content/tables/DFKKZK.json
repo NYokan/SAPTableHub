@@ -2,6 +2,8 @@
   "id": "DFKKZK",
   "area": "fin",
   "contents": "header",
+  "component": "FI-CA",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

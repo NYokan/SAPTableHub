@@ -2,6 +2,8 @@
   "id": "TCK19A",
   "area": "co",
   "contents": "config",
+  "component": "CO-PC-PCP",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "C",
   "title": {

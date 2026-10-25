@@ -2,6 +2,8 @@
   "id": "DRAD",
   "area": "gen",
   "contents": "master",
+  "component": "CA-DMS",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

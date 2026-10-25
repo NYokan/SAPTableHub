@@ -2,6 +2,8 @@
   "id": "BUT100",
   "area": "gen",
   "contents": "master",
+  "component": "BC-SRV-BP",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

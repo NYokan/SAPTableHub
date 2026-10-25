@@ -2,6 +2,8 @@
   "id": "T040A",
   "area": "fin",
   "contents": "text",
+  "component": "FI-AR-AR-C",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "C",
   "title": {

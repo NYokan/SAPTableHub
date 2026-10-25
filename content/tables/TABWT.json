@@ -2,6 +2,8 @@
   "id": "TABWT",
   "area": "fin",
   "contents": "text",
+  "component": "FI-AA",
+  "componentInferred": true,
   "category": "TRANSP",
   "title": {
     "es": "Activos fijos: textos de clases de movimiento",

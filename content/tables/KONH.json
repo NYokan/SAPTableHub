@@ -2,6 +2,7 @@
   "id": "KONH",
   "area": "purch",
   "contents": "header",
+  "component": "SD-MD-CM",
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

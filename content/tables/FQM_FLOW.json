@@ -2,6 +2,8 @@
   "id": "FQM_FLOW",
   "area": "fin",
   "contents": "doc",
+  "component": "FIN-FSCM-FQM",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "s4only": true,

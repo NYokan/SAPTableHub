@@ -2,6 +2,8 @@
   "id": "/SCWM/ORDIM_O",
   "area": "mat",
   "contents": "doc",
+  "component": "SCM-EWM-WOP",
+  "componentInferred": true,
   "category": "TRANSP",
   "s4only": true,
   "title": {

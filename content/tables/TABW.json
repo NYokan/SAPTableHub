@@ -2,6 +2,8 @@
   "id": "TABW",
   "area": "fin",
   "contents": "config",
+  "component": "FI-AA",
+  "componentInferred": true,
   "category": "TRANSP",
   "title": {
     "es": "Activos fijos: clases de movimiento",

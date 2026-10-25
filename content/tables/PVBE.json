@@ -2,6 +2,8 @@
   "id": "PVBE",
   "area": "pp",
   "contents": "config",
+  "component": "PP-KAB",
+  "componentInferred": true,
   "category": "TRANSP",
   "title": {
     "es": "Áreas de suministro a producción",

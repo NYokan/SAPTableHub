@@ -2,6 +2,8 @@
   "id": "PPH_DBVM",
   "area": "pp",
   "contents": "doc",
+  "component": "PP-MRP",
+  "componentInferred": true,
   "s4only": true,
   "title": {
     "es": "Fichero de planificación de MRP Live",

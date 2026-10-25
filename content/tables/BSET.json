@@ -2,6 +2,8 @@
   "id": "BSET",
   "area": "fin",
   "contents": "doc",
+  "component": "FI",
+  "componentInferred": true,
   "category": "CLUSTER",
   "deliveryClass": "A",
   "title": {

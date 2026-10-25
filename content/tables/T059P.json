@@ -2,6 +2,8 @@
   "id": "T059P",
   "area": "fin",
   "contents": "config",
+  "component": "FI-AP-AP-Q",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "C",
   "title": {

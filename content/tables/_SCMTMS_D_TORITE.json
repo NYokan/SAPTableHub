@@ -2,6 +2,8 @@
   "id": "/SCMTMS/D_TORITE",
   "area": "sales",
   "contents": "items",
+  "component": "TM-FRM-FRO",
+  "componentInferred": true,
   "s4only": true,
   "title": {
     "es": "Órdenes de flete (posiciones)",

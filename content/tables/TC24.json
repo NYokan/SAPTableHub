@@ -2,6 +2,8 @@
   "id": "TC24",
   "area": "pp",
   "contents": "config",
+  "component": "PP-BD-WKC",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "C",
   "title": {

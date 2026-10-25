@@ -2,6 +2,8 @@
   "id": "TJ20",
   "area": "gen",
   "contents": "config",
+  "component": "CA",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "C",
   "title": {

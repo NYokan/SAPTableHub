@@ -2,6 +2,8 @@
   "id": "TCJ_C_JOURNALS",
   "area": "fin",
   "contents": "config",
+  "component": "FI",
+  "componentInferred": true,
   "category": "TRANSP",
   "title": {
     "es": "Libros de caja",

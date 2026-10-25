@@ -2,6 +2,8 @@
   "id": "INOB",
   "area": "gen",
   "contents": "master",
+  "component": "CA-CL",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

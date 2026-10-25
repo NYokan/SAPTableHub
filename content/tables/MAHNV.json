@@ -2,6 +2,8 @@
   "id": "MAHNV",
   "area": "fin",
   "contents": "doc",
+  "component": "FI-AR-AR-C",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

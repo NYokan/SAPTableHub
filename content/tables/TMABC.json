@@ -2,6 +2,8 @@
   "id": "TMABC",
   "area": "mat",
   "contents": "config",
+  "component": "LO-MD-MM",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "C",
   "title": {

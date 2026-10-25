@@ -2,6 +2,8 @@
   "id": "FAAT_PLAN_VALUES",
   "area": "fin",
   "contents": "doc",
+  "component": "FI-AA",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "s4only": true,

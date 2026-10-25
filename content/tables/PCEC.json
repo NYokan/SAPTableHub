@@ -2,6 +2,8 @@
   "id": "PCEC",
   "area": "fin",
   "contents": "config",
+  "component": "FI-BL-PT",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

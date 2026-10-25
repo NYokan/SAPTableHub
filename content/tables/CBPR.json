@@ -2,6 +2,8 @@
   "id": "CBPR",
   "area": "co",
   "contents": "master",
+  "component": "CO-OM-ABC",
+  "componentInferred": true,
   "category": "TRANSP",
   "title": {
     "es": "Procesos empresariales (ABC)",

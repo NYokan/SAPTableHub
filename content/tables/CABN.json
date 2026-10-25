@@ -2,6 +2,8 @@
   "id": "CABN",
   "area": "gen",
   "contents": "master",
+  "component": "CA-CL-CHR",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

@@ -448,6 +448,23 @@ details.legend { margin-top: 16px; }
   vertical-align: 2px;
 }
 .d-tags .s4 { margin-left: 0; min-height: 22px; }
+/* the SAP module or component: a code in quiet ink beside the area, never one more colour */
+.mod {
+  display: inline-flex;
+  align-items: center;
+  min-height: 22px;
+  margin-left: 6px;
+  padding: 0 6px;
+  border: 1px solid var(--line);
+  border-radius: 4px;
+  font-family: var(--mono);
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--muted);
+  white-space: nowrap;
+  vertical-align: 1px;
+}
+.d-tags .mod { margin-left: 0; }
 .c-comp { display: block; margin-top: 2px; font-size: 12.5px; color: var(--muted); }
 .pager { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px 16px; margin-top: 14px; font-size: 14px; }
 .pg { display: flex; flex-wrap: wrap; gap: 4px; align-items: center; }
@@ -661,7 +678,8 @@ details.legend { margin-top: 16px; }
   .c-title { flex: none; }
   .c-meta { display: contents; }
   .c-meta > span { font-size: 14px; color: var(--muted); }
-  .c-meta > .ab { justify-self: start; font-size: 13px; }
+  .c-meta > .ab, .c-meta > .c-ar { justify-self: start; font-size: 13px; }
+  .c-meta > .c-ar { display: inline-flex; align-items: center; }
   .c-meta .dot { display: none; }
   .chead {
     display: grid;

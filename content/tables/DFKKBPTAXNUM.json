@@ -2,6 +2,8 @@
   "id": "DFKKBPTAXNUM",
   "area": "gen",
   "contents": "master",
+  "component": "BC-SRV-BP",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

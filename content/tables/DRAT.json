@@ -2,6 +2,8 @@
   "id": "DRAT",
   "area": "gen",
   "contents": "text",
+  "component": "CA-DMS",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

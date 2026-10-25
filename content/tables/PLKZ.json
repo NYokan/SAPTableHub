@@ -2,6 +2,8 @@
   "id": "PLKZ",
   "area": "pp",
   "contents": "header",
+  "component": "PP-BD-RTG",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

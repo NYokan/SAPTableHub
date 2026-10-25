@@ -2,6 +2,8 @@
   "id": "TCLA",
   "area": "gen",
   "contents": "config",
+  "component": "CA-CL-CLS",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "C",
   "title": {

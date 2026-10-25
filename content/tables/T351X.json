@@ -2,6 +2,8 @@
   "id": "T351X",
   "area": "pm",
   "contents": "text",
+  "component": "PM-PRM-MP",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "C",
   "title": {

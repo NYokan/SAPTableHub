@@ -2,6 +2,8 @@
   "id": "TVSTZ",
   "area": "sales",
   "contents": "config",
+  "component": "LE-SHP-GF",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "C",
   "title": {

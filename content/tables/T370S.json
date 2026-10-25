@@ -2,6 +2,8 @@
   "id": "T370S",
   "area": "pm",
   "contents": "config",
+  "component": "PM-EQM-FL",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "C",
   "title": {

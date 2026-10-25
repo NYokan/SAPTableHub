@@ -12,6 +12,8 @@ Licensed under the Apache License, Version 2.0
 (http://www.apache.org/licenses/LICENSE-2.0).
 
 Only table names and application components were taken from that file.
+Application components of tables not in that file were assigned by this
+project and are marked as such (componentInferred).
 
 Field names, key flags and data types were checked against the public
 ECC 6.0 dictionary reference at leanx.eu. Only those technical facts

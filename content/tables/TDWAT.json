@@ -2,6 +2,8 @@
   "id": "TDWAT",
   "area": "gen",
   "contents": "text",
+  "component": "CA-DMS",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "C",
   "title": {

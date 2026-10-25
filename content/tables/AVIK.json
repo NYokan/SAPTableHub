@@ -2,6 +2,8 @@
   "id": "AVIK",
   "area": "fin",
   "contents": "header",
+  "component": "FI",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

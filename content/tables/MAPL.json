@@ -2,6 +2,8 @@
   "id": "MAPL",
   "area": "pp",
   "contents": "master",
+  "component": "PP-BD-RTG",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

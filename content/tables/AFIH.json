@@ -2,6 +2,8 @@
   "id": "AFIH",
   "area": "pm",
   "contents": "header",
+  "component": "PM-WOC-MO",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

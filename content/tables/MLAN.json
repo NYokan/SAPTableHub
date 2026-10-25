@@ -3,6 +3,7 @@
   "area": "mat",
   "contents": "master",
   "component": "LO-MD-MM",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

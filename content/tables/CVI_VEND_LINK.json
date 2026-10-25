@@ -2,6 +2,8 @@
   "id": "CVI_VEND_LINK",
   "area": "purch",
   "contents": "master",
+  "component": "AP-MD-BF-SYN",
+  "componentInferred": true,
   "title": {
     "es": "Vínculo entre proveedor e interlocutor comercial",
     "en": "Link between vendor and business partner",

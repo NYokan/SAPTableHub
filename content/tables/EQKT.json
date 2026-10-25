@@ -2,6 +2,8 @@
   "id": "EQKT",
   "area": "pm",
   "contents": "text",
+  "component": "PM-EQM-EQ",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

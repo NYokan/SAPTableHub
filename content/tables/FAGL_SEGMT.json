@@ -2,6 +2,8 @@
   "id": "FAGL_SEGMT",
   "area": "fin",
   "contents": "text",
+  "component": "FI-GL",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "C",
   "title": {

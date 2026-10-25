@@ -2,6 +2,8 @@
   "id": "FAGL_SPLINFO",
   "area": "fin",
   "contents": "doc",
+  "component": "FI-GL-FL",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

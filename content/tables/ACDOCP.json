@@ -2,6 +2,8 @@
   "id": "ACDOCP",
   "area": "co",
   "contents": "items",
+  "component": "FI-GL",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "s4only": true,

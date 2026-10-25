@@ -2,6 +2,8 @@
   "id": "SWOR",
   "area": "gen",
   "contents": "text",
+  "component": "CA-CL-CLS",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

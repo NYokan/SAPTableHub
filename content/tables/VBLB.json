@@ -2,6 +2,8 @@
   "id": "VBLB",
   "area": "sales",
   "contents": "doc",
+  "component": "SD-SLS-OA-SCH",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

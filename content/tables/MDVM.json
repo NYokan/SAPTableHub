@@ -2,6 +2,8 @@
   "id": "MDVM",
   "area": "pp",
   "contents": "doc",
+  "component": "PP-MRP",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

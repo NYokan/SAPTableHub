@@ -2,6 +2,8 @@
   "id": "KBEZ",
   "area": "pp",
   "contents": "doc",
+  "component": "PP-CRP-SCH",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

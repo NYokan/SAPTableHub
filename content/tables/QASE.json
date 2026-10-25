@@ -2,6 +2,8 @@
   "id": "QASE",
   "area": "qm",
   "contents": "doc",
+  "component": "QM-IM-RR",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

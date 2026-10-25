@@ -2,6 +2,8 @@
   "id": "KNMT",
   "area": "sales",
   "contents": "master",
+  "component": "SD-MD-MM",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

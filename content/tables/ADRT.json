@@ -2,6 +2,8 @@
   "id": "ADRT",
   "area": "gen",
   "contents": "text",
+  "component": "BC-SRV-ADR",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

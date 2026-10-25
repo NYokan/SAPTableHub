@@ -2,6 +2,8 @@
   "id": "AFAB",
   "area": "ps",
   "contents": "doc",
+  "component": "PS-ST-OPR-NET",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {

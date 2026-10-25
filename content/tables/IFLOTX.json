@@ -2,6 +2,8 @@
   "id": "IFLOTX",
   "area": "pm",
   "contents": "text",
+  "component": "PM-EQM-FL",
+  "componentInferred": true,
   "category": "TRANSP",
   "deliveryClass": "A",
   "title": {
