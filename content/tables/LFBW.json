@@ -9,5 +9,30 @@
     "es": "Proveedores: retenciones de impuestos",
     "en": "Vendors: withholding tax",
     "pt": "Fornecedores: impostos retidos na fonte"
+  },
+  "purpose": {
+    "es": "Una fila por proveedor, sociedad y tipo de retención con los datos de retención de impuestos: indicador de retención, si está sujeto y exenciones. Se usa al pagar o contabilizar facturas en países con retenciones en la fuente.",
+    "en": "One row per vendor, company code and withholding tax type with the withholding data: withholding tax code, whether the vendor is liable, and exemptions. It is used when paying or posting invoices in countries with withholding tax.",
+    "pt": "Uma linha por fornecedor, empresa e tipo de retenção com os dados de imposto retido na fonte: código de retenção, se está sujeito e isenções. É usada ao pagar ou lançar faturas em países com retenção na fonte."
+  },
+  "synonyms": {
+    "es": [
+      "retención en la fuente",
+      "retenciones del proveedor",
+      "indicador de retención",
+      "exención de retención"
+    ],
+    "en": [
+      "withholding tax",
+      "vendor withholding",
+      "withholding tax code",
+      "withholding exemption"
+    ],
+    "pt": [
+      "retenção na fonte",
+      "retenções do fornecedor",
+      "código de retenção",
+      "isenção de retenção"
+    ]
   }
 }

@@ -8,5 +8,27 @@
     "es": "Perfiles de proyecto",
     "en": "Project profiles",
     "pt": "Perfis de projeto"
+  },
+  "purpose": {
+    "es": "Perfiles de proyecto: plantillas de configuración que se asignan al crear un proyecto y proponen valores por defecto y reglas de control (organización, planificación, presupuesto, liquidación).",
+    "en": "Project profiles: configuration templates assigned when creating a project, proposing default values and control rules (organisation, planning, budgeting, settlement).",
+    "pt": "Perfis de projeto: modelos de configuração atribuídos ao criar um projeto, que propõem valores padrão e regras de controle (organização, planejamento, orçamento, apropriação)."
+  },
+  "synonyms": {
+    "es": [
+      "perfil de proyecto",
+      "configuración de proyecto",
+      "plantilla de proyecto"
+    ],
+    "en": [
+      "project profile",
+      "project settings",
+      "project template"
+    ],
+    "pt": [
+      "perfil de projeto",
+      "configuração de projeto",
+      "modelo de projeto"
+    ]
   }
 }

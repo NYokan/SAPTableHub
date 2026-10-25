@@ -30,6 +30,12 @@ describe('search', () => {
     assert.equal(ids('cliente')[0], 'KNA1');
     assert.equal(ids('stock')[0], 'MARD');
   });
+  it('prefers the table a title is about over one that mentions it in passing', () => {
+    // "Centros de coste" before "Puestos de trabajo: asignación a centros de coste"
+    assert.equal(ids('centro de coste')[0], 'CSKS');
+    assert.ok(ids('centro de coste').indexOf('CSKS') < ids('centro de coste').indexOf('CRCO'));
+    assert.equal(ids('orden de fabricación')[0], 'AFKO');
+  });
   it('understands business words in the other languages too', () => {
     assert.equal(ids('invoice', 'es')[0], 'VBRK');
     assert.equal(ids('fornecedor', 'pt')[0], 'LFA1');

@@ -9,5 +9,27 @@
     "es": "Condiciones: escalas por cantidad",
     "en": "Conditions: quantity scales",
     "pt": "Condições: escalas por quantidade"
+  },
+  "purpose": {
+    "es": "Escalas por cantidad de un registro de condición: cada fila es un tramo (desde cierta cantidad) con su importe. Se enlaza con KONP por número de registro y posición; sirve para ver precios o descuentos que cambian según el volumen.",
+    "en": "Quantity scales of a condition record: each row is a tier (from a certain quantity) with its amount. It links to KONP by record number and item; use it to see prices or discounts that change with volume.",
+    "pt": "Escalas por quantidade de um registro de condição: cada linha é uma faixa (a partir de certa quantidade) com seu valor. Liga-se à KONP pelo número do registro e item; serve para ver preços ou descontos que mudam conforme o volume."
+  },
+  "synonyms": {
+    "es": [
+      "escala por cantidad",
+      "precio por volumen",
+      "tramos de precio"
+    ],
+    "en": [
+      "quantity scale",
+      "volume pricing",
+      "price tiers"
+    ],
+    "pt": [
+      "escala por quantidade",
+      "preço por volume",
+      "faixas de preço"
+    ]
   }
 }

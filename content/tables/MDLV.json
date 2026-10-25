@@ -8,5 +8,27 @@
     "es": "Áreas de planificación de necesidades",
     "en": "MRP areas",
     "pt": "Áreas de planejamento de necessidades"
+  },
+  "purpose": {
+    "es": "Una fila por cada ámbito de planificación de necesidades (MRP area): a qué centro pertenece y de qué tipo es (centro, almacenes o subcontratista). Permite planificar el MRP por separado para partes de un centro.",
+    "en": "One row per MRP area: which plant it belongs to and its type (plant, storage locations or subcontractor). It allows MRP to plan parts of a plant separately.",
+    "pt": "Uma linha por área de planejamento de necessidades (MRP area): a qual centro pertence e de que tipo é (centro, depósitos ou subcontratado). Permite planejar o MRP separadamente para partes de um centro."
+  },
+  "synonyms": {
+    "es": [
+      "ámbito de planificación",
+      "MRP area",
+      "área de planificación MRP"
+    ],
+    "en": [
+      "MRP area",
+      "MRP area definition",
+      "planning area"
+    ],
+    "pt": [
+      "área de planejamento",
+      "MRP area",
+      "área de planejamento MRP"
+    ]
   }
 }

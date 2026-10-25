@@ -9,5 +9,27 @@
     "es": "Grupos de material 2",
     "en": "Material groups 2",
     "pt": "Grupos de material 2"
+  },
+  "purpose": {
+    "es": "Lista de valores del grupo de material 2 (campo MVGR2 en MVKE), una clasificación libre del material en sus datos de ventas. Cada empresa decide su significado; se usa en análisis de ventas y a veces en precios.",
+    "en": "List of values for material group 2 (field MVGR2 in MVKE), a free classification of the material in its sales data. Each company decides its meaning; used in sales analysis and sometimes in pricing.",
+    "pt": "Lista de valores do grupo de materiais 2 (campo MVGR2 na MVKE), uma classificação livre do material em seus dados de vendas. Cada empresa decide seu significado; usada em análises de vendas e às vezes em preços."
+  },
+  "synonyms": {
+    "es": [
+      "grupo de material 2",
+      "MVGR2",
+      "clasificación de material 2"
+    ],
+    "en": [
+      "material group 2",
+      "MVGR2",
+      "material classification 2"
+    ],
+    "pt": [
+      "grupo de materiais 2",
+      "MVGR2",
+      "classificação de material 2"
+    ]
   }
 }

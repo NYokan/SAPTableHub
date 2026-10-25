@@ -8,5 +8,27 @@
     "es": "Documentos preliminares: posiciones de proveedor",
     "en": "Parked documents: vendor items",
     "pt": "Documentos pré-editados: itens de fornecedor"
+  },
+  "purpose": {
+    "es": "Las posiciones de proveedor de un documento contable preliminar (aparcado), todavía no contabilizado: proveedor, importe, vencimiento y condiciones de pago. Es útil para ver facturas de proveedor pendientes de aprobar; al contabilizarse pasan a BSEG.",
+    "en": "The vendor items of a parked accounting document that has not yet been posted: vendor, amount, due date and payment terms. It is useful to see vendor invoices awaiting approval; when posted they move to BSEG.",
+    "pt": "Os itens de fornecedor de um documento contábil pré-editado, ainda não lançado: fornecedor, montante, vencimento e condições de pagamento. É útil para ver faturas de fornecedor aguardando aprovação; ao serem lançados passam para a BSEG."
+  },
+  "synonyms": {
+    "es": [
+      "factura de proveedor aparcada",
+      "documento preliminar de proveedor",
+      "factura pendiente de aprobar"
+    ],
+    "en": [
+      "parked vendor invoice",
+      "parked vendor item",
+      "invoice awaiting approval"
+    ],
+    "pt": [
+      "fatura de fornecedor pré-editada",
+      "documento pré-editado de fornecedor",
+      "fatura aguardando aprovação"
+    ]
   }
 }

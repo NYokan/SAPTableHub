@@ -8,5 +8,27 @@
     "es": "Ramos (textos)",
     "en": "Industries (texts)",
     "pt": "Ramos (textos)"
+  },
+  "purpose": {
+    "es": "Nombre de cada ramo o sector industrial por idioma. Traduce la clave de ramo de T016 que aparece en los maestros de clientes y proveedores.",
+    "en": "Name of each industry per language. It translates the T016 industry key shown in customer and vendor master data.",
+    "pt": "Nome de cada setor industrial por idioma. Traduz a chave de setor da T016 que aparece nos cadastros de clientes e fornecedores."
+  },
+  "synonyms": {
+    "es": [
+      "nombre de ramo",
+      "descripción de sector",
+      "texto de industria"
+    ],
+    "en": [
+      "industry name",
+      "industry description",
+      "sector text"
+    ],
+    "pt": [
+      "nome do setor",
+      "descrição do setor",
+      "texto da indústria"
+    ]
   }
 }

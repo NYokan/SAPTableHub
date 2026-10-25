@@ -8,5 +8,24 @@
     "es": "Agrupaciones de socios de negocio (textos)",
     "en": "Business partner groupings (texts)",
     "pt": "Agrupamentos de parceiros de negócios (textos)"
+  },
+  "purpose": {
+    "es": "Descripción de cada agrupación de socios de negocio por idioma. Complementa a TB001.",
+    "en": "Description of each business partner grouping per language. It complements TB001.",
+    "pt": "Descrição de cada agrupamento de parceiros de negócios por idioma. Complementa a TB001."
+  },
+  "synonyms": {
+    "es": [
+      "nombre de agrupación BP",
+      "texto de agrupación de socios"
+    ],
+    "en": [
+      "BP grouping name",
+      "partner grouping text"
+    ],
+    "pt": [
+      "nome do agrupamento BP",
+      "texto do agrupamento de parceiros"
+    ]
   }
 }

@@ -9,5 +9,27 @@
     "es": "Facturas de proveedor: retenciones",
     "en": "Vendor invoices: withholding tax",
     "pt": "Faturas de fornecedor: retenções na fonte"
+  },
+  "purpose": {
+    "es": "Una fila por factura de proveedor de la verificación logística y tipo de retención, con la base y el importe retenido. Complementa a la cabecera RBKP en países con retención en la fuente.",
+    "en": "One row per logistics invoice verification vendor invoice and withholding tax type, with the base and the withheld amount. It complements the RBKP header in countries with withholding tax.",
+    "pt": "Uma linha por fatura de fornecedor da revisão de faturas logística e tipo de retenção, com a base e o valor retido. Complementa o cabeçalho RBKP em países com retenção na fonte."
+  },
+  "synonyms": {
+    "es": [
+      "retenciones de factura",
+      "importe retenido",
+      "retención en factura de proveedor"
+    ],
+    "en": [
+      "invoice withholding tax",
+      "withheld amount",
+      "vendor invoice withholding"
+    ],
+    "pt": [
+      "retenções da fatura",
+      "valor retido",
+      "retenção na fatura de fornecedor"
+    ]
   }
 }

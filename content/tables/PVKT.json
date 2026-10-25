@@ -7,5 +7,24 @@
     "es": "Áreas de suministro a producción (descripciones)",
     "en": "Production supply areas (descriptions)",
     "pt": "Áreas de abastecimento da produção (descrições)"
+  },
+  "purpose": {
+    "es": "Descripción de cada área de suministro a producción, por idioma y centro. Se une con PVBE para mostrar su nombre.",
+    "en": "Description of each production supply area, per language and plant. It is joined to PVBE to show its name.",
+    "pt": "Descrição de cada área de abastecimento da produção, por idioma e centro. É unida à PVBE para mostrar seu nome."
+  },
+  "synonyms": {
+    "es": [
+      "nombre del área de suministro",
+      "descripción de PSA"
+    ],
+    "en": [
+      "supply area name",
+      "PSA description"
+    ],
+    "pt": [
+      "nome da área de abastecimento",
+      "descrição da PSA"
+    ]
   }
 }

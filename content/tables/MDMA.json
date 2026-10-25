@@ -8,5 +8,27 @@
     "es": "Datos de planificación del material por ámbito de planificación",
     "en": "Material MRP data per MRP area",
     "pt": "Dados de planejamento do material por área de planejamento"
+  },
+  "purpose": {
+    "es": "Una fila por material y ámbito de planificación (MRP area) con sus propios parámetros de planificación: característica de planificación, planificador, tamaño de lote, stock de seguridad y otros. Sustituye para ese ámbito los datos de MARC.",
+    "en": "One row per material and MRP area with its own planning parameters: MRP type, MRP controller, lot size, safety stock and others. For that area it overrides the data in MARC.",
+    "pt": "Uma linha por material e área de planejamento (MRP area) com seus próprios parâmetros de planejamento: tipo de MRP, planejador, tamanho de lote, estoque de segurança e outros. Para essa área substitui os dados da MARC."
+  },
+  "synonyms": {
+    "es": [
+      "MRP por ámbito",
+      "datos de planificación por ámbito",
+      "parámetros MRP del material"
+    ],
+    "en": [
+      "MRP area material data",
+      "MRP area parameters",
+      "material planning parameters"
+    ],
+    "pt": [
+      "MRP por área",
+      "dados de planejamento por área",
+      "parâmetros MRP do material"
+    ]
   }
 }

@@ -8,5 +8,30 @@
     "es": "Nuevo mayor: información de desdoblamiento de documentos",
     "en": "New G/L: document splitting information",
     "pt": "Novo razão: informação de divisão de documentos"
+  },
+  "purpose": {
+    "es": "Con el desdoblamiento de documentos del nuevo mayor, guarda cómo se repartió cada línea de un documento entre objetos como segmento, centro de beneficio o división. Permite ver, por ejemplo, a qué segmento corresponde cada parte de una factura abierta.",
+    "en": "With New G/L document splitting, it records how each line of a document was split across objects such as segment, profit center or business area. It shows, for example, which segment each part of an open invoice belongs to.",
+    "pt": "Com o desdobramento de documentos do novo razão, guarda como cada item de um documento foi dividido entre objetos como segmento, centro de lucro ou divisão. Permite ver, por exemplo, a qual segmento pertence cada parte de uma fatura em aberto."
+  },
+  "synonyms": {
+    "es": [
+      "desdoblamiento de documentos",
+      "document splitting",
+      "reparto por segmento",
+      "reparto por centro de beneficio"
+    ],
+    "en": [
+      "document splitting",
+      "split information",
+      "segment split",
+      "profit center split"
+    ],
+    "pt": [
+      "desdobramento de documentos",
+      "document splitting",
+      "divisão por segmento",
+      "divisão por centro de lucro"
+    ]
   }
 }

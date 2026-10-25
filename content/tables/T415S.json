@@ -8,5 +8,27 @@
     "es": "Status de listas de materiales",
     "en": "Bill of material statuses",
     "pt": "Status de listas técnicas"
+  },
+  "purpose": {
+    "es": "Configuración de los status de listas de materiales: si la lista está activa, si puede explotarse en el MRP, usarse en el cálculo de costes o en órdenes. Una fila por status.",
+    "en": "Configuration of bill of material statuses: whether the BOM is active and whether it can be exploded in MRP, used in costing or in orders. One row per status.",
+    "pt": "Configuração dos status de listas técnicas: se a lista está ativa e se pode ser explodida no MRP, usada no cálculo de custos ou em ordens. Uma linha por status."
+  },
+  "synonyms": {
+    "es": [
+      "status de lista de materiales",
+      "BOM activa",
+      "estado de BOM"
+    ],
+    "en": [
+      "BOM status",
+      "active BOM",
+      "bill of material status"
+    ],
+    "pt": [
+      "status da lista técnica",
+      "BOM ativa",
+      "estado da BOM"
+    ]
   }
 }

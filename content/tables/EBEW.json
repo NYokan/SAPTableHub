@@ -8,5 +8,30 @@
     "es": "Valoración de stock de pedido de cliente",
     "en": "Sales order stock valuation",
     "pt": "Avaliação do estoque de ordem do cliente"
+  },
+  "purpose": {
+    "es": "Valor y cantidad del stock asignado a pedidos de cliente que se valora por separado: una fila por material, área de valoración, pedido y posición. Es el equivalente de MBEW para ese stock especial.",
+    "en": "Value and quantity of stock assigned to sales orders that is valuated separately: one row per material, valuation area, sales order and item. It is the MBEW equivalent for this special stock.",
+    "pt": "Valor e quantidade do estoque atribuído a pedidos de cliente que é avaliado separadamente: uma linha por material, área de avaliação, pedido e item. É o equivalente da MBEW para esse estoque especial."
+  },
+  "synonyms": {
+    "es": [
+      "valor del stock de pedido",
+      "stock valorado por pedido",
+      "precio de stock de cliente",
+      "valoración stock E"
+    ],
+    "en": [
+      "sales order stock value",
+      "valuated sales order stock",
+      "order stock price",
+      "special stock E valuation"
+    ],
+    "pt": [
+      "valor do estoque de pedido",
+      "estoque avaliado por pedido",
+      "preço do estoque do cliente",
+      "avaliação estoque E"
+    ]
   }
 }

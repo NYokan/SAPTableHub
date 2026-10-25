@@ -8,5 +8,30 @@
     "es": "Gestión de tesorería: saldos de cuentas bancarias",
     "en": "Cash management: bank account totals",
     "pt": "Gestão de caixa: saldos de contas bancárias"
+  },
+  "purpose": {
+    "es": "Saldos acumulados de las cuentas bancarias (cuentas de mayor de bancos) para la gestión de tesorería, por cuenta, nivel de planificación y fecha. Alimentan la posición de tesorería diaria.",
+    "en": "Accumulated totals of bank accounts (bank G/L accounts) for cash management, by account, planning level and date. They feed the daily cash position.",
+    "pt": "Saldos acumulados das contas bancárias (contas do razão de bancos) para a gestão de tesouraria, por conta, nível de planejamento e data. Alimentam a posição de caixa diária."
+  },
+  "synonyms": {
+    "es": [
+      "posición de tesorería",
+      "saldo bancario diario",
+      "saldos de bancos",
+      "cash position"
+    ],
+    "en": [
+      "cash position",
+      "daily bank balance",
+      "bank account totals",
+      "cash management"
+    ],
+    "pt": [
+      "posição de caixa",
+      "saldo bancário diário",
+      "saldos de bancos",
+      "cash position"
+    ]
   }
 }

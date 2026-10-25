@@ -8,5 +8,27 @@
     "es": "Clases de transporte",
     "en": "Shipment types",
     "pt": "Tipos de transporte"
+  },
+  "purpose": {
+    "es": "Configuración de las clases de transporte (campo SHTYP en VTTK): numeración, tipo de proceso (transporte individual, colectivo), medio de transporte y cómo se forman las etapas.",
+    "en": "Configuration of shipment types (field SHTYP in VTTK): numbering, processing type (individual or collective shipment), mode of transport and how stages are built.",
+    "pt": "Configuração dos tipos de transporte (campo SHTYP na VTTK): numeração, tipo de processamento (transporte individual ou coletivo), meio de transporte e como as etapas são formadas."
+  },
+  "synonyms": {
+    "es": [
+      "clase de transporte",
+      "SHTYP",
+      "tipo de documento de transporte"
+    ],
+    "en": [
+      "shipment type",
+      "SHTYP",
+      "shipment document type"
+    ],
+    "pt": [
+      "tipo de transporte",
+      "SHTYP",
+      "tipo de documento de transporte"
+    ]
   }
 }

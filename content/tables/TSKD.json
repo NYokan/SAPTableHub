@@ -9,5 +9,27 @@
     "es": "Clasificación fiscal de clientes",
     "en": "Customer tax classifications",
     "pt": "Classificação fiscal de clientes"
+  },
+  "purpose": {
+    "es": "Valores posibles de clasificación fiscal de clientes por categoría de impuesto (por ejemplo, 0 exento, 1 sujeto). Se asignan al cliente en KNVI y, junto con la clasificación del material, determinan el impuesto en ventas.",
+    "en": "Possible customer tax classification values per tax category (for example, 0 exempt, 1 liable). They are assigned to the customer in KNVI and, together with the material classification, determine the sales tax.",
+    "pt": "Valores possíveis de classificação fiscal de clientes por categoria de imposto (por exemplo, 0 isento, 1 sujeito). São atribuídos ao cliente na KNVI e, junto com a classificação do material, determinam o imposto nas vendas."
+  },
+  "synonyms": {
+    "es": [
+      "clasificación fiscal de cliente",
+      "TAXKD",
+      "cliente exento"
+    ],
+    "en": [
+      "customer tax classification",
+      "TAXKD",
+      "tax-exempt customer"
+    ],
+    "pt": [
+      "classificação fiscal de cliente",
+      "TAXKD",
+      "cliente isento"
+    ]
   }
 }

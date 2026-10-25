@@ -8,5 +8,27 @@
     "es": "Clases de clasificación (cabecera)",
     "en": "Classification classes (header)",
     "pt": "Classes de classificação (cabeçalho)"
+  },
+  "purpose": {
+    "es": "Una fila por cada clase del sistema de clasificación: nombre de la clase, tipo de clase (por ejemplo materiales o lotes), estado y grupo. Agrupa características (KSML) que luego se asignan a objetos (KSSK).",
+    "en": "One row per class of the classification system: class name, class type (for example materials or batches), status and group. It groups characteristics (KSML) that are then assigned to objects (KSSK).",
+    "pt": "Uma linha por classe do sistema de classificação: nome da classe, tipo de classe (por exemplo materiais ou lotes), status e grupo. Agrupa características (KSML) que depois são atribuídas a objetos (KSSK)."
+  },
+  "synonyms": {
+    "es": [
+      "clase de clasificación",
+      "clases",
+      "clasificación de materiales"
+    ],
+    "en": [
+      "classification class",
+      "classes",
+      "material classification"
+    ],
+    "pt": [
+      "classe de classificação",
+      "classes",
+      "classificação de materiais"
+    ]
   }
 }

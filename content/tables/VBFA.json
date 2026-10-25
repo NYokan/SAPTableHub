@@ -9,5 +9,30 @@
     "es": "Flujo de documentos de ventas",
     "en": "Sales document flow",
     "pt": "Fluxo de documentos de vendas"
+  },
+  "purpose": {
+    "es": "Flujo de documentos de ventas: cada fila enlaza un documento anterior con el siguiente (oferta → pedido → entrega → factura), por posición, con la cantidad y el importe que pasó. Sirve para rastrear de dónde viene y a dónde fue cada documento.",
+    "en": "Sales document flow: each row links a preceding document to the next one (quotation → order → delivery → invoice), per item, with the quantity and amount carried over. Use it to trace where each document came from and went to.",
+    "pt": "Fluxo de documentos de vendas: cada linha liga um documento anterior ao seguinte (cotação → ordem → remessa → fatura), por item, com a quantidade e o valor transferidos. Serve para rastrear de onde vem e para onde foi cada documento."
+  },
+  "synonyms": {
+    "es": [
+      "flujo de documentos",
+      "documento precedente",
+      "documento subsiguiente",
+      "trazabilidad pedido-factura"
+    ],
+    "en": [
+      "document flow",
+      "preceding document",
+      "subsequent document",
+      "order to invoice trace"
+    ],
+    "pt": [
+      "fluxo de documentos",
+      "documento precedente",
+      "documento subsequente",
+      "rastreio ordem-fatura"
+    ]
   }
 }

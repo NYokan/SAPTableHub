@@ -8,5 +8,27 @@
     "es": "Socios de negocio (direcciones)",
     "en": "Business partners (addresses)",
     "pt": "Parceiros de negócios (endereços)"
+  },
+  "purpose": {
+    "es": "Una fila por cada dirección asignada a un socio de negocio (interlocutor comercial). Une el número de socio con el número de dirección; la dirección en sí está en ADRC.",
+    "en": "One row per address assigned to a business partner. It joins the partner number with the address number; the address itself is in ADRC.",
+    "pt": "Uma linha por endereço atribuído a um parceiro de negócios. Une o número do parceiro ao número do endereço; o endereço em si está na ADRC."
+  },
+  "synonyms": {
+    "es": [
+      "dirección del socio de negocio",
+      "direcciones BP",
+      "dirección del interlocutor"
+    ],
+    "en": [
+      "business partner address",
+      "BP address",
+      "partner addresses"
+    ],
+    "pt": [
+      "endereço do parceiro de negócios",
+      "endereços BP",
+      "endereço do parceiro"
+    ]
   }
 }

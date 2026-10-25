@@ -9,5 +9,27 @@
     "es": "Servicios: reparto de valores por imputación",
     "en": "Services: value distribution by account assignment",
     "pt": "Serviços: distribuição de valores por classificação"
+  },
+  "purpose": {
+    "es": "Reparto de los valores de cada línea de servicio entre las imputaciones de un paquete de servicios: qué cantidad o porcentaje de un servicio va a cada centro de coste, orden u otro objeto. Une las líneas de ESLL con las imputaciones de ESKN.",
+    "en": "Distribution of the values of each service line across the account assignments of a service package: what quantity or percentage of a service goes to each cost center, order or other object. It joins ESLL lines with ESKN account assignments.",
+    "pt": "Rateio dos valores de cada linha de serviço entre as classificações contábeis de um pacote de serviços: que quantidade ou porcentagem de um serviço vai para cada centro de custo, ordem ou outro objeto. Une as linhas da ESLL com as classificações da ESKN."
+  },
+  "synonyms": {
+    "es": [
+      "reparto de servicios",
+      "distribución por imputación",
+      "servicio por centro de coste"
+    ],
+    "en": [
+      "service value distribution",
+      "account assignment split",
+      "service per cost center"
+    ],
+    "pt": [
+      "rateio de serviços",
+      "distribuição por classificação contábil",
+      "serviço por centro de custo"
+    ]
   }
 }

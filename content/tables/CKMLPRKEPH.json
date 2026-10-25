@@ -8,5 +8,27 @@
     "es": "Ledger de materiales: desglose de precios por componentes de coste",
     "en": "Material ledger: price cost component split",
     "pt": "Ledger de materiais: decomposição de preços por componentes de custo"
+  },
+  "purpose": {
+    "es": "Desglose por componentes de coste de los precios de cada material en el ledger de materiales (precio estándar, precio periódico, etc.), por período y moneda. Sirve para analizar la composición del precio de un material.",
+    "en": "Cost component split of each material's prices in the material ledger (standard price, periodic price, etc.), per period and currency. It is used to analyze how a material's price is built up.",
+    "pt": "Divisão por componentes de custo dos preços de cada material no ledger de materiais (preço padrão, preço periódico etc.), por período e moeda. Serve para analisar a composição do preço de um material."
+  },
+  "synonyms": {
+    "es": [
+      "componentes del precio",
+      "desglose del precio estándar",
+      "precio por componentes"
+    ],
+    "en": [
+      "price cost components",
+      "standard price split",
+      "price component breakdown"
+    ],
+    "pt": [
+      "componentes do preço",
+      "divisão do preço padrão",
+      "preço por componentes"
+    ]
   }
 }

@@ -8,5 +8,24 @@
     "es": "Stock de proyecto (histórico)",
     "en": "Project stock (history)",
     "pt": "Estoque de projeto (histórico)"
+  },
+  "purpose": {
+    "es": "Copia por periodo del stock de proyecto asignado a elementos PEP (MSPR): cantidades al cierre de periodos anteriores.",
+    "en": "Period copy of project stock assigned to WBS elements (MSPR): quantities at the close of earlier periods.",
+    "pt": "Cópia por período do estoque de projeto atribuído a elementos PEP (MSPR): quantidades no fechamento de períodos anteriores."
+  },
+  "synonyms": {
+    "es": [
+      "histórico stock de proyecto",
+      "stock Q histórico"
+    ],
+    "en": [
+      "project stock history",
+      "special stock Q history"
+    ],
+    "pt": [
+      "histórico estoque de projeto",
+      "estoque Q histórico"
+    ]
   }
 }

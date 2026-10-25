@@ -7,5 +7,30 @@
     "es": "Áreas de suministro a producción",
     "en": "Production supply areas",
     "pt": "Áreas de abastecimento da produção"
+  },
+  "purpose": {
+    "es": "Una fila por cada área de suministro a producción de un centro: zona cercana a la línea donde se deja el material para fabricar, normalmente asociada a un almacén. Se usa en kanban y en la reposición de material a línea.",
+    "en": "One row per production supply area in a plant: an area near the line where material is staged for production, usually linked to a storage location. It is used in kanban and in line-side replenishment.",
+    "pt": "Uma linha por área de abastecimento da produção em um centro: zona perto da linha onde o material é deixado para produzir, normalmente associada a um depósito. É usada em kanban e no abastecimento de material à linha."
+  },
+  "synonyms": {
+    "es": [
+      "área de suministro",
+      "abastecimiento a línea",
+      "PSA",
+      "suministro a producción"
+    ],
+    "en": [
+      "production supply area",
+      "line-side supply",
+      "PSA",
+      "line feeding"
+    ],
+    "pt": [
+      "área de abastecimento",
+      "abastecimento de linha",
+      "PSA",
+      "abastecimento da produção"
+    ]
   }
 }

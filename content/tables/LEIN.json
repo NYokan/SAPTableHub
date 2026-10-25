@@ -9,5 +9,30 @@
     "es": "Unidades de almacén",
     "en": "Storage units",
     "pt": "Unidades de depósito"
+  },
+  "purpose": {
+    "es": "Una fila por cada unidad de almacén (por ejemplo, un palé identificado con su número) en Warehouse Management (WM): tipo de unidad, ubicación actual y estado. Los cuantos que contiene están en LQUA.",
+    "en": "One row per storage unit (for example, a pallet identified by its number) in Warehouse Management (WM): storage unit type, current bin and status. The quants it contains are in LQUA.",
+    "pt": "Uma linha por unidade de depósito (por exemplo, um palete identificado pelo seu número) no Warehouse Management (WM): tipo de unidade, posição atual e status. Os quants que contém estão na LQUA."
+  },
+  "synonyms": {
+    "es": [
+      "unidad de almacén",
+      "número de palé",
+      "gestión de unidades de almacén",
+      "palé WM"
+    ],
+    "en": [
+      "storage unit",
+      "pallet number",
+      "storage unit management",
+      "WM pallet"
+    ],
+    "pt": [
+      "unidade de depósito",
+      "número do palete",
+      "gestão de unidades de depósito",
+      "palete WM"
+    ]
   }
 }

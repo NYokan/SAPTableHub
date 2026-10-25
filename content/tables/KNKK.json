@@ -8,5 +8,30 @@
     "es": "Clientes: crédito por área de control de créditos",
     "en": "Customers: credit data per credit control area",
     "pt": "Clientes: crédito por área de controle de crédito"
+  },
+  "purpose": {
+    "es": "Una fila por cliente y área de control de créditos con su límite de crédito, categoría de riesgo, grupo de crédito, bloqueo y fecha de la última revisión. Es la tabla clave de la gestión de créditos clásica de SD; en S/4HANA la sustituye SAP Credit Management (UKMBP_CMS_SGM).",
+    "en": "One row per customer and credit control area with its credit limit, risk category, credit group, block and last review date. It is the key table of classic SD credit management; in S/4HANA it is replaced by SAP Credit Management (UKMBP_CMS_SGM).",
+    "pt": "Uma linha por cliente e área de controle de crédito com seu limite de crédito, categoria de risco, grupo de crédito, bloqueio e data da última revisão. É a tabela chave da gestão de crédito clássica do SD; no S/4HANA é substituída pelo SAP Credit Management (UKMBP_CMS_SGM)."
+  },
+  "synonyms": {
+    "es": [
+      "límite de crédito",
+      "categoría de riesgo",
+      "bloqueo de crédito",
+      "gestión de créditos"
+    ],
+    "en": [
+      "credit limit",
+      "risk category",
+      "credit block",
+      "credit management"
+    ],
+    "pt": [
+      "limite de crédito",
+      "categoria de risco",
+      "bloqueio de crédito",
+      "gestão de crédito"
+    ]
   }
 }

@@ -8,5 +8,24 @@
     "es": "Documentos del ledger de materiales (posiciones)",
     "en": "Material ledger documents (items)",
     "pt": "Documentos do ledger de materiais (itens)"
+  },
+  "purpose": {
+    "es": "En ECC, una fila por cada posición de un documento del ledger de materiales: material (número KALNR), categoría y proceso del movimiento. Sus cantidades están en MLPP y sus valores en MLCR.",
+    "en": "In ECC, one row per item of a material ledger document: material (KALNR number), movement category and process. Its quantities are in MLPP and its values in MLCR.",
+    "pt": "No ECC, uma linha por item de um documento do ledger de materiais: material (número KALNR), categoria e processo do movimento. Suas quantidades estão na MLPP e seus valores na MLCR."
+  },
+  "synonyms": {
+    "es": [
+      "posiciones del material ledger",
+      "líneas de documento ML"
+    ],
+    "en": [
+      "material ledger items",
+      "ML document lines"
+    ],
+    "pt": [
+      "itens do material ledger",
+      "linhas do documento ML"
+    ]
   }
 }

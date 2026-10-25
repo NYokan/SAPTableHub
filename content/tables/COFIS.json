@@ -8,5 +8,27 @@
     "es": "Ledger de conciliación (partidas)",
     "en": "Reconciliation ledger (line items)",
     "pt": "Ledger de reconciliação (partidas)"
+  },
+  "purpose": {
+    "es": "En ECC, una fila por cada partida del ledger de conciliación: los flujos de coste entre sociedades, áreas funcionales o centros de beneficio generados en CO que deben reflejarse en Finanzas. Sus totales están en COFIT; en S/4HANA ya no se necesita.",
+    "en": "In ECC, one row per reconciliation ledger line item: cost flows between company codes, functional areas or business areas posted in CO that must be reflected in Financial Accounting. Its totals are in COFIT; S/4HANA no longer needs it.",
+    "pt": "No ECC, uma linha por partida do ledger de reconciliação: fluxos de custo entre empresas, áreas funcionais ou divisões gerados no CO que precisam ser refletidos na contabilidade financeira. Seus totais estão na COFIT; no S/4HANA não é mais necessário."
+  },
+  "synonyms": {
+    "es": [
+      "ledger de conciliación",
+      "conciliación CO-FI",
+      "partidas de conciliación"
+    ],
+    "en": [
+      "reconciliation ledger",
+      "CO-FI reconciliation",
+      "reconciliation line items"
+    ],
+    "pt": [
+      "ledger de reconciliação",
+      "reconciliação CO-FI",
+      "partidas de reconciliação"
+    ]
   }
 }

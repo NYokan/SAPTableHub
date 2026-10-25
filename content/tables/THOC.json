@@ -8,5 +8,27 @@
     "es": "Calendarios de días festivos",
     "en": "Public holiday calendars",
     "pt": "Calendários de feriados"
+  },
+  "purpose": {
+    "es": "Una fila por cada calendario de días festivos (normalmente uno por país o región) con su periodo de validez. Reúne los festivos de THOL mediante THOCI y lo usan los calendarios de fábrica.",
+    "en": "One row per public holiday calendar (usually one per country or region) with its validity period. It groups the THOL holidays through THOCI and is used by factory calendars.",
+    "pt": "Uma linha por calendário de feriados (normalmente um por país ou região) com seu período de validade. Reúne os feriados da THOL por meio da THOCI e é usado pelos calendários de fábrica."
+  },
+  "synonyms": {
+    "es": [
+      "calendario de festivos",
+      "feriados por país",
+      "calendario de feriados"
+    ],
+    "en": [
+      "holiday calendar",
+      "public holidays per country",
+      "holiday schedule"
+    ],
+    "pt": [
+      "calendário de feriados",
+      "feriados por país",
+      "calendário de feriados nacionais"
+    ]
   }
 }

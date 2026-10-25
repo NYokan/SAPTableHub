@@ -8,5 +8,27 @@
     "es": "Documentos (descripciones)",
     "en": "Documents (descriptions)",
     "pt": "Documentos (descrições)"
+  },
+  "purpose": {
+    "es": "Una fila por registro info de documento e idioma con su descripción. Complementa a DRAW, donde están los datos del documento.",
+    "en": "One row per document info record and language with its description. It complements DRAW, which holds the document data.",
+    "pt": "Uma linha por registro info de documento e idioma com sua descrição. Complementa a DRAW, onde ficam os dados do documento."
+  },
+  "synonyms": {
+    "es": [
+      "descripción de documento",
+      "título de documento DMS",
+      "texto del documento"
+    ],
+    "en": [
+      "document description",
+      "DMS document title",
+      "document text"
+    ],
+    "pt": [
+      "descrição do documento",
+      "título do documento DMS",
+      "texto do documento"
+    ]
   }
 }

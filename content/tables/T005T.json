@@ -9,5 +9,30 @@
     "es": "Países (nombres)",
     "en": "Countries (names)",
     "pt": "Países (nomes)"
+  },
+  "purpose": {
+    "es": "Nombre de cada país en cada idioma, junto con la nacionalidad. Es donde se traduce el código de país (por ejemplo CL, BR, ES) a su nombre.",
+    "en": "Name of each country in each language, together with the nationality. It is where the country code (for example CL, BR, ES) is translated into its name.",
+    "pt": "Nome de cada país em cada idioma, junto com a nacionalidade. É onde o código do país (por exemplo CL, BR, ES) é traduzido para o nome."
+  },
+  "synonyms": {
+    "es": [
+      "nombre de país",
+      "países",
+      "nacionalidad",
+      "descripción de país"
+    ],
+    "en": [
+      "country name",
+      "countries",
+      "nationality",
+      "country description"
+    ],
+    "pt": [
+      "nome do país",
+      "países",
+      "nacionalidade",
+      "descrição do país"
+    ]
   }
 }

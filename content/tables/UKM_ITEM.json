@@ -8,5 +8,30 @@
     "es": "Gestión de crédito: compromisos de crédito",
     "en": "Credit management: credit exposure items",
     "pt": "Gestão de crédito: compromissos de crédito"
+  },
+  "purpose": {
+    "es": "Compromisos de crédito abiertos en SAP Credit Management (FSCM): pedidos, entregas y facturas no pagadas que suman a la exposición de crédito de un socio comercial. Sirve para ver qué consume el límite de crédito de un cliente.",
+    "en": "Open credit exposure items in SAP Credit Management (FSCM): orders, deliveries and unpaid invoices that add up to a business partner's credit exposure. Use it to see what is using up a customer's credit limit.",
+    "pt": "Compromissos de crédito em aberto no SAP Credit Management (FSCM): ordens, remessas e faturas não pagas que somam à exposição de crédito de um parceiro de negócios. Serve para ver o que consome o limite de crédito de um cliente."
+  },
+  "synonyms": {
+    "es": [
+      "exposición de crédito",
+      "compromiso de crédito",
+      "límite de crédito utilizado",
+      "gestión de crédito FSCM"
+    ],
+    "en": [
+      "credit exposure",
+      "credit commitment",
+      "credit limit usage",
+      "FSCM credit management"
+    ],
+    "pt": [
+      "exposição de crédito",
+      "compromisso de crédito",
+      "uso do limite de crédito",
+      "gestão de crédito FSCM"
+    ]
   }
 }

@@ -8,5 +8,24 @@
     "es": "Valoración de stock de proyecto (histórico)",
     "en": "Project stock valuation (history)",
     "pt": "Avaliação do estoque de projeto (histórico)"
+  },
+  "purpose": {
+    "es": "Copia por periodo de la valoración del stock de proyecto (QBEW): valor y cantidad al cierre de periodos anteriores.",
+    "en": "Period copy of project stock valuation (QBEW): value and quantity at the close of earlier periods.",
+    "pt": "Cópia por período da avaliação do estoque de projeto (QBEW): valor e quantidade no fechamento de períodos anteriores."
+  },
+  "synonyms": {
+    "es": [
+      "histórico valor stock de proyecto",
+      "valoración histórica stock Q"
+    ],
+    "en": [
+      "project stock value history",
+      "special stock Q history"
+    ],
+    "pt": [
+      "histórico valor estoque de projeto",
+      "avaliação histórica estoque Q"
+    ]
   }
 }

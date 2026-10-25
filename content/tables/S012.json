@@ -8,5 +8,30 @@
     "es": "Estadísticas de compras",
     "en": "Purchasing statistics",
     "pt": "Estatísticas de compras"
+  },
+  "purpose": {
+    "es": "Estructura de información de compras del LIS con totales por periodo de valores y cantidades pedidas, recibidas y facturadas, por organización de compras, proveedor, material y centro. Base de los análisis estándar de compras.",
+    "en": "LIS purchasing info structure with period totals of values and quantities ordered, received and invoiced, by purchasing organization, vendor, material and plant. It feeds the standard purchasing analyses.",
+    "pt": "Estrutura de informação de compras do LIS com totais por período de valores e quantidades pedidas, recebidas e faturadas, por organização de compras, fornecedor, material e centro. Base das análises padrão de compras."
+  },
+  "synonyms": {
+    "es": [
+      "estadísticas de compras",
+      "volumen de compras",
+      "gasto por proveedor",
+      "LIS compras"
+    ],
+    "en": [
+      "purchasing statistics",
+      "purchasing volume",
+      "spend per vendor",
+      "LIS purchasing"
+    ],
+    "pt": [
+      "estatísticas de compras",
+      "volume de compras",
+      "gasto por fornecedor",
+      "LIS compras"
+    ]
   }
 }

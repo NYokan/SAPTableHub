@@ -8,5 +8,30 @@
     "es": "Planes de facturación: fechas",
     "en": "Billing plans: dates",
     "pt": "Planos de faturamento: datas"
+  },
+  "purpose": {
+    "es": "Cada fecha de un plan de facturación (por hitos o periódica) con su importe o porcentaje y su estado de facturación. La cabecera del plan está en FPLA; sirve para ver qué se facturará y cuándo en contratos y proyectos.",
+    "en": "Each date of a billing plan (milestone or periodic) with its amount or percentage and billing status. The plan header is in FPLA; use it to see what will be billed and when for contracts and projects.",
+    "pt": "Cada data de um plano de faturamento (por marcos ou periódico) com seu valor ou percentual e status de faturamento. O cabeçalho do plano fica na FPLA; serve para ver o que será faturado e quando em contratos e projetos."
+  },
+  "synonyms": {
+    "es": [
+      "fechas de facturación",
+      "facturación por hitos",
+      "facturación periódica",
+      "plan de facturación"
+    ],
+    "en": [
+      "billing dates",
+      "milestone billing",
+      "periodic billing",
+      "billing plan"
+    ],
+    "pt": [
+      "datas de faturamento",
+      "faturamento por marcos",
+      "faturamento periódico",
+      "plano de faturamento"
+    ]
   }
 }

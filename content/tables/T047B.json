@@ -8,5 +8,27 @@
     "es": "Procedimientos de reclamación: niveles",
     "en": "Dunning procedures: dunning levels",
     "pt": "Procedimentos de advertência: níveis"
+  },
+  "purpose": {
+    "es": "Los niveles de cada procedimiento de reclamación: para cada nivel, días de retraso necesarios, si se calculan intereses, si se imprimen todas las partidas y si pasa a procedimiento judicial.",
+    "en": "The levels of each dunning procedure: for each level, the days in arrears required, whether interest is calculated, whether all items are printed and whether it leads to legal dunning.",
+    "pt": "Os níveis de cada procedimento de advertência: para cada nível, dias de atraso necessários, se são calculados juros, se todas as partidas são impressas e se passa a cobrança judicial."
+  },
+  "synonyms": {
+    "es": [
+      "niveles de reclamación",
+      "días de retraso por nivel",
+      "reclamación judicial"
+    ],
+    "en": [
+      "dunning levels",
+      "days in arrears per level",
+      "legal dunning"
+    ],
+    "pt": [
+      "níveis de advertência",
+      "dias de atraso por nível",
+      "cobrança judicial"
+    ]
   }
 }

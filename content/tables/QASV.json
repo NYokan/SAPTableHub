@@ -8,5 +8,27 @@
     "es": "Lotes de inspección: especificaciones por muestra",
     "en": "Inspection lots: specifications per sample",
     "pt": "Lotes de inspeção: especificações por amostra"
+  },
+  "purpose": {
+    "es": "Especificaciones de cada característica para cada muestra de un lote de inspección (por ejemplo, límites y tamaño de muestra a inspeccionar), cuando se inspecciona por muestras.",
+    "en": "Specifications of each characteristic for each sample of an inspection lot (for example, limits and sample size to inspect), when inspecting by samples.",
+    "pt": "Especificações de cada característica para cada amostra de um lote de inspeção (por exemplo, limites e tamanho da amostra a inspecionar), quando a inspeção é feita por amostras."
+  },
+  "synonyms": {
+    "es": [
+      "especificaciones por muestra",
+      "tamaño de muestra",
+      "límites por muestra"
+    ],
+    "en": [
+      "specifications per sample",
+      "sample size",
+      "limits per sample"
+    ],
+    "pt": [
+      "especificações por amostra",
+      "tamanho da amostra",
+      "limites por amostra"
+    ]
   }
 }

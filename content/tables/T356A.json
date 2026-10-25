@@ -8,5 +8,24 @@
     "es": "Tipos de prioridad",
     "en": "Priority types",
     "pt": "Tipos de prioridade"
+  },
+  "purpose": {
+    "es": "Lista de tipos de prioridad, que agrupan las escalas de prioridades usadas por cada clase de aviso o de orden.",
+    "en": "List of priority types, which group the priority scales used by each notification or order type.",
+    "pt": "Lista de tipos de prioridade, que agrupam as escalas de prioridades usadas por cada tipo de nota ou de ordem."
+  },
+  "synonyms": {
+    "es": [
+      "tipo de prioridad",
+      "escala de prioridades"
+    ],
+    "en": [
+      "priority type",
+      "priority scale"
+    ],
+    "pt": [
+      "tipo de prioridade",
+      "escala de prioridades"
+    ]
   }
 }

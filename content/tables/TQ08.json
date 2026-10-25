@@ -8,5 +8,27 @@
     "es": "Claves de control de QM en aprovisionamiento",
     "en": "QM control keys in procurement",
     "pt": "Chaves de controle de QM no suprimento"
+  },
+  "purpose": {
+    "es": "Claves de control de QM en aprovisionamiento: se asignan al material y definen requisitos de calidad en compras, como exigir registro info de calidad, certificado o acuerdo técnico de entrega, o bloquear la factura.",
+    "en": "QM control keys in procurement: assigned to the material, they define quality requirements in purchasing, such as requiring a quality info record, certificate or technical delivery terms, or blocking the invoice.",
+    "pt": "Chaves de controle de QM em suprimentos: atribuídas ao material, definem requisitos de qualidade em compras, como exigir registro info de qualidade, certificado ou acordo técnico de fornecimento, ou bloquear a fatura."
+  },
+  "synonyms": {
+    "es": [
+      "clave de control QM",
+      "calidad en compras",
+      "requisitos de calidad de proveedor"
+    ],
+    "en": [
+      "QM control key",
+      "quality in procurement",
+      "vendor quality requirements"
+    ],
+    "pt": [
+      "chave de controle QM",
+      "qualidade em compras",
+      "requisitos de qualidade do fornecedor"
+    ]
   }
 }

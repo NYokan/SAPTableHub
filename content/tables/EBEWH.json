@@ -8,5 +8,27 @@
     "es": "Valoración de stock de pedido de cliente (histórico)",
     "en": "Sales order stock valuation (history)",
     "pt": "Avaliação do estoque de ordem do cliente (histórico)"
+  },
+  "purpose": {
+    "es": "Copia por periodo de la valoración del stock de pedido de cliente (EBEW): guarda el valor y la cantidad al cierre de periodos anteriores. Sirve para consultar cuánto valía ese stock en un mes pasado.",
+    "en": "Period copy of sales order stock valuation (EBEW): it keeps value and quantity at the close of earlier periods. Used to check what that stock was worth in a past month.",
+    "pt": "Cópia por período da avaliação do estoque de pedido de cliente (EBEW): guarda valor e quantidade no fechamento de períodos anteriores. Serve para consultar quanto valia esse estoque em um mês passado."
+  },
+  "synonyms": {
+    "es": [
+      "histórico de valor de stock de pedido",
+      "valor de periodo anterior",
+      "valoración histórica"
+    ],
+    "en": [
+      "sales order stock value history",
+      "prior period value",
+      "historical valuation"
+    ],
+    "pt": [
+      "histórico de valor do estoque de pedido",
+      "valor de período anterior",
+      "avaliação histórica"
+    ]
   }
 }

@@ -9,5 +9,27 @@
     "es": "Códigos de liberación",
     "en": "Release codes",
     "pt": "Códigos de liberação"
+  },
+  "purpose": {
+    "es": "Una fila por grupo de liberación y código de liberación: cada código representa a una persona o rol que aprueba solicitudes o pedidos de compra. Los nombres están en T16FD.",
+    "en": "One row per release group and release code: each code stands for a person or role that approves purchase requisitions or orders. The names are in T16FD.",
+    "pt": "Uma linha por grupo de liberação e código de liberação: cada código representa uma pessoa ou função que aprova requisições ou pedidos de compra. Os nomes estão na T16FD."
+  },
+  "synonyms": {
+    "es": [
+      "código de liberación",
+      "aprobador de compras",
+      "código de aprobación"
+    ],
+    "en": [
+      "release code",
+      "purchasing approver",
+      "approval code"
+    ],
+    "pt": [
+      "código de liberação",
+      "aprovador de compras",
+      "código de aprovação"
+    ]
   }
 }

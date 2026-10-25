@@ -8,5 +8,27 @@
     "es": "Tratamientos (Sr., Sra., Empresa)",
     "en": "Forms of address (Mr., Ms., Company)",
     "pt": "Tratamentos (Sr., Sra., Empresa)"
+  },
+  "purpose": {
+    "es": "Una fila por cada tratamiento usado en direcciones (Sr., Sra., Empresa…), indicando si sirve para personas, organizaciones o ambos. Los textos están en TSAD3T.",
+    "en": "One row per form of address used in addresses (Mr., Ms., Company…), indicating whether it applies to persons, organizations or both. The texts are in TSAD3T.",
+    "pt": "Uma linha por tratamento usado em endereços (Sr., Sra., Empresa…), indicando se serve para pessoas, organizações ou ambos. Os textos estão na TSAD3T."
+  },
+  "synonyms": {
+    "es": [
+      "tratamiento",
+      "título de dirección",
+      "Sr. Sra."
+    ],
+    "en": [
+      "form of address",
+      "salutation",
+      "address title"
+    ],
+    "pt": [
+      "tratamento",
+      "título do endereço",
+      "Sr. Sra."
+    ]
   }
 }

@@ -8,5 +8,24 @@
     "es": "Ramos (textos)",
     "en": "Industry sectors (texts)",
     "pt": "Setores industriais (textos)"
+  },
+  "purpose": {
+    "es": "Descripciones por idioma de los ramos o sectores industriales (T137). Se usa para mostrar el nombre legible en informes en lugar del código.",
+    "en": "Language-dependent descriptions of industry sectors (T137). Used to show the readable name in reports instead of the code.",
+    "pt": "Descrições por idioma de setores industriais (T137). Usada para mostrar o nome legível em relatórios em vez do código."
+  },
+  "synonyms": {
+    "es": [
+      "nombre del ramo",
+      "descripción sector industrial"
+    ],
+    "en": [
+      "industry sector name",
+      "industry sector description"
+    ],
+    "pt": [
+      "nome do setor industrial",
+      "descrição do ramo"
+    ]
   }
 }

@@ -8,5 +8,30 @@
     "es": "Presupuesto y plan anual por objeto",
     "en": "Annual budget and plan per object",
     "pt": "Orçamento e plano anual por objeto"
+  },
+  "purpose": {
+    "es": "Totales anuales de presupuesto y plan por objeto (orden, elemento PEP, programa de inversión). Una fila por objeto, ejercicio, operación de valor y versión. Sirve para ver el presupuesto disponible de cada año, por ejemplo en el control de disponibilidad.",
+    "en": "Annual budget and plan totals per object (order, WBS element, investment program). One row per object, fiscal year, value transaction and version. It shows the budget for each year, for example for availability control.",
+    "pt": "Totais anuais de orçamento e plano por objeto (ordem, elemento PEP, programa de investimento). Uma linha por objeto, exercício, operação de valor e versão. Mostra o orçamento de cada ano, por exemplo para o controle de disponibilidade."
+  },
+  "synonyms": {
+    "es": [
+      "presupuesto anual",
+      "presupuesto por año",
+      "plan anual",
+      "control de disponibilidad"
+    ],
+    "en": [
+      "annual budget",
+      "budget per year",
+      "annual plan",
+      "availability control"
+    ],
+    "pt": [
+      "orçamento anual",
+      "orçamento por ano",
+      "plano anual",
+      "controle de disponibilidade"
+    ]
   }
 }

@@ -8,5 +8,30 @@
     "es": "Documentos de presupuesto (cabecera)",
     "en": "Budget documents (header)",
     "pt": "Documentos de orçamento (cabeçalho)"
+  },
+  "purpose": {
+    "es": "Una fila por cada documento de presupuesto de Controlling: cuándo y quién registró un presupuesto, suplemento, devolución o traspaso para órdenes o proyectos. Las líneas con importes están en BPEG (globales) y BPEJ (anuales).",
+    "en": "One row per Controlling budget document: when and who entered a budget, supplement, return or transfer for orders or projects. The lines with amounts are in BPEG (overall) and BPEJ (annual).",
+    "pt": "Uma linha por documento de orçamento do Controlling: quando e quem registrou um orçamento, suplemento, devolução ou transferência para ordens ou projetos. As linhas com valores estão na BPEG (globais) e BPEJ (anuais)."
+  },
+  "synonyms": {
+    "es": [
+      "documento de presupuesto",
+      "suplemento de presupuesto",
+      "traspaso de presupuesto",
+      "historial de presupuesto"
+    ],
+    "en": [
+      "budget document",
+      "budget supplement",
+      "budget transfer",
+      "budget history"
+    ],
+    "pt": [
+      "documento de orçamento",
+      "suplemento de orçamento",
+      "transferência de orçamento",
+      "histórico de orçamento"
+    ]
   }
 }

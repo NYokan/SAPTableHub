@@ -7,5 +7,27 @@
     "es": "Estados del sistema",
     "en": "System statuses",
     "pt": "Status do sistema"
+  },
+  "purpose": {
+    "es": "Una fila por cada estado del sistema que SAP pone automáticamente a órdenes, proyectos, avisos y otros objetos (por ejemplo I0002 liberado, I0045 cerrado técnicamente). Los textos están en TJ02T y los estados activos de cada objeto en JEST.",
+    "en": "One row per system status that SAP sets automatically on orders, projects, notifications and other objects (for example I0002 released, I0045 technically completed). The texts are in TJ02T and the active statuses of each object in JEST.",
+    "pt": "Uma linha por status do sistema que o SAP define automaticamente em ordens, projetos, notas e outros objetos (por exemplo I0002 liberado, I0045 encerrado tecnicamente). Os textos estão na TJ02T e os status ativos de cada objeto na JEST."
+  },
+  "synonyms": {
+    "es": [
+      "estado del sistema",
+      "status de sistema",
+      "estado de la orden"
+    ],
+    "en": [
+      "system status",
+      "order status",
+      "status codes"
+    ],
+    "pt": [
+      "status do sistema",
+      "status da ordem",
+      "códigos de status"
+    ]
   }
 }

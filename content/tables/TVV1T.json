@@ -9,5 +9,24 @@
     "es": "Grupos de clientes 1: textos",
     "en": "Customer groups 1: texts",
     "pt": "Grupos de clientes 1: textos"
+  },
+  "purpose": {
+    "es": "Descripción de cada grupo de clientes 1 en cada idioma: una fila por código e idioma. Sirve para mostrar un nombre legible en lugar del código KVGR1 en informes; los códigos se definen en TVV1.",
+    "en": "Description of each customer group 1 in each language: one row per code and language. Use it to show a readable name instead of the KVGR1 code in reports; the codes themselves are defined in TVV1.",
+    "pt": "Descrição de cada grupo de clientes 1 em cada idioma: uma linha por código e idioma. Serve para mostrar um nome legível em vez do código KVGR1 em relatórios; os códigos são definidos na TVV1."
+  },
+  "synonyms": {
+    "es": [
+      "texto grupo de clientes 1",
+      "KVGR1"
+    ],
+    "en": [
+      "customer group 1 text",
+      "KVGR1"
+    ],
+    "pt": [
+      "texto grupo de clientes 1",
+      "KVGR1"
+    ]
   }
 }

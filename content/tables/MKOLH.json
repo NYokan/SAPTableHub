@@ -8,5 +8,27 @@
     "es": "Stock especial de proveedor (histórico)",
     "en": "Vendor special stock (history)",
     "pt": "Estoque especial de fornecedor (histórico)"
+  },
+  "purpose": {
+    "es": "Copia por periodo del stock especial de proveedor que está en nuestros almacenes, como el stock en consignación (MKOL): cantidades al cierre de periodos anteriores.",
+    "en": "Period copy of special stock from vendor held in our storage locations, such as consignment stock (MKOL): quantities at the close of earlier periods.",
+    "pt": "Cópia por período do estoque especial de fornecedor mantido em nossos depósitos, como o estoque em consignação (MKOL): quantidades no fechamento de períodos anteriores."
+  },
+  "synonyms": {
+    "es": [
+      "histórico stock en consignación",
+      "consignación de proveedor histórico",
+      "stock K histórico"
+    ],
+    "en": [
+      "consignment stock history",
+      "vendor consignment history",
+      "special stock K history"
+    ],
+    "pt": [
+      "histórico estoque em consignação",
+      "consignação de fornecedor histórico",
+      "estoque K histórico"
+    ]
   }
 }

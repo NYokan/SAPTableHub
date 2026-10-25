@@ -8,5 +8,27 @@
     "es": "Partidas reales de actividades",
     "en": "Actual line items for activities",
     "pt": "Partidas reais de atividades"
+  },
+  "purpose": {
+    "es": "Una fila por cada partida real de tipos de actividad: cantidades de actividad y capacidad reales registradas para un centro de coste y tipo de actividad. Los totales están en COSL.",
+    "en": "One row per actual line item for activity types: actual activity quantities and capacity recorded for a cost center and activity type. The totals are in COSL.",
+    "pt": "Uma linha por partida real de tipos de atividade: quantidades de atividade e capacidade reais registradas para um centro de custo e tipo de atividade. Os totais estão na COSL."
+  },
+  "synonyms": {
+    "es": [
+      "actividad real",
+      "cantidades de actividad",
+      "capacidad real"
+    ],
+    "en": [
+      "actual activity",
+      "activity quantities",
+      "actual capacity"
+    ],
+    "pt": [
+      "atividade real",
+      "quantidades de atividade",
+      "capacidade real"
+    ]
   }
 }

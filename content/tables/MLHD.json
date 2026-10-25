@@ -8,5 +8,27 @@
     "es": "Documentos del ledger de materiales (cabecera)",
     "en": "Material ledger documents (header)",
     "pt": "Documentos do ledger de materiais (cabeçalho)"
+  },
+  "purpose": {
+    "es": "En ECC, una fila por cada documento del ledger de materiales: tipo de operación, fecha, usuario y referencia al documento de origen (documento de material, factura, cambio de precio). Las posiciones están en MLIT.",
+    "en": "In ECC, one row per material ledger document: transaction type, date, user and reference to the source document (material document, invoice, price change). The items are in MLIT.",
+    "pt": "No ECC, uma linha por documento do ledger de materiais: tipo de operação, data, usuário e referência ao documento de origem (documento de material, fatura, mudança de preço). Os itens estão na MLIT."
+  },
+  "synonyms": {
+    "es": [
+      "documento del material ledger",
+      "cabecera ML",
+      "documento de ledger de materiales"
+    ],
+    "en": [
+      "material ledger document",
+      "ML document header",
+      "material ledger header"
+    ],
+    "pt": [
+      "documento do material ledger",
+      "cabeçalho ML",
+      "documento do ledger de materiais"
+    ]
   }
 }

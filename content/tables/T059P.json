@@ -8,5 +8,29 @@
     "es": "Tipos de retención de impuestos",
     "en": "Withholding tax types",
     "pt": "Tipos de imposto retido na fonte"
+  },
+  "purpose": {
+    "es": "Los tipos de retención de impuestos (retención ampliada) por país: cómo se calcula la base, si la retención se practica al registrar la factura o al pagar, y cómo se redondea.",
+    "en": "The (extended) withholding tax types per country: how the base amount is calculated, whether withholding is applied when the invoice is posted or at payment, and how it is rounded.",
+    "pt": "Os tipos de retenção na fonte (retenção ampliada) por país: como a base é calculada, se a retenção é feita ao registrar a fatura ou no pagamento, e como é arredondada."
+  },
+  "synonyms": {
+    "es": [
+      "tipo de retención",
+      "retención en la fuente",
+      "retención IRPF",
+      "WITHT"
+    ],
+    "en": [
+      "withholding tax type",
+      "tax withheld at source",
+      "WITHT"
+    ],
+    "pt": [
+      "tipo de retenção",
+      "imposto retido na fonte",
+      "IRRF",
+      "WITHT"
+    ]
   }
 }

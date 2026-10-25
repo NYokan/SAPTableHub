@@ -8,5 +8,30 @@
     "es": "Gestión de créditos: pedidos abiertos",
     "en": "Credit management: open orders",
     "pt": "Gestão de crédito: pedidos em aberto"
+  },
+  "purpose": {
+    "es": "Estructura estadística que acumula el valor de los pedidos de venta abiertos por área de control de créditos, cuenta de crédito y fecha. La gestión de créditos de SD la usa para calcular el riesgo de cada cliente.",
+    "en": "Statistics structure that accumulates the value of open sales orders by credit control area, credit account and date. SD credit management uses it to calculate each customer's credit exposure.",
+    "pt": "Estrutura estatística que acumula o valor dos pedidos de venda em aberto por área de controle de crédito, conta de crédito e data. A gestão de crédito do SD a usa para calcular a exposição de cada cliente."
+  },
+  "synonyms": {
+    "es": [
+      "valor de pedidos abiertos",
+      "riesgo de crédito",
+      "exposición crediticia",
+      "pedidos abiertos crédito"
+    ],
+    "en": [
+      "open order value",
+      "credit exposure",
+      "open orders credit",
+      "credit check"
+    ],
+    "pt": [
+      "valor de pedidos em aberto",
+      "risco de crédito",
+      "exposição de crédito",
+      "pedidos em aberto crédito"
+    ]
   }
 }

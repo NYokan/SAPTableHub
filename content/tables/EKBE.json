@@ -9,5 +9,32 @@
     "es": "Pedidos de compra: historial",
     "en": "Purchase orders: history",
     "pt": "Pedidos de compra: histórico"
+  },
+  "purpose": {
+    "es": "Una fila por cada evento posterior en una posición de pedido de compra: entradas de mercancías, entradas de facturas, anulaciones y pagos anticipados, con cantidad, importe y documento de referencia. Es la fuente para saber cuánto se recibió y facturó de cada pedido.",
+    "en": "One row per follow-on event on a purchase order item: goods receipts, invoice receipts, reversals and down payments, with quantity, amount and reference document. It is the source to know how much of each order was received and invoiced.",
+    "pt": "Uma linha por evento posterior em um item de pedido de compra: entradas de mercadorias, entradas de faturas, estornos e adiantamentos, com quantidade, valor e documento de referência. É a fonte para saber quanto de cada pedido foi recebido e faturado."
+  },
+  "synonyms": {
+    "es": [
+      "historial de pedido",
+      "entradas de mercancía del pedido",
+      "facturas del pedido",
+      "recibido y facturado",
+      "PO history"
+    ],
+    "en": [
+      "PO history",
+      "purchase order history",
+      "goods receipts per PO",
+      "invoiced quantity",
+      "received and invoiced"
+    ],
+    "pt": [
+      "histórico do pedido",
+      "entradas de mercadorias do pedido",
+      "faturas do pedido",
+      "recebido e faturado"
+    ]
   }
 }

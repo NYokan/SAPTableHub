@@ -9,5 +9,27 @@
     "es": "Cuentas de contrato: datos por interlocutor",
     "en": "Contract accounts: business partner data",
     "pt": "Contas de contrato: dados por parceiro"
+  },
+  "purpose": {
+    "es": "Para cada cuenta contrato e interlocutor comercial, los datos de cobro y pago: condiciones de pago, vías de pago, procedimiento de reclamación, banco y dirección de correspondencia. La cabecera de la cuenta está en FKKVK.",
+    "en": "For each contract account and business partner, the payment and collection data: payment terms, payment methods, dunning procedure, bank details and correspondence address. The account header is in FKKVK.",
+    "pt": "Para cada conta contrato e parceiro de negócios, os dados de recebimento e pagamento: condições de pagamento, formas de pagamento, procedimento de advertência, banco e endereço de correspondência. O cabeçalho da conta está na FKKVK."
+  },
+  "synonyms": {
+    "es": [
+      "datos de pago de cuenta contrato",
+      "interlocutor de cuenta contrato",
+      "domiciliación FI-CA"
+    ],
+    "en": [
+      "contract account payment data",
+      "contract account partner",
+      "FI-CA direct debit"
+    ],
+    "pt": [
+      "dados de pagamento da conta contrato",
+      "parceiro da conta contrato",
+      "débito automático FI-CA"
+    ]
   }
 }

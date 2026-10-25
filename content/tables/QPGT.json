@@ -7,5 +7,24 @@
     "es": "Catálogos de calidad: textos de grupos de códigos",
     "en": "Quality catalogs: code group texts",
     "pt": "Catálogos de qualidade: textos de grupos de códigos"
+  },
+  "purpose": {
+    "es": "Descripciones por idioma de los grupos de códigos de los catálogos (QPGR). Se usa para mostrar el nombre legible en informes en lugar del código.",
+    "en": "Language-dependent descriptions of catalog code groups (QPGR). Used to show the readable name in reports instead of the code.",
+    "pt": "Descrições por idioma de grupos de códigos dos catálogos (QPGR). Usada para mostrar o nome legível em relatórios em vez do código."
+  },
+  "synonyms": {
+    "es": [
+      "texto grupo de códigos",
+      "descripción grupo de catálogo"
+    ],
+    "en": [
+      "code group text",
+      "catalog group description"
+    ],
+    "pt": [
+      "texto grupo de códigos",
+      "descrição grupo de catálogo"
+    ]
   }
 }

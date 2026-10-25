@@ -8,5 +8,24 @@
     "es": "Ledgers: textos",
     "en": "Ledgers: texts",
     "pt": "Ledgers: textos"
+  },
+  "purpose": {
+    "es": "Nombre de cada ledger en cada idioma, para mostrar una descripción legible en lugar del código de T881.",
+    "en": "Name of each ledger in each language, to show a readable description instead of the code from T881.",
+    "pt": "Nome de cada ledger em cada idioma, para mostrar uma descrição legível em vez do código da T881."
+  },
+  "synonyms": {
+    "es": [
+      "texto de ledger",
+      "nombre de ledger"
+    ],
+    "en": [
+      "ledger text",
+      "ledger name"
+    ],
+    "pt": [
+      "texto do ledger",
+      "nome do ledger"
+    ]
   }
 }

@@ -8,5 +8,27 @@
     "es": "Números de serie en movimientos de mercancías (cabecera)",
     "en": "Serial numbers in goods movements (header)",
     "pt": "Números de série em movimentos de mercadorias (cabeçalho)"
+  },
+  "purpose": {
+    "es": "Cabecera de los números de serie en movimientos de mercancías: enlaza cada posición de documento de material con la lista de objetos (OBJK) donde están los números de serie movidos.",
+    "en": "Header of serial numbers in goods movements: it links each material document item to the object list (OBJK) holding the serial numbers moved.",
+    "pt": "Cabeçalho dos números de série em movimentos de mercadorias: liga cada item do documento de material à lista de objetos (OBJK) onde estão os números de série movimentados."
+  },
+  "synonyms": {
+    "es": [
+      "números de serie en movimiento",
+      "series por documento de material",
+      "trazabilidad de series"
+    ],
+    "en": [
+      "goods movement serial numbers",
+      "serial numbers per material document",
+      "serial number traceability"
+    ],
+    "pt": [
+      "números de série no movimento",
+      "séries por documento de material",
+      "rastreabilidade de séries"
+    ]
   }
 }

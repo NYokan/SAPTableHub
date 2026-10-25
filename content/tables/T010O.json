@@ -8,5 +8,27 @@
     "es": "Variantes de períodos contables",
     "en": "Posting period variants",
     "pt": "Variantes de períodos contábeis"
+  },
+  "purpose": {
+    "es": "La lista de variantes de períodos contables. Cada sociedad tiene asignada una, y para cada variante se definen en T001B los períodos que están abiertos.",
+    "en": "The list of posting period variants. Each company code is assigned one, and for each variant the open periods are defined in T001B.",
+    "pt": "A lista de variantes de períodos contábeis. Cada empresa tem uma atribuída, e para cada variante os períodos abertos são definidos na T001B."
+  },
+  "synonyms": {
+    "es": [
+      "variante de períodos contables",
+      "OPVAR",
+      "apertura de períodos"
+    ],
+    "en": [
+      "posting period variant",
+      "OPVAR",
+      "period opening"
+    ],
+    "pt": [
+      "variante de períodos contábeis",
+      "OPVAR",
+      "abertura de períodos"
+    ]
   }
 }

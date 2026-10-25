@@ -8,5 +8,30 @@
     "es": "Registros de condición (cabecera)",
     "en": "Condition records (header)",
     "pt": "Registros de condição (cabeçalho)"
+  },
+  "purpose": {
+    "es": "Una fila por cada registro de condición (precio, descuento, recargo…) con sus datos generales: clase de condición, aplicación, tabla de condiciones de origen y periodo de validez. Los importes y escalas están en KONP; la clave de negocio está en las tablas Axxx.",
+    "en": "One row per condition record (price, discount, surcharge…) with its general data: condition type, application, source condition table and validity period. Amounts and scales are in KONP; the business key is in the Axxx tables.",
+    "pt": "Uma linha por registro de condição (preço, desconto, acréscimo…) com seus dados gerais: tipo de condição, aplicação, tabela de condições de origem e período de validade. Valores e escalas estão na KONP; a chave de negócio está nas tabelas Axxx."
+  },
+  "synonyms": {
+    "es": [
+      "registro de condición",
+      "cabecera de condición",
+      "validez de precios",
+      "condiciones de precio"
+    ],
+    "en": [
+      "condition record",
+      "condition header",
+      "price validity",
+      "pricing conditions"
+    ],
+    "pt": [
+      "registro de condição",
+      "cabeçalho de condição",
+      "validade de preços",
+      "condições de preço"
+    ]
   }
 }

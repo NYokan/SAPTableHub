@@ -8,5 +8,27 @@
     "es": "Activos fijos: número principal",
     "en": "Fixed assets: main asset number",
     "pt": "Ativos fixos: número principal"
+  },
+  "purpose": {
+    "es": "Una fila por cada número principal de activo fijo, que agrupa a sus subnúmeros. Guarda datos comunes al activo principal, como su denominación general y el último subnúmero asignado. Los datos de cada subnúmero están en ANLA.",
+    "en": "One row per main asset number, which groups its sub-numbers. It holds data shared by the main asset, such as its general description and the last sub-number assigned. The data of each sub-number is in ANLA.",
+    "pt": "Uma linha por número principal de ativo imobilizado, que agrupa seus subnúmeros. Guarda dados comuns ao ativo principal, como sua denominação geral e o último subnúmero atribuído. Os dados de cada subnúmero estão na ANLA."
+  },
+  "synonyms": {
+    "es": [
+      "activo principal",
+      "número principal de activo",
+      "subnúmeros de activo"
+    ],
+    "en": [
+      "main asset",
+      "main asset number",
+      "asset sub-numbers"
+    ],
+    "pt": [
+      "ativo principal",
+      "número principal do ativo",
+      "subnúmeros de ativo"
+    ]
   }
 }

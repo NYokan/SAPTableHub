@@ -8,5 +8,27 @@
     "es": "Capacidad disponible: intervalos",
     "en": "Available capacity: intervals",
     "pt": "Capacidade disponível: intervalos"
+  },
+  "purpose": {
+    "es": "Una fila por cada intervalo de tiempo con capacidad disponible distinta de la estándar (por ejemplo, un período con otro horario o número de turnos). Sus turnos están en KAPA.",
+    "en": "One row per time interval with available capacity different from the standard (for example, a period with other working times or number of shifts). Its shifts are in KAPA.",
+    "pt": "Uma linha por intervalo de tempo com capacidade disponível diferente da padrão (por exemplo, um período com outro horário ou número de turnos). Seus turnos estão na KAPA."
+  },
+  "synonyms": {
+    "es": [
+      "intervalos de capacidad",
+      "capacidad disponible por período",
+      "calendario de capacidad"
+    ],
+    "en": [
+      "capacity intervals",
+      "available capacity by period",
+      "capacity calendar"
+    ],
+    "pt": [
+      "intervalos de capacidade",
+      "capacidade disponível por período",
+      "calendário de capacidade"
+    ]
   }
 }

@@ -8,5 +8,24 @@
     "es": "Divisiones: textos",
     "en": "Business areas: texts",
     "pt": "Divisões: textos"
+  },
+  "purpose": {
+    "es": "Nombre de cada división (business area) en cada idioma, para mostrar una descripción legible en lugar del código de TGSB.",
+    "en": "Name of each business area in each language, to show a readable description instead of the code from TGSB.",
+    "pt": "Nome de cada divisão (business area) em cada idioma, para mostrar uma descrição legível em vez do código da TGSB."
+  },
+  "synonyms": {
+    "es": [
+      "texto de división",
+      "nombre business area"
+    ],
+    "en": [
+      "business area text",
+      "business area name"
+    ],
+    "pt": [
+      "texto da divisão",
+      "nome da business area"
+    ]
   }
 }

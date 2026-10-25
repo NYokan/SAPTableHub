@@ -9,5 +9,30 @@
     "es": "Materiales: datos por tipo de almacén (WM)",
     "en": "Materials: storage type data (WM)",
     "pt": "Materiais: dados por tipo de depósito (WM)"
+  },
+  "purpose": {
+    "es": "Datos del material para cada tipo de almacén en Warehouse Management (WM): ubicación fija, cantidad máxima y mínima en la ubicación y cantidad de reposición. Se usa para el picking y la reposición de ubicaciones.",
+    "en": "Material data for each storage type in Warehouse Management (WM): fixed bin, maximum and minimum bin quantity and replenishment quantity. Used for picking and bin replenishment.",
+    "pt": "Dados do material para cada tipo de depósito no Warehouse Management (WM): posição fixa, quantidade máxima e mínima na posição e quantidade de reabastecimento. Usados no picking e no reabastecimento de posições."
+  },
+  "synonyms": {
+    "es": [
+      "ubicación fija",
+      "reposición de ubicación",
+      "datos de material WM",
+      "cantidad máxima de ubicación"
+    ],
+    "en": [
+      "fixed bin",
+      "bin replenishment",
+      "WM material data",
+      "maximum bin quantity"
+    ],
+    "pt": [
+      "posição fixa",
+      "reabastecimento de posição",
+      "dados de material WM",
+      "quantidade máxima da posição"
+    ]
   }
 }

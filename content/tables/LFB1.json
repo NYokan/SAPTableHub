@@ -9,5 +9,30 @@
     "es": "Proveedores: datos por sociedad",
     "en": "Vendors: company code data",
     "pt": "Fornecedores: dados por empresa"
+  },
+  "purpose": {
+    "es": "Una fila por proveedor y sociedad con sus datos contables: cuenta asociada (de conciliación), condiciones y vías de pago, bloqueo de pago, responsable y retenciones. Complementa a LFA1, que tiene los datos generales del proveedor.",
+    "en": "One row per vendor and company code with its accounting data: reconciliation account, payment terms and methods, payment block, clerk and withholding settings. It complements LFA1, which holds the general vendor data.",
+    "pt": "Uma linha por fornecedor e empresa com seus dados contábeis: conta de reconciliação, condições e formas de pagamento, bloqueio de pagamento, responsável e retenções. Complementa a LFA1, que tem os dados gerais do fornecedor."
+  },
+  "synonyms": {
+    "es": [
+      "proveedor por sociedad",
+      "cuenta de conciliación de proveedores",
+      "datos contables del proveedor",
+      "bloqueo de pago proveedor"
+    ],
+    "en": [
+      "vendor company code data",
+      "vendor reconciliation account",
+      "vendor accounting data",
+      "vendor payment block"
+    ],
+    "pt": [
+      "fornecedor por empresa",
+      "conta de reconciliação de fornecedores",
+      "dados contábeis do fornecedor",
+      "bloqueio de pagamento do fornecedor"
+    ]
   }
 }

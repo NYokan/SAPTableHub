@@ -8,5 +8,30 @@
     "es": "Personas (central de direcciones)",
     "en": "Persons (address management)",
     "pt": "Pessoas (gestão de endereços)"
+  },
+  "purpose": {
+    "es": "Una fila por cada persona de la gestión central de direcciones: nombre, apellido, tratamiento y título académico. Su lugar de trabajo y dirección se asignan en ADCP; la usan personas de contacto y usuarios.",
+    "en": "One row per person in central address management: first name, last name, form of address and academic title. Their workplace and address are assigned in ADCP; it is used by contact persons and users.",
+    "pt": "Uma linha por pessoa no gerenciamento central de endereços: nome, sobrenome, tratamento e título acadêmico. O local de trabalho e o endereço são atribuídos na ADCP; é usada por pessoas de contato e usuários."
+  },
+  "synonyms": {
+    "es": [
+      "nombre de persona",
+      "persona de contacto",
+      "nombre y apellido",
+      "datos personales de contacto"
+    ],
+    "en": [
+      "person name",
+      "contact person name",
+      "first and last name",
+      "person data"
+    ],
+    "pt": [
+      "nome da pessoa",
+      "pessoa de contato",
+      "nome e sobrenome",
+      "dados da pessoa"
+    ]
   }
 }

@@ -8,5 +8,24 @@
     "es": "Documentos del ledger de materiales: desglose por componentes de coste",
     "en": "Material ledger documents: cost component split",
     "pt": "Documentos do ledger de materiais: decomposição por componentes de custo"
+  },
+  "purpose": {
+    "es": "En ECC, el desglose por componentes de coste (materia prima, mano de obra, gastos generales, etc.) de cada posición de documento del ledger de materiales. Permite analizar el costo real por componente.",
+    "en": "In ECC, the cost component split (raw material, labor, overhead, etc.) of each material ledger document item. It allows analyzing actual cost by component.",
+    "pt": "No ECC, a divisão por componentes de custo (matéria-prima, mão de obra, custos indiretos etc.) de cada item de documento do ledger de materiais. Permite analisar o custo real por componente."
+  },
+  "synonyms": {
+    "es": [
+      "componentes de coste de documentos ML",
+      "desglose de costo real"
+    ],
+    "en": [
+      "ML document cost components",
+      "actual cost split"
+    ],
+    "pt": [
+      "componentes de custo dos documentos ML",
+      "divisão do custo real"
+    ]
   }
 }

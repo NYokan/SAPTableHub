@@ -8,5 +8,30 @@
     "es": "Clientes: datos de reclamación",
     "en": "Customers: dunning data",
     "pt": "Clientes: dados de advertência"
+  },
+  "purpose": {
+    "es": "Los datos de reclamación de cada cliente por sociedad y área de reclamación: procedimiento de reclamación, último nivel alcanzado, fecha de la última carta, bloqueo de reclamación y responsable.",
+    "en": "The dunning data of each customer per company code and dunning area: dunning procedure, last level reached, date of the last notice, dunning block and dunning clerk.",
+    "pt": "Os dados de cobrança (advertência) de cada cliente por empresa e área de advertência: procedimento de advertência, último nível atingido, data da última carta, bloqueio de advertência e responsável."
+  },
+  "synonyms": {
+    "es": [
+      "nivel de reclamación",
+      "carta de reclamación",
+      "cobro de morosos",
+      "bloqueo de reclamación"
+    ],
+    "en": [
+      "dunning level",
+      "dunning letter",
+      "dunning block",
+      "collections data"
+    ],
+    "pt": [
+      "nível de advertência",
+      "carta de cobrança",
+      "cobrança de inadimplentes",
+      "bloqueio de advertência"
+    ]
   }
 }

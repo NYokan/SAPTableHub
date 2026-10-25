@@ -8,5 +8,30 @@
     "es": "Segmentos",
     "en": "Segments",
     "pt": "Segmentos"
+  },
+  "purpose": {
+    "es": "Los segmentos: divisiones de la empresa para la información por segmentos que exigen IFRS y US GAAP. Se asignan normalmente a los centros de beneficio y aparecen en los asientos del nuevo mayor y de ACDOCA.",
+    "en": "The segments: divisions of the business for the segment reporting required by IFRS and US GAAP. They are usually assigned to profit centers and appear on New G/L and ACDOCA entries.",
+    "pt": "Os segmentos: divisões da empresa para a informação por segmentos exigida por IFRS e US GAAP. São normalmente atribuídos aos centros de lucro e aparecem nos lançamentos do novo razão e da ACDOCA."
+  },
+  "synonyms": {
+    "es": [
+      "segmento",
+      "información por segmentos",
+      "IFRS 8",
+      "SEGMENT"
+    ],
+    "en": [
+      "segment",
+      "segment reporting",
+      "IFRS 8",
+      "SEGMENT"
+    ],
+    "pt": [
+      "segmento",
+      "informação por segmentos",
+      "IFRS 8",
+      "SEGMENT"
+    ]
   }
 }

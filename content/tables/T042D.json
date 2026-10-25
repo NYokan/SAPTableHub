@@ -8,5 +8,27 @@
     "es": "Programa de pagos: importes disponibles por banco propio",
     "en": "Payment program: available amounts per house bank",
     "pt": "Programa de pagamento: montantes disponíveis por banco próprio"
+  },
+  "purpose": {
+    "es": "Los importes disponibles para pagos en cada cuenta de banco propio, por moneda y plazo en días. El programa de pagos los consulta para no pagar más de lo que hay en cada cuenta.",
+    "en": "The amounts available for payments in each house bank account, by currency and days. The payment program checks them so it does not pay more than each account holds.",
+    "pt": "Os montantes disponíveis para pagamentos em cada conta de banco próprio, por moeda e prazo em dias. O programa de pagamentos os consulta para não pagar mais do que cada conta tem."
+  },
+  "synonyms": {
+    "es": [
+      "importes disponibles por banco",
+      "saldo disponible para pagos",
+      "límite de pago por banco"
+    ],
+    "en": [
+      "available amounts per bank",
+      "funds available for payment",
+      "bank payment limit"
+    ],
+    "pt": [
+      "montantes disponíveis por banco",
+      "saldo disponível para pagamentos",
+      "limite de pagamento por banco"
+    ]
   }
 }

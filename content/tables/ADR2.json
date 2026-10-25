@@ -8,5 +8,32 @@
     "es": "Direcciones (teléfonos)",
     "en": "Addresses (telephone numbers)",
     "pt": "Endereços (telefones)"
+  },
+  "purpose": {
+    "es": "Una fila por cada número de teléfono (fijo o móvil) de una dirección o persona: número, extensión y país. Se enlaza con ADRC por el número de dirección; así se obtienen los teléfonos de clientes, proveedores o centros.",
+    "en": "One row per telephone number (landline or mobile) of an address or person: number, extension and country. It links to ADRC through the address number; this is how you get phone numbers of customers, vendors or plants.",
+    "pt": "Uma linha por número de telefone (fixo ou celular) de um endereço ou pessoa: número, ramal e país. Liga-se à ADRC pelo número do endereço; assim se obtêm os telefones de clientes, fornecedores ou centros."
+  },
+  "synonyms": {
+    "es": [
+      "número de teléfono",
+      "teléfono de contacto",
+      "teléfono móvil",
+      "celular",
+      "extensión telefónica"
+    ],
+    "en": [
+      "phone number",
+      "telephone number",
+      "mobile number",
+      "contact phone",
+      "phone extension"
+    ],
+    "pt": [
+      "número de telefone",
+      "telefone de contato",
+      "celular",
+      "ramal"
+    ]
   }
 }

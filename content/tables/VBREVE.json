@@ -8,5 +8,27 @@
     "es": "Reconocimiento de ingresos: líneas de ingreso",
     "en": "Revenue recognition: revenue lines",
     "pt": "Reconhecimento de receita: linhas de receita"
+  },
+  "purpose": {
+    "es": "Líneas de ingreso del reconocimiento de ingresos de ventas: una fila por posición y periodo con el importe de ingreso a reconocer y si ya se contabilizó. Sirve para ver cuándo se reconoce el ingreso de contratos o servicios.",
+    "en": "Revenue lines of sales revenue recognition: one row per item and period with the revenue amount to be recognized and whether it has been posted. Use it to see when revenue from contracts or services is recognized.",
+    "pt": "Linhas de receita do reconhecimento de receitas de vendas: uma linha por item e período com o valor de receita a reconhecer e se já foi contabilizado. Serve para ver quando a receita de contratos ou serviços é reconhecida."
+  },
+  "synonyms": {
+    "es": [
+      "reconocimiento de ingresos",
+      "ingresos diferidos",
+      "ingreso por periodo"
+    ],
+    "en": [
+      "revenue recognition",
+      "deferred revenue",
+      "revenue per period"
+    ],
+    "pt": [
+      "reconhecimento de receitas",
+      "receita diferida",
+      "receita por período"
+    ]
   }
 }

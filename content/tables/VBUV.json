@@ -8,5 +8,27 @@
     "es": "Datos incompletos de documentos de ventas",
     "en": "Incompletion data of sales documents",
     "pt": "Dados incompletos de documentos de vendas"
+  },
+  "purpose": {
+    "es": "Log de datos incompletos de los documentos de ventas: una fila por campo obligatorio que falta, con documento, posición, tabla y campo. Sirve para ver por qué un pedido no se puede entregar o facturar.",
+    "en": "Incompletion log of sales documents: one row per missing mandatory field, with document, item, table and field. Use it to see why an order cannot be delivered or billed.",
+    "pt": "Log de dados incompletos dos documentos de vendas: uma linha por campo obrigatório que falta, com documento, item, tabela e campo. Serve para ver por que uma ordem não pode ser entregue ou faturada."
+  },
+  "synonyms": {
+    "es": [
+      "log de incompletos",
+      "pedido incompleto",
+      "campos faltantes"
+    ],
+    "en": [
+      "incompletion log",
+      "incomplete order",
+      "missing fields"
+    ],
+    "pt": [
+      "log de incompletos",
+      "ordem incompleta",
+      "campos faltantes"
+    ]
   }
 }

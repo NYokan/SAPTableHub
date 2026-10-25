@@ -8,5 +8,30 @@
     "es": "Documentos (vínculos con objetos)",
     "en": "Documents (object links)",
     "pt": "Documentos (vínculos com objetos)"
+  },
+  "purpose": {
+    "es": "Una fila por cada vínculo entre un documento del sistema de gestión de documentos (DMS) y un objeto, como un material, equipo o pedido. Sirve para saber qué planos o especificaciones tiene asociados un objeto.",
+    "en": "One row per link between a document in the document management system (DMS) and an object, such as a material, equipment or order. It tells which drawings or specifications are attached to an object.",
+    "pt": "Uma linha por vínculo entre um documento do sistema de gestão de documentos (DMS) e um objeto, como um material, equipamento ou ordem. Serve para saber quais desenhos ou especificações estão associados a um objeto."
+  },
+  "synonyms": {
+    "es": [
+      "documentos vinculados",
+      "vínculo de documento",
+      "plano asociado al material",
+      "DMS objeto"
+    ],
+    "en": [
+      "document links",
+      "object links",
+      "linked drawings",
+      "DMS object link"
+    ],
+    "pt": [
+      "documentos vinculados",
+      "vínculo de documento",
+      "desenho associado ao material",
+      "DMS objeto"
+    ]
   }
 }

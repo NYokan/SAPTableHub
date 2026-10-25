@@ -8,5 +8,24 @@
     "es": "Claves de control de operaciones (descripciones)",
     "en": "Operation control keys (descriptions)",
     "pt": "Chaves de controle de operações (descrições)"
+  },
+  "purpose": {
+    "es": "Descripción de cada clave de control de operaciones, por idioma. Se une con T430, PLPO o AFVC por el campo STEUS para mostrar su nombre.",
+    "en": "Description of each operation control key, per language. It is joined to T430, PLPO or AFVC by the STEUS field to show its name.",
+    "pt": "Descrição de cada chave de controle de operações, por idioma. É unida à T430, PLPO ou AFVC pelo campo STEUS para mostrar seu nome."
+  },
+  "synonyms": {
+    "es": [
+      "nombre de clave de control",
+      "descripción de STEUS"
+    ],
+    "en": [
+      "control key name",
+      "STEUS description"
+    ],
+    "pt": [
+      "nome da chave de controle",
+      "descrição da STEUS"
+    ]
   }
 }

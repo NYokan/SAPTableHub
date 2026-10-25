@@ -9,5 +9,27 @@
     "es": "Asignación centro/almacén a número de almacén",
     "en": "Plant/storage location to warehouse assignment",
     "pt": "Atribuição centro/depósito a número de armazém"
+  },
+  "purpose": {
+    "es": "Indica qué combinación de centro y almacén está gestionada por cada número de almacén WM. Es la conexión entre la gestión de stocks (IM) y Warehouse Management.",
+    "en": "Shows which plant and storage location combination is managed by each WM warehouse number. It is the link between inventory management (IM) and Warehouse Management.",
+    "pt": "Indica qual combinação de centro e depósito é gerenciada por cada número de depósito WM. É a ligação entre a gestão de estoques (IM) e o Warehouse Management."
+  },
+  "synonyms": {
+    "es": [
+      "asignación almacén a número de almacén",
+      "almacén gestionado por WM",
+      "enlace IM WM"
+    ],
+    "en": [
+      "storage location to warehouse number",
+      "WM-managed storage location",
+      "IM WM link"
+    ],
+    "pt": [
+      "atribuição depósito a número de depósito",
+      "depósito gerenciado pelo WM",
+      "ligação IM WM"
+    ]
   }
 }

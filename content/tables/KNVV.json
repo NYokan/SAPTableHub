@@ -9,5 +9,30 @@
     "es": "Clientes: datos de ventas",
     "en": "Customers: sales data",
     "pt": "Clientes: dados de vendas"
+  },
+  "purpose": {
+    "es": "Datos de ventas de cada cliente por área de ventas (organización, canal y sector): moneda, grupo de precios, esquema de cálculo, condiciones de expedición, oficina y grupo de vendedores. Completa la ficha general de KNA1 y es lo que el pedido de venta propone por defecto.",
+    "en": "Sales data of each customer per sales area (organization, channel and division): currency, price group, pricing procedure, shipping conditions, sales office and sales group. It completes the general record in KNA1 and is what the sales order proposes by default.",
+    "pt": "Dados de vendas de cada cliente por área de vendas (organização, canal e setor): moeda, grupo de preços, esquema de cálculo, condições de expedição, escritório e equipe de vendas. Complementa o cadastro geral da KNA1 e é o que a ordem de venda propõe por padrão."
+  },
+  "synonyms": {
+    "es": [
+      "datos de ventas del cliente",
+      "área de ventas del cliente",
+      "maestro de clientes ventas",
+      "cliente por organización de ventas"
+    ],
+    "en": [
+      "customer sales data",
+      "customer sales area",
+      "customer master sales view",
+      "customer per sales organization"
+    ],
+    "pt": [
+      "dados de vendas do cliente",
+      "área de vendas do cliente",
+      "cadastro de clientes vendas",
+      "cliente por organização de vendas"
+    ]
   }
 }

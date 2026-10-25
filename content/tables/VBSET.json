@@ -8,5 +8,27 @@
     "es": "Documentos preliminares: posiciones de impuestos",
     "en": "Parked documents: tax items",
     "pt": "Documentos pré-editados: itens de impostos"
+  },
+  "purpose": {
+    "es": "Las líneas de impuesto de un documento contable preliminar (aparcado), todavía no contabilizado: indicador de impuesto, base imponible e importe. Cuando el documento se contabiliza pasan a BSET.",
+    "en": "The tax lines of a parked accounting document that has not yet been posted: tax code, tax base and tax amount. When the document is posted they move to BSET.",
+    "pt": "Os itens de imposto de um documento contábil pré-editado, ainda não lançado: código de imposto, base de cálculo e valor. Quando o documento é lançado passam para a BSET."
+  },
+  "synonyms": {
+    "es": [
+      "impuestos de documento aparcado",
+      "IVA preliminar",
+      "documento preliminar"
+    ],
+    "en": [
+      "parked tax items",
+      "parked VAT",
+      "parked document"
+    ],
+    "pt": [
+      "impostos do documento pré-editado",
+      "imposto pré-editado",
+      "documento pré-editado"
+    ]
   }
 }

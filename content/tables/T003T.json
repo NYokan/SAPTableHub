@@ -8,5 +8,27 @@
     "es": "Clases de documento contable: textos",
     "en": "Accounting document types: texts",
     "pt": "Tipos de documento contábil: textos"
+  },
+  "purpose": {
+    "es": "Nombre de cada clase de documento contable en cada idioma (por ejemplo SA «Documento de mayor», KR «Factura de proveedor»). Sirve para entender el campo BLART de BKPF.",
+    "en": "Name of each accounting document type in each language (for example SA \"G/L account document\", KR \"Vendor invoice\"). It helps to understand field BLART in BKPF.",
+    "pt": "Nome de cada tipo de documento contábil em cada idioma (por exemplo SA «Documento do razão», KR «Fatura de fornecedor»). Ajuda a entender o campo BLART da BKPF."
+  },
+  "synonyms": {
+    "es": [
+      "texto clase de documento",
+      "nombre tipo de documento",
+      "BLART"
+    ],
+    "en": [
+      "document type text",
+      "document type name",
+      "BLART"
+    ],
+    "pt": [
+      "texto do tipo de documento",
+      "nome do tipo de documento",
+      "BLART"
+    ]
   }
 }

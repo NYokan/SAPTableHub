@@ -9,5 +9,27 @@
     "es": "Grupos de clientes 5",
     "en": "Customer groups 5",
     "pt": "Grupos de clientes 5"
+  },
+  "purpose": {
+    "es": "Lista de valores del grupo de clientes 5 (campo KVGR5 en KNVV), una clasificación libre del cliente en sus datos de ventas. Cada empresa decide su significado; se usa en análisis de ventas y a veces en precios.",
+    "en": "List of values for customer group 5 (field KVGR5 in KNVV), a free classification of the customer in its sales data. Each company decides its meaning; used in sales analysis and sometimes in pricing.",
+    "pt": "Lista de valores do grupo de clientes 5 (campo KVGR5 na KNVV), uma classificação livre do cliente em seus dados de vendas. Cada empresa decide seu significado; usada em análises de vendas e às vezes em preços."
+  },
+  "synonyms": {
+    "es": [
+      "grupo de clientes 5",
+      "KVGR5",
+      "clasificación de clientes 5"
+    ],
+    "en": [
+      "customer group 5",
+      "KVGR5",
+      "customer classification 5"
+    ],
+    "pt": [
+      "grupo de clientes 5",
+      "KVGR5",
+      "classificação de clientes 5"
+    ]
   }
 }

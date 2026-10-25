@@ -9,5 +9,27 @@
     "es": "Documentos de compras: dirección del proveedor",
     "en": "Purchasing documents: vendor address",
     "pt": "Documentos de compras: endereço do fornecedor"
+  },
+  "purpose": {
+    "es": "Dirección del proveedor guardada directamente en un documento de compras, una fila por documento. Se usa sobre todo con proveedores ocasionales (CPD), cuya dirección no está en el maestro LFA1.",
+    "en": "Vendor address stored directly in a purchasing document, one row per document. It is used mainly with one-time vendors, whose address is not in the LFA1 master.",
+    "pt": "Endereço do fornecedor gravado diretamente em um documento de compras, uma linha por documento. É usada sobretudo com fornecedores eventuais (CPD), cujo endereço não está no cadastro LFA1."
+  },
+  "synonyms": {
+    "es": [
+      "dirección de proveedor CPD",
+      "proveedor ocasional",
+      "dirección en pedido de compra"
+    ],
+    "en": [
+      "one-time vendor address",
+      "CPD vendor",
+      "address in purchase order"
+    ],
+    "pt": [
+      "endereço de fornecedor CPD",
+      "fornecedor eventual",
+      "endereço no pedido de compra"
+    ]
   }
 }

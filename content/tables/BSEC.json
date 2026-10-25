@@ -9,5 +9,30 @@
     "es": "Documentos contables: datos de clientes/proveedores ocasionales",
     "en": "Accounting documents: one-time customer/vendor data",
     "pt": "Documentos contábeis: dados de clientes/fornecedores eventuais"
+  },
+  "purpose": {
+    "es": "Para las líneas contables de clientes o proveedores ocasionales (cuentas CPD usadas para muchos terceros esporádicos), guarda los datos reales del tercero: nombre, dirección, NIF y datos bancarios. Se enlaza con BSEG por sociedad, documento, ejercicio y línea.",
+    "en": "For accounting lines of one-time customers or vendors (CPD accounts shared by many occasional business partners), it holds the real partner data: name, address, tax number and bank details. It links to BSEG by company code, document, fiscal year and line.",
+    "pt": "Para os itens contábeis de clientes ou fornecedores eventuais (contas CPD usadas para muitos terceiros esporádicos), guarda os dados reais do terceiro: nome, endereço, CNPJ/CPF e dados bancários. Liga-se à BSEG por empresa, documento, exercício e item."
+  },
+  "synonyms": {
+    "es": [
+      "cliente ocasional",
+      "proveedor ocasional",
+      "cuenta CPD",
+      "datos de tercero esporádico"
+    ],
+    "en": [
+      "one-time customer",
+      "one-time vendor",
+      "one-time account",
+      "CPD account"
+    ],
+    "pt": [
+      "cliente eventual",
+      "fornecedor eventual",
+      "conta CPD",
+      "dados de terceiro esporádico"
+    ]
   }
 }

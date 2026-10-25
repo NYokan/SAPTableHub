@@ -8,5 +8,24 @@
     "es": "Datos de control por objeto y clase de coste",
     "en": "Control data per object and cost element",
     "pt": "Dados de controle por objeto e classe de custo"
+  },
+  "purpose": {
+    "es": "Una fila por objeto CO (centro de coste, orden, proyecto), ejercicio y clase de coste: registra qué combinaciones tienen datos en Controlling y guarda datos de control técnicos para ellas. Es una tabla de apoyo a los totales COSP y COSS, poco usada en informes.",
+    "en": "One row per CO object (cost center, order, project), fiscal year and cost element: it records which combinations hold data in Controlling and stores technical control data for them. It supports the COSP and COSS totals and is rarely used in reports.",
+    "pt": "Uma linha por objeto CO (centro de custo, ordem, projeto), exercício e classe de custo: registra quais combinações têm dados no Controlling e guarda dados de controle técnicos para elas. É uma tabela de apoio aos totais COSP e COSS, pouco usada em relatórios."
+  },
+  "synonyms": {
+    "es": [
+      "datos de control CO",
+      "control por clase de coste"
+    ],
+    "en": [
+      "CO control data",
+      "cost element control data"
+    ],
+    "pt": [
+      "dados de controle CO",
+      "controle por classe de custo"
+    ]
   }
 }

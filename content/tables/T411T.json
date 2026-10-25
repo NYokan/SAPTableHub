@@ -8,5 +8,24 @@
     "es": "Utilizaciones de hojas de ruta (descripciones)",
     "en": "Task list usages (descriptions)",
     "pt": "Utilizações de roteiros (descrições)"
+  },
+  "purpose": {
+    "es": "Descripción de cada utilización de hojas de ruta, por idioma. Se une con T411 o PLKO para mostrar el nombre de la utilización.",
+    "en": "Description of each task list usage, per language. It is joined to T411 or PLKO to show the usage name.",
+    "pt": "Descrição de cada utilização de roteiros, por idioma. É unida à T411 ou à PLKO para mostrar o nome da utilização."
+  },
+  "synonyms": {
+    "es": [
+      "nombre de utilización de ruta",
+      "descripción de uso de hoja de ruta"
+    ],
+    "en": [
+      "task list usage name",
+      "routing usage description"
+    ],
+    "pt": [
+      "nome da utilização do roteiro",
+      "descrição do uso do roteiro"
+    ]
   }
 }

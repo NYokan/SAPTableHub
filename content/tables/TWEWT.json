@@ -8,5 +8,24 @@
     "es": "Grupos de artículos externos (textos)",
     "en": "External material groups (texts)",
     "pt": "Grupos de mercadorias externos (textos)"
+  },
+  "purpose": {
+    "es": "Descripciones por idioma de los grupos de artículos externos (TWEW). Se usa para mostrar el nombre legible en informes en lugar del código.",
+    "en": "Language-dependent descriptions of external material groups (TWEW). Used to show the readable name in reports instead of the code.",
+    "pt": "Descrições por idioma de grupos de mercadorias externos (TWEW). Usada para mostrar o nome legível em relatórios em vez do código."
+  },
+  "synonyms": {
+    "es": [
+      "nombre grupo externo",
+      "descripción grupo de artículos externo"
+    ],
+    "en": [
+      "external group name",
+      "external material group description"
+    ],
+    "pt": [
+      "nome grupo externo",
+      "descrição grupo de mercadorias externo"
+    ]
   }
 }

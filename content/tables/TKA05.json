@@ -8,5 +8,27 @@
     "es": "Clases de centro de coste",
     "en": "Cost center categories",
     "pt": "Categorias de centro de custo"
+  },
+  "purpose": {
+    "es": "Configuración de las clases de centro de coste (por ejemplo, producción, administración, ventas): clasifican los centros de coste y proponen indicadores, como bloqueos de imputación. Una fila por clase (KOSAR).",
+    "en": "Configuration of cost center categories (for example, production, administration, sales): they classify cost centers and propose indicators such as posting locks. One row per category (KOSAR).",
+    "pt": "Configuração dos tipos de centro de custo (por exemplo, produção, administração, vendas): classificam os centros de custo e propõem indicadores, como bloqueios de lançamento. Uma linha por tipo (KOSAR)."
+  },
+  "synonyms": {
+    "es": [
+      "clase de centro de coste",
+      "tipo de centro de costo",
+      "KOSAR"
+    ],
+    "en": [
+      "cost center category",
+      "cost center type",
+      "KOSAR"
+    ],
+    "pt": [
+      "tipo de centro de custo",
+      "categoria de centro de custo",
+      "KOSAR"
+    ]
   }
 }

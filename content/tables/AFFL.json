@@ -8,5 +8,30 @@
     "es": "Secuencias de órdenes",
     "en": "Order sequences",
     "pt": "Sequências de ordens"
+  },
+  "purpose": {
+    "es": "Una fila por cada secuencia de operaciones de una orden (la secuencia estándar, paralelas o alternativas). Agrupa las operaciones de AFVC y permite ver la estructura de rutas dentro de una orden de fabricación o mantenimiento.",
+    "en": "One row per sequence of operations in an order (the standard sequence, parallel or alternative ones). It groups the operations in AFVC and shows the routing structure inside a production or maintenance order.",
+    "pt": "Uma linha por sequência de operações de uma ordem (a sequência padrão, paralelas ou alternativas). Agrupa as operações da AFVC e mostra a estrutura do roteiro dentro de uma ordem de produção ou manutenção."
+  },
+  "synonyms": {
+    "es": [
+      "secuencia de operaciones",
+      "secuencias de la orden",
+      "secuencia paralela",
+      "secuencia alternativa"
+    ],
+    "en": [
+      "operation sequence",
+      "order sequences",
+      "parallel sequence",
+      "alternative sequence"
+    ],
+    "pt": [
+      "sequência de operações",
+      "sequências da ordem",
+      "sequência paralela",
+      "sequência alternativa"
+    ]
   }
 }

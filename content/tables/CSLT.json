@@ -9,5 +9,27 @@
     "es": "Tipos de actividad (textos)",
     "en": "Activity types (texts)",
     "pt": "Tipos de atividade (textos)"
+  },
+  "purpose": {
+    "es": "Nombre corto y descripción de cada tipo de actividad (por ejemplo, horas máquina u horas hombre), por idioma, sociedad CO y período de validez. Se une con CSLA, el maestro de tipos de actividad.",
+    "en": "Short name and description of each activity type (for example, machine hours or labor hours), per language, controlling area and validity period. It is joined to CSLA, the activity type master.",
+    "pt": "Nome curto e descrição de cada tipo de atividade (por exemplo, horas máquina ou horas homem), por idioma, área de contabilidade de custos e período de validade. É unida à CSLA, o cadastro de tipos de atividade."
+  },
+  "synonyms": {
+    "es": [
+      "nombre del tipo de actividad",
+      "descripción de actividad",
+      "texto de tipo de actividad"
+    ],
+    "en": [
+      "activity type name",
+      "activity type description",
+      "activity type text"
+    ],
+    "pt": [
+      "nome do tipo de atividade",
+      "descrição da atividade",
+      "texto do tipo de atividade"
+    ]
   }
 }

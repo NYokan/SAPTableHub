@@ -8,5 +8,30 @@
     "es": "Materiales: consumos por centro",
     "en": "Materials: consumption by plant",
     "pt": "Materiais: consumos por centro"
+  },
+  "purpose": {
+    "es": "Consumo de cada material por centro y periodo (mes o semana), separando consumo total y no planificado. Se usa en planificación por consumo, pronósticos y análisis de rotación.",
+    "en": "Consumption of each material per plant and period (month or week), separating total and unplanned consumption. Used in consumption-based planning, forecasting and turnover analysis.",
+    "pt": "Consumo de cada material por centro e período (mês ou semana), separando consumo total e não planejado. Usado no planejamento por consumo, previsões e análise de giro."
+  },
+  "synonyms": {
+    "es": [
+      "consumo histórico",
+      "consumo por periodo",
+      "consumo mensual",
+      "valores de consumo"
+    ],
+    "en": [
+      "consumption history",
+      "consumption per period",
+      "monthly consumption",
+      "consumption values"
+    ],
+    "pt": [
+      "consumo histórico",
+      "consumo por período",
+      "consumo mensal",
+      "valores de consumo"
+    ]
   }
 }

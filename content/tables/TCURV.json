@@ -9,5 +9,27 @@
     "es": "Clases de tipo de cambio",
     "en": "Exchange rate types",
     "pt": "Categorias de taxa de câmbio"
+  },
+  "purpose": {
+    "es": "Una fila por cada clase de tipo de cambio (por ejemplo M tipo medio, B tipo de venta, G tipo de compra) con sus ajustes, como la moneda de referencia o si se permite la inversión. Los tipos en sí están en TCURR y los textos en TCURW.",
+    "en": "One row per exchange rate type (for example M average rate, B bank selling rate, G bank buying rate) with its settings, such as the reference currency or whether inversion is allowed. The rates themselves are in TCURR and the texts in TCURW.",
+    "pt": "Uma linha por tipo de taxa de câmbio (por exemplo M taxa média, B taxa de venda, G taxa de compra) com seus ajustes, como a moeda de referência ou se a inversão é permitida. As taxas em si estão na TCURR e os textos na TCURW."
+  },
+  "synonyms": {
+    "es": [
+      "clase de tipo de cambio",
+      "tipo medio",
+      "tipo de cambio M"
+    ],
+    "en": [
+      "exchange rate type",
+      "average rate",
+      "rate type M"
+    ],
+    "pt": [
+      "tipo de taxa de câmbio",
+      "taxa média",
+      "taxa M"
+    ]
   }
 }

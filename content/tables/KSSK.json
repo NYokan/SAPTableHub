@@ -8,5 +8,27 @@
     "es": "Asignación de objetos a clases",
     "en": "Object to class assignments",
     "pt": "Atribuição de objetos a classes"
+  },
+  "purpose": {
+    "es": "Una fila por cada objeto (material, lote, equipo…) asignado a una clase de clasificación. Los valores concretos de las características de ese objeto están en AUSP.",
+    "en": "One row per object (material, batch, equipment…) assigned to a classification class. The specific characteristic values of that object are in AUSP.",
+    "pt": "Uma linha por objeto (material, lote, equipamento…) atribuído a uma classe de classificação. Os valores concretos das características desse objeto estão na AUSP."
+  },
+  "synonyms": {
+    "es": [
+      "objetos de una clase",
+      "asignación a clase",
+      "material clasificado"
+    ],
+    "en": [
+      "class assignment",
+      "objects in class",
+      "classified material"
+    ],
+    "pt": [
+      "objetos de uma classe",
+      "atribuição a classe",
+      "material classificado"
+    ]
   }
 }

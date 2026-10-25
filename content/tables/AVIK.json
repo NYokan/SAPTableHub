@@ -8,5 +8,30 @@
     "es": "Avisos de pago (cabecera)",
     "en": "Payment advice notes (header)",
     "pt": "Avisos de pagamento (cabeçalho)"
+  },
+  "purpose": {
+    "es": "Una fila por cada aviso de pago: el detalle que envía un cliente o un banco indicando qué facturas se pagan y con qué deducciones. Se usa para compensar partidas automáticamente; las facturas indicadas están en AVIP.",
+    "en": "One row per payment advice note: the details a customer or bank sends stating which invoices are being paid and with which deductions. It is used to clear items automatically; the invoices listed are in AVIP.",
+    "pt": "Uma linha por aviso de pagamento: o detalhe que um cliente ou banco envia indicando quais faturas são pagas e com quais deduções. Serve para compensar partidas automaticamente; as faturas indicadas estão na AVIP."
+  },
+  "synonyms": {
+    "es": [
+      "aviso de pago",
+      "remesa de pago",
+      "detalle de pago del cliente",
+      "remittance"
+    ],
+    "en": [
+      "payment advice",
+      "remittance advice",
+      "payment advice note",
+      "remittance"
+    ],
+    "pt": [
+      "aviso de pagamento",
+      "aviso de remessa",
+      "detalhe de pagamento do cliente",
+      "remittance"
+    ]
   }
 }

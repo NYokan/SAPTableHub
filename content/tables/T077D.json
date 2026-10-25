@@ -8,5 +8,27 @@
     "es": "Clientes: grupos de cuentas",
     "en": "Customers: account groups",
     "pt": "Clientes: grupos de contas"
+  },
+  "purpose": {
+    "es": "Los grupos de cuentas de clientes (cliente nacional, extranjero, ocasional, destinatario de mercancías…): controlan el rango de numeración, qué campos se piden al crear el cliente y si es cuenta ocasional. Cada cliente guarda su grupo en KNA1-KTOKD.",
+    "en": "The customer account groups (domestic, foreign, one-time, ship-to…): they control the number range, which fields are requested when creating the customer and whether it is a one-time account. Each customer stores its group in KNA1-KTOKD.",
+    "pt": "Os grupos de contas de clientes (nacional, estrangeiro, eventual, recebedor de mercadorias…): controlam o intervalo de numeração, quais campos são pedidos ao criar o cliente e se é conta eventual. Cada cliente guarda seu grupo em KNA1-KTOKD."
+  },
+  "synonyms": {
+    "es": [
+      "grupo de cuentas de clientes",
+      "tipo de cliente",
+      "KTOKD"
+    ],
+    "en": [
+      "customer account group",
+      "customer type",
+      "KTOKD"
+    ],
+    "pt": [
+      "grupo de contas de clientes",
+      "tipo de cliente",
+      "KTOKD"
+    ]
   }
 }

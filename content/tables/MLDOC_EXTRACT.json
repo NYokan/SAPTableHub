@@ -7,5 +7,27 @@
     "es": "Extracto de documentos del ledger de materiales",
     "en": "Material ledger document extract",
     "pt": "Extrato de documentos do ledger de materiais"
+  },
+  "purpose": {
+    "es": "En S/4HANA, un extracto compactado de MLDOC: los movimientos del ledger de materiales resumidos por material, período y moneda para que los saldos y el cierre de costo real se calculen más rápido.",
+    "en": "In S/4HANA, a compacted extract of MLDOC: material ledger movements summarized per material, period and currency so that balances and actual costing closing are calculated faster.",
+    "pt": "No S/4HANA, um extrato compactado da MLDOC: os movimentos do ledger de materiais resumidos por material, período e moeda para que saldos e fechamento de custo real sejam calculados mais rápido."
+  },
+  "synonyms": {
+    "es": [
+      "extracto del material ledger",
+      "saldos del ledger de materiales",
+      "resumen MLDOC"
+    ],
+    "en": [
+      "material ledger extract",
+      "material ledger balances",
+      "MLDOC summary"
+    ],
+    "pt": [
+      "extrato do material ledger",
+      "saldos do ledger de materiais",
+      "resumo MLDOC"
+    ]
   }
 }

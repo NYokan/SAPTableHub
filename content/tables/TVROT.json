@@ -8,5 +8,27 @@
     "es": "Rutas: textos",
     "en": "Routes: texts",
     "pt": "Itinerários: textos"
+  },
+  "purpose": {
+    "es": "Descripción de cada ruta de transporte en cada idioma: una fila por código e idioma. Sirve para mostrar un nombre legible en lugar del código ROUTE en informes; los códigos se definen en TVRO.",
+    "en": "Description of each transport route in each language: one row per code and language. Use it to show a readable name instead of the ROUTE code in reports; the codes themselves are defined in TVRO.",
+    "pt": "Descrição de cada itinerário de transporte em cada idioma: uma linha por código e idioma. Serve para mostrar um nome legível em vez do código ROUTE em relatórios; os códigos são definidos na TVRO."
+  },
+  "synonyms": {
+    "es": [
+      "texto ruta",
+      "nombre de ruta",
+      "ROUTE"
+    ],
+    "en": [
+      "route text",
+      "route name",
+      "ROUTE"
+    ],
+    "pt": [
+      "texto itinerário",
+      "nome do itinerário",
+      "ROUTE"
+    ]
   }
 }

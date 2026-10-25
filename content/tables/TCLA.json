@@ -8,5 +8,30 @@
     "es": "Tipos de clase",
     "en": "Class types",
     "pt": "Tipos de classe"
+  },
+  "purpose": {
+    "es": "Una fila por cada tipo de clase del sistema de clasificación (por ejemplo 001 materiales, 023 lotes): qué objetos se pueden clasificar con él y cómo se comporta. Los textos están en TCLAT.",
+    "en": "One row per class type of the classification system (for example 001 materials, 023 batches): which objects can be classified with it and how it behaves. The texts are in TCLAT.",
+    "pt": "Uma linha por tipo de classe do sistema de classificação (por exemplo 001 materiais, 023 lotes): quais objetos podem ser classificados com ele e como se comporta. Os textos estão na TCLAT."
+  },
+  "synonyms": {
+    "es": [
+      "tipo de clase",
+      "clase 001",
+      "clase 023 lotes",
+      "tipos de clasificación"
+    ],
+    "en": [
+      "class type",
+      "class type 001",
+      "batch class type 023",
+      "classification types"
+    ],
+    "pt": [
+      "tipo de classe",
+      "classe 001",
+      "classe 023 lotes",
+      "tipos de classificação"
+    ]
   }
 }

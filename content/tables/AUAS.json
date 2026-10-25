@@ -8,5 +8,27 @@
     "es": "Documentos de liquidación (emisores)",
     "en": "Settlement documents (senders)",
     "pt": "Documentos de liquidação (emissores)"
+  },
+  "purpose": {
+    "es": "Una fila por cada segmento emisor de un documento de liquidación: los importes que salieron del objeto liquidado en esa liquidación. Junto con AUAA permite ver de dónde vino y adónde fue cada coste.",
+    "en": "One row per sender segment of a settlement document: the amounts credited from the settled object in that settlement. Together with AUAA it shows where each cost came from and where it went.",
+    "pt": "Uma linha por segmento emissor de um documento de apropriação: os valores que saíram do objeto apropriado nessa apropriação. Junto com a AUAA mostra de onde veio e para onde foi cada custo."
+  },
+  "synonyms": {
+    "es": [
+      "emisores de liquidación",
+      "origen de liquidación",
+      "importes liquidados"
+    ],
+    "en": [
+      "settlement senders",
+      "settlement source",
+      "settled amounts"
+    ],
+    "pt": [
+      "emissores da apropriação",
+      "origem da apropriação",
+      "valores apropriados"
+    ]
   }
 }

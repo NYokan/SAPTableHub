@@ -8,5 +8,27 @@
     "es": "Documentos de presupuesto (partidas anuales)",
     "en": "Budget documents (annual line items)",
     "pt": "Documentos de orçamento (partidas anuais)"
+  },
+  "purpose": {
+    "es": "Una fila por cada línea anual de un documento de presupuesto: el importe de presupuesto o plan para un objeto y un ejercicio concreto. La cabecera está en BPBK y los totales anuales en BPJA.",
+    "en": "One row per annual line of a budget document: the budget or plan amount for an object and a specific fiscal year. The header is in BPBK and the annual totals in BPJA.",
+    "pt": "Uma linha por linha anual de um documento de orçamento: o valor de orçamento ou plano para um objeto e um exercício específico. O cabeçalho está na BPBK e os totais anuais na BPJA."
+  },
+  "synonyms": {
+    "es": [
+      "presupuesto anual",
+      "líneas de presupuesto anual",
+      "presupuesto por ejercicio"
+    ],
+    "en": [
+      "annual budget lines",
+      "budget per fiscal year",
+      "yearly budget entries"
+    ],
+    "pt": [
+      "orçamento anual",
+      "linhas de orçamento anual",
+      "orçamento por exercício"
+    ]
   }
 }

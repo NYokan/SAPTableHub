@@ -8,5 +8,27 @@
     "es": "Códigos ISO de unidades de medida (textos)",
     "en": "ISO codes for units of measure (texts)",
     "pt": "Códigos ISO de unidades de medida (textos)"
+  },
+  "purpose": {
+    "es": "Descripción de cada código ISO de unidad de medida por idioma. Complementa a T006I.",
+    "en": "Description of each ISO unit of measure code per language. It complements T006I.",
+    "pt": "Descrição de cada código ISO de unidade de medida por idioma. Complementa a T006I."
+  },
+  "synonyms": {
+    "es": [
+      "descripción de código ISO",
+      "texto de unidad ISO",
+      "nombre de unidad ISO"
+    ],
+    "en": [
+      "ISO code description",
+      "ISO unit text",
+      "ISO unit name"
+    ],
+    "pt": [
+      "descrição do código ISO",
+      "texto da unidade ISO",
+      "nome da unidade ISO"
+    ]
   }
 }

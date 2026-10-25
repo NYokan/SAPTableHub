@@ -5,8 +5,30 @@
   "category": "TRANSP",
   "deliveryClass": "C",
   "title": {
-    "es": "Procedimientos de reclamación",
-    "en": "Dunning procedures",
-    "pt": "Procedimentos de advertência"
+    "es": "Reclamaciones: control por sociedad",
+    "en": "Dunning control by company code",
+    "pt": "Advertências: controle por empresa"
+  },
+  "purpose": {
+    "es": "Cómo funciona la reclamación de cobros en cada sociedad: por ejemplo, si se reclama por área de reclamación o por cuenta, y los datos generales que usa el programa de reclamación. Los procedimientos de reclamación y sus niveles se definen aparte.",
+    "en": "How dunning works in each company code: for example, whether dunning is done by dunning area or per account, and the general settings the dunning program uses. The dunning procedures and their levels are defined separately.",
+    "pt": "Como funciona a advertência de cobrança em cada empresa: por exemplo, se a advertência é feita por área de advertência ou por conta, e os dados gerais usados pelo programa de advertência. Os procedimentos de advertência e seus níveis são definidos à parte."
+  },
+  "synonyms": {
+    "es": [
+      "reclamación por sociedad",
+      "configuración de reclamación",
+      "control de reclamación"
+    ],
+    "en": [
+      "dunning by company code",
+      "dunning settings",
+      "dunning control"
+    ],
+    "pt": [
+      "advertência por empresa",
+      "configuração de advertência",
+      "controle de advertência"
+    ]
   }
 }

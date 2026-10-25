@@ -8,5 +8,27 @@
     "es": "Tolerancias por grupo de empleados",
     "en": "Tolerances for groups of employees",
     "pt": "Tolerâncias por grupo de funcionários"
+  },
+  "purpose": {
+    "es": "Los límites de cada grupo de tolerancia de empleados por sociedad: importe máximo por documento y por línea, descuento máximo y diferencias de pago que el usuario puede aceptar al compensar.",
+    "en": "The limits of each employee tolerance group per company code: maximum amount per document and per line item, maximum cash discount and payment differences the user can accept when clearing.",
+    "pt": "Os limites de cada grupo de tolerância de funcionários por empresa: montante máximo por documento e por item, desconto máximo e diferenças de pagamento que o usuário pode aceitar ao compensar."
+  },
+  "synonyms": {
+    "es": [
+      "límite de importe por usuario",
+      "tolerancia de empleados",
+      "importe máximo por documento"
+    ],
+    "en": [
+      "user amount limit",
+      "employee tolerances",
+      "maximum document amount"
+    ],
+    "pt": [
+      "limite de montante por usuário",
+      "tolerância de funcionários",
+      "montante máximo por documento"
+    ]
   }
 }

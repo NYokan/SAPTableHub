@@ -8,5 +8,27 @@
     "es": "Documentos de liquidación (reglas de distribución)",
     "en": "Settlement documents (distribution rules)",
     "pt": "Documentos de liquidação (regras de distribuição)"
+  },
+  "purpose": {
+    "es": "Una fila por cada regla de distribución usada en un documento de liquidación: guarda el porcentaje, importe o equivalencia con que se repartió el coste entre receptores en esa liquidación concreta. Es la copia histórica de las reglas de COBRB.",
+    "en": "One row per distribution rule used in a settlement document: it stores the percentage, amount or equivalence number used to split costs among receivers in that specific settlement. It is the historical copy of the rules in COBRB.",
+    "pt": "Uma linha por regra de distribuição usada em um documento de apropriação: guarda o percentual, valor ou equivalência usado para dividir o custo entre receptores naquela apropriação. É a cópia histórica das regras da COBRB."
+  },
+  "synonyms": {
+    "es": [
+      "reglas de distribución liquidadas",
+      "porcentajes de liquidación",
+      "reparto de liquidación"
+    ],
+    "en": [
+      "settled distribution rules",
+      "settlement percentages",
+      "settlement split"
+    ],
+    "pt": [
+      "regras de distribuição apropriadas",
+      "percentuais de apropriação",
+      "rateio da apropriação"
+    ]
   }
 }

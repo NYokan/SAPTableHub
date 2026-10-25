@@ -8,5 +8,33 @@
     "es": "Controlling: partidas individuales",
     "en": "Controlling: line items",
     "pt": "Controlling: partidas individuais"
+  },
+  "purpose": {
+    "es": "Una fila por cada partida individual real de Controlling: cada coste o ingreso imputado a un centro de coste, orden, proyecto u otro objeto CO, con clase de coste, período e importes. La cabecera es COBK. En S/4HANA las partidas reales pasan a ACDOCA.",
+    "en": "One row per actual Controlling line item: each cost or revenue posted to a cost center, order, project or other CO object, with cost element, period and amounts. The header is COBK. In S/4HANA actual line items move to ACDOCA.",
+    "pt": "Uma linha por partida real do Controlling: cada custo ou receita lançado em um centro de custo, ordem, projeto ou outro objeto CO, com classe de custo, período e valores. O cabeçalho é a COBK. No S/4HANA as partidas reais passam para a ACDOCA."
+  },
+  "synonyms": {
+    "es": [
+      "partidas individuales CO",
+      "costes reales",
+      "imputaciones CO",
+      "detalle de costes",
+      "KSB1"
+    ],
+    "en": [
+      "CO line items",
+      "actual costs",
+      "CO postings",
+      "cost line items",
+      "KSB1"
+    ],
+    "pt": [
+      "partidas individuais CO",
+      "custos reais",
+      "lançamentos CO",
+      "detalhe de custos",
+      "KSB1"
+    ]
   }
 }

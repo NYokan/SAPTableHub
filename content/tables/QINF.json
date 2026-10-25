@@ -8,5 +8,30 @@
     "es": "Registros info de calidad en compras",
     "en": "Quality info records for procurement",
     "pt": "Registros info de qualidade em compras"
+  },
+  "purpose": {
+    "es": "Registros info de calidad en compras: para cada material, proveedor y centro, si el proveedor está liberado para suministrar, bloqueos de calidad, certificación QM y cantidades liberadas.",
+    "en": "Quality info records for procurement: for each material, vendor and plant, whether the vendor is released to supply, quality blocks, QM certification and released quantities.",
+    "pt": "Registros info de qualidade em compras: para cada material, fornecedor e centro, se o fornecedor está liberado para fornecer, bloqueios de qualidade, certificação QM e quantidades liberadas."
+  },
+  "synonyms": {
+    "es": [
+      "registro info de calidad",
+      "proveedor liberado",
+      "bloqueo de calidad del proveedor",
+      "homologación de proveedor"
+    ],
+    "en": [
+      "quality info record",
+      "approved vendor",
+      "vendor quality block",
+      "vendor approval"
+    ],
+    "pt": [
+      "registro info de qualidade",
+      "fornecedor liberado",
+      "bloqueio de qualidade do fornecedor",
+      "homologação de fornecedor"
+    ]
   }
 }

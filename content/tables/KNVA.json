@@ -8,5 +8,27 @@
     "es": "Clientes: puntos de descarga",
     "en": "Customers: unloading points",
     "pt": "Clientes: pontos de descarga"
+  },
+  "purpose": {
+    "es": "Puntos de descarga de un cliente (muelles, puertas de recepción) con su calendario y horarios de recepción de mercancía. Una fila por cliente y punto de descarga; se usa en entregas y transportes.",
+    "en": "Unloading points of a customer (docks, receiving gates) with their calendar and goods receiving hours. One row per customer and unloading point; used in deliveries and shipments.",
+    "pt": "Pontos de descarga de um cliente (docas, portões de recebimento) com seu calendário e horários de recebimento de mercadorias. Uma linha por cliente e ponto de descarga; usada em remessas e transportes."
+  },
+  "synonyms": {
+    "es": [
+      "punto de descarga",
+      "muelle de descarga",
+      "horario de recepción"
+    ],
+    "en": [
+      "unloading point",
+      "receiving dock",
+      "goods receiving hours"
+    ],
+    "pt": [
+      "ponto de descarga",
+      "doca de descarga",
+      "horário de recebimento"
+    ]
   }
 }

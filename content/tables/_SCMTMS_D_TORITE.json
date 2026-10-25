@@ -7,5 +7,27 @@
     "es": "Órdenes de flete (posiciones)",
     "en": "Freight orders (items)",
     "pt": "Ordens de frete (itens)"
+  },
+  "purpose": {
+    "es": "En S/4HANA con TM, posiciones de los documentos de transporte (órdenes y unidades de flete): productos, cantidades, pesos, contenedores o vehículos. Se enlazan con la cabecera /SCMTMS/D_TORROT por su clave interna.",
+    "en": "In S/4HANA with TM, items of transportation documents (freight orders and units): products, quantities, weights, containers or vehicles. They link to the header /SCMTMS/D_TORROT via its internal key.",
+    "pt": "No S/4HANA com TM, itens dos documentos de transporte (ordens e unidades de frete): produtos, quantidades, pesos, contêineres ou veículos. Ligam-se ao cabeçalho /SCMTMS/D_TORROT pela sua chave interna."
+  },
+  "synonyms": {
+    "es": [
+      "posiciones de orden de flete",
+      "carga de la orden de flete",
+      "TM posiciones"
+    ],
+    "en": [
+      "freight order items",
+      "freight order cargo",
+      "TM items"
+    ],
+    "pt": [
+      "itens da ordem de frete",
+      "carga da ordem de frete",
+      "TM itens"
+    ]
   }
 }

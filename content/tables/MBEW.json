@@ -8,5 +8,33 @@
     "es": "Materiales: valoración",
     "en": "Materials: valuation",
     "pt": "Materiais: avaliação"
+  },
+  "purpose": {
+    "es": "Valor contable del stock de cada material por área de valoración (normalmente el centro): stock total valorado, valor total, precio estándar o promedio y categoría de valoración, que determina las cuentas contables.",
+    "en": "Book value of each material's stock per valuation area (usually the plant): total valuated stock, total value, standard or moving average price and valuation class, which determines the G/L accounts.",
+    "pt": "Valor contábil do estoque de cada material por área de avaliação (normalmente o centro): estoque total avaliado, valor total, preço padrão ou médio e classe de avaliação, que determina as contas contábeis."
+  },
+  "synonyms": {
+    "es": [
+      "valoración de materiales",
+      "precio estándar",
+      "precio medio variable",
+      "valor del stock",
+      "costo del material"
+    ],
+    "en": [
+      "material valuation",
+      "standard price",
+      "moving average price",
+      "stock value",
+      "material cost"
+    ],
+    "pt": [
+      "avaliação de materiais",
+      "preço padrão",
+      "preço médio móvel",
+      "valor do estoque",
+      "custo do material"
+    ]
   }
 }

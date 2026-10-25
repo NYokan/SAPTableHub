@@ -8,5 +8,27 @@
     "es": "Hojas de ruta de mantenimiento (paquetes por operación)",
     "en": "Maintenance task lists (packages per operation)",
     "pt": "Listas de tarefas de manutenção (pacotes por operação)"
+  },
+  "purpose": {
+    "es": "Asigna los paquetes de mantenimiento de una estrategia (por ejemplo, mensual, anual) a cada operación de una hoja de ruta de mantenimiento. Determina qué operaciones se ejecutan en cada vencimiento del plan.",
+    "en": "Assigns the maintenance packages of a strategy (for example, monthly, yearly) to each operation of a maintenance task list. It determines which operations run at each due date of the plan.",
+    "pt": "Atribui os pacotes de manutenção de uma estratégia (por exemplo, mensal, anual) a cada operação de um roteiro de manutenção. Determina quais operações são executadas em cada vencimento do plano."
+  },
+  "synonyms": {
+    "es": [
+      "paquetes por operación",
+      "asignación de paquetes de mantenimiento",
+      "ciclo de la operación"
+    ],
+    "en": [
+      "packages per operation",
+      "maintenance package assignment",
+      "operation cycle"
+    ],
+    "pt": [
+      "pacotes por operação",
+      "atribuição de pacotes de manutenção",
+      "ciclo da operação"
+    ]
   }
 }

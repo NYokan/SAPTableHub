@@ -8,5 +8,30 @@
     "es": "Condiciones de compra por registro info",
     "en": "Purchasing conditions by info record",
     "pt": "Condições de compra por registro info"
+  },
+  "purpose": {
+    "es": "Tabla de condiciones de compra con clave proveedor, material, organización de compras y tipo de registro info: una fila por clase de condición y periodo de validez. Es donde se busca el precio de compra pactado con un proveedor; los importes están en KONP.",
+    "en": "Purchasing condition table keyed by vendor, material, purchasing organization and info record category: one row per condition type and validity period. It is where the purchase price agreed with a vendor is found; the amounts are in KONP.",
+    "pt": "Tabela de condições de compra com chave fornecedor, material, organização de compras e tipo de registro info: uma linha por tipo de condição e período de validade. É onde se encontra o preço de compra acordado com um fornecedor; os valores estão na KONP."
+  },
+  "synonyms": {
+    "es": [
+      "precio de compra",
+      "precio del registro info",
+      "precio por proveedor y material",
+      "condiciones de compra"
+    ],
+    "en": [
+      "purchase price",
+      "info record price",
+      "vendor material price",
+      "purchasing conditions"
+    ],
+    "pt": [
+      "preço de compra",
+      "preço do registro info",
+      "preço por fornecedor e material",
+      "condições de compra"
+    ]
   }
 }

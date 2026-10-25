@@ -8,5 +8,30 @@
     "es": "Reservas (cabecera)",
     "en": "Reservations (header)",
     "pt": "Reservas (cabeçalho)"
+  },
+  "purpose": {
+    "es": "Cabecera de cada reserva de material: fecha, usuario, clase de movimiento y el objeto que la origina (centro de coste, orden, otro centro). Las posiciones con cada material están en RESB.",
+    "en": "Header of each material reservation: date, user, movement type and the object that requested it (cost center, order, another plant). Items with each material are in RESB.",
+    "pt": "Cabeçalho de cada reserva de material: data, usuário, tipo de movimento e o objeto que a originou (centro de custo, ordem, outro centro). Os itens com cada material estão na RESB."
+  },
+  "synonyms": {
+    "es": [
+      "reserva de material",
+      "cabecera de reserva",
+      "vale de retiro",
+      "solicitud de almacén"
+    ],
+    "en": [
+      "material reservation",
+      "reservation header",
+      "stock reservation",
+      "material requisition"
+    ],
+    "pt": [
+      "reserva de material",
+      "cabeçalho da reserva",
+      "requisição de material",
+      "solicitação ao almoxarifado"
+    ]
   }
 }

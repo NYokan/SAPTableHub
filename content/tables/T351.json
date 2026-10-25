@@ -8,5 +8,27 @@
     "es": "Estrategias de mantenimiento",
     "en": "Maintenance strategies",
     "pt": "Estratégias de manutenção"
+  },
+  "purpose": {
+    "es": "Lista de estrategias de mantenimiento: reglas que definen cada cuánto se hace el mantenimiento preventivo, por tiempo (meses, semanas) o por rendimiento (horas, kilómetros). Sus ciclos o paquetes están en T351P.",
+    "en": "List of maintenance strategies: rules that define how often preventive maintenance is done, by time (months, weeks) or performance (hours, kilometres). Their cycles or packages are in T351P.",
+    "pt": "Lista de estratégias de manutenção: regras que definem a frequência da manutenção preventiva, por tempo (meses, semanas) ou desempenho (horas, quilômetros). Seus ciclos ou pacotes estão na T351P."
+  },
+  "synonyms": {
+    "es": [
+      "estrategia de mantenimiento",
+      "frecuencia de mantenimiento",
+      "mantenimiento preventivo"
+    ],
+    "en": [
+      "maintenance strategy",
+      "maintenance frequency",
+      "preventive maintenance"
+    ],
+    "pt": [
+      "estratégia de manutenção",
+      "frequência de manutenção",
+      "manutenção preventiva"
+    ]
   }
 }

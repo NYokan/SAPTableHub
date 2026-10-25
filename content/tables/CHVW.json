@@ -8,5 +8,30 @@
     "es": "Lotes: lista de utilización",
     "en": "Batches: where-used list",
     "pt": "Lotes: lista de utilização"
+  },
+  "purpose": {
+    "es": "Registra en qué movimientos y documentos se usó cada lote: producción, compras, ventas. Es la base de la trazabilidad de lotes (lista de utilización), para saber de qué lotes salió un lote fabricado o a qué clientes llegó.",
+    "en": "Records in which movements and documents each batch was used: production, purchasing, sales. It is the basis of batch traceability (where-used list), to know which batches a produced batch came from or which customers received it.",
+    "pt": "Registra em quais movimentos e documentos cada lote foi usado: produção, compras, vendas. É a base da rastreabilidade de lotes (lista de utilização), para saber de quais lotes veio um lote produzido ou a quais clientes chegou."
+  },
+  "synonyms": {
+    "es": [
+      "trazabilidad de lotes",
+      "lista de utilización de lotes",
+      "uso de lote",
+      "rastreo de lote"
+    ],
+    "en": [
+      "batch traceability",
+      "batch where-used",
+      "batch usage",
+      "batch tracking"
+    ],
+    "pt": [
+      "rastreabilidade de lotes",
+      "lista de utilização de lotes",
+      "uso de lote",
+      "rastreio de lote"
+    ]
   }
 }

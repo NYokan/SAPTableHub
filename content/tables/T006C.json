@@ -8,5 +8,27 @@
     "es": "Unidades de medida (formato técnico por idioma)",
     "en": "Units of measure (technical format by language)",
     "pt": "Unidades de medida (formato técnico por idioma)"
+  },
+  "purpose": {
+    "es": "Tabla auxiliar que, por idioma, relaciona la abreviatura técnica de una unidad con la unidad de medida interna. Es la contraparte técnica de T006B; los textos para mostrar están en T006A.",
+    "en": "Helper table that, per language, maps the technical abbreviation of a unit to the internal unit of measure. It is the technical counterpart of T006B; display texts are in T006A.",
+    "pt": "Tabela auxiliar que, por idioma, relaciona a abreviatura técnica de uma unidade com a unidade de medida interna. É a contraparte técnica da T006B; os textos de exibição estão na T006A."
+  },
+  "synonyms": {
+    "es": [
+      "formato técnico de unidad",
+      "abreviatura técnica",
+      "unidad técnica"
+    ],
+    "en": [
+      "technical unit format",
+      "technical abbreviation",
+      "technical unit"
+    ],
+    "pt": [
+      "formato técnico da unidade",
+      "abreviatura técnica",
+      "unidade técnica"
+    ]
   }
 }

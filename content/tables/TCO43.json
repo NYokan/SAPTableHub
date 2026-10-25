@@ -8,5 +8,27 @@
     "es": "Perfiles de control de producción",
     "en": "Production scheduling profiles",
     "pt": "Perfis de controle de produção"
+  },
+  "purpose": {
+    "es": "Configuración de los perfiles de control de producción por centro: definen el comportamiento automático de las órdenes de fabricación, por ejemplo liberación al crear, impresión, entrada de mercancías automática o control de lotes. Se asignan al material o al responsable de producción.",
+    "en": "Configuration of production scheduling profiles per plant: they define automatic behavior of production orders, for example release on creation, printing, automatic goods receipt or batch handling. They are assigned to the material or the production supervisor.",
+    "pt": "Configuração dos perfis de controle de produção por centro: definem o comportamento automático das ordens de produção, por exemplo liberação ao criar, impressão, entrada de mercadorias automática ou tratamento de lotes. São atribuídos ao material ou ao responsável pela produção."
+  },
+  "synonyms": {
+    "es": [
+      "perfil de control de producción",
+      "liberación automática",
+      "perfil de fabricación"
+    ],
+    "en": [
+      "production scheduling profile",
+      "automatic release",
+      "production profile"
+    ],
+    "pt": [
+      "perfil de controle de produção",
+      "liberação automática",
+      "perfil de produção"
+    ]
   }
 }

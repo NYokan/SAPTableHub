@@ -8,5 +8,27 @@
     "es": "Costes de transporte (cabecera)",
     "en": "Shipment costs (header)",
     "pt": "Custos de frete (cabeçalho)"
+  },
+  "purpose": {
+    "es": "Cabecera de los documentos de costes de transporte: una fila por documento de costes de flete calculado para un transporte, con su estado de cálculo y liquidación. Las posiciones con importes están en VFKP.",
+    "en": "Header of shipment cost documents: one row per freight cost document calculated for a shipment, with its calculation and settlement status. The items with amounts are in VFKP.",
+    "pt": "Cabeçalho dos documentos de custos de frete: uma linha por documento de custos de frete calculado para um transporte, com seu status de cálculo e liquidação. Os itens com valores ficam na VFKP."
+  },
+  "synonyms": {
+    "es": [
+      "costes de transporte",
+      "costes de flete",
+      "documento de costes de flete"
+    ],
+    "en": [
+      "shipment costs",
+      "freight costs",
+      "freight cost document"
+    ],
+    "pt": [
+      "custos de transporte",
+      "custos de frete",
+      "documento de custos de frete"
+    ]
   }
 }

@@ -8,5 +8,30 @@
     "es": "Activos fijos: parámetros de amortización",
     "en": "Fixed assets: depreciation terms",
     "pt": "Ativos fixos: parâmetros de depreciação"
+  },
+  "purpose": {
+    "es": "Para cada activo fijo y área de valoración, las condiciones de amortización: clave de amortización, vida útil en años y períodos, y fecha de inicio de la amortización. Es donde se consulta cómo y en cuánto tiempo se amortiza un activo.",
+    "en": "For each fixed asset and depreciation area, the depreciation terms: depreciation key, useful life in years and periods, and depreciation start date. It is where you check how and over how long an asset is depreciated.",
+    "pt": "Para cada ativo imobilizado e área de avaliação, as condições de depreciação: chave de depreciação, vida útil em anos e períodos e data de início da depreciação. É onde se consulta como e em quanto tempo um ativo é depreciado."
+  },
+  "synonyms": {
+    "es": [
+      "vida útil",
+      "clave de amortización",
+      "inicio de amortización",
+      "condiciones de amortización"
+    ],
+    "en": [
+      "useful life",
+      "depreciation key",
+      "depreciation start date",
+      "depreciation terms"
+    ],
+    "pt": [
+      "vida útil",
+      "chave de depreciação",
+      "início da depreciação",
+      "condições de depreciação"
+    ]
   }
 }

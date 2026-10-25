@@ -8,5 +8,27 @@
     "es": "Grupos de imputación de material",
     "en": "Material account assignment groups",
     "pt": "Grupos de classificação contábil de material"
+  },
+  "purpose": {
+    "es": "Lista de grupos de imputación de material (campo KTGRM en MVKE), por ejemplo mercadería, servicios o fletes. Sirve para decidir a qué cuenta de ingresos va la venta al contabilizar la factura.",
+    "en": "List of material account assignment groups (field KTGRM in MVKE), for example goods, services or freight. Used to decide which revenue account the sale is posted to when the invoice is posted.",
+    "pt": "Lista de grupos de classificação contábil de material (campo KTGRM na MVKE), por exemplo mercadorias, serviços ou fretes. Serve para decidir em qual conta de receita a venda é lançada ao contabilizar a fatura."
+  },
+  "synonyms": {
+    "es": [
+      "grupo de imputación material",
+      "cuenta de ingresos",
+      "KTGRM"
+    ],
+    "en": [
+      "material account assignment group",
+      "revenue account determination",
+      "KTGRM"
+    ],
+    "pt": [
+      "grupo de classificação contábil material",
+      "conta de receita",
+      "KTGRM"
+    ]
   }
 }

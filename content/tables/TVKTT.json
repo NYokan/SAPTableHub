@@ -8,5 +8,24 @@
     "es": "Grupos de imputación de clientes: textos",
     "en": "Customer account assignment groups: texts",
     "pt": "Grupos de classificação contábil de clientes: textos"
+  },
+  "purpose": {
+    "es": "Descripción de cada grupo de imputación de cliente en cada idioma: una fila por código e idioma. Sirve para mostrar un nombre legible en lugar del código KTGRD en informes; los códigos se definen en TVKT.",
+    "en": "Description of each customer account assignment group in each language: one row per code and language. Use it to show a readable name instead of the KTGRD code in reports; the codes themselves are defined in TVKT.",
+    "pt": "Descrição de cada grupo de classificação contábil de cliente em cada idioma: uma linha por código e idioma. Serve para mostrar um nome legível em vez do código KTGRD em relatórios; os códigos são definidos na TVKT."
+  },
+  "synonyms": {
+    "es": [
+      "texto grupo de imputación cliente",
+      "KTGRD"
+    ],
+    "en": [
+      "customer account assignment group text",
+      "KTGRD"
+    ],
+    "pt": [
+      "texto grupo classificação contábil cliente",
+      "KTGRD"
+    ]
   }
 }

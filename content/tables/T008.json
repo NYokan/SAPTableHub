@@ -9,5 +9,30 @@
     "es": "Motivos de bloqueo de pago",
     "en": "Payment block reasons",
     "pt": "Motivos de bloqueio de pagamento"
+  },
+  "purpose": {
+    "es": "Los motivos de bloqueo de pago: códigos que se ponen en un proveedor o en una factura para que el programa de pagos no la pague (por ejemplo, pendiente de revisión o bloqueada por verificación de facturas).",
+    "en": "The payment block reasons: codes set on a vendor or invoice so the payment program does not pay it (for example, under review or blocked by invoice verification).",
+    "pt": "Os motivos de bloqueio de pagamento: códigos colocados em um fornecedor ou fatura para que o programa de pagamentos não a pague (por exemplo, em revisão ou bloqueada pela verificação de faturas)."
+  },
+  "synonyms": {
+    "es": [
+      "bloqueo de pago",
+      "motivo de bloqueo de pago",
+      "factura bloqueada",
+      "ZLSPR"
+    ],
+    "en": [
+      "payment block",
+      "payment block reason",
+      "blocked invoice",
+      "ZLSPR"
+    ],
+    "pt": [
+      "bloqueio de pagamento",
+      "motivo de bloqueio de pagamento",
+      "fatura bloqueada",
+      "ZLSPR"
+    ]
   }
 }

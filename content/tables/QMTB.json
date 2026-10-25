@@ -8,5 +8,27 @@
     "es": "Métodos de inspección",
     "en": "Inspection methods",
     "pt": "Métodos de inspeção"
+  },
+  "purpose": {
+    "es": "Métodos de inspección por centro: describen cómo se realiza una inspección (por ejemplo, un procedimiento de laboratorio), con versión y estado. Se asignan a características de inspección.",
+    "en": "Inspection methods per plant: they describe how an inspection is carried out (for example, a lab procedure), with version and status. They are assigned to inspection characteristics.",
+    "pt": "Métodos de inspeção por centro: descrevem como uma inspeção é realizada (por exemplo, um procedimento de laboratório), com versão e status. São atribuídos a características de inspeção."
+  },
+  "synonyms": {
+    "es": [
+      "método de inspección",
+      "método de ensayo",
+      "procedimiento de laboratorio"
+    ],
+    "en": [
+      "inspection method",
+      "test method",
+      "lab procedure"
+    ],
+    "pt": [
+      "método de inspeção",
+      "método de ensaio",
+      "procedimento de laboratório"
+    ]
   }
 }

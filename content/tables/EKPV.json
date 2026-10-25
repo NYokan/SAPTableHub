@@ -9,5 +9,30 @@
     "es": "Pedidos de traslado: datos de expedición",
     "en": "Stock transport orders: shipping data",
     "pt": "Pedidos de transferência: dados de expedição"
+  },
+  "purpose": {
+    "es": "Una fila por posición de pedido de traslado con los datos de expedición que necesita la entrega saliente: puesto de expedición, ruta, área de ventas y cliente que representa al centro receptor.",
+    "en": "One row per stock transport order item with the shipping data needed for the outbound delivery: shipping point, route, sales area and the customer that represents the receiving plant.",
+    "pt": "Uma linha por item de pedido de transferência com os dados de expedição necessários para a remessa de saída: ponto de expedição, itinerário, área de vendas e o cliente que representa o centro recebedor."
+  },
+  "synonyms": {
+    "es": [
+      "pedido de traslado",
+      "datos de expedición STO",
+      "traslado entre centros",
+      "ruta del traslado"
+    ],
+    "en": [
+      "stock transport order",
+      "STO shipping data",
+      "plant to plant transfer",
+      "transfer route"
+    ],
+    "pt": [
+      "pedido de transferência",
+      "dados de expedição STO",
+      "transferência entre centros",
+      "itinerário da transferência"
+    ]
   }
 }

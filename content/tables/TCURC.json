@@ -9,5 +9,30 @@
     "es": "Monedas (códigos)",
     "en": "Currencies (codes)",
     "pt": "Moedas (códigos)"
+  },
+  "purpose": {
+    "es": "Una fila por cada código de moneda (por ejemplo CLP, USD, EUR) con su código ISO y su validez. Es la referencia de todos los campos de moneda; los nombres están en TCURT y los decimales en TCURX.",
+    "en": "One row per currency code (for example CLP, USD, EUR) with its ISO code and validity. It is the reference for all currency fields; names are in TCURT and decimals in TCURX.",
+    "pt": "Uma linha por código de moeda (por exemplo BRL, USD, EUR) com seu código ISO e sua validade. É a referência de todos os campos de moeda; os nomes estão na TCURT e as casas decimais na TCURX."
+  },
+  "synonyms": {
+    "es": [
+      "monedas",
+      "código de moneda",
+      "código ISO de moneda",
+      "divisas"
+    ],
+    "en": [
+      "currencies",
+      "currency code",
+      "ISO currency code",
+      "currency key"
+    ],
+    "pt": [
+      "moedas",
+      "código da moeda",
+      "código ISO da moeda",
+      "divisas"
+    ]
   }
 }

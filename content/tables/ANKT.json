@@ -8,5 +8,27 @@
     "es": "Clases de activos fijos: textos",
     "en": "Asset classes: texts",
     "pt": "Classes de ativos fixos: textos"
+  },
+  "purpose": {
+    "es": "Nombre de cada clase de activo fijo en cada idioma. Sirve para mostrar «Maquinaria» o «Vehículos» en lugar del código de la clase de ANKA.",
+    "en": "Name of each asset class in each language. It is used to show \"Machinery\" or \"Vehicles\" instead of the class code from ANKA.",
+    "pt": "Nome de cada classe de ativo imobilizado em cada idioma. Serve para mostrar «Máquinas» ou «Veículos» em vez do código da classe da ANKA."
+  },
+  "synonyms": {
+    "es": [
+      "nombre de clase de activo",
+      "descripción clase de activo",
+      "texto clase de activo"
+    ],
+    "en": [
+      "asset class name",
+      "asset class description",
+      "asset class text"
+    ],
+    "pt": [
+      "nome da classe de ativo",
+      "descrição da classe de ativo",
+      "texto da classe de ativo"
+    ]
   }
 }

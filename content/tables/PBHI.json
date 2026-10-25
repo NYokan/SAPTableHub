@@ -8,5 +8,27 @@
     "es": "Necesidades primarias (historial de cambios)",
     "en": "Independent requirements (change history)",
     "pt": "Necessidades independentes (histórico de alterações)"
+  },
+  "purpose": {
+    "es": "Historial de cambios de las necesidades primarias planificadas: guarda versiones anteriores de los repartos de PBED (cantidades y fechas) cada vez que se modifica un plan de demanda. Sirve para ver cómo evolucionó el pronóstico o plan de producción.",
+    "en": "Change history of planned independent requirements: it keeps earlier versions of the PBED schedule lines (quantities and dates) each time a demand plan is changed. It shows how the forecast or production plan evolved.",
+    "pt": "Histórico de alterações das necessidades independentes planejadas: guarda versões anteriores das divisões da PBED (quantidades e datas) cada vez que um plano de demanda é alterado. Mostra como a previsão ou plano de produção evoluiu."
+  },
+  "synonyms": {
+    "es": [
+      "historial del plan de demanda",
+      "cambios en necesidades primarias",
+      "evolución del pronóstico"
+    ],
+    "en": [
+      "demand plan history",
+      "independent requirements changes",
+      "forecast history"
+    ],
+    "pt": [
+      "histórico do plano de demanda",
+      "alterações nas necessidades independentes",
+      "evolução da previsão"
+    ]
   }
 }

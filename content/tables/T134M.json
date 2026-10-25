@@ -8,5 +8,27 @@
     "es": "Tipos de material: actualización de cantidad y valor",
     "en": "Material types: quantity and value updating",
     "pt": "Tipos de material: atualização de quantidade e valor"
+  },
+  "purpose": {
+    "es": "Por cada tipo de material y área de valoración, indica si el stock se actualiza en cantidad y en valor. Define, por ejemplo, que un tipo de material se controla en cantidad pero no se valora.",
+    "en": "For each material type and valuation area, shows whether stock is updated in quantity and in value. It defines, for example, that a material type is tracked by quantity but not valuated.",
+    "pt": "Para cada tipo de material e área de avaliação, indica se o estoque é atualizado em quantidade e em valor. Define, por exemplo, que um tipo de material é controlado em quantidade mas não é avaliado."
+  },
+  "synonyms": {
+    "es": [
+      "actualización de cantidad y valor",
+      "material no valorado",
+      "control de stock por tipo de material"
+    ],
+    "en": [
+      "quantity and value update",
+      "non-valuated material",
+      "stock control by material type"
+    ],
+    "pt": [
+      "atualização de quantidade e valor",
+      "material não avaliado",
+      "controle de estoque por tipo de material"
+    ]
   }
 }

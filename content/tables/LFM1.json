@@ -9,5 +9,30 @@
     "es": "Proveedores: datos de compras",
     "en": "Vendors: purchasing data",
     "pt": "Fornecedores: dados de compras"
+  },
+  "purpose": {
+    "es": "Una fila por proveedor y organización de compras con los datos de compras: moneda del pedido, condiciones de pago, incoterms, valor mínimo de pedido y verificación de facturas basada en entradas. Son los valores por defecto que se proponen en los pedidos.",
+    "en": "One row per vendor and purchasing organization with the purchasing data: order currency, payment terms, incoterms, minimum order value and GR-based invoice verification. These are the defaults proposed in purchase orders.",
+    "pt": "Uma linha por fornecedor e organização de compras com os dados de compras: moeda do pedido, condições de pagamento, incoterms, valor mínimo do pedido e verificação de faturas baseada na entrada. São os valores padrão propostos nos pedidos."
+  },
+  "synonyms": {
+    "es": [
+      "datos de compras del proveedor",
+      "proveedor por organización de compras",
+      "moneda de pedido",
+      "valor mínimo de pedido"
+    ],
+    "en": [
+      "vendor purchasing data",
+      "vendor per purchasing org",
+      "order currency",
+      "minimum order value"
+    ],
+    "pt": [
+      "dados de compras do fornecedor",
+      "fornecedor por organização de compras",
+      "moeda do pedido",
+      "valor mínimo do pedido"
+    ]
   }
 }

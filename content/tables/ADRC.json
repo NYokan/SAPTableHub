@@ -8,5 +8,33 @@
     "es": "Direcciones",
     "en": "Addresses",
     "pt": "Endereços"
+  },
+  "purpose": {
+    "es": "Una fila por cada dirección de la gestión central de direcciones: nombre, calle, ciudad, código postal, región y país. Clientes, proveedores, centros y otros objetos la apuntan con su número de dirección (por ejemplo KNA1-ADRNR o LFA1-ADRNR).",
+    "en": "One row per address in central address management: name, street, city, postal code, region and country. Customers, vendors, plants and other objects point to it with their address number (for example KNA1-ADRNR or LFA1-ADRNR).",
+    "pt": "Uma linha por endereço no gerenciamento central de endereços: nome, rua, cidade, CEP, região e país. Clientes, fornecedores, centros e outros objetos apontam para ela com seu número de endereço (por exemplo KNA1-ADRNR ou LFA1-ADRNR)."
+  },
+  "synonyms": {
+    "es": [
+      "dirección",
+      "direcciones",
+      "domicilio",
+      "dirección postal",
+      "calle y ciudad"
+    ],
+    "en": [
+      "address",
+      "addresses",
+      "postal address",
+      "street address",
+      "address master"
+    ],
+    "pt": [
+      "endereço",
+      "endereços",
+      "endereço postal",
+      "logradouro",
+      "rua e cidade"
+    ]
   }
 }

@@ -8,5 +8,33 @@
     "es": "Documentos de ventas: interlocutores",
     "en": "Sales documents: partners",
     "pt": "Documentos de vendas: parceiros"
+  },
+  "purpose": {
+    "es": "Interlocutores de cada documento de ventas, entrega o factura: solicitante, destinatario de mercancías, destinatario de factura, responsable de pago, vendedor. Una fila por documento, posición (o cabecera) y función de interlocutor.",
+    "en": "Partners of each sales document, delivery or invoice: sold-to, ship-to, bill-to, payer, sales employee. One row per document, item (or header) and partner function.",
+    "pt": "Parceiros de cada documento de vendas, remessa ou fatura: emissor da ordem, recebedor da mercadoria, recebedor da fatura, pagador, vendedor. Uma linha por documento, item (ou cabeçalho) e função de parceiro."
+  },
+  "synonyms": {
+    "es": [
+      "interlocutores del pedido",
+      "destinatario de mercancías",
+      "responsable de pago",
+      "solicitante",
+      "función de interlocutor"
+    ],
+    "en": [
+      "order partners",
+      "ship-to party",
+      "payer",
+      "sold-to party",
+      "partner function"
+    ],
+    "pt": [
+      "parceiros da ordem",
+      "recebedor da mercadoria",
+      "pagador",
+      "emissor da ordem",
+      "função de parceiro"
+    ]
   }
 }

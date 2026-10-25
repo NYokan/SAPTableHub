@@ -9,5 +9,24 @@
     "es": "Stock especial en proveedor (histórico)",
     "en": "Special stock at vendor (history)",
     "pt": "Estoque especial no fornecedor (histórico)"
+  },
+  "purpose": {
+    "es": "Copia por periodo del stock especial en proveedor, como el material entregado a un subcontratista (MSLB): cantidades al cierre de periodos anteriores.",
+    "en": "Period copy of special stock at a vendor, such as material provided to a subcontractor (MSLB): quantities at the close of earlier periods.",
+    "pt": "Cópia por período do estoque especial no fornecedor, como material entregue a um subcontratado (MSLB): quantidades no fechamento de períodos anteriores."
+  },
+  "synonyms": {
+    "es": [
+      "histórico stock en subcontratista",
+      "stock O histórico"
+    ],
+    "en": [
+      "subcontractor stock history",
+      "special stock O history"
+    ],
+    "pt": [
+      "histórico estoque no subcontratado",
+      "estoque O histórico"
+    ]
   }
 }

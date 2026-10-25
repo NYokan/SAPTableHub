@@ -8,5 +8,27 @@
     "es": "Estados de usuario",
     "en": "User statuses",
     "pt": "Status do usuário"
+  },
+  "purpose": {
+    "es": "Una fila por cada estado de usuario dentro de un esquema de estado: su número, si es el inicial y qué otros estados permite. Los estados activos de cada objeto están en JEST y los textos en TJ30T.",
+    "en": "One row per user status within a status profile: its number, whether it is the initial one and which other statuses it allows. Each object's active statuses are in JEST and the texts in TJ30T.",
+    "pt": "Uma linha por status de usuário dentro de um esquema de status: seu número, se é o inicial e quais outros status permite. Os status ativos de cada objeto estão na JEST e os textos na TJ30T."
+  },
+  "synonyms": {
+    "es": [
+      "estado de usuario",
+      "status de usuario",
+      "estados personalizados"
+    ],
+    "en": [
+      "user status",
+      "custom status",
+      "user status codes"
+    ],
+    "pt": [
+      "status de usuário",
+      "status personalizado",
+      "códigos de status de usuário"
+    ]
   }
 }

@@ -7,5 +7,30 @@
     "es": "Magnitudes estadísticas",
     "en": "Statistical key figures",
     "pt": "Índices estatísticos"
+  },
+  "purpose": {
+    "es": "Una fila por cada magnitud estadística de una sociedad CO (por ejemplo, número de empleados, metros cuadrados, kWh): unidad y si es valor fijo o total. Se usan como base para repartir costes; los textos están en TKT03.",
+    "en": "One row per statistical key figure in a controlling area (for example, headcount, square meters, kWh): unit and whether it is a fixed value or a totals value. They are used as bases for allocating costs; the texts are in TKT03.",
+    "pt": "Uma linha por índice estatístico de uma área de contabilidade de custos (por exemplo, número de funcionários, metros quadrados, kWh): unidade e se é valor fixo ou total. São usados como base para ratear custos; os textos estão na TKT03."
+  },
+  "synonyms": {
+    "es": [
+      "magnitud estadística",
+      "base de reparto",
+      "indicador estadístico",
+      "STAGR"
+    ],
+    "en": [
+      "statistical key figure",
+      "allocation basis",
+      "statistical figure",
+      "STAGR"
+    ],
+    "pt": [
+      "índice estatístico",
+      "base de rateio",
+      "indicador estatístico",
+      "STAGR"
+    ]
   }
 }

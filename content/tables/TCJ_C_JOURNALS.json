@@ -7,5 +7,30 @@
     "es": "Libros de caja",
     "en": "Cash journals",
     "pt": "Livros de caixa"
+  },
+  "purpose": {
+    "es": "Los libros de caja de cada sociedad: una fila por caja (por ejemplo, la caja chica de una oficina) con su cuenta de mayor, moneda y nombre.",
+    "en": "The cash journals of each company code: one row per cash box (for example, an office petty cash) with its G/L account, currency and name.",
+    "pt": "Os livros de caixa de cada empresa: uma linha por caixa (por exemplo, o caixa pequeno de um escritório) com sua conta do razão, moeda e nome."
+  },
+  "synonyms": {
+    "es": [
+      "libro de caja",
+      "caja chica",
+      "fondo fijo",
+      "cash journal"
+    ],
+    "en": [
+      "cash journal",
+      "petty cash",
+      "cash box",
+      "cash fund"
+    ],
+    "pt": [
+      "livro caixa",
+      "caixa pequeno",
+      "fundo fixo",
+      "cash journal"
+    ]
   }
 }

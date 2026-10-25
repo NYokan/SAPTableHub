@@ -8,5 +8,27 @@
     "es": "Ledgers por sociedad",
     "en": "Ledgers per company code",
     "pt": "Ledgers por empresa"
+  },
+  "purpose": {
+    "es": "En S/4HANA, la configuración de cada ledger en cada sociedad: monedas que se llevan, variante de ejercicio y variante de períodos contables. Indica qué ledgers están activos en una sociedad.",
+    "en": "In S/4HANA, the settings of each ledger in each company code: currencies kept, fiscal year variant and posting period variant. It shows which ledgers are active in a company code.",
+    "pt": "No S/4HANA, a configuração de cada ledger em cada empresa: moedas mantidas, variante de exercício e variante de períodos contábeis. Indica quais ledgers estão ativos em uma empresa."
+  },
+  "synonyms": {
+    "es": [
+      "ledger por sociedad",
+      "monedas del ledger",
+      "configuración de ledger"
+    ],
+    "en": [
+      "ledger per company code",
+      "ledger currencies",
+      "ledger settings"
+    ],
+    "pt": [
+      "ledger por empresa",
+      "moedas do ledger",
+      "configuração do ledger"
+    ]
   }
 }

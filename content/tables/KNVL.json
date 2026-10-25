@@ -8,5 +8,27 @@
     "es": "Clientes: licencias",
     "en": "Customers: licenses",
     "pt": "Clientes: licenças"
+  },
+  "purpose": {
+    "es": "Licencias fiscales de un cliente (por ejemplo, certificados de exención) por país y categoría de impuesto, con su número y periodo de validez. Una fila por cliente, país, categoría y licencia.",
+    "en": "Tax licenses of a customer (for example, exemption certificates) per country and tax category, with their number and validity period. One row per customer, country, category and license.",
+    "pt": "Licenças fiscais de um cliente (por exemplo, certificados de isenção) por país e categoria de imposto, com seu número e período de validade. Uma linha por cliente, país, categoria e licença."
+  },
+  "synonyms": {
+    "es": [
+      "licencia fiscal cliente",
+      "certificado de exención",
+      "licencia de impuestos"
+    ],
+    "en": [
+      "customer tax license",
+      "exemption certificate",
+      "tax license"
+    ],
+    "pt": [
+      "licença fiscal cliente",
+      "certificado de isenção",
+      "licença de impostos"
+    ]
   }
 }

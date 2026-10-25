@@ -8,5 +8,27 @@
     "es": "Partidas reales de magnitudes estadísticas",
     "en": "Actual line items for statistical key figures",
     "pt": "Partidas reais de índices estatísticos"
+  },
+  "purpose": {
+    "es": "Una fila por cada partida real de magnitudes estadísticas: los valores registrados (por ejemplo, número de empleados o kWh) para un objeto CO y período. Se usan como base de reparto; los totales están en COSR.",
+    "en": "One row per actual line item for statistical key figures: the recorded values (for example, headcount or kWh) for a CO object and period. They are used as allocation bases; the totals are in COSR.",
+    "pt": "Uma linha por partida real de índices estatísticos: os valores registrados (por exemplo, número de funcionários ou kWh) para um objeto CO e período. São usados como base de rateio; os totais estão na COSR."
+  },
+  "synonyms": {
+    "es": [
+      "magnitudes estadísticas reales",
+      "bases de reparto",
+      "indicadores estadísticos"
+    ],
+    "en": [
+      "actual statistical key figures",
+      "allocation bases",
+      "statistical figures"
+    ],
+    "pt": [
+      "índices estatísticos reais",
+      "bases de rateio",
+      "indicadores estatísticos"
+    ]
   }
 }

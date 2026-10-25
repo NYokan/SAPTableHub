@@ -8,5 +8,27 @@
     "es": "Direcciones (lista de utilización)",
     "en": "Addresses (where-used list)",
     "pt": "Endereços (lista de utilização)"
+  },
+  "purpose": {
+    "es": "Lista de utilización de direcciones: una fila por cada uso de una dirección por un objeto (tabla y clave de la aplicación que la usa). Sirve para saber a qué cliente, proveedor u otro objeto pertenece un número de dirección de ADRC.",
+    "en": "Address where-used list: one row per use of an address by an object (table and key of the application using it). It tells which customer, vendor or other object an ADRC address number belongs to.",
+    "pt": "Lista de utilização de endereços: uma linha por uso de um endereço por um objeto (tabela e chave da aplicação que o usa). Serve para saber a qual cliente, fornecedor ou outro objeto pertence um número de endereço da ADRC."
+  },
+  "synonyms": {
+    "es": [
+      "dónde se usa una dirección",
+      "uso de direcciones",
+      "propietario de dirección"
+    ],
+    "en": [
+      "address where-used",
+      "address usage",
+      "address owner"
+    ],
+    "pt": [
+      "onde o endereço é usado",
+      "uso de endereços",
+      "dono do endereço"
+    ]
   }
 }

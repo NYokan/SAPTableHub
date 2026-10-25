@@ -9,5 +9,27 @@
     "es": "Servicios: imputación",
     "en": "Services: account assignment",
     "pt": "Serviços: classificação contábil"
+  },
+  "purpose": {
+    "es": "Una fila por cada imputación de un paquete de servicios: cuenta de mayor, centro de coste, orden, elemento PEP u otro objeto al que se carga el servicio. Es el equivalente de EKKN para las líneas de servicio.",
+    "en": "One row per account assignment of a service package: G/L account, cost center, order, WBS element or other object the service is charged to. It is the equivalent of EKKN for service lines.",
+    "pt": "Uma linha por classificação contábil de um pacote de serviços: conta do razão, centro de custo, ordem, elemento PEP ou outro objeto ao qual o serviço é debitado. É o equivalente da EKKN para linhas de serviço."
+  },
+  "synonyms": {
+    "es": [
+      "imputación de servicios",
+      "centro de coste del servicio",
+      "cuenta de servicio"
+    ],
+    "en": [
+      "service account assignment",
+      "service cost center",
+      "service G/L account"
+    ],
+    "pt": [
+      "classificação contábil de serviços",
+      "centro de custo do serviço",
+      "conta do serviço"
+    ]
   }
 }

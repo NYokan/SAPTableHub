@@ -7,5 +7,30 @@
     "es": "Órdenes de flete (cabecera)",
     "en": "Freight orders (header)",
     "pt": "Ordens de frete (cabeçalho)"
+  },
+  "purpose": {
+    "es": "En S/4HANA con TM, cabecera de los documentos de transporte: una fila por orden de flete, reserva de flete, unidad de flete u orden de servicio, con tipo, transportista, estado y fechas. Las posiciones están en /SCMTMS/D_TORITE.",
+    "en": "In S/4HANA with TM, header of transportation documents: one row per freight order, freight booking, freight unit or service order, with type, carrier, status and dates. The items are in /SCMTMS/D_TORITE.",
+    "pt": "No S/4HANA com TM, cabeçalho dos documentos de transporte: uma linha por ordem de frete, reserva de frete, unidade de frete ou ordem de serviço, com tipo, transportadora, status e datas. Os itens ficam na /SCMTMS/D_TORITE."
+  },
+  "synonyms": {
+    "es": [
+      "orden de flete",
+      "reserva de flete",
+      "unidad de flete",
+      "Transportation Management"
+    ],
+    "en": [
+      "freight order",
+      "freight booking",
+      "freight unit",
+      "Transportation Management"
+    ],
+    "pt": [
+      "ordem de frete",
+      "reserva de frete",
+      "unidade de frete",
+      "Transportation Management"
+    ]
   }
 }

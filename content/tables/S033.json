@@ -8,5 +8,27 @@
     "es": "Estadísticas de inventario: movimientos de stock (registros individuales)",
     "en": "Inventory statistics: stock movements (single records)",
     "pt": "Estatísticas de estoque: movimentos de estoque (registros individuais)"
+  },
+  "purpose": {
+    "es": "Estadística de gestión de inventario (LIS) con los movimientos de stock registro a registro (no acumulados por mes), por material, centro, almacén y clase de movimiento. Se usa en análisis de movimientos de stock del sistema de información.",
+    "en": "Inventory management statistics (LIS) with stock movements record by record (not summed per month), by material, plant, storage location and movement type. Used in stock movement analyses in the information system.",
+    "pt": "Estatística de gestão de estoque (LIS) com os movimentos de estoque registro a registro (não acumulados por mês), por material, centro, depósito e tipo de movimento. Usada em análises de movimentos no sistema de informação."
+  },
+  "synonyms": {
+    "es": [
+      "estadística de movimientos individuales",
+      "LIS movimientos",
+      "detalle de movimientos"
+    ],
+    "en": [
+      "single movement statistics",
+      "LIS movements",
+      "movement detail statistics"
+    ],
+    "pt": [
+      "estatística de movimentos individuais",
+      "LIS movimentos",
+      "detalhe de movimentos"
+    ]
   }
 }

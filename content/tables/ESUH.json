@@ -9,5 +9,30 @@
     "es": "Servicios: límites para servicios no planificados",
     "en": "Services: limits for unplanned services",
     "pt": "Serviços: limites para serviços não planejados"
+  },
+  "purpose": {
+    "es": "Límites de valor para servicios no planificados de una posición de pedido o solicitud: importe total permitido y valor esperado para servicios que no se pueden detallar de antemano. Los límites por contrato están en ESUC.",
+    "en": "Value limits for unplanned services of an order or requisition item: total allowed amount and expected value for services that cannot be specified in advance. Limits per contract are in ESUC.",
+    "pt": "Limites de valor para serviços não planejados de um item de pedido ou requisição: valor total permitido e valor esperado para serviços que não podem ser detalhados de antemão. Os limites por contrato estão na ESUC."
+  },
+  "synonyms": {
+    "es": [
+      "servicios no planificados",
+      "límite de servicios",
+      "valor esperado",
+      "tope de gasto en servicios"
+    ],
+    "en": [
+      "unplanned services",
+      "service limit",
+      "expected value",
+      "service spending cap"
+    ],
+    "pt": [
+      "serviços não planejados",
+      "limite de serviços",
+      "valor esperado",
+      "teto de gasto em serviços"
+    ]
   }
 }

@@ -8,5 +8,24 @@
     "es": "Tipos de objeto técnico (textos)",
     "en": "Technical object types (texts)",
     "pt": "Tipos de objeto técnico (textos)"
+  },
+  "purpose": {
+    "es": "Descripciones por idioma de los tipos de objeto técnico (T370K). Se usa para mostrar el nombre legible en informes en lugar del código.",
+    "en": "Language-dependent descriptions of technical object types (T370K). Used to show the readable name in reports instead of the code.",
+    "pt": "Descrições por idioma de tipos de objeto técnico (T370K). Usada para mostrar o nome legível em relatórios em vez do código."
+  },
+  "synonyms": {
+    "es": [
+      "texto tipo de objeto técnico",
+      "descripción tipo de equipo"
+    ],
+    "en": [
+      "object type text",
+      "equipment type description"
+    ],
+    "pt": [
+      "texto tipo de objeto",
+      "descrição tipo de equipamento"
+    ]
   }
 }

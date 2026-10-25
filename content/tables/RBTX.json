@@ -9,5 +9,27 @@
     "es": "Facturas de proveedor: impuestos",
     "en": "Vendor invoices: taxes",
     "pt": "Faturas de fornecedor: impostos"
+  },
+  "purpose": {
+    "es": "Una fila por factura de proveedor de la verificación logística e indicador de impuesto, con la base imponible y el importe de impuesto. Complementa a la cabecera RBKP.",
+    "en": "One row per logistics invoice verification vendor invoice and tax code, with the tax base and tax amount. It complements the RBKP header.",
+    "pt": "Uma linha por fatura de fornecedor da revisão de faturas logística e código de imposto, com a base de cálculo e o valor do imposto. Complementa o cabeçalho RBKP."
+  },
+  "synonyms": {
+    "es": [
+      "impuestos de factura de proveedor",
+      "IVA de factura recibida",
+      "base imponible"
+    ],
+    "en": [
+      "vendor invoice tax",
+      "input tax",
+      "tax base amount"
+    ],
+    "pt": [
+      "impostos da fatura de fornecedor",
+      "imposto da fatura recebida",
+      "base de cálculo"
+    ]
   }
 }

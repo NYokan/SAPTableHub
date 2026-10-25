@@ -8,5 +8,30 @@
     "es": "Ejecuciones de cálculo de costes",
     "en": "Costing runs",
     "pt": "Execuções de cálculo de custos"
+  },
+  "purpose": {
+    "es": "Una fila por cada ejecución de cálculo de costes (las corridas de CK40N): nombre, fecha, variante de cálculo, versión y datos de control. Sirve para saber qué corridas de cálculo de costes estándar se lanzaron y con qué parámetros.",
+    "en": "One row per costing run (the runs in CK40N): name, date, costing variant, version and control data. It shows which standard cost estimate runs were executed and with which parameters.",
+    "pt": "Uma linha por execução de cálculo de custos (as execuções da CK40N): nome, data, variante de cálculo, versão e dados de controle. Mostra quais execuções de cálculo de custo padrão foram lançadas e com quais parâmetros."
+  },
+  "synonyms": {
+    "es": [
+      "ejecución de cálculo de costes",
+      "CK40N",
+      "corrida de costos",
+      "cálculo masivo de costes"
+    ],
+    "en": [
+      "costing run",
+      "CK40N",
+      "mass costing",
+      "cost estimate run"
+    ],
+    "pt": [
+      "execução de cálculo de custos",
+      "CK40N",
+      "rodada de custos",
+      "cálculo massivo de custos"
+    ]
   }
 }

@@ -9,5 +9,27 @@
     "es": "Grupos de precios de cliente",
     "en": "Customer price groups",
     "pt": "Grupos de preço de cliente"
+  },
+  "purpose": {
+    "es": "Lista de grupos de precios de cliente (campo KONDA), que agrupan clientes con las mismas condiciones, como mayoristas o minoristas. Se asignan en KNVV y se usan como clave en registros de condición.",
+    "en": "List of customer price groups (field KONDA), which group customers with the same conditions, such as wholesalers or retailers. They are assigned in KNVV and used as a key in condition records.",
+    "pt": "Lista de grupos de preços de cliente (campo KONDA), que agrupam clientes com as mesmas condições, como atacadistas ou varejistas. São atribuídos na KNVV e usados como chave em registros de condição."
+  },
+  "synonyms": {
+    "es": [
+      "grupo de precios de cliente",
+      "KONDA",
+      "mayorista minorista"
+    ],
+    "en": [
+      "customer price group",
+      "KONDA",
+      "wholesale retail group"
+    ],
+    "pt": [
+      "grupo de preços de cliente",
+      "KONDA",
+      "atacado varejo"
+    ]
   }
 }

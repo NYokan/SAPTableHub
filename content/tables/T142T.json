@@ -8,5 +8,24 @@
     "es": "Condiciones de almacenaje (textos)",
     "en": "Storage conditions (texts)",
     "pt": "Condições de armazenagem (textos)"
+  },
+  "purpose": {
+    "es": "Descripciones por idioma de las condiciones de almacenaje (T142). Se usa para mostrar el nombre legible en informes en lugar del código.",
+    "en": "Language-dependent descriptions of storage conditions (T142). Used to show the readable name in reports instead of the code.",
+    "pt": "Descrições por idioma de condições de armazenagem (T142). Usada para mostrar o nome legível em relatórios em vez do código."
+  },
+  "synonyms": {
+    "es": [
+      "texto condición de almacenaje",
+      "descripción almacenaje"
+    ],
+    "en": [
+      "storage condition text",
+      "storage condition description"
+    ],
+    "pt": [
+      "texto condição de armazenagem",
+      "descrição armazenagem"
+    ]
   }
 }

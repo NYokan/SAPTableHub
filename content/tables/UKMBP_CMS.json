@@ -8,5 +8,30 @@
     "es": "Gestión de créditos SAP: perfil de crédito del interlocutor",
     "en": "SAP Credit Management: business partner credit profile",
     "pt": "Gestão de crédito SAP: perfil de crédito do parceiro"
+  },
+  "purpose": {
+    "es": "En SAP Credit Management (FSCM y S/4HANA), el perfil de crédito de cada interlocutor comercial: puntuación (score), clase de riesgo, regla de verificación y grupo de crédito. Los límites por segmento de crédito están en UKMBP_CMS_SGM.",
+    "en": "In SAP Credit Management (FSCM and S/4HANA), the credit profile of each business partner: score, risk class, check rule and credit group. Limits per credit segment are in UKMBP_CMS_SGM.",
+    "pt": "No SAP Credit Management (FSCM e S/4HANA), o perfil de crédito de cada parceiro de negócios: pontuação (score), classe de risco, regra de verificação e grupo de crédito. Os limites por segmento de crédito estão na UKMBP_CMS_SGM."
+  },
+  "synonyms": {
+    "es": [
+      "perfil de crédito",
+      "score crediticio",
+      "clase de riesgo",
+      "regla de verificación de crédito"
+    ],
+    "en": [
+      "credit profile",
+      "credit score",
+      "risk class",
+      "credit check rule"
+    ],
+    "pt": [
+      "perfil de crédito",
+      "score de crédito",
+      "classe de risco",
+      "regra de verificação de crédito"
+    ]
   }
 }

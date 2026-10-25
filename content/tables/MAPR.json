@@ -8,5 +8,27 @@
     "es": "Materiales: índice de pronóstico",
     "en": "Materials: forecast index",
     "pt": "Materiais: índice de previsão"
+  },
+  "purpose": {
+    "es": "Índice que conecta cada material y centro con sus datos de pronóstico: indica el número con el que se leen los parámetros (PROP) y los valores pronosticados (PROW).",
+    "en": "Index that links each material and plant to its forecast data: it gives the number used to read the forecast parameters (PROP) and forecast values (PROW).",
+    "pt": "Índice que liga cada material e centro aos seus dados de previsão: indica o número usado para ler os parâmetros (PROP) e os valores previstos (PROW)."
+  },
+  "synonyms": {
+    "es": [
+      "índice de pronóstico",
+      "enlace a previsión",
+      "material con pronóstico"
+    ],
+    "en": [
+      "forecast index",
+      "forecast link",
+      "material forecast pointer"
+    ],
+    "pt": [
+      "índice de previsão",
+      "ligação à previsão",
+      "material com previsão"
+    ]
   }
 }

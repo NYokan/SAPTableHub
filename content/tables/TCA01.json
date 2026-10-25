@@ -7,5 +7,30 @@
     "es": "Tipos de hoja de ruta",
     "en": "Task list types",
     "pt": "Tipos de roteiro"
+  },
+  "purpose": {
+    "es": "Configuración de los tipos de hoja de ruta (por ejemplo, N hoja de ruta normal, S operación de referencia, R hoja de ruta de cadencia, Q plan de inspección, 2 receta maestra, A/E/T planes de mantenimiento). Una fila por tipo (PLNTY).",
+    "en": "Configuration of task list types (for example, N routing, S reference operation set, R rate routing, Q inspection plan, 2 master recipe, A/E/T maintenance task lists). One row per type (PLNTY).",
+    "pt": "Configuração dos tipos de roteiro (por exemplo, N roteiro normal, S operação de referência, R roteiro de cadência, Q plano de inspeção, 2 receita mestre, A/E/T planos de manutenção). Uma linha por tipo (PLNTY)."
+  },
+  "synonyms": {
+    "es": [
+      "tipo de hoja de ruta",
+      "PLNTY",
+      "receta maestra",
+      "plan de inspección"
+    ],
+    "en": [
+      "task list type",
+      "PLNTY",
+      "master recipe",
+      "inspection plan"
+    ],
+    "pt": [
+      "tipo de roteiro",
+      "PLNTY",
+      "receita mestre",
+      "plano de inspeção"
+    ]
   }
 }

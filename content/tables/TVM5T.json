@@ -9,5 +9,24 @@
     "es": "Grupos de material 5: textos",
     "en": "Material groups 5: texts",
     "pt": "Grupos de material 5: textos"
+  },
+  "purpose": {
+    "es": "Descripción de cada grupo de material 5 en cada idioma: una fila por código e idioma. Sirve para mostrar un nombre legible en lugar del código MVGR5 en informes; los códigos se definen en TVM5.",
+    "en": "Description of each material group 5 in each language: one row per code and language. Use it to show a readable name instead of the MVGR5 code in reports; the codes themselves are defined in TVM5.",
+    "pt": "Descrição de cada grupo de materiais 5 em cada idioma: uma linha por código e idioma. Serve para mostrar um nome legível em vez do código MVGR5 em relatórios; os códigos são definidos na TVM5."
+  },
+  "synonyms": {
+    "es": [
+      "texto grupo de material 5",
+      "MVGR5"
+    ],
+    "en": [
+      "material group 5 text",
+      "MVGR5"
+    ],
+    "pt": [
+      "texto grupo de materiais 5",
+      "MVGR5"
+    ]
   }
 }

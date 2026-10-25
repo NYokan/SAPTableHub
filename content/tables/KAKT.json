@@ -8,5 +8,24 @@
     "es": "Capacidades (descripciones)",
     "en": "Capacities (descriptions)",
     "pt": "Capacidades (descrições)"
+  },
+  "purpose": {
+    "es": "Descripción de cada capacidad (por ejemplo, una máquina o un grupo de operarios), por idioma. Se une con KAKO, la cabecera de capacidades.",
+    "en": "Description of each capacity (for example, a machine or a group of workers), per language. It is joined to KAKO, the capacity header.",
+    "pt": "Descrição de cada capacidade (por exemplo, uma máquina ou um grupo de operários), por idioma. É unida à KAKO, o cabeçalho de capacidades."
+  },
+  "synonyms": {
+    "es": [
+      "nombre de capacidad",
+      "descripción de capacidad"
+    ],
+    "en": [
+      "capacity name",
+      "capacity description"
+    ],
+    "pt": [
+      "nome da capacidade",
+      "descrição da capacidade"
+    ]
   }
 }

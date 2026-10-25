@@ -7,5 +7,27 @@
     "es": "Asignación de listas de materiales a documentos",
     "en": "Document-to-BOM links",
     "pt": "Atribuição de listas técnicas a documentos"
+  },
+  "purpose": {
+    "es": "Una fila por cada vínculo entre un documento del gestor de documentos (DMS) y su lista de materiales de documento: indica qué lista de materiales agrupa los documentos que dependen de él. Sirve para navegar estructuras de documentos.",
+    "en": "One row per link between a document in document management (DMS) and its document structure (document BOM): it shows which BOM groups the documents that depend on it. It is used to navigate document structures.",
+    "pt": "Uma linha por vínculo entre um documento da gestão de documentos (DMS) e sua lista técnica de documento: indica qual lista técnica agrupa os documentos que dependem dele. Serve para navegar estruturas de documentos."
+  },
+  "synonyms": {
+    "es": [
+      "estructura de documentos",
+      "lista de materiales de documento",
+      "DMS"
+    ],
+    "en": [
+      "document structure",
+      "document BOM",
+      "DMS"
+    ],
+    "pt": [
+      "estrutura de documentos",
+      "lista técnica de documento",
+      "DMS"
+    ]
   }
 }

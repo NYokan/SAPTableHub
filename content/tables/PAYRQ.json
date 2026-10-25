@@ -8,5 +8,30 @@
     "es": "Solicitudes de pago",
     "en": "Payment requests",
     "pt": "Solicitações de pagamento"
+  },
+  "purpose": {
+    "es": "Una fila por cada solicitud de pago: una orden de pago generada por otros procesos (tesorería, transferencias entre bancos, gestión de caja interna) que luego paga el programa de pagos. Incluye importe, moneda, fecha de vencimiento, banco emisor y beneficiario.",
+    "en": "One row per payment request: a payment order created by other processes (treasury, bank-to-bank transfers, in-house cash) that is later paid by the payment program. It includes amount, currency, due date, paying bank and payee.",
+    "pt": "Uma linha por solicitação de pagamento: uma ordem de pagamento gerada por outros processos (tesouraria, transferências entre bancos, in-house cash) que depois é paga pelo programa de pagamentos. Inclui montante, moeda, data de vencimento, banco pagador e beneficiário."
+  },
+  "synonyms": {
+    "es": [
+      "solicitud de pago",
+      "orden de pago",
+      "transferencia entre bancos",
+      "payment request"
+    ],
+    "en": [
+      "payment request",
+      "payment order",
+      "bank-to-bank transfer",
+      "treasury payment"
+    ],
+    "pt": [
+      "solicitação de pagamento",
+      "ordem de pagamento",
+      "transferência entre bancos",
+      "payment request"
+    ]
   }
 }

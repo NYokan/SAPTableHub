@@ -8,5 +8,27 @@
     "es": "Documentos preliminares: posiciones de activo fijo",
     "en": "Parked documents: asset items",
     "pt": "Documentos pré-editados: itens de ativo"
+  },
+  "purpose": {
+    "es": "Las posiciones de activo fijo de un documento contable preliminar (aparcado), todavía no contabilizado: activo, clase de movimiento e importe. Cuando el documento se contabiliza pasan a BSEG.",
+    "en": "The fixed asset items of a parked accounting document that has not yet been posted: asset, transaction type and amount. When the document is posted they move to BSEG.",
+    "pt": "Os itens de ativo imobilizado de um documento contábil pré-editado, ainda não lançado: ativo, tipo de movimento e montante. Quando o documento é lançado passam para a BSEG."
+  },
+  "synonyms": {
+    "es": [
+      "documento preliminar de activo",
+      "alta de activo aparcada",
+      "documento aparcado"
+    ],
+    "en": [
+      "parked asset item",
+      "parked asset document",
+      "parked document"
+    ],
+    "pt": [
+      "documento pré-editado de ativo",
+      "aquisição de ativo pré-editada",
+      "documento pré-editado"
+    ]
   }
 }

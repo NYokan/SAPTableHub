@@ -8,5 +8,24 @@
     "es": "Sectores por organización de ventas",
     "en": "Divisions per sales organization",
     "pt": "Setores por organização de vendas"
+  },
+  "purpose": {
+    "es": "Sectores permitidos en cada organización de ventas: una fila por organización y sector. Indica qué líneas de producto vende cada organización.",
+    "en": "Divisions allowed in each sales organization: one row per organization and division. It shows which product lines each organization sells.",
+    "pt": "Setores de atividade permitidos em cada organização de vendas: uma linha por organização e setor. Indica quais linhas de produto cada organização vende."
+  },
+  "synonyms": {
+    "es": [
+      "sector por organización de ventas",
+      "sectores permitidos"
+    ],
+    "en": [
+      "division per sales organization",
+      "allowed divisions"
+    ],
+    "pt": [
+      "setor por organização de vendas",
+      "setores permitidos"
+    ]
   }
 }

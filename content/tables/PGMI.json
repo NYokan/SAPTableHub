@@ -8,5 +8,30 @@
     "es": "Grupos de productos: miembros",
     "en": "Product groups: members",
     "pt": "Grupos de produtos: membros"
+  },
+  "purpose": {
+    "es": "Una fila por cada miembro de un grupo de productos: qué material u otro grupo forma parte del grupo y con qué proporción. Se usa en planificación de ventas y operaciones (SOP) para desagregar el plan del grupo a materiales.",
+    "en": "One row per member of a product group: which material or other product group belongs to it and in what proportion. It is used in sales and operations planning (SOP) to disaggregate the group plan to materials.",
+    "pt": "Uma linha por membro de um grupo de produtos: qual material ou outro grupo faz parte dele e em que proporção. É usada no planejamento de vendas e operações (SOP) para desagregar o plano do grupo em materiais."
+  },
+  "synonyms": {
+    "es": [
+      "grupo de productos",
+      "familia de productos",
+      "desagregación SOP",
+      "miembros del grupo"
+    ],
+    "en": [
+      "product group",
+      "product family",
+      "SOP disaggregation",
+      "group members"
+    ],
+    "pt": [
+      "grupo de produtos",
+      "família de produtos",
+      "desagregação SOP",
+      "membros do grupo"
+    ]
   }
 }

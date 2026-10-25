@@ -9,5 +9,30 @@
     "es": "Estrategias de liberación",
     "en": "Release strategies",
     "pt": "Estratégias de liberação"
+  },
+  "purpose": {
+    "es": "Una fila por grupo y estrategia de liberación con los códigos de liberación que intervienen. Define quiénes deben aprobar una solicitud o pedido de compra; las condiciones previas entre códigos se guardan en otra tabla (T16FV).",
+    "en": "One row per release group and strategy with the release codes involved. It defines who must approve a purchase requisition or order; the prerequisites between codes are stored in another table (T16FV).",
+    "pt": "Uma linha por grupo e estratégia de liberação com os códigos de liberação envolvidos. Define quem deve aprovar uma requisição ou pedido de compra; os pré-requisitos entre códigos ficam em outra tabela (T16FV)."
+  },
+  "synonyms": {
+    "es": [
+      "estrategia de liberación",
+      "flujo de aprobación",
+      "aprobación de pedidos",
+      "niveles de aprobación"
+    ],
+    "en": [
+      "release strategy",
+      "approval workflow",
+      "PO approval",
+      "approval levels"
+    ],
+    "pt": [
+      "estratégia de liberação",
+      "fluxo de aprovação",
+      "aprovação de pedidos",
+      "níveis de aprovação"
+    ]
   }
 }

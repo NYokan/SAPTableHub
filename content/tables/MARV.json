@@ -7,5 +7,30 @@
     "es": "Periodos de materiales por sociedad",
     "en": "Material periods per company code",
     "pt": "Períodos de materiais por empresa"
+  },
+  "purpose": {
+    "es": "Indica, por sociedad, el periodo contable abierto para la gestión de materiales (y el anterior). Determina en qué mes se pueden contabilizar movimientos de stock; se avanza con el cierre de periodo MMPV.",
+    "en": "Shows, per company code, the open posting period for materials management (and the previous one). It determines which month stock movements can be posted to; it is moved forward with the MMPV period close.",
+    "pt": "Indica, por empresa, o período contábil aberto para a gestão de materiais (e o anterior). Determina em qual mês podem ser lançados movimentos de estoque; é avançado com o fechamento MMPV."
+  },
+  "synonyms": {
+    "es": [
+      "periodo de materiales",
+      "periodo abierto MM",
+      "cierre de periodo MM",
+      "MMPV"
+    ],
+    "en": [
+      "MM period",
+      "open MM posting period",
+      "MM period close",
+      "MMPV"
+    ],
+    "pt": [
+      "período de materiais",
+      "período aberto MM",
+      "fechamento de período MM",
+      "MMPV"
+    ]
   }
 }

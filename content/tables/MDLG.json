@@ -5,8 +5,30 @@
   "category": "TRANSP",
   "deliveryClass": "C",
   "title": {
-    "es": "Ámbitos de planificación de necesidades",
-    "en": "MRP areas",
-    "pt": "Áreas de planejamento de necessidades"
+    "es": "Áreas de planificación de necesidades: almacenes asignados",
+    "en": "MRP areas: assigned storage locations",
+    "pt": "Áreas de planejamento de necessidades: depósitos atribuídos"
+  },
+  "purpose": {
+    "es": "Qué almacenes pertenecen a cada área de planificación de necesidades. Con ella se sabe en qué área se planifica el stock de un almacén cuando el MRP no se hace a nivel de todo el centro; las áreas se definen en MDLV.",
+    "en": "Which storage locations belong to each MRP area. It tells you in which area the stock of a storage location is planned when MRP is not run for the whole plant; the areas themselves are defined in MDLV.",
+    "pt": "Quais depósitos pertencem a cada área de planejamento de necessidades. Com ela se sabe em que área o estoque de um depósito é planejado quando o MRP não é feito para o centro inteiro; as áreas são definidas na MDLV."
+  },
+  "synonyms": {
+    "es": [
+      "almacenes del área de planificación",
+      "asignación de almacenes MRP",
+      "área MRP por almacén"
+    ],
+    "en": [
+      "MRP area storage locations",
+      "storage location assignment to MRP area",
+      "MRP area by storage location"
+    ],
+    "pt": [
+      "depósitos da área de planejamento",
+      "atribuição de depósitos MRP",
+      "área MRP por depósito"
+    ]
   }
 }

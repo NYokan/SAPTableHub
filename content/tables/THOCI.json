@@ -8,5 +8,27 @@
     "es": "Asignación de festivos a calendarios",
     "en": "Holiday to calendar assignments",
     "pt": "Atribuição de feriados a calendários"
+  },
+  "purpose": {
+    "es": "Una fila por cada día festivo asignado a un calendario de festivos. Une THOC con THOL e indica qué feriados aplican en cada calendario.",
+    "en": "One row per public holiday assigned to a holiday calendar. It joins THOC with THOL and indicates which holidays apply in each calendar.",
+    "pt": "Uma linha por feriado atribuído a um calendário de feriados. Une a THOC com a THOL e indica quais feriados se aplicam em cada calendário."
+  },
+  "synonyms": {
+    "es": [
+      "festivos del calendario",
+      "asignación de feriados",
+      "feriados por calendario"
+    ],
+    "en": [
+      "holidays in calendar",
+      "holiday assignment",
+      "holidays per calendar"
+    ],
+    "pt": [
+      "feriados do calendário",
+      "atribuição de feriados",
+      "feriados por calendário"
+    ]
   }
 }

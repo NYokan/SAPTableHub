@@ -8,5 +8,27 @@
     "es": "Grupos (sets): valores incluidos",
     "en": "Sets (groups): included values",
     "pt": "Grupos (sets): valores incluídos"
+  },
+  "purpose": {
+    "es": "Los valores o intervalos de valores (desde–hasta) incluidos en cada grupo (set) básico, por ejemplo qué centros de coste o qué rango de cuentas pertenecen a un grupo. Es la tabla a consultar para saber qué contiene un grupo.",
+    "en": "The values or value ranges (from–to) included in each basic set, for example which cost centers or which account range belong to a group. It is the table to query to know what a group contains.",
+    "pt": "Os valores ou intervalos de valores (de–até) incluídos em cada set básico, por exemplo quais centros de custo ou qual intervalo de contas pertencem a um grupo. É a tabela a consultar para saber o que um grupo contém."
+  },
+  "synonyms": {
+    "es": [
+      "valores del grupo",
+      "rango de cuentas del grupo",
+      "centros de coste del grupo"
+    ],
+    "en": [
+      "set values",
+      "account range in group",
+      "cost centers in group"
+    ],
+    "pt": [
+      "valores do grupo",
+      "intervalo de contas do grupo",
+      "centros de custo do grupo"
+    ]
   }
 }

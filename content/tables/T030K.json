@@ -8,5 +8,27 @@
     "es": "Cuentas de impuestos por indicador de IVA",
     "en": "Tax accounts by tax code",
     "pt": "Contas de impostos por código de imposto"
+  },
+  "purpose": {
+    "es": "Para cada plan de cuentas, clave de operación de impuestos e indicador de impuesto, la cuenta de mayor donde se contabiliza el impuesto. Explica a qué cuenta va el IVA de cada indicador.",
+    "en": "For each chart of accounts, tax transaction key and tax code, the G/L account where the tax is posted. It explains which account the VAT of each tax code goes to.",
+    "pt": "Para cada plano de contas, chave de operação de imposto e código de imposto, a conta do razão onde o imposto é lançado. Explica para qual conta vai o imposto de cada código."
+  },
+  "synonyms": {
+    "es": [
+      "cuenta de IVA",
+      "cuentas de impuestos",
+      "cuenta por indicador de impuesto"
+    ],
+    "en": [
+      "tax account",
+      "VAT account",
+      "tax account by tax code"
+    ],
+    "pt": [
+      "conta de imposto",
+      "contas de impostos",
+      "conta por código de imposto"
+    ]
   }
 }

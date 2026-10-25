@@ -8,5 +8,27 @@
     "es": "Números de serie en contratos de mantenimiento (cabecera)",
     "en": "Serial numbers in maintenance contracts (header)",
     "pt": "Números de série em contratos de manutenção (cabeçalho)"
+  },
+  "purpose": {
+    "es": "Cabecera de los números de serie asignados en contratos de mantenimiento y documentos de ventas: enlaza cada posición del documento con la lista de objetos (OBJK) que contiene los números de serie y equipos.",
+    "en": "Header of serial numbers assigned in maintenance contracts and sales documents: it links each document item to the object list (OBJK) holding the serial numbers and equipment.",
+    "pt": "Cabeçalho dos números de série atribuídos em contratos de manutenção e documentos de vendas: liga cada item do documento à lista de objetos (OBJK) que contém os números de série e equipamentos."
+  },
+  "synonyms": {
+    "es": [
+      "números de serie en contrato",
+      "equipos del contrato de mantenimiento",
+      "serie por contrato"
+    ],
+    "en": [
+      "contract serial numbers",
+      "maintenance contract equipment",
+      "serial number per contract"
+    ],
+    "pt": [
+      "números de série no contrato",
+      "equipamentos do contrato de manutenção",
+      "série por contrato"
+    ]
   }
 }

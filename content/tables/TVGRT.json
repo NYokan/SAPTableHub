@@ -9,5 +9,27 @@
     "es": "Grupos de vendedores: textos",
     "en": "Sales groups: texts",
     "pt": "Equipes de vendas: textos"
+  },
+  "purpose": {
+    "es": "Descripción de cada grupo de vendedores en cada idioma: una fila por código e idioma. Sirve para mostrar un nombre legible en lugar del código VKGRP en informes; los códigos se definen en TVGR.",
+    "en": "Description of each sales group in each language: one row per code and language. Use it to show a readable name instead of the VKGRP code in reports; the codes themselves are defined in TVGR.",
+    "pt": "Descrição de cada equipe de vendas em cada idioma: uma linha por código e idioma. Serve para mostrar um nome legível em vez do código VKGRP em relatórios; os códigos são definidos na TVGR."
+  },
+  "synonyms": {
+    "es": [
+      "texto grupo de vendedores",
+      "nombre grupo de vendedores",
+      "VKGRP"
+    ],
+    "en": [
+      "sales group text",
+      "sales group name",
+      "VKGRP"
+    ],
+    "pt": [
+      "texto equipe de vendas",
+      "nome equipe de vendas",
+      "VKGRP"
+    ]
   }
 }

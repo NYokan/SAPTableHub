@@ -8,5 +8,33 @@
     "es": "Documentos de ventas: estado de cabecera",
     "en": "Sales documents: header status",
     "pt": "Documentos de vendas: status do cabeçalho"
+  },
+  "purpose": {
+    "es": "Estado de cada documento de ventas, entrega o factura a nivel cabecera: si está entregado, facturado, completo, bloqueado por crédito o con datos incompletos. En S/4HANA desaparece y estos campos pasan a VBAK, LIKP y VBRK.",
+    "en": "Status of each sales document, delivery or invoice at header level: whether it is delivered, billed, complete, credit-blocked or incomplete. In S/4HANA it is gone and these fields move to VBAK, LIKP and VBRK.",
+    "pt": "Status de cada documento de vendas, remessa ou fatura no nível de cabeçalho: se está entregue, faturado, completo, bloqueado por crédito ou com dados incompletos. No S/4HANA deixa de existir e esses campos passam para VBAK, LIKP e VBRK."
+  },
+  "synonyms": {
+    "es": [
+      "estado del pedido",
+      "estado de cabecera",
+      "pedido abierto",
+      "bloqueo de crédito",
+      "estado global"
+    ],
+    "en": [
+      "order status",
+      "header status",
+      "open order",
+      "credit block",
+      "overall status"
+    ],
+    "pt": [
+      "status da ordem",
+      "status do cabeçalho",
+      "ordem em aberto",
+      "bloqueio de crédito",
+      "status global"
+    ]
   }
 }

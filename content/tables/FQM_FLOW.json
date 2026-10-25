@@ -9,5 +9,30 @@
     "es": "Gestión de tesorería: flujos de caja previstos",
     "en": "Cash management: expected cash flows",
     "pt": "Gestão de caixa: fluxos de caixa previstos"
+  },
+  "purpose": {
+    "es": "En S/4HANA, los flujos de caja de «One Exposure from Operations»: una fila por cada importe que entrará o saldrá de caja según su origen (facturas, pedidos, operaciones financieras), con fecha, cuenta y posición de liquidez. Es la base de la previsión de liquidez de Cash Management en S/4HANA.",
+    "en": "In S/4HANA, the cash flows of \"One Exposure from Operations\": one row per amount that will flow in or out of cash according to its source (invoices, orders, financial transactions), with date, account and liquidity item. It is the basis of the liquidity forecast in S/4HANA Cash Management.",
+    "pt": "No S/4HANA, os fluxos de caixa do «One Exposure from Operations»: uma linha por montante que entrará ou sairá do caixa conforme sua origem (faturas, pedidos, operações financeiras), com data, conta e item de liquidez. É a base da previsão de liquidez do Cash Management no S/4HANA."
+  },
+  "synonyms": {
+    "es": [
+      "One Exposure",
+      "previsión de liquidez S/4HANA",
+      "flujos de caja previstos",
+      "Cash Management"
+    ],
+    "en": [
+      "One Exposure",
+      "S/4HANA liquidity forecast",
+      "expected cash flows",
+      "Cash Management"
+    ],
+    "pt": [
+      "One Exposure",
+      "previsão de liquidez S/4HANA",
+      "fluxos de caixa previstos",
+      "Cash Management"
+    ]
   }
 }

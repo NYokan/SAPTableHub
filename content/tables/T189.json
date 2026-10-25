@@ -9,5 +9,27 @@
     "es": "Tipos de lista de precios",
     "en": "Price list types",
     "pt": "Tipos de lista de preços"
+  },
+  "purpose": {
+    "es": "Lista de tipos de lista de precios (campo PLTYP), por ejemplo mayorista, minorista o exportación. Se asignan al cliente en KNVV, se copian al pedido y permiten tener precios distintos para el mismo material.",
+    "en": "List of price list types (field PLTYP), for example wholesale, retail or export. They are assigned to the customer in KNVV, copied to the order and allow different prices for the same material.",
+    "pt": "Lista de tipos de lista de preços (campo PLTYP), por exemplo atacado, varejo ou exportação. São atribuídos ao cliente na KNVV, copiados para a ordem e permitem preços diferentes para o mesmo material."
+  },
+  "synonyms": {
+    "es": [
+      "tipo de lista de precios",
+      "lista de precios",
+      "PLTYP"
+    ],
+    "en": [
+      "price list type",
+      "price list",
+      "PLTYP"
+    ],
+    "pt": [
+      "tipo de lista de preços",
+      "lista de preços",
+      "PLTYP"
+    ]
   }
 }

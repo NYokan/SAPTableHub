@@ -8,5 +8,24 @@
     "es": "Versiones por sociedad CO",
     "en": "Versions per controlling area",
     "pt": "Versões por área de contabilidade de custos"
+  },
+  "purpose": {
+    "es": "Ajustes de cada versión de Controlling por sociedad CO, válidos para todos los ejercicios. Complementa la definición general de versiones de TKVS y los ajustes por ejercicio de TKA07.",
+    "en": "Settings of each Controlling version per controlling area, valid for all fiscal years. It complements the general version definition in TKVS and the per-year settings in TKA07.",
+    "pt": "Ajustes de cada versão do Controlling por área de contabilidade de custos, válidos para todos os exercícios. Complementa a definição geral de versões da TKVS e os ajustes por exercício da TKA07."
+  },
+  "synonyms": {
+    "es": [
+      "versión por sociedad CO",
+      "ajustes de versión"
+    ],
+    "en": [
+      "version per controlling area",
+      "version settings"
+    ],
+    "pt": [
+      "versão por área de custos",
+      "ajustes de versão"
+    ]
   }
 }

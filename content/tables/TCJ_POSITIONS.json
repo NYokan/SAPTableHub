@@ -8,5 +8,27 @@
     "es": "Libro de caja: posiciones de documentos",
     "en": "Cash journal: document items",
     "pt": "Livro de caixa: itens de documentos"
+  },
+  "purpose": {
+    "es": "Las líneas de un documento del libro de caja cuando se reparte en varias imputaciones (por ejemplo, un gasto con varios centros de coste o indicadores de impuesto). La cabecera está en TCJ_DOCUMENTS.",
+    "en": "The lines of a cash journal document when it is split across several assignments (for example, an expense with several cost centers or tax codes). The header is in TCJ_DOCUMENTS.",
+    "pt": "As linhas de um documento do livro caixa quando é dividido em várias imputações (por exemplo, uma despesa com vários centros de custo ou códigos de imposto). O cabeçalho está na TCJ_DOCUMENTS."
+  },
+  "synonyms": {
+    "es": [
+      "líneas de documento de caja",
+      "reparto de gasto de caja",
+      "imputación de caja"
+    ],
+    "en": [
+      "cash journal line items",
+      "split cash entry",
+      "cash expense assignment"
+    ],
+    "pt": [
+      "itens do documento de caixa",
+      "divisão de despesa de caixa",
+      "imputação de caixa"
+    ]
   }
 }

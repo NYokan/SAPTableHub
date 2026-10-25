@@ -8,5 +8,27 @@
     "es": "Programa de pagos: cuentas bloqueadas por una ejecución",
     "en": "Payment program: accounts locked by a run",
     "pt": "Programa de pagamento: contas bloqueadas por uma execução"
+  },
+  "purpose": {
+    "es": "Las cuentas de clientes y proveedores que una ejecución del programa de pagos tiene bloqueadas mientras está en curso, para que no se paguen dos veces. Si una ejecución queda a medias, aquí aparecen las cuentas que siguen bloqueadas.",
+    "en": "The customer and vendor accounts locked by a payment program run while it is in progress, so they are not paid twice. If a run is left half-done, the accounts still locked appear here.",
+    "pt": "As contas de clientes e fornecedores que uma execução do programa de pagamentos mantém bloqueadas enquanto está em andamento, para que não sejam pagas duas vezes. Se uma execução fica pela metade, aqui aparecem as contas ainda bloqueadas."
+  },
+  "synonyms": {
+    "es": [
+      "bloqueo por programa de pagos",
+      "cuentas bloqueadas por pago",
+      "ejecución de pagos F110"
+    ],
+    "en": [
+      "payment run lock",
+      "accounts locked by payment run",
+      "F110 payment run"
+    ],
+    "pt": [
+      "bloqueio pelo programa de pagamentos",
+      "contas bloqueadas pelo pagamento",
+      "execução de pagamentos F110"
+    ]
   }
 }

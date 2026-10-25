@@ -8,5 +8,27 @@
     "es": "Dimensiones de unidades de medida",
     "en": "Unit of measure dimensions",
     "pt": "Dimensões de unidades de medida"
+  },
+  "purpose": {
+    "es": "Una fila por dimensión física (longitud, masa, tiempo, volumen…) con sus exponentes de las magnitudes básicas y su unidad SI. Solo se pueden convertir entre sí unidades de la misma dimensión.",
+    "en": "One row per physical dimension (length, mass, time, volume…) with its exponents of the base quantities and its SI unit. Only units of the same dimension can be converted into each other.",
+    "pt": "Uma linha por dimensão física (comprimento, massa, tempo, volume…) com seus expoentes das grandezas básicas e sua unidade SI. Só podem ser convertidas entre si unidades da mesma dimensão."
+  },
+  "synonyms": {
+    "es": [
+      "dimensión de unidad",
+      "magnitud física",
+      "unidad SI"
+    ],
+    "en": [
+      "unit dimension",
+      "physical dimension",
+      "SI unit"
+    ],
+    "pt": [
+      "dimensão da unidade",
+      "grandeza física",
+      "unidade SI"
+    ]
   }
 }

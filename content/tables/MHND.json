@@ -8,5 +8,30 @@
     "es": "Reclamaciones: partidas reclamadas",
     "en": "Dunning: dunned items",
     "pt": "Advertências: partidas advertidas"
+  },
+  "purpose": {
+    "es": "Una fila por cada partida incluida en una ejecución de reclamación: documento reclamado, nivel de reclamación, días de retraso e importe. Junto con MHNK (una fila por cuenta reclamada) permite ver qué se reclamó a cada cliente.",
+    "en": "One row per item included in a dunning run: dunned document, dunning level, days in arrears and amount. Together with MHNK (one row per dunned account) it shows what each customer was dunned for.",
+    "pt": "Uma linha por partida incluída em uma execução de advertência: documento advertido, nível de advertência, dias de atraso e montante. Junto com a MHNK (uma linha por conta advertida) mostra o que foi cobrado de cada cliente."
+  },
+  "synonyms": {
+    "es": [
+      "partidas reclamadas",
+      "cartas de reclamación",
+      "facturas vencidas reclamadas",
+      "nivel de reclamación"
+    ],
+    "en": [
+      "dunned items",
+      "dunning notices",
+      "overdue invoices dunned",
+      "dunning level"
+    ],
+    "pt": [
+      "partidas advertidas",
+      "cartas de cobrança",
+      "faturas vencidas cobradas",
+      "nível de advertência"
+    ]
   }
 }

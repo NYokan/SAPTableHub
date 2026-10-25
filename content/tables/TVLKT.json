@@ -9,5 +9,27 @@
     "es": "Clases de entrega: textos",
     "en": "Delivery types: texts",
     "pt": "Tipos de remessa: textos"
+  },
+  "purpose": {
+    "es": "Descripción de cada clase de entrega en cada idioma: una fila por código e idioma. Sirve para mostrar un nombre legible en lugar del código LFART en informes; los códigos se definen en TVLK.",
+    "en": "Description of each delivery type in each language: one row per code and language. Use it to show a readable name instead of the LFART code in reports; the codes themselves are defined in TVLK.",
+    "pt": "Descrição de cada tipo de remessa em cada idioma: uma linha por código e idioma. Serve para mostrar um nome legível em vez do código LFART em relatórios; os códigos são definidos na TVLK."
+  },
+  "synonyms": {
+    "es": [
+      "texto clase de entrega",
+      "nombre clase de entrega",
+      "LFART"
+    ],
+    "en": [
+      "delivery type text",
+      "delivery type name",
+      "LFART"
+    ],
+    "pt": [
+      "texto tipo de remessa",
+      "nome tipo de remessa",
+      "LFART"
+    ]
   }
 }

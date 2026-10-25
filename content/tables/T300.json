@@ -9,5 +9,27 @@
     "es": "Números de almacén",
     "en": "Warehouse numbers",
     "pt": "Números de armazém"
+  },
+  "purpose": {
+    "es": "Lista de números de almacén de Warehouse Management (WM): cada número representa un almacén físico complejo gestionado con ubicaciones. Es el nivel superior de la estructura WM.",
+    "en": "List of Warehouse Management (WM) warehouse numbers: each represents a complex physical warehouse managed by storage bins. It is the top level of the WM structure.",
+    "pt": "Lista de números de depósito do Warehouse Management (WM): cada número representa um depósito físico complexo gerenciado por posições. É o nível superior da estrutura WM."
+  },
+  "synonyms": {
+    "es": [
+      "número de almacén",
+      "almacén WM",
+      "centro de distribución WM"
+    ],
+    "en": [
+      "warehouse number",
+      "WM warehouse",
+      "WM distribution center"
+    ],
+    "pt": [
+      "número do depósito",
+      "depósito WM",
+      "centro de distribuição WM"
+    ]
   }
 }

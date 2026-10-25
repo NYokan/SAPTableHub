@@ -8,5 +8,30 @@
     "es": "Bancos propios",
     "en": "House banks",
     "pt": "Bancos próprios"
+  },
+  "purpose": {
+    "es": "Los bancos propios de cada sociedad: el banco donde la empresa tiene cuentas, con su país y clave de banco. Cada banco propio tiene una o varias cuentas (T012K) que usan los pagos y extractos.",
+    "en": "The house banks of each company code: the bank where the company holds accounts, with its country and bank key. Each house bank has one or more accounts (T012K) used by payments and statements.",
+    "pt": "Os bancos próprios de cada empresa: o banco onde a empresa tem contas, com país e chave do banco. Cada banco próprio tem uma ou mais contas (T012K) usadas por pagamentos e extratos."
+  },
+  "synonyms": {
+    "es": [
+      "banco propio",
+      "bancos de la empresa",
+      "house bank",
+      "HBKID"
+    ],
+    "en": [
+      "house bank",
+      "company bank",
+      "HBKID",
+      "own bank"
+    ],
+    "pt": [
+      "banco próprio",
+      "bancos da empresa",
+      "house bank",
+      "HBKID"
+    ]
   }
 }

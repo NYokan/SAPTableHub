@@ -9,5 +9,27 @@
     "es": "Condiciones de pago de clientes: textos",
     "en": "Customer payment terms: texts",
     "pt": "Condições de pagamento de clientes: textos"
+  },
+  "purpose": {
+    "es": "Descripción de cada condición de pago en cada idioma: una fila por código e idioma. Sirve para mostrar un nombre legible en lugar del código ZTERM en informes; los códigos se definen en T052.",
+    "en": "Description of each payment terms key in each language: one row per code and language. Use it to show a readable name instead of the ZTERM code in reports; the codes themselves are defined in T052.",
+    "pt": "Descrição de cada condição de pagamento em cada idioma: uma linha por código e idioma. Serve para mostrar um nome legível em vez do código ZTERM em relatórios; os códigos são definidos na T052."
+  },
+  "synonyms": {
+    "es": [
+      "texto condición de pago",
+      "descripción condiciones de pago",
+      "ZTERM"
+    ],
+    "en": [
+      "payment terms text",
+      "payment terms description",
+      "ZTERM"
+    ],
+    "pt": [
+      "texto condição de pagamento",
+      "descrição condições de pagamento",
+      "ZTERM"
+    ]
   }
 }

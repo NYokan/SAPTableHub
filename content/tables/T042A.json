@@ -8,5 +8,27 @@
     "es": "Programa de pagos: selección de bancos",
     "en": "Payment program: bank selection",
     "pt": "Programa de pagamento: seleção de bancos"
+  },
+  "purpose": {
+    "es": "La selección de bancos del programa de pagos: para cada sociedad pagadora, vía de pago y moneda, el orden de preferencia de los bancos propios desde los que se paga.",
+    "en": "The payment program bank selection: for each paying company code, payment method and currency, the ranking order of the house banks used to pay.",
+    "pt": "A seleção de bancos do programa de pagamentos: para cada empresa pagadora, forma de pagamento e moeda, a ordem de preferência dos bancos próprios usados para pagar."
+  },
+  "synonyms": {
+    "es": [
+      "selección de bancos",
+      "orden de bancos para pagos",
+      "banco pagador"
+    ],
+    "en": [
+      "bank selection",
+      "bank ranking order",
+      "paying bank"
+    ],
+    "pt": [
+      "seleção de bancos",
+      "ordem de bancos para pagamentos",
+      "banco pagador"
+    ]
   }
 }

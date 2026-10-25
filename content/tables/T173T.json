@@ -8,5 +8,27 @@
     "es": "Clases de expedición: textos",
     "en": "Shipping types: texts",
     "pt": "Tipos de expedição: textos"
+  },
+  "purpose": {
+    "es": "Descripción de cada clase de expedición (camión, tren, barco…) en cada idioma: una fila por código e idioma. Sirve para mostrar un nombre legible en lugar del código VSART en informes; los códigos se definen en T173.",
+    "en": "Description of each shipping type (truck, rail, sea…) in each language: one row per code and language. Use it to show a readable name instead of the VSART code in reports; the codes themselves are defined in T173.",
+    "pt": "Descrição de cada tipo de expedição (caminhão, trem, navio…) em cada idioma: uma linha por código e idioma. Serve para mostrar um nome legível em vez do código VSART em relatórios; os códigos são definidos na T173."
+  },
+  "synonyms": {
+    "es": [
+      "texto clase de expedición",
+      "medio de transporte texto",
+      "VSART"
+    ],
+    "en": [
+      "shipping type text",
+      "mode of transport text",
+      "VSART"
+    ],
+    "pt": [
+      "texto tipo de expedição",
+      "texto meio de transporte",
+      "VSART"
+    ]
   }
 }

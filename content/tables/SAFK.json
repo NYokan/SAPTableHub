@@ -8,5 +8,30 @@
     "es": "Fabricación en serie: cabecera de programa",
     "en": "Repetitive manufacturing: run schedule header",
     "pt": "Produção repetitiva: cabeçalho do programa"
+  },
+  "purpose": {
+    "es": "Una fila por cada cabecera de programa de fabricación en serie: material, centro y datos de control para la producción repetitiva. Se usa para producir de forma continua sin órdenes de fabricación individuales.",
+    "en": "One row per run schedule header in repetitive manufacturing: material, plant and control data for repetitive production. It is used to produce continuously without individual production orders.",
+    "pt": "Uma linha por cabeçalho de programa de produção repetitiva: material, centro e dados de controle da produção em série. É usada para produzir de forma contínua sem ordens de produção individuais."
+  },
+  "synonyms": {
+    "es": [
+      "fabricación en serie",
+      "producción repetitiva",
+      "programa de fabricación",
+      "REM"
+    ],
+    "en": [
+      "repetitive manufacturing",
+      "run schedule",
+      "REM",
+      "run schedule header"
+    ],
+    "pt": [
+      "produção repetitiva",
+      "produção em série",
+      "programa de produção",
+      "REM"
+    ]
   }
 }

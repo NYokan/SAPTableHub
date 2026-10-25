@@ -9,5 +9,27 @@
     "es": "Monedas (nombres)",
     "en": "Currencies (names)",
     "pt": "Moedas (nomes)"
+  },
+  "purpose": {
+    "es": "Nombre largo y corto de cada moneda por idioma, por ejemplo «Peso chileno» para CLP. Complementa a TCURC.",
+    "en": "Long and short name of each currency per language, for example 'Chilean Peso' for CLP. It complements TCURC.",
+    "pt": "Nome longo e curto de cada moeda por idioma, por exemplo 'Real brasileiro' para BRL. Complementa a TCURC."
+  },
+  "synonyms": {
+    "es": [
+      "nombre de moneda",
+      "descripción de moneda",
+      "texto de moneda"
+    ],
+    "en": [
+      "currency name",
+      "currency description",
+      "currency text"
+    ],
+    "pt": [
+      "nome da moeda",
+      "descrição da moeda",
+      "texto da moeda"
+    ]
   }
 }

@@ -9,5 +9,27 @@
     "es": "Motivos de bloqueo de factura: textos",
     "en": "Billing block reasons: texts",
     "pt": "Motivos de bloqueio de faturamento: textos"
+  },
+  "purpose": {
+    "es": "Descripción de cada motivo de bloqueo de factura en cada idioma: una fila por código e idioma. Sirve para mostrar un nombre legible en lugar del código FAKSP en informes; los códigos se definen en TVFS.",
+    "en": "Description of each billing block reason in each language: one row per code and language. Use it to show a readable name instead of the FAKSP code in reports; the codes themselves are defined in TVFS.",
+    "pt": "Descrição de cada motivo de bloqueio de faturamento em cada idioma: uma linha por código e idioma. Serve para mostrar um nome legível em vez do código FAKSP em relatórios; os códigos são definidos na TVFS."
+  },
+  "synonyms": {
+    "es": [
+      "texto bloqueo de factura",
+      "motivo bloqueo facturación",
+      "FAKSP"
+    ],
+    "en": [
+      "billing block text",
+      "billing block reason",
+      "FAKSP"
+    ],
+    "pt": [
+      "texto bloqueio de faturamento",
+      "motivo bloqueio faturamento",
+      "FAKSP"
+    ]
   }
 }

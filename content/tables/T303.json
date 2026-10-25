@@ -9,5 +9,27 @@
     "es": "Tipos de ubicación",
     "en": "Storage bin types",
     "pt": "Tipos de posição"
+  },
+  "purpose": {
+    "es": "Lista de tipos de ubicación WM: clasifican las ubicaciones según su tamaño o forma (por ejemplo, hueco grande o pequeño), para decidir dónde cabe cada unidad de almacén.",
+    "en": "List of WM storage bin types: they classify bins by size or shape (for example, large or small slot), to decide where each storage unit fits.",
+    "pt": "Lista de tipos de posição WM: classificam as posições pelo tamanho ou forma (por exemplo, vão grande ou pequeno), para decidir onde cabe cada unidade de depósito."
+  },
+  "synonyms": {
+    "es": [
+      "tipo de ubicación",
+      "tamaño de ubicación",
+      "tipo de hueco"
+    ],
+    "en": [
+      "storage bin type",
+      "bin size",
+      "slot type"
+    ],
+    "pt": [
+      "tipo de posição",
+      "tamanho da posição",
+      "tipo de vão"
+    ]
   }
 }

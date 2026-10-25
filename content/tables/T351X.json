@@ -8,5 +8,24 @@
     "es": "Paquetes de mantenimiento (textos)",
     "en": "Maintenance packages (texts)",
     "pt": "Pacotes de manutenção (textos)"
+  },
+  "purpose": {
+    "es": "Descripciones por idioma de los paquetes de mantenimiento de cada estrategia (T351P). Se usa para mostrar el nombre legible en informes en lugar del código.",
+    "en": "Language-dependent descriptions of maintenance packages of each strategy (T351P). Used to show the readable name in reports instead of the code.",
+    "pt": "Descrições por idioma de pacotes de manutenção de cada estratégia (T351P). Usada para mostrar o nome legível em relatórios em vez do código."
+  },
+  "synonyms": {
+    "es": [
+      "texto paquete de mantenimiento",
+      "descripción del ciclo"
+    ],
+    "en": [
+      "maintenance package text",
+      "cycle description"
+    ],
+    "pt": [
+      "texto pacote de manutenção",
+      "descrição do ciclo"
+    ]
   }
 }

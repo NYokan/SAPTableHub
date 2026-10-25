@@ -8,5 +8,27 @@
     "es": "Datos de control de planificación primaria",
     "en": "Primary cost planning control data",
     "pt": "Dados de controle do planejamento primário"
+  },
+  "purpose": {
+    "es": "Datos de control de la planificación de costes primarios por objeto CO, ejercicio, versión y clase de coste: por ejemplo, la clave de distribución que reparte el importe anual entre períodos. Los importes planificados están en COSP.",
+    "en": "Control data for primary cost planning per CO object, fiscal year, version and cost element: for example, the distribution key that spreads the annual amount across periods. The planned amounts are in COSP.",
+    "pt": "Dados de controle do planejamento de custos primários por objeto CO, exercício, versão e classe de custo: por exemplo, a chave de distribuição que reparte o valor anual entre os períodos. Os valores planejados estão na COSP."
+  },
+  "synonyms": {
+    "es": [
+      "control de plan primario",
+      "planificación de costes primarios",
+      "clave de distribución"
+    ],
+    "en": [
+      "primary planning control",
+      "primary cost planning",
+      "distribution key"
+    ],
+    "pt": [
+      "controle do plano primário",
+      "planejamento de custos primários",
+      "chave de distribuição"
+    ]
   }
 }

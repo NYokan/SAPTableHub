@@ -8,5 +8,30 @@
     "es": "Asignación de listas de materiales a equipos",
     "en": "Bill of material links to equipment",
     "pt": "Atribuição de listas técnicas a equipamentos"
+  },
+  "purpose": {
+    "es": "Enlace entre cada equipo y su lista de materiales (repuestos y componentes), por centro. Permite saber qué piezas tiene una máquina; los componentes de la lista están en STPO.",
+    "en": "Link between each piece of equipment and its bill of material (spare parts and components), per plant. It shows which parts a machine has; the list components are in STPO.",
+    "pt": "Ligação entre cada equipamento e sua lista técnica (peças de reposição e componentes), por centro. Permite saber quais peças uma máquina tem; os componentes da lista estão na STPO."
+  },
+  "synonyms": {
+    "es": [
+      "lista de materiales de equipo",
+      "repuestos del equipo",
+      "BOM de equipo",
+      "piezas de la máquina"
+    ],
+    "en": [
+      "equipment BOM",
+      "equipment spare parts",
+      "equipment bill of material",
+      "machine parts"
+    ],
+    "pt": [
+      "lista técnica do equipamento",
+      "peças de reposição do equipamento",
+      "BOM do equipamento",
+      "peças da máquina"
+    ]
   }
 }

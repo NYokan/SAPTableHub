@@ -8,5 +8,24 @@
     "es": "Status de hojas de ruta (descripciones)",
     "en": "Task list statuses (descriptions)",
     "pt": "Status de roteiros (descrições)"
+  },
+  "purpose": {
+    "es": "Descripción de cada status de hojas de ruta, por idioma. Se une con T412 o PLKO para mostrar el nombre del status.",
+    "en": "Description of each task list status, per language. It is joined to T412 or PLKO to show the status name.",
+    "pt": "Descrição de cada status de roteiros, por idioma. É unida à T412 ou à PLKO para mostrar o nome do status."
+  },
+  "synonyms": {
+    "es": [
+      "nombre del status de ruta",
+      "descripción de status de hoja de ruta"
+    ],
+    "en": [
+      "task list status name",
+      "routing status description"
+    ],
+    "pt": [
+      "nome do status do roteiro",
+      "descrição do status do roteiro"
+    ]
   }
 }

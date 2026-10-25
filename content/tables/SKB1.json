@@ -9,5 +9,30 @@
     "es": "Cuentas de mayor: datos por sociedad",
     "en": "G/L accounts: company code data",
     "pt": "Contas do razão: dados por empresa"
+  },
+  "purpose": {
+    "es": "Una fila por cuenta de mayor y sociedad con su configuración en esa sociedad: moneda de la cuenta, gestión de partidas abiertas, visualización de partidas individuales, grupo de estado de campo y si es cuenta asociada de clientes, proveedores o activos.",
+    "en": "One row per G/L account and company code with its settings there: account currency, open item management, line item display, field status group and whether it is a reconciliation account for customers, vendors or assets.",
+    "pt": "Uma linha por conta do razão e empresa com sua configuração nessa empresa: moeda da conta, administração de partidas em aberto, exibição de partidas individuais, grupo de status de campo e se é conta de reconciliação de clientes, fornecedores ou ativos."
+  },
+  "synonyms": {
+    "es": [
+      "cuenta de mayor por sociedad",
+      "gestión de partidas abiertas",
+      "moneda de la cuenta",
+      "cuenta asociada"
+    ],
+    "en": [
+      "G/L account company code data",
+      "open item management",
+      "account currency",
+      "reconciliation account"
+    ],
+    "pt": [
+      "conta do razão por empresa",
+      "administração de partidas em aberto",
+      "moeda da conta",
+      "conta de reconciliação"
+    ]
   }
 }

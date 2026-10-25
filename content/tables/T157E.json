@@ -8,5 +8,24 @@
     "es": "Motivos de movimiento (textos)",
     "en": "Reasons for movement (texts)",
     "pt": "Motivos de movimento (textos)"
+  },
+  "purpose": {
+    "es": "Descripciones por idioma de los motivos de movimiento (T157D) por clase de movimiento. Se usa para mostrar el nombre legible en informes en lugar del código.",
+    "en": "Language-dependent descriptions of reasons for movement (T157D) per movement type. Used to show the readable name in reports instead of the code.",
+    "pt": "Descrições por idioma de motivos de movimento (T157D) por tipo de movimento. Usada para mostrar o nome legível em relatórios em vez do código."
+  },
+  "synonyms": {
+    "es": [
+      "texto motivo de movimiento",
+      "descripción causa de baja"
+    ],
+    "en": [
+      "reason for movement text",
+      "scrapping reason description"
+    ],
+    "pt": [
+      "texto motivo de movimento",
+      "descrição causa da baixa"
+    ]
   }
 }

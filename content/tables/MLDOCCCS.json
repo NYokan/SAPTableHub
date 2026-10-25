@@ -9,5 +9,27 @@
     "es": "Documentos del ledger de materiales: componentes de coste",
     "en": "Material ledger documents: cost components",
     "pt": "Documentos do ledger de materiais: componentes de custo"
+  },
+  "purpose": {
+    "es": "En S/4HANA, el desglose por componentes de coste (materia prima, mano de obra, gastos generales, etc.) de los movimientos de MLDOC. Sirve para ver de qué se compone el costo real de cada movimiento de material.",
+    "en": "In S/4HANA, the cost component split (raw material, labor, overhead, etc.) of the movements in MLDOC. It shows what the actual cost of each material movement is made of.",
+    "pt": "No S/4HANA, a divisão por componentes de custo (matéria-prima, mão de obra, custos indiretos etc.) dos movimentos da MLDOC. Mostra do que é composto o custo real de cada movimento de material."
+  },
+  "synonyms": {
+    "es": [
+      "componentes de coste reales",
+      "desglose de costo real",
+      "material ledger por componentes"
+    ],
+    "en": [
+      "actual cost components",
+      "actual cost split",
+      "material ledger cost components"
+    ],
+    "pt": [
+      "componentes de custo reais",
+      "divisão do custo real",
+      "material ledger por componentes"
+    ]
   }
 }

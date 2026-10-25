@@ -8,5 +8,30 @@
     "es": "Socios de negocio (datos bancarios)",
     "en": "Business partners (bank details)",
     "pt": "Parceiros de negócios (dados bancários)"
+  },
+  "purpose": {
+    "es": "Una fila por cada cuenta bancaria de un socio de negocio: país del banco, clave de banco, número de cuenta, IBAN y titular. Se usa para pagos y cobros; equivale a LFBK/KNBK en el maestro clásico.",
+    "en": "One row per bank account of a business partner: bank country, bank key, account number, IBAN and holder. It is used for payments and collections; it corresponds to LFBK/KNBK in the classic master data.",
+    "pt": "Uma linha por conta bancária de um parceiro de negócios: país do banco, chave do banco, número da conta, IBAN e titular. É usada para pagamentos e recebimentos; equivale à LFBK/KNBK no cadastro clássico."
+  },
+  "synonyms": {
+    "es": [
+      "datos bancarios del socio",
+      "cuenta bancaria BP",
+      "IBAN del socio",
+      "banco del interlocutor"
+    ],
+    "en": [
+      "BP bank details",
+      "partner bank account",
+      "business partner IBAN",
+      "bank data"
+    ],
+    "pt": [
+      "dados bancários do parceiro",
+      "conta bancária BP",
+      "IBAN do parceiro",
+      "banco do parceiro"
+    ]
   }
 }

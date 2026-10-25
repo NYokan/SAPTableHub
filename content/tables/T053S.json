@@ -8,5 +8,24 @@
     "es": "Motivos de diferencias de pago: textos",
     "en": "Payment difference reason codes: texts",
     "pt": "Motivos de diferenças de pagamento: textos"
+  },
+  "purpose": {
+    "es": "Nombre de cada motivo de diferencia de pago en cada idioma, por sociedad, para mostrar una descripción legible en lugar del código de T053R.",
+    "en": "Name of each payment difference reason code in each language, per company code, to show a readable description instead of the code from T053R.",
+    "pt": "Nome de cada motivo de diferença de pagamento em cada idioma, por empresa, para mostrar uma descrição legível em vez do código da T053R."
+  },
+  "synonyms": {
+    "es": [
+      "texto motivo de diferencia",
+      "descripción código de motivo"
+    ],
+    "en": [
+      "reason code text",
+      "payment difference description"
+    ],
+    "pt": [
+      "texto do motivo de diferença",
+      "descrição do código de motivo"
+    ]
   }
 }

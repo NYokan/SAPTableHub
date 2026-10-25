@@ -8,5 +8,30 @@
     "es": "Activos fijos: datos de seguro",
     "en": "Fixed assets: insurance data",
     "pt": "Ativos imobilizados: dados de seguro"
+  },
+  "purpose": {
+    "es": "Para cada activo fijo, los datos de su póliza de seguro: compañía aseguradora, número de póliza, tipo de seguro y valor asegurado de partida. Se usa para controlar qué activos están asegurados y por cuánto.",
+    "en": "For each fixed asset, the data of its insurance policy: insurance company, policy number, type of insurance and base insurable value. It is used to check which assets are insured and for how much.",
+    "pt": "Para cada ativo imobilizado, os dados da apólice de seguro: seguradora, número da apólice, tipo de seguro e valor segurado inicial. Serve para controlar quais ativos estão segurados e por quanto."
+  },
+  "synonyms": {
+    "es": [
+      "seguro de activos",
+      "póliza de seguro",
+      "valor asegurado",
+      "aseguradora"
+    ],
+    "en": [
+      "asset insurance",
+      "insurance policy",
+      "insured value",
+      "insurance company"
+    ],
+    "pt": [
+      "seguro de ativos",
+      "apólice de seguro",
+      "valor segurado",
+      "seguradora"
+    ]
   }
 }

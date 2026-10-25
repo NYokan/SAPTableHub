@@ -7,5 +7,30 @@
     "es": "Ciclos de distribución y reparto",
     "en": "Allocation cycles",
     "pt": "Ciclos de distribuição e rateio"
+  },
+  "purpose": {
+    "es": "Una fila por cada ciclo de reparto o distribución (por ejemplo, de costes de centros de coste): tipo de ciclo, nombre, fecha de inicio y datos de control. Los ciclos agrupan segmentos (T811S) que definen emisores, receptores y bases de reparto; se ejecutan al cierre con KSU5 o KSV5.",
+    "en": "One row per assessment or distribution cycle (for example, for cost center costs): cycle type, name, start date and control data. Cycles group segments (T811S) that define senders, receivers and allocation bases; they run at period-end with KSU5 or KSV5.",
+    "pt": "Uma linha por ciclo de rateio ou distribuição (por exemplo, de custos de centros de custo): tipo de ciclo, nome, data de início e dados de controle. Os ciclos agrupam segmentos (T811S) que definem emissores, receptores e bases de rateio; são executados no fechamento com KSU5 ou KSV5."
+  },
+  "synonyms": {
+    "es": [
+      "ciclo de reparto",
+      "ciclo de distribución",
+      "asignación de costes",
+      "KSU5"
+    ],
+    "en": [
+      "assessment cycle",
+      "distribution cycle",
+      "cost allocation",
+      "KSU5"
+    ],
+    "pt": [
+      "ciclo de rateio",
+      "ciclo de distribuição",
+      "alocação de custos",
+      "KSU5"
+    ]
   }
 }

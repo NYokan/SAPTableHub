@@ -8,5 +8,27 @@
     "es": "Ramos (sectores industriales)",
     "en": "Industry sectors",
     "pt": "Setores industriais"
+  },
+  "purpose": {
+    "es": "Lista de ramos o sectores industriales (por ejemplo, químico, mecánico, retail) que se asignan al material al crearlo y que controlan qué campos se ven en el maestro.",
+    "en": "List of industry sectors (for example, chemical, mechanical, retail) assigned to a material when it is created, which control which fields appear in the master record.",
+    "pt": "Lista de setores industriais (por exemplo, químico, mecânico, varejo) atribuídos ao material na criação, que controlam quais campos aparecem no mestre."
+  },
+  "synonyms": {
+    "es": [
+      "ramo",
+      "sector industrial",
+      "ramo del material"
+    ],
+    "en": [
+      "industry sector",
+      "industry",
+      "material industry sector"
+    ],
+    "pt": [
+      "setor industrial",
+      "ramo",
+      "setor do material"
+    ]
   }
 }

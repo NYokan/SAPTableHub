@@ -8,5 +8,27 @@
     "es": "Fichero de planificación (por ámbito de planificación)",
     "en": "Planning file entries (per MRP area)",
     "pt": "Arquivo de planejamento (por área de planejamento)"
+  },
+  "purpose": {
+    "es": "Fichero de planificación a nivel de ámbito de planificación (MRP area): una fila por material y ámbito marcado porque cambió algo relevante y debe entrar en la siguiente ejecución del MRP. Es el equivalente de MDVM cuando se planifica por ámbitos.",
+    "en": "Planning file at MRP area level: one row per material and MRP area flagged because something relevant changed and it must be included in the next MRP run. It is the MDVM equivalent when planning by MRP areas.",
+    "pt": "Arquivo de planejamento no nível de área de planejamento (MRP area): uma linha por material e área marcada porque algo relevante mudou e deve entrar na próxima execução do MRP. É o equivalente da MDVM quando se planeja por áreas."
+  },
+  "synonyms": {
+    "es": [
+      "fichero de planificación",
+      "entradas de planificación MRP",
+      "planificación por ámbito"
+    ],
+    "en": [
+      "planning file",
+      "MRP planning file entries",
+      "MRP area planning"
+    ],
+    "pt": [
+      "arquivo de planejamento",
+      "entradas de planejamento MRP",
+      "planejamento por área"
+    ]
   }
 }

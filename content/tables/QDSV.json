@@ -7,5 +7,27 @@
     "es": "Procedimientos de muestreo",
     "en": "Sampling procedures",
     "pt": "Procedimentos de amostragem"
+  },
+  "purpose": {
+    "es": "Procedimientos de muestreo: reglas que determinan cuántas unidades se inspeccionan de cada lote (fijo, porcentual o según plan de muestreo) y cómo se valora el resultado.",
+    "en": "Sampling procedures: rules that determine how many units of each lot are inspected (fixed, percentage or by sampling plan) and how the result is valued.",
+    "pt": "Procedimentos de amostragem: regras que determinam quantas unidades de cada lote são inspecionadas (fixo, percentual ou por plano de amostragem) e como o resultado é avaliado."
+  },
+  "synonyms": {
+    "es": [
+      "procedimiento de muestreo",
+      "tamaño de muestra",
+      "plan de muestreo"
+    ],
+    "en": [
+      "sampling procedure",
+      "sample size",
+      "sampling plan"
+    ],
+    "pt": [
+      "procedimento de amostragem",
+      "tamanho da amostra",
+      "plano de amostragem"
+    ]
   }
 }

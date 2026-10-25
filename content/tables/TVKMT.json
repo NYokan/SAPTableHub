@@ -8,5 +8,24 @@
     "es": "Grupos de imputación de material: textos",
     "en": "Material account assignment groups: texts",
     "pt": "Grupos de classificação contábil de material: textos"
+  },
+  "purpose": {
+    "es": "Descripción de cada grupo de imputación de material en cada idioma: una fila por código e idioma. Sirve para mostrar un nombre legible en lugar del código KTGRM en informes; los códigos se definen en TVKM.",
+    "en": "Description of each material account assignment group in each language: one row per code and language. Use it to show a readable name instead of the KTGRM code in reports; the codes themselves are defined in TVKM.",
+    "pt": "Descrição de cada grupo de classificação contábil de material em cada idioma: uma linha por código e idioma. Serve para mostrar um nome legível em vez do código KTGRM em relatórios; os códigos são definidos na TVKM."
+  },
+  "synonyms": {
+    "es": [
+      "texto grupo de imputación material",
+      "KTGRM"
+    ],
+    "en": [
+      "material account assignment group text",
+      "KTGRM"
+    ],
+    "pt": [
+      "texto grupo classificação contábil material",
+      "KTGRM"
+    ]
   }
 }

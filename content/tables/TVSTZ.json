@@ -8,5 +8,27 @@
     "es": "Determinación del puesto de expedición",
     "en": "Shipping point determination",
     "pt": "Determinação do local de expedição"
+  },
+  "purpose": {
+    "es": "Regla de determinación del puesto de expedición: según la condición de expedición, el grupo de carga y el centro, propone desde qué puesto de expedición sale la entrega.",
+    "en": "Shipping point determination rule: based on the shipping condition, loading group and plant, it proposes which shipping point the delivery leaves from.",
+    "pt": "Regra de determinação do local de expedição: com base na condição de expedição, no grupo de carregamento e no centro, propõe de qual local de expedição a remessa sai."
+  },
+  "synonyms": {
+    "es": [
+      "determinación del puesto de expedición",
+      "grupo de carga",
+      "puesto de expedición propuesto"
+    ],
+    "en": [
+      "shipping point determination",
+      "loading group",
+      "proposed shipping point"
+    ],
+    "pt": [
+      "determinação do local de expedição",
+      "grupo de carregamento",
+      "local de expedição proposto"
+    ]
   }
 }

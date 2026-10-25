@@ -8,5 +8,24 @@
     "es": "Características maestras: métodos asignados",
     "en": "Master characteristics: assigned methods",
     "pt": "Características mestre: métodos atribuídos"
+  },
+  "purpose": {
+    "es": "Métodos de inspección asignados a cada característica maestra de inspección. Indica con qué método o métodos se puede medir esa característica.",
+    "en": "Inspection methods assigned to each master inspection characteristic. It shows which method or methods can be used to measure that characteristic.",
+    "pt": "Métodos de inspeção atribuídos a cada característica mestre de inspeção. Indica com qual método ou métodos essa característica pode ser medida."
+  },
+  "synonyms": {
+    "es": [
+      "método de la característica",
+      "asignación de métodos de inspección"
+    ],
+    "en": [
+      "characteristic method",
+      "inspection method assignment"
+    ],
+    "pt": [
+      "método da característica",
+      "atribuição de métodos de inspeção"
+    ]
   }
 }

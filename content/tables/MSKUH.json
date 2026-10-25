@@ -8,5 +8,27 @@
     "es": "Stock especial en cliente (histórico)",
     "en": "Special stock at customer (history)",
     "pt": "Estoque especial no cliente (histórico)"
+  },
+  "purpose": {
+    "es": "Copia por periodo del stock especial que está en manos del cliente, como consignación en cliente o envases retornables (MSKU): cantidades al cierre de periodos anteriores.",
+    "en": "Period copy of special stock held at the customer, such as customer consignment or returnable packaging (MSKU): quantities at the close of earlier periods.",
+    "pt": "Cópia por período do estoque especial que está com o cliente, como consignação no cliente ou embalagens retornáveis (MSKU): quantidades no fechamento de períodos anteriores."
+  },
+  "synonyms": {
+    "es": [
+      "histórico consignación en cliente",
+      "envases en cliente histórico",
+      "stock W histórico"
+    ],
+    "en": [
+      "customer consignment history",
+      "returnable packaging history",
+      "special stock W history"
+    ],
+    "pt": [
+      "histórico consignação no cliente",
+      "embalagens no cliente histórico",
+      "estoque W histórico"
+    ]
   }
 }

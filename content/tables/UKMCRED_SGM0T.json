@@ -8,5 +8,24 @@
     "es": "Gestión de créditos SAP: textos de segmentos de crédito",
     "en": "SAP Credit Management: credit segment texts",
     "pt": "Gestão de crédito SAP: textos de segmentos de crédito"
+  },
+  "purpose": {
+    "es": "Nombre de cada segmento de crédito de SAP Credit Management en cada idioma, para mostrar una descripción legible en lugar del código del segmento.",
+    "en": "Name of each SAP Credit Management credit segment in each language, to show a readable description instead of the segment code.",
+    "pt": "Nome de cada segmento de crédito do SAP Credit Management em cada idioma, para mostrar uma descrição legível em vez do código do segmento."
+  },
+  "synonyms": {
+    "es": [
+      "texto segmento de crédito",
+      "nombre segmento de crédito"
+    ],
+    "en": [
+      "credit segment text",
+      "credit segment name"
+    ],
+    "pt": [
+      "texto do segmento de crédito",
+      "nome do segmento de crédito"
+    ]
   }
 }

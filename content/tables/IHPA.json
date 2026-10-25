@@ -8,5 +8,30 @@
     "es": "Interlocutores de objetos de mantenimiento",
     "en": "Partners of maintenance objects",
     "pt": "Parceiros de objetos de manutenção"
+  },
+  "purpose": {
+    "es": "Interlocutores asignados a objetos de mantenimiento y servicio: avisos, órdenes, equipos, ubicaciones técnicas. Una fila por objeto y función de interlocutor (por ejemplo, responsable, cliente, proveedor).",
+    "en": "Partners assigned to maintenance and service objects: notifications, orders, equipment, functional locations. One row per object and partner function (for example, person responsible, customer, vendor).",
+    "pt": "Parceiros atribuídos a objetos de manutenção e serviço: notas, ordens, equipamentos, locais de instalação. Uma linha por objeto e função de parceiro (por exemplo, responsável, cliente, fornecedor)."
+  },
+  "synonyms": {
+    "es": [
+      "interlocutores de mantenimiento",
+      "responsable de la orden",
+      "función de interlocutor PM",
+      "partner de aviso"
+    ],
+    "en": [
+      "maintenance partners",
+      "order person responsible",
+      "PM partner function",
+      "notification partner"
+    ],
+    "pt": [
+      "parceiros de manutenção",
+      "responsável pela ordem",
+      "função de parceiro PM",
+      "parceiro da nota"
+    ]
   }
 }

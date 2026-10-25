@@ -9,5 +9,24 @@
     "es": "Instrucciones de envío: textos",
     "en": "Shipping instructions: texts",
     "pt": "Instruções de envio: textos"
+  },
+  "purpose": {
+    "es": "Descripción de cada clave de instrucciones de envío por idioma. Complementa a T027A.",
+    "en": "Description of each shipping instructions key per language. It complements T027A.",
+    "pt": "Descrição de cada chave de instruções de envio por idioma. Complementa a T027A."
+  },
+  "synonyms": {
+    "es": [
+      "texto de instrucciones de envío",
+      "descripción de envío"
+    ],
+    "en": [
+      "shipping instructions text",
+      "shipping instruction description"
+    ],
+    "pt": [
+      "texto de instruções de envio",
+      "descrição do envio"
+    ]
   }
 }

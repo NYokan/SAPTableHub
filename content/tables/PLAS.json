@@ -8,5 +8,27 @@
     "es": "Hojas de ruta: selección de operaciones",
     "en": "Routings: operation selection",
     "pt": "Roteiros: seleção de operações"
+  },
+  "purpose": {
+    "es": "Una fila por cada asignación de una operación a una hoja de ruta concreta dentro de un grupo: indica qué operaciones (PLPO) pertenecen a cada hoja de ruta (PLKO) y secuencia. Se usa para unir cabeceras y operaciones de las hojas de ruta.",
+    "en": "One row per assignment of an operation to a specific task list within a group: it shows which operations (PLPO) belong to each task list (PLKO) and sequence. It is used to join task list headers and operations.",
+    "pt": "Uma linha por atribuição de uma operação a um roteiro específico dentro de um grupo: indica quais operações (PLPO) pertencem a cada roteiro (PLKO) e sequência. É usada para unir cabeçalhos e operações dos roteiros."
+  },
+  "synonyms": {
+    "es": [
+      "operaciones de hoja de ruta",
+      "enlace cabecera-operación",
+      "selección de operaciones"
+    ],
+    "en": [
+      "routing operations",
+      "header-operation link",
+      "operation selection"
+    ],
+    "pt": [
+      "operações do roteiro",
+      "ligação cabeçalho-operação",
+      "seleção de operações"
+    ]
   }
 }

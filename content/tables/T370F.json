@@ -8,5 +8,24 @@
     "es": "Clases de ubicación técnica",
     "en": "Functional location categories",
     "pt": "Categorias de local de instalação"
+  },
+  "purpose": {
+    "es": "Lista de clases de ubicación técnica (por ejemplo, planta de proceso, edificio), que controlan cómo se gestionan y numeran las ubicaciones técnicas de cada clase.",
+    "en": "List of functional location categories (for example, process plant, building), which control how the functional locations of each category are managed.",
+    "pt": "Lista de categorias de local de instalação (por exemplo, planta de processo, edifício), que controlam como os locais de instalação de cada categoria são gerenciados."
+  },
+  "synonyms": {
+    "es": [
+      "clase de ubicación técnica",
+      "categoría de ubicación técnica"
+    ],
+    "en": [
+      "functional location category",
+      "functional location class"
+    ],
+    "pt": [
+      "categoria de local de instalação",
+      "classe de local de instalação"
+    ]
   }
 }

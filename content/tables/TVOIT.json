@@ -8,5 +8,24 @@
     "es": "Motivos de anulación de cheques (textos)",
     "en": "Check void reasons (texts)",
     "pt": "Motivos de anulação de cheques (textos)"
+  },
+  "purpose": {
+    "es": "Nombre de cada motivo de anulación de cheques en cada idioma, para mostrar una descripción legible en lugar del código de TVOID.",
+    "en": "Name of each check void reason in each language, to show a readable description instead of the code from TVOID.",
+    "pt": "Nome de cada motivo de anulação de cheques em cada idioma, para mostrar uma descrição legível em vez do código da TVOID."
+  },
+  "synonyms": {
+    "es": [
+      "texto motivo de anulación de cheque",
+      "descripción anulación de cheque"
+    ],
+    "en": [
+      "check void reason text",
+      "void reason description"
+    ],
+    "pt": [
+      "texto do motivo de anulação de cheque",
+      "descrição da anulação de cheque"
+    ]
   }
 }

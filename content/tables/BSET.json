@@ -8,5 +8,34 @@
     "es": "Documentos contables: datos de impuestos",
     "en": "Accounting documents: tax data",
     "pt": "Documentos contábeis: dados de impostos"
+  },
+  "purpose": {
+    "es": "Una fila por cada línea de impuesto de un documento contable: indicador de impuesto, base imponible, importe del impuesto y cuenta. Es la fuente habitual para declaraciones de IVA y conciliaciones de impuestos.",
+    "en": "One row per tax line of an accounting document: tax code, tax base amount, tax amount and account. It is the usual source for VAT returns and tax reconciliations.",
+    "pt": "Uma linha por item de imposto de um documento contábil: código de imposto, base de cálculo, valor do imposto e conta. É a fonte habitual para declarações de IVA/ICMS e conciliações de impostos."
+  },
+  "synonyms": {
+    "es": [
+      "líneas de IVA",
+      "base imponible",
+      "impuesto soportado",
+      "impuesto repercutido",
+      "declaración de IVA"
+    ],
+    "en": [
+      "tax lines",
+      "VAT amount",
+      "tax base",
+      "input tax",
+      "output tax",
+      "VAT return"
+    ],
+    "pt": [
+      "itens de imposto",
+      "base de cálculo",
+      "imposto a recuperar",
+      "imposto a pagar",
+      "apuração de impostos"
+    ]
   }
 }

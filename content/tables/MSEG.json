@@ -9,5 +9,33 @@
     "es": "Documentos de material (posiciones)",
     "en": "Material documents (items)",
     "pt": "Documentos de material (itens)"
+  },
+  "purpose": {
+    "es": "Una fila por posición de documento de material: material, centro, almacén, clase de movimiento, cantidad, importe y pedido u orden de origen. Es la tabla de referencia para analizar entradas, salidas y traspasos de stock; en S/4HANA la sustituye MATDOC.",
+    "en": "One row per material document item: material, plant, storage location, movement type, quantity, amount and source purchase or production order. It is the reference table for analysing stock receipts, issues and transfers; in S/4HANA it is replaced by MATDOC.",
+    "pt": "Uma linha por item de documento de material: material, centro, depósito, tipo de movimento, quantidade, valor e pedido ou ordem de origem. É a tabela de referência para analisar entradas, saídas e transferências de estoque; no S/4HANA é substituída pela MATDOC."
+  },
+  "synonyms": {
+    "es": [
+      "movimientos de stock",
+      "clase de movimiento",
+      "entradas y salidas",
+      "posición de documento de material",
+      "consumo de material"
+    ],
+    "en": [
+      "stock movements",
+      "movement type",
+      "receipts and issues",
+      "material document item",
+      "material consumption"
+    ],
+    "pt": [
+      "movimentos de estoque",
+      "tipo de movimento",
+      "entradas e saídas",
+      "item de documento de material",
+      "consumo de material"
+    ]
   }
 }

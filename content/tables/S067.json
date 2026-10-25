@@ -8,5 +8,30 @@
     "es": "Gestión de créditos: entregas y facturas abiertas",
     "en": "Credit management: open deliveries and billing",
     "pt": "Gestão de crédito: remessas e faturas em aberto"
+  },
+  "purpose": {
+    "es": "Estructura estadística que acumula el valor de las entregas abiertas y de las facturas aún no pasadas a contabilidad, por área de control de créditos y cuenta de crédito. Junto con S066 forma el riesgo de crédito del cliente en SD.",
+    "en": "Statistics structure that accumulates the value of open deliveries and of billing documents not yet passed to accounting, by credit control area and credit account. Together with S066 it makes up the customer's credit exposure in SD.",
+    "pt": "Estrutura estatística que acumula o valor das remessas em aberto e das faturas ainda não transferidas à contabilidade, por área de controle de crédito e conta de crédito. Junto com a S066 forma a exposição de crédito do cliente no SD."
+  },
+  "synonyms": {
+    "es": [
+      "entregas abiertas crédito",
+      "facturas abiertas crédito",
+      "riesgo de crédito",
+      "exposición crediticia"
+    ],
+    "en": [
+      "open deliveries credit",
+      "open billing credit",
+      "credit exposure",
+      "credit check"
+    ],
+    "pt": [
+      "remessas em aberto crédito",
+      "faturas em aberto crédito",
+      "risco de crédito",
+      "exposição de crédito"
+    ]
   }
 }

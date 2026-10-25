@@ -8,5 +8,30 @@
     "es": "Imputación automática por clase de coste",
     "en": "Default account assignment per cost element",
     "pt": "Atribuição automática por classe de custo"
+  },
+  "purpose": {
+    "es": "Configuración de la imputación automática por sociedad y clase de coste (transacción OKB9): qué centro de coste, orden o centro de beneficio se propone cuando se contabiliza en esa cuenta sin indicar objeto CO.",
+    "en": "Configuration of default account assignment per company code and cost element (transaction OKB9): which cost center, order or profit center is proposed when posting to that account without a CO object.",
+    "pt": "Configuração da atribuição automática por empresa e classe de custo (transação OKB9): qual centro de custo, ordem ou centro de lucro é proposto ao lançar nessa conta sem informar objeto CO."
+  },
+  "synonyms": {
+    "es": [
+      "imputación automática",
+      "OKB9",
+      "centro de coste por defecto",
+      "imputación por defecto"
+    ],
+    "en": [
+      "default account assignment",
+      "OKB9",
+      "default cost center",
+      "automatic account assignment"
+    ],
+    "pt": [
+      "atribuição automática",
+      "OKB9",
+      "centro de custo padrão",
+      "atribuição padrão"
+    ]
   }
 }

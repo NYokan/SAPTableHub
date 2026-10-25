@@ -8,5 +8,27 @@
     "es": "Extracto bancario: cuentas bancarias y tipo de operación",
     "en": "Bank statement: bank accounts to transaction types",
     "pt": "Extrato bancário: contas bancárias e tipo de transação"
+  },
+  "purpose": {
+    "es": "Para el extracto bancario electrónico, asigna cada cuenta bancaria (clave de banco y número de cuenta) a un tipo de operación, que decide cómo se interpretan los códigos de operación de ese banco.",
+    "en": "For electronic bank statements, it assigns each bank account (bank key and account number) to a transaction type, which decides how that bank's transaction codes are interpreted.",
+    "pt": "Para o extrato bancário eletrônico, atribui cada conta bancária (chave do banco e número da conta) a um tipo de operação, que decide como os códigos de operação desse banco são interpretados."
+  },
+  "synonyms": {
+    "es": [
+      "configuración extracto bancario",
+      "tipo de operación bancaria",
+      "cuentas del extracto"
+    ],
+    "en": [
+      "bank statement configuration",
+      "bank transaction type",
+      "statement bank accounts"
+    ],
+    "pt": [
+      "configuração do extrato bancário",
+      "tipo de operação bancária",
+      "contas do extrato"
+    ]
   }
 }

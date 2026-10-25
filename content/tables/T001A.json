@@ -8,5 +8,30 @@
     "es": "Sociedades: monedas adicionales",
     "en": "Company codes: additional currencies",
     "pt": "Empresas: moedas adicionais"
+  },
+  "purpose": {
+    "es": "Las monedas locales adicionales (segunda y tercera moneda) de cada sociedad en la contabilidad clásica: tipo de moneda (por ejemplo moneda del grupo o moneda fuerte) y cómo se calcula su tipo de cambio.",
+    "en": "The additional local currencies (second and third currency) of each company code in classic accounting: currency type (for example group currency or hard currency) and how its exchange rate is determined.",
+    "pt": "As moedas locais adicionais (segunda e terceira moeda) de cada empresa na contabilidade clássica: tipo de moeda (por exemplo moeda do grupo ou moeda forte) e como sua taxa de câmbio é determinada."
+  },
+  "synonyms": {
+    "es": [
+      "moneda del grupo",
+      "segunda moneda local",
+      "moneda paralela",
+      "moneda fuerte"
+    ],
+    "en": [
+      "group currency",
+      "second local currency",
+      "parallel currency",
+      "hard currency"
+    ],
+    "pt": [
+      "moeda do grupo",
+      "segunda moeda local",
+      "moeda paralela",
+      "moeda forte"
+    ]
   }
 }

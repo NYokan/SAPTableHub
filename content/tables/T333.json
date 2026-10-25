@@ -9,5 +9,27 @@
     "es": "Clases de movimiento WM",
     "en": "WM movement types",
     "pt": "Tipos de movimento WM"
+  },
+  "purpose": {
+    "es": "Lista de clases de movimiento propias de Warehouse Management (WM) por número de almacén, con los tipos de almacén de origen y destino y cómo se crean las órdenes de transporte. Se derivan de las clases de movimiento de inventario (IM).",
+    "en": "List of Warehouse Management (WM) movement types per warehouse number, with source and destination storage types and how transfer orders are created. They are derived from inventory management (IM) movement types.",
+    "pt": "Lista de tipos de movimento próprios do Warehouse Management (WM) por número de depósito, com os tipos de depósito de origem e destino e como se criam as ordens de transferência. São derivados dos tipos de movimento do estoque (IM)."
+  },
+  "synonyms": {
+    "es": [
+      "clase de movimiento WM",
+      "tipo de movimiento de almacén",
+      "movimiento WM"
+    ],
+    "en": [
+      "WM movement type",
+      "warehouse movement type",
+      "WM movement"
+    ],
+    "pt": [
+      "tipo de movimento WM",
+      "movimento de depósito",
+      "movimento WM"
+    ]
   }
 }

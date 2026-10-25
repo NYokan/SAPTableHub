@@ -8,5 +8,27 @@
     "es": "Grupos (sets): subgrupos",
     "en": "Sets (groups): subgroups",
     "pt": "Grupos (sets): subgrupos"
+  },
+  "purpose": {
+    "es": "Los subgrupos de cada grupo (set): qué sets están colgados debajo de otro y en qué orden. Permite reconstruir jerarquías como las de grupos de centros de coste o de cuentas.",
+    "en": "The subgroups of each set: which sets hang below another one and in which order. It lets you rebuild hierarchies such as cost center groups or account groups.",
+    "pt": "Os subgrupos de cada set: quais sets estão pendurados abaixo de outro e em que ordem. Permite reconstruir hierarquias como as de grupos de centros de custo ou de contas."
+  },
+  "synonyms": {
+    "es": [
+      "jerarquía de grupos",
+      "subgrupos",
+      "árbol de centros de coste"
+    ],
+    "en": [
+      "set hierarchy",
+      "subgroups",
+      "cost center group tree"
+    ],
+    "pt": [
+      "hierarquia de grupos",
+      "subgrupos",
+      "árvore de centros de custo"
+    ]
   }
 }

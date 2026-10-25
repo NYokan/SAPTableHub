@@ -9,5 +9,33 @@
     "es": "Condiciones de precio de documentos",
     "en": "Pricing conditions of documents",
     "pt": "Condições de preço dos documentos"
+  },
+  "purpose": {
+    "es": "Condiciones de precio calculadas en cada documento (pedido, factura): una fila por condición aplicada a una posición, como precio, descuento, flete o impuesto, con su base y su importe. Se enlaza por el número de condición del documento (KNUMV); en S/4HANA la sustituye PRCD_ELEMENTS.",
+    "en": "Pricing conditions calculated in each document (order, invoice): one row per condition applied to an item, such as price, discount, freight or tax, with its base and amount. It links via the document condition number (KNUMV); in S/4HANA it is replaced by PRCD_ELEMENTS.",
+    "pt": "Condições de preço calculadas em cada documento (ordem, fatura): uma linha por condição aplicada a um item, como preço, desconto, frete ou imposto, com sua base e seu valor. Liga-se pelo número de condição do documento (KNUMV); no S/4HANA é substituída pela PRCD_ELEMENTS."
+  },
+  "synonyms": {
+    "es": [
+      "condiciones del documento",
+      "precio del pedido",
+      "descuentos aplicados",
+      "detalle de precios",
+      "KNUMV"
+    ],
+    "en": [
+      "document conditions",
+      "order pricing",
+      "applied discounts",
+      "pricing details",
+      "KNUMV"
+    ],
+    "pt": [
+      "condições do documento",
+      "preço da ordem",
+      "descontos aplicados",
+      "detalhe de preços",
+      "KNUMV"
+    ]
   }
 }

@@ -8,5 +8,27 @@
     "es": "Características asignadas a cada clase",
     "en": "Characteristics assigned to each class",
     "pt": "Características atribuídas a cada classe"
+  },
+  "purpose": {
+    "es": "Una fila por cada característica asignada a una clase, con su posición dentro de la clase. Une KLAH con CABN y dice qué atributos describen a los objetos de esa clase.",
+    "en": "One row per characteristic assigned to a class, with its position within the class. It joins KLAH with CABN and tells which attributes describe the objects of that class.",
+    "pt": "Uma linha por característica atribuída a uma classe, com sua posição dentro da classe. Une a KLAH com a CABN e diz quais atributos descrevem os objetos daquela classe."
+  },
+  "synonyms": {
+    "es": [
+      "características de una clase",
+      "atributos de clase",
+      "estructura de clase"
+    ],
+    "en": [
+      "class characteristics",
+      "class attributes",
+      "class structure"
+    ],
+    "pt": [
+      "características de uma classe",
+      "atributos da classe",
+      "estrutura da classe"
+    ]
   }
 }

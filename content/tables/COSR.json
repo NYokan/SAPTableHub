@@ -8,5 +8,27 @@
     "es": "Totales CO de magnitudes estadísticas",
     "en": "CO totals for statistical key figures",
     "pt": "Totais CO de índices estatísticos"
+  },
+  "purpose": {
+    "es": "Totales por período de las magnitudes estadísticas en cada objeto CO, ejercicio y versión, tanto de plan como reales (por ejemplo, empleados o metros cuadrados). Se usan como base de reparto y distribución.",
+    "en": "Period totals of statistical key figures for each CO object, fiscal year and version, both plan and actual (for example, headcount or square meters). They are used as bases for allocations.",
+    "pt": "Totais por período dos índices estatísticos em cada objeto CO, exercício e versão, tanto de plano quanto reais (por exemplo, funcionários ou metros quadrados). São usados como base de rateio e distribuição."
+  },
+  "synonyms": {
+    "es": [
+      "totales de magnitudes estadísticas",
+      "bases de reparto",
+      "indicadores estadísticos"
+    ],
+    "en": [
+      "statistical key figure totals",
+      "allocation bases",
+      "statistical figures"
+    ],
+    "pt": [
+      "totais de índices estatísticos",
+      "bases de rateio",
+      "indicadores estatísticos"
+    ]
   }
 }

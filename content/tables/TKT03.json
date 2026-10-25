@@ -7,5 +7,24 @@
     "es": "Magnitudes estadísticas (textos)",
     "en": "Statistical key figures (texts)",
     "pt": "Índices estatísticos (textos)"
+  },
+  "purpose": {
+    "es": "Descripción de cada magnitud estadística, por idioma y sociedad CO. Se une con TKA03 por el campo STAGR para mostrar su nombre.",
+    "en": "Description of each statistical key figure, per language and controlling area. It is joined to TKA03 by the STAGR field to show its name.",
+    "pt": "Descrição de cada índice estatístico, por idioma e área de contabilidade de custos. É unida à TKA03 pelo campo STAGR para mostrar seu nome."
+  },
+  "synonyms": {
+    "es": [
+      "nombre de magnitud estadística",
+      "descripción de STAGR"
+    ],
+    "en": [
+      "statistical key figure name",
+      "STAGR description"
+    ],
+    "pt": [
+      "nome do índice estatístico",
+      "descrição do STAGR"
+    ]
   }
 }

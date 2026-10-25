@@ -8,5 +8,30 @@
     "es": "Programa de pagos: control de ejecuciones",
     "en": "Payment program: run control",
     "pt": "Programa de pagamento: controle de execuções"
+  },
+  "purpose": {
+    "es": "Una fila por cada ejecución del programa de pagos (fecha de ejecución e identificación): si se hizo la propuesta, si se contabilizaron los pagos y si se crearon los soportes de pago. Los pagos y partidas de cada ejecución están en REGUH y REGUP.",
+    "en": "One row per payment program run (run date and identification): whether the proposal was created, whether payments were posted and whether payment media were created. The payments and items of each run are in REGUH and REGUP.",
+    "pt": "Uma linha por execução do programa de pagamentos (data de execução e identificação): se a proposta foi feita, se os pagamentos foram lançados e se os meios de pagamento foram gerados. Os pagamentos e partidas de cada execução estão na REGUH e na REGUP."
+  },
+  "synonyms": {
+    "es": [
+      "ejecución de pagos",
+      "programa de pagos F110",
+      "propuesta de pagos",
+      "estado de la ejecución de pagos"
+    ],
+    "en": [
+      "payment run",
+      "F110 payment program",
+      "payment proposal",
+      "payment run status"
+    ],
+    "pt": [
+      "execução de pagamentos",
+      "programa de pagamentos F110",
+      "proposta de pagamento",
+      "status da execução de pagamentos"
+    ]
   }
 }

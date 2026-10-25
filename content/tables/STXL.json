@@ -8,5 +8,30 @@
     "es": "Textos largos (contenido)",
     "en": "Long texts (content)",
     "pt": "Textos longos (conteúdo)"
+  },
+  "purpose": {
+    "es": "Contenido de los textos largos de SAPscript (textos de cabecera o posición de pedidos, materiales, etc.) guardado en formato comprimido. La cabecera está en STXH; para leerlos se usa la función READ_TEXT en vez de consultar la tabla directamente.",
+    "en": "Content of SAPscript long texts (header or item texts of orders, materials, etc.) stored in compressed form. The header is in STXH; to read them you use the READ_TEXT function instead of querying the table directly.",
+    "pt": "Conteúdo dos textos longos do SAPscript (textos de cabeçalho ou item de pedidos, materiais etc.) gravado em formato comprimido. O cabeçalho está na STXH; para lê-los usa-se a função READ_TEXT em vez de consultar a tabela diretamente."
+  },
+  "synonyms": {
+    "es": [
+      "textos largos",
+      "texto de cabecera",
+      "texto de posición",
+      "READ_TEXT"
+    ],
+    "en": [
+      "long texts",
+      "header text",
+      "item text",
+      "READ_TEXT"
+    ],
+    "pt": [
+      "textos longos",
+      "texto de cabeçalho",
+      "texto do item",
+      "READ_TEXT"
+    ]
   }
 }

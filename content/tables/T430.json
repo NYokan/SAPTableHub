@@ -8,5 +8,30 @@
     "es": "Claves de control de operaciones",
     "en": "Operation control keys",
     "pt": "Chaves de controle de operações"
+  },
+  "purpose": {
+    "es": "Configuración de las claves de control de operaciones (por ejemplo, PP01): indican si una operación se programa, se costea, se notifica, se subcontrata o imprime documentos. Una fila por clave (STEUS).",
+    "en": "Configuration of operation control keys (for example, PP01): they state whether an operation is scheduled, costed, confirmed, processed externally or prints shop papers. One row per key (STEUS).",
+    "pt": "Configuração das chaves de controle de operações (por exemplo, PP01): indicam se uma operação é programada, custeada, apontada, subcontratada ou imprime documentos. Uma linha por chave (STEUS)."
+  },
+  "synonyms": {
+    "es": [
+      "clave de control",
+      "STEUS",
+      "control de operación",
+      "operación externa"
+    ],
+    "en": [
+      "control key",
+      "STEUS",
+      "operation control",
+      "external processing"
+    ],
+    "pt": [
+      "chave de controle",
+      "STEUS",
+      "controle da operação",
+      "operação externa"
+    ]
   }
 }

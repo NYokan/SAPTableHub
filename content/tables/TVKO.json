@@ -9,5 +9,27 @@
     "es": "Organizaciones de ventas",
     "en": "Sales organizations",
     "pt": "Organizações de vendas"
+  },
+  "purpose": {
+    "es": "Organizaciones de ventas: una fila por cada una, con su sociedad (BUKRS), moneda y dirección. Es la unidad responsable de vender y la clave de casi todos los datos de ventas.",
+    "en": "Sales organizations: one row per organization, with its company code (BUKRS), currency and address. It is the unit responsible for selling and the key of almost all sales data.",
+    "pt": "Organizações de vendas: uma linha por organização, com sua empresa (BUKRS), moeda e endereço. É a unidade responsável por vender e a chave de quase todos os dados de vendas."
+  },
+  "synonyms": {
+    "es": [
+      "organización de ventas",
+      "VKORG",
+      "organización de ventas por sociedad"
+    ],
+    "en": [
+      "sales organization",
+      "VKORG",
+      "sales org company code"
+    ],
+    "pt": [
+      "organização de vendas",
+      "VKORG",
+      "organização de vendas por empresa"
+    ]
   }
 }

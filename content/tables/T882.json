@@ -8,5 +8,27 @@
     "es": "Asignación de ledgers a sociedades (FI-SL)",
     "en": "Ledger assignment to company codes (FI-SL)",
     "pt": "Atribuição de ledgers a empresas (FI-SL)"
+  },
+  "purpose": {
+    "es": "Asigna los ledgers (de FI-SL y del nuevo mayor) a cada sociedad, con la variante de ejercicio y las monedas que se actualizan en ese ledger para esa sociedad.",
+    "en": "Assigns ledgers (FI-SL and New G/L) to each company code, with the fiscal year variant and the currencies updated in that ledger for that company code.",
+    "pt": "Atribui os ledgers (do FI-SL e do novo razão) a cada empresa, com a variante de exercício e as moedas atualizadas nesse ledger para essa empresa."
+  },
+  "synonyms": {
+    "es": [
+      "ledger por sociedad",
+      "asignación de ledgers",
+      "monedas del ledger"
+    ],
+    "en": [
+      "ledger per company code",
+      "ledger assignment",
+      "ledger currencies"
+    ],
+    "pt": [
+      "ledger por empresa",
+      "atribuição de ledgers",
+      "moedas do ledger"
+    ]
   }
 }

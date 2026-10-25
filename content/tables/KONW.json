@@ -8,5 +8,27 @@
     "es": "Condiciones: escalas por valor",
     "en": "Conditions: value scales",
     "pt": "Condições: escalas por valor"
+  },
+  "purpose": {
+    "es": "Escalas por valor de un registro de condición: cada fila es un tramo (desde cierto importe) con su precio o porcentaje. Se enlaza con KONP por número de registro y posición; útil para descuentos que dependen del valor comprado.",
+    "en": "Value scales of a condition record: each row is a tier (from a certain amount) with its rate or percentage. It links to KONP by record number and item; useful for discounts that depend on the purchase value.",
+    "pt": "Escalas por valor de um registro de condição: cada linha é uma faixa (a partir de certo valor) com seu preço ou percentual. Liga-se à KONP pelo número do registro e item; útil para descontos que dependem do valor comprado."
+  },
+  "synonyms": {
+    "es": [
+      "escala por valor",
+      "descuento por importe",
+      "tramos por valor"
+    ],
+    "en": [
+      "value scale",
+      "value-based discount",
+      "value tiers"
+    ],
+    "pt": [
+      "escala por valor",
+      "desconto por valor",
+      "faixas por valor"
+    ]
   }
 }

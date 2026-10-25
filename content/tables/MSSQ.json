@@ -8,5 +8,27 @@
     "es": "Stock de proyecto (totales)",
     "en": "Project stock (totals)",
     "pt": "Estoque de projeto (totais)"
+  },
+  "purpose": {
+    "es": "Totales del stock de proyecto por material, centro y elemento PEP, sumando todos los almacenes. El detalle por almacén y lote está en MSPR.",
+    "en": "Totals of project stock by material, plant and WBS element, summed across all storage locations. Detail by storage location and batch is in MSPR.",
+    "pt": "Totais do estoque de projeto por material, centro e elemento PEP, somando todos os depósitos. O detalhe por depósito e lote está na MSPR."
+  },
+  "synonyms": {
+    "es": [
+      "total stock de proyecto",
+      "stock Q total",
+      "stock por elemento PEP"
+    ],
+    "en": [
+      "project stock total",
+      "special stock Q total",
+      "stock per WBS element"
+    ],
+    "pt": [
+      "total estoque de projeto",
+      "estoque Q total",
+      "estoque por elemento PEP"
+    ]
   }
 }

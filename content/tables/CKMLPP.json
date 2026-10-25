@@ -8,5 +8,30 @@
     "es": "Ledger de materiales (cantidades por periodo)",
     "en": "Material ledger (quantities per period)",
     "pt": "Ledger de materiais (quantidades por período)"
+  },
+  "purpose": {
+    "es": "Una fila por material (número KALNR), ejercicio y período del ledger de materiales: cantidades de stock inicial, entradas, consumos y stock final, y el estado del cierre de costo real. Los valores correspondientes están en CKMLCR.",
+    "en": "One row per material (KALNR number), fiscal year and period in the material ledger: opening stock, receipts, consumptions and closing stock quantities, plus the actual costing closing status. The matching values are in CKMLCR.",
+    "pt": "Uma linha por material (número KALNR), exercício e período do ledger de materiais: quantidades de estoque inicial, entradas, consumos e estoque final, e o status do fechamento de custo real. Os valores correspondentes estão na CKMLCR."
+  },
+  "synonyms": {
+    "es": [
+      "cantidades por período",
+      "ledger de materiales por período",
+      "status de costo real",
+      "cierre de material ledger"
+    ],
+    "en": [
+      "period quantities",
+      "material ledger period",
+      "actual costing status",
+      "material ledger closing"
+    ],
+    "pt": [
+      "quantidades por período",
+      "ledger de materiais por período",
+      "status do custo real",
+      "fechamento do material ledger"
+    ]
   }
 }

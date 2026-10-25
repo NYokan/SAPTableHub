@@ -8,5 +8,30 @@
     "es": "Ledgers (mayor clásico y nuevo mayor)",
     "en": "Ledgers (classic and new G/L)",
     "pt": "Ledgers (razão clássico e novo razão)"
+  },
+  "purpose": {
+    "es": "Los ledgers definidos en el sistema para el mayor clásico, FI-SL y el nuevo mayor de ECC: tipo de ledger y tabla de totales que usa.",
+    "en": "The ledgers defined in the system for the classic G/L, FI-SL and ECC New G/L: ledger type and totals table used.",
+    "pt": "Os ledgers definidos no sistema para o razão clássico, FI-SL e o novo razão do ECC: tipo de ledger e tabela de totais usada."
+  },
+  "synonyms": {
+    "es": [
+      "ledger",
+      "nuevo mayor ledger",
+      "ledger FI-SL",
+      "ledger principal"
+    ],
+    "en": [
+      "ledger",
+      "new G/L ledger",
+      "FI-SL ledger",
+      "leading ledger"
+    ],
+    "pt": [
+      "ledger",
+      "ledger do novo razão",
+      "ledger FI-SL",
+      "ledger principal"
+    ]
   }
 }

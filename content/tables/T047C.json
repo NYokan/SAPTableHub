@@ -8,5 +8,27 @@
     "es": "Procedimientos de reclamación: gastos de reclamación",
     "en": "Dunning procedures: dunning charges",
     "pt": "Procedimentos de advertência: encargos de advertência"
+  },
+  "purpose": {
+    "es": "Los gastos de reclamación de cada procedimiento por nivel y moneda: importe fijo o porcentaje que se cobra al cliente al enviarle una carta de reclamación.",
+    "en": "The dunning charges of each procedure by level and currency: fixed amount or percentage charged to the customer when a dunning notice is sent.",
+    "pt": "As tarifas de advertência de cada procedimento por nível e moeda: montante fixo ou percentual cobrado do cliente ao enviar uma carta de cobrança."
+  },
+  "synonyms": {
+    "es": [
+      "gastos de reclamación",
+      "recargo por reclamación",
+      "comisión de cobro"
+    ],
+    "en": [
+      "dunning charges",
+      "dunning fee",
+      "collection fee"
+    ],
+    "pt": [
+      "tarifas de advertência",
+      "encargo de cobrança",
+      "taxa de cobrança"
+    ]
   }
 }

@@ -9,5 +9,30 @@
     "es": "Contabilizaciones entre sociedades",
     "en": "Cross-company postings",
     "pt": "Lançamentos entre empresas"
+  },
+  "purpose": {
+    "es": "Enlaza los documentos de una contabilización entre sociedades: una fila por cada documento que forma parte de la misma operación, con el número de operación común. Sirve para encontrar el documento contrapartida en la otra sociedad.",
+    "en": "Links the documents of a cross-company posting: one row per document that belongs to the same transaction, with the shared cross-company number. It is used to find the matching document in the other company code.",
+    "pt": "Liga os documentos de um lançamento entre empresas: uma linha por documento que faz parte da mesma operação, com o número de operação comum. Serve para encontrar o documento contrapartida na outra empresa."
+  },
+  "synonyms": {
+    "es": [
+      "operación entre sociedades",
+      "contabilización intercompañía",
+      "documento intercompañía",
+      "BVORG"
+    ],
+    "en": [
+      "cross-company posting",
+      "intercompany posting",
+      "intercompany document",
+      "BVORG"
+    ],
+    "pt": [
+      "operação entre empresas",
+      "lançamento intercompany",
+      "documento intercompany",
+      "BVORG"
+    ]
   }
 }

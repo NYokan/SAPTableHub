@@ -7,5 +7,27 @@
     "es": "Activos fijos: grupos de clases de movimiento",
     "en": "Fixed assets: transaction type groups",
     "pt": "Ativos fixos: grupos de tipos de movimento"
+  },
+  "purpose": {
+    "es": "Los grupos de clases de movimiento de activos (altas, bajas, transferencias, revalorizaciones…). Cada clase de movimiento pertenece a un grupo, que define el comportamiento común y su efecto en los valores del activo.",
+    "en": "The asset transaction type groups (acquisitions, retirements, transfers, revaluations…). Each transaction type belongs to a group, which defines its common behavior and effect on the asset values.",
+    "pt": "Os grupos de tipos de movimento de ativos (aquisições, baixas, transferências, reavaliações…). Cada tipo de movimento pertence a um grupo, que define o comportamento comum e seu efeito nos valores do ativo."
+  },
+  "synonyms": {
+    "es": [
+      "grupo de clases de movimiento",
+      "tipo de operación de activos",
+      "altas y bajas"
+    ],
+    "en": [
+      "transaction type group",
+      "asset transaction category",
+      "acquisitions and retirements"
+    ],
+    "pt": [
+      "grupo de tipos de movimento",
+      "categoria de movimento de ativo",
+      "aquisições e baixas"
+    ]
   }
 }

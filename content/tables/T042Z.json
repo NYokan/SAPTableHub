@@ -8,5 +8,33 @@
     "es": "Vías de pago por país",
     "en": "Payment methods per country",
     "pt": "Formas de pagamento por país"
+  },
+  "purpose": {
+    "es": "Las vías de pago definidas por país (transferencia, cheque, domiciliación…): si son de cobro o de pago, qué datos maestros exigen y qué programa genera el soporte de pago. Clientes, proveedores y documentos guardan su vía de pago con una letra.",
+    "en": "The payment methods defined per country (transfer, check, direct debit…): whether they are incoming or outgoing, which master data they require and which program creates the payment medium. Customers, vendors and documents store their payment method as a letter.",
+    "pt": "As formas de pagamento definidas por país (transferência, cheque, débito automático…): se são de recebimento ou de pagamento, quais dados mestres exigem e qual programa gera o meio de pagamento. Clientes, fornecedores e documentos guardam sua forma de pagamento como uma letra."
+  },
+  "synonyms": {
+    "es": [
+      "vía de pago",
+      "forma de pago",
+      "transferencia",
+      "cheque",
+      "ZLSCH"
+    ],
+    "en": [
+      "payment method",
+      "transfer",
+      "check payment",
+      "direct debit",
+      "ZLSCH"
+    ],
+    "pt": [
+      "forma de pagamento",
+      "meio de pagamento",
+      "transferência",
+      "cheque",
+      "ZLSCH"
+    ]
   }
 }

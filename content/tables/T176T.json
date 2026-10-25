@@ -8,5 +8,27 @@
     "es": "Clases de pedido del cliente: textos",
     "en": "Customer purchase order types: texts",
     "pt": "Tipos de pedido do cliente: textos"
+  },
+  "purpose": {
+    "es": "Descripción de cada clase de pedido del cliente (teléfono, fax, EDI…) en cada idioma: una fila por código e idioma. Sirve para mostrar un nombre legible en lugar del código BSARK en informes; los códigos se definen en T176.",
+    "en": "Description of each customer purchase order type (phone, fax, EDI…) in each language: one row per code and language. Use it to show a readable name instead of the BSARK code in reports; the codes themselves are defined in T176.",
+    "pt": "Descrição de cada tipo de pedido do cliente (telefone, fax, EDI…) em cada idioma: uma linha por código e idioma. Serve para mostrar um nome legível em vez do código BSARK em relatórios; os códigos são definidos na T176."
+  },
+  "synonyms": {
+    "es": [
+      "texto clase de pedido del cliente",
+      "canal de recepción del pedido",
+      "BSARK"
+    ],
+    "en": [
+      "purchase order type text",
+      "order received via",
+      "BSARK"
+    ],
+    "pt": [
+      "texto tipo de pedido do cliente",
+      "canal de recebimento do pedido",
+      "BSARK"
+    ]
   }
 }

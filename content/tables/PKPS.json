@@ -8,5 +8,27 @@
     "es": "Kanbans (contenedores del ciclo de control)",
     "en": "Kanbans (control cycle containers)",
     "pt": "Kanbans (contêineres do ciclo de controle)"
+  },
+  "purpose": {
+    "es": "Una fila por cada contenedor kanban de un ciclo de control: número de kanban, estado (vacío, lleno, en uso), cantidad y fechas de cambio de estado. El ciclo de control está en PKHD.",
+    "en": "One row per kanban container in a control cycle: kanban number, status (empty, full, in use), quantity and status change dates. The control cycle is in PKHD.",
+    "pt": "Uma linha por contêiner kanban de um ciclo de controle: número do kanban, status (vazio, cheio, em uso), quantidade e datas de mudança de status. O ciclo de controle está na PKHD."
+  },
+  "synonyms": {
+    "es": [
+      "contenedor kanban",
+      "estado del kanban",
+      "tarjetas kanban"
+    ],
+    "en": [
+      "kanban container",
+      "kanban status",
+      "kanban cards"
+    ],
+    "pt": [
+      "contêiner kanban",
+      "status do kanban",
+      "cartões kanban"
+    ]
   }
 }

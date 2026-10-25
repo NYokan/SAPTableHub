@@ -8,5 +8,27 @@
     "es": "Listas de materiales (subposiciones)",
     "en": "Bills of material (sub-items)",
     "pt": "Listas técnicas (subitens)"
+  },
+  "purpose": {
+    "es": "Una fila por cada subposición de una posición de lista de materiales: divide la cantidad del componente según su punto de montaje (por ejemplo, la referencia de posición en un circuito). Complementa a STPO.",
+    "en": "One row per sub-item of a bill of material item: it splits the component quantity by installation point (for example, a reference designator on a circuit board). It complements STPO.",
+    "pt": "Uma linha por subitem de um item de lista técnica: divide a quantidade do componente por ponto de montagem (por exemplo, a referência de posição em uma placa de circuito). Complementa a STPO."
+  },
+  "synonyms": {
+    "es": [
+      "subposiciones",
+      "punto de montaje",
+      "referencia de posición"
+    ],
+    "en": [
+      "BOM sub-items",
+      "installation point",
+      "reference designator"
+    ],
+    "pt": [
+      "subitens",
+      "ponto de montagem",
+      "referência de posição"
+    ]
   }
 }

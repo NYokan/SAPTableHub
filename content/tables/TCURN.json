@@ -9,5 +9,27 @@
     "es": "Cotización de tipos de cambio (directa o indirecta)",
     "en": "Exchange rate quotation (direct or indirect)",
     "pt": "Cotação de taxas de câmbio (direta ou indireta)"
+  },
+  "purpose": {
+    "es": "Indica, por par de monedas, clase de tipo de cambio y fecha, si el tipo de cambio se cotiza de forma directa o indirecta. Afecta a cómo se interpretan y muestran los tipos de TCURR.",
+    "en": "States, per currency pair, exchange rate type and date, whether the exchange rate is quoted directly or indirectly. It affects how the TCURR rates are interpreted and displayed.",
+    "pt": "Indica, por par de moedas, tipo de taxa de câmbio e data, se a taxa de câmbio é cotada de forma direta ou indireta. Afeta como as taxas da TCURR são interpretadas e exibidas."
+  },
+  "synonyms": {
+    "es": [
+      "cotización directa",
+      "cotización indirecta",
+      "notación de tipo de cambio"
+    ],
+    "en": [
+      "direct quotation",
+      "indirect quotation",
+      "exchange rate notation"
+    ],
+    "pt": [
+      "cotação direta",
+      "cotação indireta",
+      "notação da taxa de câmbio"
+    ]
   }
 }

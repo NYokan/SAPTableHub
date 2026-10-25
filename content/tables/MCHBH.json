@@ -8,5 +8,24 @@
     "es": "Stock por lote (histórico de periodos)",
     "en": "Stock by batch (period history)",
     "pt": "Estoque por lote (histórico de períodos)"
+  },
+  "purpose": {
+    "es": "Copia por periodo del stock por lote (MCHB): cantidades de cada lote en almacén al cierre de periodos anteriores.",
+    "en": "Period copy of batch stock (MCHB): quantities of each batch in a storage location at the close of earlier periods.",
+    "pt": "Cópia por período do estoque por lote (MCHB): quantidades de cada lote no depósito no fechamento de períodos anteriores."
+  },
+  "synonyms": {
+    "es": [
+      "histórico de stock por lote",
+      "stock de lote a cierre de mes"
+    ],
+    "en": [
+      "batch stock history",
+      "month-end batch stock"
+    ],
+    "pt": [
+      "histórico de estoque por lote",
+      "estoque do lote no fechamento"
+    ]
   }
 }

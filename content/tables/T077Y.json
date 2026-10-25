@@ -9,5 +9,24 @@
     "es": "Grupos de cuentas de proveedores: textos",
     "en": "Vendor account groups: texts",
     "pt": "Grupos de contas de fornecedores: textos"
+  },
+  "purpose": {
+    "es": "Nombre de cada grupo de cuentas de proveedores por idioma. Traduce la clave de T077K que aparece en LFA1.",
+    "en": "Name of each vendor account group per language. It translates the T077K key shown in LFA1.",
+    "pt": "Nome de cada grupo de contas de fornecedores por idioma. Traduz a chave da T077K que aparece na LFA1."
+  },
+  "synonyms": {
+    "es": [
+      "nombre de grupo de cuentas",
+      "descripción de grupo de proveedores"
+    ],
+    "en": [
+      "account group name",
+      "vendor account group description"
+    ],
+    "pt": [
+      "nome do grupo de contas",
+      "descrição do grupo de fornecedores"
+    ]
   }
 }

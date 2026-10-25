@@ -8,5 +8,24 @@
     "es": "Roles de socio de negocio (textos)",
     "en": "Business partner roles (texts)",
     "pt": "Funções de parceiro de negócios (textos)"
+  },
+  "purpose": {
+    "es": "Descripción de cada rol de socio de negocio por idioma. Complementa a TB003.",
+    "en": "Description of each business partner role per language. It complements TB003.",
+    "pt": "Descrição de cada função de parceiro de negócios por idioma. Complementa a TB003."
+  },
+  "synonyms": {
+    "es": [
+      "nombre de rol BP",
+      "texto de rol de socio"
+    ],
+    "en": [
+      "BP role name",
+      "partner role text"
+    ],
+    "pt": [
+      "nome da função BP",
+      "texto da função do parceiro"
+    ]
   }
 }

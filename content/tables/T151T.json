@@ -9,5 +9,27 @@
     "es": "Grupos de clientes: textos",
     "en": "Customer groups: texts",
     "pt": "Grupos de clientes: textos"
+  },
+  "purpose": {
+    "es": "Descripción de cada grupo de clientes en cada idioma: una fila por código e idioma. Sirve para mostrar un nombre legible en lugar del código KDGRP en informes; los códigos se definen en T151.",
+    "en": "Description of each customer group in each language: one row per code and language. Use it to show a readable name instead of the KDGRP code in reports; the codes themselves are defined in T151.",
+    "pt": "Descrição de cada grupo de clientes em cada idioma: uma linha por código e idioma. Serve para mostrar um nome legível em vez do código KDGRP em relatórios; os códigos são definidos na T151."
+  },
+  "synonyms": {
+    "es": [
+      "texto grupo de clientes",
+      "descripción grupo de clientes",
+      "KDGRP"
+    ],
+    "en": [
+      "customer group text",
+      "customer group description",
+      "KDGRP"
+    ],
+    "pt": [
+      "texto grupo de clientes",
+      "descrição grupo de clientes",
+      "KDGRP"
+    ]
   }
 }

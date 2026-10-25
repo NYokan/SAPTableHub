@@ -7,5 +7,27 @@
     "es": "Claves de valores estándar",
     "en": "Standard value keys",
     "pt": "Chaves de valores standard"
+  },
+  "purpose": {
+    "es": "Configuración de las claves de valores estándar: definen qué valores estándar (hasta seis, como tiempo de preparación, de máquina o de mano de obra) se registran en las operaciones de un puesto de trabajo. Una fila por clave.",
+    "en": "Configuration of standard value keys: they define which standard values (up to six, such as setup, machine or labor time) are entered for operations at a work center. One row per key.",
+    "pt": "Configuração das chaves de valores-padrão: definem quais valores-padrão (até seis, como tempo de preparação, de máquina ou de mão de obra) são registrados nas operações de um centro de trabalho. Uma linha por chave."
+  },
+  "synonyms": {
+    "es": [
+      "clave de valores estándar",
+      "tiempos estándar",
+      "tiempo de preparación"
+    ],
+    "en": [
+      "standard value key",
+      "standard times",
+      "setup time"
+    ],
+    "pt": [
+      "chave de valores-padrão",
+      "tempos-padrão",
+      "tempo de preparação"
+    ]
   }
 }

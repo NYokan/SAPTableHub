@@ -8,5 +8,30 @@
     "es": "EWM: ubicaciones de almacén",
     "en": "EWM: storage bins",
     "pt": "EWM: posições no depósito"
+  },
+  "purpose": {
+    "es": "Una fila por cada ubicación de almacén en Extended Warehouse Management (EWM): número de almacén, tipo y área de almacén, tipo de ubicación, capacidad y bloqueos.",
+    "en": "One row per storage bin in Extended Warehouse Management (EWM): warehouse number, storage type and section, bin type, capacity and blocks.",
+    "pt": "Uma linha por posição de depósito no Extended Warehouse Management (EWM): número do depósito, tipo e área de depósito, tipo de posição, capacidade e bloqueios."
+  },
+  "synonyms": {
+    "es": [
+      "ubicación EWM",
+      "maestro de ubicaciones",
+      "hueco de almacén",
+      "posición de almacén EWM"
+    ],
+    "en": [
+      "EWM storage bin",
+      "bin master",
+      "warehouse location",
+      "EWM bin"
+    ],
+    "pt": [
+      "posição EWM",
+      "mestre de posições",
+      "endereço de depósito",
+      "local de armazenagem EWM"
+    ]
   }
 }

@@ -8,5 +8,30 @@
     "es": "Partidas individuales CO de plan",
     "en": "CO plan line items",
     "pt": "Partidas individuais CO de plano"
+  },
+  "purpose": {
+    "es": "Una fila por cada partida individual de plan en Controlling (costes primarios y secundarios planificados), por objeto CO, ejercicio, versión y clase de coste. Sirve para ver el detalle de quién y cuándo planificó cada importe; los totales están en COSP y COSS.",
+    "en": "One row per plan line item in Controlling (planned primary and secondary costs), by CO object, fiscal year, version and cost element. It shows who planned each amount and when; the totals are in COSP and COSS.",
+    "pt": "Uma linha por partida de plano no Controlling (custos primários e secundários planejados), por objeto CO, exercício, versão e classe de custo. Mostra quem planejou cada valor e quando; os totais estão na COSP e COSS."
+  },
+  "synonyms": {
+    "es": [
+      "partidas de plan CO",
+      "detalle de planificación",
+      "costes planificados",
+      "plan de costes"
+    ],
+    "en": [
+      "CO plan line items",
+      "planning details",
+      "planned costs",
+      "cost plan"
+    ],
+    "pt": [
+      "partidas de plano CO",
+      "detalhe do planejamento",
+      "custos planejados",
+      "plano de custos"
+    ]
   }
 }

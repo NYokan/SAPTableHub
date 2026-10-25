@@ -9,5 +9,27 @@
     "es": "Operaciones de órdenes (campos de usuario)",
     "en": "Order operations (user fields)",
     "pt": "Operações de ordens (campos do usuário)"
+  },
+  "purpose": {
+    "es": "Una fila por cada operación de una orden, con los campos de usuario de la operación: textos, cantidades, valores, fechas e indicadores libres que la empresa define con una clave de campos de usuario. Complementa a AFVC y AFVV.",
+    "en": "One row per order operation, holding the operation's user fields: free texts, quantities, values, dates and flags that the company defines through a user field key. It complements AFVC and AFVV.",
+    "pt": "Uma linha por operação de ordem, com os campos de usuário da operação: textos, quantidades, valores, datas e indicadores livres que a empresa define por uma chave de campos de usuário. Complementa a AFVC e a AFVV."
+  },
+  "synonyms": {
+    "es": [
+      "campos de usuario de operación",
+      "campos libres de operación",
+      "datos adicionales de operación"
+    ],
+    "en": [
+      "operation user fields",
+      "custom operation fields",
+      "additional operation data"
+    ],
+    "pt": [
+      "campos de usuário da operação",
+      "campos livres da operação",
+      "dados adicionais da operação"
+    ]
   }
 }

@@ -8,5 +8,27 @@
     "es": "Necesidades de capacidad: repartos por capacidad individual",
     "en": "Capacity requirements: splits per individual capacity",
     "pt": "Necessidades de capacidade: divisões por capacidade individual"
+  },
+  "purpose": {
+    "es": "Una fila por cada reparto de una necesidad de capacidad entre capacidades individuales (por ejemplo, cuando una operación se asigna a una máquina concreta de un grupo). Complementa a KBED.",
+    "en": "One row per split of a capacity requirement across individual capacities (for example, when an operation is assigned to a specific machine in a group). It complements KBED.",
+    "pt": "Uma linha por divisão de uma necessidade de capacidade entre capacidades individuais (por exemplo, quando uma operação é atribuída a uma máquina específica de um grupo). Complementa a KBED."
+  },
+  "synonyms": {
+    "es": [
+      "capacidad individual",
+      "reparto de capacidad",
+      "asignación a máquina"
+    ],
+    "en": [
+      "individual capacity",
+      "capacity split",
+      "machine assignment"
+    ],
+    "pt": [
+      "capacidade individual",
+      "divisão de capacidade",
+      "atribuição à máquina"
+    ]
   }
 }

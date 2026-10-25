@@ -8,5 +8,27 @@
     "es": "Áreas de empresa (secciones de planta)",
     "en": "Plant sections",
     "pt": "Áreas de empresa (seções da planta)"
+  },
+  "purpose": {
+    "es": "Lista de áreas de empresa (secciones de planta) por centro, con su responsable y teléfono. Se asignan a equipos y ubicaciones técnicas para saber qué área de producción es responsable.",
+    "en": "List of plant sections per plant, with the person responsible and phone. They are assigned to equipment and functional locations to show which production area is responsible.",
+    "pt": "Lista de áreas da empresa (seções da planta) por centro, com responsável e telefone. São atribuídas a equipamentos e locais de instalação para indicar qual área de produção é responsável."
+  },
+  "synonyms": {
+    "es": [
+      "área de empresa",
+      "sección de planta",
+      "área de producción responsable"
+    ],
+    "en": [
+      "plant section",
+      "plant area",
+      "responsible production area"
+    ],
+    "pt": [
+      "área da empresa",
+      "seção da planta",
+      "área de produção responsável"
+    ]
   }
 }

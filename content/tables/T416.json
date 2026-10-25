@@ -8,5 +8,27 @@
     "es": "Utilizaciones de listas de materiales",
     "en": "Bill of material usages",
     "pt": "Utilizações de listas técnicas"
+  },
+  "purpose": {
+    "es": "Configuración de las utilizaciones de listas de materiales (por ejemplo, 1 producción, 2 ingeniería, 3 universal, 5 ventas, 6 cálculo de costes): indica para qué áreas vale una lista de materiales. Una fila por utilización (STLAN).",
+    "en": "Configuration of bill of material usages (for example, 1 production, 2 engineering, 3 universal, 5 sales, 6 costing): it states which areas a BOM is valid for. One row per usage (STLAN).",
+    "pt": "Configuração das utilizações de listas técnicas (por exemplo, 1 produção, 2 engenharia, 3 universal, 5 vendas, 6 cálculo de custos): indica para quais áreas uma lista técnica vale. Uma linha por utilização (STLAN)."
+  },
+  "synonyms": {
+    "es": [
+      "utilización de lista de materiales",
+      "uso de BOM",
+      "STLAN"
+    ],
+    "en": [
+      "BOM usage",
+      "bill of material usage",
+      "STLAN"
+    ],
+    "pt": [
+      "utilização da lista técnica",
+      "uso da BOM",
+      "STLAN"
+    ]
   }
 }

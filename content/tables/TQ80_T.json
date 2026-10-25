@@ -8,5 +8,24 @@
     "es": "Clases de aviso (descripciones)",
     "en": "Notification types (descriptions)",
     "pt": "Tipos de nota (descrições)"
+  },
+  "purpose": {
+    "es": "Descripciones por idioma de las clases de aviso (TQ80). Se usa para mostrar el nombre legible en informes en lugar del código.",
+    "en": "Language-dependent descriptions of notification types (TQ80). Used to show the readable name in reports instead of the code.",
+    "pt": "Descrições por idioma de tipos de nota (TQ80). Usada para mostrar o nome legível em relatórios em vez do código."
+  },
+  "synonyms": {
+    "es": [
+      "texto clase de aviso",
+      "descripción tipo de notificación"
+    ],
+    "en": [
+      "notification type text",
+      "notification type description"
+    ],
+    "pt": [
+      "texto tipo de nota",
+      "descrição tipo de notificação"
+    ]
   }
 }

@@ -9,5 +9,27 @@
     "es": "Grupos de clientes 4",
     "en": "Customer groups 4",
     "pt": "Grupos de clientes 4"
+  },
+  "purpose": {
+    "es": "Lista de valores del grupo de clientes 4 (campo KVGR4 en KNVV), una clasificación libre del cliente en sus datos de ventas. Cada empresa decide su significado; se usa en análisis de ventas y a veces en precios.",
+    "en": "List of values for customer group 4 (field KVGR4 in KNVV), a free classification of the customer in its sales data. Each company decides its meaning; used in sales analysis and sometimes in pricing.",
+    "pt": "Lista de valores do grupo de clientes 4 (campo KVGR4 na KNVV), uma classificação livre do cliente em seus dados de vendas. Cada empresa decide seu significado; usada em análises de vendas e às vezes em preços."
+  },
+  "synonyms": {
+    "es": [
+      "grupo de clientes 4",
+      "KVGR4",
+      "clasificación de clientes 4"
+    ],
+    "en": [
+      "customer group 4",
+      "KVGR4",
+      "customer classification 4"
+    ],
+    "pt": [
+      "grupo de clientes 4",
+      "KVGR4",
+      "classificação de clientes 4"
+    ]
   }
 }

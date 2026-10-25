@@ -8,5 +8,30 @@
     "es": "Asignación de personas a direcciones",
     "en": "Person to address assignments",
     "pt": "Atribuição de pessoas a endereços"
+  },
+  "purpose": {
+    "es": "Una fila por cada combinación de persona (ADRP) y dirección (ADRC): los datos de la persona en su lugar de trabajo, como departamento, función, edificio o sala. Se usa, por ejemplo, para personas de contacto y usuarios.",
+    "en": "One row per combination of person (ADRP) and address (ADRC): the person's data at their workplace, such as department, function, building or room. It is used, for example, for contact persons and users.",
+    "pt": "Uma linha por combinação de pessoa (ADRP) e endereço (ADRC): os dados da pessoa no local de trabalho, como departamento, função, prédio ou sala. É usada, por exemplo, para pessoas de contato e usuários."
+  },
+  "synonyms": {
+    "es": [
+      "persona en dirección",
+      "departamento de contacto",
+      "función de contacto",
+      "dirección de trabajo"
+    ],
+    "en": [
+      "person address assignment",
+      "contact department",
+      "contact function",
+      "workplace address"
+    ],
+    "pt": [
+      "pessoa no endereço",
+      "departamento do contato",
+      "função do contato",
+      "endereço de trabalho"
+    ]
   }
 }

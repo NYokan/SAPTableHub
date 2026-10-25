@@ -8,5 +8,24 @@
     "es": "Cálculos de coste (textos de posiciones)",
     "en": "Cost estimates (item texts)",
     "pt": "Cálculos de custo (textos dos itens)"
+  },
+  "purpose": {
+    "es": "Textos de las posiciones de un cálculo de costes (por ejemplo, la descripción escrita a mano en una posición de cálculo unitario). Complementa las posiciones de CKIS.",
+    "en": "Texts of the items of a cost estimate (for example, the description entered manually on a unit costing item). It complements the items in CKIS.",
+    "pt": "Textos dos itens de um cálculo de custos (por exemplo, a descrição digitada em um item de custeio unitário). Complementa os itens da CKIS."
+  },
+  "synonyms": {
+    "es": [
+      "texto de posición de cálculo",
+      "descripción de posición de costes"
+    ],
+    "en": [
+      "costing item text",
+      "cost estimate item description"
+    ],
+    "pt": [
+      "texto do item de cálculo",
+      "descrição do item de custos"
+    ]
   }
 }

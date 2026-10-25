@@ -9,5 +9,27 @@
     "es": "Zonas de ventas: textos",
     "en": "Sales districts: texts",
     "pt": "Regiões de vendas: textos"
+  },
+  "purpose": {
+    "es": "Descripción de cada zona de ventas en cada idioma: una fila por código e idioma. Sirve para mostrar un nombre legible en lugar del código BZIRK en informes; los códigos se definen en T171.",
+    "en": "Description of each sales district in each language: one row per code and language. Use it to show a readable name instead of the BZIRK code in reports; the codes themselves are defined in T171.",
+    "pt": "Descrição de cada região de vendas em cada idioma: uma linha por código e idioma. Serve para mostrar um nome legível em vez do código BZIRK em relatórios; os códigos são definidos na T171."
+  },
+  "synonyms": {
+    "es": [
+      "texto zona de ventas",
+      "nombre zona de ventas",
+      "BZIRK"
+    ],
+    "en": [
+      "sales district text",
+      "sales district name",
+      "BZIRK"
+    ],
+    "pt": [
+      "texto região de vendas",
+      "nome região de vendas",
+      "BZIRK"
+    ]
   }
 }

@@ -8,5 +8,27 @@
     "es": "Registros de condición: cliente y material (con estado de liberación)",
     "en": "Condition records: customer and material (with release status)",
     "pt": "Registros de condição: cliente e material (com status de liberação)"
+  },
+  "purpose": {
+    "es": "Versión de la tabla de condiciones por cliente y material que añade el estado de liberación del registro. Se usa en sistemas recientes en lugar de A005 para precios especiales por cliente; el importe está en KONP.",
+    "en": "Version of the customer/material condition table that adds the record's release status. Newer systems use it instead of A005 for customer-specific prices; the amount is in KONP.",
+    "pt": "Versão da tabela de condições por cliente e material que acrescenta o status de liberação do registro. Sistemas mais recentes a usam no lugar da A005 para preços especiais por cliente; o valor fica na KONP."
+  },
+  "synonyms": {
+    "es": [
+      "precio cliente-material liberado",
+      "precio especial liberado",
+      "tabla de condiciones 305"
+    ],
+    "en": [
+      "released customer material price",
+      "released customer price",
+      "condition table 305"
+    ],
+    "pt": [
+      "preço cliente-material liberado",
+      "preço especial liberado",
+      "tabela de condições 305"
+    ]
   }
 }

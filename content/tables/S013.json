@@ -8,5 +8,27 @@
     "es": "Estadísticas de evaluación de proveedores",
     "en": "Vendor evaluation statistics",
     "pt": "Estatísticas de avaliação de fornecedores"
+  },
+  "purpose": {
+    "es": "Estructura de información del LIS con datos estadísticos para la evaluación de proveedores por periodo: puntualidad y fidelidad de cantidades de las entregas, entre otros indicadores.",
+    "en": "LIS info structure with statistical data for vendor evaluation by period: on-time delivery and quantity reliability of deliveries, among other indicators.",
+    "pt": "Estrutura de informação do LIS com dados estatísticos para a avaliação de fornecedores por período: pontualidade e confiabilidade de quantidade das entregas, entre outros indicadores."
+  },
+  "synonyms": {
+    "es": [
+      "estadísticas de evaluación de proveedores",
+      "puntualidad de entregas",
+      "desempeño de proveedores"
+    ],
+    "en": [
+      "vendor evaluation statistics",
+      "on-time delivery",
+      "supplier performance"
+    ],
+    "pt": [
+      "estatísticas de avaliação de fornecedores",
+      "pontualidade das entregas",
+      "desempenho de fornecedores"
+    ]
   }
 }

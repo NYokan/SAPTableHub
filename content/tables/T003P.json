@@ -8,5 +8,24 @@
     "es": "Clases de orden (textos)",
     "en": "Order types (texts)",
     "pt": "Tipos de ordem (textos)"
+  },
+  "purpose": {
+    "es": "Descripción de cada clase de orden, por idioma. Se une con T003O o con AUFK por el campo AUART para mostrar el nombre de la clase de orden.",
+    "en": "Description of each order type, per language. It is joined to T003O or AUFK by the AUART field to show the order type name.",
+    "pt": "Descrição de cada tipo de ordem, por idioma. É unida à T003O ou à AUFK pelo campo AUART para mostrar o nome do tipo de ordem."
+  },
+  "synonyms": {
+    "es": [
+      "nombre de clase de orden",
+      "descripción de tipo de orden"
+    ],
+    "en": [
+      "order type name",
+      "order type description"
+    ],
+    "pt": [
+      "nome do tipo de ordem",
+      "descrição do tipo de ordem"
+    ]
   }
 }

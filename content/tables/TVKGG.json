@@ -9,5 +9,27 @@
     "es": "Grupos de condiciones de cliente",
     "en": "Customer condition groups",
     "pt": "Grupos de condições de cliente"
+  },
+  "purpose": {
+    "es": "Lista de grupos de condiciones de cliente (campos KDKG1 a KDKG5 en KNVV), clasificaciones libres que se usan como clave en registros de condición, por ejemplo para descuentos especiales.",
+    "en": "List of customer condition groups (fields KDKG1 to KDKG5 in KNVV), free classifications used as a key in condition records, for example for special discounts.",
+    "pt": "Lista de grupos de condições de cliente (campos KDKG1 a KDKG5 na KNVV), classificações livres usadas como chave em registros de condição, por exemplo para descontos especiais."
+  },
+  "synonyms": {
+    "es": [
+      "grupo de condiciones de cliente",
+      "KDKG1",
+      "descuento por grupo de cliente"
+    ],
+    "en": [
+      "customer condition group",
+      "KDKG1",
+      "customer group discount"
+    ],
+    "pt": [
+      "grupo de condições de cliente",
+      "KDKG1",
+      "desconto por grupo de cliente"
+    ]
   }
 }

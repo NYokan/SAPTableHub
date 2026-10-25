@@ -8,5 +8,30 @@
     "es": "Materiales: valores de pronóstico por periodo",
     "en": "Materials: forecast values per period",
     "pt": "Materiais: valores de previsão por período"
+  },
+  "purpose": {
+    "es": "Valores de consumo pronosticados de un material por periodo, calculados por el pronóstico del material. Se usan en planificación por consumo; se enlazan con el material mediante MAPR.",
+    "en": "Forecast consumption values of a material per period, calculated by the material forecast. They are used in consumption-based planning; linked to the material through MAPR.",
+    "pt": "Valores de consumo previstos de um material por período, calculados pela previsão do material. São usados no planejamento por consumo; ligam-se ao material pela MAPR."
+  },
+  "synonyms": {
+    "es": [
+      "valores pronosticados",
+      "previsión de consumo",
+      "pronóstico por periodo",
+      "demanda prevista"
+    ],
+    "en": [
+      "forecast values",
+      "consumption forecast",
+      "forecast per period",
+      "forecasted demand"
+    ],
+    "pt": [
+      "valores previstos",
+      "previsão de consumo",
+      "previsão por período",
+      "demanda prevista"
+    ]
   }
 }

@@ -9,5 +9,29 @@
     "es": "Grupos de compras",
     "en": "Purchasing groups",
     "pt": "Grupos de compradores"
+  },
+  "purpose": {
+    "es": "Una fila por cada grupo de compras (comprador o equipo de compradores): nombre, teléfono y correo. Aparece en pedidos y solicitudes, y sirve para analizar compras por responsable.",
+    "en": "One row per purchasing group (buyer or team of buyers): name, phone and email. It appears on orders and requisitions and is used to analyze purchasing by responsible person.",
+    "pt": "Uma linha por grupo de compradores (comprador ou equipe de compradores): nome, telefone e e-mail. Aparece em pedidos e requisições e serve para analisar compras por responsável."
+  },
+  "synonyms": {
+    "es": [
+      "grupo de compras",
+      "comprador",
+      "grupos de compradores",
+      "responsable de compras"
+    ],
+    "en": [
+      "purchasing group",
+      "buyer",
+      "buyer group",
+      "purchasing responsible"
+    ],
+    "pt": [
+      "grupo de compradores",
+      "comprador",
+      "responsável de compras"
+    ]
   }
 }

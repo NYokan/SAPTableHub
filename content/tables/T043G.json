@@ -8,5 +8,27 @@
     "es": "Tolerancias para clientes y proveedores",
     "en": "Customer and vendor tolerances",
     "pt": "Tolerâncias para clientes e fornecedores"
+  },
+  "purpose": {
+    "es": "Las tolerancias para clientes y proveedores por sociedad y grupo de tolerancia: cuánta diferencia de pago se acepta automáticamente al compensar y cómo se ajusta el descuento por pronto pago.",
+    "en": "The tolerances for customers and vendors per company code and tolerance group: how much payment difference is accepted automatically on clearing and how cash discount is adjusted.",
+    "pt": "As tolerâncias para clientes e fornecedores por empresa e grupo de tolerância: quanta diferença de pagamento é aceita automaticamente na compensação e como o desconto por pagamento antecipado é ajustado."
+  },
+  "synonyms": {
+    "es": [
+      "tolerancia de pago",
+      "diferencia de pago aceptada",
+      "tolerancia de clientes y proveedores"
+    ],
+    "en": [
+      "payment tolerance",
+      "accepted payment difference",
+      "customer vendor tolerance"
+    ],
+    "pt": [
+      "tolerância de pagamento",
+      "diferença de pagamento aceita",
+      "tolerância de clientes e fornecedores"
+    ]
   }
 }

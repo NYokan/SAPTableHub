@@ -9,5 +9,27 @@
     "es": "Servicios: límites por contrato",
     "en": "Services: limits per contract",
     "pt": "Serviços: limites por contrato"
+  },
+  "purpose": {
+    "es": "Límites de valor por contrato dentro del límite para servicios no planificados de una posición: cuánto se puede consumir de cada contrato marco referenciado. Complementa a ESUH.",
+    "en": "Value limits per contract within the unplanned services limit of an item: how much can be consumed from each referenced outline agreement. It complements ESUH.",
+    "pt": "Limites de valor por contrato dentro do limite para serviços não planejados de um item: quanto pode ser consumido de cada contrato básico referenciado. Complementa a ESUH."
+  },
+  "synonyms": {
+    "es": [
+      "límite por contrato",
+      "servicios no planificados contrato",
+      "tope de contrato"
+    ],
+    "en": [
+      "limit per contract",
+      "unplanned services contract",
+      "contract value limit"
+    ],
+    "pt": [
+      "limite por contrato",
+      "serviços não planejados contrato",
+      "teto do contrato"
+    ]
   }
 }

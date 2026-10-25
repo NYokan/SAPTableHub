@@ -7,5 +7,24 @@
     "es": "Operaciones empresariales (textos)",
     "en": "Business transactions (texts)",
     "pt": "Operações empresariais (textos)"
+  },
+  "purpose": {
+    "es": "Descripción de cada operación empresarial, por idioma. Se une con COEP, COBK o TJ01 por el campo VRGNG para mostrar qué proceso originó una partida.",
+    "en": "Description of each business transaction, per language. It is joined to COEP, COBK or TJ01 by the VRGNG field to show which process created a line item.",
+    "pt": "Descrição de cada operação de negócio, por idioma. É unida à COEP, COBK ou TJ01 pelo campo VRGNG para mostrar qual processo originou uma partida."
+  },
+  "synonyms": {
+    "es": [
+      "nombre de operación empresarial",
+      "descripción de VRGNG"
+    ],
+    "en": [
+      "business transaction name",
+      "VRGNG description"
+    ],
+    "pt": [
+      "nome da operação de negócio",
+      "descrição da VRGNG"
+    ]
   }
 }

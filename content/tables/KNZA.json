@@ -8,5 +8,27 @@
     "es": "Clientes: pagadores alternativos permitidos",
     "en": "Customers: permitted alternative payers",
     "pt": "Clientes: pagadores alternativos permitidos"
+  },
+  "purpose": {
+    "es": "Lista de pagadores alternativos permitidos para un cliente: otros clientes que pueden pagar en su nombre y que se pueden indicar al contabilizar un documento.",
+    "en": "List of permitted alternative payers for a customer: other customers that may pay on its behalf and can be entered when posting a document.",
+    "pt": "Lista de pagadores alternativos permitidos para um cliente: outros clientes que podem pagar em seu nome e podem ser indicados ao lançar um documento."
+  },
+  "synonyms": {
+    "es": [
+      "pagador alternativo",
+      "pagador permitido",
+      "pago por tercero"
+    ],
+    "en": [
+      "alternative payer",
+      "permitted payer",
+      "third-party payer"
+    ],
+    "pt": [
+      "pagador alternativo",
+      "pagador permitido",
+      "pagamento por terceiro"
+    ]
   }
 }

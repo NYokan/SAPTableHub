@@ -8,5 +8,27 @@
     "es": "Socios de negocio (usos de dirección)",
     "en": "Business partners (address usages)",
     "pt": "Parceiros de negócios (usos de endereço)"
+  },
+  "purpose": {
+    "es": "Una fila por socio de negocio, uso de dirección y periodo de validez: indica qué dirección del socio se usa para cada fin (dirección estándar, de facturación, de entrega…) y desde cuándo hasta cuándo.",
+    "en": "One row per business partner, address usage and validity period: it says which of the partner's addresses is used for each purpose (standard, billing, delivery address…) and from when to when.",
+    "pt": "Uma linha por parceiro de negócios, uso de endereço e período de validade: indica qual endereço do parceiro é usado para cada finalidade (endereço padrão, de faturamento, de entrega…) e de quando até quando."
+  },
+  "synonyms": {
+    "es": [
+      "uso de dirección",
+      "dirección estándar del socio",
+      "tipo de dirección BP"
+    ],
+    "en": [
+      "address usage",
+      "BP standard address",
+      "address type"
+    ],
+    "pt": [
+      "uso de endereço",
+      "endereço padrão do parceiro",
+      "tipo de endereço BP"
+    ]
   }
 }

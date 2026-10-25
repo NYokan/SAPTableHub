@@ -8,5 +8,27 @@
     "es": "Grupos de planificación de necesidades",
     "en": "MRP groups",
     "pt": "Grupos de MRP"
+  },
+  "purpose": {
+    "es": "Configuración de los grupos de planificación de necesidades por centro: agrupan materiales con parámetros de MRP comunes, como la estrategia de planificación, el horizonte de planificación o el período de consumo.",
+    "en": "Configuration of MRP groups per plant: they group materials with common MRP parameters, such as the planning strategy, planning horizon or consumption period.",
+    "pt": "Configuração dos grupos de planejamento de necessidades por centro: agrupam materiais com parâmetros de MRP comuns, como a estratégia de planejamento, o horizonte de planejamento ou o período de consumo."
+  },
+  "synonyms": {
+    "es": [
+      "grupo de planificación",
+      "grupo MRP",
+      "parámetros MRP comunes"
+    ],
+    "en": [
+      "MRP group",
+      "MRP group settings",
+      "common MRP parameters"
+    ],
+    "pt": [
+      "grupo de planejamento",
+      "grupo MRP",
+      "parâmetros MRP comuns"
+    ]
   }
 }

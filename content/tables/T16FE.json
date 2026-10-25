@@ -9,5 +9,24 @@
     "es": "Indicadores de liberación: textos",
     "en": "Release indicators: texts",
     "pt": "Indicadores de liberação: textos"
+  },
+  "purpose": {
+    "es": "Descripción de cada indicador de liberación por idioma, por ejemplo «Bloqueado» o «Liberado». Complementa a T16FB.",
+    "en": "Description of each release indicator per language, for example 'Blocked' or 'Released'. It complements T16FB.",
+    "pt": "Descrição de cada indicador de liberação por idioma, por exemplo 'Bloqueado' ou 'Liberado'. Complementa a T16FB."
+  },
+  "synonyms": {
+    "es": [
+      "texto de indicador de liberación",
+      "descripción de estado de liberación"
+    ],
+    "en": [
+      "release indicator text",
+      "release status description"
+    ],
+    "pt": [
+      "texto do indicador de liberação",
+      "descrição do status de liberação"
+    ]
   }
 }

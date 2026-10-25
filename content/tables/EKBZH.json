@@ -9,5 +9,27 @@
     "es": "Pedidos de compra: historial de costes de entrega (registros retirados)",
     "en": "Purchase orders: delivery cost history (removed records)",
     "pt": "Pedidos de compra: histórico de custos de entrega (registros removidos)"
+  },
+  "purpose": {
+    "es": "Registros del historial de costes de entrega de pedidos de compra (EKBZ) que se retiraron al agregar el historial. Conserva el detalle original de fletes, aduanas y otros costes de entrega.",
+    "en": "Delivery cost history records of purchase orders (EKBZ) that were removed when the history was aggregated. It keeps the original detail of freight, customs and other delivery costs.",
+    "pt": "Registros do histórico de custos de entrega de pedidos de compra (EKBZ) que foram retirados ao agregar o histórico. Conserva o detalhe original de fretes, alfândega e outros custos de entrega."
+  },
+  "synonyms": {
+    "es": [
+      "historial de fletes agregado",
+      "registros retirados de EKBZ",
+      "costes de entrega históricos"
+    ],
+    "en": [
+      "aggregated delivery cost history",
+      "removed EKBZ records",
+      "freight history"
+    ],
+    "pt": [
+      "histórico de fretes agregado",
+      "registros retirados da EKBZ",
+      "custos de entrega históricos"
+    ]
   }
 }

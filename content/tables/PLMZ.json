@@ -8,5 +8,27 @@
     "es": "Hojas de ruta: componentes asignados a operaciones",
     "en": "Routings: components assigned to operations",
     "pt": "Roteiros: componentes atribuídos às operações"
+  },
+  "purpose": {
+    "es": "Una fila por cada componente de la lista de materiales asignado a una operación de una hoja de ruta: indica en qué operación se consume cada componente. Sirve para saber cuándo se necesita cada material durante la fabricación.",
+    "en": "One row per bill of material component assigned to a routing operation: it shows in which operation each component is consumed. It shows when each material is needed during production.",
+    "pt": "Uma linha por componente da lista técnica atribuído a uma operação de um roteiro: indica em qual operação cada componente é consumido. Mostra quando cada material é necessário durante a produção."
+  },
+  "synonyms": {
+    "es": [
+      "asignación de componentes",
+      "componentes por operación",
+      "consumo por operación"
+    ],
+    "en": [
+      "component allocation",
+      "components per operation",
+      "material to operation"
+    ],
+    "pt": [
+      "atribuição de componentes",
+      "componentes por operação",
+      "consumo por operação"
+    ]
   }
 }

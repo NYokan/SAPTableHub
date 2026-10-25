@@ -8,5 +8,27 @@
     "es": "Cuentas de mayor: partidas abiertas",
     "en": "G/L accounts: open items",
     "pt": "Contas do razão: partidas em aberto"
+  },
+  "purpose": {
+    "es": "Índice de las partidas individuales de cuentas de mayor que siguen abiertas o cuya cuenta no gestiona partidas abiertas, una fila por línea contable. Las partidas compensadas pasan a BSAS. En S/4HANA es una vista sobre ACDOCA/BSEG.",
+    "en": "Index of G/L account line items that are still open or whose account is not managed on an open item basis, one row per accounting line. Cleared items move to BSAS. In S/4HANA it is a view over ACDOCA/BSEG.",
+    "pt": "Índice das partidas individuais de contas do razão que continuam em aberto ou cuja conta não é administrada por partidas em aberto, uma linha por item contábil. As partidas compensadas passam para a BSAS. No S/4HANA é uma visão sobre ACDOCA/BSEG."
+  },
+  "synonyms": {
+    "es": [
+      "partidas abiertas de mayor",
+      "partidas de cuentas de mayor",
+      "conciliación de cuentas de mayor"
+    ],
+    "en": [
+      "G/L open items",
+      "G/L line items",
+      "G/L account reconciliation"
+    ],
+    "pt": [
+      "partidas em aberto do razão",
+      "partidas de contas do razão",
+      "conciliação de contas do razão"
+    ]
   }
 }

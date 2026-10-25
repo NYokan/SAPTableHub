@@ -8,5 +8,30 @@
     "es": "Libro de caja: documentos",
     "en": "Cash journal: documents",
     "pt": "Livro de caixa: documentos"
+  },
+  "purpose": {
+    "es": "Una fila por cada movimiento registrado en un libro de caja: cobro, pago o traspaso, con fecha, operación comercial, importe y destinatario. Si el movimiento se reparte en varias líneas, estas están en TCJ_POSITIONS.",
+    "en": "One row per entry recorded in a cash journal: receipt, payment or transfer, with date, business transaction, amount and recipient. If the entry is split into several lines, they are in TCJ_POSITIONS.",
+    "pt": "Uma linha por movimento registrado em um livro caixa: recebimento, pagamento ou transferência, com data, operação comercial, montante e destinatário. Se o movimento é dividido em várias linhas, elas estão na TCJ_POSITIONS."
+  },
+  "synonyms": {
+    "es": [
+      "movimientos de caja",
+      "caja chica movimientos",
+      "gastos de caja",
+      "documento de caja"
+    ],
+    "en": [
+      "cash journal entries",
+      "petty cash transactions",
+      "cash expenses",
+      "cash document"
+    ],
+    "pt": [
+      "movimentos de caixa",
+      "movimentos do caixa pequeno",
+      "despesas de caixa",
+      "documento de caixa"
+    ]
   }
 }

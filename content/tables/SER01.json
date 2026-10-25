@@ -8,5 +8,27 @@
     "es": "Números de serie en entregas (cabecera)",
     "en": "Serial numbers in deliveries (header)",
     "pt": "Números de série em remessas (cabeçalho)"
+  },
+  "purpose": {
+    "es": "Cabecera de los números de serie registrados en entregas: una fila por posición de entrega con números de serie, enlazada con la lista de objetos (OBJK) donde están los números concretos.",
+    "en": "Header of serial numbers recorded in deliveries: one row per delivery item with serial numbers, linked to the object list (OBJK) where the actual numbers are.",
+    "pt": "Cabeçalho dos números de série registrados em remessas: uma linha por item de remessa com números de série, ligada à lista de objetos (OBJK) onde estão os números."
+  },
+  "synonyms": {
+    "es": [
+      "números de serie en entrega",
+      "series despachadas",
+      "serie por entrega"
+    ],
+    "en": [
+      "delivery serial numbers",
+      "shipped serial numbers",
+      "serial number per delivery"
+    ],
+    "pt": [
+      "números de série na remessa",
+      "séries expedidas",
+      "série por remessa"
+    ]
   }
 }

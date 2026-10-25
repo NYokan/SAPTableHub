@@ -8,5 +8,27 @@
     "es": "Status de hojas de ruta",
     "en": "Task list statuses",
     "pt": "Status de roteiros"
+  },
+  "purpose": {
+    "es": "Configuración de los status de hojas de ruta (por ejemplo, en creación, liberado para cálculo de costes, liberado general): indica si una hoja de ruta se puede usar en órdenes o en el cálculo de costes. Una fila por status.",
+    "en": "Configuration of task list statuses (for example, in creation, released for costing, released general): it states whether a task list can be used in orders or in costing. One row per status.",
+    "pt": "Configuração dos status de roteiros (por exemplo, em criação, liberado para cálculo de custos, liberado geral): indica se um roteiro pode ser usado em ordens ou no cálculo de custos. Uma linha por status."
+  },
+  "synonyms": {
+    "es": [
+      "status de hoja de ruta",
+      "ruta liberada",
+      "estado de ruta"
+    ],
+    "en": [
+      "task list status",
+      "released routing",
+      "routing status"
+    ],
+    "pt": [
+      "status do roteiro",
+      "roteiro liberado",
+      "estado do roteiro"
+    ]
   }
 }

@@ -8,5 +8,27 @@
     "es": "Grupos de precios de material: textos",
     "en": "Material pricing groups: texts",
     "pt": "Grupos de preço de material: textos"
+  },
+  "purpose": {
+    "es": "Descripción de cada grupo de precios de material en cada idioma: una fila por código e idioma. Sirve para mostrar un nombre legible en lugar del código KONDM en informes; los códigos se definen en T178.",
+    "en": "Description of each material pricing group in each language: one row per code and language. Use it to show a readable name instead of the KONDM code in reports; the codes themselves are defined in T178.",
+    "pt": "Descrição de cada grupo de preços de material em cada idioma: uma linha por código e idioma. Serve para mostrar um nome legível em vez do código KONDM em relatórios; os códigos são definidos na T178."
+  },
+  "synonyms": {
+    "es": [
+      "texto grupo de precios de material",
+      "descripción grupo de precios material",
+      "KONDM"
+    ],
+    "en": [
+      "material pricing group text",
+      "material price group description",
+      "KONDM"
+    ],
+    "pt": [
+      "texto grupo de preços de material",
+      "descrição grupo de preços material",
+      "KONDM"
+    ]
   }
 }

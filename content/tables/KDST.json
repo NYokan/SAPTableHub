@@ -8,5 +8,27 @@
     "es": "Listas de materiales de pedido de cliente",
     "en": "Sales order bills of material",
     "pt": "Listas técnicas de pedido do cliente"
+  },
+  "purpose": {
+    "es": "Una fila por cada lista de materiales específica de una posición de pedido de cliente: une el pedido y posición con el material, centro y número de lista de materiales. Se usa en fabricación contra pedido con listas modificadas para un cliente.",
+    "en": "One row per bill of material specific to a sales order item: it links the order and item with the material, plant and BOM number. It is used in make-to-order when a BOM is changed for one customer order.",
+    "pt": "Uma linha por lista técnica específica de um item de pedido de cliente: liga o pedido e item ao material, centro e número da lista técnica. É usada na produção sob encomenda com listas modificadas para um cliente."
+  },
+  "synonyms": {
+    "es": [
+      "lista de materiales de pedido",
+      "BOM de pedido de cliente",
+      "fabricación contra pedido"
+    ],
+    "en": [
+      "sales order BOM",
+      "order-specific BOM",
+      "make-to-order BOM"
+    ],
+    "pt": [
+      "lista técnica do pedido",
+      "BOM de ordem de venda",
+      "produção sob encomenda"
+    ]
   }
 }

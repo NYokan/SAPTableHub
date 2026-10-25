@@ -8,5 +8,24 @@
     "es": "Tipos de socio de negocio (textos)",
     "en": "Business partner types (texts)",
     "pt": "Tipos de parceiro de negócios (textos)"
+  },
+  "purpose": {
+    "es": "Descripción de cada tipo de socio de negocio por idioma. Complementa a TB004.",
+    "en": "Description of each business partner type per language. It complements TB004.",
+    "pt": "Descrição de cada tipo de parceiro de negócios por idioma. Complementa a TB004."
+  },
+  "synonyms": {
+    "es": [
+      "nombre de tipo BP",
+      "texto de tipo de socio"
+    ],
+    "en": [
+      "BP type name",
+      "partner type text"
+    ],
+    "pt": [
+      "nome do tipo BP",
+      "texto do tipo de parceiro"
+    ]
   }
 }

@@ -8,5 +8,24 @@
     "es": "Variantes de ejercicio: textos",
     "en": "Fiscal year variants: texts",
     "pt": "Variantes de exercício: textos"
+  },
+  "purpose": {
+    "es": "Nombre de cada variante de ejercicio en cada idioma, para mostrar una descripción legible en lugar del código de T009.",
+    "en": "Name of each fiscal year variant in each language, to show a readable description instead of the code from T009.",
+    "pt": "Nome de cada variante de exercício em cada idioma, para mostrar uma descrição legível em vez do código da T009."
+  },
+  "synonyms": {
+    "es": [
+      "texto variante de ejercicio",
+      "descripción año fiscal"
+    ],
+    "en": [
+      "fiscal year variant text",
+      "fiscal year description"
+    ],
+    "pt": [
+      "texto da variante de exercício",
+      "descrição do ano fiscal"
+    ]
   }
 }

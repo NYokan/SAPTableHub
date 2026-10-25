@@ -9,5 +9,30 @@
     "es": "Pedidos de compra: repartos",
     "en": "Purchase orders: schedule lines",
     "pt": "Pedidos de compra: divisões de remessa"
+  },
+  "purpose": {
+    "es": "Una fila por cada reparto de una posición de pedido de compra o plan de entrega: fecha de entrega, cantidad programada y cantidad ya recibida. Es donde se mira cuándo debe llegar cada parte de un pedido.",
+    "en": "One row per schedule line of a purchase order item or scheduling agreement: delivery date, scheduled quantity and quantity already received. It is where you check when each part of an order is due.",
+    "pt": "Uma linha por divisão de um item de pedido de compra ou programa de remessas: data de entrega, quantidade programada e quantidade já recebida. É onde se verifica quando cada parte de um pedido deve chegar."
+  },
+  "synonyms": {
+    "es": [
+      "fecha de entrega del pedido",
+      "repartos de compra",
+      "programa de entregas",
+      "cantidad pendiente de recibir"
+    ],
+    "en": [
+      "PO delivery date",
+      "purchase schedule lines",
+      "delivery schedule",
+      "open quantity to receive"
+    ],
+    "pt": [
+      "data de entrega do pedido",
+      "divisões de compra",
+      "programa de entregas",
+      "quantidade pendente"
+    ]
   }
 }

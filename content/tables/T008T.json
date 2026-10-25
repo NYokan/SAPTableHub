@@ -9,5 +9,24 @@
     "es": "Motivos de bloqueo de pago: textos",
     "en": "Payment block reasons: texts",
     "pt": "Motivos de bloqueio de pagamento: textos"
+  },
+  "purpose": {
+    "es": "Nombre de cada motivo de bloqueo de pago en cada idioma, para mostrar una descripción legible en lugar del código de T008.",
+    "en": "Name of each payment block reason in each language, to show a readable description instead of the code from T008.",
+    "pt": "Nome de cada motivo de bloqueio de pagamento em cada idioma, para mostrar uma descrição legível em vez do código da T008."
+  },
+  "synonyms": {
+    "es": [
+      "texto bloqueo de pago",
+      "descripción bloqueo de pago"
+    ],
+    "en": [
+      "payment block text",
+      "payment block description"
+    ],
+    "pt": [
+      "texto do bloqueio de pagamento",
+      "descrição do bloqueio de pagamento"
+    ]
   }
 }

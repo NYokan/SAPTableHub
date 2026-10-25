@@ -8,5 +8,27 @@
     "es": "Áreas de valoración de activos por sociedad",
     "en": "Asset depreciation areas by company code",
     "pt": "Áreas de avaliação de ativos por empresa"
+  },
+  "purpose": {
+    "es": "Para cada sociedad y área de valoración de activos fijos, los parámetros propios de la sociedad, como la moneda en que se llevan los valores de esa área. Completa la definición general del área que está en T093.",
+    "en": "For each company code and asset depreciation area, the company-specific settings, such as the currency in which the values of that area are kept. It completes the general definition of the area held in T093.",
+    "pt": "Para cada empresa e área de avaliação de ativos, os parâmetros próprios da empresa, como a moeda em que os valores dessa área são mantidos. Completa a definição geral da área que está na T093."
+  },
+  "synonyms": {
+    "es": [
+      "moneda del área de valoración",
+      "área de valoración por sociedad",
+      "parámetros de activos por sociedad"
+    ],
+    "en": [
+      "depreciation area currency",
+      "depreciation area per company code",
+      "company code asset settings"
+    ],
+    "pt": [
+      "moeda da área de avaliação",
+      "área de avaliação por empresa",
+      "parâmetros de ativos por empresa"
+    ]
   }
 }

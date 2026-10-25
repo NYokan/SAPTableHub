@@ -8,5 +8,27 @@
     "es": "Grupos de materiales de embalaje",
     "en": "Packaging material groups",
     "pt": "Grupos de materiais de embalagem"
+  },
+  "purpose": {
+    "es": "Lista de grupos de materiales de embalaje, que agrupan embalajes parecidos (por ejemplo, cajas, palés) y se usan al determinar qué embalaje se permite para un producto.",
+    "en": "List of packaging material groups, which group similar packaging (for example, boxes, pallets) and are used to determine which packaging is allowed for a product.",
+    "pt": "Lista de grupos de materiais de embalagem, que agrupam embalagens parecidas (por exemplo, caixas, paletes) e são usados para determinar qual embalagem é permitida para um produto."
+  },
+  "synonyms": {
+    "es": [
+      "grupo de embalajes",
+      "tipo de embalaje",
+      "grupo material de embalaje"
+    ],
+    "en": [
+      "packaging material group",
+      "packaging group",
+      "packaging type"
+    ],
+    "pt": [
+      "grupo de embalagens",
+      "tipo de embalagem",
+      "grupo material de embalagem"
+    ]
   }
 }

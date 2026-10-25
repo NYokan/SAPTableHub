@@ -7,5 +7,27 @@
     "es": "Catálogos de calidad: códigos de conjuntos seleccionados",
     "en": "Quality catalogs: selected set codes",
     "pt": "Catálogos de qualidade: códigos de conjuntos selecionados"
+  },
+  "purpose": {
+    "es": "Códigos incluidos en cada conjunto seleccionado de un catálogo de calidad, con su valoración (aceptado o rechazado) y, en la decisión de empleo, el código de calidad que resulta.",
+    "en": "Codes included in each selected set of a quality catalog, with their valuation (accepted or rejected) and, for usage decisions, the resulting quality code.",
+    "pt": "Códigos incluídos em cada conjunto selecionado de um catálogo de qualidade, com sua avaliação (aceito ou rejeitado) e, na decisão de utilização, o código de qualidade resultante."
+  },
+  "synonyms": {
+    "es": [
+      "códigos del conjunto seleccionado",
+      "valoración aceptado rechazado",
+      "código de decisión de empleo"
+    ],
+    "en": [
+      "selected set codes",
+      "accept reject valuation",
+      "usage decision code"
+    ],
+    "pt": [
+      "códigos do conjunto selecionado",
+      "avaliação aceito rejeitado",
+      "código de decisão de utilização"
+    ]
   }
 }

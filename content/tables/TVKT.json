@@ -9,5 +9,27 @@
     "es": "Grupos de imputación de clientes",
     "en": "Customer account assignment groups",
     "pt": "Grupos de classificação contábil de clientes"
+  },
+  "purpose": {
+    "es": "Lista de grupos de imputación de clientes (campo KTGRD en KNVV), por ejemplo nacionales, extranjeros o empresas del grupo. Sirve para decidir a qué cuenta de ingresos va la venta al contabilizar la factura.",
+    "en": "List of customer account assignment groups (field KTGRD in KNVV), for example domestic, foreign or affiliated companies. Used to decide which revenue account the sale is posted to when the invoice is posted.",
+    "pt": "Lista de grupos de classificação contábil de clientes (campo KTGRD na KNVV), por exemplo nacionais, estrangeiros ou empresas do grupo. Serve para decidir em qual conta de receita a venda é lançada ao contabilizar a fatura."
+  },
+  "synonyms": {
+    "es": [
+      "grupo de imputación cliente",
+      "clientes nacionales extranjeros",
+      "KTGRD"
+    ],
+    "en": [
+      "customer account assignment group",
+      "domestic foreign customers",
+      "KTGRD"
+    ],
+    "pt": [
+      "grupo de classificação contábil cliente",
+      "clientes nacionais estrangeiros",
+      "KTGRD"
+    ]
   }
 }

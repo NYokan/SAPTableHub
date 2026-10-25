@@ -8,5 +8,27 @@
     "es": "Clientes: límite de crédito central",
     "en": "Customers: central credit limit",
     "pt": "Clientes: limite de crédito central"
+  },
+  "purpose": {
+    "es": "El límite de crédito central de cada cliente (cuenta de crédito): límite total válido para todas las áreas de control de créditos y límite individual máximo, en la moneda indicada. Los datos por área están en KNKK.",
+    "en": "The central credit limit of each customer (credit account): total limit across all credit control areas and maximum individual limit, in the given currency. The data per area is in KNKK.",
+    "pt": "O limite de crédito central de cada cliente (conta de crédito): limite total para todas as áreas de controle de crédito e limite individual máximo, na moeda indicada. Os dados por área estão na KNKK."
+  },
+  "synonyms": {
+    "es": [
+      "límite de crédito total",
+      "límite de crédito central",
+      "cuenta de crédito"
+    ],
+    "en": [
+      "total credit limit",
+      "central credit limit",
+      "credit account"
+    ],
+    "pt": [
+      "limite de crédito total",
+      "limite de crédito central",
+      "conta de crédito"
+    ]
   }
 }

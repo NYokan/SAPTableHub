@@ -8,5 +8,27 @@
     "es": "Estadísticas de ventas por cliente",
     "en": "Sales statistics per customer",
     "pt": "Estatísticas de vendas por cliente"
+  },
+  "purpose": {
+    "es": "Estructura estadística del sistema de información de ventas (LIS) con cifras acumuladas por cliente, como pedidos, facturación y cantidades, por periodo. Se usa para análisis de ventas en ECC; en S/4HANA se recomiendan los informes analíticos sobre los documentos.",
+    "en": "Statistics structure of the sales information system (LIS) with cumulative figures per customer, such as incoming orders, billing and quantities, per period. Used for sales analysis in ECC; S/4HANA recommends analytical reports on the documents instead.",
+    "pt": "Estrutura estatística do sistema de informação de vendas (LIS) com valores acumulados por cliente, como entrada de ordens, faturamento e quantidades, por período. Usada para análise de vendas no ECC; no S/4HANA recomendam-se relatórios analíticos sobre os documentos."
+  },
+  "synonyms": {
+    "es": [
+      "estadística de ventas por cliente",
+      "LIS cliente",
+      "ventas acumuladas por cliente"
+    ],
+    "en": [
+      "customer sales statistics",
+      "LIS customer",
+      "cumulative sales per customer"
+    ],
+    "pt": [
+      "estatística de vendas por cliente",
+      "LIS cliente",
+      "vendas acumuladas por cliente"
+    ]
   }
 }

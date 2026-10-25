@@ -110,6 +110,21 @@ En el sitio se muestran con «—» en la clase de entrega.
 - (Compras) No incluidas por duda: T163L, T169G, WYT1, LFEI, EKUB, EKKI, T161S, T16FV.
 - (Calidad) Lista oficial QM ya cubierta en ronda 1. Descartadas por no tener certeza total: TQ31/TQ31T (origen de lote), QASH, QCPR, QDPA/QDPK, textos de QDDR/QDSV.
 
+## Tablas sin explicación (10)
+
+Al escribir las explicaciones del resto de tablas, estas se dejaron sin `purpose` ni sinónimos por no saber con precisión qué guardan:
+
+- **Ventas** (3): `KNVD` (documentos de cliente), `KNVS` (datos de expedición del cliente), `VBLB` (pedidos abiertos con plan de entregas)
+- **Compras** (1): `LFAT` (agrupaciones fiscales del proveedor)
+- **Materiales** (1): `S039` (estructura del sistema de información logística)
+- **Calidad** (1): `PLMW`: el título «valores por característica» podría no ser exacto; parece guardar especificaciones de característica que dependen del material.
+- **Finanzas** (2): `FAAT_DOC_IT` (partidas estadísticas de activos fijos), `FAAT_YDDA` (valores de amortización por ejercicio)
+- **Controlling** (2): `COEPB` (partidas por período), `CSSK` (centro de coste y clase de coste)
+
+Títulos corregidos en esta ronda: `T683T` pasa a `T683U` (la tabla de textos de los esquemas de cálculo es T683U); `MDLG` ahora dice «almacenes asignados» (las áreas MRP se definen en MDLV); `T047` es el control de reclamaciones por sociedad, no los procedimientos; `FAAT_DOC_IT` guarda partidas estadísticas, no los movimientos reales (que van a ACDOCA).
+
+Las explicaciones de las tablas de texto (…T) siguen una plantilla común y algunas listas de sinónimos incluyen el nombre técnico del campo clave (p. ej. `AUART`, `BSCHL`). Conviene repasar sobre todo las que los redactores marcaron como menos seguras: `EKAN`, `T006B`, `T006C`, `ELBM`, `ELBP`, `ESUC`, `T350`, `PMCO`.
+
 ## Descartadas al integrar
 
 Estas tablas se prepararon pero se quitaron antes de entrar en `content/`:

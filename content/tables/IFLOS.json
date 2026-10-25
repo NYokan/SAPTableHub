@@ -8,5 +8,27 @@
     "es": "Ubicaciones técnicas (etiquetas alternativas)",
     "en": "Functional locations (alternative labels)",
     "pt": "Locais de instalação (rótulos alternativos)"
+  },
+  "purpose": {
+    "es": "Etiquetas de las ubicaciones técnicas: además de la etiqueta principal, guarda etiquetas alternativas (otra codificación de la misma ubicación, por ejemplo la del fabricante o de un sistema anterior) y cuál es la principal.",
+    "en": "Labels of functional locations: besides the primary label, it stores alternative labels (another coding of the same location, for example the manufacturer's or a legacy system's) and which one is primary.",
+    "pt": "Rótulos dos locais de instalação: além do rótulo principal, guarda rótulos alternativos (outra codificação do mesmo local, por exemplo a do fabricante ou de um sistema anterior) e qual é o principal."
+  },
+  "synonyms": {
+    "es": [
+      "etiqueta alternativa",
+      "codificación alternativa de ubicación",
+      "etiquetado de ubicaciones técnicas"
+    ],
+    "en": [
+      "alternative labeling",
+      "alternative functional location label",
+      "functional location labeling"
+    ],
+    "pt": [
+      "rótulo alternativo",
+      "codificação alternativa do local",
+      "rotulagem de locais de instalação"
+    ]
   }
 }

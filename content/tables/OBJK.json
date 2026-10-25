@@ -8,5 +8,27 @@
     "es": "Listas de objetos (equipos y números de serie de un documento)",
     "en": "Object lists (equipment and serial numbers of a document)",
     "pt": "Listas de objetos (equipamentos e números de série de um documento)"
+  },
+  "purpose": {
+    "es": "Listas de objetos: equipos, números de serie, ubicaciones técnicas o conjuntos asignados a un documento como una orden, un aviso o una entrega. Se enlaza con el documento mediante el número de lista de objetos (por ejemplo desde SER01, SER02 o SER03).",
+    "en": "Object lists: equipment, serial numbers, functional locations or assemblies assigned to a document such as an order, notification or delivery. It is linked to the document through the object list number (for example from SER01, SER02 or SER03).",
+    "pt": "Listas de objetos: equipamentos, números de série, locais de instalação ou conjuntos atribuídos a um documento como uma ordem, nota ou remessa. Liga-se ao documento pelo número da lista de objetos (por exemplo a partir da SER01, SER02 ou SER03)."
+  },
+  "synonyms": {
+    "es": [
+      "lista de objetos",
+      "números de serie del documento",
+      "equipos de la orden"
+    ],
+    "en": [
+      "object list",
+      "document serial numbers",
+      "order equipment list"
+    ],
+    "pt": [
+      "lista de objetos",
+      "números de série do documento",
+      "equipamentos da ordem"
+    ]
   }
 }

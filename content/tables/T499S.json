@@ -8,5 +8,27 @@
     "es": "Emplazamientos por centro",
     "en": "Locations by plant",
     "pt": "Localizações por centro"
+  },
+  "purpose": {
+    "es": "Lista de emplazamientos por centro: lugares físicos (por ejemplo, edificio o nave) donde están los equipos y ubicaciones técnicas. Se usa como dato de organización del objeto técnico.",
+    "en": "List of locations per plant: physical places (for example, building or hall) where equipment and functional locations are situated. Used as organisational data of the technical object.",
+    "pt": "Lista de localizações por centro: lugares físicos (por exemplo, prédio ou galpão) onde estão os equipamentos e locais de instalação. Usada como dado de organização do objeto técnico."
+  },
+  "synonyms": {
+    "es": [
+      "emplazamiento",
+      "ubicación física",
+      "edificio de planta"
+    ],
+    "en": [
+      "location",
+      "physical location",
+      "plant building"
+    ],
+    "pt": [
+      "localização",
+      "local físico",
+      "prédio da planta"
+    ]
   }
 }

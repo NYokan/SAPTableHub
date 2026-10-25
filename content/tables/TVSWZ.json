@@ -8,5 +8,24 @@
     "es": "Puestos de expedición por centro",
     "en": "Shipping points per plant",
     "pt": "Locais de expedição por centro"
+  },
+  "purpose": {
+    "es": "Asignación de puestos de expedición a centros: una fila por centro y puesto de expedición. Indica desde qué puestos se puede despachar la mercancía de cada centro.",
+    "en": "Assignment of shipping points to plants: one row per plant and shipping point. It shows which shipping points can dispatch goods from each plant.",
+    "pt": "Atribuição de locais de expedição a centros: uma linha por centro e local de expedição. Indica de quais locais é possível despachar a mercadoria de cada centro."
+  },
+  "synonyms": {
+    "es": [
+      "puesto de expedición por centro",
+      "asignación centro puesto de expedición"
+    ],
+    "en": [
+      "shipping point per plant",
+      "plant shipping point assignment"
+    ],
+    "pt": [
+      "local de expedição por centro",
+      "atribuição centro local de expedição"
+    ]
   }
 }

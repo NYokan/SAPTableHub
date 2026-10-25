@@ -8,5 +8,27 @@
     "es": "Tipos de objeto técnico",
     "en": "Technical object types",
     "pt": "Tipos de objeto técnico"
+  },
+  "purpose": {
+    "es": "Lista de tipos de objeto técnico (por ejemplo, bomba, motor, vehículo) que se asignan a equipos y ubicaciones técnicas para agruparlos y analizarlos por tipo.",
+    "en": "List of technical object types (for example, pump, motor, vehicle) assigned to equipment and functional locations to group and analyse them by type.",
+    "pt": "Lista de tipos de objeto técnico (por exemplo, bomba, motor, veículo) atribuídos a equipamentos e locais de instalação para agrupá-los e analisá-los por tipo."
+  },
+  "synonyms": {
+    "es": [
+      "tipo de objeto técnico",
+      "tipo de equipo",
+      "clase de activo"
+    ],
+    "en": [
+      "technical object type",
+      "equipment type",
+      "asset type"
+    ],
+    "pt": [
+      "tipo de objeto técnico",
+      "tipo de equipamento",
+      "tipo de ativo"
+    ]
   }
 }

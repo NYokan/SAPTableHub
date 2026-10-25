@@ -8,5 +8,27 @@
     "es": "Registros de condición: material (con estado de liberación)",
     "en": "Condition records: material (with release status)",
     "pt": "Registros de condição: material (com status de liberação)"
+  },
+  "purpose": {
+    "es": "Versión de la tabla de condiciones por material (organización de ventas, canal y material) que añade el estado de liberación del registro. Se usa en sistemas recientes en lugar de A004; el importe está en KONP.",
+    "en": "Version of the per-material condition table (sales organization, channel and material) that adds the record's release status. Newer systems use it instead of A004; the amount is in KONP.",
+    "pt": "Versão da tabela de condições por material (organização de vendas, canal e material) que acrescenta o status de liberação do registro. Sistemas mais recentes a usam no lugar da A004; o valor fica na KONP."
+  },
+  "synonyms": {
+    "es": [
+      "precio de material liberado",
+      "estado de liberación condición",
+      "tabla de condiciones 304"
+    ],
+    "en": [
+      "released material price",
+      "condition release status",
+      "condition table 304"
+    ],
+    "pt": [
+      "preço de material liberado",
+      "status de liberação condição",
+      "tabela de condições 304"
+    ]
   }
 }

@@ -7,5 +7,27 @@
     "es": "Perfiles de certificado (cabecera)",
     "en": "Certificate profiles (header)",
     "pt": "Perfis de certificado (cabeçalho)"
+  },
+  "purpose": {
+    "es": "Cabecera de los perfiles de certificado de calidad: definen qué datos se imprimen en un certificado de análisis que se envía al cliente con la entrega. Las características que incluye están en QCVM.",
+    "en": "Header of quality certificate profiles: they define which data is printed in a certificate of analysis sent to the customer with the delivery. The characteristics it includes are in QCVM.",
+    "pt": "Cabeçalho dos perfis de certificado de qualidade: definem quais dados são impressos em um certificado de análise enviado ao cliente com a remessa. As características incluídas estão na QCVM."
+  },
+  "synonyms": {
+    "es": [
+      "perfil de certificado",
+      "certificado de análisis",
+      "certificado de calidad"
+    ],
+    "en": [
+      "certificate profile",
+      "certificate of analysis",
+      "quality certificate"
+    ],
+    "pt": [
+      "perfil de certificado",
+      "certificado de análise",
+      "certificado de qualidade"
+    ]
   }
 }

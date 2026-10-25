@@ -8,5 +8,24 @@
     "es": "Requisitos de contenedor (textos)",
     "en": "Container requirements (texts)",
     "pt": "Requisitos de contêiner (textos)"
+  },
+  "purpose": {
+    "es": "Descripciones por idioma de los requisitos de contenedor (T144). Se usa para mostrar el nombre legible en informes en lugar del código.",
+    "en": "Language-dependent descriptions of container requirements (T144). Used to show the readable name in reports instead of the code.",
+    "pt": "Descrições por idioma de requisitos de recipiente (T144). Usada para mostrar o nome legível em relatórios em vez do código."
+  },
+  "synonyms": {
+    "es": [
+      "texto requisito de contenedor",
+      "descripción de envase"
+    ],
+    "en": [
+      "container requirement text",
+      "container description"
+    ],
+    "pt": [
+      "texto requisito de recipiente",
+      "descrição de recipiente"
+    ]
   }
 }

@@ -8,5 +8,30 @@
     "es": "Procedimientos de cálculo de tamaño de lote",
     "en": "Lot-sizing procedures",
     "pt": "Procedimentos de dimensionamento de lote"
+  },
+  "purpose": {
+    "es": "Configuración de los procedimientos de cálculo de tamaño de lote (por ejemplo, EX lote exacto, FX lote fijo, WB semanal, MB mensual, HB reposición hasta stock máximo): definen cuánto pide o fabrica el MRP. Una fila por procedimiento (DISLS).",
+    "en": "Configuration of lot-sizing procedures (for example, EX lot-for-lot, FX fixed lot, WB weekly, MB monthly, HB replenish to maximum stock): they define how much MRP orders or produces. One row per procedure (DISLS).",
+    "pt": "Configuração dos procedimentos de cálculo de tamanho de lote (por exemplo, EX lote exato, FX lote fixo, WB semanal, MB mensal, HB reposição até estoque máximo): definem quanto o MRP compra ou produz. Uma linha por procedimento (DISLS)."
+  },
+  "synonyms": {
+    "es": [
+      "tamaño de lote",
+      "lote exacto",
+      "lote fijo",
+      "DISLS"
+    ],
+    "en": [
+      "lot size",
+      "lot-for-lot",
+      "fixed lot size",
+      "DISLS"
+    ],
+    "pt": [
+      "tamanho de lote",
+      "lote exato",
+      "lote fixo",
+      "DISLS"
+    ]
   }
 }

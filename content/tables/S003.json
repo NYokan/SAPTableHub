@@ -8,5 +8,27 @@
     "es": "Estadísticas de ventas por organización de ventas",
     "en": "Sales statistics per sales organization",
     "pt": "Estatísticas de vendas por organização de vendas"
+  },
+  "purpose": {
+    "es": "Estructura estadística del sistema de información de ventas (LIS) con cifras acumuladas por organización de ventas, como pedidos, facturación y cantidades, por periodo. Sirve para ver el volumen de ventas de cada organización en ECC.",
+    "en": "Statistics structure of the sales information system (LIS) with cumulative figures per sales organization, such as incoming orders, billing and quantities, per period. Used to see each organization's sales volume in ECC.",
+    "pt": "Estrutura estatística do sistema de informação de vendas (LIS) com valores acumulados por organização de vendas, como entrada de ordens, faturamento e quantidades, por período. Serve para ver o volume de vendas de cada organização no ECC."
+  },
+  "synonyms": {
+    "es": [
+      "estadística por organización de ventas",
+      "LIS organización de ventas",
+      "ventas por organización"
+    ],
+    "en": [
+      "sales organization statistics",
+      "LIS sales organization",
+      "sales per sales organization"
+    ],
+    "pt": [
+      "estatística por organização de vendas",
+      "LIS organização de vendas",
+      "vendas por organização"
+    ]
   }
 }

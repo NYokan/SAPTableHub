@@ -8,5 +8,24 @@
     "es": "Condiciones de temperatura (textos)",
     "en": "Temperature conditions (texts)",
     "pt": "Condições de temperatura (textos)"
+  },
+  "purpose": {
+    "es": "Descripciones por idioma de las condiciones de temperatura (T143). Se usa para mostrar el nombre legible en informes en lugar del código.",
+    "en": "Language-dependent descriptions of temperature conditions (T143). Used to show the readable name in reports instead of the code.",
+    "pt": "Descrições por idioma de condições de temperatura (T143). Usada para mostrar o nome legível em relatórios em vez do código."
+  },
+  "synonyms": {
+    "es": [
+      "texto condición de temperatura",
+      "descripción de temperatura"
+    ],
+    "en": [
+      "temperature condition text",
+      "temperature description"
+    ],
+    "pt": [
+      "texto condição de temperatura",
+      "descrição de temperatura"
+    ]
   }
 }

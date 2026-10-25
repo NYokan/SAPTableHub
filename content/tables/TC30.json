@@ -8,5 +8,24 @@
     "es": "Categorías de puesto de trabajo",
     "en": "Work center categories",
     "pt": "Categorias de centro de trabalho"
+  },
+  "purpose": {
+    "es": "Configuración de las categorías de puesto de trabajo (por ejemplo, máquina, mano de obra, línea): controlan qué datos se piden al crear el puesto y en qué tipos de hoja de ruta se puede usar. Una fila por categoría.",
+    "en": "Configuration of work center categories (for example, machine, labor, line): they control which data is requested when creating the work center and in which task list types it can be used. One row per category.",
+    "pt": "Configuração das categorias de centro de trabalho (por exemplo, máquina, mão de obra, linha): controlam quais dados são pedidos ao criar o centro e em quais tipos de roteiro ele pode ser usado. Uma linha por categoria."
+  },
+  "synonyms": {
+    "es": [
+      "categoría de puesto de trabajo",
+      "tipo de puesto de trabajo"
+    ],
+    "en": [
+      "work center category",
+      "work center type"
+    ],
+    "pt": [
+      "categoria de centro de trabalho",
+      "tipo de centro de trabalho"
+    ]
   }
 }

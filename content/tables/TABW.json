@@ -7,5 +7,27 @@
     "es": "Activos fijos: clases de movimiento",
     "en": "Fixed assets: transaction types",
     "pt": "Ativos fixos: tipos de movimento"
+  },
+  "purpose": {
+    "es": "Las clases de movimiento de activos fijos: cada una identifica un tipo de operación (alta por compra, baja por venta, transferencia, desguace…) y controla cómo se contabiliza. Los movimientos guardan su clase en el campo BWASL.",
+    "en": "The asset transaction types: each one identifies a kind of operation (acquisition by purchase, retirement by sale, transfer, scrapping…) and controls how it is posted. Transactions store their type in field BWASL.",
+    "pt": "Os tipos de movimento de ativos imobilizados: cada um identifica um tipo de operação (aquisição por compra, baixa por venda, transferência, sucata…) e controla como é lançado. Os movimentos guardam seu tipo no campo BWASL."
+  },
+  "synonyms": {
+    "es": [
+      "clase de movimiento de activos",
+      "tipo de operación de activo",
+      "BWASL"
+    ],
+    "en": [
+      "asset transaction type",
+      "asset movement type",
+      "BWASL"
+    ],
+    "pt": [
+      "tipo de movimento de ativo",
+      "tipo de operação de ativo",
+      "BWASL"
+    ]
   }
 }

@@ -9,5 +9,24 @@
     "es": "Grupos de clientes 3: textos",
     "en": "Customer groups 3: texts",
     "pt": "Grupos de clientes 3: textos"
+  },
+  "purpose": {
+    "es": "Descripción de cada grupo de clientes 3 en cada idioma: una fila por código e idioma. Sirve para mostrar un nombre legible en lugar del código KVGR3 en informes; los códigos se definen en TVV3.",
+    "en": "Description of each customer group 3 in each language: one row per code and language. Use it to show a readable name instead of the KVGR3 code in reports; the codes themselves are defined in TVV3.",
+    "pt": "Descrição de cada grupo de clientes 3 em cada idioma: uma linha por código e idioma. Serve para mostrar um nome legível em vez do código KVGR3 em relatórios; os códigos são definidos na TVV3."
+  },
+  "synonyms": {
+    "es": [
+      "texto grupo de clientes 3",
+      "KVGR3"
+    ],
+    "en": [
+      "customer group 3 text",
+      "KVGR3"
+    ],
+    "pt": [
+      "texto grupo de clientes 3",
+      "KVGR3"
+    ]
   }
 }

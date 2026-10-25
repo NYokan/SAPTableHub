@@ -9,5 +9,30 @@
     "es": "Pedidos de venta: repartos",
     "en": "Sales orders: schedule lines",
     "pt": "Pedidos de venda: divisões de remessa"
+  },
+  "purpose": {
+    "es": "Líneas de reparto de los documentos de ventas: cada posición de VBAP se divide en una o varias fechas con su cantidad pedida y confirmada. Sirve para ver cuándo y cuánto se prometió entregar al cliente.",
+    "en": "Schedule lines of sales documents: each VBAP item is split into one or more dates with its ordered and confirmed quantity. Use it to see when and how much was promised to the customer.",
+    "pt": "Divisões de remessa dos documentos de vendas: cada item da VBAP é dividido em uma ou mais datas com a quantidade pedida e confirmada. Serve para ver quando e quanto foi prometido ao cliente."
+  },
+  "synonyms": {
+    "es": [
+      "repartos",
+      "fecha de entrega confirmada",
+      "cantidad confirmada",
+      "línea de reparto"
+    ],
+    "en": [
+      "schedule lines",
+      "confirmed delivery date",
+      "confirmed quantity",
+      "schedule line"
+    ],
+    "pt": [
+      "divisões de remessa",
+      "data de entrega confirmada",
+      "quantidade confirmada",
+      "divisão de remessa"
+    ]
   }
 }

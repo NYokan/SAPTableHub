@@ -8,5 +8,27 @@
     "es": "Listas de materiales de proyecto (elemento PEP)",
     "en": "Project bills of material (WBS element)",
     "pt": "Listas técnicas de projeto (elemento PEP)"
+  },
+  "purpose": {
+    "es": "Una fila por cada lista de materiales de proyecto: une un elemento PEP con el material, centro y número de lista de materiales creada para ese proyecto. Se usa cuando la estructura de producto es específica de un proyecto.",
+    "en": "One row per project bill of material: it links a WBS element with the material, plant and BOM number created for that project. It is used when the product structure is specific to a project.",
+    "pt": "Uma linha por lista técnica de projeto: liga um elemento PEP ao material, centro e número da lista técnica criada para esse projeto. É usada quando a estrutura do produto é específica de um projeto."
+  },
+  "synonyms": {
+    "es": [
+      "lista de materiales de proyecto",
+      "BOM de proyecto",
+      "BOM por elemento PEP"
+    ],
+    "en": [
+      "project BOM",
+      "WBS BOM",
+      "project bill of material"
+    ],
+    "pt": [
+      "lista técnica de projeto",
+      "BOM de projeto",
+      "BOM por elemento PEP"
+    ]
   }
 }

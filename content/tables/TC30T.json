@@ -8,5 +8,24 @@
     "es": "Categorías de puesto de trabajo (descripciones)",
     "en": "Work center categories (descriptions)",
     "pt": "Categorias de centro de trabalho (descrições)"
+  },
+  "purpose": {
+    "es": "Descripción de cada categoría de puesto de trabajo, por idioma. Se une con TC30 o CRHD para mostrar su nombre.",
+    "en": "Description of each work center category, per language. It is joined to TC30 or CRHD to show its name.",
+    "pt": "Descrição de cada categoria de centro de trabalho, por idioma. É unida à TC30 ou à CRHD para mostrar seu nome."
+  },
+  "synonyms": {
+    "es": [
+      "nombre de categoría de puesto",
+      "descripción de categoría de puesto de trabajo"
+    ],
+    "en": [
+      "work center category name",
+      "work center category description"
+    ],
+    "pt": [
+      "nome da categoria de centro",
+      "descrição da categoria de centro de trabalho"
+    ]
   }
 }

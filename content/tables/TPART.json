@@ -9,5 +9,27 @@
     "es": "Funciones de interlocutor: textos",
     "en": "Partner functions: texts",
     "pt": "Funções de parceiro: textos"
+  },
+  "purpose": {
+    "es": "Descripción de cada función de interlocutor (solicitante, destinatario de mercancías, responsable de pago…) en cada idioma: una fila por código e idioma. Sirve para mostrar un nombre legible en lugar del código PARVW en informes; los códigos se definen en TPAR.",
+    "en": "Description of each partner function (sold-to, ship-to, payer…) in each language: one row per code and language. Use it to show a readable name instead of the PARVW code in reports; the codes themselves are defined in TPAR.",
+    "pt": "Descrição de cada função de parceiro (emissor da ordem, recebedor da mercadoria, pagador…) em cada idioma: uma linha por código e idioma. Serve para mostrar um nome legível em vez do código PARVW em relatórios; os códigos são definidos na TPAR."
+  },
+  "synonyms": {
+    "es": [
+      "texto función de interlocutor",
+      "nombre función de interlocutor",
+      "PARVW"
+    ],
+    "en": [
+      "partner function text",
+      "partner function name",
+      "PARVW"
+    ],
+    "pt": [
+      "texto função de parceiro",
+      "nome função de parceiro",
+      "PARVW"
+    ]
   }
 }

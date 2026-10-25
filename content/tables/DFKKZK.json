@@ -8,5 +8,27 @@
     "es": "Contabilidad de contratos: lotes de pago (cabecera)",
     "en": "Contract accounting: payment lots (header)",
     "pt": "Contabilidade de contratos: lotes de pagamento (cabeçalho)"
+  },
+  "purpose": {
+    "es": "En la contabilidad de contratos (FI-CA), una fila por cada lote de pagos: un paquete de cobros (por ejemplo, los recibidos de un banco en un día) con su fecha, importe total y estado de procesamiento. Los pagos individuales están en DFKKZP.",
+    "en": "In contract accounting (FI-CA), one row per payment lot: a bundle of incoming payments (for example, those received from a bank on one day) with its date, total amount and processing status. The individual payments are in DFKKZP.",
+    "pt": "Na contabilidade de contratos (FI-CA), uma linha por lote de pagamentos: um pacote de recebimentos (por exemplo, os recebidos de um banco em um dia) com sua data, montante total e status de processamento. Os pagamentos individuais estão na DFKKZP."
+  },
+  "synonyms": {
+    "es": [
+      "lote de pagos",
+      "lote de cobros FI-CA",
+      "payment lot"
+    ],
+    "en": [
+      "payment lot",
+      "FI-CA payment lot",
+      "incoming payment batch"
+    ],
+    "pt": [
+      "lote de pagamentos",
+      "lote de recebimentos FI-CA",
+      "payment lot"
+    ]
   }
 }

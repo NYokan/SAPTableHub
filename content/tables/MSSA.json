@@ -8,5 +8,27 @@
     "es": "Stock de pedido de cliente (totales)",
     "en": "Sales order stock (totals)",
     "pt": "Estoque de ordem do cliente (totais)"
+  },
+  "purpose": {
+    "es": "Totales del stock de pedido de cliente por material, centro y posición de pedido, sumando todos los almacenes. El detalle por almacén y lote está en MSKA.",
+    "en": "Totals of sales order stock by material, plant and order item, summed across all storage locations. Detail by storage location and batch is in MSKA.",
+    "pt": "Totais do estoque de pedido de cliente por material, centro e item do pedido, somando todos os depósitos. O detalhe por depósito e lote está na MSKA."
+  },
+  "synonyms": {
+    "es": [
+      "total stock de pedido de cliente",
+      "stock E total",
+      "stock por pedido de venta"
+    ],
+    "en": [
+      "sales order stock total",
+      "special stock E total",
+      "stock per sales order"
+    ],
+    "pt": [
+      "total estoque de pedido de cliente",
+      "estoque E total",
+      "estoque por pedido de venda"
+    ]
   }
 }

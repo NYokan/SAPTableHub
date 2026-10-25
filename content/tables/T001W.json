@@ -8,5 +8,33 @@
     "es": "Centros",
     "en": "Plants",
     "pt": "Centros"
+  },
+  "purpose": {
+    "es": "Lista de centros (plantas, fábricas, sucursales, centros de distribución) con nombre, dirección, país y organización de compras o ventas asociada. Es la referencia del campo centro en toda la logística.",
+    "en": "List of plants (factories, branches, distribution centers) with name, address, country and related purchasing or sales organization. It is the reference for the plant field across logistics.",
+    "pt": "Lista de centros (fábricas, filiais, centros de distribuição) com nome, endereço, país e organização de compras ou vendas associada. É a referência do campo centro em toda a logística."
+  },
+  "synonyms": {
+    "es": [
+      "centros",
+      "plantas",
+      "fábricas",
+      "centro logístico",
+      "sucursal"
+    ],
+    "en": [
+      "plants",
+      "factories",
+      "plant list",
+      "logistics site",
+      "branch"
+    ],
+    "pt": [
+      "centros",
+      "plantas",
+      "fábricas",
+      "centro logístico",
+      "filial"
+    ]
   }
 }

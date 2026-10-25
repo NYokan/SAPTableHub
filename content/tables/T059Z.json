@@ -8,5 +8,28 @@
     "es": "Indicadores de retención de impuestos",
     "en": "Withholding tax codes",
     "pt": "Códigos de imposto retido na fonte"
+  },
+  "purpose": {
+    "es": "Los indicadores de retención de impuestos por país y tipo de retención: porcentaje que se retiene, porcentaje de la base sujeto y otras reglas de cálculo. Los proveedores y clientes los tienen asignados en LFBW y KNBW.",
+    "en": "The withholding tax codes per country and withholding tax type: rate withheld, percentage of the base subject to tax and other calculation rules. Vendors and customers have them assigned in LFBW and KNBW.",
+    "pt": "Os códigos de retenção na fonte por país e tipo de retenção: percentual retido, percentual da base sujeito e outras regras de cálculo. Fornecedores e clientes os têm atribuídos na LFBW e na KNBW."
+  },
+  "synonyms": {
+    "es": [
+      "indicador de retención",
+      "porcentaje de retención",
+      "código de retención",
+      "WT_WITHCD"
+    ],
+    "en": [
+      "withholding tax code",
+      "withholding rate",
+      "WT_WITHCD"
+    ],
+    "pt": [
+      "código de retenção",
+      "alíquota de retenção",
+      "WT_WITHCD"
+    ]
   }
 }

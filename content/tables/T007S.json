@@ -8,5 +8,27 @@
     "es": "Indicadores de impuestos: textos",
     "en": "Tax codes: texts",
     "pt": "Códigos de imposto: textos"
+  },
+  "purpose": {
+    "es": "Nombre de cada indicador de impuesto en cada idioma, por esquema de cálculo (por ejemplo «IVA soportado 21 %»). Sirve para entender el campo MWSKZ de documentos y facturas.",
+    "en": "Name of each tax code in each language, per tax procedure (for example \"Input tax 21%\"). It helps to understand field MWSKZ in documents and invoices.",
+    "pt": "Nome de cada código de imposto em cada idioma, por esquema de cálculo (por exemplo «Imposto a recuperar 18%»). Ajuda a entender o campo MWSKZ em documentos e faturas."
+  },
+  "synonyms": {
+    "es": [
+      "texto indicador de impuesto",
+      "descripción código de IVA",
+      "MWSKZ"
+    ],
+    "en": [
+      "tax code text",
+      "VAT code description",
+      "MWSKZ"
+    ],
+    "pt": [
+      "texto do código de imposto",
+      "descrição do código de imposto",
+      "MWSKZ"
+    ]
   }
 }

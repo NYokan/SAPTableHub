@@ -8,5 +8,24 @@
     "es": "Ubicaciones técnicas de referencia (textos)",
     "en": "Reference functional locations (texts)",
     "pt": "Locais de instalação de referência (textos)"
+  },
+  "purpose": {
+    "es": "Descripciones por idioma de las ubicaciones técnicas de referencia (IRLOT). Se usa para mostrar el nombre legible en informes en lugar del código.",
+    "en": "Language-dependent descriptions of reference functional locations (IRLOT). Used to show the readable name in reports instead of the code.",
+    "pt": "Descrições por idioma de locais de instalação de referência (IRLOT). Usada para mostrar o nome legível em relatórios em vez do código."
+  },
+  "synonyms": {
+    "es": [
+      "nombre ubicación de referencia",
+      "descripción ubicación técnica de referencia"
+    ],
+    "en": [
+      "reference location name",
+      "reference functional location description"
+    ],
+    "pt": [
+      "nome local de referência",
+      "descrição local de instalação de referência"
+    ]
   }
 }

@@ -9,5 +9,33 @@
     "es": "Datos de plan",
     "en": "Plan data line items",
     "pt": "Dados de plano"
+  },
+  "purpose": {
+    "es": "En S/4HANA, una fila por cada partida de plan: guarda costos, ingresos y cantidades planificados por cuenta, centro de coste, centro de beneficio, orden o proyecto y período. Es la contraparte de plan de ACDOCA y sirve para comparar plan contra real.",
+    "en": "In S/4HANA, one row per plan line item: it holds planned costs, revenues and quantities by account, cost center, profit center, order or project and period. It is the plan counterpart of ACDOCA and is used to compare plan against actuals.",
+    "pt": "No S/4HANA, uma linha por partida de plano: guarda custos, receitas e quantidades planejados por conta, centro de custo, centro de lucro, ordem ou projeto e período. É a contraparte de plano da ACDOCA e serve para comparar plano com real."
+  },
+  "synonyms": {
+    "es": [
+      "datos de plan",
+      "planificación financiera",
+      "presupuesto S/4HANA",
+      "plan contra real",
+      "partidas de plan"
+    ],
+    "en": [
+      "plan data",
+      "financial planning",
+      "S/4HANA planning",
+      "plan vs actual",
+      "plan line items"
+    ],
+    "pt": [
+      "dados de plano",
+      "planejamento financeiro",
+      "planejamento S/4HANA",
+      "plano versus real",
+      "partidas de plano"
+    ]
   }
 }

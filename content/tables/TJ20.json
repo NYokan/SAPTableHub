@@ -8,5 +8,27 @@
     "es": "Esquemas de estado de usuario",
     "en": "User status profiles",
     "pt": "Esquemas de status do usuário"
+  },
+  "purpose": {
+    "es": "Una fila por cada esquema (perfil) de estado de usuario: el conjunto de estados propios que una empresa define para un tipo de objeto, como órdenes o avisos. Los estados del esquema están en TJ30.",
+    "en": "One row per user status profile: the set of company-defined statuses for an object type, such as orders or notifications. The statuses of the profile are in TJ30.",
+    "pt": "Uma linha por esquema (perfil) de status de usuário: o conjunto de status próprios que uma empresa define para um tipo de objeto, como ordens ou notas. Os status do esquema estão na TJ30."
+  },
+  "synonyms": {
+    "es": [
+      "esquema de estado",
+      "perfil de status de usuario",
+      "estados propios"
+    ],
+    "en": [
+      "status profile",
+      "user status profile",
+      "custom statuses"
+    ],
+    "pt": [
+      "esquema de status",
+      "perfil de status de usuário",
+      "status próprios"
+    ]
   }
 }

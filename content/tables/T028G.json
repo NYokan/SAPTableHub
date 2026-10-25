@@ -8,5 +8,27 @@
     "es": "Extracto bancario: operaciones externas y reglas de contabilización",
     "en": "Bank statement: external transactions to posting rules",
     "pt": "Extrato bancário: transações externas e regras de lançamento"
+  },
+  "purpose": {
+    "es": "Para el extracto bancario electrónico, traduce cada código de operación externo del banco (y su signo) a una regla de contabilización interna y a un algoritmo de interpretación. Decide qué asiento genera cada tipo de movimiento bancario.",
+    "en": "For electronic bank statements, it maps each external bank transaction code (and its sign) to an internal posting rule and interpretation algorithm. It decides which posting each kind of bank movement creates.",
+    "pt": "Para o extrato bancário eletrônico, traduz cada código de operação externo do banco (e seu sinal) para uma regra de lançamento interna e um algoritmo de interpretação. Decide qual lançamento cada tipo de movimento bancário gera."
+  },
+  "synonyms": {
+    "es": [
+      "regla de contabilización bancaria",
+      "código de operación externo",
+      "interpretación del extracto"
+    ],
+    "en": [
+      "bank posting rule",
+      "external transaction code",
+      "statement interpretation"
+    ],
+    "pt": [
+      "regra de lançamento bancário",
+      "código de operação externo",
+      "interpretação do extrato"
+    ]
   }
 }

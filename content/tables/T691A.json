@@ -8,5 +8,27 @@
     "es": "Gestión de créditos: categorías de riesgo",
     "en": "Credit management: risk categories",
     "pt": "Gestão de crédito: categorias de risco"
+  },
+  "purpose": {
+    "es": "Las categorías de riesgo de crédito por área de control de créditos (por ejemplo riesgo bajo, medio, alto). Se asignan a cada cliente en KNKK y determinan qué controles de crédito automáticos se aplican en ventas.",
+    "en": "The credit risk categories per credit control area (for example low, medium, high risk). They are assigned to each customer in KNKK and determine which automatic credit checks apply in sales.",
+    "pt": "As categorias de risco de crédito por área de controle de crédito (por exemplo risco baixo, médio, alto). São atribuídas a cada cliente na KNKK e determinam quais controles de crédito automáticos se aplicam em vendas."
+  },
+  "synonyms": {
+    "es": [
+      "categoría de riesgo",
+      "clase de riesgo de crédito",
+      "control de crédito automático"
+    ],
+    "en": [
+      "risk category",
+      "credit risk class",
+      "automatic credit check"
+    ],
+    "pt": [
+      "categoria de risco",
+      "classe de risco de crédito",
+      "controle de crédito automático"
+    ]
   }
 }

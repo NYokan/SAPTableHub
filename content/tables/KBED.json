@@ -9,5 +9,30 @@
     "es": "Necesidades de capacidad (detalle)",
     "en": "Capacity requirements (detail)",
     "pt": "Necessidades de capacidade (detalhe)"
+  },
+  "purpose": {
+    "es": "Una fila por cada necesidad de capacidad de una operación de orden u orden previsional: cuánta capacidad se necesita, de qué capacidad y en qué fechas, incluyendo lo pendiente. Es la base de la planificación y nivelación de capacidad.",
+    "en": "One row per capacity requirement of an order or planned order operation: how much capacity is needed, on which capacity and on what dates, including the remaining requirement. It is the basis for capacity planning and leveling.",
+    "pt": "Uma linha por necessidade de capacidade de uma operação de ordem ou ordem planejada: quanta capacidade é necessária, de qual capacidade e em quais datas, incluindo o pendente. É a base do planejamento e nivelamento de capacidade."
+  },
+  "synonyms": {
+    "es": [
+      "necesidades de capacidad",
+      "carga de capacidad",
+      "nivelación de capacidad",
+      "carga de puesto de trabajo"
+    ],
+    "en": [
+      "capacity requirements",
+      "capacity load",
+      "capacity leveling",
+      "work center load"
+    ],
+    "pt": [
+      "necessidades de capacidade",
+      "carga de capacidade",
+      "nivelamento de capacidade",
+      "carga do centro de trabalho"
+    ]
   }
 }

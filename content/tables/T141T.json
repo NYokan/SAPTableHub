@@ -8,5 +8,27 @@
     "es": "Estados de material (textos)",
     "en": "Material statuses (texts)",
     "pt": "Status de material (textos)"
+  },
+  "purpose": {
+    "es": "Descripciones por idioma de los estados de material (por ejemplo, bloqueado para compras o descatalogado), que limitan qué se puede hacer con él. Se usa para mostrar el nombre legible en informes en lugar del código.",
+    "en": "Language-dependent descriptions of material statuses (for example, blocked for purchasing or discontinued), which restrict what can be done with it. Used to show the readable name in reports instead of the code.",
+    "pt": "Descrições por idioma de os status de material (por exemplo, bloqueado para compras ou descontinuado), que limitam o que se pode fazer com ele. Usada para mostrar o nome legível em relatórios em vez do código."
+  },
+  "synonyms": {
+    "es": [
+      "estado del material",
+      "material bloqueado",
+      "material descatalogado"
+    ],
+    "en": [
+      "material status",
+      "blocked material",
+      "discontinued material"
+    ],
+    "pt": [
+      "status do material",
+      "material bloqueado",
+      "material descontinuado"
+    ]
   }
 }

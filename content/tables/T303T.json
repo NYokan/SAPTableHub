@@ -9,5 +9,24 @@
     "es": "Tipos de ubicación (textos)",
     "en": "Storage bin types (texts)",
     "pt": "Tipos de posição (textos)"
+  },
+  "purpose": {
+    "es": "Descripciones por idioma de los tipos de ubicación WM (T303). Se usa para mostrar el nombre legible en informes en lugar del código.",
+    "en": "Language-dependent descriptions of WM storage bin types (T303). Used to show the readable name in reports instead of the code.",
+    "pt": "Descrições por idioma de tipos de posição WM (T303). Usada para mostrar o nome legível em relatórios em vez do código."
+  },
+  "synonyms": {
+    "es": [
+      "nombre tipo de ubicación",
+      "descripción tipo de hueco"
+    ],
+    "en": [
+      "bin type name",
+      "bin type description"
+    ],
+    "pt": [
+      "nome tipo de posição",
+      "descrição tipo de vão"
+    ]
   }
 }

@@ -8,5 +8,27 @@
     "es": "Hojas de ruta: datos generales del grupo",
     "en": "Routings: general group data",
     "pt": "Roteiros: dados gerais do grupo"
+  },
+  "purpose": {
+    "es": "Una fila por cada grupo de hojas de ruta (tipo y número de grupo), con datos comunes a todas las hojas del grupo. Los datos de cada hoja de ruta (centro, utilización, status, tamaño de lote) están en PLKO.",
+    "en": "One row per task list group (type and group number), with data common to all task lists in the group. The data of each individual task list (plant, usage, status, lot size) is in PLKO.",
+    "pt": "Uma linha por grupo de roteiros (tipo e número do grupo), com dados comuns a todos os roteiros do grupo. Os dados de cada roteiro (centro, utilização, status, tamanho de lote) estão na PLKO."
+  },
+  "synonyms": {
+    "es": [
+      "grupo de hojas de ruta",
+      "cabecera de grupo",
+      "grupo de rutas"
+    ],
+    "en": [
+      "task list group",
+      "routing group header",
+      "routing group"
+    ],
+    "pt": [
+      "grupo de roteiros",
+      "cabeçalho do grupo",
+      "grupo de roteiro"
+    ]
   }
 }

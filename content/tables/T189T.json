@@ -8,5 +8,27 @@
     "es": "Tipos de lista de precios: textos",
     "en": "Price list types: texts",
     "pt": "Tipos de lista de preços: textos"
+  },
+  "purpose": {
+    "es": "Descripción de cada tipo de lista de precios en cada idioma: una fila por código e idioma. Sirve para mostrar un nombre legible en lugar del código PLTYP en informes; los códigos se definen en T189.",
+    "en": "Description of each price list type in each language: one row per code and language. Use it to show a readable name instead of the PLTYP code in reports; the codes themselves are defined in T189.",
+    "pt": "Descrição de cada tipo de lista de preços em cada idioma: uma linha por código e idioma. Serve para mostrar um nome legível em vez do código PLTYP em relatórios; os códigos são definidos na T189."
+  },
+  "synonyms": {
+    "es": [
+      "texto lista de precios",
+      "nombre tipo de lista de precios",
+      "PLTYP"
+    ],
+    "en": [
+      "price list type text",
+      "price list name",
+      "PLTYP"
+    ],
+    "pt": [
+      "texto lista de preços",
+      "nome tipo de lista de preços",
+      "PLTYP"
+    ]
   }
 }

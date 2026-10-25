@@ -8,5 +8,27 @@
     "es": "Unidades de medida (textos)",
     "en": "Units of measure (texts)",
     "pt": "Unidades de medida (textos)"
+  },
+  "purpose": {
+    "es": "Textos de cada unidad de medida por idioma: la abreviatura comercial y técnica que se ve en pantalla y en impresos, y la descripción larga. Por ejemplo, la unidad interna ST se muestra como PC en inglés.",
+    "en": "Texts of each unit of measure per language: the commercial and technical abbreviation shown on screen and in printouts, and the long description. For example, internal unit ST is shown as PC in English.",
+    "pt": "Textos de cada unidade de medida por idioma: a abreviatura comercial e técnica exibida na tela e em impressos, e a descrição longa. Por exemplo, a unidade interna ST aparece como PC em inglês."
+  },
+  "synonyms": {
+    "es": [
+      "descripción de unidad de medida",
+      "texto de unidad",
+      "abreviatura de unidad"
+    ],
+    "en": [
+      "unit of measure description",
+      "unit text",
+      "unit abbreviation"
+    ],
+    "pt": [
+      "descrição da unidade de medida",
+      "texto da unidade",
+      "abreviatura da unidade"
+    ]
   }
 }

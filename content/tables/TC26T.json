@@ -8,5 +8,24 @@
     "es": "Categorías de capacidad (descripciones)",
     "en": "Capacity categories (descriptions)",
     "pt": "Categorias de capacidade (descrições)"
+  },
+  "purpose": {
+    "es": "Descripción de cada categoría de capacidad, por idioma. Se une con TC26 o KAKO para mostrar su nombre.",
+    "en": "Description of each capacity category, per language. It is joined to TC26 or KAKO to show its name.",
+    "pt": "Descrição de cada categoria de capacidade, por idioma. É unida à TC26 ou à KAKO para mostrar seu nome."
+  },
+  "synonyms": {
+    "es": [
+      "nombre de categoría de capacidad",
+      "descripción de categoría de capacidad"
+    ],
+    "en": [
+      "capacity category name",
+      "capacity category description"
+    ],
+    "pt": [
+      "nome da categoria de capacidade",
+      "descrição da categoria de capacidade"
+    ]
   }
 }

@@ -8,5 +8,30 @@
     "es": "Grupos (sets): cabecera",
     "en": "Sets (groups): header",
     "pt": "Grupos (sets): cabeçalho"
+  },
+  "purpose": {
+    "es": "Una fila por cada grupo (set) de valores: grupos de centros de coste, de cuentas, de órdenes, etc. Guarda la clase de set, el nombre, el tipo (básico o con subgrupos) y el campo al que se refiere. Los valores están en SETLEAF y los subgrupos en SETNODE.",
+    "en": "One row per set (group) of values: cost center groups, account groups, order groups and so on. It holds the set class, name, type (basic or with subgroups) and the field it refers to. Values are in SETLEAF and subgroups in SETNODE.",
+    "pt": "Uma linha por grupo (set) de valores: grupos de centros de custo, de contas, de ordens etc. Guarda a classe do set, o nome, o tipo (básico ou com subgrupos) e o campo a que se refere. Os valores estão na SETLEAF e os subgrupos na SETNODE."
+  },
+  "synonyms": {
+    "es": [
+      "grupo de centros de coste",
+      "grupo de cuentas",
+      "jerarquía de sets",
+      "set de valores"
+    ],
+    "en": [
+      "cost center group",
+      "account group set",
+      "set hierarchy",
+      "value set"
+    ],
+    "pt": [
+      "grupo de centros de custo",
+      "grupo de contas",
+      "hierarquia de sets",
+      "set de valores"
+    ]
   }
 }

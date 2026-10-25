@@ -8,5 +8,27 @@
     "es": "Indicadores de mayor especial: textos",
     "en": "Special G/L indicators: texts",
     "pt": "Códigos de razão especial: textos"
+  },
+  "purpose": {
+    "es": "Nombre de cada indicador de mayor especial en cada idioma, por tipo de cuenta (por ejemplo A «Anticipo», W «Letra de cambio»). Sirve para entender el campo UMSKZ de las partidas.",
+    "en": "Name of each special G/L indicator in each language, per account type (for example A \"Down payment\", W \"Bill of exchange\"). It helps to understand field UMSKZ on line items.",
+    "pt": "Nome de cada código de razão especial em cada idioma, por tipo de conta (por exemplo A «Adiantamento», W «Letra de câmbio»). Ajuda a entender o campo UMSKZ das partidas."
+  },
+  "synonyms": {
+    "es": [
+      "texto indicador de mayor especial",
+      "anticipos",
+      "UMSKZ"
+    ],
+    "en": [
+      "special G/L indicator text",
+      "down payments",
+      "UMSKZ"
+    ],
+    "pt": [
+      "texto do código de razão especial",
+      "adiantamentos",
+      "UMSKZ"
+    ]
   }
 }

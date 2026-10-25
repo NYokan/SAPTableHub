@@ -8,5 +8,30 @@
     "es": "Garantías maestras (cabecera)",
     "en": "Master warranties (header)",
     "pt": "Garantias mestras (cabeçalho)"
+  },
+  "purpose": {
+    "es": "Una fila por cada garantía maestra: el modelo de garantía (por ejemplo, 2 años de piezas y mano de obra) que luego se asigna a equipos o números de serie. Indica el tipo de garantía y su estado; los servicios cubiertos están en BGMP.",
+    "en": "One row per master warranty: the warranty template (for example, 2 years parts and labour) that is then assigned to equipment or serial numbers. It shows the warranty type and status; covered services are in BGMP.",
+    "pt": "Uma linha por garantia mestre: o modelo de garantia (por exemplo, 2 anos de peças e mão de obra) que depois é atribuído a equipamentos ou números de série. Indica o tipo de garantia e seu status; os serviços cobertos estão na BGMP."
+  },
+  "synonyms": {
+    "es": [
+      "garantía maestra",
+      "garantía de equipo",
+      "condiciones de garantía",
+      "cobertura de garantía"
+    ],
+    "en": [
+      "master warranty",
+      "equipment warranty",
+      "warranty terms",
+      "warranty coverage"
+    ],
+    "pt": [
+      "garantia mestre",
+      "garantia do equipamento",
+      "condições de garantia",
+      "cobertura da garantia"
+    ]
   }
 }

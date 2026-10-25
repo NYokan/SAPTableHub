@@ -9,5 +9,27 @@
     "es": "Tipos de almacén",
     "en": "Storage types",
     "pt": "Tipos de depósito"
+  },
+  "purpose": {
+    "es": "Lista de tipos de almacén de cada número de almacén WM: zonas con distinta técnica o uso, como estanterías altas, picking, zona de entrada o de expedición.",
+    "en": "List of storage types within each WM warehouse number: zones with different technique or use, such as high rack, picking, goods receipt or shipping area.",
+    "pt": "Lista de tipos de depósito de cada número de depósito WM: zonas com técnica ou uso diferentes, como porta-paletes alto, picking, área de recebimento ou expedição."
+  },
+  "synonyms": {
+    "es": [
+      "tipo de almacén",
+      "zona de almacén",
+      "área de picking"
+    ],
+    "en": [
+      "storage type",
+      "warehouse zone",
+      "storage area type"
+    ],
+    "pt": [
+      "tipo de depósito",
+      "zona do depósito",
+      "área de armazenagem"
+    ]
   }
 }

@@ -8,5 +8,30 @@
     "es": "Activos fijos: movimientos (cabecera)",
     "en": "Fixed assets: transactions (header)",
     "pt": "Ativos fixos: movimentos (cabeçalho)"
+  },
+  "purpose": {
+    "es": "Una fila por cada documento de movimiento de activos fijos (alta, baja, transferencia) en ECC: sociedad, activo, fecha de referencia, fecha de contabilización y texto. Los importes por área de valoración están en ANEP.",
+    "en": "One row per fixed asset transaction document (acquisition, retirement, transfer) in ECC: company code, asset, value date, posting date and text. The amounts per depreciation area are in ANEP.",
+    "pt": "Uma linha por documento de movimento de ativo imobilizado (aquisição, baixa, transferência) no ECC: empresa, ativo, data de referência, data de lançamento e texto. Os montantes por área de avaliação estão na ANEP."
+  },
+  "synonyms": {
+    "es": [
+      "movimientos de activo",
+      "alta de activo",
+      "documento de activo fijo",
+      "baja de activo"
+    ],
+    "en": [
+      "asset transactions",
+      "asset acquisition",
+      "asset document header",
+      "asset retirement"
+    ],
+    "pt": [
+      "movimentos de ativo",
+      "aquisição de ativo",
+      "documento de ativo imobilizado",
+      "baixa de ativo"
+    ]
   }
 }

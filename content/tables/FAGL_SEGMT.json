@@ -8,5 +8,24 @@
     "es": "Segmentos: textos",
     "en": "Segments: texts",
     "pt": "Segmentos: textos"
+  },
+  "purpose": {
+    "es": "Nombre de cada segmento en cada idioma, para mostrar una descripción legible en lugar del código de FAGL_SEGM.",
+    "en": "Name of each segment in each language, to show a readable description instead of the code from FAGL_SEGM.",
+    "pt": "Nome de cada segmento em cada idioma, para mostrar uma descrição legível em vez do código da FAGL_SEGM."
+  },
+  "synonyms": {
+    "es": [
+      "texto de segmento",
+      "nombre de segmento"
+    ],
+    "en": [
+      "segment text",
+      "segment name"
+    ],
+    "pt": [
+      "texto do segmento",
+      "nome do segmento"
+    ]
   }
 }

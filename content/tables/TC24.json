@@ -8,5 +8,24 @@
     "es": "Responsables de puestos de trabajo",
     "en": "Persons responsible for work centers",
     "pt": "Responsáveis por centros de trabalho"
+  },
+  "purpose": {
+    "es": "Una fila por cada responsable de puestos de trabajo de un centro: código y nombre de la persona o grupo encargado. Se asigna a los puestos de trabajo para saber quién responde por ellos.",
+    "en": "One row per person responsible for work centers in a plant: code and name of the person or group in charge. It is assigned to work centers to show who is accountable for them.",
+    "pt": "Uma linha por responsável por centros de trabalho de um centro: código e nome da pessoa ou grupo encarregado. É atribuído aos centros de trabalho para saber quem responde por eles."
+  },
+  "synonyms": {
+    "es": [
+      "responsable del puesto de trabajo",
+      "encargado de puesto"
+    ],
+    "en": [
+      "work center person responsible",
+      "work center owner"
+    ],
+    "pt": [
+      "responsável pelo centro de trabalho",
+      "encarregado do centro"
+    ]
   }
 }

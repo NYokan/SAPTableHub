@@ -8,5 +8,27 @@
     "es": "Ubicaciones técnicas de referencia",
     "en": "Reference functional locations",
     "pt": "Locais de instalação de referência"
+  },
+  "purpose": {
+    "es": "Ubicaciones técnicas de referencia: plantillas no reales que agrupan datos comunes a varias ubicaciones técnicas parecidas (por ejemplo, varias líneas idénticas) para crearlas y mantenerlas de forma uniforme.",
+    "en": "Reference functional locations: non-real templates that hold data common to several similar functional locations (for example, several identical lines) to create and maintain them consistently.",
+    "pt": "Locais de instalação de referência: modelos não reais que reúnem dados comuns a vários locais de instalação parecidos (por exemplo, várias linhas idênticas) para criá-los e mantê-los de forma uniforme."
+  },
+  "synonyms": {
+    "es": [
+      "ubicación técnica de referencia",
+      "plantilla de ubicación técnica",
+      "ubicación modelo"
+    ],
+    "en": [
+      "reference functional location",
+      "functional location template",
+      "model location"
+    ],
+    "pt": [
+      "local de instalação de referência",
+      "modelo de local de instalação",
+      "local modelo"
+    ]
   }
 }

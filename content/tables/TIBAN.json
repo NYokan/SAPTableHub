@@ -8,5 +8,27 @@
     "es": "Números IBAN",
     "en": "IBAN numbers",
     "pt": "Números IBAN"
+  },
+  "purpose": {
+    "es": "Una fila por cada IBAN registrado, ligado a la cuenta bancaria nacional (país, clave de banco y número de cuenta). Es donde se obtiene el IBAN de las cuentas de clientes, proveedores y socios de negocio.",
+    "en": "One row per stored IBAN, linked to the national bank account (country, bank key and account number). It is where the IBAN of customer, vendor and business partner accounts is found.",
+    "pt": "Uma linha por IBAN registrado, ligado à conta bancária nacional (país, chave do banco e número da conta). É onde se obtém o IBAN das contas de clientes, fornecedores e parceiros de negócios."
+  },
+  "synonyms": {
+    "es": [
+      "IBAN",
+      "número IBAN",
+      "cuenta bancaria internacional"
+    ],
+    "en": [
+      "IBAN",
+      "IBAN number",
+      "international bank account number"
+    ],
+    "pt": [
+      "IBAN",
+      "número IBAN",
+      "conta bancária internacional"
+    ]
   }
 }

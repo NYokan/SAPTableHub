@@ -8,5 +8,24 @@
     "es": "Tipos de certificado (descripciones)",
     "en": "Certificate types (descriptions)",
     "pt": "Tipos de certificado (descrições)"
+  },
+  "purpose": {
+    "es": "Descripciones por idioma de los tipos de certificado (TQ05). Se usa para mostrar el nombre legible en informes en lugar del código.",
+    "en": "Language-dependent descriptions of certificate types (TQ05). Used to show the readable name in reports instead of the code.",
+    "pt": "Descrições por idioma de tipos de certificado (TQ05). Usada para mostrar o nome legível em relatórios em vez do código."
+  },
+  "synonyms": {
+    "es": [
+      "texto tipo de certificado",
+      "descripción certificado"
+    ],
+    "en": [
+      "certificate type text",
+      "certificate description"
+    ],
+    "pt": [
+      "texto tipo de certificado",
+      "descrição certificado"
+    ]
   }
 }

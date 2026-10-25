@@ -8,5 +8,24 @@
     "es": "Ledgers contables: textos",
     "en": "Accounting ledgers: texts",
     "pt": "Ledgers contábeis: textos"
+  },
+  "purpose": {
+    "es": "Nombre de cada ledger contable de S/4HANA en cada idioma, para mostrar una descripción legible en lugar del código de FINSC_LEDGER.",
+    "en": "Name of each S/4HANA accounting ledger in each language, to show a readable description instead of the code from FINSC_LEDGER.",
+    "pt": "Nome de cada ledger contábil do S/4HANA em cada idioma, para mostrar uma descrição legível em vez do código da FINSC_LEDGER."
+  },
+  "synonyms": {
+    "es": [
+      "texto de ledger",
+      "nombre de ledger"
+    ],
+    "en": [
+      "ledger text",
+      "ledger name"
+    ],
+    "pt": [
+      "texto do ledger",
+      "nome do ledger"
+    ]
   }
 }

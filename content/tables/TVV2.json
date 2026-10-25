@@ -9,5 +9,27 @@
     "es": "Grupos de clientes 2",
     "en": "Customer groups 2",
     "pt": "Grupos de clientes 2"
+  },
+  "purpose": {
+    "es": "Lista de valores del grupo de clientes 2 (campo KVGR2 en KNVV), una clasificación libre del cliente en sus datos de ventas. Cada empresa decide su significado; se usa en análisis de ventas y a veces en precios.",
+    "en": "List of values for customer group 2 (field KVGR2 in KNVV), a free classification of the customer in its sales data. Each company decides its meaning; used in sales analysis and sometimes in pricing.",
+    "pt": "Lista de valores do grupo de clientes 2 (campo KVGR2 na KNVV), uma classificação livre do cliente em seus dados de vendas. Cada empresa decide seu significado; usada em análises de vendas e às vezes em preços."
+  },
+  "synonyms": {
+    "es": [
+      "grupo de clientes 2",
+      "KVGR2",
+      "clasificación de clientes 2"
+    ],
+    "en": [
+      "customer group 2",
+      "KVGR2",
+      "customer classification 2"
+    ],
+    "pt": [
+      "grupo de clientes 2",
+      "KVGR2",
+      "classificação de clientes 2"
+    ]
   }
 }

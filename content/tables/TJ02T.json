@@ -7,5 +7,27 @@
     "es": "Estados del sistema (textos)",
     "en": "System statuses (texts)",
     "pt": "Status do sistema (textos)"
+  },
+  "purpose": {
+    "es": "Abreviatura y descripción de cada estado del sistema por idioma, por ejemplo «Liberado» para I0002. Traduce los códigos de estado de JEST a algo legible.",
+    "en": "Abbreviation and description of each system status per language, for example REL 'Released' for I0002. It translates the JEST status codes into something readable.",
+    "pt": "Abreviatura e descrição de cada status do sistema por idioma, por exemplo 'Liberado' para I0002. Traduz os códigos de status da JEST para algo legível."
+  },
+  "synonyms": {
+    "es": [
+      "texto de estado del sistema",
+      "descripción de status",
+      "abreviatura de estado"
+    ],
+    "en": [
+      "system status text",
+      "status description",
+      "status abbreviation"
+    ],
+    "pt": [
+      "texto do status do sistema",
+      "descrição do status",
+      "abreviatura do status"
+    ]
   }
 }

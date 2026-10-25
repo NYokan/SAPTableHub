@@ -8,5 +8,24 @@
     "es": "Características maestras de inspección (descripciones)",
     "en": "Master inspection characteristics (descriptions)",
     "pt": "Características mestre de inspeção (descrições)"
+  },
+  "purpose": {
+    "es": "Descripciones por idioma de las características maestras de inspección (QPMK), es decir, qué se mide o verifica. Se usa para mostrar el nombre legible en informes en lugar del código.",
+    "en": "Language-dependent descriptions of master inspection characteristics (QPMK), that is, what is measured or checked. Used to show the readable name in reports instead of the code.",
+    "pt": "Descrições por idioma de características mestre de inspeção (QPMK), ou seja, o que é medido ou verificado. Usada para mostrar o nome legível em relatórios em vez do código."
+  },
+  "synonyms": {
+    "es": [
+      "descripción característica maestra",
+      "nombre de característica de inspección"
+    ],
+    "en": [
+      "master characteristic description",
+      "inspection characteristic name"
+    ],
+    "pt": [
+      "descrição característica mestre",
+      "nome da característica de inspeção"
+    ]
   }
 }

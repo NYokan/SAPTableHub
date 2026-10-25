@@ -9,5 +9,27 @@
     "es": "Centros permitidos por organización de ventas y canal",
     "en": "Allowed plants per sales organization and channel",
     "pt": "Centros permitidos por organização de vendas e canal"
+  },
+  "purpose": {
+    "es": "Centros desde los que puede entregar cada combinación de organización de ventas y canal de distribución. Sirve para saber qué centros puede usar un área de ventas.",
+    "en": "Plants that each combination of sales organization and distribution channel may deliver from. Use it to know which plants a sales area can use.",
+    "pt": "Centros a partir dos quais cada combinação de organização de vendas e canal de distribuição pode fornecer. Serve para saber quais centros uma área de vendas pode usar."
+  },
+  "synonyms": {
+    "es": [
+      "centro de suministro permitido",
+      "centros por organización de ventas",
+      "centro entregador"
+    ],
+    "en": [
+      "allowed delivering plants",
+      "plants per sales organization",
+      "delivering plant"
+    ],
+    "pt": [
+      "centro fornecedor permitido",
+      "centros por organização de vendas",
+      "centro fornecedor"
+    ]
   }
 }

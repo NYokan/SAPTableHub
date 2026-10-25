@@ -7,5 +7,30 @@
     "es": "Claves de amortización",
     "en": "Depreciation keys",
     "pt": "Chaves de depreciação"
+  },
+  "purpose": {
+    "es": "Las claves de amortización: cada una define el método con que se calcula la amortización de un activo (lineal, degresiva, por unidades…) y desde cuándo. Los activos guardan su clave por área de valoración en ANLB-AFASL.",
+    "en": "The depreciation keys: each one defines the method used to calculate an asset's depreciation (straight-line, declining balance, units of production…) and from when. Assets store their key per depreciation area in ANLB-AFASL.",
+    "pt": "As chaves de depreciação: cada uma define o método de cálculo da depreciação de um ativo (linear, decrescente, por unidades…) e a partir de quando. Os ativos guardam sua chave por área de avaliação em ANLB-AFASL."
+  },
+  "synonyms": {
+    "es": [
+      "clave de amortización",
+      "método de amortización",
+      "amortización lineal",
+      "AFASL"
+    ],
+    "en": [
+      "depreciation key",
+      "depreciation method",
+      "straight-line depreciation",
+      "AFASL"
+    ],
+    "pt": [
+      "chave de depreciação",
+      "método de depreciação",
+      "depreciação linear",
+      "AFASL"
+    ]
   }
 }

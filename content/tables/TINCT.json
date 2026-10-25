@@ -9,5 +9,27 @@
     "es": "Incoterms: textos",
     "en": "Incoterms: texts",
     "pt": "Incoterms: textos"
+  },
+  "purpose": {
+    "es": "Descripción de cada Incoterm (FOB, CIF, EXW…) en cada idioma: una fila por código e idioma. Sirve para mostrar un nombre legible en lugar del código INCO1 en informes; los códigos se definen en TINC.",
+    "en": "Description of each Incoterm (FOB, CIF, EXW…) in each language: one row per code and language. Use it to show a readable name instead of the INCO1 code in reports; the codes themselves are defined in TINC.",
+    "pt": "Descrição de cada Incoterm (FOB, CIF, EXW…) em cada idioma: uma linha por código e idioma. Serve para mostrar um nome legível em vez do código INCO1 em relatórios; os códigos são definidos na TINC."
+  },
+  "synonyms": {
+    "es": [
+      "texto Incoterms",
+      "condiciones de entrega",
+      "descripción Incoterm"
+    ],
+    "en": [
+      "Incoterms text",
+      "delivery terms",
+      "Incoterm description"
+    ],
+    "pt": [
+      "texto Incoterms",
+      "condições de entrega",
+      "descrição Incoterm"
+    ]
   }
 }

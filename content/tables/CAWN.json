@@ -8,5 +8,27 @@
     "es": "Valores permitidos de características",
     "en": "Allowed characteristic values",
     "pt": "Valores permitidos de características"
+  },
+  "purpose": {
+    "es": "Una fila por cada valor permitido de una característica, por ejemplo los colores o tamaños posibles. Los valores asignados a cada objeto clasificado no están aquí sino en AUSP; las descripciones de los valores están en CAWNT.",
+    "en": "One row per allowed value of a characteristic, for example the possible colors or sizes. The values assigned to each classified object are not here but in AUSP; value descriptions are in CAWNT.",
+    "pt": "Uma linha por valor permitido de uma característica, por exemplo as cores ou tamanhos possíveis. Os valores atribuídos a cada objeto classificado não estão aqui, e sim na AUSP; as descrições dos valores estão na CAWNT."
+  },
+  "synonyms": {
+    "es": [
+      "valores de característica",
+      "valores permitidos",
+      "lista de valores de clasificación"
+    ],
+    "en": [
+      "characteristic values",
+      "allowed values",
+      "value list"
+    ],
+    "pt": [
+      "valores de característica",
+      "valores permitidos",
+      "lista de valores de classificação"
+    ]
   }
 }

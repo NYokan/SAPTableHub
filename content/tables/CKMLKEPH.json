@@ -8,5 +8,27 @@
     "es": "Ledger de materiales (componentes de coste)",
     "en": "Material ledger (cost components)",
     "pt": "Ledger de materiais (componentes de custo)"
+  },
+  "purpose": {
+    "es": "Desglose por componentes de coste (materia prima, mano de obra, gastos generales, etc.) de los valores de cada material en el ledger de materiales, por período. Sirve para ver de qué se compone el costo real de un material.",
+    "en": "Cost component split (raw material, labor, overhead, etc.) of each material's values in the material ledger, per period. It shows what the actual cost of a material is made of.",
+    "pt": "Divisão por componentes de custo (matéria-prima, mão de obra, custos indiretos etc.) dos valores de cada material no ledger de materiais, por período. Mostra do que é composto o custo real de um material."
+  },
+  "synonyms": {
+    "es": [
+      "componentes de coste reales",
+      "desglose de costo real",
+      "estructura de costo del material"
+    ],
+    "en": [
+      "actual cost components",
+      "actual cost split",
+      "material cost breakdown"
+    ],
+    "pt": [
+      "componentes de custo reais",
+      "divisão do custo real",
+      "estrutura de custo do material"
+    ]
   }
 }

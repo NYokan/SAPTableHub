@@ -8,5 +8,27 @@
     "es": "Condiciones de temperatura",
     "en": "Temperature conditions",
     "pt": "Condições de temperatura"
+  },
+  "purpose": {
+    "es": "Lista de condiciones de temperatura (por ejemplo, entre 2 y 8 °C) que se indican en el maestro de materiales para su almacenamiento y transporte.",
+    "en": "List of temperature conditions (for example, between 2 and 8 °C) entered in the material master for storage and transport.",
+    "pt": "Lista de condições de temperatura (por exemplo, entre 2 e 8 °C) informadas no mestre de materiais para armazenagem e transporte."
+  },
+  "synonyms": {
+    "es": [
+      "condición de temperatura",
+      "temperatura de almacenaje",
+      "cadena de frío"
+    ],
+    "en": [
+      "temperature condition",
+      "storage temperature",
+      "cold chain"
+    ],
+    "pt": [
+      "condição de temperatura",
+      "temperatura de armazenagem",
+      "cadeia de frio"
+    ]
   }
 }

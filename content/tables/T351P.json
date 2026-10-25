@@ -8,5 +8,27 @@
     "es": "Paquetes de mantenimiento por estrategia",
     "en": "Maintenance packages by strategy",
     "pt": "Pacotes de manutenção por estratégia"
+  },
+  "purpose": {
+    "es": "Paquetes de mantenimiento de cada estrategia: cada paquete es un ciclo (por ejemplo, cada 1 mes, cada 6 meses o cada 500 horas) con su unidad, desplazamiento y jerarquía. Se asignan a operaciones mediante PLWP.",
+    "en": "Maintenance packages of each strategy: each package is a cycle (for example, every month, every 6 months or every 500 hours) with its unit, offset and hierarchy. They are assigned to operations through PLWP.",
+    "pt": "Pacotes de manutenção de cada estratégia: cada pacote é um ciclo (por exemplo, a cada mês, a cada 6 meses ou a cada 500 horas) com sua unidade, deslocamento e hierarquia. São atribuídos às operações pela PLWP."
+  },
+  "synonyms": {
+    "es": [
+      "paquete de mantenimiento",
+      "ciclo de mantenimiento",
+      "intervalo de mantenimiento"
+    ],
+    "en": [
+      "maintenance package",
+      "maintenance cycle",
+      "maintenance interval"
+    ],
+    "pt": [
+      "pacote de manutenção",
+      "ciclo de manutenção",
+      "intervalo de manutenção"
+    ]
   }
 }

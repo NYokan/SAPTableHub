@@ -8,5 +8,24 @@
     "es": "Bancos propios: textos de cuentas",
     "en": "House bank accounts: texts",
     "pt": "Bancos próprios: textos de contas"
+  },
+  "purpose": {
+    "es": "Descripción de cada cuenta de banco propio en cada idioma, por sociedad, banco propio e identificador de cuenta. Sirve para mostrar un nombre legible de la cuenta bancaria de la empresa.",
+    "en": "Description of each house bank account in each language, per company code, house bank and account ID. It is used to show a readable name for the company's bank account.",
+    "pt": "Descrição de cada conta de banco próprio em cada idioma, por empresa, banco próprio e ID da conta. Serve para mostrar um nome legível da conta bancária da empresa."
+  },
+  "synonyms": {
+    "es": [
+      "nombre de cuenta bancaria",
+      "descripción cuenta de banco propio"
+    ],
+    "en": [
+      "bank account name",
+      "house bank account description"
+    ],
+    "pt": [
+      "nome da conta bancária",
+      "descrição da conta do banco próprio"
+    ]
   }
 }

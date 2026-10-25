@@ -8,5 +8,27 @@
     "es": "Materiales por centro (histórico de periodos)",
     "en": "Materials by plant (period history)",
     "pt": "Materiais por centro (histórico de períodos)"
+  },
+  "purpose": {
+    "es": "Copia por periodo de los datos de stock del material por centro (MARC): guarda las cantidades de stock del centro al cierre de periodos anteriores, como el stock en control de calidad o en tránsito.",
+    "en": "Period copy of material stock data per plant (MARC): it keeps the plant's stock quantities at the close of earlier periods, such as quality inspection or in-transit stock.",
+    "pt": "Cópia por período dos dados de estoque do material por centro (MARC): guarda as quantidades de estoque do centro no fechamento de períodos anteriores, como estoque em controle de qualidade ou em trânsito."
+  },
+  "synonyms": {
+    "es": [
+      "histórico de stock por centro",
+      "stock de periodo anterior",
+      "stock al cierre de mes"
+    ],
+    "en": [
+      "plant stock history",
+      "prior period stock",
+      "month-end plant stock"
+    ],
+    "pt": [
+      "histórico de estoque por centro",
+      "estoque de período anterior",
+      "estoque no fechamento do mês"
+    ]
   }
 }

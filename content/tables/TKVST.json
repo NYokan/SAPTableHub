@@ -8,5 +8,24 @@
     "es": "Versiones CO (textos)",
     "en": "CO versions (texts)",
     "pt": "Versões CO (textos)"
+  },
+  "purpose": {
+    "es": "Descripción de cada versión de Controlling, por idioma. Se une con TKVS por el campo VERSN para mostrar su nombre.",
+    "en": "Description of each Controlling version, per language. It is joined to TKVS by the VERSN field to show its name.",
+    "pt": "Descrição de cada versão do Controlling, por idioma. É unida à TKVS pelo campo VERSN para mostrar seu nome."
+  },
+  "synonyms": {
+    "es": [
+      "nombre de versión CO",
+      "descripción de versión"
+    ],
+    "en": [
+      "CO version name",
+      "version description"
+    ],
+    "pt": [
+      "nome da versão CO",
+      "descrição da versão"
+    ]
   }
 }

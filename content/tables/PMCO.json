@@ -8,5 +8,27 @@
     "es": "Órdenes de mantenimiento (costes estimados por grupo de valor)",
     "en": "Maintenance orders (estimated costs by value category)",
     "pt": "Ordens de manutenção (custos estimados por categoria de valor)"
+  },
+  "purpose": {
+    "es": "Estructura de costes de las órdenes de mantenimiento y servicio por grupo de valor (por ejemplo, mano de obra, materiales, servicios externos). Aquí se guardan, entre otros, los costes estimados que se introducen en la orden.",
+    "en": "Cost structure of maintenance and service orders by value category (for example, labour, materials, external services). Among other things, it stores the estimated costs entered in the order.",
+    "pt": "Estrutura de custos das ordens de manutenção e serviço por grupo de valor (por exemplo, mão de obra, materiais, serviços externos). Aqui ficam, entre outros, os custos estimados informados na ordem."
+  },
+  "synonyms": {
+    "es": [
+      "costes estimados de orden",
+      "costes por grupo de valor",
+      "presupuesto de mantenimiento"
+    ],
+    "en": [
+      "estimated order costs",
+      "costs by value category",
+      "maintenance cost estimate"
+    ],
+    "pt": [
+      "custos estimados da ordem",
+      "custos por grupo de valor",
+      "orçamento de manutenção"
+    ]
   }
 }

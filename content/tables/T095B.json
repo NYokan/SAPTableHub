@@ -8,5 +8,27 @@
     "es": "Cuentas de amortización de activos fijos",
     "en": "Fixed asset depreciation accounts",
     "pt": "Contas de depreciação de ativos imobilizados"
+  },
+  "purpose": {
+    "es": "Para cada plan de cuentas, clave de determinación de cuentas y área de valoración, las cuentas de gasto por amortización (ordinaria, especial y extraordinaria) a las que contabiliza la ejecución de amortización. La cuenta de amortización acumulada está en T095.",
+    "en": "For each chart of accounts, account determination key and depreciation area, the depreciation expense accounts (ordinary, special and unplanned) that the depreciation run posts to. The accumulated depreciation account is in T095.",
+    "pt": "Para cada plano de contas, chave de determinação de contas e área de avaliação, as contas de despesa de depreciação (normal, especial e extraordinária) usadas pela execução de depreciação. A conta de depreciação acumulada está na T095."
+  },
+  "synonyms": {
+    "es": [
+      "cuenta de gasto por amortización",
+      "cuentas de amortización",
+      "gasto de depreciación"
+    ],
+    "en": [
+      "depreciation expense account",
+      "depreciation accounts",
+      "depreciation expense"
+    ],
+    "pt": [
+      "conta de despesa de depreciação",
+      "contas de depreciação",
+      "despesa de depreciação"
+    ]
   }
 }

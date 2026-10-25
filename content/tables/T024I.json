@@ -8,5 +8,27 @@
     "es": "Grupos de planificación de mantenimiento",
     "en": "Maintenance planner groups",
     "pt": "Grupos de planejamento de manutenção"
+  },
+  "purpose": {
+    "es": "Lista de grupos de planificación de mantenimiento por centro de planificación: equipos de personas que planifican y gestionan avisos y órdenes de mantenimiento. Se usa para filtrar el trabajo por planificador.",
+    "en": "List of maintenance planner groups per planning plant: teams of people who plan and manage maintenance notifications and orders. Used to filter work by planner.",
+    "pt": "Lista de grupos de planejamento de manutenção por centro de planejamento: equipes de pessoas que planejam e gerenciam notas e ordens de manutenção. Usada para filtrar o trabalho por planejador."
+  },
+  "synonyms": {
+    "es": [
+      "grupo de planificación",
+      "planificador de mantenimiento",
+      "grupo planificador PM"
+    ],
+    "en": [
+      "planner group",
+      "maintenance planner",
+      "PM planner group"
+    ],
+    "pt": [
+      "grupo de planejamento",
+      "planejador de manutenção",
+      "grupo planejador PM"
+    ]
   }
 }

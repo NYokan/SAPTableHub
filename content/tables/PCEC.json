@@ -8,5 +8,30 @@
     "es": "Talonarios de cheques prenumerados",
     "en": "Prenumbered check lots",
     "pt": "Talões de cheques pré-numerados"
+  },
+  "purpose": {
+    "es": "Los talonarios de cheques prenumerados de cada banco propio y cuenta: rango de números de cheque de cada lote y siguiente número disponible. El registro de cheques emitidos está en PAYR.",
+    "en": "The prenumbered check lots of each house bank and account: range of check numbers in each lot and next available number. The register of issued checks is in PAYR.",
+    "pt": "Os talões de cheques pré-numerados de cada banco próprio e conta: intervalo de números de cheque de cada lote e próximo número disponível. O registro de cheques emitidos está na PAYR."
+  },
+  "synonyms": {
+    "es": [
+      "talonario de cheques",
+      "lote de cheques",
+      "numeración de cheques",
+      "chequera"
+    ],
+    "en": [
+      "check lot",
+      "checkbook",
+      "check number range",
+      "check stock"
+    ],
+    "pt": [
+      "talão de cheques",
+      "lote de cheques",
+      "numeração de cheques",
+      "talonário"
+    ]
   }
 }

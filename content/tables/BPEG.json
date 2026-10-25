@@ -8,5 +8,27 @@
     "es": "Documentos de presupuesto (partidas globales)",
     "en": "Budget documents (overall line items)",
     "pt": "Documentos de orçamento (partidas globais)"
+  },
+  "purpose": {
+    "es": "Una fila por cada línea global (sin año) de un documento de presupuesto: el importe de presupuesto o plan asignado a una orden, elemento PEP u otro objeto en ese documento. La cabecera está en BPBK y el saldo acumulado en BPGE.",
+    "en": "One row per overall (not year-specific) line of a budget document: the budget or plan amount assigned to an order, WBS element or other object in that document. The header is in BPBK and the accumulated total in BPGE.",
+    "pt": "Uma linha por linha global (sem ano) de um documento de orçamento: o valor de orçamento ou plano atribuído a uma ordem, elemento PEP ou outro objeto nesse documento. O cabeçalho está na BPBK e o saldo acumulado na BPGE."
+  },
+  "synonyms": {
+    "es": [
+      "presupuesto global",
+      "líneas de presupuesto",
+      "presupuesto del proyecto"
+    ],
+    "en": [
+      "overall budget lines",
+      "budget line items",
+      "project budget entries"
+    ],
+    "pt": [
+      "orçamento global",
+      "linhas de orçamento",
+      "orçamento do projeto"
+    ]
   }
 }

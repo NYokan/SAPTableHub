@@ -8,5 +8,27 @@
     "es": "Flujo de documentos de transporte",
     "en": "Shipment document flow",
     "pt": "Fluxo de documentos de transporte"
+  },
+  "purpose": {
+    "es": "Flujo de documentos de transporte: enlaza cada transporte (VTTK) con sus documentos anteriores y siguientes, como entregas y documentos de costes de transporte. Sirve para rastrear qué entregas viajan en un transporte y qué costes generó.",
+    "en": "Shipment document flow: links each shipment (VTTK) with its preceding and subsequent documents, such as deliveries and shipment cost documents. Use it to trace which deliveries travel in a shipment and which costs it generated.",
+    "pt": "Fluxo de documentos de transporte: liga cada transporte (VTTK) com seus documentos anteriores e seguintes, como remessas e documentos de custos de frete. Serve para rastrear quais remessas viajam em um transporte e quais custos ele gerou."
+  },
+  "synonyms": {
+    "es": [
+      "flujo de transporte",
+      "transporte y entregas",
+      "trazabilidad de transporte"
+    ],
+    "en": [
+      "shipment flow",
+      "shipment and deliveries",
+      "shipment traceability"
+    ],
+    "pt": [
+      "fluxo de transporte",
+      "transporte e remessas",
+      "rastreio de transporte"
+    ]
   }
 }

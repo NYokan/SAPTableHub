@@ -8,5 +8,24 @@
     "es": "Registros info cliente-material (cabecera)",
     "en": "Customer-material info records (header)",
     "pt": "Registros info cliente-material (cabeçalho)"
+  },
+  "purpose": {
+    "es": "Cabecera de los registros info cliente-material: una fila por organización de ventas, canal y cliente que tiene acuerdos de material. Las posiciones, con el código de material propio del cliente, están en KNMT.",
+    "en": "Header of customer-material info records: one row per sales organization, channel and customer with material agreements. The items, with the customer's own material number, are in KNMT.",
+    "pt": "Cabeçalho dos registros info cliente-material: uma linha por organização de vendas, canal e cliente com acordos de material. Os itens, com o código de material do próprio cliente, ficam na KNMT."
+  },
+  "synonyms": {
+    "es": [
+      "registro info cliente-material",
+      "cabecera info cliente material"
+    ],
+    "en": [
+      "customer-material info record",
+      "customer material info header"
+    ],
+    "pt": [
+      "registro info cliente-material",
+      "cabeçalho info cliente material"
+    ]
   }
 }

@@ -9,5 +9,33 @@
     "es": "Comercio exterior: datos de importación/exportación (cabecera)",
     "en": "Foreign trade: import/export data (header)",
     "pt": "Comércio exterior: dados de importação/exportação (cabeçalho)"
+  },
+  "purpose": {
+    "es": "Una fila por cada conjunto de datos de comercio exterior a nivel cabecera: incoterms, modo de transporte, aduana, país de destino o de procedencia. Lo apuntan pedidos de compra, entregas y facturas mediante el número de exportación/importación (EXNUM); las posiciones están en EIPO.",
+    "en": "One row per set of foreign trade data at header level: incoterms, mode of transport, customs office, destination or origin country. Purchase orders, deliveries and billing documents point to it through the export/import number (EXNUM); items are in EIPO.",
+    "pt": "Uma linha por conjunto de dados de comércio exterior no nível de cabeçalho: incoterms, modo de transporte, alfândega, país de destino ou de procedência. Pedidos de compra, remessas e faturas apontam para ela pelo número de exportação/importação (EXNUM); os itens estão na EIPO."
+  },
+  "synonyms": {
+    "es": [
+      "comercio exterior",
+      "datos de exportación",
+      "datos de importación",
+      "aduana cabecera",
+      "datos de intrastat"
+    ],
+    "en": [
+      "foreign trade data",
+      "export data",
+      "import data",
+      "customs header",
+      "intrastat data"
+    ],
+    "pt": [
+      "comércio exterior",
+      "dados de exportação",
+      "dados de importação",
+      "dados aduaneiros",
+      "dados intrastat"
+    ]
   }
 }

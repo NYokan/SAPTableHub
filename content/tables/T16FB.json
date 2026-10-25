@@ -9,5 +9,27 @@
     "es": "Indicadores de liberación",
     "en": "Release indicators",
     "pt": "Indicadores de liberação"
+  },
+  "purpose": {
+    "es": "Una fila por cada indicador de liberación de documentos de compras: dice en qué situación queda el documento según su avance en la estrategia de liberación, por ejemplo bloqueado, liberado para emitir pedidos o si aún se puede modificar. Los textos están en T16FE.",
+    "en": "One row per purchasing document release indicator: it states the document's situation according to its progress in the release strategy, for example blocked, released for ordering, or whether it can still be changed. The texts are in T16FE.",
+    "pt": "Uma linha por indicador de liberação de documentos de compras: diz em que situação fica o documento conforme seu avanço na estratégia de liberação, por exemplo bloqueado, liberado para pedidos ou se ainda pode ser alterado. Os textos estão na T16FE."
+  },
+  "synonyms": {
+    "es": [
+      "indicador de liberación",
+      "estado de liberación",
+      "pedido bloqueado por aprobación"
+    ],
+    "en": [
+      "release indicator",
+      "release status",
+      "PO blocked for approval"
+    ],
+    "pt": [
+      "indicador de liberação",
+      "status de liberação",
+      "pedido bloqueado para aprovação"
+    ]
   }
 }

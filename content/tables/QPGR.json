@@ -7,5 +7,27 @@
     "es": "Catálogos de calidad: grupos de códigos",
     "en": "Quality catalogs: code groups",
     "pt": "Catálogos de qualidade: grupos de códigos"
+  },
+  "purpose": {
+    "es": "Grupos de códigos de los catálogos de calidad y mantenimiento: agrupan códigos de un tipo de catálogo (por ejemplo, defectos de pintura dentro del catálogo de defectos), con su estado.",
+    "en": "Code groups of quality and maintenance catalogs: they group codes of a catalog type (for example, paint defects within the defects catalog), with their status.",
+    "pt": "Grupos de códigos dos catálogos de qualidade e manutenção: agrupam códigos de um tipo de catálogo (por exemplo, defeitos de pintura dentro do catálogo de defeitos), com seu status."
+  },
+  "synonyms": {
+    "es": [
+      "grupo de códigos",
+      "catálogo de defectos",
+      "grupo de catálogo"
+    ],
+    "en": [
+      "code group",
+      "defect catalog",
+      "catalog group"
+    ],
+    "pt": [
+      "grupo de códigos",
+      "catálogo de defeitos",
+      "grupo de catálogo"
+    ]
   }
 }

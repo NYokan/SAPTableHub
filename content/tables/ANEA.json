@@ -8,5 +8,30 @@
     "es": "Activos fijos: valores proporcionales de movimientos",
     "en": "Fixed assets: proportional values of transactions",
     "pt": "Ativos fixos: valores proporcionais de movimentos"
+  },
+  "purpose": {
+    "es": "Para cada movimiento de un activo fijo, guarda los valores proporcionales que arrastra: la parte de amortización acumulada y de revalorización que corresponde a una baja o transferencia parcial. Complementa a ANEP, que tiene el importe principal del movimiento.",
+    "en": "For each fixed asset transaction, it holds the proportional values carried with it: the share of accumulated depreciation and revaluation that belongs to a retirement or a partial transfer. It complements ANEP, which holds the main amount of the transaction.",
+    "pt": "Para cada movimento de um ativo imobilizado, guarda os valores proporcionais que ele carrega: a parte da depreciação acumulada e da reavaliação que cabe a uma baixa ou transferência parcial. Complementa a ANEP, que tem o montante principal do movimento."
+  },
+  "synonyms": {
+    "es": [
+      "valores proporcionales",
+      "amortización proporcional",
+      "baja de activo",
+      "transferencia de activo"
+    ],
+    "en": [
+      "proportional values",
+      "proportional depreciation",
+      "asset retirement",
+      "asset transfer"
+    ],
+    "pt": [
+      "valores proporcionais",
+      "depreciação proporcional",
+      "baixa de ativo",
+      "transferência de ativo"
+    ]
   }
 }

@@ -8,5 +8,27 @@
     "es": "Estadísticas de compras por grupo de compras",
     "en": "Purchasing statistics by purchasing group",
     "pt": "Estatísticas de compras por grupo de compradores"
+  },
+  "purpose": {
+    "es": "Estructura de información del Sistema de Información Logística (LIS) con estadísticas de compras acumuladas por periodo y grupo de compras: valores y cantidades pedidas, recibidas y facturadas.",
+    "en": "Logistics Information System (LIS) info structure with purchasing statistics totalled by period and purchasing group: values and quantities ordered, received and invoiced.",
+    "pt": "Estrutura de informação do Sistema de Informação Logística (LIS) com estatísticas de compras acumuladas por período e grupo de compradores: valores e quantidades pedidas, recebidas e faturadas."
+  },
+  "synonyms": {
+    "es": [
+      "estadísticas por grupo de compras",
+      "volumen por comprador",
+      "LIS compras"
+    ],
+    "en": [
+      "purchasing group statistics",
+      "volume per buyer",
+      "LIS purchasing"
+    ],
+    "pt": [
+      "estatísticas por grupo de compradores",
+      "volume por comprador",
+      "LIS compras"
+    ]
   }
 }

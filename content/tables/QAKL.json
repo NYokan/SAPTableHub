@@ -7,5 +7,27 @@
     "es": "Resultados de inspección por clases de valores",
     "en": "Inspection results by value class",
     "pt": "Resultados de inspeção por classe de valores"
+  },
+  "purpose": {
+    "es": "Resultados de inspección registrados por clases de valores: para una característica, cuántas mediciones cayeron en cada intervalo de valores, en lugar de guardar cada valor individual.",
+    "en": "Inspection results recorded by value classes: for a characteristic, how many measurements fell into each value interval, instead of storing every single value.",
+    "pt": "Resultados de inspeção registrados por classes de valores: para uma característica, quantas medições caíram em cada intervalo de valores, em vez de guardar cada valor individual."
+  },
+  "synonyms": {
+    "es": [
+      "resultados por clases",
+      "distribución de mediciones",
+      "registro clasificado"
+    ],
+    "en": [
+      "classed results",
+      "measurement distribution",
+      "classed recording"
+    ],
+    "pt": [
+      "resultados por classes",
+      "distribuição de medições",
+      "registro classificado"
+    ]
   }
 }

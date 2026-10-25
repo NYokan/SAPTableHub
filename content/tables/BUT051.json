@@ -8,5 +8,30 @@
     "es": "Socios de negocio (personas de contacto)",
     "en": "Business partners (contact persons)",
     "pt": "Parceiros de negócios (pessoas de contato)"
+  },
+  "purpose": {
+    "es": "Una fila por cada relación de persona de contacto entre una organización y una persona: departamento, función, teléfono y correo en esa empresa. Complementa a BUT050 para las relaciones de tipo contacto.",
+    "en": "One row per contact person relationship between an organization and a person: department, function, phone and email at that company. It complements BUT050 for contact-type relationships.",
+    "pt": "Uma linha por relacionamento de pessoa de contato entre uma organização e uma pessoa: departamento, função, telefone e e-mail naquela empresa. Complementa a BUT050 para relacionamentos do tipo contato."
+  },
+  "synonyms": {
+    "es": [
+      "persona de contacto",
+      "contactos del socio",
+      "contacto de empresa",
+      "departamento del contacto"
+    ],
+    "en": [
+      "contact person",
+      "BP contacts",
+      "company contact",
+      "contact department"
+    ],
+    "pt": [
+      "pessoa de contato",
+      "contatos do parceiro",
+      "contato da empresa",
+      "departamento do contato"
+    ]
   }
 }

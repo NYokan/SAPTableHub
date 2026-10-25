@@ -8,5 +8,27 @@
     "es": "Nuevo mayor: partidas abiertas de cuentas de mayor",
     "en": "New G/L: open items of G/L accounts",
     "pt": "Novo razão: partidas em aberto de contas do razão"
+  },
+  "purpose": {
+    "es": "En el nuevo mayor con compensación específica por ledger, índice de las partidas abiertas de cuentas de mayor, por ledger. Es el equivalente por ledger de BSIS; al compensarse pasan a FAGLBSAS.",
+    "en": "In New G/L with ledger-specific clearing, an index of the open G/L account items, per ledger. It is the ledger-specific counterpart of BSIS; once cleared they move to FAGLBSAS.",
+    "pt": "No novo razão com compensação específica por ledger, índice das partidas em aberto de contas do razão, por ledger. É o equivalente por ledger da BSIS; ao serem compensadas passam para a FAGLBSAS."
+  },
+  "synonyms": {
+    "es": [
+      "compensación por ledger",
+      "partidas abiertas de mayor por ledger",
+      "nuevo mayor"
+    ],
+    "en": [
+      "ledger-specific clearing",
+      "open G/L items per ledger",
+      "new general ledger"
+    ],
+    "pt": [
+      "compensação por ledger",
+      "partidas em aberto do razão por ledger",
+      "novo razão"
+    ]
   }
 }

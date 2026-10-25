@@ -9,5 +9,27 @@
     "es": "Clases de condición: textos",
     "en": "Condition types: texts",
     "pt": "Tipos de condição: textos"
+  },
+  "purpose": {
+    "es": "Nombre de cada clase de condición (precio, descuento, flete, impuesto…) en cada idioma, por uso y aplicación. Sirve para mostrar un texto legible junto al código KSCHL, por ejemplo en las condiciones de KONV.",
+    "en": "Name of each condition type (price, discount, freight, tax…) in each language, per usage and application. Use it to show a readable text next to the KSCHL code, for example in the conditions of KONV.",
+    "pt": "Nome de cada tipo de condição (preço, desconto, frete, imposto…) em cada idioma, por uso e aplicação. Serve para mostrar um texto legível junto ao código KSCHL, por exemplo nas condições da KONV."
+  },
+  "synonyms": {
+    "es": [
+      "texto clase de condición",
+      "nombre de la condición",
+      "KSCHL"
+    ],
+    "en": [
+      "condition type text",
+      "condition name",
+      "KSCHL"
+    ],
+    "pt": [
+      "texto tipo de condição",
+      "nome da condição",
+      "KSCHL"
+    ]
   }
 }

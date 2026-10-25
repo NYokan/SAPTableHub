@@ -8,5 +8,27 @@
     "es": "Tipos de inspección",
     "en": "Inspection types",
     "pt": "Tipos de inspeção"
+  },
+  "purpose": {
+    "es": "Tipos de inspección: definen en qué momento y por qué se inspecciona (por ejemplo, 01 en entrada de mercancías, 04 en entrada desde producción, 89 otra inspección) y cómo se crea el lote de inspección.",
+    "en": "Inspection types: they define when and why an inspection happens (for example, 01 at goods receipt for purchase order, 04 at goods receipt from production, 89 other inspection) and how the inspection lot is created.",
+    "pt": "Tipos de inspeção: definem em que momento e por que se inspeciona (por exemplo, 01 na entrada de mercadorias por compra, 04 na entrada vinda da produção, 89 outra inspeção) e como o lote de inspeção é criado."
+  },
+  "synonyms": {
+    "es": [
+      "tipo de inspección",
+      "clase de inspección",
+      "inspección en recepción"
+    ],
+    "en": [
+      "inspection type",
+      "inspection category",
+      "receiving inspection"
+    ],
+    "pt": [
+      "tipo de inspeção",
+      "classe de inspeção",
+      "inspeção no recebimento"
+    ]
   }
 }

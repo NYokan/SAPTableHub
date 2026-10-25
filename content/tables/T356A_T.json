@@ -8,5 +8,24 @@
     "es": "Tipos de prioridad (textos)",
     "en": "Priority types (texts)",
     "pt": "Tipos de prioridade (textos)"
+  },
+  "purpose": {
+    "es": "Descripciones por idioma de los tipos de prioridad (T356A). Se usa para mostrar el nombre legible en informes en lugar del código.",
+    "en": "Language-dependent descriptions of priority types (T356A). Used to show the readable name in reports instead of the code.",
+    "pt": "Descrições por idioma de tipos de prioridade (T356A). Usada para mostrar o nome legível em relatórios em vez do código."
+  },
+  "synonyms": {
+    "es": [
+      "texto tipo de prioridad",
+      "descripción escala de prioridades"
+    ],
+    "en": [
+      "priority type text",
+      "priority scale description"
+    ],
+    "pt": [
+      "texto tipo de prioridade",
+      "descrição escala de prioridades"
+    ]
   }
 }

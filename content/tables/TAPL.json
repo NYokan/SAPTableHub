@@ -8,5 +8,27 @@
     "es": "Asignación de hojas de ruta a ubicaciones técnicas",
     "en": "Task list assignments to functional locations",
     "pt": "Atribuição de listas de tarefas a locais de instalação"
+  },
+  "purpose": {
+    "es": "Indica qué hojas de ruta de mantenimiento están asignadas a cada ubicación técnica. Es el equivalente de EAPL para ubicaciones técnicas en lugar de equipos.",
+    "en": "Shows which maintenance task lists are assigned to each functional location. It is the EAPL equivalent for functional locations instead of equipment.",
+    "pt": "Indica quais roteiros de manutenção estão atribuídos a cada local de instalação. É o equivalente da EAPL para locais de instalação em vez de equipamentos."
+  },
+  "synonyms": {
+    "es": [
+      "hoja de ruta de ubicación técnica",
+      "plan de trabajo de ubicación",
+      "instrucciones por ubicación técnica"
+    ],
+    "en": [
+      "functional location task list",
+      "functional location work plan",
+      "maintenance instructions by location"
+    ],
+    "pt": [
+      "roteiro do local de instalação",
+      "plano de trabalho do local",
+      "instruções por local de instalação"
+    ]
   }
 }

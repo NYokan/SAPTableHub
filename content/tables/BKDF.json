@@ -8,5 +8,30 @@
     "es": "Documentos periódicos (cabecera)",
     "en": "Recurring documents (header)",
     "pt": "Documentos recorrentes (cabeçalho)"
+  },
+  "purpose": {
+    "es": "Para cada documento periódico (asiento que se repite, como un alquiler mensual), guarda su calendario: primera y última fecha de ejecución, intervalo en meses, día de ejecución y próxima fecha. El resto del documento modelo está en BKPF y BSEG.",
+    "en": "For each recurring entry document (a posting that repeats, such as monthly rent), it holds its schedule: first and last run date, interval in months, run day and next run date. The rest of the reference document is in BKPF and BSEG.",
+    "pt": "Para cada documento recorrente (lançamento que se repete, como um aluguel mensal), guarda seu calendário: primeira e última data de execução, intervalo em meses, dia de execução e próxima data. O resto do documento modelo está na BKPF e na BSEG."
+  },
+  "synonyms": {
+    "es": [
+      "documento periódico",
+      "asiento recurrente",
+      "contabilización periódica",
+      "asientos repetitivos"
+    ],
+    "en": [
+      "recurring entry",
+      "recurring document",
+      "recurring posting",
+      "standing journal entry"
+    ],
+    "pt": [
+      "documento recorrente",
+      "lançamento recorrente",
+      "lançamento periódico",
+      "lançamentos repetitivos"
+    ]
   }
 }

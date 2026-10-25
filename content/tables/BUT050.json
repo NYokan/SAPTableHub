@@ -8,5 +8,29 @@
     "es": "Socios de negocio (relaciones)",
     "en": "Business partners (relationships)",
     "pt": "Parceiros de negócios (relações)"
+  },
+  "purpose": {
+    "es": "Una fila por cada relación entre dos socios de negocio, con su categoría y periodo de validez: por ejemplo persona de contacto de, empleado de o casado con. Los datos propios de la relación de contacto están en BUT051.",
+    "en": "One row per relationship between two business partners, with its category and validity period: for example contact person of, employee of or married to. The specific data of the contact relationship is in BUT051.",
+    "pt": "Uma linha por relacionamento entre dois parceiros de negócios, com sua categoria e período de validade: por exemplo pessoa de contato de, funcionário de ou casado com. Os dados próprios do relacionamento de contato estão na BUT051."
+  },
+  "synonyms": {
+    "es": [
+      "relaciones entre socios",
+      "relación BP",
+      "vínculo entre interlocutores",
+      "jerarquía de socios"
+    ],
+    "en": [
+      "BP relationships",
+      "partner relationship",
+      "business partner link",
+      "relationship category"
+    ],
+    "pt": [
+      "relacionamentos entre parceiros",
+      "relacionamento BP",
+      "vínculo entre parceiros"
+    ]
   }
 }

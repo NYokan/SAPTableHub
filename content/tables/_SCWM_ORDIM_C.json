@@ -8,5 +8,27 @@
     "es": "EWM: tareas de almacén confirmadas",
     "en": "EWM: confirmed warehouse tasks",
     "pt": "EWM: tarefas de depósito confirmadas"
+  },
+  "purpose": {
+    "es": "Tareas de almacén confirmadas en Extended Warehouse Management (EWM): movimientos ya realizados, con ubicaciones origen y destino, cantidades, usuario y hora de confirmación. Sirve para analizar productividad y trazabilidad del almacén.",
+    "en": "Confirmed warehouse tasks in Extended Warehouse Management (EWM): movements already carried out, with source and destination bins, quantities, user and confirmation time. Used to analyse warehouse productivity and traceability.",
+    "pt": "Tarefas de depósito confirmadas no Extended Warehouse Management (EWM): movimentos já realizados, com posições de origem e destino, quantidades, usuário e hora da confirmação. Serve para analisar produtividade e rastreabilidade do depósito."
+  },
+  "synonyms": {
+    "es": [
+      "tareas de almacén confirmadas",
+      "movimientos EWM realizados",
+      "productividad de almacén"
+    ],
+    "en": [
+      "confirmed warehouse tasks",
+      "completed EWM movements",
+      "warehouse productivity"
+    ],
+    "pt": [
+      "tarefas de depósito confirmadas",
+      "movimentos EWM realizados",
+      "produtividade do depósito"
+    ]
   }
 }

@@ -8,5 +8,30 @@
     "es": "Evaluación de proveedores (cabecera)",
     "en": "Vendor evaluation (header)",
     "pt": "Avaliação de fornecedores (cabeçalho)"
+  },
+  "purpose": {
+    "es": "Una fila por proveedor y organización de compras con la cabecera de su evaluación: nota global y fecha de la evaluación. Las notas por criterio principal están en ELBM y por subcriterio en ELBP.",
+    "en": "One row per vendor and purchasing organization with the header of its evaluation: overall score and evaluation date. Main criteria scores are in ELBM and subcriteria scores in ELBP.",
+    "pt": "Uma linha por fornecedor e organização de compras com o cabeçalho de sua avaliação: nota geral e data da avaliação. As notas por critério principal estão na ELBM e por subcritério na ELBP."
+  },
+  "synonyms": {
+    "es": [
+      "evaluación de proveedores",
+      "nota global del proveedor",
+      "calificación de proveedor",
+      "rating de proveedor"
+    ],
+    "en": [
+      "vendor evaluation",
+      "vendor overall score",
+      "supplier rating",
+      "supplier scorecard"
+    ],
+    "pt": [
+      "avaliação de fornecedores",
+      "nota geral do fornecedor",
+      "classificação de fornecedor",
+      "rating de fornecedor"
+    ]
   }
 }

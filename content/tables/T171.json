@@ -8,5 +8,30 @@
     "es": "Zonas de ventas",
     "en": "Sales districts",
     "pt": "Regiões de vendas"
+  },
+  "purpose": {
+    "es": "Lista de zonas de ventas (campo BZIRK), las regiones geográficas o comerciales en que se divide el mercado. Se asignan al cliente en KNVV y se usan en precios y en análisis de ventas por región.",
+    "en": "List of sales districts (field BZIRK), the geographic or commercial regions the market is split into. They are assigned to the customer in KNVV and used in pricing and in sales analysis by region.",
+    "pt": "Lista de regiões de vendas (campo BZIRK), as regiões geográficas ou comerciais em que o mercado é dividido. São atribuídas ao cliente na KNVV e usadas em preços e em análises de vendas por região."
+  },
+  "synonyms": {
+    "es": [
+      "zona de ventas",
+      "distrito de ventas",
+      "región de ventas",
+      "BZIRK"
+    ],
+    "en": [
+      "sales district",
+      "sales region",
+      "sales territory",
+      "BZIRK"
+    ],
+    "pt": [
+      "região de vendas",
+      "distrito de vendas",
+      "território de vendas",
+      "BZIRK"
+    ]
   }
 }

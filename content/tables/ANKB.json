@@ -8,5 +8,27 @@
     "es": "Clases de activos fijos: valores por defecto por área de valoración",
     "en": "Asset classes: defaults per depreciation area",
     "pt": "Classes de ativos fixos: valores padrão por área de avaliação"
+  },
+  "purpose": {
+    "es": "Para cada clase de activo y área de valoración, los valores que se proponen al crear un activo: clave de amortización, vida útil y otros parámetros. Lo que finalmente se aplica a cada activo queda en ANLB.",
+    "en": "For each asset class and depreciation area, the values proposed when an asset is created: depreciation key, useful life and other terms. What is finally applied to each asset is stored in ANLB.",
+    "pt": "Para cada classe de ativo e área de avaliação, os valores sugeridos ao criar um ativo: chave de depreciação, vida útil e outros parâmetros. O que é aplicado a cada ativo fica na ANLB."
+  },
+  "synonyms": {
+    "es": [
+      "vida útil por defecto",
+      "valores propuestos clase de activo",
+      "clave de amortización por clase"
+    ],
+    "en": [
+      "default useful life",
+      "asset class defaults",
+      "default depreciation key"
+    ],
+    "pt": [
+      "vida útil padrão",
+      "valores padrão da classe de ativo",
+      "chave de depreciação padrão"
+    ]
   }
 }

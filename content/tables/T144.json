@@ -8,5 +8,27 @@
     "es": "Requisitos de contenedor",
     "en": "Container requirements",
     "pt": "Requisitos de contêiner"
+  },
+  "purpose": {
+    "es": "Lista de requisitos de contenedor o envase (por ejemplo, envase hermético, bidón) que se indican en el maestro de materiales.",
+    "en": "List of container requirements (for example, airtight container, drum) entered in the material master.",
+    "pt": "Lista de requisitos de recipiente ou embalagem (por exemplo, recipiente hermético, tambor) informados no mestre de materiais."
+  },
+  "synonyms": {
+    "es": [
+      "requisito de contenedor",
+      "tipo de envase requerido",
+      "envase del material"
+    ],
+    "en": [
+      "container requirement",
+      "required container",
+      "material container"
+    ],
+    "pt": [
+      "requisito de recipiente",
+      "tipo de embalagem exigida",
+      "recipiente do material"
+    ]
   }
 }

@@ -8,5 +8,30 @@
     "es": "Clientes: historial de pagos por sociedad",
     "en": "Customers: payment history by company code",
     "pt": "Clientes: histórico de pagamentos por empresa"
+  },
+  "purpose": {
+    "es": "El historial de pagos de un cliente en una sociedad: cuántos pagos hizo, con cuántos días de retraso o adelanto y si aprovechó descuentos. Se llena al compensar partidas cuando el cliente tiene activado el registro del historial de pagos (KNB1-XZVER).",
+    "en": "A customer's payment history in a company code: how many payments were made, how many days late or early, and whether discounts were taken. It is filled when items are cleared and the customer has payment history recording active (KNB1-XZVER).",
+    "pt": "O histórico de pagamentos de um cliente em uma empresa: quantos pagamentos fez, com quantos dias de atraso ou antecedência e se aproveitou descontos. É preenchida ao compensar partidas quando o cliente tem ativado o registro do histórico de pagamentos (KNB1-XZVER)."
+  },
+  "synonyms": {
+    "es": [
+      "historial de pagos del cliente",
+      "días de retraso",
+      "comportamiento de pago",
+      "puntualidad de cobro"
+    ],
+    "en": [
+      "customer payment history",
+      "days in arrears",
+      "payment behavior",
+      "payment punctuality"
+    ],
+    "pt": [
+      "histórico de pagamentos do cliente",
+      "dias de atraso",
+      "comportamento de pagamento",
+      "pontualidade de pagamento"
+    ]
   }
 }

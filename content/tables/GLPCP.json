@@ -8,5 +8,27 @@
     "es": "Partidas de plan de centros de beneficio",
     "en": "Profit center plan line items",
     "pt": "Partidas de plano de centros de lucro"
+  },
+  "purpose": {
+    "es": "En ECC, una fila por cada partida de plan de la contabilidad de centros de beneficio (EC-PCA): importes planificados por centro de beneficio, cuenta y período. Los totales están en GLPCT; en S/4HANA el plan pasa a ACDOCP.",
+    "en": "In ECC, one row per plan line item in profit center accounting (EC-PCA): planned amounts per profit center, account and period. The totals are in GLPCT; in S/4HANA planning moves to ACDOCP.",
+    "pt": "No ECC, uma linha por partida de plano da contabilidade de centros de lucro (EC-PCA): valores planejados por centro de lucro, conta e período. Os totais estão na GLPCT; no S/4HANA o plano passa para a ACDOCP."
+  },
+  "synonyms": {
+    "es": [
+      "plan de centros de beneficio",
+      "plan EC-PCA",
+      "presupuesto por centro de beneficio"
+    ],
+    "en": [
+      "profit center plan",
+      "EC-PCA plan",
+      "profit center budget"
+    ],
+    "pt": [
+      "plano de centros de lucro",
+      "plano EC-PCA",
+      "orçamento por centro de lucro"
+    ]
   }
 }

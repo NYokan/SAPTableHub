@@ -8,5 +8,24 @@
     "es": "Planes de valoración de activos fijos: textos",
     "en": "Charts of depreciation: texts",
     "pt": "Planos de avaliação de ativos fixos: textos"
+  },
+  "purpose": {
+    "es": "Nombre de cada plan de valoración de activos fijos en cada idioma, para mostrar una descripción legible en lugar del código de T096.",
+    "en": "Name of each chart of depreciation in each language, to show a readable description instead of the code from T096.",
+    "pt": "Nome de cada plano de avaliação de ativos em cada idioma, para mostrar uma descrição legível em vez do código da T096."
+  },
+  "synonyms": {
+    "es": [
+      "texto plan de valoración",
+      "nombre plan de valoración"
+    ],
+    "en": [
+      "chart of depreciation text",
+      "chart of depreciation name"
+    ],
+    "pt": [
+      "texto do plano de avaliação",
+      "nome do plano de avaliação"
+    ]
   }
 }

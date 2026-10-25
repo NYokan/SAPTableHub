@@ -8,5 +8,30 @@
     "es": "Solicitudes de correspondencia contable",
     "en": "Accounting correspondence requests",
     "pt": "Solicitações de correspondência contábil"
+  },
+  "purpose": {
+    "es": "Una fila por cada solicitud de correspondencia contable pendiente o impresa: extractos de cuenta, avisos de pago o copias de documentos para un cliente o proveedor. El programa de impresión de correspondencia lee esta tabla.",
+    "en": "One row per accounting correspondence request, pending or printed: account statements, payment notices or document copies for a customer or vendor. The correspondence print program reads this table.",
+    "pt": "Uma linha por solicitação de correspondência contábil, pendente ou impressa: extratos de conta, avisos de pagamento ou cópias de documentos para um cliente ou fornecedor. O programa de impressão de correspondência lê esta tabela."
+  },
+  "synonyms": {
+    "es": [
+      "solicitud de correspondencia",
+      "extracto de cuenta",
+      "confirmación de saldos",
+      "copia de documento"
+    ],
+    "en": [
+      "correspondence request",
+      "account statement",
+      "balance confirmation",
+      "document copy"
+    ],
+    "pt": [
+      "solicitação de correspondência",
+      "extrato de conta",
+      "confirmação de saldo",
+      "cópia de documento"
+    ]
   }
 }

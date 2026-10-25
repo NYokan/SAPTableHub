@@ -8,5 +8,24 @@
     "es": "Tipos de proyecto (textos)",
     "en": "Project types (texts)",
     "pt": "Tipos de projeto (textos)"
+  },
+  "purpose": {
+    "es": "Descripciones por idioma de los tipos de proyecto (TCJ1). Se usa para mostrar el nombre legible en informes en lugar del código.",
+    "en": "Language-dependent descriptions of project types (TCJ1). Used to show the readable name in reports instead of the code.",
+    "pt": "Descrições por idioma de tipos de projeto (TCJ1). Usada para mostrar o nome legível em relatórios em vez do código."
+  },
+  "synonyms": {
+    "es": [
+      "texto tipo de proyecto",
+      "descripción categoría de proyecto"
+    ],
+    "en": [
+      "project type text",
+      "project category description"
+    ],
+    "pt": [
+      "texto tipo de projeto",
+      "descrição categoria de projeto"
+    ]
   }
 }

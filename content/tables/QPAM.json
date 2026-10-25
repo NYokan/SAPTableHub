@@ -7,5 +7,27 @@
     "es": "Catálogos de calidad: conjuntos seleccionados",
     "en": "Quality catalogs: selected sets",
     "pt": "Catálogos de qualidade: conjuntos selecionados"
+  },
+  "purpose": {
+    "es": "Conjuntos seleccionados de los catálogos de calidad, por centro: selecciones de códigos permitidos para un uso concreto, por ejemplo los valores posibles de la decisión de empleo o de una característica cualitativa. Los códigos que contiene están en QPAC.",
+    "en": "Selected sets of quality catalogs, per plant: selections of codes allowed for a specific use, for example the possible usage decision values or the values of a qualitative characteristic. Its codes are in QPAC.",
+    "pt": "Conjuntos selecionados dos catálogos de qualidade, por centro: seleções de códigos permitidos para um uso específico, por exemplo os valores possíveis da decisão de utilização ou de uma característica qualitativa. Os códigos que contém estão na QPAC."
+  },
+  "synonyms": {
+    "es": [
+      "conjunto seleccionado",
+      "códigos de decisión de empleo",
+      "catálogo de calidad"
+    ],
+    "en": [
+      "selected set",
+      "usage decision codes",
+      "quality catalog"
+    ],
+    "pt": [
+      "conjunto selecionado",
+      "códigos de decisão de utilização",
+      "catálogo de qualidade"
+    ]
   }
 }

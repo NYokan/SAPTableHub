@@ -9,5 +9,27 @@
     "es": "Instrucciones de embalaje (posiciones)",
     "en": "Packing instructions (items)",
     "pt": "Instruções de embalagem (itens)"
+  },
+  "purpose": {
+    "es": "Posiciones de las instrucciones de embalaje: los materiales de embalaje (palé, caja) y los productos con sus cantidades que forman cada instrucción. La cabecera está en PACKKP.",
+    "en": "Items of packing instructions: the packaging materials (pallet, box) and the products with their quantities that make up each instruction. The header is in PACKKP.",
+    "pt": "Itens das instruções de embalagem: os materiais de embalagem (palete, caixa) e os produtos com suas quantidades que formam cada instrução. O cabeçalho está na PACKKP."
+  },
+  "synonyms": {
+    "es": [
+      "contenido de instrucción de embalaje",
+      "material de embalaje",
+      "cantidad por palé"
+    ],
+    "en": [
+      "packing instruction items",
+      "packaging material",
+      "quantity per pallet"
+    ],
+    "pt": [
+      "conteúdo da instrução de embalagem",
+      "material de embalagem",
+      "quantidade por palete"
+    ]
   }
 }

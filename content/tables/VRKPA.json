@@ -8,5 +8,24 @@
     "es": "Índice de facturas por interlocutor",
     "en": "Billing index by partner",
     "pt": "Índice de faturas por parceiro"
+  },
+  "purpose": {
+    "es": "Índice de facturas por interlocutor: una fila por factura y cliente (u otra función de interlocutor) con fecha y clase de factura. Permite buscar rápido las facturas de un cliente.",
+    "en": "Index of billing documents by partner: one row per invoice and customer (or other partner function) with date and billing type. It allows a quick search of a customer's invoices.",
+    "pt": "Índice de faturas por parceiro: uma linha por fatura e cliente (ou outra função de parceiro) com data e tipo de faturamento. Permite buscar rapidamente as faturas de um cliente."
+  },
+  "synonyms": {
+    "es": [
+      "facturas por cliente",
+      "índice de facturas por cliente"
+    ],
+    "en": [
+      "invoices by customer",
+      "billing index by customer"
+    ],
+    "pt": [
+      "faturas por cliente",
+      "índice de faturas por cliente"
+    ]
   }
 }

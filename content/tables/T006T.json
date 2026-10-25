@@ -8,5 +8,27 @@
     "es": "Dimensiones de unidades de medida (textos)",
     "en": "Unit of measure dimensions (texts)",
     "pt": "Dimensões de unidades de medida (textos)"
+  },
+  "purpose": {
+    "es": "Nombre de cada dimensión de unidades de medida por idioma, por ejemplo «Longitud» o «Masa». Complementa a T006D.",
+    "en": "Name of each unit of measure dimension per language, for example 'Length' or 'Mass'. It complements T006D.",
+    "pt": "Nome de cada dimensão de unidades de medida por idioma, por exemplo 'Comprimento' ou 'Massa'. Complementa a T006D."
+  },
+  "synonyms": {
+    "es": [
+      "nombre de dimensión",
+      "texto de dimensión",
+      "descripción de magnitud"
+    ],
+    "en": [
+      "dimension name",
+      "dimension text",
+      "dimension description"
+    ],
+    "pt": [
+      "nome da dimensão",
+      "texto da dimensão",
+      "descrição da grandeza"
+    ]
   }
 }

@@ -8,5 +8,24 @@
     "es": "Clases de actividad de mantenimiento (textos)",
     "en": "Maintenance activity types (texts)",
     "pt": "Tipos de atividade de manutenção (textos)"
+  },
+  "purpose": {
+    "es": "Descripciones por idioma de las clases de actividad de mantenimiento (T353I). Se usa para mostrar el nombre legible en informes en lugar del código.",
+    "en": "Language-dependent descriptions of maintenance activity types (T353I). Used to show the readable name in reports instead of the code.",
+    "pt": "Descrições por idioma de tipos de atividade de manutenção (T353I). Usada para mostrar o nome legível em relatórios em vez do código."
+  },
+  "synonyms": {
+    "es": [
+      "texto clase de actividad",
+      "descripción tipo de trabajo PM"
+    ],
+    "en": [
+      "activity type text",
+      "PM work type description"
+    ],
+    "pt": [
+      "texto tipo de atividade",
+      "descrição tipo de trabalho PM"
+    ]
   }
 }

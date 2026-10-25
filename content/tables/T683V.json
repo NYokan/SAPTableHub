@@ -8,5 +8,27 @@
     "es": "Determinación del esquema de cálculo",
     "en": "Pricing procedure determination",
     "pt": "Determinação do esquema de cálculo"
+  },
+  "purpose": {
+    "es": "Regla que decide qué esquema de cálculo usa un documento de ventas: combina el área de ventas, el esquema del documento (de la clase de pedido) y el esquema del cliente (de KNVV). Sirve para entender por qué un pedido calcula precios de cierta manera.",
+    "en": "Rule that decides which pricing procedure a sales document uses: it combines the sales area, the document pricing procedure (from the order type) and the customer pricing procedure (from KNVV). Useful to understand why an order prices a certain way.",
+    "pt": "Regra que decide qual esquema de cálculo um documento de vendas usa: combina a área de vendas, o esquema do documento (do tipo de ordem) e o esquema do cliente (da KNVV). Serve para entender por que uma ordem calcula preços de certa forma."
+  },
+  "synonyms": {
+    "es": [
+      "determinación del esquema de cálculo",
+      "esquema de cliente",
+      "esquema de documento"
+    ],
+    "en": [
+      "pricing procedure determination",
+      "customer pricing procedure",
+      "document pricing procedure"
+    ],
+    "pt": [
+      "determinação do esquema de cálculo",
+      "esquema do cliente",
+      "esquema do documento"
+    ]
   }
 }

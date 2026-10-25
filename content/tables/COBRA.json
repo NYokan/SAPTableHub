@@ -8,5 +8,27 @@
     "es": "Reglas de liquidación (cabecera)",
     "en": "Settlement rules (header)",
     "pt": "Regras de liquidação (cabeçalho)"
+  },
+  "purpose": {
+    "es": "Una fila por cada regla de liquidación de un objeto de Controlling (orden, elemento PEP, pedido de cliente): perfil y esquema de liquidación y datos generales. Las reglas de distribución con cada receptor y porcentaje están en COBRB.",
+    "en": "One row per settlement rule of a Controlling object (order, WBS element, sales order): settlement profile, allocation structure and general data. The distribution rules with each receiver and percentage are in COBRB.",
+    "pt": "Uma linha por regra de apropriação de um objeto do Controlling (ordem, elemento PEP, pedido de cliente): perfil e estrutura de apropriação e dados gerais. As regras de distribuição com cada receptor e percentual estão na COBRB."
+  },
+  "synonyms": {
+    "es": [
+      "regla de liquidación",
+      "perfil de liquidación",
+      "liquidación de órdenes"
+    ],
+    "en": [
+      "settlement rule",
+      "settlement profile",
+      "order settlement rule"
+    ],
+    "pt": [
+      "regra de apropriação",
+      "perfil de apropriação",
+      "apropriação de ordens"
+    ]
   }
 }

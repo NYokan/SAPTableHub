@@ -9,5 +9,27 @@
     "es": "Grupos de clientes",
     "en": "Customer groups",
     "pt": "Grupos de clientes"
+  },
+  "purpose": {
+    "es": "Lista de grupos de clientes (campo KDGRP), una clasificación libre que se asigna al cliente en sus datos de ventas (KNVV) y se copia a los pedidos. Se usa en precios y para agrupar ventas en informes.",
+    "en": "List of customer groups (field KDGRP), a free classification assigned to the customer in its sales data (KNVV) and copied into orders. Used in pricing and to group sales in reports.",
+    "pt": "Lista de grupos de clientes (campo KDGRP), uma classificação livre atribuída ao cliente em seus dados de vendas (KNVV) e copiada para as ordens. Usada em preços e para agrupar vendas em relatórios."
+  },
+  "synonyms": {
+    "es": [
+      "grupo de clientes",
+      "KDGRP",
+      "segmento de clientes"
+    ],
+    "en": [
+      "customer group",
+      "KDGRP",
+      "customer segment"
+    ],
+    "pt": [
+      "grupo de clientes",
+      "KDGRP",
+      "segmento de clientes"
+    ]
   }
 }

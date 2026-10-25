@@ -9,5 +9,27 @@
     "es": "Pedidos de compra: historial agregado (registros retirados)",
     "en": "Purchase orders: aggregated history (removed records)",
     "pt": "Pedidos de compra: histórico agregado (registros removidos)"
+  },
+  "purpose": {
+    "es": "Registros del historial de pedidos de compra (EKBE) que se retiraron al agregar el historial, por ejemplo con la transacción ME87. Conserva el detalle original cuando en EKBE solo queda el registro resumido.",
+    "en": "Purchase order history records (EKBE) that were removed when the history was aggregated, for example with transaction ME87. It keeps the original detail when EKBE only holds the summarized record.",
+    "pt": "Registros do histórico de pedidos de compra (EKBE) que foram retirados ao agregar o histórico, por exemplo com a transação ME87. Conserva o detalhe original quando na EKBE só fica o registro resumido."
+  },
+  "synonyms": {
+    "es": [
+      "historial agregado",
+      "registros retirados de EKBE",
+      "historial de pedido resumido"
+    ],
+    "en": [
+      "aggregated PO history",
+      "removed EKBE records",
+      "summarized order history"
+    ],
+    "pt": [
+      "histórico agregado",
+      "registros retirados da EKBE",
+      "histórico do pedido resumido"
+    ]
   }
 }

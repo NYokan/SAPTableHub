@@ -8,5 +8,27 @@
     "es": "Clientes: datos de retención de impuestos",
     "en": "Customers: withholding tax data",
     "pt": "Clientes: dados de imposto retido na fonte"
+  },
+  "purpose": {
+    "es": "Para cada cliente, sociedad y tipo de retención, los datos de retención de impuestos (retención ampliada): indicador de retención, si está sujeto, número de identificación y exenciones. Sirve para calcular las retenciones que el cliente practica.",
+    "en": "For each customer, company code and withholding tax type, the (extended) withholding tax data: withholding tax code, whether it is liable, identification number and exemptions. It is used to calculate the withholding the customer applies.",
+    "pt": "Para cada cliente, empresa e tipo de retenção, os dados de impostos retidos na fonte (retenção ampliada): código de retenção, se está sujeito, número de identificação e isenções. Serve para calcular as retenções que o cliente aplica."
+  },
+  "synonyms": {
+    "es": [
+      "retención de clientes",
+      "retención en la fuente",
+      "impuesto retenido cliente"
+    ],
+    "en": [
+      "customer withholding tax",
+      "withholding tax data",
+      "tax withheld by customer"
+    ],
+    "pt": [
+      "retenção de clientes",
+      "imposto retido na fonte",
+      "retenção do cliente"
+    ]
   }
 }

@@ -8,5 +8,27 @@
     "es": "Puestos de trabajo: asignación de capacidades",
     "en": "Work centers: capacity assignment",
     "pt": "Centros de trabalho: atribuição de capacidades"
+  },
+  "purpose": {
+    "es": "Una fila por cada capacidad asignada a un puesto de trabajo (por ejemplo, máquina o mano de obra), con la fórmula que calcula cuánta capacidad consume cada operación. Une los puestos de trabajo (CRHD) con las capacidades (KAKO).",
+    "en": "One row per capacity assigned to a work center (for example, machine or labor), with the formula that calculates how much capacity each operation needs. It links work centers (CRHD) with capacities (KAKO).",
+    "pt": "Uma linha por capacidade atribuída a um centro de trabalho (por exemplo, máquina ou mão de obra), com a fórmula que calcula quanta capacidade cada operação consome. Liga os centros de trabalho (CRHD) às capacidades (KAKO)."
+  },
+  "synonyms": {
+    "es": [
+      "capacidad del puesto de trabajo",
+      "asignación de capacidad",
+      "fórmula de capacidad"
+    ],
+    "en": [
+      "work center capacity",
+      "capacity assignment",
+      "capacity formula"
+    ],
+    "pt": [
+      "capacidade do centro de trabalho",
+      "atribuição de capacidade",
+      "fórmula de capacidade"
+    ]
   }
 }

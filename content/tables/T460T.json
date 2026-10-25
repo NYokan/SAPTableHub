@@ -8,5 +8,24 @@
     "es": "Claves de aprovisionamiento especial (descripciones)",
     "en": "Special procurement keys (descriptions)",
     "pt": "Chaves de suprimento especial (descrições)"
+  },
+  "purpose": {
+    "es": "Descripción de cada clave de aprovisionamiento especial, por idioma y centro. Se une con T460A o MARC por el campo SOBSL para mostrar su nombre.",
+    "en": "Description of each special procurement key, per language and plant. It is joined to T460A or MARC by the SOBSL field to show its name.",
+    "pt": "Descrição de cada chave de suprimento especial, por idioma e centro. É unida à T460A ou à MARC pelo campo SOBSL para mostrar seu nome."
+  },
+  "synonyms": {
+    "es": [
+      "nombre de aprovisionamiento especial",
+      "descripción de SOBSL"
+    ],
+    "en": [
+      "special procurement name",
+      "SOBSL description"
+    ],
+    "pt": [
+      "nome do suprimento especial",
+      "descrição da SOBSL"
+    ]
   }
 }

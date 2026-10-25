@@ -9,5 +9,30 @@
     "es": "Cuentas de mayor especial",
     "en": "Special G/L accounts",
     "pt": "Contas do razão especial"
+  },
+  "purpose": {
+    "es": "Para cada plan de cuentas, tipo de cuenta (cliente o proveedor), indicador de mayor especial y cuenta asociada normal, la cuenta asociada especial a la que se contabilizan anticipos, letras de cambio o garantías.",
+    "en": "For each chart of accounts, account type (customer or vendor), special G/L indicator and normal reconciliation account, the special reconciliation account to which down payments, bills of exchange or guarantees are posted.",
+    "pt": "Para cada plano de contas, tipo de conta (cliente ou fornecedor), código de razão especial e conta de reconciliação normal, a conta de reconciliação especial onde se lançam adiantamentos, letras de câmbio ou garantias."
+  },
+  "synonyms": {
+    "es": [
+      "cuenta de anticipos",
+      "cuenta de mayor especial",
+      "cuenta asociada especial",
+      "UMSKZ"
+    ],
+    "en": [
+      "down payment account",
+      "special G/L account",
+      "special reconciliation account",
+      "UMSKZ"
+    ],
+    "pt": [
+      "conta de adiantamentos",
+      "conta de razão especial",
+      "conta de reconciliação especial",
+      "UMSKZ"
+    ]
   }
 }

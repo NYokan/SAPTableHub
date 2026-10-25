@@ -9,5 +9,30 @@
     "es": "Proveedores: funciones de interlocutor",
     "en": "Vendors: partner functions",
     "pt": "Fornecedores: funções de parceiro"
+  },
+  "purpose": {
+    "es": "Una fila por proveedor, organización de compras (y opcionalmente gama o centro) y función de interlocutor: indica qué otro proveedor actúa como dirección de pedido, emisor de factura o proveedor de mercancías.",
+    "en": "One row per vendor, purchasing organization (and optionally sub-range or plant) and partner function: it states which other vendor acts as ordering address, invoicing party or goods supplier.",
+    "pt": "Uma linha por fornecedor, organização de compras (e opcionalmente sub-faixa ou centro) e função de parceiro: indica qual outro fornecedor atua como endereço do pedido, emissor da fatura ou fornecedor de mercadorias."
+  },
+  "synonyms": {
+    "es": [
+      "funciones de interlocutor de proveedor",
+      "emisor de factura",
+      "dirección de pedido",
+      "proveedor de mercancías"
+    ],
+    "en": [
+      "vendor partner functions",
+      "invoicing party",
+      "ordering address",
+      "goods supplier"
+    ],
+    "pt": [
+      "funções de parceiro do fornecedor",
+      "emissor da fatura",
+      "endereço do pedido",
+      "fornecedor de mercadorias"
+    ]
   }
 }

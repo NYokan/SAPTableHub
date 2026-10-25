@@ -8,5 +8,27 @@
     "es": "Calendarios de fábrica",
     "en": "Factory calendars",
     "pt": "Calendários de fábrica"
+  },
+  "purpose": {
+    "es": "Una fila por cada calendario de fábrica: calendario de festivos que usa, qué días de la semana son laborables y años de validez. Se asigna a centros y se usa para calcular fechas de entrega y plazos en días laborables.",
+    "en": "One row per factory calendar: holiday calendar used, which weekdays are working days and validity years. It is assigned to plants and used to calculate delivery dates and lead times in working days.",
+    "pt": "Uma linha por calendário de fábrica: calendário de feriados usado, quais dias da semana são úteis e anos de validade. É atribuído a centros e usado para calcular datas de entrega e prazos em dias úteis."
+  },
+  "synonyms": {
+    "es": [
+      "calendario de fábrica",
+      "días laborables",
+      "calendario de trabajo"
+    ],
+    "en": [
+      "factory calendar",
+      "working days",
+      "work calendar"
+    ],
+    "pt": [
+      "calendário de fábrica",
+      "dias úteis",
+      "calendário de trabalho"
+    ]
   }
 }

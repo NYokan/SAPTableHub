@@ -8,5 +8,27 @@
     "es": "Materiales: parámetros de pronóstico",
     "en": "Materials: forecast parameters",
     "pt": "Materiais: parâmetros de previsão"
+  },
+  "purpose": {
+    "es": "Parámetros del pronóstico de un material en un centro: modelo de pronóstico, número de periodos históricos y a pronosticar, factores de suavizado. Se enlaza con el material mediante MAPR.",
+    "en": "Forecast parameters for a material in a plant: forecast model, number of historical and forecast periods, smoothing factors. It is linked to the material through MAPR.",
+    "pt": "Parâmetros da previsão de um material em um centro: modelo de previsão, número de períodos históricos e a prever, fatores de suavização. Liga-se ao material pela MAPR."
+  },
+  "synonyms": {
+    "es": [
+      "parámetros de pronóstico",
+      "modelo de previsión",
+      "perfil de pronóstico"
+    ],
+    "en": [
+      "forecast parameters",
+      "forecast model",
+      "forecast settings"
+    ],
+    "pt": [
+      "parâmetros de previsão",
+      "modelo de previsão",
+      "configuração da previsão"
+    ]
   }
 }

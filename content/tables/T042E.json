@@ -8,5 +8,27 @@
     "es": "Vías de pago por sociedad",
     "en": "Payment methods per company code",
     "pt": "Formas de pagamento por empresa"
+  },
+  "purpose": {
+    "es": "Para cada sociedad y vía de pago, las condiciones de uso: importes mínimo y máximo, si se permiten pagos al extranjero o en moneda extranjera y el formulario o soporte de pago.",
+    "en": "For each company code and payment method, the usage conditions: minimum and maximum amounts, whether foreign or foreign-currency payments are allowed, and the payment form or medium.",
+    "pt": "Para cada empresa e forma de pagamento, as condições de uso: montantes mínimo e máximo, se pagamentos ao exterior ou em moeda estrangeira são permitidos e o formulário ou meio de pagamento."
+  },
+  "synonyms": {
+    "es": [
+      "vía de pago por sociedad",
+      "importe mínimo de pago",
+      "importe máximo de pago"
+    ],
+    "en": [
+      "payment method per company code",
+      "minimum payment amount",
+      "maximum payment amount"
+    ],
+    "pt": [
+      "forma de pagamento por empresa",
+      "montante mínimo de pagamento",
+      "montante máximo de pagamento"
+    ]
   }
 }

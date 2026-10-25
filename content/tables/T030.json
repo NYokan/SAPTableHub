@@ -8,5 +8,33 @@
     "es": "Determinación automática de cuentas",
     "en": "Automatic account determination",
     "pt": "Determinação automática de contas"
+  },
+  "purpose": {
+    "es": "La tabla de determinación automática de cuentas: para cada plan de cuentas, operación (clave como BSX, WRX, GBB o PRD), agrupación y modificación, la cuenta de mayor a la que se contabiliza. Explica, por ejemplo, a qué cuenta va una entrada de mercancías.",
+    "en": "The automatic account determination table: for each chart of accounts, transaction (key such as BSX, WRX, GBB or PRD), grouping and modification, the G/L account that is posted to. It explains, for example, which account a goods receipt posts to.",
+    "pt": "A tabela de determinação automática de contas: para cada plano de contas, operação (chave como BSX, WRX, GBB ou PRD), agrupamento e modificação, a conta do razão onde se lança. Explica, por exemplo, para qual conta vai uma entrada de mercadorias."
+  },
+  "synonyms": {
+    "es": [
+      "determinación de cuentas",
+      "cuentas automáticas",
+      "OBYC",
+      "BSX",
+      "KTOSL"
+    ],
+    "en": [
+      "account determination",
+      "automatic postings",
+      "OBYC",
+      "BSX",
+      "KTOSL"
+    ],
+    "pt": [
+      "determinação de contas",
+      "lançamentos automáticos",
+      "OBYC",
+      "BSX",
+      "KTOSL"
+    ]
   }
 }

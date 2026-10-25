@@ -8,5 +8,24 @@
     "es": "Métodos de inspección (descripciones)",
     "en": "Inspection methods (descriptions)",
     "pt": "Métodos de inspeção (descrições)"
+  },
+  "purpose": {
+    "es": "Descripciones por idioma de los métodos de inspección (QMTB). Se usa para mostrar el nombre legible en informes en lugar del código.",
+    "en": "Language-dependent descriptions of inspection methods (QMTB). Used to show the readable name in reports instead of the code.",
+    "pt": "Descrições por idioma de métodos de inspeção (QMTB). Usada para mostrar o nome legível em relatórios em vez do código."
+  },
+  "synonyms": {
+    "es": [
+      "descripción método de inspección",
+      "nombre del método de ensayo"
+    ],
+    "en": [
+      "inspection method description",
+      "test method name"
+    ],
+    "pt": [
+      "descrição método de inspeção",
+      "nome do método de ensaio"
+    ]
   }
 }

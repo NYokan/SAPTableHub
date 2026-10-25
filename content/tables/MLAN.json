@@ -9,5 +9,30 @@
     "es": "Materiales: clasificación fiscal",
     "en": "Materials: tax classification",
     "pt": "Materiais: classificação fiscal"
+  },
+  "purpose": {
+    "es": "Clasificación fiscal del material por país: indica qué indicador de impuesto aplica (por ejemplo, IVA completo o reducido) en ventas y en compras. Se usa al determinar impuestos en pedidos y facturas.",
+    "en": "Tax classification of the material per country: it shows which tax indicator applies (for example, full or reduced VAT) in sales and purchasing. It is used when determining taxes in orders and invoices.",
+    "pt": "Classificação fiscal do material por país: indica qual indicador de imposto se aplica (por exemplo, alíquota cheia ou reduzida) em vendas e compras. É usada na determinação de impostos em pedidos e faturas."
+  },
+  "synonyms": {
+    "es": [
+      "clasificación fiscal del material",
+      "impuesto del material",
+      "indicador de impuesto",
+      "IVA del material"
+    ],
+    "en": [
+      "material tax classification",
+      "material tax indicator",
+      "tax category",
+      "material VAT"
+    ],
+    "pt": [
+      "classificação fiscal do material",
+      "imposto do material",
+      "indicador de imposto",
+      "tributação do material"
+    ]
   }
 }

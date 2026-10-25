@@ -8,5 +8,30 @@
     "es": "Áreas de valoración de activos fijos",
     "en": "Asset depreciation areas",
     "pt": "Áreas de avaliação de ativos fixos"
+  },
+  "purpose": {
+    "es": "Las áreas de valoración de cada plan de valoración: cada área lleva un valor distinto del mismo activo (contable local, fiscal, IFRS, consolidación) y define si contabiliza en el mayor. Explica qué significa AFABE en las tablas de activos.",
+    "en": "The depreciation areas of each chart of depreciation: each area keeps a different value of the same asset (local books, tax, IFRS, consolidation) and defines whether it posts to the G/L. It explains what AFABE means in the asset tables.",
+    "pt": "As áreas de avaliação de cada plano de avaliação: cada área mantém um valor diferente do mesmo ativo (contábil local, fiscal, IFRS, consolidação) e define se lança no razão. Explica o que significa AFABE nas tabelas de ativos."
+  },
+  "synonyms": {
+    "es": [
+      "área de valoración",
+      "amortización fiscal",
+      "amortización contable",
+      "AFABE"
+    ],
+    "en": [
+      "depreciation area",
+      "tax depreciation",
+      "book depreciation",
+      "AFABE"
+    ],
+    "pt": [
+      "área de avaliação",
+      "depreciação fiscal",
+      "depreciação contábil",
+      "AFABE"
+    ]
   }
 }

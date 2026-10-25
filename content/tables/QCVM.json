@@ -7,5 +7,24 @@
     "es": "Perfiles de certificado: características",
     "en": "Certificate profiles: characteristics",
     "pt": "Perfis de certificado: características"
+  },
+  "purpose": {
+    "es": "Características de inspección que se incluyen en cada perfil de certificado de calidad, con su orden y forma de presentar el resultado. La cabecera del perfil está en QCVK.",
+    "en": "Inspection characteristics included in each quality certificate profile, with their order and how the result is presented. The profile header is in QCVK.",
+    "pt": "Características de inspeção incluídas em cada perfil de certificado de qualidade, com sua ordem e forma de apresentar o resultado. O cabeçalho do perfil está na QCVK."
+  },
+  "synonyms": {
+    "es": [
+      "características del certificado",
+      "contenido del certificado de análisis"
+    ],
+    "en": [
+      "certificate characteristics",
+      "certificate of analysis content"
+    ],
+    "pt": [
+      "características do certificado",
+      "conteúdo do certificado de análise"
+    ]
   }
 }

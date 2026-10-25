@@ -8,5 +8,27 @@
     "es": "Reconocimiento de ingresos: líneas de control",
     "en": "Revenue recognition: control lines",
     "pt": "Reconhecimento de receita: linhas de controle"
+  },
+  "purpose": {
+    "es": "Líneas de control del reconocimiento de ingresos de ventas: una fila por posición de documento con la clase de reconocimiento, el periodo de diferimiento y las cuentas de ingreso diferido. Las líneas por periodo están en VBREVE.",
+    "en": "Control lines of sales revenue recognition: one row per document item with the recognition category, accrual period and deferred revenue accounts. The per-period lines are in VBREVE.",
+    "pt": "Linhas de controle do reconhecimento de receitas de vendas: uma linha por item de documento com a categoria de reconhecimento, o período de diferimento e as contas de receita diferida. As linhas por período ficam na VBREVE."
+  },
+  "synonyms": {
+    "es": [
+      "control reconocimiento de ingresos",
+      "periodo de diferimiento",
+      "ingreso diferido"
+    ],
+    "en": [
+      "revenue recognition control",
+      "accrual period",
+      "deferred revenue control"
+    ],
+    "pt": [
+      "controle reconhecimento de receitas",
+      "período de diferimento",
+      "receita diferida"
+    ]
   }
 }

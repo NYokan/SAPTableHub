@@ -9,5 +9,27 @@
     "es": "Contabilidad de contratos: posiciones de mayor",
     "en": "Contract accounting: G/L items",
     "pt": "Contabilidade de contratos: itens do razão"
+  },
+  "purpose": {
+    "es": "Las posiciones de mayor de un documento de contabilidad de contratos (FI-CA): las contrapartidas en cuentas de mayor (ingresos, impuestos, etc.) de las partidas de interlocutor de DFKKOP, con cuenta, importe y objetos de imputación.",
+    "en": "The G/L items of a contract accounting (FI-CA) document: the offsetting postings to G/L accounts (revenue, taxes, etc.) of the business partner items in DFKKOP, with account, amount and account assignments.",
+    "pt": "Os itens do razão de um documento de contabilidade de contratos (FI-CA): as contrapartidas em contas do razão (receitas, impostos etc.) dos itens de parceiro da DFKKOP, com conta, montante e objetos de imputação."
+  },
+  "synonyms": {
+    "es": [
+      "posiciones de mayor FI-CA",
+      "contrapartidas FI-CA",
+      "ingresos FI-CA"
+    ],
+    "en": [
+      "FI-CA G/L items",
+      "FI-CA offsetting items",
+      "FI-CA revenue lines"
+    ],
+    "pt": [
+      "itens do razão FI-CA",
+      "contrapartidas FI-CA",
+      "receitas FI-CA"
+    ]
   }
 }

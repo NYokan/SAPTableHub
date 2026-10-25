@@ -9,5 +9,27 @@
     "es": "Tipos de posición de ventas: textos",
     "en": "Sales item categories: texts",
     "pt": "Categorias de item de vendas: textos"
+  },
+  "purpose": {
+    "es": "Descripción de cada tipo de posición de ventas en cada idioma: una fila por código e idioma. Sirve para mostrar un nombre legible en lugar del código PSTYV en informes; los códigos se definen en TVAP.",
+    "en": "Description of each sales item category in each language: one row per code and language. Use it to show a readable name instead of the PSTYV code in reports; the codes themselves are defined in TVAP.",
+    "pt": "Descrição de cada categoria de item de vendas em cada idioma: uma linha por código e idioma. Serve para mostrar um nome legível em vez do código PSTYV em relatórios; os códigos são definidos na TVAP."
+  },
+  "synonyms": {
+    "es": [
+      "texto tipo de posición",
+      "nombre tipo de posición de ventas",
+      "PSTYV"
+    ],
+    "en": [
+      "item category text",
+      "sales item category name",
+      "PSTYV"
+    ],
+    "pt": [
+      "texto categoria de item",
+      "nome categoria de item de vendas",
+      "PSTYV"
+    ]
   }
 }

@@ -8,5 +8,30 @@
     "es": "Números internos de objetos clasificados",
     "en": "Internal numbers of classified objects",
     "pt": "Números internos de objetos classificados"
+  },
+  "purpose": {
+    "es": "Una fila por cada objeto clasificado que recibe un número interno de objeto: relaciona ese número con la tabla y la clave reales del objeto (por ejemplo un lote) y la clase de clasificación. Hace falta para unir KSSK o AUSP con objetos cuya clave no se guarda directamente.",
+    "en": "One row per classified object that gets an internal object number: it maps that number to the object's real table and key (for example a batch) and class type. It is needed to join KSSK or AUSP to objects whose key is not stored directly.",
+    "pt": "Uma linha por objeto classificado que recebe um número interno de objeto: relaciona esse número com a tabela e a chave reais do objeto (por exemplo um lote) e o tipo de classe. É necessária para unir KSSK ou AUSP a objetos cuja chave não é gravada diretamente."
+  },
+  "synonyms": {
+    "es": [
+      "número interno de objeto",
+      "clasificación de lotes",
+      "objeto clasificado",
+      "CUOBJ"
+    ],
+    "en": [
+      "internal object number",
+      "batch classification",
+      "classified object",
+      "CUOBJ"
+    ],
+    "pt": [
+      "número interno de objeto",
+      "classificação de lotes",
+      "objeto classificado",
+      "CUOBJ"
+    ]
   }
 }

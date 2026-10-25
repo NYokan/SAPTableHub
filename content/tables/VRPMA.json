@@ -8,5 +8,24 @@
     "es": "Índice de facturas por material",
     "en": "Billing index by material",
     "pt": "Índice de faturas por material"
+  },
+  "purpose": {
+    "es": "Índice de facturas por material: una fila por posición de factura y material, con fecha y cliente. Permite buscar rápido en qué facturas aparece un material sin recorrer VBRP.",
+    "en": "Index of billing documents by material: one row per invoice item and material, with date and customer. It allows a quick search of which invoices contain a material without scanning VBRP.",
+    "pt": "Índice de faturas por material: uma linha por item de fatura e material, com data e cliente. Permite buscar rapidamente em quais faturas aparece um material sem percorrer a VBRP."
+  },
+  "synonyms": {
+    "es": [
+      "facturas por material",
+      "índice de facturas por material"
+    ],
+    "en": [
+      "invoices by material",
+      "billing index by material"
+    ],
+    "pt": [
+      "faturas por material",
+      "índice de faturas por material"
+    ]
   }
 }

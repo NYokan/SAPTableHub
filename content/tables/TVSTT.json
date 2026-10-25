@@ -9,5 +9,27 @@
     "es": "Puestos de expedición: textos",
     "en": "Shipping points: texts",
     "pt": "Locais de expedição: textos"
+  },
+  "purpose": {
+    "es": "Descripción de cada puesto de expedición en cada idioma: una fila por código e idioma. Sirve para mostrar un nombre legible en lugar del código VSTEL en informes; los códigos se definen en TVST.",
+    "en": "Description of each shipping point in each language: one row per code and language. Use it to show a readable name instead of the VSTEL code in reports; the codes themselves are defined in TVST.",
+    "pt": "Descrição de cada local de expedição em cada idioma: uma linha por código e idioma. Serve para mostrar um nome legível em vez do código VSTEL em relatórios; os códigos são definidos na TVST."
+  },
+  "synonyms": {
+    "es": [
+      "texto puesto de expedición",
+      "nombre puesto de expedición",
+      "VSTEL"
+    ],
+    "en": [
+      "shipping point text",
+      "shipping point name",
+      "VSTEL"
+    ],
+    "pt": [
+      "texto local de expedição",
+      "nome local de expedição",
+      "VSTEL"
+    ]
   }
 }

@@ -8,5 +8,24 @@
     "es": "Categorías de valoración (textos)",
     "en": "Valuation classes (texts)",
     "pt": "Classes de avaliação (textos)"
+  },
+  "purpose": {
+    "es": "Descripciones por idioma de las categorías de valoración (T025), que agrupan materiales para determinar sus cuentas contables de stock. Se usa para mostrar el nombre legible en informes en lugar del código.",
+    "en": "Language-dependent descriptions of the valuation classes (T025), which group materials to determine their stock G/L accounts. Used to show the readable name in reports instead of the code.",
+    "pt": "Descrições por idioma de as classes de avaliação (T025), que agrupam materiais para determinar suas contas contábeis de estoque. Usada para mostrar o nome legível em relatórios em vez do código."
+  },
+  "synonyms": {
+    "es": [
+      "nombre categoría de valoración",
+      "texto de categoría de valoración"
+    ],
+    "en": [
+      "valuation class name",
+      "valuation class text"
+    ],
+    "pt": [
+      "nome da classe de avaliação",
+      "texto da classe de avaliação"
+    ]
   }
 }

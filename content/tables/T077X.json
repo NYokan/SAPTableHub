@@ -8,5 +8,24 @@
     "es": "Clientes: textos de grupos de cuentas",
     "en": "Customers: account group texts",
     "pt": "Clientes: textos de grupos de contas"
+  },
+  "purpose": {
+    "es": "Nombre de cada grupo de cuentas de clientes en cada idioma, para mostrar una descripción legible en lugar del código de T077D.",
+    "en": "Name of each customer account group in each language, to show a readable description instead of the code from T077D.",
+    "pt": "Nome de cada grupo de contas de clientes em cada idioma, para mostrar uma descrição legível em vez do código da T077D."
+  },
+  "synonyms": {
+    "es": [
+      "texto grupo de cuentas de clientes",
+      "descripción tipo de cliente"
+    ],
+    "en": [
+      "customer account group text",
+      "customer type description"
+    ],
+    "pt": [
+      "texto do grupo de contas de clientes",
+      "descrição do tipo de cliente"
+    ]
   }
 }

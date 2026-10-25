@@ -8,5 +8,30 @@
     "es": "Registros de condición: precio por material",
     "en": "Condition records: price per material",
     "pt": "Registros de condição: preço por material"
+  },
+  "purpose": {
+    "es": "Precios fijados por material: una fila por organización de ventas, canal de distribución y material, con su periodo de validez. El importe y las escalas están en KONP, enlazados por el número de registro de condición (KNUMH).",
+    "en": "Prices set per material: one row per sales organization, distribution channel and material, with its validity period. The amount and scales are in KONP, linked by the condition record number (KNUMH).",
+    "pt": "Preços definidos por material: uma linha por organização de vendas, canal de distribuição e material, com seu período de validade. O valor e as escalas ficam na KONP, ligados pelo número do registro de condição (KNUMH)."
+  },
+  "synonyms": {
+    "es": [
+      "precio de material",
+      "precio de lista",
+      "registro de condición material",
+      "tabla de condiciones 004"
+    ],
+    "en": [
+      "material price",
+      "list price",
+      "material condition record",
+      "condition table 004"
+    ],
+    "pt": [
+      "preço de material",
+      "preço de lista",
+      "registro de condição material",
+      "tabela de condições 004"
+    ]
   }
 }

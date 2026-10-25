@@ -8,5 +8,27 @@
     "es": "Ledger de conciliación (totales)",
     "en": "Reconciliation ledger (totals)",
     "pt": "Ledger de reconciliação (totais)"
+  },
+  "purpose": {
+    "es": "En ECC, los totales del ledger de conciliación entre Controlling y Finanzas, por período y por sociedad, división, área funcional y clase de coste. Sirve para conciliar CO con FI; sus partidas están en COFIS.",
+    "en": "In ECC, the reconciliation ledger totals between Controlling and Financial Accounting, per period and by company code, business area, functional area and cost element. It is used to reconcile CO with FI; its line items are in COFIS.",
+    "pt": "No ECC, os totais do ledger de reconciliação entre Controlling e contabilidade financeira, por período e por empresa, divisão, área funcional e classe de custo. Serve para reconciliar CO com FI; suas partidas estão na COFIS."
+  },
+  "synonyms": {
+    "es": [
+      "totales de conciliación",
+      "ledger de conciliación",
+      "conciliación CO-FI"
+    ],
+    "en": [
+      "reconciliation totals",
+      "reconciliation ledger",
+      "CO-FI reconciliation"
+    ],
+    "pt": [
+      "totais de reconciliação",
+      "ledger de reconciliação",
+      "reconciliação CO-FI"
+    ]
   }
 }

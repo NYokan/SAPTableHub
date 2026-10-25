@@ -8,5 +8,24 @@
     "es": "Activos fijos: grupos de clasificación (textos)",
     "en": "Fixed assets: evaluation groups (texts)",
     "pt": "Ativos imobilizados: grupos de avaliação (textos)"
+  },
+  "purpose": {
+    "es": "Nombre de cada grupo de clasificación de activos fijos en cada idioma, para mostrar una descripción legible en lugar del código de T087.",
+    "en": "Name of each fixed asset evaluation group in each language, to show a readable description instead of the code from T087.",
+    "pt": "Nome de cada grupo de avaliação de ativos imobilizados em cada idioma, para mostrar uma descrição legível em vez do código da T087."
+  },
+  "synonyms": {
+    "es": [
+      "texto grupo de clasificación",
+      "descripción grupo de activos"
+    ],
+    "en": [
+      "evaluation group text",
+      "evaluation group description"
+    ],
+    "pt": [
+      "texto do grupo de avaliação",
+      "descrição do grupo de ativos"
+    ]
   }
 }

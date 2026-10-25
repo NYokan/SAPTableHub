@@ -8,5 +8,27 @@
     "es": "Unidades de medida (formato comercial por idioma)",
     "en": "Units of measure (commercial format by language)",
     "pt": "Unidades de medida (formato comercial por idioma)"
+  },
+  "purpose": {
+    "es": "Tabla auxiliar que, por idioma, relaciona la abreviatura comercial que escribe el usuario con la unidad de medida interna. La usa la conversión de entrada de unidades; los textos para mostrar están en T006A.",
+    "en": "Helper table that, per language, maps the commercial abbreviation a user types to the internal unit of measure. It is used by the unit input conversion; display texts are in T006A.",
+    "pt": "Tabela auxiliar que, por idioma, relaciona a abreviatura comercial digitada pelo usuário com a unidade de medida interna. É usada pela conversão de entrada de unidades; os textos de exibição estão na T006A."
+  },
+  "synonyms": {
+    "es": [
+      "formato comercial de unidad",
+      "conversión de unidad de entrada",
+      "abreviatura comercial"
+    ],
+    "en": [
+      "commercial unit format",
+      "unit input conversion",
+      "commercial abbreviation"
+    ],
+    "pt": [
+      "formato comercial da unidade",
+      "conversão de entrada da unidade",
+      "abreviatura comercial"
+    ]
   }
 }

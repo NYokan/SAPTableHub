@@ -8,5 +8,30 @@
     "es": "Variantes de cálculo de costes",
     "en": "Costing variants",
     "pt": "Variantes de cálculo de custos"
+  },
+  "purpose": {
+    "es": "Configuración de las variantes de cálculo de costes (por ejemplo, PPC1 para el costo estándar): definen el tipo de cálculo, la variante de valoración, las fechas y si el resultado puede actualizar el precio del material. Una fila por variante.",
+    "en": "Configuration of costing variants (for example, PPC1 for standard cost): they define the costing type, valuation variant, dates and whether the result can update the material price. One row per variant.",
+    "pt": "Configuração das variantes de cálculo de custos (por exemplo, PPC1 para o custo padrão): definem o tipo de cálculo, a variante de avaliação, as datas e se o resultado pode atualizar o preço do material. Uma linha por variante."
+  },
+  "synonyms": {
+    "es": [
+      "variante de cálculo de costes",
+      "PPC1",
+      "costo estándar",
+      "KLVAR"
+    ],
+    "en": [
+      "costing variant",
+      "PPC1",
+      "standard cost estimate",
+      "KLVAR"
+    ],
+    "pt": [
+      "variante de cálculo de custos",
+      "PPC1",
+      "custo padrão",
+      "KLVAR"
+    ]
   }
 }

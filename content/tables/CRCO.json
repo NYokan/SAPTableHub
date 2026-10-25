@@ -8,5 +8,27 @@
     "es": "Puestos de trabajo: asignación a centros de coste",
     "en": "Work centers: cost center assignment",
     "pt": "Centros de trabalho: atribuição a centros de custo"
+  },
+  "purpose": {
+    "es": "Una fila por cada asignación de un puesto de trabajo a un centro de coste y período de validez, con los tipos de actividad y fórmulas que se usan para calcular los costes de fabricación de cada operación.",
+    "en": "One row per assignment of a work center to a cost center and validity period, with the activity types and formulas used to calculate the production costs of each operation.",
+    "pt": "Uma linha por atribuição de um centro de trabalho a um centro de custo e período de validade, com os tipos de atividade e fórmulas usados para calcular os custos de produção de cada operação."
+  },
+  "synonyms": {
+    "es": [
+      "puesto de trabajo y centro de coste",
+      "costeo de puesto de trabajo",
+      "tipos de actividad del puesto"
+    ],
+    "en": [
+      "work center cost center",
+      "work center costing",
+      "work center activity types"
+    ],
+    "pt": [
+      "centro de trabalho e centro de custo",
+      "custeio do centro de trabalho",
+      "tipos de atividade do centro"
+    ]
   }
 }

@@ -8,5 +8,27 @@
     "es": "Capacidad disponible: turnos",
     "en": "Available capacity: shifts",
     "pt": "Capacidade disponível: turnos"
+  },
+  "purpose": {
+    "es": "Una fila por cada turno de una versión de capacidad disponible: inicio y fin del turno, pausas, número de capacidades individuales y porcentaje de utilización. Con KAZY permite calcular cuántas horas tiene disponible una capacidad.",
+    "en": "One row per shift of an available capacity version: shift start and end, breaks, number of individual capacities and utilization rate. Together with KAZY it shows how many hours a capacity has available.",
+    "pt": "Uma linha por turno de uma versão de capacidade disponível: início e fim do turno, pausas, número de capacidades individuais e taxa de utilização. Com a KAZY permite calcular quantas horas uma capacidade tem disponíveis."
+  },
+  "synonyms": {
+    "es": [
+      "turnos de capacidad",
+      "capacidad disponible",
+      "horas disponibles"
+    ],
+    "en": [
+      "capacity shifts",
+      "available capacity",
+      "available hours"
+    ],
+    "pt": [
+      "turnos de capacidade",
+      "capacidade disponível",
+      "horas disponíveis"
+    ]
   }
 }

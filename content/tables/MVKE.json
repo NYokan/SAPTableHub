@@ -8,5 +8,30 @@
     "es": "Materiales: datos de ventas",
     "en": "Materials: sales data",
     "pt": "Materiais: dados de vendas"
+  },
+  "purpose": {
+    "es": "Datos del material para cada organización de ventas y canal de distribución: unidad de venta, cantidad mínima de pedido, centro de suministro, grupo de imputación y jerarquía de productos. Define cómo se vende el material en cada canal.",
+    "en": "Material data for each sales organization and distribution channel: sales unit, minimum order quantity, delivering plant, account assignment group and product hierarchy. It defines how the material is sold in each channel.",
+    "pt": "Dados do material para cada organização de vendas e canal de distribuição: unidade de venda, quantidade mínima do pedido, centro fornecedor, grupo de classificação contábil e hierarquia de produtos. Define como o material é vendido em cada canal."
+  },
+  "synonyms": {
+    "es": [
+      "datos de ventas del material",
+      "material por organización de ventas",
+      "unidad de venta",
+      "centro suministrador"
+    ],
+    "en": [
+      "material sales data",
+      "material per sales organization",
+      "sales unit",
+      "delivering plant"
+    ],
+    "pt": [
+      "dados de vendas do material",
+      "material por organização de vendas",
+      "unidade de venda",
+      "centro fornecedor"
+    ]
   }
 }

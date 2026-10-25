@@ -9,5 +9,24 @@
     "es": "Grupos de material 4: textos",
     "en": "Material groups 4: texts",
     "pt": "Grupos de material 4: textos"
+  },
+  "purpose": {
+    "es": "Descripción de cada grupo de material 4 en cada idioma: una fila por código e idioma. Sirve para mostrar un nombre legible en lugar del código MVGR4 en informes; los códigos se definen en TVM4.",
+    "en": "Description of each material group 4 in each language: one row per code and language. Use it to show a readable name instead of the MVGR4 code in reports; the codes themselves are defined in TVM4.",
+    "pt": "Descrição de cada grupo de materiais 4 em cada idioma: uma linha por código e idioma. Serve para mostrar um nome legível em vez do código MVGR4 em relatórios; os códigos são definidos na TVM4."
+  },
+  "synonyms": {
+    "es": [
+      "texto grupo de material 4",
+      "MVGR4"
+    ],
+    "en": [
+      "material group 4 text",
+      "MVGR4"
+    ],
+    "pt": [
+      "texto grupo de materiais 4",
+      "MVGR4"
+    ]
   }
 }

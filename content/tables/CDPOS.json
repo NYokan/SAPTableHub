@@ -9,5 +9,30 @@
     "es": "Historial de cambios (posiciones)",
     "en": "Change history (items)",
     "pt": "Histórico de alterações (itens)"
+  },
+  "purpose": {
+    "es": "Una fila por cada campo modificado dentro de un documento de modificación: tabla, campo, valor anterior, valor nuevo y si fue alta, cambio o borrado. Se une a CDHDR por clase de objeto, clave de objeto y número de cambio.",
+    "en": "One row per field changed within a change document: table, field, old value, new value and whether it was an insert, update or delete. It joins CDHDR by object class, object key and change number.",
+    "pt": "Uma linha por campo alterado dentro de um documento de modificação: tabela, campo, valor antigo, valor novo e se foi inclusão, alteração ou exclusão. Liga-se à CDHDR por classe de objeto, chave do objeto e número da alteração."
+  },
+  "synonyms": {
+    "es": [
+      "valor anterior y nuevo",
+      "campos modificados",
+      "detalle de cambios",
+      "historial de cambios por campo"
+    ],
+    "en": [
+      "old and new value",
+      "changed fields",
+      "change details",
+      "field change history"
+    ],
+    "pt": [
+      "valor antigo e novo",
+      "campos alterados",
+      "detalhe das alterações",
+      "histórico de alterações por campo"
+    ]
   }
 }

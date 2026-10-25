@@ -7,5 +7,27 @@
     "es": "Procesos empresariales (textos)",
     "en": "Business processes (texts)",
     "pt": "Processos empresariais (textos)"
+  },
+  "purpose": {
+    "es": "Nombres y descripciones de los procesos empresariales del costeo basado en actividades (ABC), por idioma. Se usa para mostrar el texto de cada proceso definido en CBPR.",
+    "en": "Names and descriptions of the business processes in activity-based costing (ABC), per language. It is used to display the text of each process defined in CBPR.",
+    "pt": "Nomes e descrições dos processos de negócio do custeio baseado em atividades (ABC), por idioma. Serve para exibir o texto de cada processo definido na CBPR."
+  },
+  "synonyms": {
+    "es": [
+      "nombre del proceso ABC",
+      "descripción de proceso",
+      "textos de procesos"
+    ],
+    "en": [
+      "ABC process name",
+      "business process description",
+      "process texts"
+    ],
+    "pt": [
+      "nome do processo ABC",
+      "descrição do processo",
+      "textos de processos"
+    ]
   }
 }

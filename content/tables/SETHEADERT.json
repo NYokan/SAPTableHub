@@ -8,5 +8,27 @@
     "es": "Grupos (sets): textos",
     "en": "Sets (groups): texts",
     "pt": "Grupos (sets): textos"
+  },
+  "purpose": {
+    "es": "Descripción de cada grupo (set) en cada idioma, por clase de set y nombre. Sirve para mostrar el nombre legible de un grupo de centros de coste, de cuentas u otros objetos.",
+    "en": "Description of each set (group) in each language, per set class and name. It is used to show the readable name of a cost center group, account group or other object group.",
+    "pt": "Descrição de cada grupo (set) em cada idioma, por classe do set e nome. Serve para mostrar o nome legível de um grupo de centros de custo, de contas ou outros objetos."
+  },
+  "synonyms": {
+    "es": [
+      "descripción de grupo",
+      "nombre del set",
+      "texto de grupo de centros de coste"
+    ],
+    "en": [
+      "set description",
+      "group name",
+      "cost center group text"
+    ],
+    "pt": [
+      "descrição do grupo",
+      "nome do set",
+      "texto do grupo de centros de custo"
+    ]
   }
 }

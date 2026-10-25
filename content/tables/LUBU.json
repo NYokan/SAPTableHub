@@ -9,5 +9,27 @@
     "es": "Avisos de traspaso WM",
     "en": "WM posting change notices",
     "pt": "Avisos de transferência WM"
+  },
+  "purpose": {
+    "es": "Avisos de traspaso en Warehouse Management (WM): solicitudes para cambiar el estado o la identidad del stock dentro del almacén (por ejemplo, de control de calidad a libre o de un lote a otro) sin moverlo físicamente.",
+    "en": "Posting change notices in Warehouse Management (WM): requests to change the status or identity of stock in the warehouse (for example, from quality inspection to unrestricted, or from one batch to another) without moving it physically.",
+    "pt": "Avisos de transferência de lançamento no Warehouse Management (WM): solicitações para mudar o status ou a identidade do estoque no depósito (por exemplo, de controle de qualidade para livre, ou de um lote para outro) sem movê-lo fisicamente."
+  },
+  "synonyms": {
+    "es": [
+      "aviso de traspaso",
+      "cambio de estado de stock WM",
+      "traspaso de lote WM"
+    ],
+    "en": [
+      "posting change notice",
+      "WM stock status change",
+      "WM batch change"
+    ],
+    "pt": [
+      "aviso de transferência",
+      "mudança de status do estoque WM",
+      "transferência de lote WM"
+    ]
   }
 }

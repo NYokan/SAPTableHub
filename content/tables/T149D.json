@@ -8,5 +8,27 @@
     "es": "Clases de valoración (valoración separada)",
     "en": "Valuation types (split valuation)",
     "pt": "Tipos de avaliação (avaliação separada)"
+  },
+  "purpose": {
+    "es": "Lista de clases de valoración usadas en la valoración separada: permiten valorar a precios distintos el mismo material según su origen, calidad o lote (por ejemplo, nacional e importado). Cada stock valorado por separado aparece en MBEW con su clase de valoración.",
+    "en": "List of valuation types used in split valuation: they let the same material be valuated at different prices by origin, quality or batch (for example, domestic and imported). Each separately valuated stock appears in MBEW with its valuation type.",
+    "pt": "Lista de tipos de avaliação usados na avaliação separada: permitem avaliar o mesmo material a preços diferentes conforme origem, qualidade ou lote (por exemplo, nacional e importado). Cada estoque avaliado separadamente aparece na MBEW com seu tipo de avaliação."
+  },
+  "synonyms": {
+    "es": [
+      "valoración separada",
+      "clase de valoración",
+      "valoración por origen"
+    ],
+    "en": [
+      "split valuation",
+      "valuation type",
+      "valuation by origin"
+    ],
+    "pt": [
+      "avaliação separada",
+      "tipo de avaliação",
+      "avaliação por origem"
+    ]
   }
 }

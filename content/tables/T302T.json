@@ -9,5 +9,24 @@
     "es": "Áreas de almacenamiento (textos)",
     "en": "Storage sections (texts)",
     "pt": "Áreas de armazenagem (textos)"
+  },
+  "purpose": {
+    "es": "Descripciones por idioma de las áreas de almacenamiento WM (T302). Se usa para mostrar el nombre legible en informes en lugar del código.",
+    "en": "Language-dependent descriptions of WM storage sections (T302). Used to show the readable name in reports instead of the code.",
+    "pt": "Descrições por idioma de áreas de armazenagem WM (T302). Usada para mostrar o nome legível em relatórios em vez do código."
+  },
+  "synonyms": {
+    "es": [
+      "nombre área de almacenamiento",
+      "descripción sección de almacén"
+    ],
+    "en": [
+      "storage section name",
+      "warehouse section description"
+    ],
+    "pt": [
+      "nome área de armazenagem",
+      "descrição seção do depósito"
+    ]
   }
 }

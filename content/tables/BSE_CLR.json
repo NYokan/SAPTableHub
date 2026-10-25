@@ -8,5 +8,27 @@
     "es": "Posiciones contables: datos de compensación",
     "en": "Accounting items: clearing data",
     "pt": "Itens contábeis: dados de compensação"
+  },
+  "purpose": {
+    "es": "Para cada documento de compensación, una fila por cada partida que compensó, con los importes compensados (incluidos pagos parciales y diferencias). Sirve para saber qué facturas cerró exactamente un pago.",
+    "en": "For each clearing document, one row per item it cleared, with the cleared amounts (including partial payments and differences). It tells you exactly which invoices a payment closed.",
+    "pt": "Para cada documento de compensação, uma linha por partida que ele compensou, com os montantes compensados (incluindo pagamentos parciais e diferenças). Serve para saber exatamente quais faturas um pagamento fechou."
+  },
+  "synonyms": {
+    "es": [
+      "detalle de compensación",
+      "partidas compensadas por pago",
+      "documento de compensación"
+    ],
+    "en": [
+      "clearing details",
+      "items cleared by payment",
+      "clearing document"
+    ],
+    "pt": [
+      "detalhe da compensação",
+      "partidas compensadas pelo pagamento",
+      "documento de compensação"
+    ]
   }
 }

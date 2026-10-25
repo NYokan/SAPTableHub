@@ -9,5 +9,27 @@
     "es": "Clientes: indicadores de impuestos",
     "en": "Customers: tax indicators",
     "pt": "Clientes: classificação fiscal"
+  },
+  "purpose": {
+    "es": "Clasificación fiscal de cada cliente por país y tipo de impuesto (por ejemplo, sujeto o exento de IVA). Una fila por cliente, país y categoría de impuesto; junto con la clasificación del material decide qué impuesto se aplica en el pedido.",
+    "en": "Tax classification of each customer per country and tax category (for example, liable or exempt from VAT). One row per customer, country and tax category; together with the material's classification it decides which tax applies on the order.",
+    "pt": "Classificação fiscal de cada cliente por país e tipo de imposto (por exemplo, sujeito ou isento de IVA). Uma linha por cliente, país e categoria de imposto; junto com a classificação do material decide qual imposto se aplica na ordem."
+  },
+  "synonyms": {
+    "es": [
+      "clasificación fiscal del cliente",
+      "cliente exento de impuestos",
+      "indicador de impuesto cliente"
+    ],
+    "en": [
+      "customer tax classification",
+      "tax-exempt customer",
+      "customer tax indicator"
+    ],
+    "pt": [
+      "classificação fiscal do cliente",
+      "cliente isento de impostos",
+      "indicador de imposto cliente"
+    ]
   }
 }

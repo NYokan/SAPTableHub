@@ -8,5 +8,24 @@
     "es": "Puestos de planificación de transporte: textos",
     "en": "Transportation planning points: texts",
     "pt": "Locais de planejamento de transporte: textos"
+  },
+  "purpose": {
+    "es": "Descripción de cada puesto de planificación de transporte en cada idioma: una fila por código e idioma. Sirve para mostrar un nombre legible en lugar del código TPLST en informes; los códigos se definen en TTDS.",
+    "en": "Description of each transportation planning point in each language: one row per code and language. Use it to show a readable name instead of the TPLST code in reports; the codes themselves are defined in TTDS.",
+    "pt": "Descrição de cada local de planejamento de transporte em cada idioma: uma linha por código e idioma. Serve para mostrar um nome legível em vez do código TPLST em relatórios; os códigos são definidos na TTDS."
+  },
+  "synonyms": {
+    "es": [
+      "texto puesto de planificación de transporte",
+      "TPLST"
+    ],
+    "en": [
+      "transportation planning point text",
+      "TPLST"
+    ],
+    "pt": [
+      "texto local de planejamento de transporte",
+      "TPLST"
+    ]
   }
 }

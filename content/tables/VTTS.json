@@ -8,5 +8,27 @@
     "es": "Transportes: etapas",
     "en": "Shipments: stages",
     "pt": "Transportes: etapas"
+  },
+  "purpose": {
+    "es": "Etapas de cada transporte: tramos de viaje, carga o paso fronterizo con punto de origen y destino, distancia y fechas. La cabecera del transporte está en VTTK; sirve para analizar recorridos y tiempos.",
+    "en": "Stages of each shipment: legs, load transfer points or border crossings with origin and destination point, distance and dates. The shipment header is in VTTK; used to analyze routes and times.",
+    "pt": "Etapas de cada transporte: trechos de viagem, transbordo ou passagem de fronteira com ponto de origem e destino, distância e datas. O cabeçalho do transporte fica na VTTK; serve para analisar percursos e tempos."
+  },
+  "synonyms": {
+    "es": [
+      "etapas de transporte",
+      "tramos del transporte",
+      "origen y destino del transporte"
+    ],
+    "en": [
+      "shipment stages",
+      "shipment legs",
+      "shipment origin destination"
+    ],
+    "pt": [
+      "etapas de transporte",
+      "trechos do transporte",
+      "origem e destino do transporte"
+    ]
   }
 }

@@ -9,5 +9,30 @@
     "es": "Documentos de ventas: datos comerciales",
     "en": "Sales documents: business data",
     "pt": "Documentos de vendas: dados comerciais"
+  },
+  "purpose": {
+    "es": "Datos comerciales de los documentos de ventas: condiciones de pago, Incoterms, grupo de precios, lista de precios, número de pedido del cliente y fecha de precio. Hay una fila de cabecera y otra por posición solo si la posición difiere de la cabecera.",
+    "en": "Business data of sales documents: payment terms, Incoterms, price group, price list, customer purchase order number and pricing date. There is a header row and an item row only when the item differs from the header.",
+    "pt": "Dados comerciais dos documentos de vendas: condições de pagamento, Incoterms, grupo de preços, lista de preços, número do pedido do cliente e data de preço. Há uma linha de cabeçalho e uma por item só quando o item difere do cabeçalho."
+  },
+  "synonyms": {
+    "es": [
+      "datos comerciales del pedido",
+      "número de pedido del cliente",
+      "condiciones de pago del pedido",
+      "Incoterms del pedido"
+    ],
+    "en": [
+      "order business data",
+      "customer PO number",
+      "order payment terms",
+      "order Incoterms"
+    ],
+    "pt": [
+      "dados comerciais da ordem",
+      "número do pedido do cliente",
+      "condições de pagamento da ordem",
+      "Incoterms da ordem"
+    ]
   }
 }

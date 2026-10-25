@@ -9,5 +9,30 @@
     "es": "Tipos de posición en compras",
     "en": "Purchasing item categories",
     "pt": "Categorias de item em compras"
+  },
+  "purpose": {
+    "es": "Una fila por cada tipo de posición de compras (estándar, consignación, subcontratación, tercero, servicio, traslado…) con sus reglas de control, por ejemplo si la entrada de mercancías o la factura son obligatorias u opcionales. Los textos y la clave externa están en T163Y.",
+    "en": "One row per purchasing item category (standard, consignment, subcontracting, third-party, service, stock transfer…) with its control rules, for example whether goods receipt or invoice receipt is required or optional. Texts and the external key are in T163Y.",
+    "pt": "Uma linha por categoria de item de compras (padrão, consignação, subcontratação, terceiros, serviço, transferência…) com suas regras de controle, por exemplo se a entrada de mercadorias ou a fatura são obrigatórias ou opcionais. Os textos e a chave externa estão na T163Y."
+  },
+  "synonyms": {
+    "es": [
+      "tipo de posición",
+      "subcontratación",
+      "consignación",
+      "posición de servicio"
+    ],
+    "en": [
+      "item category",
+      "subcontracting",
+      "consignment",
+      "service item"
+    ],
+    "pt": [
+      "categoria de item",
+      "subcontratação",
+      "consignação",
+      "item de serviço"
+    ]
   }
 }

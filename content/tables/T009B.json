@@ -8,5 +8,27 @@
     "es": "Variantes de ejercicio: períodos",
     "en": "Fiscal year variants: periods",
     "pt": "Variantes de exercício: períodos"
+  },
+  "purpose": {
+    "es": "Para las variantes de ejercicio que no siguen el año natural, la correspondencia entre mes y día naturales y período contable (y desplazamiento de año). Permite saber a qué período cae una fecha.",
+    "en": "For fiscal year variants that do not follow the calendar year, the mapping between calendar month and day and posting period (and year shift). It tells you which period a date falls into.",
+    "pt": "Para as variantes de exercício que não seguem o ano civil, a correspondência entre mês e dia civis e período contábil (e deslocamento de ano). Permite saber em que período cai uma data."
+  },
+  "synonyms": {
+    "es": [
+      "períodos del ejercicio",
+      "calendario fiscal",
+      "mes a período contable"
+    ],
+    "en": [
+      "fiscal year periods",
+      "fiscal calendar",
+      "month to posting period"
+    ],
+    "pt": [
+      "períodos do exercício",
+      "calendário fiscal",
+      "mês para período contábil"
+    ]
   }
 }

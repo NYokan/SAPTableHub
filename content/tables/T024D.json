@@ -9,5 +9,27 @@
     "es": "Planificadores de necesidades",
     "en": "MRP controllers",
     "pt": "Planejadores de necessidades"
+  },
+  "purpose": {
+    "es": "Una fila por cada planificador de necesidades (planificador MRP) de un centro: código, nombre y datos de contacto. Se asigna a los materiales en MARC para saber quién es responsable de planificarlos.",
+    "en": "One row per MRP controller in a plant: code, name and contact data. It is assigned to materials in MARC to show who is responsible for planning them.",
+    "pt": "Uma linha por planejador de necessidades (planejador MRP) de um centro: código, nome e dados de contato. É atribuído aos materiais na MARC para saber quem é responsável por planejá-los."
+  },
+  "synonyms": {
+    "es": [
+      "planificador MRP",
+      "planificador de necesidades",
+      "responsable de planificación"
+    ],
+    "en": [
+      "MRP controller",
+      "material planner",
+      "planning responsible"
+    ],
+    "pt": [
+      "planejador MRP",
+      "planejador de necessidades",
+      "responsável pelo planejamento"
+    ]
   }
 }

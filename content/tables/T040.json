@@ -8,5 +8,27 @@
     "es": "Claves de reclamación",
     "en": "Dunning keys",
     "pt": "Chaves de advertência"
+  },
+  "purpose": {
+    "es": "Las claves de reclamación que se pueden poner en una partida para limitar cómo se reclama, por ejemplo hasta qué nivel máximo se puede reclamar o si se imprime aparte.",
+    "en": "The dunning keys that can be set on an item to limit how it is dunned, for example up to which maximum dunning level or whether it is printed separately.",
+    "pt": "As chaves de advertência que podem ser colocadas em uma partida para limitar como é advertida, por exemplo até qual nível máximo ou se é impressa separadamente."
+  },
+  "synonyms": {
+    "es": [
+      "clave de reclamación",
+      "nivel máximo de reclamación",
+      "MSCHL"
+    ],
+    "en": [
+      "dunning key",
+      "maximum dunning level",
+      "MSCHL"
+    ],
+    "pt": [
+      "chave de advertência",
+      "nível máximo de advertência",
+      "MSCHL"
+    ]
   }
 }

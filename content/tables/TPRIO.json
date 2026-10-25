@@ -9,5 +9,27 @@
     "es": "Prioridades de entrega",
     "en": "Delivery priorities",
     "pt": "Prioridades de remessa"
+  },
+  "purpose": {
+    "es": "Lista de prioridades de entrega (campo LPRIO) que se asignan al cliente en KNVV y pasan al pedido y la entrega. Sirven para ordenar qué clientes se sirven primero al seleccionar entregas o repartir stock escaso.",
+    "en": "List of delivery priorities (field LPRIO) assigned to the customer in KNVV and passed on to the order and delivery. Used to decide which customers are served first when selecting deliveries or allocating scarce stock.",
+    "pt": "Lista de prioridades de remessa (campo LPRIO) atribuídas ao cliente na KNVV e passadas para a ordem e a remessa. Servem para decidir quais clientes são atendidos primeiro ao selecionar remessas ou distribuir estoque escasso."
+  },
+  "synonyms": {
+    "es": [
+      "prioridad de entrega",
+      "LPRIO",
+      "prioridad del cliente"
+    ],
+    "en": [
+      "delivery priority",
+      "LPRIO",
+      "customer priority"
+    ],
+    "pt": [
+      "prioridade de remessa",
+      "LPRIO",
+      "prioridade do cliente"
+    ]
   }
 }

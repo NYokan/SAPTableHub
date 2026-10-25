@@ -9,5 +9,24 @@
     "es": "Grupos de condiciones de cliente: textos",
     "en": "Customer condition groups: texts",
     "pt": "Grupos de condições de cliente: textos"
+  },
+  "purpose": {
+    "es": "Descripción de cada grupo de condiciones de cliente en cada idioma: una fila por código e idioma. Sirve para mostrar un nombre legible en lugar del código KDKGR en informes; los códigos se definen en TVKGG.",
+    "en": "Description of each customer condition group in each language: one row per code and language. Use it to show a readable name instead of the KDKGR code in reports; the codes themselves are defined in TVKGG.",
+    "pt": "Descrição de cada grupo de condições de cliente em cada idioma: uma linha por código e idioma. Serve para mostrar um nome legível em vez do código KDKGR em relatórios; os códigos são definidos na TVKGG."
+  },
+  "synonyms": {
+    "es": [
+      "texto grupo de condiciones de cliente",
+      "KDKG1"
+    ],
+    "en": [
+      "customer condition group text",
+      "KDKG1"
+    ],
+    "pt": [
+      "texto grupo de condições de cliente",
+      "KDKG1"
+    ]
   }
 }

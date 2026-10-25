@@ -8,5 +8,30 @@
     "es": "Variantes de ejercicio",
     "en": "Fiscal year variants",
     "pt": "Variantes de exercício"
+  },
+  "purpose": {
+    "es": "Las variantes de ejercicio: cuántos períodos contables y especiales tiene el año fiscal y si coincide con el año natural. Cada sociedad tiene asignada una (por ejemplo K4: año natural con 4 períodos especiales).",
+    "en": "The fiscal year variants: how many posting periods and special periods the fiscal year has and whether it matches the calendar year. Each company code has one assigned (for example K4: calendar year with 4 special periods).",
+    "pt": "As variantes de exercício: quantos períodos contábeis e especiais o ano fiscal tem e se coincide com o ano civil. Cada empresa tem uma atribuída (por exemplo K4: ano civil com 4 períodos especiais)."
+  },
+  "synonyms": {
+    "es": [
+      "variante de ejercicio",
+      "año fiscal",
+      "períodos especiales",
+      "PERIV"
+    ],
+    "en": [
+      "fiscal year variant",
+      "fiscal year",
+      "special periods",
+      "PERIV"
+    ],
+    "pt": [
+      "variante de exercício",
+      "ano fiscal",
+      "períodos especiais",
+      "PERIV"
+    ]
   }
 }

@@ -8,5 +8,27 @@
     "es": "Características (descripciones)",
     "en": "Characteristics (descriptions)",
     "pt": "Características (descrições)"
+  },
+  "purpose": {
+    "es": "Una fila por característica e idioma con su descripción legible. Complementa a CABN, donde está el nombre técnico y el formato.",
+    "en": "One row per characteristic and language with its readable description. It complements CABN, which holds the technical name and format.",
+    "pt": "Uma linha por característica e idioma com sua descrição legível. Complementa a CABN, onde ficam o nome técnico e o formato."
+  },
+  "synonyms": {
+    "es": [
+      "descripción de característica",
+      "texto de característica",
+      "nombre de característica"
+    ],
+    "en": [
+      "characteristic description",
+      "characteristic text",
+      "characteristic name"
+    ],
+    "pt": [
+      "descrição da característica",
+      "texto da característica",
+      "nome da característica"
+    ]
   }
 }

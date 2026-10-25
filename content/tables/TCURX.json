@@ -9,5 +9,27 @@
     "es": "Decimales por moneda",
     "en": "Decimal places per currency",
     "pt": "Casas decimais por moeda"
+  },
+  "purpose": {
+    "es": "Número de decimales de cada moneda que no usa dos (por ejemplo 0 para CLP o JPY). Es clave al extraer importes: SAP los guarda siempre con dos decimales y hay que ajustarlos según esta tabla.",
+    "en": "Number of decimal places of each currency that does not use two (for example 0 for CLP or JPY). It is key when extracting amounts: SAP always stores them with two decimals and they must be adjusted using this table.",
+    "pt": "Número de casas decimais de cada moeda que não usa duas (por exemplo 0 para CLP ou JPY). É essencial ao extrair valores: o SAP sempre os grava com duas casas decimais e é preciso ajustá-los com esta tabela."
+  },
+  "synonyms": {
+    "es": [
+      "decimales de moneda",
+      "monedas sin decimales",
+      "ajuste de importes CLP"
+    ],
+    "en": [
+      "currency decimals",
+      "zero-decimal currencies",
+      "amount shift"
+    ],
+    "pt": [
+      "casas decimais da moeda",
+      "moedas sem decimais",
+      "ajuste de valores"
+    ]
   }
 }

@@ -9,5 +9,30 @@
     "es": "Gestión de créditos SAP: datos del interlocutor por segmento de crédito",
     "en": "SAP Credit Management: business partner data per credit segment",
     "pt": "Gestão de crédito SAP: dados do parceiro por segmento de crédito"
+  },
+  "purpose": {
+    "es": "En SAP Credit Management, una fila por interlocutor comercial y segmento de crédito con su límite de crédito, bloqueo de crédito y fechas de validez. En S/4HANA sustituye a KNKK como tabla del límite de crédito.",
+    "en": "In SAP Credit Management, one row per business partner and credit segment with its credit limit, credit block and validity dates. In S/4HANA it replaces KNKK as the credit limit table.",
+    "pt": "No SAP Credit Management, uma linha por parceiro de negócios e segmento de crédito com seu limite de crédito, bloqueio de crédito e datas de validade. No S/4HANA substitui a KNKK como tabela do limite de crédito."
+  },
+  "synonyms": {
+    "es": [
+      "límite de crédito S/4HANA",
+      "segmento de crédito",
+      "bloqueo de crédito",
+      "límite por segmento"
+    ],
+    "en": [
+      "S/4HANA credit limit",
+      "credit segment",
+      "credit block",
+      "segment credit limit"
+    ],
+    "pt": [
+      "limite de crédito S/4HANA",
+      "segmento de crédito",
+      "bloqueio de crédito",
+      "limite por segmento"
+    ]
   }
 }

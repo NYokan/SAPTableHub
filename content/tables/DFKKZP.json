@@ -8,5 +8,27 @@
     "es": "Contabilidad de contratos: lotes de pago (posiciones)",
     "en": "Contract accounting: payment lots (items)",
     "pt": "Contabilidade de contratos: lotes de pagamento (itens)"
+  },
+  "purpose": {
+    "es": "Los pagos individuales de un lote de pagos de la contabilidad de contratos (FI-CA): importe, interlocutor o cuenta contrato, referencias para la asignación y estado de compensación. La cabecera del lote está en DFKKZK.",
+    "en": "The individual payments of a contract accounting (FI-CA) payment lot: amount, business partner or contract account, references for allocation and clearing status. The lot header is in DFKKZK.",
+    "pt": "Os pagamentos individuais de um lote de pagamentos da contabilidade de contratos (FI-CA): montante, parceiro ou conta contrato, referências para a alocação e status de compensação. O cabeçalho do lote está na DFKKZK."
+  },
+  "synonyms": {
+    "es": [
+      "pagos del lote",
+      "cobros FI-CA",
+      "posiciones de lote de pagos"
+    ],
+    "en": [
+      "payment lot items",
+      "FI-CA payments",
+      "individual payments in lot"
+    ],
+    "pt": [
+      "pagamentos do lote",
+      "recebimentos FI-CA",
+      "itens do lote de pagamentos"
+    ]
   }
 }

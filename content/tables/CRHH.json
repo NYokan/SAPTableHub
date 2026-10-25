@@ -8,5 +8,27 @@
     "es": "Jerarquías de puestos de trabajo (cabecera)",
     "en": "Work center hierarchies (header)",
     "pt": "Hierarquias de centros de trabalho (cabeçalho)"
+  },
+  "purpose": {
+    "es": "Una fila por cada jerarquía de puestos de trabajo: nombre, centro y uso. Las jerarquías agrupan puestos de trabajo para totalizar capacidades o hacer informes; la estructura de padres e hijos está en CRHS.",
+    "en": "One row per work center hierarchy: name, plant and usage. Hierarchies group work centers to cumulate capacities or for reporting; the parent-child structure is in CRHS.",
+    "pt": "Uma linha por hierarquia de centros de trabalho: nome, centro e uso. As hierarquias agrupam centros de trabalho para totalizar capacidades ou para relatórios; a estrutura de pais e filhos está na CRHS."
+  },
+  "synonyms": {
+    "es": [
+      "jerarquía de puestos de trabajo",
+      "agrupación de puestos",
+      "jerarquía de recursos"
+    ],
+    "en": [
+      "work center hierarchy",
+      "work center grouping",
+      "resource hierarchy"
+    ],
+    "pt": [
+      "hierarquia de centros de trabalho",
+      "agrupamento de centros",
+      "hierarquia de recursos"
+    ]
   }
 }

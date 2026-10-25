@@ -8,5 +8,30 @@
     "es": "Programas y formularios por clase de mensaje",
     "en": "Programs and forms per output type",
     "pt": "Programas e formulários por tipo de mensagem"
+  },
+  "purpose": {
+    "es": "Una fila por clase de mensaje (output), aplicación y medio (impresión, correo, EDI…) con el programa de tratamiento, la rutina y el formulario (SAPscript o Smart Form). Sirve para saber qué programa y formulario imprimen un pedido, factura o entrega.",
+    "en": "One row per output type, application and medium (print, email, EDI…) with the processing program, routine and form (SAPscript or Smart Form). It tells which program and form print an order, invoice or delivery.",
+    "pt": "Uma linha por tipo de mensagem (output), aplicação e meio (impressão, e-mail, EDI…) com o programa de processamento, a rotina e o formulário (SAPscript ou Smart Form). Serve para saber qual programa e formulário imprimem um pedido, fatura ou remessa."
+  },
+  "synonyms": {
+    "es": [
+      "formulario de impresión",
+      "programa de impresión",
+      "clase de mensaje",
+      "Smart Form"
+    ],
+    "en": [
+      "print form",
+      "print program",
+      "output type",
+      "Smart Form"
+    ],
+    "pt": [
+      "formulário de impressão",
+      "programa de impressão",
+      "tipo de mensagem",
+      "Smart Form"
+    ]
   }
 }

@@ -8,5 +8,32 @@
     "es": "Socios de negocio (números fiscales)",
     "en": "Business partners (tax numbers)",
     "pt": "Parceiros de negócios (números fiscais)"
+  },
+  "purpose": {
+    "es": "Una fila por cada número fiscal de un socio de negocio, con su categoría (por ejemplo NIF, RUT, CNPJ o número de IVA de la UE). Es donde se buscan los identificadores fiscales en el modelo de socio de negocio.",
+    "en": "One row per tax number of a business partner, with its category (for example national tax ID or EU VAT number). It is where tax identifiers are looked up in the business partner model.",
+    "pt": "Uma linha por número fiscal de um parceiro de negócios, com sua categoria (por exemplo CNPJ, CPF ou número de IVA da UE). É onde se buscam os identificadores fiscais no modelo de parceiro de negócios."
+  },
+  "synonyms": {
+    "es": [
+      "número fiscal",
+      "NIF",
+      "RUT",
+      "identificación tributaria",
+      "número de IVA"
+    ],
+    "en": [
+      "tax number",
+      "tax ID",
+      "VAT number",
+      "tax identification"
+    ],
+    "pt": [
+      "número fiscal",
+      "CNPJ",
+      "CPF",
+      "identificação tributária",
+      "inscrição fiscal"
+    ]
   }
 }

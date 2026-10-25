@@ -8,5 +8,30 @@
     "es": "Clientes: partidas compensadas",
     "en": "Customers: cleared items",
     "pt": "Clientes: partidas compensadas"
+  },
+  "purpose": {
+    "es": "Las partidas de clientes ya compensadas (facturas cobradas, abonos aplicados), una fila por línea contable con fecha y documento de compensación. Mientras están abiertas viven en BSID; en S/4HANA es una vista sobre ACDOCA/BSEG.",
+    "en": "Customer items that have already been cleared (invoices collected, credits applied), one row per accounting line with clearing date and clearing document. While open they live in BSID; in S/4HANA it is a view over ACDOCA/BSEG.",
+    "pt": "As partidas de clientes já compensadas (faturas recebidas, créditos aplicados), uma linha por item contábil com data e documento de compensação. Enquanto abertas ficam na BSID; no S/4HANA é uma visão sobre ACDOCA/BSEG."
+  },
+  "synonyms": {
+    "es": [
+      "partidas compensadas de clientes",
+      "facturas cobradas",
+      "cobros aplicados",
+      "historial de cobros"
+    ],
+    "en": [
+      "customer cleared items",
+      "collected invoices",
+      "applied payments",
+      "payment history"
+    ],
+    "pt": [
+      "partidas compensadas de clientes",
+      "faturas recebidas",
+      "recebimentos aplicados",
+      "histórico de recebimentos"
+    ]
   }
 }

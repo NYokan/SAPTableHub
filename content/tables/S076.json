@@ -8,5 +8,30 @@
     "es": "Planificación de ventas y operaciones (estructura de información)",
     "en": "Sales and operations planning (info structure)",
     "pt": "Planejamento de vendas e operações (estrutura de informação)"
+  },
+  "purpose": {
+    "es": "Estructura de información estándar de la planificación de ventas y operaciones (SOP): cantidades planificadas de ventas, producción, stock y cobertura por grupo de productos o material, centro, versión y período. Se usa para consultar el plan SOP de cada versión.",
+    "en": "Standard information structure for sales and operations planning (SOP): planned quantities for sales, production, stock and days' supply per product group or material, plant, version and period. It is used to read the SOP plan of each version.",
+    "pt": "Estrutura de informação padrão do planejamento de vendas e operações (SOP): quantidades planejadas de vendas, produção, estoque e cobertura por grupo de produtos ou material, centro, versão e período. É usada para consultar o plano SOP de cada versão."
+  },
+  "synonyms": {
+    "es": [
+      "planificación de ventas y operaciones",
+      "SOP",
+      "plan de producción",
+      "plan de ventas"
+    ],
+    "en": [
+      "sales and operations planning",
+      "SOP",
+      "production plan",
+      "sales plan"
+    ],
+    "pt": [
+      "planejamento de vendas e operações",
+      "SOP",
+      "plano de produção",
+      "plano de vendas"
+    ]
   }
 }

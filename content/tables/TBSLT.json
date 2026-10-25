@@ -7,5 +7,27 @@
     "es": "Claves de contabilización: textos",
     "en": "Posting keys: texts",
     "pt": "Chaves de lançamento: textos"
+  },
+  "purpose": {
+    "es": "Nombre de cada clave de contabilización en cada idioma (por ejemplo 40 «Debe», 50 «Haber», 31 «Factura de proveedor»). Sirve para entender el campo BSCHL de las líneas contables.",
+    "en": "Name of each posting key in each language (for example 40 \"Debit entry\", 50 \"Credit entry\", 31 \"Invoice\" for vendors). It helps to understand field BSCHL on accounting lines.",
+    "pt": "Nome de cada chave de lançamento em cada idioma (por exemplo 40 «Débito», 50 «Crédito», 31 «Fatura» de fornecedor). Ajuda a entender o campo BSCHL dos itens contábeis."
+  },
+  "synonyms": {
+    "es": [
+      "texto clave de contabilización",
+      "clave contable",
+      "BSCHL"
+    ],
+    "en": [
+      "posting key text",
+      "posting key name",
+      "BSCHL"
+    ],
+    "pt": [
+      "texto da chave de lançamento",
+      "chave de lançamento",
+      "BSCHL"
+    ]
   }
 }

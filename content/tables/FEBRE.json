@@ -8,5 +8,27 @@
     "es": "Extractos bancarios electrónicos: texto de referencia",
     "en": "Electronic bank statements: reference text",
     "pt": "Extratos bancários eletrônicos: texto de referência"
+  },
+  "purpose": {
+    "es": "El texto de referencia o concepto (nota para el beneficiario) de cada línea de un extracto bancario electrónico, tal como lo envía el banco. Es útil para ver por qué no se compensó automáticamente un movimiento.",
+    "en": "The reference text or note to payee of each line of an electronic bank statement, as sent by the bank. It is useful to see why a bank movement was not cleared automatically.",
+    "pt": "O texto de referência ou histórico (nota ao beneficiário) de cada item de um extrato bancário eletrônico, como enviado pelo banco. É útil para ver por que um movimento não foi compensado automaticamente."
+  },
+  "synonyms": {
+    "es": [
+      "concepto del extracto bancario",
+      "nota para el beneficiario",
+      "texto del movimiento bancario"
+    ],
+    "en": [
+      "bank statement reference",
+      "note to payee",
+      "bank transaction text"
+    ],
+    "pt": [
+      "histórico do extrato bancário",
+      "nota ao beneficiário",
+      "texto do movimento bancário"
+    ]
   }
 }

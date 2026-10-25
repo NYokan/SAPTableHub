@@ -8,5 +8,24 @@
     "es": "Listas de materiales: datos permanentes",
     "en": "Bills of material: permanent data",
     "pt": "Listas técnicas: dados permanentes"
+  },
+  "purpose": {
+    "es": "Una fila por cada número de lista de materiales con los datos comunes a todas sus alternativas. Los datos de cada alternativa (cantidad base, status, utilización) están en STKO.",
+    "en": "One row per bill of material number with the data common to all its alternatives. The data of each alternative (base quantity, status, usage) is in STKO.",
+    "pt": "Uma linha por número de lista técnica com os dados comuns a todas as suas alternativas. Os dados de cada alternativa (quantidade básica, status, utilização) estão na STKO."
+  },
+  "synonyms": {
+    "es": [
+      "datos permanentes de lista de materiales",
+      "grupo de listas de materiales"
+    ],
+    "en": [
+      "BOM permanent data",
+      "BOM group data"
+    ],
+    "pt": [
+      "dados permanentes da lista técnica",
+      "grupo de listas técnicas"
+    ]
   }
 }

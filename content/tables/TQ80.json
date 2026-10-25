@@ -8,5 +8,27 @@
     "es": "Clases de aviso",
     "en": "Notification types",
     "pt": "Tipos de nota"
+  },
+  "purpose": {
+    "es": "Clases de aviso para calidad, mantenimiento y servicio (por ejemplo, reclamación de cliente, aviso de avería, solicitud de mantenimiento), con su categoría, catálogos y numeración. La clase se guarda en cada aviso (QMEL).",
+    "en": "Notification types for quality, maintenance and service (for example, customer complaint, malfunction report, maintenance request), with their category, catalogs and numbering. The type is stored in each notification (QMEL).",
+    "pt": "Tipos de nota para qualidade, manutenção e serviço (por exemplo, reclamação de cliente, nota de avaria, solicitação de manutenção), com sua categoria, catálogos e numeração. O tipo é guardado em cada nota (QMEL)."
+  },
+  "synonyms": {
+    "es": [
+      "clase de aviso",
+      "tipo de notificación",
+      "tipo de reclamación"
+    ],
+    "en": [
+      "notification type",
+      "notification category",
+      "complaint type"
+    ],
+    "pt": [
+      "tipo de nota",
+      "tipo de notificação",
+      "tipo de reclamação"
+    ]
   }
 }

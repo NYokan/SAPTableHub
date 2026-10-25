@@ -9,5 +9,27 @@
     "es": "Factores de conversión entre monedas",
     "en": "Currency conversion factors",
     "pt": "Fatores de conversão entre moedas"
+  },
+  "purpose": {
+    "es": "Factores de conversión por clase de tipo de cambio, par de monedas y fecha: indican para cuántas unidades de cada moneda se expresa el tipo de cambio (por ejemplo 100 JPY = x EUR). Se usan junto con los tipos de TCURR.",
+    "en": "Conversion factors per exchange rate type, currency pair and date: they state how many units of each currency the exchange rate is quoted for (for example 100 JPY = x EUR). They are used together with the rates in TCURR.",
+    "pt": "Fatores de conversão por tipo de taxa de câmbio, par de moedas e data: indicam para quantas unidades de cada moeda a taxa é expressa (por exemplo 100 JPY = x EUR). São usados junto com as taxas da TCURR."
+  },
+  "synonyms": {
+    "es": [
+      "factor de conversión de moneda",
+      "relación de conversión",
+      "unidades por tipo de cambio"
+    ],
+    "en": [
+      "currency conversion factor",
+      "translation ratio",
+      "exchange rate ratio"
+    ],
+    "pt": [
+      "fator de conversão de moeda",
+      "relação de conversão",
+      "unidades por taxa de câmbio"
+    ]
   }
 }

@@ -8,5 +8,28 @@
     "es": "Clases de orden",
     "en": "Order types",
     "pt": "Tipos de ordem"
+  },
+  "purpose": {
+    "es": "Configuración de las clases de orden (órdenes internas, de fabricación, de mantenimiento, etc.): categoría de orden, rango de números, perfil de liquidación y otros parámetros de control. Una fila por clase de orden (AUART).",
+    "en": "Configuration of order types (internal orders, production orders, maintenance orders, etc.): order category, number range, settlement profile and other control parameters. One row per order type (AUART).",
+    "pt": "Configuração dos tipos de ordem (ordens internas, de produção, de manutenção etc.): categoria da ordem, intervalo de numeração, perfil de apropriação e outros parâmetros de controle. Uma linha por tipo de ordem (AUART)."
+  },
+  "synonyms": {
+    "es": [
+      "clase de orden",
+      "tipo de orden",
+      "AUART",
+      "configuración de órdenes"
+    ],
+    "en": [
+      "order type",
+      "AUART",
+      "order configuration"
+    ],
+    "pt": [
+      "tipo de ordem",
+      "AUART",
+      "configuração de ordens"
+    ]
   }
 }

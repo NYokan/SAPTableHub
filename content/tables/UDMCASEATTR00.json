@@ -8,5 +8,30 @@
     "es": "Gestión de litigios: casos de litigio",
     "en": "Dispute management: dispute cases",
     "pt": "Gestão de litígios: casos de litígio"
+  },
+  "purpose": {
+    "es": "En la gestión de litigios (FSCM Dispute Management), una fila por cada caso de litigio con sus atributos: cliente, importe reclamado, motivo, estado, responsable y fechas. Sirve para analizar reclamaciones de clientes sobre facturas y deducciones.",
+    "en": "In FSCM Dispute Management, one row per dispute case with its attributes: customer, disputed amount, reason, status, person responsible and dates. It is used to analyze customer disputes about invoices and deductions.",
+    "pt": "Na gestão de disputas (FSCM Dispute Management), uma linha por caso de disputa com seus atributos: cliente, montante em disputa, motivo, status, responsável e datas. Serve para analisar contestações de clientes sobre faturas e deduções."
+  },
+  "synonyms": {
+    "es": [
+      "caso de litigio",
+      "reclamación de cliente",
+      "importe en disputa",
+      "gestión de litigios"
+    ],
+    "en": [
+      "dispute case",
+      "customer dispute",
+      "disputed amount",
+      "dispute management"
+    ],
+    "pt": [
+      "caso de disputa",
+      "contestação de cliente",
+      "montante em disputa",
+      "gestão de disputas"
+    ]
   }
 }

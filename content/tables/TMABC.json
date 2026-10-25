@@ -8,5 +8,27 @@
     "es": "Indicadores ABC",
     "en": "ABC indicators",
     "pt": "Indicadores ABC"
+  },
+  "purpose": {
+    "es": "Lista de indicadores ABC del material por centro (A, B, C…), que clasifican los materiales según su importancia, normalmente por valor de consumo. Se usan para priorizar planificación e inventario cíclico.",
+    "en": "List of the material's ABC indicators per plant (A, B, C…), which classify materials by importance, usually by consumption value. Used to prioritise planning and cycle counting.",
+    "pt": "Lista de indicadores ABC do material por centro (A, B, C…), que classificam os materiais por importância, normalmente pelo valor de consumo. Usados para priorizar planejamento e inventário cíclico."
+  },
+  "synonyms": {
+    "es": [
+      "indicador ABC",
+      "clasificación ABC",
+      "análisis ABC"
+    ],
+    "en": [
+      "ABC indicator",
+      "ABC classification",
+      "ABC analysis"
+    ],
+    "pt": [
+      "indicador ABC",
+      "classificação ABC",
+      "análise ABC"
+    ]
   }
 }

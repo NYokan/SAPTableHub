@@ -8,5 +8,27 @@
     "es": "Idiomas",
     "en": "Languages",
     "pt": "Idiomas"
+  },
+  "purpose": {
+    "es": "Una fila por cada idioma definido en el sistema: clave interna de un carácter (por ejemplo S, E, P) y su código ISO. Es la referencia para todos los campos de idioma de las tablas de textos.",
+    "en": "One row per language defined in the system: one-character internal key (for example E, S, P) and its ISO code. It is the reference for all language fields in text tables.",
+    "pt": "Uma linha por idioma definido no sistema: chave interna de um caractere (por exemplo P, E, S) e seu código ISO. É a referência para todos os campos de idioma das tabelas de textos."
+  },
+  "synonyms": {
+    "es": [
+      "idiomas",
+      "clave de idioma",
+      "código de idioma ISO"
+    ],
+    "en": [
+      "languages",
+      "language key",
+      "ISO language code"
+    ],
+    "pt": [
+      "idiomas",
+      "chave de idioma",
+      "código ISO de idioma"
+    ]
   }
 }

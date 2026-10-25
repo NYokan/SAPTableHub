@@ -8,5 +8,27 @@
     "es": "Indicadores de estructura de ubicaciones técnicas",
     "en": "Functional location structure indicators",
     "pt": "Indicadores de estrutura de locais de instalação"
+  },
+  "purpose": {
+    "es": "Indicadores de estructura de las ubicaciones técnicas: definen la máscara de codificación y los niveles jerárquicos de la etiqueta (por ejemplo, planta-área-línea-máquina).",
+    "en": "Structure indicators of functional locations: they define the coding mask and hierarchy levels of the label (for example, plant-area-line-machine).",
+    "pt": "Indicadores de estrutura dos locais de instalação: definem a máscara de codificação e os níveis hierárquicos do rótulo (por exemplo, planta-área-linha-máquina)."
+  },
+  "synonyms": {
+    "es": [
+      "indicador de estructura",
+      "máscara de ubicación técnica",
+      "codificación de ubicaciones"
+    ],
+    "en": [
+      "structure indicator",
+      "functional location edit mask",
+      "location coding"
+    ],
+    "pt": [
+      "indicador de estrutura",
+      "máscara do local de instalação",
+      "codificação de locais"
+    ]
   }
 }

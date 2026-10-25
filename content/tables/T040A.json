@@ -8,5 +8,24 @@
     "es": "Claves de reclamación: textos",
     "en": "Dunning keys: texts",
     "pt": "Chaves de advertência: textos"
+  },
+  "purpose": {
+    "es": "Nombre de cada clave de reclamación en cada idioma, para mostrar una descripción legible en lugar del código de T040.",
+    "en": "Name of each dunning key in each language, to show a readable description instead of the code from T040.",
+    "pt": "Nome de cada chave de advertência em cada idioma, para mostrar uma descrição legível em vez do código da T040."
+  },
+  "synonyms": {
+    "es": [
+      "texto clave de reclamación",
+      "descripción clave de reclamación"
+    ],
+    "en": [
+      "dunning key text",
+      "dunning key description"
+    ],
+    "pt": [
+      "texto da chave de advertência",
+      "descrição da chave de advertência"
+    ]
   }
 }

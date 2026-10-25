@@ -8,5 +8,30 @@
     "es": "Medios auxiliares de fabricación (maestro)",
     "en": "Production resources/tools (master)",
     "pt": "Recursos auxiliares de produção (mestre)"
+  },
+  "purpose": {
+    "es": "Una fila por cada medio auxiliar de fabricación de tipo «otro» (herramientas, utillaje, plantillas) con su maestro propio: grupo, estado y datos de uso en órdenes y hojas de ruta. Los medios que son materiales, equipos o documentos tienen su maestro en esas otras tablas.",
+    "en": "One row per production resource/tool of the miscellaneous type (tools, jigs, fixtures) with its own master record: group, status and usage data for orders and task lists. PRTs that are materials, equipment or documents have their master in those other tables.",
+    "pt": "Uma linha por recurso/ferramenta de produção do tipo diverso (ferramentas, gabaritos, dispositivos) com cadastro próprio: grupo, status e dados de uso em ordens e roteiros. Os recursos que são materiais, equipamentos ou documentos têm seu cadastro nessas outras tabelas."
+  },
+  "synonyms": {
+    "es": [
+      "maestro de herramientas",
+      "medios auxiliares de fabricación",
+      "utillaje",
+      "PRT"
+    ],
+    "en": [
+      "tool master",
+      "production resources/tools",
+      "tooling",
+      "PRT master"
+    ],
+    "pt": [
+      "cadastro de ferramentas",
+      "recursos de produção",
+      "ferramental",
+      "PRT"
+    ]
   }
 }

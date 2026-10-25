@@ -8,5 +8,27 @@
     "es": "Costes de transporte (posiciones)",
     "en": "Shipment costs (items)",
     "pt": "Custos de frete (itens)"
+  },
+  "purpose": {
+    "es": "Posiciones de los documentos de costes de transporte: importe del flete por transporte o etapa, transportista, centro de coste o cuenta de imputación y su liquidación hacia compras y contabilidad. La cabecera está en VFKK.",
+    "en": "Items of shipment cost documents: freight amount per shipment or stage, carrier, account assignment and its settlement to purchasing and accounting. The header is in VFKK.",
+    "pt": "Itens dos documentos de custos de frete: valor do frete por transporte ou etapa, transportadora, atribuição contábil e sua liquidação para compras e contabilidade. O cabeçalho fica na VFKK."
+  },
+  "synonyms": {
+    "es": [
+      "importe de flete",
+      "liquidación de fletes",
+      "coste de flete por transporte"
+    ],
+    "en": [
+      "freight amount",
+      "freight settlement",
+      "freight cost per shipment"
+    ],
+    "pt": [
+      "valor do frete",
+      "liquidação de fretes",
+      "custo de frete por transporte"
+    ]
   }
 }

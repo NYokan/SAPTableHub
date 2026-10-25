@@ -8,5 +8,27 @@
     "es": "Garantías maestras (servicios cubiertos)",
     "en": "Master warranties (covered services)",
     "pt": "Garantias mestras (serviços cobertos)"
+  },
+  "purpose": {
+    "es": "Servicios o prestaciones que cubre cada garantía maestra, con sus posiciones. La cabecera de la garantía está en BGMK.",
+    "en": "Services covered by each master warranty, as items. The warranty header is in BGMK.",
+    "pt": "Serviços cobertos por cada garantia mestre, como itens. O cabeçalho da garantia está na BGMK."
+  },
+  "synonyms": {
+    "es": [
+      "servicios cubiertos por garantía",
+      "prestaciones de garantía",
+      "alcance de garantía"
+    ],
+    "en": [
+      "warranty covered services",
+      "warranty services",
+      "warranty scope"
+    ],
+    "pt": [
+      "serviços cobertos pela garantia",
+      "prestações da garantia",
+      "escopo da garantia"
+    ]
   }
 }

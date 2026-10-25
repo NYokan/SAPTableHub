@@ -8,5 +8,27 @@
     "es": "Nuevo mayor: importes del desdoblamiento de documentos",
     "en": "New G/L: document splitting amounts",
     "pt": "Novo razão: valores da divisão de documentos"
+  },
+  "purpose": {
+    "es": "Los importes de cada parte del desdoblamiento de documentos del nuevo mayor: complementa a FAGL_SPLINFO con los valores en cada moneda de cada trozo repartido por segmento, centro de beneficio u otros objetos.",
+    "en": "The amounts of each part of New G/L document splitting: it complements FAGL_SPLINFO with the values in each currency of each piece split by segment, profit center or other objects.",
+    "pt": "Os montantes de cada parte do desdobramento de documentos do novo razão: complementa a FAGL_SPLINFO com os valores em cada moeda de cada parte dividida por segmento, centro de lucro ou outros objetos."
+  },
+  "synonyms": {
+    "es": [
+      "importes del desdoblamiento",
+      "valores de document splitting",
+      "reparto por segmento"
+    ],
+    "en": [
+      "document splitting amounts",
+      "split values",
+      "segment split amounts"
+    ],
+    "pt": [
+      "montantes do desdobramento",
+      "valores do document splitting",
+      "divisão por segmento"
+    ]
   }
 }

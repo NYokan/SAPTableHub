@@ -9,5 +9,24 @@
     "es": "Tipos de unidad de almacén (textos)",
     "en": "Storage unit types (texts)",
     "pt": "Tipos de unidade de depósito (textos)"
+  },
+  "purpose": {
+    "es": "Descripciones por idioma de los tipos de unidad de almacén WM (T307). Se usa para mostrar el nombre legible en informes en lugar del código.",
+    "en": "Language-dependent descriptions of WM storage unit types (T307). Used to show the readable name in reports instead of the code.",
+    "pt": "Descrições por idioma de tipos de unidade de depósito WM (T307). Usada para mostrar o nome legível em relatórios em vez do código."
+  },
+  "synonyms": {
+    "es": [
+      "nombre tipo de unidad de almacén",
+      "descripción tipo de palé"
+    ],
+    "en": [
+      "storage unit type name",
+      "pallet type description"
+    ],
+    "pt": [
+      "nome tipo de unidade de depósito",
+      "descrição tipo de palete"
+    ]
   }
 }

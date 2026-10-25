@@ -8,5 +8,27 @@
     "es": "Clasificación fiscal de materiales",
     "en": "Material tax classifications",
     "pt": "Classificação fiscal de materiais"
+  },
+  "purpose": {
+    "es": "Valores posibles de clasificación fiscal de materiales por categoría de impuesto (por ejemplo, tasa completa, reducida o exento). Se asignan al material por país (MLAN) y determinan el impuesto en ventas junto con la del cliente.",
+    "en": "Possible material tax classification values per tax category (for example, full rate, reduced rate or exempt). They are assigned to the material per country (MLAN) and determine the sales tax together with the customer's.",
+    "pt": "Valores possíveis de classificação fiscal de materiais por categoria de imposto (por exemplo, alíquota cheia, reduzida ou isento). São atribuídos ao material por país (MLAN) e determinam o imposto nas vendas junto com a do cliente."
+  },
+  "synonyms": {
+    "es": [
+      "clasificación fiscal de material",
+      "TAXKM",
+      "material exento"
+    ],
+    "en": [
+      "material tax classification",
+      "TAXKM",
+      "tax-exempt material"
+    ],
+    "pt": [
+      "classificação fiscal de material",
+      "TAXKM",
+      "material isento"
+    ]
   }
 }

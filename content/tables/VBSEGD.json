@@ -8,5 +8,27 @@
     "es": "Documentos preliminares: posiciones de cliente",
     "en": "Parked documents: customer items",
     "pt": "Documentos pré-editados: itens de cliente"
+  },
+  "purpose": {
+    "es": "Las posiciones de cliente de un documento contable preliminar (aparcado), todavía no contabilizado: cliente, importe, vencimiento y condiciones de pago. Cuando el documento se contabiliza pasan a BSEG.",
+    "en": "The customer items of a parked accounting document that has not yet been posted: customer, amount, due date and payment terms. When the document is posted they move to BSEG.",
+    "pt": "Os itens de cliente de um documento contábil pré-editado, ainda não lançado: cliente, montante, vencimento e condições de pagamento. Quando o documento é lançado passam para a BSEG."
+  },
+  "synonyms": {
+    "es": [
+      "factura de cliente aparcada",
+      "documento preliminar de cliente",
+      "documento aparcado"
+    ],
+    "en": [
+      "parked customer invoice",
+      "parked customer item",
+      "parked document"
+    ],
+    "pt": [
+      "fatura de cliente pré-editada",
+      "documento pré-editado de cliente",
+      "documento pré-editado"
+    ]
   }
 }

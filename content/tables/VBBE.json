@@ -8,5 +8,30 @@
     "es": "Necesidades de ventas por material",
     "en": "Sales requirements per material",
     "pt": "Necessidades de vendas por material"
+  },
+  "purpose": {
+    "es": "Necesidades de ventas pendientes por material, centro y fecha: una fila por línea de pedido o entrega que todavía va a consumir stock. La usan la verificación de disponibilidad y la planificación (MRP) para saber cuánto está comprometido.",
+    "en": "Open sales requirements per material, plant and date: one row per order or delivery line that will still consume stock. Availability check and planning (MRP) use it to know how much is committed.",
+    "pt": "Necessidades de vendas pendentes por material, centro e data: uma linha por linha de ordem ou remessa que ainda vai consumir estoque. A verificação de disponibilidade e o planejamento (MRP) a usam para saber quanto está comprometido."
+  },
+  "synonyms": {
+    "es": [
+      "necesidades de ventas",
+      "demanda de clientes",
+      "stock comprometido",
+      "necesidad por pedido"
+    ],
+    "en": [
+      "sales requirements",
+      "customer demand",
+      "committed stock",
+      "order requirements"
+    ],
+    "pt": [
+      "necessidades de vendas",
+      "demanda de clientes",
+      "estoque comprometido",
+      "necessidade por ordem"
+    ]
   }
 }

@@ -8,5 +8,30 @@
     "es": "Activos fijos: amortización contabilizada por período",
     "en": "Fixed assets: posted depreciation per period",
     "pt": "Ativos fixos: depreciação lançada por período"
+  },
+  "purpose": {
+    "es": "Una fila por activo, área de valoración, ejercicio y período con la amortización contabilizada en ese período por la ejecución de amortización. Sirve para ver cuánto se amortizó cada mes por activo y centro de coste.",
+    "en": "One row per asset, depreciation area, fiscal year and period with the depreciation posted in that period by the depreciation run. It shows how much was depreciated each month per asset and cost center.",
+    "pt": "Uma linha por ativo, área de avaliação, exercício e período com a depreciação lançada no período pela execução de depreciação. Mostra quanto foi depreciado a cada mês por ativo e centro de custo."
+  },
+  "synonyms": {
+    "es": [
+      "amortización mensual",
+      "amortización contabilizada",
+      "ejecución de amortización",
+      "depreciación por período"
+    ],
+    "en": [
+      "monthly depreciation",
+      "posted depreciation",
+      "depreciation run",
+      "periodic depreciation"
+    ],
+    "pt": [
+      "depreciação mensal",
+      "depreciação lançada",
+      "execução de depreciação",
+      "depreciação por período"
+    ]
   }
 }

@@ -8,5 +8,33 @@
     "es": "Documentos de liquidación (cabecera)",
     "en": "Settlement documents (header)",
     "pt": "Documentos de liquidação (cabeçalho)"
+  },
+  "purpose": {
+    "es": "Una fila por cada documento de liquidación de Controlling: qué objeto se liquidó (orden, proyecto, pedido de cliente), en qué período y ejercicio, quién lo ejecutó y cuándo. Es la cabecera; receptores en AUAA, emisores en AUAS y operaciones en AUAV.",
+    "en": "One row per Controlling settlement document: which object was settled (order, project, sales order), for which period and fiscal year, who ran it and when. It is the header; receivers are in AUAA, senders in AUAS and transactions in AUAV.",
+    "pt": "Uma linha por documento de apropriação do Controlling: qual objeto foi apropriado (ordem, projeto, pedido de cliente), em qual período e exercício, quem executou e quando. É o cabeçalho; receptores na AUAA, emissores na AUAS e operações na AUAV."
+  },
+  "synonyms": {
+    "es": [
+      "documento de liquidación",
+      "liquidación de órdenes",
+      "cierre de órdenes",
+      "liquidación CO",
+      "KO88"
+    ],
+    "en": [
+      "settlement document",
+      "order settlement",
+      "CO settlement",
+      "period-end settlement",
+      "KO88"
+    ],
+    "pt": [
+      "documento de apropriação",
+      "apropriação de ordens",
+      "liquidação de ordens",
+      "apropriação CO",
+      "KO88"
+    ]
   }
 }

@@ -9,5 +9,31 @@
     "es": "Solicitudes de pedido",
     "en": "Purchase requisitions",
     "pt": "Requisições de compra"
+  },
+  "purpose": {
+    "es": "Una fila por cada posición de solicitud de pedido: material o servicio, cantidad, fecha de entrega, centro, solicitante y estado de liberación. Muestra qué se pidió comprar y si ya se convirtió en pedido de compra.",
+    "en": "One row per purchase requisition item: material or service, quantity, delivery date, plant, requester and release status. It shows what was requested for purchase and whether it has already become a purchase order.",
+    "pt": "Uma linha por item de requisição de compra: material ou serviço, quantidade, data de entrega, centro, requisitante e status de liberação. Mostra o que foi solicitado para compra e se já virou pedido de compra."
+  },
+  "synonyms": {
+    "es": [
+      "solicitud de pedido",
+      "solicitud de compra",
+      "requisición de compra",
+      "SolPed",
+      "necesidad de compra"
+    ],
+    "en": [
+      "purchase requisition",
+      "PR",
+      "requisition",
+      "purchase request"
+    ],
+    "pt": [
+      "requisição de compra",
+      "solicitação de compra",
+      "RC",
+      "necessidade de compra"
+    ]
   }
 }

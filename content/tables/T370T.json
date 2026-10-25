@@ -8,5 +8,24 @@
     "es": "Clases de equipo",
     "en": "Equipment categories",
     "pt": "Categorias de equipamento"
+  },
+  "purpose": {
+    "es": "Lista de clases de equipo (por ejemplo, máquina, equipo de medición, equipo de cliente), que controlan cómo se gestiona cada equipo, por ejemplo qué historial se guarda.",
+    "en": "List of equipment categories (for example, machine, test equipment, customer equipment), which control how each piece of equipment is managed, for example what history is kept.",
+    "pt": "Lista de categorias de equipamento (por exemplo, máquina, equipamento de medição, equipamento do cliente), que controlam como cada equipamento é gerenciado, por exemplo qual histórico é guardado."
+  },
+  "synonyms": {
+    "es": [
+      "clase de equipo",
+      "categoría de equipo"
+    ],
+    "en": [
+      "equipment category",
+      "equipment class"
+    ],
+    "pt": [
+      "categoria de equipamento",
+      "classe de equipamento"
+    ]
   }
 }

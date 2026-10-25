@@ -9,5 +9,27 @@
     "es": "Tipos de unidad de almacén",
     "en": "Storage unit types",
     "pt": "Tipos de unidade de depósito"
+  },
+  "purpose": {
+    "es": "Lista de tipos de unidad de almacén WM (por ejemplo, europalé, caja de rejilla), usados para controlar qué unidades caben en cada tipo de ubicación.",
+    "en": "List of WM storage unit types (for example, euro pallet, mesh box), used to control which units fit into each storage bin type.",
+    "pt": "Lista de tipos de unidade de depósito WM (por exemplo, palete europeu, caixa aramada), usados para controlar quais unidades cabem em cada tipo de posição."
+  },
+  "synonyms": {
+    "es": [
+      "tipo de unidad de almacén",
+      "tipo de palé",
+      "tipo de soporte de carga"
+    ],
+    "en": [
+      "storage unit type",
+      "pallet type",
+      "load carrier type"
+    ],
+    "pt": [
+      "tipo de unidade de depósito",
+      "tipo de palete",
+      "tipo de suporte de carga"
+    ]
   }
 }

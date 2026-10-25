@@ -9,5 +9,27 @@
     "es": "Proveedores: datos de reclamación",
     "en": "Vendors: dunning data",
     "pt": "Fornecedores: dados de advertência"
+  },
+  "purpose": {
+    "es": "Una fila por proveedor, sociedad y área de reclamación con los datos de reclamación: procedimiento, nivel alcanzado, fecha de la última reclamación y bloqueo. Se usa cuando se reclaman partidas deudoras a proveedores, por ejemplo notas de crédito pendientes.",
+    "en": "One row per vendor, company code and dunning area with the dunning data: procedure, level reached, last dunning date and block. It is used when debit items are dunned from vendors, for example open credit memos.",
+    "pt": "Uma linha por fornecedor, empresa e área de advertência com os dados de cobrança: procedimento, nível atingido, data da última advertência e bloqueio. É usada quando se cobram partidas devedoras de fornecedores, por exemplo notas de crédito pendentes."
+  },
+  "synonyms": {
+    "es": [
+      "reclamación a proveedores",
+      "nivel de reclamación",
+      "bloqueo de reclamación"
+    ],
+    "en": [
+      "vendor dunning",
+      "dunning level",
+      "dunning block"
+    ],
+    "pt": [
+      "advertência a fornecedores",
+      "nível de advertência",
+      "bloqueio de advertência"
+    ]
   }
 }

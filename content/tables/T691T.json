@@ -8,5 +8,24 @@
     "es": "Gestión de créditos: textos de categorías de riesgo",
     "en": "Credit management: risk category texts",
     "pt": "Gestão de crédito: textos de categorias de risco"
+  },
+  "purpose": {
+    "es": "Nombre de cada categoría de riesgo de crédito en cada idioma, por área de control de créditos, para mostrar «Riesgo alto» en lugar del código de T691A.",
+    "en": "Name of each credit risk category in each language, per credit control area, to show \"High risk\" instead of the code from T691A.",
+    "pt": "Nome de cada categoria de risco de crédito em cada idioma, por área de controle de crédito, para mostrar «Risco alto» em vez do código da T691A."
+  },
+  "synonyms": {
+    "es": [
+      "texto categoría de riesgo",
+      "descripción riesgo de crédito"
+    ],
+    "en": [
+      "risk category text",
+      "credit risk description"
+    ],
+    "pt": [
+      "texto da categoria de risco",
+      "descrição do risco de crédito"
+    ]
   }
 }

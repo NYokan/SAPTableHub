@@ -8,5 +8,27 @@
     "es": "Grupos de artículos externos",
     "en": "External material groups",
     "pt": "Grupos de mercadorias externos"
+  },
+  "purpose": {
+    "es": "Lista de grupos de artículos externos: una clasificación adicional del material, independiente del grupo de artículos interno, que se usa por ejemplo para agrupar según un estándar del cliente o del sector.",
+    "en": "List of external material groups: an extra classification of the material, independent of the internal material group, used for example to group by a customer or industry standard.",
+    "pt": "Lista de grupos de mercadorias externos: uma classificação adicional do material, independente do grupo de mercadorias interno, usada por exemplo para agrupar conforme um padrão do cliente ou do setor."
+  },
+  "synonyms": {
+    "es": [
+      "grupo de artículos externo",
+      "clasificación externa del material",
+      "grupo externo"
+    ],
+    "en": [
+      "external material group",
+      "external material classification",
+      "external group"
+    ],
+    "pt": [
+      "grupo de mercadorias externo",
+      "classificação externa do material",
+      "grupo externo"
+    ]
   }
 }

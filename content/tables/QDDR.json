@@ -7,5 +7,27 @@
     "es": "Reglas de modificación dinámica",
     "en": "Dynamic modification rules",
     "pt": "Regras de modificação dinâmica"
+  },
+  "purpose": {
+    "es": "Reglas de modificación dinámica: definen cómo cambia el nivel de inspección (por ejemplo, de normal a reducido o sin inspección) según los resultados de inspecciones anteriores. Sus niveles están en QDPS.",
+    "en": "Dynamic modification rules: they define how the inspection stage changes (for example, from normal to reduced or skip) based on previous inspection results. Their stages are in QDPS.",
+    "pt": "Regras de modificação dinâmica: definem como muda o nível de inspeção (por exemplo, de normal para reduzido ou sem inspeção) conforme os resultados de inspeções anteriores. Seus níveis estão na QDPS."
+  },
+  "synonyms": {
+    "es": [
+      "regla de modificación dinámica",
+      "inspección reducida",
+      "skip lot"
+    ],
+    "en": [
+      "dynamic modification rule",
+      "reduced inspection",
+      "skip lot"
+    ],
+    "pt": [
+      "regra de modificação dinâmica",
+      "inspeção reduzida",
+      "skip lot"
+    ]
   }
 }

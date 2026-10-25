@@ -8,5 +8,27 @@
     "es": "Tipos de actividad por centro de coste",
     "en": "Activity types per cost center",
     "pt": "Tipos de atividade por centro de custo"
+  },
+  "purpose": {
+    "es": "Una fila por cada combinación de centro de coste y tipo de actividad por ejercicio: indica qué actividades presta cada centro de coste y guarda datos de control de esa combinación, como la unidad o el indicador de tarifa.",
+    "en": "One row per combination of cost center and activity type per fiscal year: it shows which activities each cost center provides and holds control data for that combination, such as the unit or the price indicator.",
+    "pt": "Uma linha por combinação de centro de custo e tipo de atividade por exercício: indica quais atividades cada centro de custo presta e guarda dados de controle dessa combinação, como a unidade ou o indicador de tarifa."
+  },
+  "synonyms": {
+    "es": [
+      "actividades por centro de coste",
+      "centro de coste y actividad",
+      "tipo de actividad del centro"
+    ],
+    "en": [
+      "activities per cost center",
+      "cost center activity type",
+      "cost center activities"
+    ],
+    "pt": [
+      "atividades por centro de custo",
+      "centro de custo e atividade",
+      "tipo de atividade do centro"
+    ]
   }
 }

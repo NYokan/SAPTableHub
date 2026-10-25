@@ -8,5 +8,24 @@
     "es": "Características de planificación de necesidades (descripciones)",
     "en": "MRP types (descriptions)",
     "pt": "Tipos de MRP (descrições)"
+  },
+  "purpose": {
+    "es": "Descripción de cada característica de planificación de necesidades (tipo de MRP), por idioma. Se une con T438A o MARC por el campo DISMM para mostrar su nombre.",
+    "en": "Description of each MRP type, per language. It is joined to T438A or MARC by the DISMM field to show its name.",
+    "pt": "Descrição de cada tipo de MRP, por idioma. É unida à T438A ou à MARC pelo campo DISMM para mostrar seu nome."
+  },
+  "synonyms": {
+    "es": [
+      "nombre del tipo de MRP",
+      "descripción de característica de planificación"
+    ],
+    "en": [
+      "MRP type name",
+      "MRP type description"
+    ],
+    "pt": [
+      "nome do tipo de MRP",
+      "descrição do tipo de MRP"
+    ]
   }
 }

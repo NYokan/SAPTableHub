@@ -9,5 +9,29 @@
     "es": "Centros de coste",
     "en": "Cost centers",
     "pt": "Centros de custo"
+  },
+  "purpose": {
+    "es": "Una fila por cada centro de coste y período de validez: sociedad CO, sociedad, responsable, clase de centro de coste, centro de beneficio y jerarquía estándar. Es el maestro que usan Controlling y Finanzas para asignar gastos; el nombre está en CSKT.",
+    "en": "One row per cost center and validity period: controlling area, company code, person responsible, cost center category, profit center and standard hierarchy. It is the master used by Controlling and Finance to assign expenses; the name is in CSKT.",
+    "pt": "Uma linha por centro de custo e período de validade: área de contabilidade de custos, empresa, responsável, tipo de centro de custo, centro de lucro e hierarquia padrão. É o cadastro usado por Controlling e Finanças para atribuir despesas; o nome está na CSKT."
+  },
+  "synonyms": {
+    "es": [
+      "centro de coste",
+      "centros de costo",
+      "maestro de centros de coste",
+      "CeCo"
+    ],
+    "en": [
+      "cost center",
+      "cost centers",
+      "cost center master",
+      "cost centre"
+    ],
+    "pt": [
+      "centro de custo",
+      "centros de custo",
+      "cadastro de centros de custo"
+    ]
   }
 }

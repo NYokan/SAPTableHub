@@ -8,5 +8,27 @@
     "es": "Asignación de hojas de ruta a equipos",
     "en": "Task list assignments to equipment",
     "pt": "Atribuição de listas de tarefas a equipamentos"
+  },
+  "purpose": {
+    "es": "Indica qué hojas de ruta de mantenimiento (planes de trabajo con operaciones) están asignadas a cada equipo. Sirve para saber qué instrucciones de mantenimiento aplican a una máquina; para ubicaciones técnicas se usa TAPL.",
+    "en": "Shows which maintenance task lists (work plans with operations) are assigned to each piece of equipment. Used to find which maintenance instructions apply to a machine; for functional locations, TAPL is used.",
+    "pt": "Indica quais roteiros de manutenção (planos de trabalho com operações) estão atribuídos a cada equipamento. Serve para saber quais instruções de manutenção se aplicam a uma máquina; para locais de instalação usa-se a TAPL."
+  },
+  "synonyms": {
+    "es": [
+      "hoja de ruta de equipo",
+      "plan de trabajo de equipo",
+      "instrucciones de mantenimiento"
+    ],
+    "en": [
+      "equipment task list",
+      "equipment work plan",
+      "maintenance instructions"
+    ],
+    "pt": [
+      "roteiro do equipamento",
+      "plano de trabalho do equipamento",
+      "instruções de manutenção"
+    ]
   }
 }

@@ -8,5 +8,27 @@
     "es": "Clases de clasificación (descripciones)",
     "en": "Classification classes (descriptions)",
     "pt": "Classes de classificação (descrições)"
+  },
+  "purpose": {
+    "es": "Una fila por clase de clasificación, idioma y palabra clave. La primera palabra clave de cada idioma es la descripción de la clase que se muestra en pantalla.",
+    "en": "One row per classification class, language and keyword. The first keyword in each language is the class description shown on screen.",
+    "pt": "Uma linha por classe de classificação, idioma e palavra-chave. A primeira palavra-chave de cada idioma é a descrição da classe mostrada na tela."
+  },
+  "synonyms": {
+    "es": [
+      "descripción de clase",
+      "palabras clave de clase",
+      "texto de clase"
+    ],
+    "en": [
+      "class description",
+      "class keywords",
+      "class text"
+    ],
+    "pt": [
+      "descrição da classe",
+      "palavras-chave da classe",
+      "texto da classe"
+    ]
   }
 }

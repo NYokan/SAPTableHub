@@ -9,5 +9,27 @@
     "es": "Proveedores: receptores de pago autorizados",
     "en": "Vendors: permitted alternative payees",
     "pt": "Fornecedores: recebedores de pagamento autorizados"
+  },
+  "purpose": {
+    "es": "Una fila por proveedor (y sociedad, si aplica) y receptor de pago autorizado: los otros acreedores a los que se puede pagar en nombre de este proveedor indicándolo en la factura.",
+    "en": "One row per vendor (and company code, if applicable) and permitted payee: the other creditors who may be paid on behalf of this vendor by naming them on the invoice.",
+    "pt": "Uma linha por fornecedor (e empresa, se aplicável) e recebedor de pagamento autorizado: os outros credores que podem receber em nome deste fornecedor quando indicados na fatura."
+  },
+  "synonyms": {
+    "es": [
+      "receptor de pago alternativo",
+      "beneficiario autorizado",
+      "pago a tercero"
+    ],
+    "en": [
+      "alternative payee",
+      "permitted payee",
+      "payment to third party"
+    ],
+    "pt": [
+      "recebedor alternativo",
+      "beneficiário autorizado",
+      "pagamento a terceiro"
+    ]
   }
 }

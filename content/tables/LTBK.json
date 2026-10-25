@@ -9,5 +9,27 @@
     "es": "Necesidades de transporte WM (cabecera)",
     "en": "WM transfer requirements (header)",
     "pt": "Necessidades de transferência WM (cabeçalho)"
+  },
+  "purpose": {
+    "es": "Cabecera de cada necesidad de transporte en Warehouse Management (WM): solicitud de mover material dentro del almacén, creada por ejemplo desde una entrada de mercancías o una orden de fabricación. Las posiciones están en LTBP; de ellas se crean órdenes de transporte (LTAK).",
+    "en": "Header of each transfer requirement in Warehouse Management (WM): a request to move material within the warehouse, created for example from a goods receipt or a production order. Items are in LTBP; transfer orders (LTAK) are created from them.",
+    "pt": "Cabeçalho de cada necessidade de transferência no Warehouse Management (WM): pedido para mover material dentro do depósito, criado por exemplo a partir de uma entrada de mercadorias ou de uma ordem de produção. Os itens estão na LTBP; delas se criam ordens de transferência (LTAK)."
+  },
+  "synonyms": {
+    "es": [
+      "necesidad de transporte",
+      "solicitud de traslado WM",
+      "requerimiento de almacén"
+    ],
+    "en": [
+      "transfer requirement",
+      "WM transfer request",
+      "warehouse requirement"
+    ],
+    "pt": [
+      "necessidade de transferência",
+      "solicitação de movimentação WM",
+      "requisição de depósito"
+    ]
   }
 }

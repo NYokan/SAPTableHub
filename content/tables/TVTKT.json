@@ -8,5 +8,24 @@
     "es": "Clases de transporte: textos",
     "en": "Shipment types: texts",
     "pt": "Tipos de transporte: textos"
+  },
+  "purpose": {
+    "es": "Descripción de cada clase de transporte en cada idioma: una fila por código e idioma. Sirve para mostrar un nombre legible en lugar del código SHTYP en informes; los códigos se definen en TVTK.",
+    "en": "Description of each shipment type in each language: one row per code and language. Use it to show a readable name instead of the SHTYP code in reports; the codes themselves are defined in TVTK.",
+    "pt": "Descrição de cada tipo de transporte em cada idioma: uma linha por código e idioma. Serve para mostrar um nome legível em vez do código SHTYP em relatórios; os códigos são definidos na TVTK."
+  },
+  "synonyms": {
+    "es": [
+      "texto clase de transporte",
+      "SHTYP"
+    ],
+    "en": [
+      "shipment type text",
+      "SHTYP"
+    ],
+    "pt": [
+      "texto tipo de transporte",
+      "SHTYP"
+    ]
   }
 }

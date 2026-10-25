@@ -8,5 +8,29 @@
     "es": "Divisiones",
     "en": "Business areas",
     "pt": "Divisões"
+  },
+  "purpose": {
+    "es": "Las divisiones (business areas): unidades para preparar balances y cuentas de resultados internos por línea de negocio, independientes de la sociedad. Los documentos guardan la división en el campo GSBER.",
+    "en": "The business areas: units used to prepare internal balance sheets and income statements by line of business, independent of the company code. Documents store the business area in field GSBER.",
+    "pt": "As divisões (business areas): unidades para preparar balanços e demonstrações de resultados internos por linha de negócio, independentes da empresa. Os documentos guardam a divisão no campo GSBER."
+  },
+  "synonyms": {
+    "es": [
+      "división",
+      "business area",
+      "línea de negocio",
+      "GSBER"
+    ],
+    "en": [
+      "business area",
+      "line of business",
+      "GSBER"
+    ],
+    "pt": [
+      "divisão",
+      "business area",
+      "linha de negócio",
+      "GSBER"
+    ]
   }
 }

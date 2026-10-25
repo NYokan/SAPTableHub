@@ -8,5 +8,27 @@
     "es": "Tipos de certificado",
     "en": "Certificate types",
     "pt": "Tipos de certificado"
+  },
+  "purpose": {
+    "es": "Tipos de certificado de calidad que se pueden exigir al proveedor en compras (por ejemplo, certificado de análisis o de conformidad), con cómo se controla su recepción.",
+    "en": "Types of quality certificate that can be required from the vendor in purchasing (for example, certificate of analysis or of compliance), with how their receipt is controlled.",
+    "pt": "Tipos de certificado de qualidade que podem ser exigidos do fornecedor em compras (por exemplo, certificado de análise ou de conformidade), com como seu recebimento é controlado."
+  },
+  "synonyms": {
+    "es": [
+      "tipo de certificado",
+      "certificado del proveedor",
+      "certificado de conformidad"
+    ],
+    "en": [
+      "certificate type",
+      "vendor certificate",
+      "certificate of compliance"
+    ],
+    "pt": [
+      "tipo de certificado",
+      "certificado do fornecedor",
+      "certificado de conformidade"
+    ]
   }
 }

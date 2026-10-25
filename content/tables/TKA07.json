@@ -8,5 +8,27 @@
     "es": "Versiones por ejercicio",
     "en": "Versions per fiscal year",
     "pt": "Versões por exercício"
+  },
+  "purpose": {
+    "es": "Ajustes de cada versión de Controlling por sociedad CO y ejercicio: por ejemplo, si la versión está bloqueada, si el plan está integrado y el tipo de cambio que usa. Complementa la definición de versiones de TKVS.",
+    "en": "Settings of each Controlling version per controlling area and fiscal year: for example, whether the version is locked, whether planning is integrated and which exchange rate type it uses. It complements the version definition in TKVS.",
+    "pt": "Ajustes de cada versão do Controlling por área de contabilidade de custos e exercício: por exemplo, se a versão está bloqueada, se o plano é integrado e o tipo de câmbio usado. Complementa a definição de versões da TKVS."
+  },
+  "synonyms": {
+    "es": [
+      "versión por ejercicio",
+      "bloqueo de versión",
+      "plan integrado"
+    ],
+    "en": [
+      "version per fiscal year",
+      "version lock",
+      "integrated planning"
+    ],
+    "pt": [
+      "versão por exercício",
+      "bloqueio de versão",
+      "plano integrado"
+    ]
   }
 }

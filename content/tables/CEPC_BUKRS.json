@@ -8,5 +8,27 @@
     "es": "Centros de beneficio por sociedad",
     "en": "Profit centers per company code",
     "pt": "Centros de lucro por empresa"
+  },
+  "purpose": {
+    "es": "Una fila por cada asignación de un centro de beneficio a una sociedad: indica en qué sociedades se puede usar cada centro de beneficio. Complementa el maestro CEPC.",
+    "en": "One row per assignment of a profit center to a company code: it shows in which company codes each profit center can be used. It complements the CEPC master.",
+    "pt": "Uma linha por atribuição de um centro de lucro a uma empresa: indica em quais empresas cada centro de lucro pode ser usado. Complementa o cadastro CEPC."
+  },
+  "synonyms": {
+    "es": [
+      "centro de beneficio por sociedad",
+      "asignación a sociedad",
+      "sociedades del centro de beneficio"
+    ],
+    "en": [
+      "profit center company code",
+      "company code assignment",
+      "profit center per company"
+    ],
+    "pt": [
+      "centro de lucro por empresa",
+      "atribuição à empresa",
+      "empresas do centro de lucro"
+    ]
   }
 }

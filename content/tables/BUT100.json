@@ -8,5 +8,28 @@
     "es": "Socios de negocio (roles)",
     "en": "Business partners (roles)",
     "pt": "Parceiros de negócios (funções)"
+  },
+  "purpose": {
+    "es": "Una fila por cada rol que tiene un socio de negocio, por ejemplo cliente, proveedor o persona de contacto. Sirve para saber como qué actúa cada socio; los roles posibles están en TB003.",
+    "en": "One row per role a business partner has, for example customer, vendor or contact person. It tells in what capacity each partner acts; the possible roles are in TB003.",
+    "pt": "Uma linha por função que um parceiro de negócios tem, por exemplo cliente, fornecedor ou pessoa de contato. Serve para saber em que papel cada parceiro atua; as funções possíveis estão na TB003."
+  },
+  "synonyms": {
+    "es": [
+      "roles del socio",
+      "rol BP",
+      "función de interlocutor",
+      "socio como cliente o proveedor"
+    ],
+    "en": [
+      "BP roles",
+      "business partner role",
+      "partner role assignment"
+    ],
+    "pt": [
+      "funções do parceiro",
+      "função BP",
+      "papel do parceiro de negócios"
+    ]
   }
 }

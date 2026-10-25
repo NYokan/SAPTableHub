@@ -8,5 +8,30 @@
     "es": "Proveedores: partidas abiertas",
     "en": "Vendors: open items",
     "pt": "Fornecedores: partidas em aberto"
+  },
+  "purpose": {
+    "es": "Las partidas abiertas de proveedores: facturas, abonos y anticipos aún no pagados ni compensados, una fila por línea contable. Es la base de la antigüedad de deudas y de la propuesta de pagos; al compensarse pasan a BSAK. En S/4HANA es una vista sobre ACDOCA/BSEG.",
+    "en": "Open vendor items: invoices, credit memos and down payments not yet paid or cleared, one row per accounting line. It is the basis for AP aging and payment proposals; once cleared they move to BSAK. In S/4HANA it is a view over ACDOCA/BSEG.",
+    "pt": "As partidas em aberto de fornecedores: faturas, créditos e adiantamentos ainda não pagos nem compensados, uma linha por item contábil. É a base do aging de fornecedores e da proposta de pagamento; ao serem compensadas passam para a BSAK. No S/4HANA é uma visão sobre ACDOCA/BSEG."
+  },
+  "synonyms": {
+    "es": [
+      "partidas abiertas de proveedores",
+      "cuentas por pagar",
+      "facturas pendientes de pago",
+      "antigüedad de deudas"
+    ],
+    "en": [
+      "vendor open items",
+      "accounts payable",
+      "AP aging",
+      "unpaid vendor invoices"
+    ],
+    "pt": [
+      "partidas em aberto de fornecedores",
+      "contas a pagar",
+      "faturas a pagar",
+      "aging de fornecedores"
+    ]
   }
 }

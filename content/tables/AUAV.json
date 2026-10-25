@@ -8,5 +8,27 @@
     "es": "Documentos de liquidación (operaciones)",
     "en": "Settlement documents (transactions)",
     "pt": "Documentos de liquidação (transações)"
+  },
+  "purpose": {
+    "es": "Una fila por cada operación empresarial incluida en un documento de liquidación (por ejemplo, liquidación de costes reales o de plan). Sirve para saber qué tipo de valores se liquidaron en cada ejecución.",
+    "en": "One row per business transaction included in a settlement document (for example, settlement of actual or plan costs). It shows what kind of values were settled in each run.",
+    "pt": "Uma linha por operação de negócio incluída em um documento de apropriação (por exemplo, apropriação de custos reais ou de plano). Mostra que tipo de valores foram apropriados em cada execução."
+  },
+  "synonyms": {
+    "es": [
+      "operaciones de liquidación",
+      "tipo de liquidación",
+      "liquidación real"
+    ],
+    "en": [
+      "settlement transactions",
+      "settlement type",
+      "actual settlement"
+    ],
+    "pt": [
+      "operações de apropriação",
+      "tipo de apropriação",
+      "apropriação real"
+    ]
   }
 }

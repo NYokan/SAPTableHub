@@ -8,5 +8,30 @@
     "es": "Motivos de diferencias de pago",
     "en": "Payment difference reason codes",
     "pt": "Motivos de diferenças de pagamento"
+  },
+  "purpose": {
+    "es": "Los motivos de diferencias de pago de cada sociedad: códigos que explican por qué un cobro no coincide con la factura (descuento indebido, flete, reclamación…) y si la diferencia se lleva a una cuenta aparte.",
+    "en": "The payment difference reason codes of each company code: codes that explain why a payment does not match the invoice (unauthorized discount, freight, dispute…) and whether the difference goes to a separate account.",
+    "pt": "Os motivos de diferenças de pagamento de cada empresa: códigos que explicam por que um recebimento não bate com a fatura (desconto indevido, frete, reclamação…) e se a diferença vai para uma conta separada."
+  },
+  "synonyms": {
+    "es": [
+      "motivo de diferencia de pago",
+      "código de motivo",
+      "pago parcial",
+      "diferencia de cobro"
+    ],
+    "en": [
+      "reason code",
+      "payment difference reason",
+      "short payment",
+      "residual item reason"
+    ],
+    "pt": [
+      "motivo de diferença de pagamento",
+      "código de motivo",
+      "pagamento parcial",
+      "diferença de recebimento"
+    ]
   }
 }

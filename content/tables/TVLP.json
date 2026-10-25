@@ -8,5 +8,27 @@
     "es": "Tipos de posición de entrega",
     "en": "Delivery item categories",
     "pt": "Categorias de item de remessa"
+  },
+  "purpose": {
+    "es": "Configuración de los tipos de posición de entrega (campo PSTYV en LIPS): si la posición es relevante para picking, si comprueba cantidad cero o mínima y cómo se comporta en la entrega.",
+    "en": "Configuration of delivery item categories (field PSTYV in LIPS): whether the item is relevant for picking, whether zero or minimum quantity is checked and how it behaves in the delivery.",
+    "pt": "Configuração das categorias de item de remessa (campo PSTYV na LIPS): se o item é relevante para separação, se verifica quantidade zero ou mínima e como se comporta na remessa."
+  },
+  "synonyms": {
+    "es": [
+      "tipo de posición de entrega",
+      "PSTYV entrega",
+      "relevancia para picking"
+    ],
+    "en": [
+      "delivery item category",
+      "delivery PSTYV",
+      "picking relevance"
+    ],
+    "pt": [
+      "categoria de item de remessa",
+      "PSTYV remessa",
+      "relevância para separação"
+    ]
   }
 }

@@ -9,5 +9,27 @@
     "es": "Planes de entrega: historial de repartos",
     "en": "Scheduling agreements: schedule line history",
     "pt": "Programas de remessa: histórico de divisões"
+  },
+  "purpose": {
+    "es": "Historial de los repartos de planes de entrega: versiones anteriores de las fechas y cantidades de EKET, guardadas cuando se generan llamadas. Sirve para ver cómo cambió el programa de entregas en el tiempo.",
+    "en": "History of scheduling agreement schedule lines: earlier versions of the EKET dates and quantities, saved when releases are generated. It shows how the delivery schedule changed over time.",
+    "pt": "Histórico das divisões de programas de remessas: versões anteriores das datas e quantidades da EKET, gravadas quando liberações são geradas. Mostra como o programa de entregas mudou ao longo do tempo."
+  },
+  "synonyms": {
+    "es": [
+      "historial de repartos",
+      "cambios en programa de entregas",
+      "versiones de repartos"
+    ],
+    "en": [
+      "schedule line history",
+      "delivery schedule changes",
+      "schedule line versions"
+    ],
+    "pt": [
+      "histórico de divisões",
+      "alterações no programa de remessas",
+      "versões de divisões"
+    ]
   }
 }

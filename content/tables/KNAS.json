@@ -8,5 +8,27 @@
     "es": "Clientes: números de IVA adicionales",
     "en": "Customers: additional VAT numbers",
     "pt": "Clientes: números de IVA adicionais"
+  },
+  "purpose": {
+    "es": "Números de IVA adicionales de un cliente para otros países de la UE en los que está registrado: una fila por cliente y país. El número de IVA principal está en KNA1.",
+    "en": "Additional VAT registration numbers of a customer for other EU countries where it is registered: one row per customer and country. The main VAT number is in KNA1.",
+    "pt": "Números de IVA adicionais de um cliente para outros países da UE em que está registrado: uma linha por cliente e país. O número de IVA principal fica na KNA1."
+  },
+  "synonyms": {
+    "es": [
+      "número de IVA intracomunitario",
+      "NIF IVA por país",
+      "VAT de cliente"
+    ],
+    "en": [
+      "VAT registration number",
+      "EU VAT number",
+      "customer VAT ID"
+    ],
+    "pt": [
+      "número de IVA intracomunitário",
+      "IVA por país",
+      "VAT do cliente"
+    ]
   }
 }

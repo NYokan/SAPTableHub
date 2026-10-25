@@ -9,5 +9,27 @@
     "es": "Grupos de liberación",
     "en": "Release groups",
     "pt": "Grupos de liberação"
+  },
+  "purpose": {
+    "es": "Una fila por cada grupo de liberación, con el objeto al que se aplica (solicitudes de pedido u otros documentos de compras) y la clase de clasificación que determina la estrategia. Agrupa códigos y estrategias de liberación.",
+    "en": "One row per release group, with the object it applies to (purchase requisitions or other purchasing documents) and the classification class that determines the strategy. It groups release codes and strategies.",
+    "pt": "Uma linha por grupo de liberação, com o objeto ao qual se aplica (requisições de compra ou outros documentos de compras) e a classe de classificação que determina a estratégia. Agrupa códigos e estratégias de liberação."
+  },
+  "synonyms": {
+    "es": [
+      "grupo de liberación",
+      "aprobación de compras",
+      "objeto de liberación"
+    ],
+    "en": [
+      "release group",
+      "purchasing approval",
+      "release object"
+    ],
+    "pt": [
+      "grupo de liberação",
+      "aprovação de compras",
+      "objeto de liberação"
+    ]
   }
 }

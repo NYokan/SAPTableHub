@@ -8,5 +8,24 @@
     "es": "Indicadores de retención de impuestos: textos",
     "en": "Withholding tax codes: texts",
     "pt": "Códigos de imposto retido na fonte: textos"
+  },
+  "purpose": {
+    "es": "Nombre de cada indicador de retención de impuestos en cada idioma, por país y tipo de retención, para mostrar una descripción legible en lugar del código de T059Z.",
+    "en": "Name of each withholding tax code in each language, per country and withholding tax type, to show a readable description instead of the code from T059Z.",
+    "pt": "Nome de cada código de retenção na fonte em cada idioma, por país e tipo de retenção, para mostrar uma descrição legível em vez do código da T059Z."
+  },
+  "synonyms": {
+    "es": [
+      "texto indicador de retención",
+      "descripción código de retención"
+    ],
+    "en": [
+      "withholding tax code text",
+      "withholding code description"
+    ],
+    "pt": [
+      "texto do código de retenção",
+      "descrição do código de retenção"
+    ]
   }
 }

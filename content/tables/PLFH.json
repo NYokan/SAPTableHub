@@ -9,5 +9,27 @@
     "es": "Medios auxiliares de fabricación en hojas de ruta",
     "en": "Production resources/tools in task lists",
     "pt": "Recursos auxiliares de produção em roteiros"
+  },
+  "purpose": {
+    "es": "Una fila por cada medio auxiliar de fabricación (herramienta, utillaje, programa NC, documento) asignado a una operación de una hoja de ruta, receta o plan de mantenimiento, con cantidad y uso. Al crear la orden se copian a AFFH.",
+    "en": "One row per production resource/tool (tool, jig, NC program, document) assigned to an operation in a routing, recipe or maintenance task list, with quantity and usage. When the order is created they are copied to AFFH.",
+    "pt": "Uma linha por recurso/ferramenta de produção (ferramenta, gabarito, programa NC, documento) atribuído a uma operação de um roteiro, receita ou plano de manutenção, com quantidade e uso. Ao criar a ordem são copiados para a AFFH."
+  },
+  "synonyms": {
+    "es": [
+      "herramientas de hoja de ruta",
+      "medios auxiliares en ruta",
+      "PRT de hoja de ruta"
+    ],
+    "en": [
+      "routing tools",
+      "PRT in task lists",
+      "task list tooling"
+    ],
+    "pt": [
+      "ferramentas do roteiro",
+      "recursos de produção no roteiro",
+      "PRT do roteiro"
+    ]
   }
 }

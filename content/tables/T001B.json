@@ -8,5 +8,30 @@
     "es": "Períodos contables abiertos",
     "en": "Open posting periods",
     "pt": "Períodos contábeis abertos"
+  },
+  "purpose": {
+    "es": "Los períodos contables abiertos: para cada variante de períodos contables, tipo de cuenta y rango de cuentas, qué períodos y ejercicios admiten contabilizaciones. Es lo que se toca en el cierre mensual para abrir y cerrar meses.",
+    "en": "The open posting periods: for each posting period variant, account type and account range, which periods and fiscal years accept postings. It is what gets changed at month-end close to open and close periods.",
+    "pt": "Os períodos contábeis abertos: para cada variante de períodos contábeis, tipo de conta e intervalo de contas, quais períodos e exercícios aceitam lançamentos. É o que se altera no fechamento mensal para abrir e fechar meses."
+  },
+  "synonyms": {
+    "es": [
+      "períodos contables abiertos",
+      "abrir período",
+      "cierre mensual",
+      "OB52"
+    ],
+    "en": [
+      "open posting periods",
+      "open period",
+      "month-end close",
+      "OB52"
+    ],
+    "pt": [
+      "períodos contábeis abertos",
+      "abrir período",
+      "fechamento mensal",
+      "OB52"
+    ]
   }
 }

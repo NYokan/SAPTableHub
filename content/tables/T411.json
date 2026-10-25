@@ -8,5 +8,27 @@
     "es": "Utilizaciones de hojas de ruta",
     "en": "Task list usages",
     "pt": "Utilizações de roteiros"
+  },
+  "purpose": {
+    "es": "Configuración de las utilizaciones de hojas de ruta (por ejemplo, producción, ingeniería, universal): indica para qué fin se puede usar una hoja de ruta. Una fila por utilización.",
+    "en": "Configuration of task list usages (for example, production, engineering, universal): it states for which purpose a task list can be used. One row per usage.",
+    "pt": "Configuração das utilizações de roteiros (por exemplo, produção, engenharia, universal): indica para que finalidade um roteiro pode ser usado. Uma linha por utilização."
+  },
+  "synonyms": {
+    "es": [
+      "utilización de hoja de ruta",
+      "uso de ruta",
+      "finalidad de la ruta"
+    ],
+    "en": [
+      "task list usage",
+      "routing usage",
+      "routing purpose"
+    ],
+    "pt": [
+      "utilização do roteiro",
+      "uso do roteiro",
+      "finalidade do roteiro"
+    ]
   }
 }

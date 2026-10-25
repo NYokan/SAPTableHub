@@ -9,5 +9,30 @@
     "es": "Planes de entrega: documentación de llamadas",
     "en": "Scheduling agreements: release documentation",
     "pt": "Programas de remessa: documentação de liberações"
+  },
+  "purpose": {
+    "es": "Repartos de cada llamada (release) enviada al proveedor en un plan de entrega: fechas y cantidades tal como se comunicaron en cada versión. Permite comparar lo que se pidió en cada llamada; la cabecera de la llamada está en EKEK.",
+    "en": "Schedule lines of each release sent to the vendor under a scheduling agreement: dates and quantities as communicated in each version. It allows comparing what was requested in each release; the release header is in EKEK.",
+    "pt": "Divisões de cada liberação (release) enviada ao fornecedor em um programa de remessas: datas e quantidades como foram comunicadas em cada versão. Permite comparar o que foi solicitado em cada liberação; o cabeçalho da liberação está na EKEK."
+  },
+  "synonyms": {
+    "es": [
+      "llamadas de plan de entrega",
+      "documentación de llamadas",
+      "historial de releases",
+      "programa de entregas enviado"
+    ],
+    "en": [
+      "scheduling agreement releases",
+      "release documentation",
+      "delivery schedule history",
+      "forecast release"
+    ],
+    "pt": [
+      "liberações de programa de remessas",
+      "documentação de liberações",
+      "histórico de releases",
+      "programa enviado"
+    ]
   }
 }

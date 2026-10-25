@@ -8,5 +8,27 @@
     "es": "Estructura de los códigos de jurisdicción fiscal",
     "en": "Tax jurisdiction code structure",
     "pt": "Estrutura dos códigos de domicílio fiscal"
+  },
+  "purpose": {
+    "es": "Para cada esquema de cálculo de impuestos con jurisdicciones (por ejemplo, EE. UU.), la estructura del código de jurisdicción fiscal: cuántos caracteres corresponden a cada nivel (estado, condado, ciudad).",
+    "en": "For each tax procedure that uses jurisdictions (for example, the USA), the structure of the tax jurisdiction code: how many characters belong to each level (state, county, city).",
+    "pt": "Para cada esquema de cálculo de impostos com jurisdições (por exemplo, EUA), a estrutura do código de jurisdição fiscal: quantos caracteres correspondem a cada nível (estado, condado, cidade)."
+  },
+  "synonyms": {
+    "es": [
+      "estructura de jurisdicción fiscal",
+      "niveles de jurisdicción",
+      "sales tax EE. UU."
+    ],
+    "en": [
+      "tax jurisdiction structure",
+      "jurisdiction levels",
+      "US sales tax"
+    ],
+    "pt": [
+      "estrutura de jurisdição fiscal",
+      "níveis de jurisdição",
+      "sales tax EUA"
+    ]
   }
 }

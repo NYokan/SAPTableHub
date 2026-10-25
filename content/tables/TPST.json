@@ -8,5 +8,27 @@
     "es": "Asignación de listas de materiales a ubicaciones técnicas",
     "en": "Bill of material links to functional locations",
     "pt": "Atribuição de listas técnicas a locais de instalação"
+  },
+  "purpose": {
+    "es": "Enlace entre cada ubicación técnica y su lista de materiales, por centro. Es el equivalente de EQST para ubicaciones técnicas; los componentes de la lista están en STPO.",
+    "en": "Link between each functional location and its bill of material, per plant. It is the EQST equivalent for functional locations; the list components are in STPO.",
+    "pt": "Ligação entre cada local de instalação e sua lista técnica, por centro. É o equivalente da EQST para locais de instalação; os componentes da lista estão na STPO."
+  },
+  "synonyms": {
+    "es": [
+      "lista de materiales de ubicación técnica",
+      "repuestos de ubicación técnica",
+      "BOM de ubicación"
+    ],
+    "en": [
+      "functional location BOM",
+      "functional location spare parts",
+      "location bill of material"
+    ],
+    "pt": [
+      "lista técnica do local de instalação",
+      "peças do local de instalação",
+      "BOM do local"
+    ]
   }
 }

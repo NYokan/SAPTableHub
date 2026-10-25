@@ -8,5 +8,27 @@
     "es": "Clases de actividad de mantenimiento",
     "en": "Maintenance activity types",
     "pt": "Tipos de atividade de manutenção"
+  },
+  "purpose": {
+    "es": "Lista de clases de actividad de mantenimiento (por ejemplo, inspección, reparación, mejora) que se indican en la orden para clasificar el tipo de trabajo y analizar costes por clase.",
+    "en": "List of maintenance activity types (for example, inspection, repair, improvement) entered in the order to classify the type of work and analyse costs by type.",
+    "pt": "Lista de tipos de atividade de manutenção (por exemplo, inspeção, reparo, melhoria) informados na ordem para classificar o tipo de trabalho e analisar custos por tipo."
+  },
+  "synonyms": {
+    "es": [
+      "clase de actividad de mantenimiento",
+      "tipo de trabajo de mantenimiento",
+      "ILART"
+    ],
+    "en": [
+      "maintenance activity type",
+      "maintenance work type",
+      "ILART"
+    ],
+    "pt": [
+      "tipo de atividade de manutenção",
+      "tipo de trabalho de manutenção",
+      "ILART"
+    ]
   }
 }

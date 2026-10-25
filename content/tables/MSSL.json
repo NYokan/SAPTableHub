@@ -8,5 +8,27 @@
     "es": "Stock especial en proveedor (totales)",
     "en": "Special stock at vendor (totals)",
     "pt": "Estoque especial no fornecedor (totais)"
+  },
+  "purpose": {
+    "es": "Totales del stock especial en proveedor (material entregado a subcontratistas) por material, centro y proveedor, sumando lotes. El detalle está en MSLB.",
+    "en": "Totals of special stock at vendor (material provided to subcontractors) by material, plant and vendor, summed across batches. Detail is in MSLB.",
+    "pt": "Totais do estoque especial no fornecedor (material entregue a subcontratados) por material, centro e fornecedor, somando lotes. O detalhe está na MSLB."
+  },
+  "synonyms": {
+    "es": [
+      "total stock en subcontratista",
+      "stock O total",
+      "material en subcontratación"
+    ],
+    "en": [
+      "subcontractor stock total",
+      "special stock O total",
+      "material at subcontractor"
+    ],
+    "pt": [
+      "total estoque no subcontratado",
+      "estoque O total",
+      "material em subcontratação"
+    ]
   }
 }

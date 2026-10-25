@@ -8,5 +8,27 @@
     "es": "Centros de planificación de mantenimiento",
     "en": "Maintenance planning plants",
     "pt": "Centros de planejamento de manutenção"
+  },
+  "purpose": {
+    "es": "Lista de centros de planificación de mantenimiento: los centros donde se planifican las tareas de mantenimiento (órdenes, planes, hojas de ruta), que pueden ser distintos del centro donde están los equipos.",
+    "en": "List of maintenance planning plants: plants where maintenance work is planned (orders, plans, task lists), which may differ from the plant where the equipment is located.",
+    "pt": "Lista de centros de planejamento de manutenção: os centros onde as tarefas de manutenção são planejadas (ordens, planos, roteiros), que podem ser diferentes do centro onde estão os equipamentos."
+  },
+  "synonyms": {
+    "es": [
+      "centro de planificación",
+      "centro de planificación de mantenimiento",
+      "planta de mantenimiento"
+    ],
+    "en": [
+      "planning plant",
+      "maintenance planning plant",
+      "maintenance plant"
+    ],
+    "pt": [
+      "centro de planejamento",
+      "centro de planejamento de manutenção",
+      "planta de manutenção"
+    ]
   }
 }

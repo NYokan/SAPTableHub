@@ -8,5 +8,30 @@
     "es": "Clientes: partidas abiertas",
     "en": "Customers: open items",
     "pt": "Clientes: partidas em aberto"
+  },
+  "purpose": {
+    "es": "Las partidas abiertas de clientes: facturas, abonos y anticipos aún no cobrados ni compensados, una fila por línea contable. Es la base de la antigüedad de saldos de clientes; al compensarse pasan a BSAD. En S/4HANA es una vista sobre ACDOCA/BSEG.",
+    "en": "Open customer items: invoices, credit memos and down payments not yet collected or cleared, one row per accounting line. It is the basis for customer aging; once cleared they move to BSAD. In S/4HANA it is a view over ACDOCA/BSEG.",
+    "pt": "As partidas em aberto de clientes: faturas, créditos e adiantamentos ainda não recebidos nem compensados, uma linha por item contábil. É a base do aging de clientes; ao serem compensadas passam para a BSAD. No S/4HANA é uma visão sobre ACDOCA/BSEG."
+  },
+  "synonyms": {
+    "es": [
+      "partidas abiertas de clientes",
+      "cuentas por cobrar",
+      "antigüedad de saldos",
+      "facturas pendientes de cobro"
+    ],
+    "en": [
+      "customer open items",
+      "accounts receivable",
+      "AR aging",
+      "unpaid customer invoices"
+    ],
+    "pt": [
+      "partidas em aberto de clientes",
+      "contas a receber",
+      "aging de clientes",
+      "faturas a receber"
+    ]
   }
 }

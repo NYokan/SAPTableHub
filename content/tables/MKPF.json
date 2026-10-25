@@ -9,5 +9,33 @@
     "es": "Documentos de material (cabecera)",
     "en": "Material documents (header)",
     "pt": "Documentos de material (cabeçalho)"
+  },
+  "purpose": {
+    "es": "Cabecera de cada documento de material, que se crea con cada movimiento de mercancías (entrada, salida, traspaso): fecha de documento y de contabilización, usuario y transacción. Las posiciones están en MSEG; en S/4HANA ambas se sustituyen por MATDOC.",
+    "en": "Header of each material document, created with every goods movement (receipt, issue, transfer): document and posting date, user and transaction. Items are in MSEG; in S/4HANA both are replaced by MATDOC.",
+    "pt": "Cabeçalho de cada documento de material, criado a cada movimento de mercadorias (entrada, saída, transferência): data do documento e de lançamento, usuário e transação. Os itens estão na MSEG; no S/4HANA ambas são substituídas pela MATDOC."
+  },
+  "synonyms": {
+    "es": [
+      "documento de material",
+      "movimiento de mercancías",
+      "entrada de mercancías",
+      "salida de mercancías",
+      "cabecera de movimiento"
+    ],
+    "en": [
+      "material document",
+      "goods movement",
+      "goods receipt",
+      "goods issue",
+      "movement header"
+    ],
+    "pt": [
+      "documento de material",
+      "movimento de mercadorias",
+      "entrada de mercadorias",
+      "saída de mercadorias",
+      "cabeçalho do movimento"
+    ]
   }
 }

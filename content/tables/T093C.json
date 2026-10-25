@@ -8,5 +8,27 @@
     "es": "Activos fijos: parámetros por sociedad",
     "en": "Fixed assets: company code settings",
     "pt": "Ativos fixos: parâmetros por empresa"
+  },
+  "purpose": {
+    "es": "Una fila por sociedad que usa contabilidad de activos fijos: plan de valoración asignado, ejercicio en curso de activos, último período de amortización contabilizado y otros parámetros generales.",
+    "en": "One row per company code that uses asset accounting: assigned chart of depreciation, current asset fiscal year, last posted depreciation period and other general settings.",
+    "pt": "Uma linha por empresa que usa contabilidade de ativos imobilizados: plano de avaliação atribuído, exercício atual de ativos, último período de depreciação lançado e outros parâmetros gerais."
+  },
+  "synonyms": {
+    "es": [
+      "sociedad en activos fijos",
+      "plan de valoración por sociedad",
+      "último período amortizado"
+    ],
+    "en": [
+      "asset accounting company code",
+      "chart of depreciation assignment",
+      "last depreciation period"
+    ],
+    "pt": [
+      "empresa em ativos imobilizados",
+      "plano de avaliação por empresa",
+      "último período depreciado"
+    ]
   }
 }

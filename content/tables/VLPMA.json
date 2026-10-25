@@ -8,5 +8,24 @@
     "es": "Índice de entregas por material",
     "en": "Delivery index by material",
     "pt": "Índice de remessas por material"
+  },
+  "purpose": {
+    "es": "Índice de entregas por material: una fila por posición de entrega y material, con fecha y cliente. Permite buscar rápido en qué entregas aparece un material sin recorrer LIPS.",
+    "en": "Index of deliveries by material: one row per delivery item and material, with date and customer. It allows a quick search of which deliveries contain a material without scanning LIPS.",
+    "pt": "Índice de remessas por material: uma linha por item de remessa e material, com data e cliente. Permite buscar rapidamente em quais remessas aparece um material sem percorrer a LIPS."
+  },
+  "synonyms": {
+    "es": [
+      "entregas por material",
+      "índice de entregas por material"
+    ],
+    "en": [
+      "deliveries by material",
+      "delivery index by material"
+    ],
+    "pt": [
+      "remessas por material",
+      "índice de remessas por material"
+    ]
   }
 }

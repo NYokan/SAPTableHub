@@ -8,5 +8,30 @@
     "es": "Compras: versiones de solicitudes y pedidos",
     "en": "Purchasing: requisition and order versions",
     "pt": "Compras: versões de requisições e pedidos"
+  },
+  "purpose": {
+    "es": "Una fila por cada versión de un documento de compras (solicitud de pedido, pedido u otro) cuando está activa la gestión de versiones: número de versión, motivo del cambio, quién y cuándo. Permite seguir las renegociaciones de un pedido.",
+    "en": "One row per version of a purchasing document (requisition, order or other) when version management is active: version number, reason for change, who and when. It lets you track renegotiations of an order.",
+    "pt": "Uma linha por versão de um documento de compras (requisição, pedido ou outro) quando o gerenciamento de versões está ativo: número da versão, motivo da alteração, quem e quando. Permite acompanhar renegociações de um pedido."
+  },
+  "synonyms": {
+    "es": [
+      "versiones del pedido",
+      "gestión de versiones",
+      "modificaciones de pedido",
+      "versión de compra"
+    ],
+    "en": [
+      "PO versions",
+      "version management",
+      "order revisions",
+      "purchasing version"
+    ],
+    "pt": [
+      "versões do pedido",
+      "gerenciamento de versões",
+      "revisões do pedido",
+      "versão de compra"
+    ]
   }
 }

@@ -8,5 +8,24 @@
     "es": "Tipos de posición de entrega: textos",
     "en": "Delivery item categories: texts",
     "pt": "Categorias de item de remessa: textos"
+  },
+  "purpose": {
+    "es": "Descripción de cada tipo de posición de entrega en cada idioma: una fila por código e idioma. Sirve para mostrar un nombre legible en lugar del código PSTYV en informes; los códigos se definen en TVLP.",
+    "en": "Description of each delivery item category in each language: one row per code and language. Use it to show a readable name instead of the PSTYV code in reports; the codes themselves are defined in TVLP.",
+    "pt": "Descrição de cada categoria de item de remessa em cada idioma: uma linha por código e idioma. Serve para mostrar um nome legível em vez do código PSTYV em relatórios; os códigos são definidos na TVLP."
+  },
+  "synonyms": {
+    "es": [
+      "texto tipo de posición de entrega",
+      "PSTYV entrega"
+    ],
+    "en": [
+      "delivery item category text",
+      "delivery PSTYV"
+    ],
+    "pt": [
+      "texto categoria de item de remessa",
+      "PSTYV remessa"
+    ]
   }
 }

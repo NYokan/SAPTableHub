@@ -8,5 +8,27 @@
     "es": "Parámetros de planificación de necesidades por centro",
     "en": "MRP control parameters per plant",
     "pt": "Parâmetros de planejamento de necessidades por centro"
+  },
+  "purpose": {
+    "es": "Parámetros de planificación de necesidades a nivel de centro: una fila por centro con ajustes generales del MRP, como rangos de números de órdenes previsionales y solicitudes de pedido y otras opciones de control de la planificación.",
+    "en": "MRP parameters at plant level: one row per plant with general MRP settings, such as number ranges for planned orders and purchase requisitions and other planning control options.",
+    "pt": "Parâmetros de planejamento de necessidades no nível de centro: uma linha por centro com ajustes gerais do MRP, como intervalos de numeração de ordens planejadas e requisições de compra e outras opções de controle do planejamento."
+  },
+  "synonyms": {
+    "es": [
+      "parámetros MRP del centro",
+      "configuración MRP",
+      "planificación por centro"
+    ],
+    "en": [
+      "plant MRP parameters",
+      "MRP configuration",
+      "plant planning settings"
+    ],
+    "pt": [
+      "parâmetros MRP do centro",
+      "configuração MRP",
+      "planejamento por centro"
+    ]
   }
 }

@@ -9,5 +9,30 @@
     "es": "Estructuras de balance",
     "en": "Financial statement versions",
     "pt": "Estruturas de balanço"
+  },
+  "purpose": {
+    "es": "Las estructuras de balance (versiones de estados financieros): cada una define cómo se agrupan las cuentas de mayor en las partidas del balance y la cuenta de resultados. Se usan para informes financieros.",
+    "en": "The financial statement versions: each one defines how G/L accounts are grouped into the lines of the balance sheet and the income statement. They are used for financial reporting.",
+    "pt": "As estruturas de balanço (versões de demonstrações financeiras): cada uma define como as contas do razão são agrupadas nas linhas do balanço e da demonstração de resultados. São usadas em relatórios financeiros."
+  },
+  "synonyms": {
+    "es": [
+      "estructura de balance",
+      "balance y resultados",
+      "versión de estados financieros",
+      "FSV"
+    ],
+    "en": [
+      "financial statement version",
+      "balance sheet structure",
+      "P&L structure",
+      "FSV"
+    ],
+    "pt": [
+      "estrutura de balanço",
+      "balanço e resultados",
+      "versão de demonstrações financeiras",
+      "FSV"
+    ]
   }
 }

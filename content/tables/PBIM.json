@@ -8,5 +8,33 @@
     "es": "Necesidades primarias por material",
     "en": "Independent requirements per material",
     "pt": "Necessidades independentes por material"
+  },
+  "purpose": {
+    "es": "Una fila por material, centro, versión y tipo de necesidad con necesidades primarias planificadas (el plan de demanda o pronóstico que alimenta el MRP). Las cantidades por fecha están en PBED.",
+    "en": "One row per material, plant, version and requirements type with planned independent requirements (the demand plan or forecast that feeds MRP). The quantities by date are in PBED.",
+    "pt": "Uma linha por material, centro, versão e tipo de necessidade com necessidades independentes planejadas (o plano de demanda ou previsão que alimenta o MRP). As quantidades por data estão na PBED."
+  },
+  "synonyms": {
+    "es": [
+      "necesidades primarias",
+      "plan de demanda",
+      "pronóstico de ventas",
+      "MD61",
+      "plan de producción"
+    ],
+    "en": [
+      "planned independent requirements",
+      "demand plan",
+      "sales forecast",
+      "MD61",
+      "PIR"
+    ],
+    "pt": [
+      "necessidades independentes",
+      "plano de demanda",
+      "previsão de vendas",
+      "MD61",
+      "plano de produção"
+    ]
   }
 }

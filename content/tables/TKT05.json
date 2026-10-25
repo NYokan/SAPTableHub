@@ -8,5 +8,24 @@
     "es": "Clases de centro de coste (textos)",
     "en": "Cost center categories (texts)",
     "pt": "Categorias de centro de custo (textos)"
+  },
+  "purpose": {
+    "es": "Descripción de cada clase de centro de coste, por idioma. Se une con TKA05 o CSKS por el campo KOSAR para mostrar su nombre.",
+    "en": "Description of each cost center category, per language. It is joined to TKA05 or CSKS by the KOSAR field to show its name.",
+    "pt": "Descrição de cada tipo de centro de custo, por idioma. É unida à TKA05 ou à CSKS pelo campo KOSAR para mostrar seu nome."
+  },
+  "synonyms": {
+    "es": [
+      "nombre de clase de centro de coste",
+      "descripción de KOSAR"
+    ],
+    "en": [
+      "cost center category name",
+      "KOSAR description"
+    ],
+    "pt": [
+      "nome do tipo de centro de custo",
+      "descrição do KOSAR"
+    ]
   }
 }

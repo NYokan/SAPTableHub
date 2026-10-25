@@ -8,5 +8,27 @@
     "es": "Documentos de liquidación (objetos liquidados)",
     "en": "Settlement documents (settled objects)",
     "pt": "Documentos de liquidação (objetos liquidados)"
+  },
+  "purpose": {
+    "es": "Una fila por cada objeto que se liquidó dentro de un documento de liquidación (por ejemplo, cada orden de una liquidación colectiva). Permite saber qué órdenes o elementos PEP incluyó una ejecución de liquidación.",
+    "en": "One row per object settled within a settlement document (for example, each order in a collective settlement run). It shows which orders or WBS elements a settlement run included.",
+    "pt": "Uma linha por objeto apropriado dentro de um documento de apropriação (por exemplo, cada ordem de uma apropriação coletiva). Mostra quais ordens ou elementos PEP uma execução de apropriação incluiu."
+  },
+  "synonyms": {
+    "es": [
+      "objetos liquidados",
+      "órdenes liquidadas",
+      "liquidación colectiva"
+    ],
+    "en": [
+      "settled objects",
+      "settled orders",
+      "collective settlement"
+    ],
+    "pt": [
+      "objetos apropriados",
+      "ordens apropriadas",
+      "apropriação coletiva"
+    ]
   }
 }

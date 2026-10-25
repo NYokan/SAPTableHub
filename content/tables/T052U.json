@@ -8,5 +8,24 @@
     "es": "Condiciones de pago: textos",
     "en": "Terms of payment: texts",
     "pt": "Condições de pagamento: textos"
+  },
+  "purpose": {
+    "es": "Texto explicativo de cada condición de pago en cada idioma, cuando se define una explicación propia (por ejemplo «30 días neto»). Complementa a T052, que tiene los plazos y descuentos.",
+    "en": "Explanatory text of each payment term in each language, when an own explanation is defined (for example \"30 days net\"). It complements T052, which holds the periods and discounts.",
+    "pt": "Texto explicativo de cada condição de pagamento em cada idioma, quando uma explicação própria é definida (por exemplo «30 dias líquido»). Complementa a T052, que tem os prazos e descontos."
+  },
+  "synonyms": {
+    "es": [
+      "texto de condición de pago",
+      "descripción de condiciones de pago"
+    ],
+    "en": [
+      "payment terms text",
+      "payment terms description"
+    ],
+    "pt": [
+      "texto da condição de pagamento",
+      "descrição das condições de pagamento"
+    ]
   }
 }

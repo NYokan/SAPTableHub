@@ -8,5 +8,27 @@
     "es": "Extractos bancarios electrónicos: criterios de compensación",
     "en": "Electronic bank statements: clearing criteria",
     "pt": "Extratos bancários eletrônicos: critérios de compensação"
+  },
+  "purpose": {
+    "es": "Para cada línea de un extracto bancario electrónico, los criterios con los que el sistema busca las partidas a compensar, como números de documento o referencias leídos del texto del banco.",
+    "en": "For each line of an electronic bank statement, the criteria the system uses to find the items to clear, such as document numbers or references read from the bank text.",
+    "pt": "Para cada item de um extrato bancário eletrônico, os critérios que o sistema usa para encontrar as partidas a compensar, como números de documento ou referências lidos do texto do banco."
+  },
+  "synonyms": {
+    "es": [
+      "criterios de compensación del extracto",
+      "conciliación bancaria automática",
+      "extracto bancario electrónico"
+    ],
+    "en": [
+      "bank statement clearing criteria",
+      "automatic bank reconciliation",
+      "electronic bank statement"
+    ],
+    "pt": [
+      "critérios de compensação do extrato",
+      "conciliação bancária automática",
+      "extrato bancário eletrônico"
+    ]
   }
 }

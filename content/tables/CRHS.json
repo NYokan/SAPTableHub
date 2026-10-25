@@ -8,5 +8,27 @@
     "es": "Jerarquías de puestos de trabajo (estructura)",
     "en": "Work center hierarchies (structure)",
     "pt": "Hierarquias de centros de trabalho (estrutura)"
+  },
+  "purpose": {
+    "es": "Una fila por cada relación padre-hijo dentro de una jerarquía de puestos de trabajo: qué puesto cuelga de cuál. La cabecera de la jerarquía está en CRHH y los puestos en CRHD.",
+    "en": "One row per parent-child link within a work center hierarchy: which work center sits under which. The hierarchy header is in CRHH and the work centers in CRHD.",
+    "pt": "Uma linha por relação pai-filho dentro de uma hierarquia de centros de trabalho: qual centro fica abaixo de qual. O cabeçalho da hierarquia está na CRHH e os centros na CRHD."
+  },
+  "synonyms": {
+    "es": [
+      "estructura de jerarquía",
+      "puesto superior",
+      "jerarquía de puestos de trabajo"
+    ],
+    "en": [
+      "hierarchy structure",
+      "superior work center",
+      "work center hierarchy"
+    ],
+    "pt": [
+      "estrutura da hierarquia",
+      "centro superior",
+      "hierarquia de centros de trabalho"
+    ]
   }
 }

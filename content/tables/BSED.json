@@ -9,5 +9,30 @@
     "es": "Documentos contables: datos de letras de cambio",
     "en": "Accounting documents: bill of exchange data",
     "pt": "Documentos contábeis: dados de letras de câmbio"
+  },
+  "purpose": {
+    "es": "Para las líneas contables que son letras de cambio, guarda los datos propios de la letra: librador, lugar de emisión, fecha de vencimiento, banco domiciliatario y estado. Se enlaza con BSEG por sociedad, documento, ejercicio y línea.",
+    "en": "For accounting lines that are bills of exchange, it holds the data specific to the bill: drawer, place of issue, due date, domiciliation bank and status. It links to BSEG by company code, document, fiscal year and line.",
+    "pt": "Para os itens contábeis que são letras de câmbio, guarda os dados próprios da letra: sacador, local de emissão, data de vencimento, banco domiciliatário e status. Liga-se à BSEG por empresa, documento, exercício e item."
+  },
+  "synonyms": {
+    "es": [
+      "letra de cambio",
+      "efectos comerciales",
+      "pagaré",
+      "vencimiento de letra"
+    ],
+    "en": [
+      "bill of exchange",
+      "promissory note",
+      "bills receivable",
+      "bill due date"
+    ],
+    "pt": [
+      "letra de câmbio",
+      "efeitos comerciais",
+      "nota promissória",
+      "vencimento da letra"
+    ]
   }
 }

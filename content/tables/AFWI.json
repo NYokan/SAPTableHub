@@ -8,5 +8,30 @@
     "es": "Movimientos de mercancías contabilizados después de la notificación",
     "en": "Goods movements posted after confirmation",
     "pt": "Movimentos de mercadorias lançados após a confirmação"
+  },
+  "purpose": {
+    "es": "Una fila por cada movimiento de mercancías de una notificación que primero falló y se contabilizó después (por ejemplo, tras corregirlo en COGI). Enlaza la notificación con el documento de material creado posteriormente.",
+    "en": "One row per goods movement from a confirmation that first failed and was posted later (for example, after fixing it in COGI). It links the confirmation to the material document created afterwards.",
+    "pt": "Uma linha por movimento de mercadorias de um apontamento que falhou primeiro e foi lançado depois (por exemplo, após corrigi-lo na COGI). Liga o apontamento ao documento de material criado posteriormente."
+  },
+  "synonyms": {
+    "es": [
+      "movimientos posteriores",
+      "reproceso COGI",
+      "consumos contabilizados después",
+      "movimientos corregidos"
+    ],
+    "en": [
+      "subsequently posted movements",
+      "COGI reprocessing",
+      "goods movements posted later",
+      "corrected goods movements"
+    ],
+    "pt": [
+      "movimentos posteriores",
+      "reprocessamento COGI",
+      "consumos lançados depois",
+      "movimentos corrigidos"
+    ]
   }
 }

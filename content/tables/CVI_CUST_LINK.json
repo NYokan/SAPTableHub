@@ -8,5 +8,30 @@
     "es": "Enlace entre socio de negocio y cliente",
     "en": "Link between business partner and customer",
     "pt": "Vínculo entre parceiro de negócios e cliente"
+  },
+  "purpose": {
+    "es": "Una fila por cada socio de negocio enlazado con un número de cliente (KNA1). Es la tabla puente de la integración cliente-proveedor (CVI), imprescindible en S/4HANA para pasar del socio de negocio al cliente y viceversa.",
+    "en": "One row per business partner linked to a customer number (KNA1). It is the bridge table of customer-vendor integration (CVI), essential in S/4HANA to go from business partner to customer and back.",
+    "pt": "Uma linha por parceiro de negócios ligado a um número de cliente (KNA1). É a tabela ponte da integração cliente-fornecedor (CVI), essencial no S/4HANA para passar do parceiro de negócios ao cliente e vice-versa."
+  },
+  "synonyms": {
+    "es": [
+      "socio de negocio a cliente",
+      "vínculo BP cliente",
+      "integración CVI",
+      "número de cliente del BP"
+    ],
+    "en": [
+      "business partner to customer",
+      "BP customer link",
+      "CVI customer",
+      "customer number of BP"
+    ],
+    "pt": [
+      "parceiro de negócios para cliente",
+      "vínculo BP cliente",
+      "integração CVI",
+      "número de cliente do BP"
+    ]
   }
 }

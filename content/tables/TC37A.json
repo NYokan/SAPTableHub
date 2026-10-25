@@ -8,5 +8,27 @@
     "es": "Definiciones de turnos",
     "en": "Shift definitions",
     "pt": "Definições de turnos"
+  },
+  "purpose": {
+    "es": "Configuración de las definiciones de turnos por agrupación de turnos: hora de inicio y fin y pausas de cada turno. Se usan para definir la capacidad disponible de los puestos de trabajo.",
+    "en": "Configuration of shift definitions per shift grouping: start and end time and breaks of each shift. They are used to define the available capacity of work centers.",
+    "pt": "Configuração das definições de turnos por agrupamento de turnos: hora de início e fim e pausas de cada turno. São usadas para definir a capacidade disponível dos centros de trabalho."
+  },
+  "synonyms": {
+    "es": [
+      "definición de turno",
+      "horario de turno",
+      "turnos de trabajo"
+    ],
+    "en": [
+      "shift definition",
+      "shift times",
+      "work shifts"
+    ],
+    "pt": [
+      "definição de turno",
+      "horário do turno",
+      "turnos de trabalho"
+    ]
   }
 }

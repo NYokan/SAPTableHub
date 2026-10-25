@@ -8,5 +8,30 @@
     "es": "Entradas pendientes de autofacturación (ERS)",
     "en": "Goods receipts pending evaluated receipt settlement (ERS)",
     "pt": "Entradas pendentes de autofaturamento (ERS)"
+  },
+  "purpose": {
+    "es": "Una fila por cada entrada de mercancías que aún debe liquidarse con autofacturación (ERS), es decir, sin factura del proveedor. El programa de liquidación (MRRL) la lee y elimina las filas al crear la factura.",
+    "en": "One row per goods receipt still to be settled by evaluated receipt settlement (ERS), that is, without a vendor invoice. The settlement program (MRRL) reads it and removes the rows when it creates the invoice.",
+    "pt": "Uma linha por entrada de mercadorias que ainda deve ser liquidada por autofaturamento (ERS), ou seja, sem fatura do fornecedor. O programa de liquidação (MRRL) a lê e remove as linhas ao criar a fatura."
+  },
+  "synonyms": {
+    "es": [
+      "autofacturación",
+      "ERS pendiente",
+      "liquidación automática de entradas",
+      "MRRL"
+    ],
+    "en": [
+      "evaluated receipt settlement",
+      "ERS pending",
+      "self-billing",
+      "MRRL"
+    ],
+    "pt": [
+      "autofaturamento",
+      "ERS pendente",
+      "liquidação automática de entradas",
+      "MRRL"
+    ]
   }
 }

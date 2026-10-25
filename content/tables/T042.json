@@ -8,5 +8,27 @@
     "es": "Programa de pagos: parámetros por sociedad",
     "en": "Payment program: company code settings",
     "pt": "Programa de pagamento: parâmetros por empresa"
+  },
+  "purpose": {
+    "es": "Para cada sociedad, los parámetros generales del programa de pagos: qué sociedad paga en su nombre, sociedad emisora y qué operaciones de mayor especial se pagan, entre otros.",
+    "en": "For each company code, the general settings of the payment program: which company code pays on its behalf, sending company code and which special G/L transactions are paid, among others.",
+    "pt": "Para cada empresa, os parâmetros gerais do programa de pagamentos: qual empresa paga em seu nome, empresa emissora e quais operações de razão especial são pagas, entre outros."
+  },
+  "synonyms": {
+    "es": [
+      "sociedad pagadora",
+      "configuración del programa de pagos",
+      "parámetros de pago por sociedad"
+    ],
+    "en": [
+      "paying company code",
+      "payment program configuration",
+      "company code payment settings"
+    ],
+    "pt": [
+      "empresa pagadora",
+      "configuração do programa de pagamentos",
+      "parâmetros de pagamento por empresa"
+    ]
   }
 }

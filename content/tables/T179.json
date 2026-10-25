@@ -8,5 +8,30 @@
     "es": "Jerarquía de productos",
     "en": "Product hierarchy",
     "pt": "Hierarquia de produtos"
+  },
+  "purpose": {
+    "es": "Niveles de la jerarquía de productos: códigos que agrupan materiales de lo general a lo particular (por ejemplo, línea, familia, subfamilia). Se asigna en el maestro de materiales y se usa mucho en precios y reportes de ventas y rentabilidad.",
+    "en": "Levels of the product hierarchy: codes that group materials from general to specific (for example, line, family, subfamily). It is assigned in the material master and widely used in pricing and in sales and profitability reporting.",
+    "pt": "Níveis da hierarquia de produtos: códigos que agrupam materiais do geral ao específico (por exemplo, linha, família, subfamília). É atribuída no mestre de materiais e muito usada em preços e relatórios de vendas e rentabilidade."
+  },
+  "synonyms": {
+    "es": [
+      "jerarquía de productos",
+      "familia de productos",
+      "línea de productos",
+      "agrupación de productos"
+    ],
+    "en": [
+      "product hierarchy",
+      "product family",
+      "product line",
+      "product grouping"
+    ],
+    "pt": [
+      "hierarquia de produtos",
+      "família de produtos",
+      "linha de produtos",
+      "agrupamento de produtos"
+    ]
   }
 }

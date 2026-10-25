@@ -8,5 +8,27 @@
     "es": "Datos de comunicación de direcciones (observaciones)",
     "en": "Address communication data (remarks)",
     "pt": "Dados de comunicação de endereços (observações)"
+  },
+  "purpose": {
+    "es": "Una fila por cada observación escrita junto a un dato de comunicación (un teléfono, fax o correo concreto), por ejemplo «solo por las mañanas». Se enlaza con ADR2, ADR3 o ADR6 por dirección y número de secuencia.",
+    "en": "One row per remark written next to a communication entry (a specific phone, fax or email), for example 'mornings only'. It links to ADR2, ADR3 or ADR6 through address and sequence number.",
+    "pt": "Uma linha por observação escrita junto a um dado de comunicação (um telefone, fax ou e-mail específico), por exemplo 'somente de manhã'. Liga-se à ADR2, ADR3 ou ADR6 por endereço e número sequencial."
+  },
+  "synonyms": {
+    "es": [
+      "observación de teléfono",
+      "nota de correo",
+      "comentario de contacto"
+    ],
+    "en": [
+      "phone remark",
+      "email remark",
+      "communication note"
+    ],
+    "pt": [
+      "observação do telefone",
+      "nota do e-mail",
+      "comentário de comunicação"
+    ]
   }
 }

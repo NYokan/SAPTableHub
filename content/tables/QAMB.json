@@ -8,5 +8,27 @@
     "es": "Lotes de inspección: vínculo con documentos de material",
     "en": "Inspection lots: link to material documents",
     "pt": "Lotes de inspeção: vínculo com documentos de material"
+  },
+  "purpose": {
+    "es": "Relaciona cada lote de inspección con los documentos de material que lo generaron o que se contabilizaron desde él, por ejemplo la entrada de mercancías que creó el lote o el traspaso a libre utilización tras la decisión de empleo.",
+    "en": "Links each inspection lot to the material documents that created it or were posted from it, for example the goods receipt that created the lot or the transfer to unrestricted stock after the usage decision.",
+    "pt": "Relaciona cada lote de inspeção com os documentos de material que o geraram ou que foram lançados a partir dele, por exemplo a entrada de mercadorias que criou o lote ou a transferência para livre utilização após a decisão de utilização."
+  },
+  "synonyms": {
+    "es": [
+      "lote de inspección y movimiento",
+      "documento de material del lote",
+      "traspaso tras decisión de empleo"
+    ],
+    "en": [
+      "inspection lot material document",
+      "inspection lot goods movement",
+      "usage decision stock posting"
+    ],
+    "pt": [
+      "lote de inspeção e movimento",
+      "documento de material do lote",
+      "transferência após decisão de utilização"
+    ]
   }
 }

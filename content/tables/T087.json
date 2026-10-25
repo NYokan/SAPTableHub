@@ -8,5 +8,27 @@
     "es": "Activos fijos: grupos de clasificación",
     "en": "Fixed assets: evaluation groups",
     "pt": "Ativos imobilizados: grupos de avaliação"
+  },
+  "purpose": {
+    "es": "Los grupos de clasificación que se pueden asignar a un activo fijo (hasta cinco por activo) para agruparlo libremente en informes, por ejemplo por responsable, uso o tipo de inversión.",
+    "en": "The evaluation groups that can be assigned to a fixed asset (up to five per asset) to group it freely in reports, for example by owner, usage or type of investment.",
+    "pt": "Os grupos de avaliação que podem ser atribuídos a um ativo imobilizado (até cinco por ativo) para agrupá-lo livremente em relatórios, por exemplo por responsável, uso ou tipo de investimento."
+  },
+  "synonyms": {
+    "es": [
+      "grupos de clasificación de activos",
+      "criterios de agrupación de activos",
+      "ORD41"
+    ],
+    "en": [
+      "asset evaluation groups",
+      "asset grouping criteria",
+      "ORD41"
+    ],
+    "pt": [
+      "grupos de avaliação de ativos",
+      "critérios de agrupamento de ativos",
+      "ORD41"
+    ]
   }
 }

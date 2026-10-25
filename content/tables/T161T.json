@@ -9,5 +9,27 @@
     "es": "Clases de documentos de compras: textos",
     "en": "Purchasing document types: texts",
     "pt": "Tipos de documentos de compras: textos"
+  },
+  "purpose": {
+    "es": "Nombre de cada clase de documento de compras por idioma (por ejemplo NB pedido estándar), según el tipo de documento: solicitud, pedido, contrato o plan de entrega.",
+    "en": "Name of each purchasing document type per language (for example NB standard PO), by document category: requisition, order, contract or scheduling agreement.",
+    "pt": "Nome de cada tipo de documento de compras por idioma (por exemplo NB pedido padrão), conforme a categoria do documento: requisição, pedido, contrato ou programa de remessas."
+  },
+  "synonyms": {
+    "es": [
+      "clase de pedido",
+      "tipo de documento de compras",
+      "descripción de clase de documento"
+    ],
+    "en": [
+      "PO document type",
+      "purchasing document type",
+      "order type description"
+    ],
+    "pt": [
+      "tipo de pedido",
+      "tipo de documento de compras",
+      "descrição do tipo de documento"
+    ]
   }
 }

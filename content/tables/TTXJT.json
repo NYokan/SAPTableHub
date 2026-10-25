@@ -8,5 +8,24 @@
     "es": "Códigos de jurisdicción fiscal (textos)",
     "en": "Tax jurisdiction codes (texts)",
     "pt": "Códigos de domicílio fiscal (textos)"
+  },
+  "purpose": {
+    "es": "Nombre de cada código de jurisdicción fiscal en cada idioma, para mostrar una descripción legible en lugar del código de TTXJ.",
+    "en": "Name of each tax jurisdiction code in each language, to show a readable description instead of the code from TTXJ.",
+    "pt": "Nome de cada código de jurisdição fiscal em cada idioma, para mostrar uma descrição legível em vez do código da TTXJ."
+  },
+  "synonyms": {
+    "es": [
+      "texto jurisdicción fiscal",
+      "nombre jurisdicción fiscal"
+    ],
+    "en": [
+      "tax jurisdiction text",
+      "jurisdiction name"
+    ],
+    "pt": [
+      "texto da jurisdição fiscal",
+      "nome da jurisdição fiscal"
+    ]
   }
 }

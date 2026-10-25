@@ -9,5 +9,30 @@
     "es": "Instrucciones de embalaje (cabecera)",
     "en": "Packing instructions (header)",
     "pt": "Instruções de embalagem (cabeçalho)"
+  },
+  "purpose": {
+    "es": "Cabecera de las instrucciones de embalaje: cómo se debe embalar un producto (por ejemplo, 40 cajas por palé), con su estado y datos de control. Los materiales y embalajes que la componen están en PACKPO.",
+    "en": "Header of packing instructions: how a product should be packed (for example, 40 boxes per pallet), with status and control data. The materials and packaging that make it up are in PACKPO.",
+    "pt": "Cabeçalho das instruções de embalagem: como um produto deve ser embalado (por exemplo, 40 caixas por palete), com status e dados de controle. Os materiais e embalagens que a compõem estão na PACKPO."
+  },
+  "synonyms": {
+    "es": [
+      "instrucción de embalaje",
+      "norma de embalaje",
+      "paletización",
+      "esquema de embalaje"
+    ],
+    "en": [
+      "packing instruction",
+      "packing rule",
+      "palletization",
+      "packing specification"
+    ],
+    "pt": [
+      "instrução de embalagem",
+      "norma de embalagem",
+      "paletização",
+      "esquema de embalagem"
+    ]
   }
 }

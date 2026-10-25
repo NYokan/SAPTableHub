@@ -8,5 +8,27 @@
     "es": "Valoración de stock especial en proveedor",
     "en": "Vendor special stock valuation",
     "pt": "Avaliação do estoque especial no fornecedor"
+  },
+  "purpose": {
+    "es": "Valor y cantidad del stock especial en proveedor (material entregado a un subcontratista) cuando se valora por separado. Una fila por material, área de valoración y proveedor; es el equivalente de MBEW para ese stock.",
+    "en": "Value and quantity of special stock at a vendor (material provided to a subcontractor) when valuated separately. One row per material, valuation area and vendor; it is the MBEW equivalent for that stock.",
+    "pt": "Valor e quantidade do estoque especial no fornecedor (material entregue a um subcontratado) quando avaliado separadamente. Uma linha por material, área de avaliação e fornecedor; é o equivalente da MBEW para esse estoque."
+  },
+  "synonyms": {
+    "es": [
+      "valor stock en subcontratista",
+      "valoración stock O",
+      "stock en proveedor valorado"
+    ],
+    "en": [
+      "subcontractor stock value",
+      "special stock O valuation",
+      "valuated stock at vendor"
+    ],
+    "pt": [
+      "valor estoque no subcontratado",
+      "avaliação estoque O",
+      "estoque no fornecedor avaliado"
+    ]
   }
 }

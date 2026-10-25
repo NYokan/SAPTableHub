@@ -6,5 +6,30 @@
     "es": "Vínculo entre proveedor e interlocutor comercial",
     "en": "Link between vendor and business partner",
     "pt": "Vínculo entre fornecedor e parceiro de negócios"
+  },
+  "purpose": {
+    "es": "Una fila por cada socio de negocio enlazado con un número de proveedor (LFA1). Es la tabla puente de la integración cliente-proveedor (CVI), imprescindible en S/4HANA para pasar del socio de negocio al proveedor y viceversa.",
+    "en": "One row per business partner linked to a vendor number (LFA1). It is the bridge table of customer-vendor integration (CVI), essential in S/4HANA to go from business partner to vendor and back.",
+    "pt": "Uma linha por parceiro de negócios ligado a um número de fornecedor (LFA1). É a tabela ponte da integração cliente-fornecedor (CVI), essencial no S/4HANA para passar do parceiro de negócios ao fornecedor e vice-versa."
+  },
+  "synonyms": {
+    "es": [
+      "socio de negocio a proveedor",
+      "vínculo BP proveedor",
+      "integración CVI",
+      "número de proveedor del BP"
+    ],
+    "en": [
+      "business partner to vendor",
+      "BP vendor link",
+      "CVI vendor",
+      "supplier number of BP"
+    ],
+    "pt": [
+      "parceiro de negócios para fornecedor",
+      "vínculo BP fornecedor",
+      "integração CVI",
+      "número de fornecedor do BP"
+    ]
   }
 }

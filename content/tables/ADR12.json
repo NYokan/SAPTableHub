@@ -8,5 +8,30 @@
     "es": "Direcciones (páginas web)",
     "en": "Addresses (web addresses)",
     "pt": "Endereços (páginas web)"
+  },
+  "purpose": {
+    "es": "Una fila por cada página web o URL registrada para una dirección o persona de la gestión central de direcciones. Se enlaza con ADRC por el número de dirección.",
+    "en": "One row per website or URL stored for an address or person in central address management. It links to ADRC through the address number.",
+    "pt": "Uma linha por site ou URL registrado para um endereço ou pessoa no gerenciamento central de endereços. Liga-se à ADRC pelo número do endereço."
+  },
+  "synonyms": {
+    "es": [
+      "página web",
+      "sitio web",
+      "URL de dirección",
+      "dirección de internet"
+    ],
+    "en": [
+      "website",
+      "web page",
+      "homepage",
+      "address URL"
+    ],
+    "pt": [
+      "página web",
+      "site",
+      "URL do endereço",
+      "endereço de internet"
+    ]
   }
 }

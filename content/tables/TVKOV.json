@@ -9,5 +9,24 @@
     "es": "Canales de distribución por organización de ventas",
     "en": "Distribution channels per sales organization",
     "pt": "Canais de distribuição por organização de vendas"
+  },
+  "purpose": {
+    "es": "Canales de distribución permitidos en cada organización de ventas (por ejemplo, mayoristas, venta directa, exportación): una fila por organización y canal.",
+    "en": "Distribution channels allowed in each sales organization (for example wholesale, direct sales, export): one row per organization and channel.",
+    "pt": "Canais de distribuição permitidos em cada organização de vendas (por exemplo, atacado, venda direta, exportação): uma linha por organização e canal."
+  },
+  "synonyms": {
+    "es": [
+      "canal por organización de ventas",
+      "canales permitidos"
+    ],
+    "en": [
+      "distribution channel per sales organization",
+      "allowed channels"
+    ],
+    "pt": [
+      "canal por organização de vendas",
+      "canais permitidos"
+    ]
   }
 }

@@ -8,5 +8,30 @@
     "es": "Características",
     "en": "Characteristics",
     "pt": "Características"
+  },
+  "purpose": {
+    "es": "Una fila por cada característica del sistema de clasificación y variantes: nombre, formato (texto, número, fecha), longitud y unidad. Se usa para describir materiales, lotes o equipos; las descripciones están en CABNT y los valores permitidos en CAWN.",
+    "en": "One row per characteristic of the classification and variant system: name, format (text, number, date), length and unit. It is used to describe materials, batches or equipment; descriptions are in CABNT and allowed values in CAWN.",
+    "pt": "Uma linha por característica do sistema de classificação e variantes: nome, formato (texto, número, data), comprimento e unidade. É usada para descrever materiais, lotes ou equipamentos; as descrições estão na CABNT e os valores permitidos na CAWN."
+  },
+  "synonyms": {
+    "es": [
+      "característica",
+      "atributo de clasificación",
+      "característica de material",
+      "característica de lote"
+    ],
+    "en": [
+      "characteristic",
+      "classification attribute",
+      "material characteristic",
+      "batch characteristic"
+    ],
+    "pt": [
+      "característica",
+      "atributo de classificação",
+      "característica de material",
+      "característica de lote"
+    ]
   }
 }

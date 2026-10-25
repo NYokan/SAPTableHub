@@ -9,5 +9,27 @@
     "es": "Centros de coste (descripciones)",
     "en": "Cost centers (descriptions)",
     "pt": "Centros de custo (descrições)"
+  },
+  "purpose": {
+    "es": "Nombre corto y descripción de cada centro de coste, por idioma, sociedad CO y período de validez. Se une con CSKS para mostrar el nombre en informes.",
+    "en": "Short name and description of each cost center, per language, controlling area and validity period. It is joined to CSKS to show the name in reports.",
+    "pt": "Nome curto e descrição de cada centro de custo, por idioma, área de contabilidade de custos e período de validade. É unida à CSKS para mostrar o nome em relatórios."
+  },
+  "synonyms": {
+    "es": [
+      "nombre del centro de coste",
+      "descripción del centro de coste",
+      "texto de centro de costo"
+    ],
+    "en": [
+      "cost center name",
+      "cost center description",
+      "cost center text"
+    ],
+    "pt": [
+      "nome do centro de custo",
+      "descrição do centro de custo",
+      "texto do centro de custo"
+    ]
   }
 }

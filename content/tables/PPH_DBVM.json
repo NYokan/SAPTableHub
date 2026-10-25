@@ -7,5 +7,30 @@
     "es": "Fichero de planificación de MRP Live",
     "en": "MRP Live planning file entries",
     "pt": "Arquivo de planejamento do MRP Live"
+  },
+  "purpose": {
+    "es": "En S/4HANA, el fichero de planificación de MRP Live: una fila por material y centro (o ámbito de planificación) marcado porque algo relevante cambió y debe entrar en la siguiente ejecución de MRP Live (MD01N). Sustituye a MDVM y DBVM.",
+    "en": "In S/4HANA, the MRP Live planning file: one row per material and plant (or MRP area) flagged because something relevant changed and it must be included in the next MRP Live run (MD01N). It replaces MDVM and DBVM.",
+    "pt": "No S/4HANA, o arquivo de planejamento do MRP Live: uma linha por material e centro (ou área de planejamento) marcado porque algo relevante mudou e deve entrar na próxima execução do MRP Live (MD01N). Substitui a MDVM e a DBVM."
+  },
+  "synonyms": {
+    "es": [
+      "fichero de planificación MRP Live",
+      "MD01N",
+      "entradas de planificación",
+      "MRP Live"
+    ],
+    "en": [
+      "MRP Live planning file",
+      "MD01N",
+      "planning file entries",
+      "MRP Live"
+    ],
+    "pt": [
+      "arquivo de planejamento MRP Live",
+      "MD01N",
+      "entradas de planejamento",
+      "MRP Live"
+    ]
   }
 }

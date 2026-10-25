@@ -8,5 +8,27 @@
     "es": "Índice de pedidos por interlocutor",
     "en": "Sales order index by partner",
     "pt": "Índice de ordens por parceiro"
+  },
+  "purpose": {
+    "es": "Índice de documentos de ventas por interlocutor: una fila por pedido y cliente (u otra función de interlocutor) con fecha, clase de documento y organización de ventas. Permite buscar rápido los pedidos de un cliente sin recorrer VBAK y VBPA.",
+    "en": "Index of sales documents by partner: one row per order and customer (or other partner function) with date, document type and sales organization. It allows a quick search of a customer's orders without scanning VBAK and VBPA.",
+    "pt": "Índice de documentos de vendas por parceiro: uma linha por ordem e cliente (ou outra função de parceiro) com data, tipo de documento e organização de vendas. Permite buscar rapidamente as ordens de um cliente sem percorrer VBAK e VBPA."
+  },
+  "synonyms": {
+    "es": [
+      "pedidos por cliente",
+      "índice de pedidos por cliente",
+      "búsqueda de pedidos por interlocutor"
+    ],
+    "en": [
+      "orders by customer",
+      "sales order index by customer",
+      "order search by partner"
+    ],
+    "pt": [
+      "ordens por cliente",
+      "índice de ordens por cliente",
+      "busca de ordens por parceiro"
+    ]
   }
 }

@@ -8,5 +8,27 @@
     "es": "Días festivos",
     "en": "Public holidays",
     "pt": "Feriados"
+  },
+  "purpose": {
+    "es": "Una fila por cada día festivo definido: su regla de fecha (fecha fija, relativa a Pascua, día de la semana fijo…) y tipo. Se asigna a calendarios de festivos mediante THOCI; los nombres están en THOLT.",
+    "en": "One row per defined public holiday: its date rule (fixed date, relative to Easter, fixed weekday…) and type. It is assigned to holiday calendars through THOCI; the names are in THOLT.",
+    "pt": "Uma linha por feriado definido: sua regra de data (data fixa, relativa à Páscoa, dia da semana fixo…) e tipo. É atribuído a calendários de feriados pela THOCI; os nomes estão na THOLT."
+  },
+  "synonyms": {
+    "es": [
+      "días festivos",
+      "feriados",
+      "regla de feriado"
+    ],
+    "en": [
+      "public holidays",
+      "holidays",
+      "holiday rule"
+    ],
+    "pt": [
+      "feriados",
+      "dias feriados",
+      "regra de feriado"
+    ]
   }
 }

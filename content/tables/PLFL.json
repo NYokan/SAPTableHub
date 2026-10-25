@@ -8,5 +8,27 @@
     "es": "Hojas de ruta: secuencias",
     "en": "Routings: sequences",
     "pt": "Roteiros: sequências"
+  },
+  "purpose": {
+    "es": "Una fila por cada secuencia de una hoja de ruta (la estándar, paralelas y alternativas), con la operación desde la que se ramifica y a la que vuelve. Al crear una orden se copian a AFFL.",
+    "en": "One row per sequence in a task list (the standard, parallel and alternative ones), with the branch and return operations. When an order is created they are copied to AFFL.",
+    "pt": "Uma linha por sequência de um roteiro (a padrão, paralelas e alternativas), com a operação de onde se ramifica e para onde retorna. Ao criar uma ordem são copiadas para a AFFL."
+  },
+  "synonyms": {
+    "es": [
+      "secuencias de hoja de ruta",
+      "secuencia alternativa",
+      "secuencia paralela"
+    ],
+    "en": [
+      "routing sequences",
+      "alternative sequence",
+      "parallel sequence"
+    ],
+    "pt": [
+      "sequências do roteiro",
+      "sequência alternativa",
+      "sequência paralela"
+    ]
   }
 }

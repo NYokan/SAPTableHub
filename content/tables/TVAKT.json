@@ -9,5 +9,27 @@
     "es": "Clases de documento de ventas: textos",
     "en": "Sales document types: texts",
     "pt": "Tipos de documento de vendas: textos"
+  },
+  "purpose": {
+    "es": "Descripción de cada clase de documento de ventas (pedido estándar, devolución, oferta…) en cada idioma: una fila por código e idioma. Sirve para mostrar un nombre legible en lugar del código AUART en informes; los códigos se definen en TVAK.",
+    "en": "Description of each sales document type (standard order, return, quotation…) in each language: one row per code and language. Use it to show a readable name instead of the AUART code in reports; the codes themselves are defined in TVAK.",
+    "pt": "Descrição de cada tipo de documento de vendas (ordem padrão, devolução, cotação…) em cada idioma: uma linha por código e idioma. Serve para mostrar um nome legível em vez do código AUART em relatórios; os códigos são definidos na TVAK."
+  },
+  "synonyms": {
+    "es": [
+      "texto clase de pedido",
+      "nombre clase de documento de ventas",
+      "AUART"
+    ],
+    "en": [
+      "order type text",
+      "sales document type name",
+      "AUART"
+    ],
+    "pt": [
+      "texto tipo de ordem",
+      "nome tipo de documento de vendas",
+      "AUART"
+    ]
   }
 }

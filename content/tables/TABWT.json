@@ -7,5 +7,24 @@
     "es": "Activos fijos: textos de clases de movimiento",
     "en": "Fixed assets: transaction type texts",
     "pt": "Ativos fixos: textos de tipos de movimento"
+  },
+  "purpose": {
+    "es": "Nombre de cada clase de movimiento de activos fijos en cada idioma. Sirve para mostrar «Alta por compra externa» en lugar del código de TABW.",
+    "en": "Name of each asset transaction type in each language. It is used to show \"External asset acquisition\" instead of the code from TABW.",
+    "pt": "Nome de cada tipo de movimento de ativos imobilizados em cada idioma. Serve para mostrar «Aquisição externa» em vez do código da TABW."
+  },
+  "synonyms": {
+    "es": [
+      "texto clase de movimiento de activos",
+      "descripción movimiento de activo"
+    ],
+    "en": [
+      "asset transaction type text",
+      "asset transaction description"
+    ],
+    "pt": [
+      "texto do tipo de movimento de ativo",
+      "descrição do movimento de ativo"
+    ]
   }
 }

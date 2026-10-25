@@ -8,5 +8,24 @@
     "es": "Calendarios de fábrica (textos)",
     "en": "Factory calendars (texts)",
     "pt": "Calendários de fábrica (textos)"
+  },
+  "purpose": {
+    "es": "Nombre de cada calendario de fábrica por idioma. Complementa a TFACD.",
+    "en": "Name of each factory calendar per language. It complements TFACD.",
+    "pt": "Nome de cada calendário de fábrica por idioma. Complementa a TFACD."
+  },
+  "synonyms": {
+    "es": [
+      "nombre de calendario de fábrica",
+      "texto de calendario"
+    ],
+    "en": [
+      "factory calendar name",
+      "calendar text"
+    ],
+    "pt": [
+      "nome do calendário de fábrica",
+      "texto do calendário"
+    ]
   }
 }

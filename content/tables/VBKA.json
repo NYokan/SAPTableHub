@@ -8,5 +8,30 @@
     "es": "Actividades de ventas",
     "en": "Sales activities",
     "pt": "Atividades de vendas"
+  },
+  "purpose": {
+    "es": "Actividades de ventas registradas con clientes: visitas, llamadas, cartas o reuniones, con fecha, tipo, interlocutores y resultado. Una fila por actividad; sirve para seguir el contacto comercial antes y después de la venta.",
+    "en": "Sales activities recorded with customers: visits, calls, letters or meetings, with date, type, partners and outcome. One row per activity; used to follow up commercial contact before and after the sale.",
+    "pt": "Atividades de vendas registradas com clientes: visitas, ligações, cartas ou reuniões, com data, tipo, parceiros e resultado. Uma linha por atividade; serve para acompanhar o contato comercial antes e depois da venda."
+  },
+  "synonyms": {
+    "es": [
+      "actividad de ventas",
+      "visita a cliente",
+      "llamada de ventas",
+      "contacto comercial"
+    ],
+    "en": [
+      "sales activity",
+      "customer visit",
+      "sales call",
+      "sales contact"
+    ],
+    "pt": [
+      "atividade de vendas",
+      "visita ao cliente",
+      "ligação de vendas",
+      "contato comercial"
+    ]
   }
 }

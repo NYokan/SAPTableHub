@@ -8,5 +8,30 @@
     "es": "Áreas funcionales",
     "en": "Functional areas",
     "pt": "Áreas funcionais"
+  },
+  "purpose": {
+    "es": "Las áreas funcionales (producción, ventas, administración, I+D…) usadas en la contabilidad de costes de las ventas para presentar la cuenta de resultados por función. Los documentos guardan el área funcional en el campo FKBER.",
+    "en": "The functional areas (production, sales, administration, R&D…) used in cost-of-sales accounting to present the income statement by function. Documents store the functional area in field FKBER.",
+    "pt": "As áreas funcionais (produção, vendas, administração, P&D…) usadas na contabilidade de custo das vendas para apresentar a demonstração de resultados por função. Os documentos guardam a área funcional no campo FKBER."
+  },
+  "synonyms": {
+    "es": [
+      "área funcional",
+      "costes de las ventas",
+      "resultado por función",
+      "FKBER"
+    ],
+    "en": [
+      "functional area",
+      "cost of sales accounting",
+      "P&L by function",
+      "FKBER"
+    ],
+    "pt": [
+      "área funcional",
+      "custo das vendas",
+      "resultado por função",
+      "FKBER"
+    ]
   }
 }

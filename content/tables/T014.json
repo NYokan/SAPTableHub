@@ -9,5 +9,27 @@
     "es": "Áreas de control de créditos",
     "en": "Credit control areas",
     "pt": "Áreas de controle de crédito"
+  },
+  "purpose": {
+    "es": "Las áreas de control de créditos: unidades organizativas donde se define y controla el límite de crédito de los clientes, con su moneda y valores por defecto. Una o varias sociedades se asignan a cada área.",
+    "en": "The credit control areas: organizational units where customer credit limits are defined and monitored, with their currency and defaults. One or more company codes are assigned to each area.",
+    "pt": "As áreas de controle de crédito: unidades organizacionais onde o limite de crédito dos clientes é definido e controlado, com sua moeda e valores padrão. Uma ou mais empresas são atribuídas a cada área."
+  },
+  "synonyms": {
+    "es": [
+      "área de control de créditos",
+      "KKBER",
+      "moneda del límite de crédito"
+    ],
+    "en": [
+      "credit control area",
+      "KKBER",
+      "credit limit currency"
+    ],
+    "pt": [
+      "área de controle de crédito",
+      "KKBER",
+      "moeda do limite de crédito"
+    ]
   }
 }

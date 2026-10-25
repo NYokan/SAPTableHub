@@ -8,5 +8,30 @@
     "es": "Sociedades GL asociadas",
     "en": "Trading partners (companies)",
     "pt": "Sociedades parceiras"
+  },
+  "purpose": {
+    "es": "Las sociedades del grupo que pueden actuar como socio comercial en operaciones intercompañía, con nombre y datos de dirección. Los documentos guardan el socio en el campo VBUND para eliminar operaciones internas en la consolidación.",
+    "en": "The group companies that can act as trading partner in intercompany transactions, with name and address data. Documents store the partner in field VBUND so internal transactions can be eliminated in consolidation.",
+    "pt": "As empresas do grupo que podem atuar como sociedade parceira em operações intercompany, com nome e dados de endereço. Os documentos guardam o parceiro no campo VBUND para eliminar operações internas na consolidação."
+  },
+  "synonyms": {
+    "es": [
+      "sociedad GL asociada",
+      "socio comercial",
+      "intercompañía",
+      "VBUND"
+    ],
+    "en": [
+      "trading partner",
+      "intercompany partner",
+      "consolidation partner",
+      "VBUND"
+    ],
+    "pt": [
+      "sociedade parceira",
+      "parceiro comercial",
+      "intercompany",
+      "VBUND"
+    ]
   }
 }

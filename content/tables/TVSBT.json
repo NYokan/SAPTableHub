@@ -9,5 +9,24 @@
     "es": "Condiciones de expedición: textos",
     "en": "Shipping conditions: texts",
     "pt": "Condições de expedição: textos"
+  },
+  "purpose": {
+    "es": "Descripción de cada condición de expedición en cada idioma: una fila por código e idioma. Sirve para mostrar un nombre legible en lugar del código VSBED en informes; los códigos se definen en TVSB.",
+    "en": "Description of each shipping condition in each language: one row per code and language. Use it to show a readable name instead of the VSBED code in reports; the codes themselves are defined in TVSB.",
+    "pt": "Descrição de cada condição de expedição em cada idioma: uma linha por código e idioma. Serve para mostrar um nome legível em vez do código VSBED em relatórios; os códigos são definidos na TVSB."
+  },
+  "synonyms": {
+    "es": [
+      "texto condición de expedición",
+      "VSBED"
+    ],
+    "en": [
+      "shipping condition text",
+      "VSBED"
+    ],
+    "pt": [
+      "texto condição de expedição",
+      "VSBED"
+    ]
   }
 }

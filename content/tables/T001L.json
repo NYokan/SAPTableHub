@@ -8,5 +8,30 @@
     "es": "Almacenes",
     "en": "Storage locations",
     "pt": "Depósitos"
+  },
+  "purpose": {
+    "es": "Lista de almacenes (ubicaciones de stock) de cada centro, con su nombre. Una fila por centro y almacén; es la referencia para el campo almacén en stock y movimientos.",
+    "en": "List of storage locations of each plant, with their name. One row per plant and storage location; it is the reference for the storage location field in stock and movements.",
+    "pt": "Lista de depósitos de cada centro, com seu nome. Uma linha por centro e depósito; é a referência para o campo depósito em estoque e movimentos."
+  },
+  "synonyms": {
+    "es": [
+      "almacenes",
+      "lista de almacenes",
+      "ubicación de stock",
+      "bodega"
+    ],
+    "en": [
+      "storage locations",
+      "storage location list",
+      "stock location",
+      "sloc"
+    ],
+    "pt": [
+      "depósitos",
+      "lista de depósitos",
+      "local de estoque",
+      "almoxarifado"
+    ]
   }
 }

@@ -8,5 +8,24 @@
     "es": "Tipos de retención de impuestos: textos",
     "en": "Withholding tax types: texts",
     "pt": "Tipos de imposto retido na fonte: textos"
+  },
+  "purpose": {
+    "es": "Nombre de cada tipo de retención de impuestos en cada idioma, por país, para mostrar una descripción legible en lugar del código de T059P.",
+    "en": "Name of each withholding tax type in each language, per country, to show a readable description instead of the code from T059P.",
+    "pt": "Nome de cada tipo de retenção na fonte em cada idioma, por país, para mostrar uma descrição legível em vez do código da T059P."
+  },
+  "synonyms": {
+    "es": [
+      "texto tipo de retención",
+      "descripción tipo de retención"
+    ],
+    "en": [
+      "withholding tax type text",
+      "withholding type description"
+    ],
+    "pt": [
+      "texto do tipo de retenção",
+      "descrição do tipo de retenção"
+    ]
   }
 }

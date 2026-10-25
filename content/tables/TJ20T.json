@@ -8,5 +8,24 @@
     "es": "Esquemas de status (textos)",
     "en": "Status profiles (texts)",
     "pt": "Esquemas de status (textos)"
+  },
+  "purpose": {
+    "es": "Descripción de cada esquema de estado de usuario por idioma. Complementa a TJ20.",
+    "en": "Description of each user status profile per language. It complements TJ20.",
+    "pt": "Descrição de cada esquema de status de usuário por idioma. Complementa a TJ20."
+  },
+  "synonyms": {
+    "es": [
+      "nombre de esquema de estado",
+      "texto de perfil de status"
+    ],
+    "en": [
+      "status profile name",
+      "status profile text"
+    ],
+    "pt": [
+      "nome do esquema de status",
+      "texto do perfil de status"
+    ]
   }
 }

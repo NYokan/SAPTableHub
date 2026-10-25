@@ -8,5 +8,27 @@
     "es": "Valores de características (descripciones)",
     "en": "Characteristic values (descriptions)",
     "pt": "Valores de características (descrições)"
+  },
+  "purpose": {
+    "es": "Una fila por valor de característica e idioma con su descripción legible, por ejemplo el texto que acompaña a un código de color. Complementa a CAWN.",
+    "en": "One row per characteristic value and language with its readable description, for example the text next to a color code. It complements CAWN.",
+    "pt": "Uma linha por valor de característica e idioma com sua descrição legível, por exemplo o texto que acompanha um código de cor. Complementa a CAWN."
+  },
+  "synonyms": {
+    "es": [
+      "descripción de valor de característica",
+      "texto de valor",
+      "significado de valor de característica"
+    ],
+    "en": [
+      "characteristic value description",
+      "value text",
+      "value meaning"
+    ],
+    "pt": [
+      "descrição do valor da característica",
+      "texto do valor",
+      "significado do valor"
+    ]
   }
 }

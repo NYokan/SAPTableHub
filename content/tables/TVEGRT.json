@@ -8,5 +8,24 @@
     "es": "Grupos de materiales de embalaje (textos)",
     "en": "Packaging material groups (texts)",
     "pt": "Grupos de materiais de embalagem (textos)"
+  },
+  "purpose": {
+    "es": "Descripciones por idioma de los grupos de materiales de embalaje (TVEGR). Se usa para mostrar el nombre legible en informes en lugar del código.",
+    "en": "Language-dependent descriptions of packaging material groups (TVEGR). Used to show the readable name in reports instead of the code.",
+    "pt": "Descrições por idioma de grupos de materiais de embalagem (TVEGR). Usada para mostrar o nome legível em relatórios em vez do código."
+  },
+  "synonyms": {
+    "es": [
+      "nombre grupo de embalaje",
+      "descripción grupo de embalaje"
+    ],
+    "en": [
+      "packaging group name",
+      "packaging group description"
+    ],
+    "pt": [
+      "nome grupo de embalagem",
+      "descrição grupo de embalagem"
+    ]
   }
 }

@@ -8,5 +8,27 @@
     "es": "Indicadores de stock especial (textos)",
     "en": "Special stock indicators (texts)",
     "pt": "Códigos de estoque especial (textos)"
+  },
+  "purpose": {
+    "es": "Descripciones por idioma de los indicadores de stock especial (por ejemplo, E = pedido de cliente, K = consignación, O = en subcontratista, Q = proyecto). Se usa para mostrar el nombre legible en informes en lugar del código.",
+    "en": "Language-dependent descriptions of special stock indicators (for example, E = sales order, K = consignment, O = at subcontractor, Q = project). Used to show the readable name in reports instead of the code.",
+    "pt": "Descrições por idioma de indicadores de estoque especial (por exemplo, E = pedido de cliente, K = consignação, O = no subcontratado, Q = projeto). Usada para mostrar o nome legível em relatórios em vez do código."
+  },
+  "synonyms": {
+    "es": [
+      "indicador de stock especial",
+      "tipo de stock especial",
+      "stock especial"
+    ],
+    "en": [
+      "special stock indicator",
+      "special stock type",
+      "special stock"
+    ],
+    "pt": [
+      "indicador de estoque especial",
+      "tipo de estoque especial",
+      "estoque especial"
+    ]
   }
 }

@@ -9,5 +9,30 @@
     "es": "Tipos de almacén: control",
     "en": "Storage types: control",
     "pt": "Tipos de depósito: controle"
+  },
+  "purpose": {
+    "es": "Parámetros de control de cada tipo de almacén WM: estrategias de entrada y salida, si se usan unidades de almacén, confirmación obligatoria y controles de capacidad. Determina cómo se ubica y se retira el stock en cada zona.",
+    "en": "Control parameters of each WM storage type: putaway and removal strategies, whether storage units are used, mandatory confirmation and capacity checks. It determines how stock is placed and removed in each zone.",
+    "pt": "Parâmetros de controle de cada tipo de depósito WM: estratégias de entrada e retirada, uso de unidades de depósito, confirmação obrigatória e verificações de capacidade. Determina como o estoque é armazenado e retirado em cada zona."
+  },
+  "synonyms": {
+    "es": [
+      "estrategia de ubicación",
+      "estrategia de retiro",
+      "control tipo de almacén",
+      "FIFO almacén"
+    ],
+    "en": [
+      "putaway strategy",
+      "removal strategy",
+      "storage type control",
+      "warehouse FIFO"
+    ],
+    "pt": [
+      "estratégia de armazenagem",
+      "estratégia de retirada",
+      "controle tipo de depósito",
+      "FIFO depósito"
+    ]
   }
 }

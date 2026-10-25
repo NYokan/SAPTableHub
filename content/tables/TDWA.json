@@ -8,5 +8,27 @@
     "es": "Clases de documento",
     "en": "Document types",
     "pt": "Tipos de documento"
+  },
+  "purpose": {
+    "es": "Una fila por cada clase de documento del sistema de gestión de documentos (DMS), por ejemplo planos o especificaciones: rango de números, control de versiones, red de estados y objetos vinculables. Los textos están en TDWAT.",
+    "en": "One row per document type of the document management system (DMS), for example drawings or specifications: number range, version control, status network and linkable objects. The texts are in TDWAT.",
+    "pt": "Uma linha por tipo de documento do sistema de gestão de documentos (DMS), por exemplo desenhos ou especificações: intervalo de numeração, controle de versões, rede de status e objetos vinculáveis. Os textos estão na TDWAT."
+  },
+  "synonyms": {
+    "es": [
+      "clase de documento DMS",
+      "tipo de documento DMS",
+      "configuración DMS"
+    ],
+    "en": [
+      "DMS document type",
+      "document type",
+      "DMS configuration"
+    ],
+    "pt": [
+      "tipo de documento DMS",
+      "classe de documento DMS",
+      "configuração DMS"
+    ]
   }
 }

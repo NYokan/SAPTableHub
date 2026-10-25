@@ -8,5 +8,33 @@
     "es": "Ledgers contables",
     "en": "Accounting ledgers",
     "pt": "Ledgers contábeis"
+  },
+  "purpose": {
+    "es": "En S/4HANA, una fila por cada ledger contable: el ledger principal (0L), ledgers paralelos para otras normas contables y ledgers de extensión. Indica de qué tipo es cada ledger y en qué se basa.",
+    "en": "In S/4HANA, one row per accounting ledger: the leading ledger (0L), parallel ledgers for other accounting standards and extension ledgers. It shows the type of each ledger and what it is based on.",
+    "pt": "No S/4HANA, uma linha por ledger contábil: o ledger principal (0L), ledgers paralelos para outras normas contábeis e ledgers de extensão. Indica de que tipo é cada ledger e em que se baseia."
+  },
+  "synonyms": {
+    "es": [
+      "ledger principal",
+      "ledger paralelo",
+      "ledger de extensión",
+      "0L",
+      "RLDNR"
+    ],
+    "en": [
+      "leading ledger",
+      "parallel ledger",
+      "extension ledger",
+      "0L",
+      "RLDNR"
+    ],
+    "pt": [
+      "ledger principal",
+      "ledger paralelo",
+      "ledger de extensão",
+      "0L",
+      "RLDNR"
+    ]
   }
 }

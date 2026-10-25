@@ -9,5 +9,30 @@
     "es": "Esquemas de cálculo: pasos",
     "en": "Pricing procedures: steps",
     "pt": "Esquemas de cálculo: etapas"
+  },
+  "purpose": {
+    "es": "Pasos de cada esquema de cálculo de precios: una fila por paso y contador, con la clase de condición, los subtotales, la condición previa y la clave de cuenta. Define el orden en que se calculan precio, descuentos, fletes e impuestos en un documento.",
+    "en": "Steps of each pricing procedure: one row per step and counter, with the condition type, subtotals, requirement and account key. It defines the order in which price, discounts, freight and taxes are calculated in a document.",
+    "pt": "Passos de cada esquema de cálculo de preços: uma linha por passo e contador, com o tipo de condição, os subtotais, o requisito e a chave de conta. Define a ordem em que preço, descontos, fretes e impostos são calculados em um documento."
+  },
+  "synonyms": {
+    "es": [
+      "esquema de cálculo",
+      "procedimiento de precios",
+      "pasos del esquema",
+      "KALSM"
+    ],
+    "en": [
+      "pricing procedure",
+      "pricing schema steps",
+      "calculation schema",
+      "KALSM"
+    ],
+    "pt": [
+      "esquema de cálculo",
+      "procedimento de preços",
+      "passos do esquema",
+      "KALSM"
+    ]
   }
 }

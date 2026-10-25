@@ -8,5 +8,27 @@
     "es": "Regiones (nombres)",
     "en": "Regions (names)",
     "pt": "Regiões (nomes)"
+  },
+  "purpose": {
+    "es": "Nombre de cada región (provincia, estado, departamento) por idioma y país. Traduce los códigos de región de T005S que aparecen en direcciones.",
+    "en": "Name of each region (province, state, department) per language and country. It translates the T005S region codes that appear in addresses.",
+    "pt": "Nome de cada região (estado, província, departamento) por idioma e país. Traduz os códigos de região da T005S que aparecem em endereços."
+  },
+  "synonyms": {
+    "es": [
+      "nombre de región",
+      "nombre de provincia",
+      "nombre de estado"
+    ],
+    "en": [
+      "region name",
+      "state name",
+      "province name"
+    ],
+    "pt": [
+      "nome da região",
+      "nome do estado",
+      "nome da província"
+    ]
   }
 }

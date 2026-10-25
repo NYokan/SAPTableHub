@@ -8,5 +8,27 @@
     "es": "Cuentas para diferencias de cambio en partidas abiertas",
     "en": "Accounts for exchange rate differences on open items",
     "pt": "Contas para diferenças cambiais em partidas em aberto"
+  },
+  "purpose": {
+    "es": "Para cada plan de cuentas y cuenta de mayor con partidas abiertas en moneda extranjera, las cuentas donde se contabilizan las diferencias de cambio realizadas (al compensar) y las de valoración al cierre.",
+    "en": "For each chart of accounts and G/L account with foreign-currency open items, the accounts where realized exchange rate differences (on clearing) and closing valuation differences are posted.",
+    "pt": "Para cada plano de contas e conta do razão com partidas em aberto em moeda estrangeira, as contas onde se lançam as diferenças de câmbio realizadas (na compensação) e as da avaliação no fechamento."
+  },
+  "synonyms": {
+    "es": [
+      "diferencias de cambio",
+      "pérdidas y ganancias por tipo de cambio",
+      "valoración de moneda extranjera"
+    ],
+    "en": [
+      "exchange rate differences",
+      "FX gains and losses",
+      "foreign currency valuation"
+    ],
+    "pt": [
+      "diferenças de câmbio",
+      "ganhos e perdas cambiais",
+      "avaliação em moeda estrangeira"
+    ]
   }
 }

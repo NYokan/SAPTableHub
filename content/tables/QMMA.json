@@ -8,5 +8,27 @@
     "es": "Avisos: acciones",
     "en": "Notifications: activities",
     "pt": "Notas: ações"
+  },
+  "purpose": {
+    "es": "Acciones registradas en los avisos de calidad, mantenimiento y servicio: lo que se hizo (por ejemplo, revisión, limpieza, contacto con proveedor) con su código de catálogo, fecha y responsable. La cabecera del aviso está en QMEL.",
+    "en": "Activities recorded in quality, maintenance and service notifications: what was done (for example, check, cleaning, vendor contact) with its catalog code, date and person responsible. The notification header is in QMEL.",
+    "pt": "Ações registradas nas notas de qualidade, manutenção e serviço: o que foi feito (por exemplo, revisão, limpeza, contato com fornecedor) com seu código de catálogo, data e responsável. O cabeçalho da nota está na QMEL."
+  },
+  "synonyms": {
+    "es": [
+      "acciones del aviso",
+      "actividades de la notificación",
+      "acción realizada"
+    ],
+    "en": [
+      "notification activities",
+      "actions taken",
+      "notification action"
+    ],
+    "pt": [
+      "ações da nota",
+      "atividades da notificação",
+      "ação realizada"
+    ]
   }
 }

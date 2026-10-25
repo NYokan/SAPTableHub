@@ -8,5 +8,30 @@
     "es": "Documentos de ventas: estado de posición",
     "en": "Sales documents: item status",
     "pt": "Documentos de vendas: status do item"
+  },
+  "purpose": {
+    "es": "Estado de cada posición de documento de ventas, entrega o factura: entrega, facturación, picking, rechazo y datos incompletos. En S/4HANA desaparece y estos campos pasan a VBAP y LIPS.",
+    "en": "Status of each sales document, delivery or invoice item: delivery, billing, picking, rejection and incompletion. In S/4HANA it is gone and these fields move to VBAP and LIPS.",
+    "pt": "Status de cada item de documento de vendas, remessa ou fatura: remessa, faturamento, separação, recusa e dados incompletos. No S/4HANA deixa de existir e esses campos passam para VBAP e LIPS."
+  },
+  "synonyms": {
+    "es": [
+      "estado de posición",
+      "posición abierta",
+      "estado de entrega de la posición",
+      "estado de facturación de la posición"
+    ],
+    "en": [
+      "item status",
+      "open item status",
+      "item delivery status",
+      "item billing status"
+    ],
+    "pt": [
+      "status do item",
+      "item em aberto",
+      "status de remessa do item",
+      "status de faturamento do item"
+    ]
   }
 }

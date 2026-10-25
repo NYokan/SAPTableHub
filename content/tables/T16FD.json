@@ -9,5 +9,24 @@
     "es": "Códigos de liberación: textos",
     "en": "Release codes: texts",
     "pt": "Códigos de liberação: textos"
+  },
+  "purpose": {
+    "es": "Nombre de cada código de liberación por idioma y grupo de liberación, por ejemplo «Jefe de compras» o «Gerente». Complementa a T16FC.",
+    "en": "Name of each release code per language and release group, for example 'Purchasing manager' or 'Director'. It complements T16FC.",
+    "pt": "Nome de cada código de liberação por idioma e grupo de liberação, por exemplo 'Gerente de compras' ou 'Diretor'. Complementa a T16FC."
+  },
+  "synonyms": {
+    "es": [
+      "nombre de código de liberación",
+      "descripción de aprobador"
+    ],
+    "en": [
+      "release code name",
+      "approver description"
+    ],
+    "pt": [
+      "nome do código de liberação",
+      "descrição do aprovador"
+    ]
   }
 }

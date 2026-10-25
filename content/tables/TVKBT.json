@@ -9,5 +9,27 @@
     "es": "Oficinas de ventas: textos",
     "en": "Sales offices: texts",
     "pt": "Escritórios de vendas: textos"
+  },
+  "purpose": {
+    "es": "Descripción de cada oficina de ventas en cada idioma: una fila por código e idioma. Sirve para mostrar un nombre legible en lugar del código VKBUR en informes; los códigos se definen en TVKB.",
+    "en": "Description of each sales office in each language: one row per code and language. Use it to show a readable name instead of the VKBUR code in reports; the codes themselves are defined in TVKB.",
+    "pt": "Descrição de cada escritório de vendas em cada idioma: uma linha por código e idioma. Serve para mostrar um nome legível em vez do código VKBUR em relatórios; os códigos são definidos na TVKB."
+  },
+  "synonyms": {
+    "es": [
+      "texto oficina de ventas",
+      "nombre oficina de ventas",
+      "VKBUR"
+    ],
+    "en": [
+      "sales office text",
+      "sales office name",
+      "VKBUR"
+    ],
+    "pt": [
+      "texto escritório de vendas",
+      "nome escritório de vendas",
+      "VKBUR"
+    ]
   }
 }

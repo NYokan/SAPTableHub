@@ -9,5 +9,27 @@
     "es": "Necesidades de transporte WM (posiciones)",
     "en": "WM transfer requirements (items)",
     "pt": "Necessidades de transferência WM (itens)"
+  },
+  "purpose": {
+    "es": "Posiciones de las necesidades de transporte WM: material, cantidad requerida, cantidad ya atendida por órdenes de transporte y lote. La cabecera está en LTBK.",
+    "en": "Items of WM transfer requirements: material, required quantity, quantity already covered by transfer orders and batch. The header is in LTBK.",
+    "pt": "Itens das necessidades de transferência WM: material, quantidade requerida, quantidade já atendida por ordens de transferência e lote. O cabeçalho está na LTBK."
+  },
+  "synonyms": {
+    "es": [
+      "posición de necesidad de transporte",
+      "cantidad pendiente de transportar",
+      "material a mover"
+    ],
+    "en": [
+      "transfer requirement item",
+      "open quantity to move",
+      "material to move"
+    ],
+    "pt": [
+      "item da necessidade de transferência",
+      "quantidade pendente",
+      "material a movimentar"
+    ]
   }
 }

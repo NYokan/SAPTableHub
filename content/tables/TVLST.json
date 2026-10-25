@@ -9,5 +9,27 @@
     "es": "Motivos de bloqueo de entrega: textos",
     "en": "Delivery block reasons: texts",
     "pt": "Motivos de bloqueio de remessa: textos"
+  },
+  "purpose": {
+    "es": "Descripción de cada motivo de bloqueo de entrega en cada idioma: una fila por código e idioma. Sirve para mostrar un nombre legible en lugar del código LIFSP en informes; los códigos se definen en TVLS.",
+    "en": "Description of each delivery block reason in each language: one row per code and language. Use it to show a readable name instead of the LIFSP code in reports; the codes themselves are defined in TVLS.",
+    "pt": "Descrição de cada motivo de bloqueio de remessa em cada idioma: uma linha por código e idioma. Serve para mostrar um nome legível em vez do código LIFSP em relatórios; os códigos são definidos na TVLS."
+  },
+  "synonyms": {
+    "es": [
+      "texto bloqueo de entrega",
+      "motivo bloqueo entrega",
+      "LIFSP"
+    ],
+    "en": [
+      "delivery block text",
+      "delivery block reason",
+      "LIFSP"
+    ],
+    "pt": [
+      "texto bloqueio de remessa",
+      "motivo bloqueio remessa",
+      "LIFSP"
+    ]
   }
 }

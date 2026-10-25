@@ -9,5 +9,33 @@
     "es": "Historial de cambios (cabecera)",
     "en": "Change history (header)",
     "pt": "Histórico de alterações (cabeçalho)"
+  },
+  "purpose": {
+    "es": "Una fila por cada documento de modificación: qué objeto se cambió (clase de objeto y clave), quién, cuándo y con qué transacción. El detalle de los campos cambiados, con valor anterior y nuevo, está en CDPOS. Es la base para auditar cambios en maestros y documentos.",
+    "en": "One row per change document: which object was changed (object class and key), by whom, when and with which transaction. The detail of the changed fields, with old and new value, is in CDPOS. It is the basis for auditing changes to master data and documents.",
+    "pt": "Uma linha por documento de modificação: qual objeto foi alterado (classe de objeto e chave), por quem, quando e com qual transação. O detalhe dos campos alterados, com valor antigo e novo, está na CDPOS. É a base para auditar alterações em cadastros e documentos."
+  },
+  "synonyms": {
+    "es": [
+      "historial de cambios",
+      "documentos de modificación",
+      "auditoría de cambios",
+      "quién cambió",
+      "log de cambios"
+    ],
+    "en": [
+      "change history",
+      "change documents",
+      "change log",
+      "audit trail",
+      "who changed"
+    ],
+    "pt": [
+      "histórico de alterações",
+      "documentos de modificação",
+      "log de alterações",
+      "auditoria de mudanças",
+      "quem alterou"
+    ]
   }
 }

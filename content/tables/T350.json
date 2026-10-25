@@ -8,5 +8,27 @@
     "es": "Clases de orden de mantenimiento (control PM)",
     "en": "Maintenance order types (PM control)",
     "pt": "Tipos de ordem de manutenção (controle PM)"
+  },
+  "purpose": {
+    "es": "Parámetros propios de mantenimiento para cada clase de orden que se usan al crear y procesar órdenes de mantenimiento o servicio. Complementa la configuración general de clases de orden (T003O).",
+    "en": "Maintenance-specific parameters for each order type used when creating and processing maintenance or service orders. It complements the general order type settings (T003O).",
+    "pt": "Parâmetros próprios de manutenção para cada tipo de ordem usados ao criar e processar ordens de manutenção ou serviço. Complementa a configuração geral de tipos de ordem (T003O)."
+  },
+  "synonyms": {
+    "es": [
+      "clase de orden de mantenimiento",
+      "tipo de orden PM",
+      "configuración de orden PM"
+    ],
+    "en": [
+      "maintenance order type",
+      "PM order type",
+      "PM order settings"
+    ],
+    "pt": [
+      "tipo de ordem de manutenção",
+      "tipo de ordem PM",
+      "configuração da ordem PM"
+    ]
   }
 }

@@ -9,5 +9,27 @@
     "es": "Instrucciones de envío",
     "en": "Shipping instructions",
     "pt": "Instruções de envio"
+  },
+  "purpose": {
+    "es": "Una fila por cada clave de instrucciones de envío: indicaciones al proveedor sobre embalaje y transporte que se ponen en las posiciones de pedido y se pueden controlar en la entrada de mercancías. Los textos están en T027B.",
+    "en": "One row per shipping instructions key: directions to the vendor on packaging and transport that are set on purchase order items and can be checked at goods receipt. The texts are in T027B.",
+    "pt": "Uma linha por chave de instruções de envio: orientações ao fornecedor sobre embalagem e transporte que são colocadas nos itens do pedido e podem ser verificadas na entrada de mercadorias. Os textos estão na T027B."
+  },
+  "synonyms": {
+    "es": [
+      "instrucciones de envío",
+      "instrucciones de embalaje",
+      "clave de envío"
+    ],
+    "en": [
+      "shipping instructions",
+      "packaging instructions",
+      "shipping instruction key"
+    ],
+    "pt": [
+      "instruções de envio",
+      "instruções de embalagem",
+      "chave de envio"
+    ]
   }
 }

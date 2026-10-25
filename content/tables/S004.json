@@ -8,5 +8,27 @@
     "es": "Estadísticas de ventas por material",
     "en": "Sales statistics per material",
     "pt": "Estatísticas de vendas por material"
+  },
+  "purpose": {
+    "es": "Estructura estadística del sistema de información de ventas (LIS) con cifras acumuladas por material, como pedidos, facturación y cantidades vendidas, por periodo. Sirve para ver qué productos se venden más en ECC.",
+    "en": "Statistics structure of the sales information system (LIS) with cumulative figures per material, such as incoming orders, billing and quantities sold, per period. Used to see which products sell most in ECC.",
+    "pt": "Estrutura estatística do sistema de informação de vendas (LIS) com valores acumulados por material, como entrada de ordens, faturamento e quantidades vendidas, por período. Serve para ver quais produtos vendem mais no ECC."
+  },
+  "synonyms": {
+    "es": [
+      "estadística de ventas por material",
+      "LIS material",
+      "ventas por producto"
+    ],
+    "en": [
+      "material sales statistics",
+      "LIS material",
+      "sales per product"
+    ],
+    "pt": [
+      "estatística de vendas por material",
+      "LIS material",
+      "vendas por produto"
+    ]
   }
 }

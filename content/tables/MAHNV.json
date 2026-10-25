@@ -8,5 +8,27 @@
     "es": "Reclamaciones: control de ejecuciones",
     "en": "Dunning: run control",
     "pt": "Advertências: controle de execuções"
+  },
+  "purpose": {
+    "es": "Una fila por cada ejecución del programa de reclamaciones (fecha de ejecución e identificación): parámetros usados y estado de la ejecución (propuesta, impresión). Sirve para saber qué ejecuciones de reclamación se hicieron y cuándo.",
+    "en": "One row per dunning program run (run date and identification): parameters used and run status (proposal, print). It tells you which dunning runs were made and when.",
+    "pt": "Uma linha por execução do programa de advertência (data de execução e identificação): parâmetros usados e status da execução (proposta, impressão). Serve para saber quais execuções de advertência foram feitas e quando."
+  },
+  "synonyms": {
+    "es": [
+      "ejecución de reclamación",
+      "programa de reclamaciones",
+      "corrida de cobranza"
+    ],
+    "en": [
+      "dunning run",
+      "dunning program",
+      "dunning run status"
+    ],
+    "pt": [
+      "execução de advertência",
+      "programa de advertência",
+      "rodada de cobrança"
+    ]
   }
 }

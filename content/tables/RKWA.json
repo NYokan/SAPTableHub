@@ -9,5 +9,30 @@
     "es": "Retiros de consignación y pipeline por liquidar",
     "en": "Consignment and pipeline withdrawals to settle",
     "pt": "Retiradas de consignação e pipeline a liquidar"
+  },
+  "purpose": {
+    "es": "Una fila por cada retiro de stock en consignación o pipeline del proveedor que genera una deuda con él. La liquidación de consignación (MRKO) usa estas filas para pagar lo consumido.",
+    "en": "One row per withdrawal from vendor consignment or pipeline stock that creates a liability to the vendor. Consignment settlement (MRKO) uses these rows to pay for what was consumed.",
+    "pt": "Uma linha por retirada de estoque em consignação ou pipeline do fornecedor que gera uma dívida com ele. A liquidação de consignação (MRKO) usa essas linhas para pagar o que foi consumido."
+  },
+  "synonyms": {
+    "es": [
+      "consignación por liquidar",
+      "retiros de consignación",
+      "liquidación de consignación",
+      "MRKO"
+    ],
+    "en": [
+      "consignment settlement",
+      "consignment withdrawals",
+      "pipeline withdrawals",
+      "MRKO"
+    ],
+    "pt": [
+      "consignação a liquidar",
+      "retiradas de consignação",
+      "liquidação de consignação",
+      "MRKO"
+    ]
   }
 }

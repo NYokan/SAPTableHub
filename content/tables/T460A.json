@@ -8,5 +8,30 @@
     "es": "Claves de aprovisionamiento especial",
     "en": "Special procurement keys",
     "pt": "Chaves de suprimento especial"
+  },
+  "purpose": {
+    "es": "Configuración de las claves de aprovisionamiento especial por centro (por ejemplo, subcontratación, traslado desde otro centro, fantasma, fabricación directa): cambian cómo el MRP aprovisiona un material. Una fila por centro y clave (SOBSL).",
+    "en": "Configuration of special procurement keys per plant (for example, subcontracting, stock transfer from another plant, phantom, direct production): they change how MRP procures a material. One row per plant and key (SOBSL).",
+    "pt": "Configuração das chaves de suprimento especial por centro (por exemplo, subcontratação, transferência de outro centro, fantasma, produção direta): mudam como o MRP abastece um material. Uma linha por centro e chave (SOBSL)."
+  },
+  "synonyms": {
+    "es": [
+      "aprovisionamiento especial",
+      "SOBSL",
+      "artículo fantasma",
+      "traslado entre centros"
+    ],
+    "en": [
+      "special procurement",
+      "SOBSL",
+      "phantom assembly",
+      "stock transfer"
+    ],
+    "pt": [
+      "suprimento especial",
+      "SOBSL",
+      "item fantasma",
+      "transferência entre centros"
+    ]
   }
 }

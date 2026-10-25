@@ -8,5 +8,27 @@
     "es": "Calendarios de fábrica (días laborables por año)",
     "en": "Factory calendars (working days by year)",
     "pt": "Calendários de fábrica (dias úteis por ano)"
+  },
+  "purpose": {
+    "es": "Una fila por calendario de fábrica y año con los días laborables ya calculados, mes a mes, como una secuencia de unos y ceros. Sirve para saber rápidamente si un día concreto es laborable.",
+    "en": "One row per factory calendar and year with the working days already calculated, month by month, as a sequence of ones and zeros. It tells quickly whether a given day is a working day.",
+    "pt": "Uma linha por calendário de fábrica e ano com os dias úteis já calculados, mês a mês, como uma sequência de uns e zeros. Serve para saber rapidamente se um dia é útil."
+  },
+  "synonyms": {
+    "es": [
+      "días laborables por año",
+      "calendario laboral anual",
+      "es día hábil"
+    ],
+    "en": [
+      "working days per year",
+      "annual work calendar",
+      "is working day"
+    ],
+    "pt": [
+      "dias úteis por ano",
+      "calendário de trabalho anual",
+      "é dia útil"
+    ]
   }
 }

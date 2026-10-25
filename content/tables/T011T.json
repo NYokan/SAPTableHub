@@ -9,5 +9,24 @@
     "es": "Estructuras de balance: textos",
     "en": "Financial statement versions: texts",
     "pt": "Estruturas de balanço: textos"
+  },
+  "purpose": {
+    "es": "Nombre de cada estructura de balance en cada idioma, para mostrar una descripción legible en lugar del código de T011.",
+    "en": "Name of each financial statement version in each language, to show a readable description instead of the code from T011.",
+    "pt": "Nome de cada estrutura de balanço em cada idioma, para mostrar uma descrição legível em vez do código da T011."
+  },
+  "synonyms": {
+    "es": [
+      "texto estructura de balance",
+      "nombre versión de balance"
+    ],
+    "en": [
+      "financial statement version text",
+      "FSV name"
+    ],
+    "pt": [
+      "texto da estrutura de balanço",
+      "nome da versão de balanço"
+    ]
   }
 }

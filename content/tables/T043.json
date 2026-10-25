@@ -8,5 +8,27 @@
     "es": "Asignación de usuarios a grupos de tolerancia",
     "en": "Assignment of users to tolerance groups",
     "pt": "Atribuição de usuários a grupos de tolerância"
+  },
+  "purpose": {
+    "es": "Asigna cada usuario a un grupo de tolerancia de empleados por sociedad. El grupo (T043T) fija cuánto puede contabilizar el usuario y qué diferencias de pago puede aceptar.",
+    "en": "Assigns each user to an employee tolerance group per company code. The group (T043T) sets how much the user can post and which payment differences they can accept.",
+    "pt": "Atribui cada usuário a um grupo de tolerância de funcionários por empresa. O grupo (T043T) define quanto o usuário pode lançar e quais diferenças de pagamento pode aceitar."
+  },
+  "synonyms": {
+    "es": [
+      "grupo de tolerancia de usuario",
+      "límites de contabilización por usuario",
+      "tolerancia de empleado"
+    ],
+    "en": [
+      "user tolerance group",
+      "user posting limits",
+      "employee tolerance"
+    ],
+    "pt": [
+      "grupo de tolerância do usuário",
+      "limites de lançamento por usuário",
+      "tolerância do funcionário"
+    ]
   }
 }

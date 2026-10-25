@@ -8,5 +8,27 @@
     "es": "Estados de objeto (perfil y tipo de cada objeto)",
     "en": "Object statuses (profile and type of each object)",
     "pt": "Status de objeto (perfil e tipo de cada objeto)"
+  },
+  "purpose": {
+    "es": "Una fila por cada objeto que gestiona estados (órdenes, proyectos, avisos, etc.): su tipo de objeto y el esquema de estado de usuario asignado. Los estados activos están en JEST.",
+    "en": "One row per object that manages statuses (orders, projects, notifications, etc.): its object type and the assigned user status profile. Active statuses are in JEST.",
+    "pt": "Uma linha por objeto que gerencia status (ordens, projetos, notas, etc.): seu tipo de objeto e o esquema de status de usuário atribuído. Os status ativos estão na JEST."
+  },
+  "synonyms": {
+    "es": [
+      "esquema de estado del objeto",
+      "tipo de objeto de estado",
+      "perfil de status"
+    ],
+    "en": [
+      "object status profile",
+      "status object type",
+      "status profile assignment"
+    ],
+    "pt": [
+      "esquema de status do objeto",
+      "tipo de objeto de status",
+      "perfil de status"
+    ]
   }
 }

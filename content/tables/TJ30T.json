@@ -8,5 +8,24 @@
     "es": "Estados de usuario (textos)",
     "en": "User statuses (texts)",
     "pt": "Status do usuário (textos)"
+  },
+  "purpose": {
+    "es": "Abreviatura y descripción de cada estado de usuario por idioma y esquema. Traduce los códigos de estado de usuario (E0001…) de JEST a algo legible.",
+    "en": "Abbreviation and description of each user status per language and profile. It translates the user status codes (E0001…) in JEST into something readable.",
+    "pt": "Abreviatura e descrição de cada status de usuário por idioma e esquema. Traduz os códigos de status de usuário (E0001…) da JEST para algo legível."
+  },
+  "synonyms": {
+    "es": [
+      "texto de estado de usuario",
+      "descripción de status de usuario"
+    ],
+    "en": [
+      "user status text",
+      "user status description"
+    ],
+    "pt": [
+      "texto do status de usuário",
+      "descrição do status de usuário"
+    ]
   }
 }

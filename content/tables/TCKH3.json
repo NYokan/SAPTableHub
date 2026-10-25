@@ -8,5 +8,27 @@
     "es": "Componentes de coste",
     "en": "Cost components",
     "pt": "Componentes de custo"
+  },
+  "purpose": {
+    "es": "Configuración de los componentes de coste de cada estructura de componentes de coste (por ejemplo, materia prima, mano de obra, gastos generales): cómo se agrupan los costes en el cálculo del producto. Una fila por estructura y componente.",
+    "en": "Configuration of the cost components in each cost component structure (for example, raw material, labor, overhead): how costs are grouped in product costing. One row per structure and component.",
+    "pt": "Configuração dos componentes de custo de cada estrutura de componentes de custo (por exemplo, matéria-prima, mão de obra, custos indiretos): como os custos são agrupados no cálculo do produto. Uma linha por estrutura e componente."
+  },
+  "synonyms": {
+    "es": [
+      "componente de coste",
+      "estructura de componentes de coste",
+      "desglose de costos"
+    ],
+    "en": [
+      "cost component",
+      "cost component structure",
+      "cost breakdown"
+    ],
+    "pt": [
+      "componente de custo",
+      "estrutura de componentes de custo",
+      "divisão de custos"
+    ]
   }
 }

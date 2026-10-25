@@ -8,5 +8,30 @@
     "es": "Evaluación de proveedores: notas por subcriterio",
     "en": "Vendor evaluation: subcriteria scores",
     "pt": "Avaliação de fornecedores: notas por subcritério"
+  },
+  "purpose": {
+    "es": "Una fila por proveedor, organización de compras y subcriterio de evaluación (por ejemplo puntualidad o fidelidad de cantidades) con la nota obtenida. Detalla las notas de ELBM.",
+    "en": "One row per vendor, purchasing organization and evaluation subcriterion (for example on-time delivery or quantity reliability) with the score obtained. It breaks down the ELBM scores.",
+    "pt": "Uma linha por fornecedor, organização de compras e subcritério de avaliação (por exemplo pontualidade ou confiabilidade de quantidade) com a nota obtida. Detalha as notas da ELBM."
+  },
+  "synonyms": {
+    "es": [
+      "nota por subcriterio",
+      "puntualidad del proveedor",
+      "fidelidad de cantidades",
+      "detalle de evaluación"
+    ],
+    "en": [
+      "subcriteria score",
+      "on-time delivery score",
+      "quantity reliability",
+      "evaluation detail"
+    ],
+    "pt": [
+      "nota por subcritério",
+      "pontualidade do fornecedor",
+      "confiabilidade de quantidade",
+      "detalhe da avaliação"
+    ]
   }
 }

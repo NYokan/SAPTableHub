@@ -8,5 +8,27 @@
     "es": "Reclamaciones: cuentas bloqueadas por una ejecución",
     "en": "Dunning: accounts locked by a run",
     "pt": "Advertências: contas bloqueadas por uma execução"
+  },
+  "purpose": {
+    "es": "Las cuentas de clientes y proveedores que una ejecución de reclamación tiene bloqueadas mientras se procesa, para que otra ejecución no las reclame a la vez. Si una ejecución termina mal pueden quedar entradas que impiden reclamar esas cuentas.",
+    "en": "The customer and vendor accounts locked by a dunning run while it is being processed, so another run cannot dun them at the same time. If a run ends badly, leftover entries can prevent those accounts from being dunned.",
+    "pt": "As contas de clientes e fornecedores que uma execução de advertência mantém bloqueadas enquanto é processada, para que outra execução não as advirta ao mesmo tempo. Se uma execução termina mal podem ficar entradas que impedem advertir essas contas."
+  },
+  "synonyms": {
+    "es": [
+      "bloqueo por reclamación",
+      "cuentas bloqueadas por reclamación",
+      "ejecución de reclamación"
+    ],
+    "en": [
+      "dunning run lock",
+      "accounts locked by dunning",
+      "dunning run"
+    ],
+    "pt": [
+      "bloqueio por advertência",
+      "contas bloqueadas pela advertência",
+      "execução de advertência"
+    ]
   }
 }

@@ -8,5 +8,27 @@
     "es": "Motivos de anulación de cheques",
     "en": "Check void reasons",
     "pt": "Motivos de anulação de cheques"
+  },
+  "purpose": {
+    "es": "Los motivos de anulación de cheques: por qué se anuló un cheque (estropeado al imprimir, perdido, robado…). Se guardan en el registro de cheques PAYR.",
+    "en": "The check void reasons: why a check was voided (damaged in printing, lost, stolen…). They are stored in the check register PAYR.",
+    "pt": "Os motivos de anulação de cheques: por que um cheque foi anulado (danificado na impressão, perdido, roubado…). São guardados no registro de cheques PAYR."
+  },
+  "synonyms": {
+    "es": [
+      "anulación de cheques",
+      "motivo de anulación",
+      "cheque anulado"
+    ],
+    "en": [
+      "check void reason",
+      "voided check",
+      "check cancellation"
+    ],
+    "pt": [
+      "anulação de cheques",
+      "motivo de anulação",
+      "cheque anulado"
+    ]
   }
 }

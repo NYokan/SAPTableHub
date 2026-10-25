@@ -8,5 +8,27 @@
     "es": "Necesidades de capacidad (cabecera)",
     "en": "Capacity requirements (header)",
     "pt": "Necessidades de capacidade (cabeçalho)"
+  },
+  "purpose": {
+    "es": "Una fila por cada orden u orden previsional con necesidades de capacidad: cabecera que agrupa los registros de KBED de esa orden, con fechas y estado de la programación.",
+    "en": "One row per order or planned order with capacity requirements: header that groups that order's KBED records, with scheduling dates and status.",
+    "pt": "Uma linha por ordem ou ordem planejada com necessidades de capacidade: cabeçalho que agrupa os registros da KBED dessa ordem, com datas e status da programação."
+  },
+  "synonyms": {
+    "es": [
+      "cabecera de necesidades de capacidad",
+      "programación de órdenes",
+      "carga por orden"
+    ],
+    "en": [
+      "capacity requirements header",
+      "order scheduling",
+      "load per order"
+    ],
+    "pt": [
+      "cabeçalho de necessidades de capacidade",
+      "programação de ordens",
+      "carga por ordem"
+    ]
   }
 }

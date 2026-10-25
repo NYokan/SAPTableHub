@@ -8,5 +8,30 @@
     "es": "Totales CO de desviaciones y cálculo de resultados",
     "en": "CO totals for variances and results analysis",
     "pt": "Totais CO de desvios e análise de resultados"
+  },
+  "purpose": {
+    "es": "Totales por objeto CO y período de los resultados del cálculo de resultados y de desviaciones: trabajo en curso, reservas, costes realizados y desviaciones de producción por categoría. Sirve para analizar el cierre de órdenes y proyectos.",
+    "en": "Totals per CO object and period from results analysis and variance calculation: work in process, reserves, realized costs and production variances by category. It is used to analyze period-end closing of orders and projects.",
+    "pt": "Totais por objeto CO e período da análise de resultados e do cálculo de desvios: produção em processo, provisões, custos realizados e desvios de produção por categoria. Serve para analisar o fechamento de ordens e projetos."
+  },
+  "synonyms": {
+    "es": [
+      "trabajo en curso",
+      "desviaciones de producción",
+      "cálculo de resultados",
+      "WIP"
+    ],
+    "en": [
+      "work in process",
+      "production variances",
+      "results analysis",
+      "WIP"
+    ],
+    "pt": [
+      "produção em processo",
+      "desvios de produção",
+      "análise de resultados",
+      "WIP"
+    ]
   }
 }

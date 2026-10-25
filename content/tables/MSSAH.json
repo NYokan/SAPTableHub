@@ -8,5 +8,24 @@
     "es": "Stock de pedido de cliente (totales, histórico)",
     "en": "Sales order stock (totals, history)",
     "pt": "Estoque de ordem do cliente (totais, histórico)"
+  },
+  "purpose": {
+    "es": "Copia por periodo de los totales de stock de pedido de cliente (MSSA): cantidades al cierre de periodos anteriores.",
+    "en": "Period copy of sales order stock totals (MSSA): quantities at the close of earlier periods.",
+    "pt": "Cópia por período dos totais de estoque de pedido de cliente (MSSA): quantidades no fechamento de períodos anteriores."
+  },
+  "synonyms": {
+    "es": [
+      "histórico total stock de pedido",
+      "stock E total histórico"
+    ],
+    "en": [
+      "sales order stock total history",
+      "special stock E total history"
+    ],
+    "pt": [
+      "histórico total estoque de pedido",
+      "estoque E total histórico"
+    ]
   }
 }

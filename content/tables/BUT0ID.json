@@ -8,5 +8,30 @@
     "es": "Socios de negocio (números de identificación)",
     "en": "Business partners (identification numbers)",
     "pt": "Parceiros de negócios (números de identificação)"
+  },
+  "purpose": {
+    "es": "Una fila por cada número de identificación de un socio de negocio, con su tipo: documento de identidad, pasaporte, registro mercantil, DUNS u otros, y su validez.",
+    "en": "One row per identification number of a business partner, with its type: ID card, passport, commercial register, DUNS or others, and its validity.",
+    "pt": "Uma linha por número de identificação de um parceiro de negócios, com seu tipo: documento de identidade, passaporte, registro comercial, DUNS ou outros, e sua validade."
+  },
+  "synonyms": {
+    "es": [
+      "número de identificación",
+      "documento de identidad",
+      "número DUNS",
+      "registro mercantil"
+    ],
+    "en": [
+      "identification number",
+      "ID number",
+      "DUNS number",
+      "passport number"
+    ],
+    "pt": [
+      "número de identificação",
+      "documento de identidade",
+      "número DUNS",
+      "registro comercial"
+    ]
   }
 }

@@ -9,5 +9,27 @@
     "es": "Clases de coste (textos)",
     "en": "Cost elements (texts)",
     "pt": "Classes de custo (textos)"
+  },
+  "purpose": {
+    "es": "Nombre corto y descripción de cada clase de coste, por idioma y plan de cuentas. Se usa para mostrar el texto de la clase de coste en informes de Controlling; en S/4HANA las clases de coste son cuentas de mayor y su texto está en SKAT.",
+    "en": "Short name and description of each cost element, per language and chart of accounts. It is used to show the cost element text in Controlling reports; in S/4HANA cost elements are G/L accounts and their text is in SKAT.",
+    "pt": "Nome curto e descrição de cada classe de custo, por idioma e plano de contas. Serve para mostrar o texto da classe de custo em relatórios do Controlling; no S/4HANA as classes de custo são contas do razão e seu texto está na SKAT."
+  },
+  "synonyms": {
+    "es": [
+      "nombre de clase de coste",
+      "descripción de clase de coste",
+      "texto de elemento de coste"
+    ],
+    "en": [
+      "cost element name",
+      "cost element description",
+      "cost element text"
+    ],
+    "pt": [
+      "nome da classe de custo",
+      "descrição da classe de custo",
+      "texto do elemento de custo"
+    ]
   }
 }

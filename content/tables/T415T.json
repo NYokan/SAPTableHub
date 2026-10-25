@@ -8,5 +8,24 @@
     "es": "Status de listas de materiales (descripciones)",
     "en": "Bill of material statuses (descriptions)",
     "pt": "Status de listas técnicas (descrições)"
+  },
+  "purpose": {
+    "es": "Descripción de cada status de listas de materiales, por idioma. Se une con T415S o STKO para mostrar el nombre del status.",
+    "en": "Description of each bill of material status, per language. It is joined to T415S or STKO to show the status name.",
+    "pt": "Descrição de cada status de listas técnicas, por idioma. É unida à T415S ou à STKO para mostrar o nome do status."
+  },
+  "synonyms": {
+    "es": [
+      "nombre de status de BOM",
+      "descripción de status de lista de materiales"
+    ],
+    "en": [
+      "BOM status name",
+      "BOM status description"
+    ],
+    "pt": [
+      "nome do status da BOM",
+      "descrição do status da lista técnica"
+    ]
   }
 }

@@ -8,5 +8,24 @@
     "es": "Cuentas de mayor: textos de grupos de cuentas",
     "en": "G/L accounts: account group texts",
     "pt": "Contas do razão: textos de grupos de contas"
+  },
+  "purpose": {
+    "es": "Nombre de cada grupo de cuentas de mayor en cada idioma, por plan de cuentas, para mostrar una descripción legible en lugar del código de T077S.",
+    "en": "Name of each G/L account group in each language, per chart of accounts, to show a readable description instead of the code from T077S.",
+    "pt": "Nome de cada grupo de contas do razão em cada idioma, por plano de contas, para mostrar uma descrição legível em vez do código da T077S."
+  },
+  "synonyms": {
+    "es": [
+      "texto grupo de cuentas de mayor",
+      "descripción grupo de cuentas"
+    ],
+    "en": [
+      "G/L account group text",
+      "account group description"
+    ],
+    "pt": [
+      "texto do grupo de contas do razão",
+      "descrição do grupo de contas"
+    ]
   }
 }

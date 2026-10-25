@@ -8,5 +8,24 @@
     "es": "Garantías maestras (textos)",
     "en": "Master warranties (texts)",
     "pt": "Garantias mestras (textos)"
+  },
+  "purpose": {
+    "es": "Descripciones por idioma de las garantías maestras (BGMK). Se usa para mostrar el nombre legible en informes en lugar del código.",
+    "en": "Language-dependent descriptions of master warranties (BGMK). Used to show the readable name in reports instead of the code.",
+    "pt": "Descrições por idioma de garantias mestre (BGMK). Usada para mostrar o nome legível em relatórios em vez do código."
+  },
+  "synonyms": {
+    "es": [
+      "nombre de la garantía",
+      "descripción de garantía"
+    ],
+    "en": [
+      "warranty name",
+      "warranty description"
+    ],
+    "pt": [
+      "nome da garantia",
+      "descrição da garantia"
+    ]
   }
 }

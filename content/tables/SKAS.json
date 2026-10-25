@@ -8,5 +8,27 @@
     "es": "Cuentas de mayor: lista de palabras clave",
     "en": "G/L accounts: keyword list",
     "pt": "Contas do razão: lista de palavras-chave"
+  },
+  "purpose": {
+    "es": "Palabras clave asociadas a cada cuenta de mayor por plan de cuentas e idioma, para que los usuarios encuentren la cuenta correcta buscando por concepto (por ejemplo «viajes» o «alquiler»).",
+    "en": "Keywords linked to each G/L account per chart of accounts and language, so users can find the right account by searching for a concept (for example \"travel\" or \"rent\").",
+    "pt": "Palavras-chave associadas a cada conta do razão por plano de contas e idioma, para que os usuários encontrem a conta certa buscando por conceito (por exemplo «viagens» ou «aluguel»)."
+  },
+  "synonyms": {
+    "es": [
+      "palabras clave de cuentas",
+      "búsqueda de cuenta de mayor",
+      "índice de cuentas"
+    ],
+    "en": [
+      "G/L account keywords",
+      "account search terms",
+      "account keyword list"
+    ],
+    "pt": [
+      "palavras-chave de contas",
+      "busca de conta do razão",
+      "índice de contas"
+    ]
   }
 }

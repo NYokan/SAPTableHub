@@ -9,5 +9,27 @@
     "es": "Grupos de cuentas de proveedores",
     "en": "Vendor account groups",
     "pt": "Grupos de contas de fornecedores"
+  },
+  "purpose": {
+    "es": "Una fila por cada grupo de cuentas de proveedores: controla el rango de números, qué campos son obligatorios u opcionales y si es un proveedor ocasional (CPD). Cada proveedor de LFA1 tiene uno; los nombres están en T077Y.",
+    "en": "One row per vendor account group: it controls the number range, which fields are required or optional and whether it is a one-time vendor. Every vendor in LFA1 has one; the names are in T077Y.",
+    "pt": "Uma linha por grupo de contas de fornecedores: controla o intervalo de numeração, quais campos são obrigatórios ou opcionais e se é um fornecedor eventual (CPD). Cada fornecedor da LFA1 tem um; os nomes estão na T077Y."
+  },
+  "synonyms": {
+    "es": [
+      "grupo de cuentas de proveedor",
+      "tipo de proveedor",
+      "rango de números de proveedor"
+    ],
+    "en": [
+      "vendor account group",
+      "vendor type",
+      "vendor number range"
+    ],
+    "pt": [
+      "grupo de contas de fornecedor",
+      "tipo de fornecedor",
+      "faixa de numeração de fornecedor"
+    ]
   }
 }

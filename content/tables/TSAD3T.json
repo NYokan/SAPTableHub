@@ -8,5 +8,24 @@
     "es": "Tratamientos (textos)",
     "en": "Forms of address (texts)",
     "pt": "Tratamentos (textos)"
+  },
+  "purpose": {
+    "es": "Texto de cada tratamiento por idioma, tal como se imprime en la dirección, por ejemplo «Señor» o «Empresa». Complementa a TSAD3.",
+    "en": "Text of each form of address per language, as printed in the address, for example 'Mister' or 'Company'. It complements TSAD3.",
+    "pt": "Texto de cada tratamento por idioma, como é impresso no endereço, por exemplo 'Senhor' ou 'Empresa'. Complementa a TSAD3."
+  },
+  "synonyms": {
+    "es": [
+      "texto de tratamiento",
+      "saludo en dirección"
+    ],
+    "en": [
+      "form of address text",
+      "salutation text"
+    ],
+    "pt": [
+      "texto do tratamento",
+      "saudação no endereço"
+    ]
   }
 }

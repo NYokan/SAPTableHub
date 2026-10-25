@@ -8,5 +8,27 @@
     "es": "Planes de valoración de activos fijos",
     "en": "Charts of depreciation",
     "pt": "Planos de avaliação de ativos fixos"
+  },
+  "purpose": {
+    "es": "Los planes de valoración: cada uno agrupa las áreas de valoración que exige un país (contable, fiscal, etc.) y se asigna a las sociedades que usan activos fijos.",
+    "en": "The charts of depreciation: each one groups the depreciation areas required by a country (book, tax, etc.) and is assigned to the company codes that use asset accounting.",
+    "pt": "Os planos de avaliação: cada um agrupa as áreas de avaliação exigidas por um país (contábil, fiscal etc.) e é atribuído às empresas que usam ativos imobilizados."
+  },
+  "synonyms": {
+    "es": [
+      "plan de valoración",
+      "plan de amortización por país",
+      "AFAPL"
+    ],
+    "en": [
+      "chart of depreciation",
+      "country depreciation plan",
+      "AFAPL"
+    ],
+    "pt": [
+      "plano de avaliação",
+      "plano de depreciação por país",
+      "AFAPL"
+    ]
   }
 }

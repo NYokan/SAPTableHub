@@ -8,5 +8,27 @@
     "es": "Socios de negocio (tarjetas de pago)",
     "en": "Business partners (payment cards)",
     "pt": "Parceiros de negócios (cartões de pagamento)"
+  },
+  "purpose": {
+    "es": "Una fila por cada tarjeta de pago (por ejemplo tarjeta de crédito) registrada para un socio de negocio: tipo de tarjeta, número, titular y validez.",
+    "en": "One row per payment card (for example a credit card) registered for a business partner: card type, number, holder and validity.",
+    "pt": "Uma linha por cartão de pagamento (por exemplo cartão de crédito) registrado para um parceiro de negócios: tipo de cartão, número, titular e validade."
+  },
+  "synonyms": {
+    "es": [
+      "tarjeta de crédito",
+      "tarjeta de pago",
+      "tarjetas del cliente"
+    ],
+    "en": [
+      "credit card",
+      "payment card",
+      "customer cards"
+    ],
+    "pt": [
+      "cartão de crédito",
+      "cartão de pagamento",
+      "cartões do cliente"
+    ]
   }
 }

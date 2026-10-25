@@ -8,5 +8,27 @@
     "es": "Idiomas (nombres)",
     "en": "Languages (names)",
     "pt": "Idiomas (nomes)"
+  },
+  "purpose": {
+    "es": "Nombre de cada idioma escrito en cada idioma de visualización, por ejemplo «Español» o «Spanish» para la clave S.",
+    "en": "Name of each language written in each display language, for example 'Spanish' or 'Español' for key S.",
+    "pt": "Nome de cada idioma escrito em cada idioma de exibição, por exemplo 'Espanhol' ou 'Spanish' para a chave S."
+  },
+  "synonyms": {
+    "es": [
+      "nombre de idioma",
+      "descripción de idioma",
+      "texto de idioma"
+    ],
+    "en": [
+      "language name",
+      "language description",
+      "language text"
+    ],
+    "pt": [
+      "nome do idioma",
+      "descrição do idioma",
+      "texto do idioma"
+    ]
   }
 }

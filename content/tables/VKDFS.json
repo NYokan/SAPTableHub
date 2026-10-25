@@ -8,5 +8,30 @@
     "es": "Índice de documentos pendientes de facturar",
     "en": "Billing due list index",
     "pt": "Índice de documentos a faturar"
+  },
+  "purpose": {
+    "es": "Índice de documentos pendientes de facturar: una fila por pedido o entrega listo para facturar, con organización de ventas, fecha de facturación y cliente. Alimenta la lista de facturación (VF04).",
+    "en": "Index of documents due for billing: one row per order or delivery ready to bill, with sales organization, billing date and customer. It feeds the billing due list (VF04).",
+    "pt": "Índice de documentos pendentes de faturamento: uma linha por ordem ou remessa pronta para faturar, com organização de vendas, data de faturamento e cliente. Alimenta a lista de faturamento (VF04)."
+  },
+  "synonyms": {
+    "es": [
+      "pendientes de facturar",
+      "lista de facturación",
+      "VF04",
+      "entregas sin facturar"
+    ],
+    "en": [
+      "billing due list",
+      "due for billing",
+      "VF04",
+      "unbilled deliveries"
+    ],
+    "pt": [
+      "pendentes de faturamento",
+      "lista de faturamento",
+      "VF04",
+      "remessas não faturadas"
+    ]
   }
 }

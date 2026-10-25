@@ -9,5 +9,24 @@
     "es": "Tipos de almacén (textos)",
     "en": "Storage types (texts)",
     "pt": "Tipos de depósito (textos)"
+  },
+  "purpose": {
+    "es": "Descripciones por idioma de los tipos de almacén WM (T301). Se usa para mostrar el nombre legible en informes en lugar del código.",
+    "en": "Language-dependent descriptions of WM storage types (T301). Used to show the readable name in reports instead of the code.",
+    "pt": "Descrições por idioma de tipos de depósito WM (T301). Usada para mostrar o nome legível em relatórios em vez do código."
+  },
+  "synonyms": {
+    "es": [
+      "nombre tipo de almacén",
+      "descripción zona de almacén"
+    ],
+    "en": [
+      "storage type name",
+      "warehouse zone description"
+    ],
+    "pt": [
+      "nome tipo de depósito",
+      "descrição zona do depósito"
+    ]
   }
 }

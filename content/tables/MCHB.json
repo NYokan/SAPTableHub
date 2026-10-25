@@ -8,5 +8,29 @@
     "es": "Stock por lote",
     "en": "Stock by batch",
     "pt": "Estoque por lote"
+  },
+  "purpose": {
+    "es": "Cantidad de stock de cada lote por material, centro y almacén, separada en libre utilización, control de calidad y bloqueado. Es el equivalente de MARD a nivel de lote.",
+    "en": "Stock quantity of each batch by material, plant and storage location, split into unrestricted, quality inspection and blocked. It is the batch-level equivalent of MARD.",
+    "pt": "Quantidade de estoque de cada lote por material, centro e depósito, separada em livre utilização, controle de qualidade e bloqueado. É o equivalente da MARD no nível de lote."
+  },
+  "synonyms": {
+    "es": [
+      "stock por lote",
+      "existencias por lote",
+      "saldo de lote",
+      "inventario por lote"
+    ],
+    "en": [
+      "batch stock",
+      "stock by batch",
+      "batch inventory",
+      "batch balance"
+    ],
+    "pt": [
+      "estoque por lote",
+      "saldo do lote",
+      "inventário por lote"
+    ]
   }
 }

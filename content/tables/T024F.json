@@ -8,5 +8,27 @@
     "es": "Responsables de control de producción",
     "en": "Production supervisors",
     "pt": "Responsáveis pelo controle de produção"
+  },
+  "purpose": {
+    "es": "Una fila por cada responsable de control de producción de un centro: código, nombre y perfil de control de producción. Se asigna a materiales y órdenes de fabricación para saber quién las supervisa.",
+    "en": "One row per production supervisor in a plant: code, name and production scheduling profile. It is assigned to materials and production orders to show who supervises them.",
+    "pt": "Uma linha por responsável pelo controle de produção de um centro: código, nome e perfil de controle de produção. É atribuído a materiais e ordens de produção para saber quem as supervisiona."
+  },
+  "synonyms": {
+    "es": [
+      "responsable de producción",
+      "supervisor de producción",
+      "programador de producción"
+    ],
+    "en": [
+      "production supervisor",
+      "production scheduler",
+      "production responsible"
+    ],
+    "pt": [
+      "responsável pela produção",
+      "supervisor de produção",
+      "programador de produção"
+    ]
   }
 }

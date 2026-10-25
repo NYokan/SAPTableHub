@@ -8,5 +8,27 @@
     "es": "Documentos del ledger de materiales (valores)",
     "en": "Material ledger documents (values)",
     "pt": "Documentos do ledger de materiais (valores)"
+  },
+  "purpose": {
+    "es": "Una fila por posición de documento del ledger de materiales y moneda: valores del movimiento (valor de stock, diferencias de precio y de tipo de cambio) en cada moneda paralela. Junto con MLHD y MLIT forma el documento del ledger.",
+    "en": "One row per material ledger document item and currency: movement values (stock value, price and exchange rate differences) in each parallel currency. Together with MLHD and MLIT it makes up the ledger document.",
+    "pt": "Uma linha por item de documento do ledger de materiais e moeda: valores do movimento (valor de estoque, diferenças de preço e de câmbio) em cada moeda paralela. Junto com MLHD e MLIT forma o documento do ledger."
+  },
+  "synonyms": {
+    "es": [
+      "valores del material ledger",
+      "diferencias de precio",
+      "monedas paralelas"
+    ],
+    "en": [
+      "material ledger values",
+      "price differences",
+      "parallel currencies"
+    ],
+    "pt": [
+      "valores do material ledger",
+      "diferenças de preço",
+      "moedas paralelas"
+    ]
   }
 }

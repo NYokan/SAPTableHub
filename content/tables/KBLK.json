@@ -9,5 +9,30 @@
     "es": "Compromisos de fondos (cabecera)",
     "en": "Earmarked funds (header)",
     "pt": "Compromissos de fundos (cabeçalho)"
+  },
+  "purpose": {
+    "es": "Una fila por cada documento de compromiso de fondos (reserva de fondos, solicitud de fondos, compromiso de pago…): tipo de documento, fechas y estado. Reserva presupuesto antes de que llegue el gasto real; las líneas están en KBLP.",
+    "en": "One row per earmarked funds document (funds reservation, funds precommitment, funds commitment…): document type, dates and status. It reserves budget before the actual spend arrives; the lines are in KBLP.",
+    "pt": "Uma linha por documento de comprometimento de fundos (reserva de fundos, pré-compromisso, compromisso de pagamento…): tipo de documento, datas e status. Reserva orçamento antes da despesa real; as linhas estão na KBLP."
+  },
+  "synonyms": {
+    "es": [
+      "reserva de fondos",
+      "compromiso presupuestario",
+      "fondos comprometidos",
+      "earmarked funds"
+    ],
+    "en": [
+      "funds reservation",
+      "earmarked funds",
+      "budget commitment",
+      "funds precommitment"
+    ],
+    "pt": [
+      "reserva de fundos",
+      "compromisso orçamentário",
+      "fundos comprometidos",
+      "earmarked funds"
+    ]
   }
 }

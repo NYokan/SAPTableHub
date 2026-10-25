@@ -9,5 +9,27 @@
     "es": "Motivos de bloqueo de reclamación",
     "en": "Dunning block reasons",
     "pt": "Motivos de bloqueio de advertência"
+  },
+  "purpose": {
+    "es": "Los motivos de bloqueo de reclamación: códigos que se ponen en un cliente, proveedor o partida para que no se reclame, por ejemplo por estar en disputa.",
+    "en": "The dunning block reasons: codes set on a customer, vendor or item so it is not dunned, for example because it is in dispute.",
+    "pt": "Os motivos de bloqueio de advertência: códigos colocados em um cliente, fornecedor ou partida para que não seja advertido, por exemplo por estar em disputa."
+  },
+  "synonyms": {
+    "es": [
+      "bloqueo de reclamación",
+      "motivo de bloqueo de cobro",
+      "MANSP"
+    ],
+    "en": [
+      "dunning block",
+      "dunning block reason",
+      "MANSP"
+    ],
+    "pt": [
+      "bloqueio de advertência",
+      "motivo de bloqueio de cobrança",
+      "MANSP"
+    ]
   }
 }

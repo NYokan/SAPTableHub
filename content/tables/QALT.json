@@ -8,5 +8,27 @@
     "es": "Lotes parciales de inspección",
     "en": "Inspection partial lots",
     "pt": "Lotes parciais de inspeção"
+  },
+  "purpose": {
+    "es": "Lotes parciales de un lote de inspección: subdivisiones del lote (por ejemplo, partes de una producción) que reciben su propia decisión de empleo o lote de material.",
+    "en": "Partial lots of an inspection lot: subdivisions of the lot (for example, parts of a production run) that get their own usage decision or material batch.",
+    "pt": "Lotes parciais de um lote de inspeção: subdivisões do lote (por exemplo, partes de uma produção) que recebem sua própria decisão de utilização ou lote de material."
+  },
+  "synonyms": {
+    "es": [
+      "lote parcial",
+      "subdivisión de lote de inspección",
+      "lote parcial de producción"
+    ],
+    "en": [
+      "partial lot",
+      "inspection lot subdivision",
+      "production partial lot"
+    ],
+    "pt": [
+      "lote parcial",
+      "subdivisão do lote de inspeção",
+      "lote parcial de produção"
+    ]
   }
 }

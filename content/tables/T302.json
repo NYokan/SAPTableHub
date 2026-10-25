@@ -9,5 +9,27 @@
     "es": "Áreas de almacenamiento",
     "en": "Storage sections",
     "pt": "Áreas de armazenagem"
+  },
+  "purpose": {
+    "es": "Lista de áreas de almacenamiento dentro de cada tipo de almacén WM: subdivisiones que agrupan ubicaciones con características comunes, como productos de alta rotación o pesados.",
+    "en": "List of storage sections within each WM storage type: subdivisions grouping bins with common features, such as fast-moving or heavy items.",
+    "pt": "Lista de áreas de armazenagem dentro de cada tipo de depósito WM: subdivisões que agrupam posições com características comuns, como itens de alto giro ou pesados."
+  },
+  "synonyms": {
+    "es": [
+      "área de almacenamiento",
+      "sección de almacén",
+      "sector de almacén"
+    ],
+    "en": [
+      "storage section",
+      "warehouse section",
+      "storage zone"
+    ],
+    "pt": [
+      "área de armazenagem",
+      "seção do depósito",
+      "setor do depósito"
+    ]
   }
 }

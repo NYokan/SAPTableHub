@@ -8,5 +8,27 @@
     "es": "Avisos de pago: posiciones",
     "en": "Payment advice notes: items",
     "pt": "Avisos de pagamento: itens"
+  },
+  "purpose": {
+    "es": "Las líneas de un aviso de pago: cada una indica un documento o referencia que se paga, el importe y las deducciones o diferencias. La cabecera del aviso está en AVIK.",
+    "en": "The lines of a payment advice note: each one names a document or reference being paid, the amount and any deductions or differences. The advice header is in AVIK.",
+    "pt": "As linhas de um aviso de pagamento: cada uma indica um documento ou referência paga, o montante e as deduções ou diferenças. O cabeçalho do aviso está na AVIK."
+  },
+  "synonyms": {
+    "es": [
+      "líneas de aviso de pago",
+      "facturas pagadas en aviso",
+      "deducciones del aviso"
+    ],
+    "en": [
+      "payment advice items",
+      "invoices in remittance",
+      "remittance deductions"
+    ],
+    "pt": [
+      "itens do aviso de pagamento",
+      "faturas pagas no aviso",
+      "deduções do aviso"
+    ]
   }
 }

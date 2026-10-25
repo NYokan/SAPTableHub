@@ -8,5 +8,27 @@
     "es": "Condiciones de almacenaje",
     "en": "Storage conditions",
     "pt": "Condições de armazenagem"
+  },
+  "purpose": {
+    "es": "Lista de condiciones de almacenaje (por ejemplo, lugar seco, refrigerado) que se indican en el maestro de materiales para saber cómo guardarlo.",
+    "en": "List of storage conditions (for example, dry place, refrigerated) entered in the material master to indicate how it must be stored.",
+    "pt": "Lista de condições de armazenagem (por exemplo, local seco, refrigerado) informadas no mestre de materiais para indicar como deve ser guardado."
+  },
+  "synonyms": {
+    "es": [
+      "condiciones de almacenaje",
+      "requisitos de almacenamiento",
+      "refrigerado"
+    ],
+    "en": [
+      "storage conditions",
+      "storage requirements",
+      "refrigerated"
+    ],
+    "pt": [
+      "condições de armazenagem",
+      "requisitos de armazenamento",
+      "refrigerado"
+    ]
   }
 }

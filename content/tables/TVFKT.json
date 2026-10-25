@@ -9,5 +9,27 @@
     "es": "Clases de factura: textos",
     "en": "Billing types: texts",
     "pt": "Tipos de documento de faturamento: textos"
+  },
+  "purpose": {
+    "es": "Descripción de cada clase de factura (factura, nota de crédito, nota de débito…) en cada idioma: una fila por código e idioma. Sirve para mostrar un nombre legible en lugar del código FKART en informes; los códigos se definen en TVFK.",
+    "en": "Description of each billing type (invoice, credit memo, debit memo…) in each language: one row per code and language. Use it to show a readable name instead of the FKART code in reports; the codes themselves are defined in TVFK.",
+    "pt": "Descrição de cada tipo de faturamento (fatura, nota de crédito, nota de débito…) em cada idioma: uma linha por código e idioma. Serve para mostrar um nome legível em vez do código FKART em relatórios; os códigos são definidos na TVFK."
+  },
+  "synonyms": {
+    "es": [
+      "texto clase de factura",
+      "nombre clase de factura",
+      "FKART"
+    ],
+    "en": [
+      "billing type text",
+      "billing type name",
+      "FKART"
+    ],
+    "pt": [
+      "texto tipo de faturamento",
+      "nome tipo de faturamento",
+      "FKART"
+    ]
   }
 }

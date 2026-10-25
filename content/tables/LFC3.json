@@ -8,5 +8,27 @@
     "es": "Proveedores: cifras de operaciones especiales de mayor",
     "en": "Vendors: special G/L transaction figures",
     "pt": "Fornecedores: cifras de operações especiais do razão"
+  },
+  "purpose": {
+    "es": "Totales de operaciones de mayor especial (anticipos, letras de cambio, garantías) de cada proveedor por sociedad, ejercicio e indicador de mayor especial. Da los saldos de anticipos u otros conceptos especiales sin sumar partidas. En S/4HANA se calculan desde ACDOCA.",
+    "en": "Totals of special G/L transactions (down payments, bills of exchange, guarantees) of each vendor per company code, fiscal year and special G/L indicator. It gives balances of down payments and other special items without adding up line items. In S/4HANA they are derived from ACDOCA.",
+    "pt": "Totais de operações de razão especial (adiantamentos, letras de câmbio, garantias) de cada fornecedor por empresa, exercício e código de razão especial. Dá os saldos de adiantamentos ou outros itens especiais sem somar partidas. No S/4HANA são calculados a partir da ACDOCA."
+  },
+  "synonyms": {
+    "es": [
+      "anticipos a proveedores saldo",
+      "saldo de mayor especial proveedor",
+      "garantías de proveedores"
+    ],
+    "en": [
+      "vendor down payment balance",
+      "vendor special G/L balance",
+      "vendor guarantees"
+    ],
+    "pt": [
+      "saldo de adiantamentos a fornecedores",
+      "saldo de razão especial do fornecedor",
+      "garantias de fornecedores"
+    ]
   }
 }

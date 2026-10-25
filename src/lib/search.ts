@@ -85,10 +85,12 @@ function scoreEntry(x: Entry, words: string[], full: string, lang: Lang) {
     if (x.id === qt) cand(120);
     else if (x.id.startsWith(qt)) cand(70);
     else if (qt.length >= 3 && x.id.includes(qt)) cand(25);
-    for (const p of x.titles) for (const w of p.tok) if (w.startsWith(qt)) cand(p.lang === lang ? 30 : 22);
-    for (const p of x.syns) for (const w of p.tok) if (w.startsWith(qt)) cand(p.lang === lang ? 26 : 19, { syn: p.raw });
+    // a whole word (or its plural) beats a longer word that merely starts the same ("factura" → "facturas", then "facturación")
+    const whole = (w: string) => w === qt || w === qt + 's' || w === qt + 'es';
+    for (const p of x.titles) for (const w of p.tok) if (w.startsWith(qt)) cand((p.lang === lang ? 30 : 22) + (whole(w) ? 2 : 0));
+    for (const p of x.syns) for (const w of p.tok) if (w.startsWith(qt)) cand((p.lang === lang ? 26 : 19) + (whole(w) ? 2 : 0), { syn: p.raw });
     // a synonym that is exactly the word searched beats a title that merely contains it ("factura" → VBRK, not RBCO)
-    for (const p of x.syns) if (p.n === qt) cand(p.lang === lang ? 34 : 27, { syn: p.raw });
+    for (const p of x.syns) if (p.n === qt) cand(p.lang === lang ? 40 : 29, { syn: p.raw });
     for (const f of x.fields) {
       // a field name points to its "home" table first: the one where it is a key of master data
       if (f.lc === qt) cand(18 + (f.key ? 10 : 0) + (x.t.kind === 'master' ? 8 : 0), { field: f.name });
@@ -113,6 +115,9 @@ function scoreEntry(x: Entry, words: string[], full: string, lang: Lang) {
     }
   }
   if (full.length >= 3 && (x.syns.some((p) => p.n.includes(full)) || x.titles.some((p) => p.n.includes(full)))) total += 25;
+  // a title that starts with the thing searched is about that thing ("Centros de coste"), not one that mentions it in passing
+  // ("Puestos de trabajo: asignación a centros de coste")
+  if (matched && x.titles.some((p) => p.lang === lang && p.tok[0]?.startsWith(words[0]))) total += 6;
   return { total, matched, via };
 }
 
@@ -134,10 +139,13 @@ export function search(entries: Entry[], query: string, lang: Lang, area = ''): 
   if (!words.length) words = raw;
   const full = norm(query).trim();
   const scored = pool.map((x) => ({ x, ...scoreEntry(x, words, full, lang) }));
-  // ties go to tables with editorial content, which are the commonly used ones, then to master data and
-  // headers before items, texts and configuration, and only then to alphabetical order
+  // ties go to tables documented field by field, which are the commonly used ones, then to those with an explanation,
+  // then to master data and headers before items, texts and configuration, and only then to alphabetical order
   const tie = (a: (typeof scored)[number], b: (typeof scored)[number]) =>
-    b.x.t.p - a.x.t.p || kindRank(a.x.t.kind) - kindRank(b.x.t.kind) || a.x.order - b.x.order;
+    Math.sign(b.x.t.f.length) - Math.sign(a.x.t.f.length) ||
+    b.x.t.p - a.x.t.p ||
+    kindRank(a.x.t.kind) - kindRank(b.x.t.kind) ||
+    a.x.order - b.x.order;
   const toHit = (r: (typeof scored)[number]): Hit => ({ t: r.x.t, via: r.via });
   const all = scored.filter((r) => r.matched === words.length).sort((a, b) => b.total - a.total || tie(a, b));
   if (all.length) return { hits: all.map(toHit), partial: false };

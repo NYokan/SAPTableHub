@@ -7,5 +7,27 @@
     "es": "Reglas de modificación dinámica: niveles de inspección",
     "en": "Dynamic modification rules: inspection stages",
     "pt": "Regras de modificação dinâmica: estágios de inspeção"
+  },
+  "purpose": {
+    "es": "Niveles de inspección de cada regla de modificación dinámica: para cada nivel, el rigor de la inspección y a qué nivel se pasa tras un número de lotes aceptados o rechazados.",
+    "en": "Inspection stages of each dynamic modification rule: for each stage, the inspection severity and which stage follows after a number of accepted or rejected lots.",
+    "pt": "Níveis de inspeção de cada regra de modificação dinâmica: para cada nível, o rigor da inspeção e para qual nível se passa após um número de lotes aceitos ou rejeitados."
+  },
+  "synonyms": {
+    "es": [
+      "nivel de inspección",
+      "etapa de inspección",
+      "severidad de inspección"
+    ],
+    "en": [
+      "inspection stage",
+      "inspection level",
+      "inspection severity"
+    ],
+    "pt": [
+      "nível de inspeção",
+      "etapa de inspeção",
+      "severidade da inspeção"
+    ]
   }
 }

@@ -9,5 +9,30 @@
     "es": "Documentos del ledger de materiales",
     "en": "Material ledger documents",
     "pt": "Documentos do ledger de materiais"
+  },
+  "purpose": {
+    "es": "En S/4HANA, una fila por cada movimiento valorado del ledger de materiales: cantidades, valores y diferencias de precio por material, período y moneda. Sustituye a MLHD, MLIT, MLPP y MLCR de ECC y es la base del costo real.",
+    "en": "In S/4HANA, one row per valuated material ledger movement: quantities, values and price differences per material, period and currency. It replaces ECC's MLHD, MLIT, MLPP and MLCR and is the basis of actual costing.",
+    "pt": "No S/4HANA, uma linha por movimento avaliado do ledger de materiais: quantidades, valores e diferenças de preço por material, período e moeda. Substitui MLHD, MLIT, MLPP e MLCR do ECC e é a base do custo real."
+  },
+  "synonyms": {
+    "es": [
+      "documentos del material ledger",
+      "costo real S/4HANA",
+      "diferencias de precio",
+      "ledger de materiales"
+    ],
+    "en": [
+      "material ledger documents",
+      "S/4HANA actual costing",
+      "price differences",
+      "material ledger"
+    ],
+    "pt": [
+      "documentos do material ledger",
+      "custo real S/4HANA",
+      "diferenças de preço",
+      "ledger de materiais"
+    ]
   }
 }

@@ -9,5 +9,30 @@
     "es": "Sectores: textos",
     "en": "Divisions: texts",
     "pt": "Setores de atividade: textos"
+  },
+  "purpose": {
+    "es": "Descripción de cada sector (línea de productos) en cada idioma: una fila por código e idioma. Sirve para mostrar un nombre legible en lugar del código SPART en informes; los códigos se definen en TSPA.",
+    "en": "Description of each division (product line) in each language: one row per code and language. Use it to show a readable name instead of the SPART code in reports; the codes themselves are defined in TSPA.",
+    "pt": "Descrição de cada setor de atividade (linha de produtos) em cada idioma: uma linha por código e idioma. Serve para mostrar um nome legível em vez do código SPART em relatórios; os códigos são definidos na TSPA."
+  },
+  "synonyms": {
+    "es": [
+      "texto sector",
+      "nombre del sector",
+      "línea de productos",
+      "SPART"
+    ],
+    "en": [
+      "division text",
+      "division name",
+      "product line",
+      "SPART"
+    ],
+    "pt": [
+      "texto setor de atividade",
+      "nome do setor",
+      "linha de produtos",
+      "SPART"
+    ]
   }
 }

@@ -8,5 +8,30 @@
     "es": "Claves de horizonte de planificación",
     "en": "Scheduling margin keys",
     "pt": "Chaves de margem de programação"
+  },
+  "purpose": {
+    "es": "Configuración de las claves de horizonte por centro: definen los márgenes de tiempo de las órdenes, como el plazo de apertura, la holgura antes y después de la fabricación y el plazo de liberación. Se asignan al material en MARC.",
+    "en": "Configuration of scheduling margin keys per plant: they define the time buffers of orders, such as the opening period, the float before and after production and the release period. They are assigned to the material in MARC.",
+    "pt": "Configuração das chaves de horizonte por centro: definem as margens de tempo das ordens, como o prazo de abertura, a folga antes e depois da produção e o prazo de liberação. São atribuídas ao material na MARC."
+  },
+  "synonyms": {
+    "es": [
+      "clave de horizonte",
+      "holgura de producción",
+      "plazo de apertura",
+      "FHORI"
+    ],
+    "en": [
+      "scheduling margin key",
+      "float before production",
+      "opening period",
+      "FHORI"
+    ],
+    "pt": [
+      "chave de horizonte",
+      "folga de produção",
+      "prazo de abertura",
+      "FHORI"
+    ]
   }
 }

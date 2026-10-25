@@ -8,5 +8,30 @@
     "es": "Estadísticas de inventario: movimientos de stock",
     "en": "Inventory statistics: stock movements",
     "pt": "Estatísticas de estoque: movimentos de estoque"
+  },
+  "purpose": {
+    "es": "Estadística de gestión de inventario (LIS) que acumula por mes los movimientos de stock por material, centro y almacén: entradas, salidas, consumos, en cantidad y valor. Se usa en los informes de análisis de stock (MC.x).",
+    "en": "Inventory management statistics (LIS) that accumulate stock movements per month by material, plant and storage location: receipts, issues and consumption, in quantity and value. Used in stock analysis reports (MC.x).",
+    "pt": "Estatística de gestão de estoque (LIS) que acumula por mês os movimentos de estoque por material, centro e depósito: entradas, saídas e consumos, em quantidade e valor. Usada nos relatórios de análise de estoque (MC.x)."
+  },
+  "synonyms": {
+    "es": [
+      "estadística de movimientos",
+      "LIS inventario",
+      "entradas y salidas por mes",
+      "análisis de stock MC"
+    ],
+    "en": [
+      "movement statistics",
+      "LIS inventory",
+      "monthly receipts and issues",
+      "MC stock analysis"
+    ],
+    "pt": [
+      "estatística de movimentos",
+      "LIS estoque",
+      "entradas e saídas por mês",
+      "análise de estoque MC"
+    ]
   }
 }

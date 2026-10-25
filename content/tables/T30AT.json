@@ -9,5 +9,24 @@
     "es": "Áreas de picking WM (textos)",
     "en": "WM picking areas (texts)",
     "pt": "Áreas de picking WM (textos)"
+  },
+  "purpose": {
+    "es": "Descripciones por idioma de las áreas de picking WM (T30A). Se usa para mostrar el nombre legible en informes en lugar del código.",
+    "en": "Language-dependent descriptions of WM picking areas (T30A). Used to show the readable name in reports instead of the code.",
+    "pt": "Descrições por idioma de áreas de picking WM (T30A). Usada para mostrar o nome legível em relatórios em vez do código."
+  },
+  "synonyms": {
+    "es": [
+      "nombre área de picking",
+      "descripción zona de picking"
+    ],
+    "en": [
+      "picking area name",
+      "picking zone description"
+    ],
+    "pt": [
+      "nome área de picking",
+      "descrição zona de picking"
+    ]
   }
 }

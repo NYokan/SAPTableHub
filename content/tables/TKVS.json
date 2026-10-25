@@ -8,5 +8,30 @@
     "es": "Versiones CO",
     "en": "CO versions",
     "pt": "Versões CO"
+  },
+  "purpose": {
+    "es": "Una fila por cada versión de Controlling (por ejemplo, 0 = plan/real): indica si es solo de plan o también de real y otros ajustes generales. Las versiones separan escenarios de planificación y se ajustan por sociedad CO en TKA09 y por ejercicio en TKA07.",
+    "en": "One row per Controlling version (for example, 0 = plan/actual): it states whether it is plan-only or also actual, plus other general settings. Versions separate planning scenarios and are refined per controlling area in TKA09 and per fiscal year in TKA07.",
+    "pt": "Uma linha por versão do Controlling (por exemplo, 0 = plano/real): indica se é só de plano ou também de real e outros ajustes gerais. As versões separam cenários de planejamento e são ajustadas por área de custos na TKA09 e por exercício na TKA07."
+  },
+  "synonyms": {
+    "es": [
+      "versión CO",
+      "versión de plan",
+      "versión 0",
+      "escenario de planificación"
+    ],
+    "en": [
+      "CO version",
+      "plan version",
+      "version 0",
+      "planning scenario"
+    ],
+    "pt": [
+      "versão CO",
+      "versão de plano",
+      "versão 0",
+      "cenário de planejamento"
+    ]
   }
 }

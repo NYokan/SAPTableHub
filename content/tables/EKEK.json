@@ -9,5 +9,30 @@
     "es": "Planes de entrega: cabecera de llamadas",
     "en": "Scheduling agreements: release header",
     "pt": "Programas de remessa: cabeçalho de liberações"
+  },
+  "purpose": {
+    "es": "Una fila por cada llamada (release) de un plan de entrega: tipo (previsión o JIT), número de llamada, fecha de creación y transmisión al proveedor. Los repartos de cada llamada están en EKEH.",
+    "en": "One row per release of a scheduling agreement: type (forecast or JIT), release number, creation date and transmission to the vendor. The schedule lines of each release are in EKEH.",
+    "pt": "Uma linha por liberação (release) de um programa de remessas: tipo (previsão ou JIT), número da liberação, data de criação e transmissão ao fornecedor. As divisões de cada liberação estão na EKEH."
+  },
+  "synonyms": {
+    "es": [
+      "cabecera de llamada",
+      "release de plan de entrega",
+      "llamada de entrega",
+      "previsión de entregas"
+    ],
+    "en": [
+      "release header",
+      "scheduling agreement release",
+      "JIT release",
+      "forecast delivery schedule"
+    ],
+    "pt": [
+      "cabeçalho de liberação",
+      "release de programa de remessas",
+      "liberação JIT",
+      "previsão de remessas"
+    ]
   }
 }

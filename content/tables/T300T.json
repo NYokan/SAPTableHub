@@ -9,5 +9,24 @@
     "es": "Números de almacén (textos)",
     "en": "Warehouse numbers (texts)",
     "pt": "Números de armazém (textos)"
+  },
+  "purpose": {
+    "es": "Descripciones por idioma de los números de almacén WM (T300). Se usa para mostrar el nombre legible en informes en lugar del código.",
+    "en": "Language-dependent descriptions of WM warehouse numbers (T300). Used to show the readable name in reports instead of the code.",
+    "pt": "Descrições por idioma de números de depósito WM (T300). Usada para mostrar o nome legível em relatórios em vez do código."
+  },
+  "synonyms": {
+    "es": [
+      "nombre del almacén WM",
+      "descripción número de almacén"
+    ],
+    "en": [
+      "WM warehouse name",
+      "warehouse number description"
+    ],
+    "pt": [
+      "nome do depósito WM",
+      "descrição número do depósito"
+    ]
   }
 }

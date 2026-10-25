@@ -9,5 +9,30 @@
     "es": "Contabilidad de contratos: documentos (cabecera)",
     "en": "Contract accounting: documents (header)",
     "pt": "Contabilidade de contratos: documentos (cabeçalho)"
+  },
+  "purpose": {
+    "es": "En la contabilidad de contratos (FI-CA, usada en utilities, telecomunicaciones, seguros o sector público), una fila por cada documento: tipo de documento, fechas, origen y moneda. Las partidas de interlocutor están en DFKKOP y las de mayor en DFKKOPK.",
+    "en": "In contract accounting (FI-CA, used in utilities, telecommunications, insurance or the public sector), one row per document: document type, dates, origin and currency. The business partner items are in DFKKOP and the G/L items in DFKKOPK.",
+    "pt": "Na contabilidade de contratos (FI-CA, usada em utilities, telecomunicações, seguros ou setor público), uma linha por documento: tipo de documento, datas, origem e moeda. Os itens de parceiro estão na DFKKOP e os do razão na DFKKOPK."
+  },
+  "synonyms": {
+    "es": [
+      "documento FI-CA",
+      "contabilidad de contratos",
+      "documento de cuenta contrato",
+      "FICA"
+    ],
+    "en": [
+      "FI-CA document",
+      "contract accounting document",
+      "contract account document",
+      "FICA"
+    ],
+    "pt": [
+      "documento FI-CA",
+      "contabilidade de contratos",
+      "documento de conta contrato",
+      "FICA"
+    ]
   }
 }

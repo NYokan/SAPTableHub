@@ -8,5 +8,24 @@
     "es": "Grupos de tipos de posición: textos",
     "en": "Item category groups: texts",
     "pt": "Grupos de categorias de item: textos"
+  },
+  "purpose": {
+    "es": "Descripción de cada grupo de tipos de posición en cada idioma: una fila por código e idioma. Sirve para mostrar un nombre legible en lugar del código MTPOS en informes; los códigos se definen en TPTM.",
+    "en": "Description of each item category group in each language: one row per code and language. Use it to show a readable name instead of the MTPOS code in reports; the codes themselves are defined in TPTM.",
+    "pt": "Descrição de cada grupo de categorias de item em cada idioma: uma linha por código e idioma. Serve para mostrar um nome legível em vez do código MTPOS em relatórios; os códigos são definidos na TPTM."
+  },
+  "synonyms": {
+    "es": [
+      "texto grupo de tipos de posición",
+      "MTPOS"
+    ],
+    "en": [
+      "item category group text",
+      "MTPOS"
+    ],
+    "pt": [
+      "texto grupo de categorias de item",
+      "MTPOS"
+    ]
   }
 }

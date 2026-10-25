@@ -8,5 +8,27 @@
     "es": "Listas de materiales: selección de posiciones por alternativa",
     "en": "Bills of material: item selection per alternative",
     "pt": "Listas técnicas: seleção de itens por alternativa"
+  },
+  "purpose": {
+    "es": "Una fila por cada posición asignada a una alternativa de lista de materiales: indica qué posiciones (STPO) pertenecen a cada alternativa (STKO). Es la tabla puente para unir cabecera y posiciones de una lista de materiales.",
+    "en": "One row per item assigned to a bill of material alternative: it shows which items (STPO) belong to each alternative (STKO). It is the bridge table to join a BOM's header and items.",
+    "pt": "Uma linha por item atribuído a uma alternativa de lista técnica: indica quais itens (STPO) pertencem a cada alternativa (STKO). É a tabela ponte para unir cabeçalho e itens de uma lista técnica."
+  },
+  "synonyms": {
+    "es": [
+      "alternativa de lista de materiales",
+      "enlace cabecera-posición",
+      "selección de posiciones"
+    ],
+    "en": [
+      "BOM alternative",
+      "header-item link",
+      "BOM item selection"
+    ],
+    "pt": [
+      "alternativa de lista técnica",
+      "ligação cabeçalho-item",
+      "seleção de itens"
+    ]
   }
 }

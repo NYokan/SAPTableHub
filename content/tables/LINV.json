@@ -9,5 +9,27 @@
     "es": "Inventario WM (cuantos)",
     "en": "WM inventory documents (quants)",
     "pt": "Inventário WM (quantos)"
+  },
+  "purpose": {
+    "es": "Datos de recuento por cuanto en un inventario físico WM: material, lote, cantidad en libros y cantidad contada en cada ubicación. Permite ver las diferencias de inventario.",
+    "en": "Count data per quant in a WM physical inventory: material, batch, book quantity and counted quantity in each bin. It shows inventory differences.",
+    "pt": "Dados de contagem por quant em um inventário físico WM: material, lote, quantidade contábil e quantidade contada em cada posição. Permite ver as diferenças de inventário."
+  },
+  "synonyms": {
+    "es": [
+      "cantidad contada",
+      "diferencias de inventario WM",
+      "recuento por cuanto"
+    ],
+    "en": [
+      "counted quantity",
+      "WM inventory differences",
+      "count per quant"
+    ],
+    "pt": [
+      "quantidade contada",
+      "diferenças de inventário WM",
+      "contagem por quant"
+    ]
   }
 }

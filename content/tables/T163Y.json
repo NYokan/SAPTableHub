@@ -9,5 +9,27 @@
     "es": "Tipos de posición en compras: textos",
     "en": "Purchasing item categories: texts",
     "pt": "Categorias de item em compras: textos"
+  },
+  "purpose": {
+    "es": "Nombre y clave externa de cada tipo de posición de compras por idioma: la letra que ve el usuario (por ejemplo K, L, S, D, U) para la clave interna de T163.",
+    "en": "Name and external key of each purchasing item category per language: the letter the user sees (for example K, L, S, D, U) for the internal key in T163.",
+    "pt": "Nome e chave externa de cada categoria de item de compras por idioma: a letra que o usuário vê (por exemplo K, L, S, D, U) para a chave interna da T163."
+  },
+  "synonyms": {
+    "es": [
+      "descripción de tipo de posición",
+      "letra de tipo de posición",
+      "texto de tipo de posición"
+    ],
+    "en": [
+      "item category description",
+      "item category letter",
+      "item category text"
+    ],
+    "pt": [
+      "descrição da categoria de item",
+      "letra da categoria de item",
+      "texto da categoria de item"
+    ]
   }
 }

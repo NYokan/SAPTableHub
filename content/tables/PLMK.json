@@ -8,5 +8,30 @@
     "es": "Planes de inspección: características",
     "en": "Inspection plans: characteristics",
     "pt": "Planos de inspeção: características"
+  },
+  "purpose": {
+    "es": "Características de inspección de cada operación de un plan de inspección (o de otra hoja de ruta con inspección): qué se mide o verifica, con límites de tolerancia, valor teórico, método y procedimiento de muestreo. Las operaciones están en PLPO.",
+    "en": "Inspection characteristics of each operation in an inspection plan (or another task list with inspection): what is measured or checked, with tolerance limits, target value, method and sampling procedure. Operations are in PLPO.",
+    "pt": "Características de inspeção de cada operação de um plano de inspeção (ou de outro roteiro com inspeção): o que é medido ou verificado, com limites de tolerância, valor teórico, método e procedimento de amostragem. As operações estão na PLPO."
+  },
+  "synonyms": {
+    "es": [
+      "característica de inspección",
+      "especificación de calidad",
+      "límites de tolerancia",
+      "plan de inspección"
+    ],
+    "en": [
+      "inspection characteristic",
+      "quality specification",
+      "tolerance limits",
+      "inspection plan"
+    ],
+    "pt": [
+      "característica de inspeção",
+      "especificação de qualidade",
+      "limites de tolerância",
+      "plano de inspeção"
+    ]
   }
 }

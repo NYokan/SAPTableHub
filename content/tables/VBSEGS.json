@@ -8,5 +8,27 @@
     "es": "Documentos preliminares: posiciones de mayor",
     "en": "Parked documents: G/L account items",
     "pt": "Documentos pré-editados: itens do razão"
+  },
+  "purpose": {
+    "es": "Las posiciones de cuenta de mayor de un documento contable preliminar (aparcado), todavía no contabilizado: cuenta, importe, centro de coste y otras imputaciones. Cuando el documento se contabiliza pasan a BSEG.",
+    "en": "The G/L account items of a parked accounting document that has not yet been posted: account, amount, cost center and other assignments. When the document is posted they move to BSEG.",
+    "pt": "Os itens de conta do razão de um documento contábil pré-editado, ainda não lançado: conta, montante, centro de custo e outras atribuições. Quando o documento é lançado passam para a BSEG."
+  },
+  "synonyms": {
+    "es": [
+      "asiento aparcado",
+      "documento preliminar de mayor",
+      "imputación aparcada"
+    ],
+    "en": [
+      "parked G/L item",
+      "parked journal entry",
+      "parked document"
+    ],
+    "pt": [
+      "lançamento pré-editado",
+      "documento pré-editado do razão",
+      "imputação pré-editada"
+    ]
   }
 }

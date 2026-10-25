@@ -8,5 +8,30 @@
     "es": "Ledger de materiales: totales por período y proceso",
     "en": "Material ledger: totals by period and process",
     "pt": "Ledger de materiais: totais por período e processo"
+  },
+  "purpose": {
+    "es": "Totales del ledger de materiales por material (número KALNR), período, categoría (entradas, consumos, etc.) y proceso, con cantidades, valores y diferencias de precio. Es la base del cockpit de costo real (CKMLCP) y de los informes de diferencias.",
+    "en": "Material ledger totals per material (KALNR number), period, category (receipts, consumption, etc.) and process, with quantities, values and price differences. It is the basis of the actual costing cockpit (CKMLCP) and price difference reports.",
+    "pt": "Totais do ledger de materiais por material (número KALNR), período, categoria (entradas, consumos etc.) e processo, com quantidades, valores e diferenças de preço. É a base do cockpit de custo real (CKMLCP) e dos relatórios de diferenças."
+  },
+  "synonyms": {
+    "es": [
+      "diferencias de precio",
+      "costo real",
+      "totales del material ledger",
+      "CKMLCP"
+    ],
+    "en": [
+      "price differences",
+      "actual costing",
+      "material ledger totals",
+      "CKMLCP"
+    ],
+    "pt": [
+      "diferenças de preço",
+      "custo real",
+      "totais do material ledger",
+      "CKMLCP"
+    ]
   }
 }

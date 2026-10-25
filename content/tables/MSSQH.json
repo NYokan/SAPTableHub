@@ -8,5 +8,24 @@
     "es": "Stock de proyecto (totales, histórico)",
     "en": "Project stock (totals, history)",
     "pt": "Estoque de projeto (totais, histórico)"
+  },
+  "purpose": {
+    "es": "Copia por periodo de los totales de stock de proyecto (MSSQ): cantidades al cierre de periodos anteriores.",
+    "en": "Period copy of project stock totals (MSSQ): quantities at the close of earlier periods.",
+    "pt": "Cópia por período dos totais de estoque de projeto (MSSQ): quantidades no fechamento de períodos anteriores."
+  },
+  "synonyms": {
+    "es": [
+      "histórico total stock de proyecto",
+      "stock Q total histórico"
+    ],
+    "en": [
+      "project stock total history",
+      "special stock Q total history"
+    ],
+    "pt": [
+      "histórico total estoque de projeto",
+      "estoque Q total histórico"
+    ]
   }
 }

@@ -8,5 +8,27 @@
     "es": "Puntos de inspección",
     "en": "Inspection points",
     "pt": "Pontos de inspeção"
+  },
+  "purpose": {
+    "es": "Puntos de inspección: inspecciones repetidas dentro de un mismo lote, por ejemplo cada hora durante la producción o por equipo en mantenimiento. Una fila por lote, operación y punto de inspección.",
+    "en": "Inspection points: repeated inspections within the same lot, for example every hour during production or per equipment in maintenance. One row per lot, operation and inspection point.",
+    "pt": "Pontos de inspeção: inspeções repetidas dentro de um mesmo lote, por exemplo a cada hora durante a produção ou por equipamento na manutenção. Uma linha por lote, operação e ponto de inspeção."
+  },
+  "synonyms": {
+    "es": [
+      "punto de inspección",
+      "inspección en proceso",
+      "control durante producción"
+    ],
+    "en": [
+      "inspection point",
+      "in-process inspection",
+      "production inspection"
+    ],
+    "pt": [
+      "ponto de inspeção",
+      "inspeção em processo",
+      "controle durante a produção"
+    ]
   }
 }

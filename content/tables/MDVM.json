@@ -8,5 +8,30 @@
     "es": "Fichero de planificación (por centro)",
     "en": "Planning file entries (per plant)",
     "pt": "Arquivo de planejamento (por centro)"
+  },
+  "purpose": {
+    "es": "Fichero de planificación a nivel de centro: una fila por material y centro marcado porque algo relevante cambió (stock, necesidades, datos maestros) y debe incluirse en la siguiente ejecución del MRP neto.",
+    "en": "Planning file at plant level: one row per material and plant flagged because something relevant changed (stock, requirements, master data) and it must be included in the next net-change MRP run.",
+    "pt": "Arquivo de planejamento no nível de centro: uma linha por material e centro marcado porque algo relevante mudou (estoque, necessidades, dados mestres) e deve ser incluído na próxima execução do MRP de mudança líquida."
+  },
+  "synonyms": {
+    "es": [
+      "fichero de planificación",
+      "entradas de planificación",
+      "MRP neto",
+      "materiales a planificar"
+    ],
+    "en": [
+      "planning file",
+      "planning file entries",
+      "net change MRP",
+      "materials to plan"
+    ],
+    "pt": [
+      "arquivo de planejamento",
+      "entradas de planejamento",
+      "MRP de mudança líquida",
+      "materiais a planejar"
+    ]
   }
 }

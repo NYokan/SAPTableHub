@@ -8,5 +8,30 @@
     "es": "Documentos (registro info de documento)",
     "en": "Documents (document info records)",
     "pt": "Documentos (registro info de documento)"
+  },
+  "purpose": {
+    "es": "Una fila por cada registro info de documento del DMS, identificado por clase, número, versión y parte: estado, responsable y datos de los archivos originales. Las descripciones están en DRAT y los vínculos con objetos en DRAD.",
+    "en": "One row per DMS document info record, identified by type, number, version and part: status, person responsible and original file data. Descriptions are in DRAT and object links in DRAD.",
+    "pt": "Uma linha por registro info de documento do DMS, identificado por tipo, número, versão e parte: status, responsável e dados dos arquivos originais. As descrições estão na DRAT e os vínculos com objetos na DRAD."
+  },
+  "synonyms": {
+    "es": [
+      "registro info de documento",
+      "documento DMS",
+      "plano",
+      "gestión documental"
+    ],
+    "en": [
+      "document info record",
+      "DMS document",
+      "drawing",
+      "document management"
+    ],
+    "pt": [
+      "registro info de documento",
+      "documento DMS",
+      "desenho técnico",
+      "gestão de documentos"
+    ]
   }
 }

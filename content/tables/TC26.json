@@ -8,5 +8,27 @@
     "es": "Categorías de capacidad",
     "en": "Capacity categories",
     "pt": "Categorias de capacidade"
+  },
+  "purpose": {
+    "es": "Configuración de las categorías de capacidad (por ejemplo, máquina, mano de obra): clasifican las capacidades de los puestos de trabajo para planificarlas por separado. Una fila por categoría.",
+    "en": "Configuration of capacity categories (for example, machine, labor): they classify work center capacities so that they can be planned separately. One row per category.",
+    "pt": "Configuração das categorias de capacidade (por exemplo, máquina, mão de obra): classificam as capacidades dos centros de trabalho para planejá-las separadamente. Uma linha por categoria."
+  },
+  "synonyms": {
+    "es": [
+      "categoría de capacidad",
+      "capacidad de máquina",
+      "capacidad de mano de obra"
+    ],
+    "en": [
+      "capacity category",
+      "machine capacity",
+      "labor capacity"
+    ],
+    "pt": [
+      "categoria de capacidade",
+      "capacidade de máquina",
+      "capacidade de mão de obra"
+    ]
   }
 }

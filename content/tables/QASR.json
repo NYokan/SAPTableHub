@@ -8,5 +8,27 @@
     "es": "Resultados por muestra",
     "en": "Results per sample",
     "pt": "Resultados por amostra"
+  },
+  "purpose": {
+    "es": "Resultados resumidos por muestra para cada característica de un lote de inspección: valor medio, mínimo, máximo, número de unidades inspeccionadas y valoración. El resumen por característica está en QAMR.",
+    "en": "Summarised results per sample for each characteristic of an inspection lot: mean, minimum, maximum, number of units inspected and valuation. The summary per characteristic is in QAMR.",
+    "pt": "Resultados resumidos por amostra para cada característica de um lote de inspeção: média, mínimo, máximo, número de unidades inspecionadas e avaliação. O resumo por característica está na QAMR."
+  },
+  "synonyms": {
+    "es": [
+      "resultados por muestra",
+      "valores medidos por muestra",
+      "resultado de inspección por muestra"
+    ],
+    "en": [
+      "results per sample",
+      "sample measurement results",
+      "sample inspection result"
+    ],
+    "pt": [
+      "resultados por amostra",
+      "valores medidos por amostra",
+      "resultado de inspeção por amostra"
+    ]
   }
 }

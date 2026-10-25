@@ -9,5 +9,24 @@
     "es": "Estrategias de liberación: textos",
     "en": "Release strategies: texts",
     "pt": "Estratégias de liberação: textos"
+  },
+  "purpose": {
+    "es": "Descripción de cada estrategia de liberación por idioma y grupo de liberación. Complementa a T16FS.",
+    "en": "Description of each release strategy per language and release group. It complements T16FS.",
+    "pt": "Descrição de cada estratégia de liberação por idioma e grupo de liberação. Complementa a T16FS."
+  },
+  "synonyms": {
+    "es": [
+      "nombre de estrategia de liberación",
+      "descripción de flujo de aprobación"
+    ],
+    "en": [
+      "release strategy name",
+      "approval workflow description"
+    ],
+    "pt": [
+      "nome da estratégia de liberação",
+      "descrição do fluxo de aprovação"
+    ]
   }
 }

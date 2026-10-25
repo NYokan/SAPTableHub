@@ -8,5 +8,27 @@
     "es": "Tipos de proyecto",
     "en": "Project types",
     "pt": "Tipos de projeto"
+  },
+  "purpose": {
+    "es": "Lista de tipos de proyecto (por ejemplo, inversión, cliente, desarrollo) que se asignan a los elementos PEP para clasificarlos y analizarlos.",
+    "en": "List of project types (for example, investment, customer, development) assigned to WBS elements to classify and analyse them.",
+    "pt": "Lista de tipos de projeto (por exemplo, investimento, cliente, desenvolvimento) atribuídos aos elementos PEP para classificá-los e analisá-los."
+  },
+  "synonyms": {
+    "es": [
+      "tipo de proyecto",
+      "clase de proyecto",
+      "categoría de proyecto"
+    ],
+    "en": [
+      "project type",
+      "project category",
+      "project class"
+    ],
+    "pt": [
+      "tipo de projeto",
+      "categoria de projeto",
+      "classe de projeto"
+    ]
   }
 }

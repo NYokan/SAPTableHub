@@ -8,5 +8,24 @@
     "es": "Áreas de valoración de activos fijos: textos",
     "en": "Asset depreciation areas: texts",
     "pt": "Áreas de avaliação de ativos fixos: textos"
+  },
+  "purpose": {
+    "es": "Nombre largo y corto de cada área de valoración de activos fijos en cada idioma, por plan de valoración. Sirve para mostrar «Libro local» o «IFRS» en lugar del número del área.",
+    "en": "Long and short name of each asset depreciation area in each language, per chart of depreciation. It is used to show \"Book depreciation\" or \"IFRS\" instead of the area number.",
+    "pt": "Nome longo e curto de cada área de avaliação de ativos em cada idioma, por plano de avaliação. Serve para mostrar «Livro local» ou «IFRS» em vez do número da área."
+  },
+  "synonyms": {
+    "es": [
+      "texto área de valoración",
+      "nombre área de valoración"
+    ],
+    "en": [
+      "depreciation area text",
+      "depreciation area name"
+    ],
+    "pt": [
+      "texto da área de avaliação",
+      "nome da área de avaliação"
+    ]
   }
 }

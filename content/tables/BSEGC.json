@@ -8,5 +8,30 @@
     "es": "Documentos contables: datos de tarjetas de pago",
     "en": "Accounting documents: payment card data",
     "pt": "Documentos contábeis: dados de cartões de pagamento"
+  },
+  "purpose": {
+    "es": "Para las líneas contables cobradas con tarjeta de pago, guarda los datos de la tarjeta: tipo de tarjeta, número (normalmente cifrado o enmascarado), importe autorizado y datos de autorización. Se enlaza con BSEG por sociedad, documento, ejercicio y línea.",
+    "en": "For accounting lines collected by payment card, it holds the card data: card type, number (usually encrypted or masked), authorized amount and authorization details. It links to BSEG by company code, document, fiscal year and line.",
+    "pt": "Para os itens contábeis recebidos com cartão de pagamento, guarda os dados do cartão: tipo de cartão, número (normalmente criptografado ou mascarado), valor autorizado e dados de autorização. Liga-se à BSEG por empresa, documento, exercício e item."
+  },
+  "synonyms": {
+    "es": [
+      "tarjeta de crédito",
+      "pago con tarjeta",
+      "autorización de tarjeta",
+      "tarjeta de pago"
+    ],
+    "en": [
+      "credit card",
+      "card payment",
+      "card authorization",
+      "payment card"
+    ],
+    "pt": [
+      "cartão de crédito",
+      "pagamento com cartão",
+      "autorização do cartão",
+      "cartão de pagamento"
+    ]
   }
 }

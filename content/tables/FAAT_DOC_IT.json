@@ -6,8 +6,8 @@
   "deliveryClass": "A",
   "s4only": true,
   "title": {
-    "es": "Activos fijos: posiciones de movimientos",
-    "en": "Fixed assets: transaction items",
-    "pt": "Ativos fixos: itens de movimentos"
+    "es": "Activos fijos: partidas estadísticas",
+    "en": "Fixed assets: statistical line items",
+    "pt": "Ativos fixos: partidas estatísticas"
   }
 }

@@ -8,5 +8,27 @@
     "es": "Responsables de proyecto",
     "en": "Persons responsible for projects",
     "pt": "Responsáveis por projeto"
+  },
+  "purpose": {
+    "es": "Lista de responsables de proyecto (número y nombre) que se asignan a proyectos y elementos PEP. Permite filtrar proyectos por responsable.",
+    "en": "List of persons responsible for projects (number and name) assigned to projects and WBS elements. Used to filter projects by person responsible.",
+    "pt": "Lista de responsáveis por projetos (número e nome) atribuídos a projetos e elementos PEP. Permite filtrar projetos por responsável."
+  },
+  "synonyms": {
+    "es": [
+      "responsable de proyecto",
+      "jefe de proyecto",
+      "gerente de proyecto"
+    ],
+    "en": [
+      "project manager",
+      "person responsible for project",
+      "project lead"
+    ],
+    "pt": [
+      "responsável pelo projeto",
+      "gerente de projeto",
+      "líder de projeto"
+    ]
   }
 }

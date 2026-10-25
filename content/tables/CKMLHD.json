@@ -8,5 +8,30 @@
     "es": "Ledger de materiales (cabecera por material)",
     "en": "Material ledger (header per material)",
     "pt": "Ledger de materiais (cabeçalho por material)"
+  },
+  "purpose": {
+    "es": "Una fila por cada material y área de valoración (o tipo de valoración) activo en el ledger de materiales. Asigna el número de cálculo interno (KALNR) que enlaza con los datos de periodo y precios de CKMLPP, CKMLCR y similares.",
+    "en": "One row per material and valuation area (or valuation type) active in the material ledger. It assigns the internal cost estimate number (KALNR) that links to the period and price data in CKMLPP, CKMLCR and similar tables.",
+    "pt": "Uma linha por material e área de avaliação (ou tipo de avaliação) ativo no ledger de materiais. Atribui o número interno de cálculo (KALNR) que liga aos dados de período e preço da CKMLPP, CKMLCR e similares."
+  },
+  "synonyms": {
+    "es": [
+      "ledger de materiales",
+      "número de cálculo KALNR",
+      "costo real de materiales",
+      "material ledger"
+    ],
+    "en": [
+      "material ledger",
+      "KALNR",
+      "actual costing",
+      "material ledger header"
+    ],
+    "pt": [
+      "ledger de materiais",
+      "número de cálculo KALNR",
+      "custo real de materiais",
+      "material ledger"
+    ]
   }
 }

@@ -8,5 +8,27 @@
     "es": "Procedimientos de reclamación: formularios",
     "en": "Dunning procedures: forms",
     "pt": "Procedimentos de advertência: formulários"
+  },
+  "purpose": {
+    "es": "Los formularios de impresión de las cartas de reclamación, según procedimiento de reclamación y sociedad, por ejemplo uno para reclamación normal y otro para la judicial.",
+    "en": "The print forms used for dunning notices, by dunning procedure and company code, for example one for normal dunning and another for legal dunning.",
+    "pt": "Os formulários de impressão das cartas de cobrança, por procedimento de advertência e empresa, por exemplo um para advertência normal e outro para a judicial."
+  },
+  "synonyms": {
+    "es": [
+      "formulario de reclamación",
+      "carta de reclamación",
+      "impresión de reclamaciones"
+    ],
+    "en": [
+      "dunning form",
+      "dunning letter",
+      "dunning notice print"
+    ],
+    "pt": [
+      "formulário de advertência",
+      "carta de cobrança",
+      "impressão de advertências"
+    ]
   }
 }

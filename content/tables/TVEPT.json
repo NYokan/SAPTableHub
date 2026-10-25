@@ -9,5 +9,24 @@
     "es": "Tipos de reparto: textos",
     "en": "Schedule line categories: texts",
     "pt": "Categorias de divisão de remessa: textos"
+  },
+  "purpose": {
+    "es": "Descripción de cada tipo de reparto en cada idioma: una fila por código e idioma. Sirve para mostrar un nombre legible en lugar del código ETTYP en informes; los códigos se definen en TVEP.",
+    "en": "Description of each schedule line category in each language: one row per code and language. Use it to show a readable name instead of the ETTYP code in reports; the codes themselves are defined in TVEP.",
+    "pt": "Descrição de cada categoria de divisão de remessa em cada idioma: uma linha por código e idioma. Serve para mostrar um nome legível em vez do código ETTYP em relatórios; os códigos são definidos na TVEP."
+  },
+  "synonyms": {
+    "es": [
+      "texto tipo de reparto",
+      "ETTYP"
+    ],
+    "en": [
+      "schedule line category text",
+      "ETTYP"
+    ],
+    "pt": [
+      "texto categoria de divisão de remessa",
+      "ETTYP"
+    ]
   }
 }

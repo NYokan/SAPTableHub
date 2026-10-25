@@ -9,5 +9,27 @@
     "es": "Materiales: textos por unidad de medida",
     "en": "Materials: texts per unit of measure",
     "pt": "Materiais: textos por unidade de medida"
+  },
+  "purpose": {
+    "es": "Textos breves del material que dependen de la unidad de medida, por ejemplo una descripción distinta para la caja y para la unidad suelta, por idioma.",
+    "en": "Material short texts that depend on the unit of measure, for example a different description for the box and for the single unit, by language.",
+    "pt": "Textos breves do material que dependem da unidade de medida, por exemplo uma descrição diferente para a caixa e para a unidade avulsa, por idioma."
+  },
+  "synonyms": {
+    "es": [
+      "texto por unidad de medida",
+      "descripción por embalaje",
+      "texto de unidad"
+    ],
+    "en": [
+      "text per unit of measure",
+      "description per pack size",
+      "unit-specific text"
+    ],
+    "pt": [
+      "texto por unidade de medida",
+      "descrição por embalagem",
+      "texto da unidade"
+    ]
   }
 }

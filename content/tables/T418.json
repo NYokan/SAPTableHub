@@ -8,5 +8,30 @@
     "es": "Tipos de posición de listas de materiales",
     "en": "Bill of material item categories",
     "pt": "Categorias de item de listas técnicas"
+  },
+  "purpose": {
+    "es": "Configuración de los tipos de posición de listas de materiales (por ejemplo, L de almacén, N no de almacén, T texto, D documento, R de dimensiones variables): qué datos pide cada posición y cómo se comporta. Una fila por tipo (POSTP).",
+    "en": "Configuration of bill of material item categories (for example, L stock, N non-stock, T text, D document, R variable-size): which data each item needs and how it behaves. One row per category (POSTP).",
+    "pt": "Configuração dos tipos de item de listas técnicas (por exemplo, L de estoque, N não estocável, T texto, D documento, R de dimensões variáveis): quais dados cada item pede e como se comporta. Uma linha por tipo (POSTP)."
+  },
+  "synonyms": {
+    "es": [
+      "tipo de posición de BOM",
+      "posición de almacén",
+      "posición de texto",
+      "POSTP"
+    ],
+    "en": [
+      "BOM item category",
+      "stock item",
+      "text item",
+      "POSTP"
+    ],
+    "pt": [
+      "tipo de item da BOM",
+      "item de estoque",
+      "item de texto",
+      "POSTP"
+    ]
   }
 }

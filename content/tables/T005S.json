@@ -8,5 +8,30 @@
     "es": "Regiones (provincias, estados)",
     "en": "Regions (provinces, states)",
     "pt": "Regiões (províncias, estados)"
+  },
+  "purpose": {
+    "es": "Una fila por país y región: provincias, estados, departamentos o comunidades que se usan en direcciones y en impuestos. Los nombres de las regiones están en T005U.",
+    "en": "One row per country and region: provinces, states, departments or counties used in addresses and taxes. The region names are in T005U.",
+    "pt": "Uma linha por país e região: estados, províncias ou departamentos usados em endereços e impostos. Os nomes das regiões estão na T005U."
+  },
+  "synonyms": {
+    "es": [
+      "regiones",
+      "provincias",
+      "estados",
+      "código de región"
+    ],
+    "en": [
+      "regions",
+      "states",
+      "provinces",
+      "region code"
+    ],
+    "pt": [
+      "regiões",
+      "estados",
+      "UF",
+      "código da região"
+    ]
   }
 }

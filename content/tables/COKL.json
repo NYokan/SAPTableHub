@@ -8,5 +8,27 @@
     "es": "Datos de control de planificación de actividades",
     "en": "Activity planning control data",
     "pt": "Dados de controle do planejamento de atividades"
+  },
+  "purpose": {
+    "es": "Datos de control de la planificación de actividades por centro de coste, tipo de actividad, ejercicio y versión: por ejemplo, el método de tarifa, es decir, si la tarifa se calcula a partir del plan o se fija a mano.",
+    "en": "Control data for activity planning per cost center, activity type, fiscal year and version: for example, the price indicator, that is, whether the price is calculated from the plan or set manually.",
+    "pt": "Dados de controle do planejamento de atividades por centro de custo, tipo de atividade, exercício e versão: por exemplo, o indicador de tarifa, ou seja, se a tarifa é calculada a partir do plano ou fixada manualmente."
+  },
+  "synonyms": {
+    "es": [
+      "control de plan de actividades",
+      "indicador de tarifa",
+      "planificación de tarifas"
+    ],
+    "en": [
+      "activity planning control",
+      "price indicator",
+      "activity price planning"
+    ],
+    "pt": [
+      "controle do plano de atividades",
+      "indicador de tarifa",
+      "planejamento de tarifas"
+    ]
   }
 }

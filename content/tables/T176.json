@@ -8,5 +8,30 @@
     "es": "Clases de pedido del cliente",
     "en": "Customer purchase order types",
     "pt": "Tipos de pedido do cliente"
+  },
+  "purpose": {
+    "es": "Lista de clases de pedido del cliente (campo BSARK), que indican cómo llegó el pedido: teléfono, correo, fax, EDI, web. Se guarda en los datos comerciales del pedido (VBKD) y sirve para analizar canales de entrada.",
+    "en": "List of customer purchase order types (field BSARK), which say how the order arrived: phone, mail, fax, EDI, web. Stored in the order's business data (VBKD) and used to analyze order-entry channels.",
+    "pt": "Lista de tipos de pedido do cliente (campo BSARK), que indicam como o pedido chegou: telefone, correio, fax, EDI, web. Fica nos dados comerciais da ordem (VBKD) e serve para analisar canais de entrada."
+  },
+  "synonyms": {
+    "es": [
+      "clase de pedido del cliente",
+      "canal de entrada de pedidos",
+      "pedido por EDI",
+      "BSARK"
+    ],
+    "en": [
+      "purchase order type",
+      "order entry channel",
+      "EDI order",
+      "BSARK"
+    ],
+    "pt": [
+      "tipo de pedido do cliente",
+      "canal de entrada de pedidos",
+      "pedido via EDI",
+      "BSARK"
+    ]
   }
 }

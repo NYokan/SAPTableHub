@@ -8,5 +8,24 @@
     "es": "Clases de ubicación técnica (textos)",
     "en": "Functional location categories (texts)",
     "pt": "Categorias de local de instalação (textos)"
+  },
+  "purpose": {
+    "es": "Descripciones por idioma de las clases de ubicación técnica (T370F). Se usa para mostrar el nombre legible en informes en lugar del código.",
+    "en": "Language-dependent descriptions of functional location categories (T370F). Used to show the readable name in reports instead of the code.",
+    "pt": "Descrições por idioma de categorias de local de instalação (T370F). Usada para mostrar o nome legível em relatórios em vez do código."
+  },
+  "synonyms": {
+    "es": [
+      "texto clase de ubicación técnica",
+      "descripción categoría de ubicación"
+    ],
+    "en": [
+      "functional location category text",
+      "location category description"
+    ],
+    "pt": [
+      "texto categoria de local",
+      "descrição categoria de local"
+    ]
   }
 }

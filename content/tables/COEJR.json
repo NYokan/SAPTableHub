@@ -8,5 +8,27 @@
     "es": "Partidas de plan de magnitudes estadísticas",
     "en": "Plan line items for statistical key figures",
     "pt": "Partidas de plano de índices estatísticos"
+  },
+  "purpose": {
+    "es": "Una fila por cada partida de plan de magnitudes estadísticas (por ejemplo, empleados o metros cuadrados planificados) para un objeto CO, por ejercicio y versión. Los totales están en COSR.",
+    "en": "One row per plan line item for statistical key figures (for example, planned employees or square meters) for a CO object, by fiscal year and version. The totals are in COSR.",
+    "pt": "Uma linha por partida de plano de índices estatísticos (por exemplo, funcionários ou metros quadrados planejados) para um objeto CO, por exercício e versão. Os totais estão na COSR."
+  },
+  "synonyms": {
+    "es": [
+      "magnitudes estadísticas planificadas",
+      "plan de indicadores",
+      "bases de reparto planificadas"
+    ],
+    "en": [
+      "planned statistical key figures",
+      "planned key figures",
+      "planned allocation bases"
+    ],
+    "pt": [
+      "índices estatísticos planejados",
+      "plano de indicadores",
+      "bases de rateio planejadas"
+    ]
   }
 }

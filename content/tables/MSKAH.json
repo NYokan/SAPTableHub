@@ -8,5 +8,24 @@
     "es": "Stock de pedido de cliente (histórico)",
     "en": "Sales order stock (history)",
     "pt": "Estoque de ordem do cliente (histórico)"
+  },
+  "purpose": {
+    "es": "Copia por periodo del stock asignado a pedidos de cliente (MSKA): cantidades por material, centro, almacén, lote y posición de pedido al cierre de periodos anteriores.",
+    "en": "Period copy of stock assigned to sales orders (MSKA): quantities by material, plant, storage location, batch and order item at the close of earlier periods.",
+    "pt": "Cópia por período do estoque atribuído a pedidos de cliente (MSKA): quantidades por material, centro, depósito, lote e item do pedido no fechamento de períodos anteriores."
+  },
+  "synonyms": {
+    "es": [
+      "histórico stock de pedido de cliente",
+      "stock E histórico"
+    ],
+    "en": [
+      "sales order stock history",
+      "special stock E history"
+    ],
+    "pt": [
+      "histórico estoque de pedido de cliente",
+      "estoque E histórico"
+    ]
   }
 }

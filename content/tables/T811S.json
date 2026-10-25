@@ -7,5 +7,27 @@
     "es": "Segmentos de ciclos de reparto",
     "en": "Allocation cycle segments",
     "pt": "Segmentos de ciclos de rateio"
+  },
+  "purpose": {
+    "es": "Una fila por cada segmento de un ciclo de reparto o distribución: nombre del segmento y reglas de emisor y receptor (por ejemplo, porcentajes fijos o magnitudes estadísticas). La cabecera del ciclo está en T811C.",
+    "en": "One row per segment of an assessment or distribution cycle: segment name and sender and receiver rules (for example, fixed percentages or statistical key figures). The cycle header is in T811C.",
+    "pt": "Uma linha por segmento de um ciclo de rateio ou distribuição: nome do segmento e regras de emissor e receptor (por exemplo, percentuais fixos ou índices estatísticos). O cabeçalho do ciclo está na T811C."
+  },
+  "synonyms": {
+    "es": [
+      "segmento de reparto",
+      "reglas de reparto",
+      "base de reparto"
+    ],
+    "en": [
+      "allocation segment",
+      "allocation rules",
+      "allocation basis"
+    ],
+    "pt": [
+      "segmento de rateio",
+      "regras de rateio",
+      "base de rateio"
+    ]
   }
 }

@@ -8,5 +8,27 @@
     "es": "Códigos ISO de unidades de medida",
     "en": "ISO codes for units of measure",
     "pt": "Códigos ISO de unidades de medida"
+  },
+  "purpose": {
+    "es": "Una fila por cada código ISO de unidad de medida, el que se usa en EDI e IDocs para intercambiar cantidades con otros sistemas. La unidad interna de T006 apunta a su código ISO.",
+    "en": "One row per ISO unit of measure code, the one used in EDI and IDocs to exchange quantities with other systems. The internal unit in T006 points to its ISO code.",
+    "pt": "Uma linha por código ISO de unidade de medida, o usado em EDI e IDocs para trocar quantidades com outros sistemas. A unidade interna da T006 aponta para seu código ISO."
+  },
+  "synonyms": {
+    "es": [
+      "código ISO de unidad",
+      "unidad ISO",
+      "unidad para EDI"
+    ],
+    "en": [
+      "ISO unit code",
+      "ISO UoM",
+      "EDI unit"
+    ],
+    "pt": [
+      "código ISO da unidade",
+      "unidade ISO",
+      "unidade para EDI"
+    ]
   }
 }

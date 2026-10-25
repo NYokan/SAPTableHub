@@ -8,5 +8,30 @@
     "es": "Jerarquías de clientes",
     "en": "Customer hierarchies",
     "pt": "Hierarquias de clientes"
+  },
+  "purpose": {
+    "es": "Relaciones de jerarquía entre clientes: una fila por cliente y nodo superior dentro de un tipo de jerarquía y área de ventas, con fechas de validez. Sirve para dar precios o descuentos a toda una cadena o grupo y para informes consolidados.",
+    "en": "Hierarchy relationships between customers: one row per customer and higher-level node within a hierarchy type and sales area, with validity dates. Used to give prices or discounts to a whole chain or group and for consolidated reporting.",
+    "pt": "Relações de hierarquia entre clientes: uma linha por cliente e nó superior dentro de um tipo de hierarquia e área de vendas, com datas de validade. Serve para dar preços ou descontos a uma rede ou grupo inteiro e para relatórios consolidados."
+  },
+  "synonyms": {
+    "es": [
+      "jerarquía de clientes",
+      "grupo de clientes corporativo",
+      "cadena de clientes",
+      "nodo superior"
+    ],
+    "en": [
+      "customer hierarchy",
+      "customer group structure",
+      "chain of stores",
+      "higher-level customer"
+    ],
+    "pt": [
+      "hierarquia de clientes",
+      "grupo corporativo de clientes",
+      "rede de clientes",
+      "nó superior"
+    ]
   }
 }

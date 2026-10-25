@@ -9,5 +9,27 @@
     "es": "Cuentas de contrato (cabecera)",
     "en": "Contract accounts (header)",
     "pt": "Contas de contrato (cabeçalho)"
+  },
+  "purpose": {
+    "es": "Una fila por cada cuenta contrato de la contabilidad de contratos (FI-CA): la cuenta donde se registran las facturas y pagos de un interlocutor, con su categoría y datos generales. Los datos por interlocutor están en FKKVKP.",
+    "en": "One row per contract account in contract accounting (FI-CA): the account where a business partner's invoices and payments are recorded, with its category and general data. The partner-specific data is in FKKVKP.",
+    "pt": "Uma linha por conta contrato da contabilidade de contratos (FI-CA): a conta onde se registram as faturas e pagamentos de um parceiro, com sua categoria e dados gerais. Os dados por parceiro estão na FKKVKP."
+  },
+  "synonyms": {
+    "es": [
+      "cuenta contrato",
+      "cuenta de contrato FI-CA",
+      "VKONT"
+    ],
+    "en": [
+      "contract account",
+      "FI-CA contract account",
+      "VKONT"
+    ],
+    "pt": [
+      "conta contrato",
+      "conta de contrato FI-CA",
+      "VKONT"
+    ]
   }
 }

@@ -7,5 +7,30 @@
     "es": "Documentos de material: extracto de stocks",
     "en": "Material documents: stock extract",
     "pt": "Documentos de material: extrato de estoques"
+  },
+  "purpose": {
+    "es": "Tabla de S/4HANA con las cantidades de stock ya agregadas a partir de los documentos de material (MATDOC). Permite calcular rápido el stock actual por material, centro, almacén, lote y tipo de stock sin sumar cada movimiento. Para ver movimientos individuales se usa MATDOC.",
+    "en": "S/4HANA table with stock quantities already aggregated from material documents (MATDOC). It lets the system quickly calculate current stock by material, plant, storage location, batch and stock type without adding up every movement. Individual movements are in MATDOC.",
+    "pt": "Tabela do S/4HANA com as quantidades de estoque já agregadas a partir dos documentos de material (MATDOC). Permite calcular rápido o estoque atual por material, centro, depósito, lote e tipo de estoque sem somar cada movimento. Movimentos individuais ficam na MATDOC."
+  },
+  "synonyms": {
+    "es": [
+      "stock agregado",
+      "extracto de MATDOC",
+      "stock actual S/4HANA",
+      "saldo de stock"
+    ],
+    "en": [
+      "aggregated stock",
+      "MATDOC extract",
+      "current stock S/4HANA",
+      "stock balance"
+    ],
+    "pt": [
+      "estoque agregado",
+      "extrato da MATDOC",
+      "estoque atual S/4HANA",
+      "saldo de estoque"
+    ]
   }
 }

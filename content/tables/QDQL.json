@@ -8,5 +8,27 @@
     "es": "Niveles de calidad",
     "en": "Quality levels",
     "pt": "Níveis de qualidade"
+  },
+  "purpose": {
+    "es": "Niveles de calidad: guardan, para una combinación como material, proveedor y centro, el nivel de inspección actual y el contador de lotes según la regla de modificación dinámica. Sirve para saber si el próximo lote se inspeccionará normal, reducido o se saltará.",
+    "en": "Quality levels: for a combination such as material, vendor and plant, they store the current inspection stage and lot counters under the dynamic modification rule. Used to know whether the next lot will be inspected normally, reduced or skipped.",
+    "pt": "Níveis de qualidade: guardam, para uma combinação como material, fornecedor e centro, o nível de inspeção atual e os contadores de lotes conforme a regra de modificação dinâmica. Serve para saber se o próximo lote será inspecionado normal, reduzido ou pulado."
+  },
+  "synonyms": {
+    "es": [
+      "nivel de calidad",
+      "nivel de inspección actual",
+      "historial de lotes del proveedor"
+    ],
+    "en": [
+      "quality level",
+      "current inspection stage",
+      "vendor lot history"
+    ],
+    "pt": [
+      "nível de qualidade",
+      "nível de inspeção atual",
+      "histórico de lotes do fornecedor"
+    ]
   }
 }

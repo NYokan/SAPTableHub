@@ -9,5 +9,30 @@
     "es": "Inventario WM (cabecera)",
     "en": "WM inventory documents (header)",
     "pt": "Inventário WM (cabeçalho)"
+  },
+  "purpose": {
+    "es": "Cabecera de cada documento de inventario físico en Warehouse Management (WM): número de almacén, tipo de almacén, estado y fechas del recuento. Las ubicaciones contadas están en LINP y los cuantos en LINV.",
+    "en": "Header of each physical inventory document in Warehouse Management (WM): warehouse number, storage type, status and count dates. The counted bins are in LINP and the quants in LINV.",
+    "pt": "Cabeçalho de cada documento de inventário físico no Warehouse Management (WM): número do depósito, tipo de depósito, status e datas da contagem. As posições contadas estão na LINP e os quants na LINV."
+  },
+  "synonyms": {
+    "es": [
+      "inventario físico WM",
+      "documento de inventario WM",
+      "recuento de almacén",
+      "conteo por ubicación"
+    ],
+    "en": [
+      "WM physical inventory",
+      "WM inventory document",
+      "warehouse count",
+      "bin count"
+    ],
+    "pt": [
+      "inventário físico WM",
+      "documento de inventário WM",
+      "contagem do depósito",
+      "contagem por posição"
+    ]
   }
 }

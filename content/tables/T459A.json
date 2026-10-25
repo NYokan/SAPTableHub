@@ -9,5 +9,27 @@
     "es": "Tipos de necesidad",
     "en": "Requirements types",
     "pt": "Tipos de necessidade"
+  },
+  "purpose": {
+    "es": "Configuración de los tipos de necesidad (por ejemplo, LSF, VSF, KSV, KEV): identifican la clase de demanda en pedidos de cliente y necesidades primarias, y remiten a una clase de necesidad (T459K) que controla su tratamiento.",
+    "en": "Configuration of requirements types (for example, LSF, VSF, KSV, KEV): they identify the kind of demand in sales orders and independent requirements and point to a requirements class (T459K) that controls how it is handled.",
+    "pt": "Configuração dos tipos de necessidade (por exemplo, LSF, VSF, KSV, KEV): identificam o tipo de demanda em pedidos de cliente e necessidades independentes e remetem a uma classe de necessidade (T459K) que controla seu tratamento."
+  },
+  "synonyms": {
+    "es": [
+      "tipo de necesidad",
+      "BEDAE",
+      "estrategia de planificación"
+    ],
+    "en": [
+      "requirements type",
+      "BEDAE",
+      "planning strategy"
+    ],
+    "pt": [
+      "tipo de necessidade",
+      "BEDAE",
+      "estratégia de planejamento"
+    ]
   }
 }

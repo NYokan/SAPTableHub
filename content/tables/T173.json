@@ -8,5 +8,30 @@
     "es": "Clases de expedición",
     "en": "Shipping types",
     "pt": "Tipos de expedição"
+  },
+  "purpose": {
+    "es": "Lista de clases de expedición (campo VSART), es decir, el medio de transporte: camión, tren, barco, avión, paquetería. Se usan en rutas, entregas y transportes.",
+    "en": "List of shipping types (field VSART), that is, the mode of transport: truck, rail, sea, air, parcel. Used in routes, deliveries and shipments.",
+    "pt": "Lista de tipos de expedição (campo VSART), ou seja, o meio de transporte: caminhão, trem, navio, avião, encomenda. Usados em itinerários, remessas e transportes."
+  },
+  "synonyms": {
+    "es": [
+      "clase de expedición",
+      "medio de transporte",
+      "modo de transporte",
+      "VSART"
+    ],
+    "en": [
+      "shipping type",
+      "mode of transport",
+      "transport mode",
+      "VSART"
+    ],
+    "pt": [
+      "tipo de expedição",
+      "meio de transporte",
+      "modal de transporte",
+      "VSART"
+    ]
   }
 }

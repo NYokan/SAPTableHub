@@ -9,5 +9,27 @@
     "es": "Impuestos por país",
     "en": "Taxes per country",
     "pt": "Impostos por país"
+  },
+  "purpose": {
+    "es": "Categorías de impuesto que aplican en cada país de salida (por ejemplo, IVA o impuestos locales adicionales) y su orden. Define qué indicadores fiscales se piden en el maestro de clientes y materiales de ese país.",
+    "en": "Tax categories that apply in each departure country (for example, VAT or additional local taxes) and their sequence. It defines which tax indicators are requested in the customer and material masters for that country.",
+    "pt": "Categorias de imposto aplicáveis em cada país de saída (por exemplo, IVA ou impostos locais adicionais) e sua sequência. Define quais indicadores fiscais são pedidos nos cadastros de clientes e materiais desse país."
+  },
+  "synonyms": {
+    "es": [
+      "categorías de impuesto por país",
+      "impuestos de ventas por país",
+      "TATYP"
+    ],
+    "en": [
+      "tax categories per country",
+      "sales taxes per country",
+      "TATYP"
+    ],
+    "pt": [
+      "categorias de imposto por país",
+      "impostos de vendas por país",
+      "TATYP"
+    ]
   }
 }

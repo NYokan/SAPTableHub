@@ -8,5 +8,30 @@
     "es": "Ramos (sectores industriales)",
     "en": "Industries (industry keys)",
     "pt": "Ramos (setores industriais)"
+  },
+  "purpose": {
+    "es": "Una fila por cada clave de ramo o sector industrial (por ejemplo minería, comercio, banca) que se asigna a clientes y proveedores en sus maestros (campo BRSCH de KNA1 y LFA1). Los nombres están en T016T.",
+    "en": "One row per industry key (for example mining, retail, banking) assigned to customers and vendors in their master data (field BRSCH in KNA1 and LFA1). The names are in T016T.",
+    "pt": "Uma linha por chave de setor industrial (por exemplo mineração, varejo, bancos) atribuída a clientes e fornecedores em seus cadastros (campo BRSCH da KNA1 e LFA1). Os nomes estão na T016T."
+  },
+  "synonyms": {
+    "es": [
+      "ramo",
+      "sector industrial",
+      "clave de ramo",
+      "industria"
+    ],
+    "en": [
+      "industry key",
+      "industry sector",
+      "industry",
+      "line of business"
+    ],
+    "pt": [
+      "setor industrial",
+      "ramo de atividade",
+      "chave de setor",
+      "indústria"
+    ]
   }
 }

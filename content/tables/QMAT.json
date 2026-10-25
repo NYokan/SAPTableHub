@@ -8,5 +8,27 @@
     "es": "Tipos de inspección por material",
     "en": "Inspection types per material",
     "pt": "Tipos de inspeção por material"
+  },
+  "purpose": {
+    "es": "Tipos de inspección activos para cada material y centro (por ejemplo, inspección en entrada de mercancías o en producción) con sus parámetros: inspección 100 %, uso de plan de inspección, tiempo de inspección.",
+    "en": "Inspection types active for each material and plant (for example, goods receipt or production inspection) with their parameters: 100% inspection, use of inspection plan, inspection time.",
+    "pt": "Tipos de inspeção ativos para cada material e centro (por exemplo, inspeção na entrada de mercadorias ou na produção) com seus parâmetros: inspeção 100%, uso de plano de inspeção, tempo de inspeção."
+  },
+  "synonyms": {
+    "es": [
+      "configuración de inspección del material",
+      "tipo de inspección del material",
+      "inspección activa"
+    ],
+    "en": [
+      "material inspection setup",
+      "material inspection type",
+      "active inspection"
+    ],
+    "pt": [
+      "configuração de inspeção do material",
+      "tipo de inspeção do material",
+      "inspeção ativa"
+    ]
   }
 }

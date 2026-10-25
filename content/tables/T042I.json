@@ -8,5 +8,27 @@
     "es": "Programa de pagos: cuentas de banco propio por vía de pago",
     "en": "Payment program: house bank accounts by payment method",
     "pt": "Programa de pagamento: contas do banco próprio por forma de pagamento"
+  },
+  "purpose": {
+    "es": "Para cada sociedad pagadora, banco propio, vía de pago y moneda, qué cuenta del banco propio se usa y a qué cuenta de mayor (cuenta puente de pagos) se contabiliza el pago.",
+    "en": "For each paying company code, house bank, payment method and currency, which house bank account is used and which G/L account (bank clearing account) the payment is posted to.",
+    "pt": "Para cada empresa pagadora, banco próprio, forma de pagamento e moeda, qual conta do banco próprio é usada e em qual conta do razão (conta transitória de pagamentos) o pagamento é lançado."
+  },
+  "synonyms": {
+    "es": [
+      "cuenta bancaria por vía de pago",
+      "cuenta puente de pagos",
+      "determinación de cuenta bancaria"
+    ],
+    "en": [
+      "bank account by payment method",
+      "bank clearing account",
+      "bank account determination"
+    ],
+    "pt": [
+      "conta bancária por forma de pagamento",
+      "conta transitória de pagamentos",
+      "determinação de conta bancária"
+    ]
   }
 }

@@ -8,5 +8,30 @@
     "es": "Unidades de medida",
     "en": "Units of measure",
     "pt": "Unidades de medida"
+  },
+  "purpose": {
+    "es": "Una fila por cada unidad de medida interna (por ejemplo KG, M, ST): dimensión, decimales, factores de conversión a la unidad SI y código ISO. Es la base para convertir cantidades entre unidades de la misma dimensión.",
+    "en": "One row per internal unit of measure (for example KG, M, PC): dimension, decimal places, conversion factors to the SI unit and ISO code. It is the basis for converting quantities between units of the same dimension.",
+    "pt": "Uma linha por unidade de medida interna (por exemplo KG, M, PC): dimensão, casas decimais, fatores de conversão para a unidade SI e código ISO. É a base para converter quantidades entre unidades da mesma dimensão."
+  },
+  "synonyms": {
+    "es": [
+      "unidades de medida",
+      "unidad de medida",
+      "conversión de unidades",
+      "factor de conversión"
+    ],
+    "en": [
+      "units of measure",
+      "UoM",
+      "unit conversion",
+      "conversion factor"
+    ],
+    "pt": [
+      "unidades de medida",
+      "UM",
+      "conversão de unidades",
+      "fator de conversão"
+    ]
   }
 }

@@ -9,5 +9,27 @@
     "es": "Áreas de picking WM",
     "en": "WM picking areas",
     "pt": "Áreas de picking WM"
+  },
+  "purpose": {
+    "es": "Lista de áreas de picking dentro de cada tipo de almacén WM: agrupan ubicaciones para organizar la preparación de pedidos, por ejemplo por pasillo o por operario.",
+    "en": "List of picking areas within each WM storage type: they group bins to organise order picking, for example by aisle or by worker.",
+    "pt": "Lista de áreas de picking dentro de cada tipo de depósito WM: agrupam posições para organizar a separação de pedidos, por exemplo por corredor ou por operador."
+  },
+  "synonyms": {
+    "es": [
+      "área de picking",
+      "zona de preparación de pedidos",
+      "pasillo de picking"
+    ],
+    "en": [
+      "picking area",
+      "order picking zone",
+      "picking aisle"
+    ],
+    "pt": [
+      "área de picking",
+      "zona de separação de pedidos",
+      "corredor de picking"
+    ]
   }
 }

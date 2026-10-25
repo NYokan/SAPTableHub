@@ -8,5 +8,27 @@
     "es": "EWM: cuantos disponibles",
     "en": "EWM: available quants",
     "pt": "EWM: quantos disponíveis"
+  },
+  "purpose": {
+    "es": "Tabla de Extended Warehouse Management (EWM) con el stock disponible agregado (cuantos disponibles) por ubicación o nivel superior, que el sistema usa para crear tareas de almacén. El stock físico por ubicación está en /SCWM/QUAN.",
+    "en": "Extended Warehouse Management (EWM) table with aggregated available stock (available quants) by bin or higher level, used by the system to create warehouse tasks. Physical stock per bin is in /SCWM/QUAN.",
+    "pt": "Tabela do Extended Warehouse Management (EWM) com o estoque disponível agregado (quants disponíveis) por posição ou nível superior, que o sistema usa para criar tarefas de depósito. O estoque físico por posição está na /SCWM/QUAN."
+  },
+  "synonyms": {
+    "es": [
+      "stock disponible EWM",
+      "cuanto disponible",
+      "disponibilidad en almacén EWM"
+    ],
+    "en": [
+      "EWM available stock",
+      "available quant",
+      "EWM warehouse availability"
+    ],
+    "pt": [
+      "estoque disponível EWM",
+      "quant disponível",
+      "disponibilidade no depósito EWM"
+    ]
   }
 }

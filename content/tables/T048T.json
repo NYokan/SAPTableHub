@@ -8,5 +8,24 @@
     "es": "Tipos de correspondencia (textos)",
     "en": "Correspondence types (texts)",
     "pt": "Tipos de correspondência (textos)"
+  },
+  "purpose": {
+    "es": "Nombre de cada tipo de correspondencia contable en cada idioma, para mostrar una descripción legible en lugar del código de T048.",
+    "en": "Name of each accounting correspondence type in each language, to show a readable description instead of the code from T048.",
+    "pt": "Nome de cada tipo de correspondência contábil em cada idioma, para mostrar uma descrição legível em vez do código da T048."
+  },
+  "synonyms": {
+    "es": [
+      "texto tipo de correspondencia",
+      "descripción correspondencia"
+    ],
+    "en": [
+      "correspondence type text",
+      "correspondence description"
+    ],
+    "pt": [
+      "texto do tipo de correspondência",
+      "descrição da correspondência"
+    ]
   }
 }

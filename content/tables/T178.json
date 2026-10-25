@@ -9,5 +9,27 @@
     "es": "Grupos de precios de material",
     "en": "Material pricing groups",
     "pt": "Grupos de preço de material"
+  },
+  "purpose": {
+    "es": "Lista de grupos de precios de material (campo KONDM), que agrupan materiales que comparten precios o descuentos. Se asignan en los datos de ventas del material (MVKE) y se usan como clave en registros de condición.",
+    "en": "List of material pricing groups (field KONDM), which group materials sharing prices or discounts. They are assigned in the material's sales data (MVKE) and used as a key in condition records.",
+    "pt": "Lista de grupos de preços de material (campo KONDM), que agrupam materiais com os mesmos preços ou descontos. São atribuídos nos dados de vendas do material (MVKE) e usados como chave em registros de condição."
+  },
+  "synonyms": {
+    "es": [
+      "grupo de precios de material",
+      "KONDM",
+      "descuento por grupo de material"
+    ],
+    "en": [
+      "material pricing group",
+      "KONDM",
+      "material group discount"
+    ],
+    "pt": [
+      "grupo de preços de material",
+      "KONDM",
+      "desconto por grupo de material"
+    ]
   }
 }

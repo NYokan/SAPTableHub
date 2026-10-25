@@ -9,5 +9,27 @@
     "es": "Tipos de imputación: textos",
     "en": "Account assignment categories: texts",
     "pt": "Categorias de classificação contábil: textos"
+  },
+  "purpose": {
+    "es": "Nombre de cada tipo de imputación por idioma, por ejemplo K centro de coste, F orden o P proyecto. Explica a qué objeto se carga una posición de compra.",
+    "en": "Name of each account assignment category per language, for example K cost center, F order or P project. It explains what object a purchase item is charged to.",
+    "pt": "Nome de cada categoria de classificação contábil por idioma, por exemplo K centro de custo, F ordem ou P projeto. Explica a que objeto um item de compra é debitado."
+  },
+  "synonyms": {
+    "es": [
+      "tipo de imputación",
+      "imputación a centro de coste",
+      "descripción de imputación"
+    ],
+    "en": [
+      "account assignment category",
+      "cost center assignment",
+      "account assignment description"
+    ],
+    "pt": [
+      "categoria de classificação contábil",
+      "classificação a centro de custo",
+      "descrição da classificação"
+    ]
   }
 }

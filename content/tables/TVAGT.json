@@ -9,5 +9,30 @@
     "es": "Motivos de rechazo: textos",
     "en": "Rejection reasons: texts",
     "pt": "Motivos de recusa: textos"
+  },
+  "purpose": {
+    "es": "Descripción de cada motivo de rechazo de posiciones de venta en cada idioma: una fila por código e idioma. Sirve para mostrar un nombre legible en lugar del código ABGRU en informes; los códigos se definen en TVAG.",
+    "en": "Description of each rejection reason for sales items in each language: one row per code and language. Use it to show a readable name instead of the ABGRU code in reports; the codes themselves are defined in TVAG.",
+    "pt": "Descrição de cada motivo de recusa de itens de venda em cada idioma: uma linha por código e idioma. Serve para mostrar um nome legível em vez do código ABGRU em relatórios; os códigos são definidos na TVAG."
+  },
+  "synonyms": {
+    "es": [
+      "texto motivo de rechazo",
+      "motivo de rechazo",
+      "posición rechazada",
+      "ABGRU"
+    ],
+    "en": [
+      "rejection reason text",
+      "reason for rejection",
+      "rejected item",
+      "ABGRU"
+    ],
+    "pt": [
+      "texto motivo de recusa",
+      "motivo de recusa",
+      "item recusado",
+      "ABGRU"
+    ]
   }
 }

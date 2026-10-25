@@ -9,5 +9,30 @@
     "es": "Cuentas de mayor (plan de cuentas)",
     "en": "G/L accounts (chart of accounts)",
     "pt": "Contas do razão (plano de contas)"
+  },
+  "purpose": {
+    "es": "Una fila por cada cuenta de mayor en cada plan de cuentas: grupo de cuentas e indicador de si es cuenta de balance o de resultados. Los nombres están en SKAT y los datos por sociedad en SKB1.",
+    "en": "One row per G/L account in each chart of accounts: account group and whether it is a balance sheet or a profit and loss account. Names are in SKAT and company code data in SKB1.",
+    "pt": "Uma linha por conta do razão em cada plano de contas: grupo de contas e indicador de conta de balanço ou de resultado. Os nomes estão na SKAT e os dados por empresa na SKB1."
+  },
+  "synonyms": {
+    "es": [
+      "cuenta de mayor",
+      "cuenta contable",
+      "plan de cuentas",
+      "maestro de cuentas de mayor"
+    ],
+    "en": [
+      "G/L account",
+      "general ledger account",
+      "chart of accounts",
+      "G/L account master"
+    ],
+    "pt": [
+      "conta do razão",
+      "conta contábil",
+      "plano de contas",
+      "mestre de contas do razão"
+    ]
   }
 }

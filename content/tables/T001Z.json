@@ -8,5 +8,27 @@
     "es": "Sociedades: datos adicionales",
     "en": "Company codes: additional details",
     "pt": "Empresas: dados adicionais"
+  },
+  "purpose": {
+    "es": "Datos adicionales de cada sociedad, guardados como pares parámetro–valor: por ejemplo números de identificación fiscal o datos legales que piden ciertos países e informes.",
+    "en": "Additional details of each company code, stored as parameter–value pairs: for example tax identification numbers or legal data required by certain countries and reports.",
+    "pt": "Dados adicionais de cada empresa, guardados como pares parâmetro–valor: por exemplo números de identificação fiscal ou dados legais exigidos por certos países e relatórios."
+  },
+  "synonyms": {
+    "es": [
+      "datos adicionales de sociedad",
+      "NIF de la sociedad",
+      "parámetros de sociedad"
+    ],
+    "en": [
+      "company code additional data",
+      "company tax number",
+      "company code parameters"
+    ],
+    "pt": [
+      "dados adicionais da empresa",
+      "CNPJ da empresa",
+      "parâmetros da empresa"
+    ]
   }
 }

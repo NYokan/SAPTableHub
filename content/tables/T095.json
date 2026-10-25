@@ -8,5 +8,27 @@
     "es": "Activos fijos: determinación de cuentas",
     "en": "Fixed assets: account determination",
     "pt": "Ativos fixos: determinação de contas"
+  },
+  "purpose": {
+    "es": "Para cada plan de cuentas, clave de determinación de cuentas y área de valoración, las cuentas de mayor del balance que usan los activos: cuenta de costes de adquisición y cuenta de amortización acumulada. Indica a qué cuenta contable van los movimientos de activos.",
+    "en": "For each chart of accounts, account determination key and depreciation area, the balance sheet G/L accounts used by assets: acquisition cost account and accumulated depreciation account. It shows which G/L account asset transactions post to.",
+    "pt": "Para cada plano de contas, chave de determinação de contas e área de avaliação, as contas do razão do balanço usadas pelos ativos: conta de custo de aquisição e conta de depreciação acumulada. Indica para qual conta contábil vão os movimentos de ativos."
+  },
+  "synonyms": {
+    "es": [
+      "cuentas de activo fijo",
+      "amortización acumulada cuenta",
+      "determinación de cuentas de activos"
+    ],
+    "en": [
+      "asset balance sheet accounts",
+      "accumulated depreciation account",
+      "asset account determination"
+    ],
+    "pt": [
+      "contas de ativo imobilizado",
+      "conta de depreciação acumulada",
+      "determinação de contas de ativos"
+    ]
   }
 }

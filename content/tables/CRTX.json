@@ -9,5 +9,27 @@
     "es": "Puestos de trabajo (descripciones)",
     "en": "Work centers (descriptions)",
     "pt": "Centros de trabalho (descrições)"
+  },
+  "purpose": {
+    "es": "Descripción de cada puesto de trabajo (y de otros recursos de la tabla CRHD), por idioma. Se une con CRHD por el ID interno del objeto para mostrar el nombre del puesto en informes.",
+    "en": "Description of each work center (and other resources in CRHD), per language. It is joined to CRHD by the internal object ID to show the work center name in reports.",
+    "pt": "Descrição de cada centro de trabalho (e de outros recursos da CRHD), por idioma. É unida à CRHD pelo ID interno do objeto para mostrar o nome do centro em relatórios."
+  },
+  "synonyms": {
+    "es": [
+      "nombre del puesto de trabajo",
+      "descripción de puesto de trabajo",
+      "texto de recurso"
+    ],
+    "en": [
+      "work center name",
+      "work center description",
+      "resource text"
+    ],
+    "pt": [
+      "nome do centro de trabalho",
+      "descrição do centro de trabalho",
+      "texto do recurso"
+    ]
   }
 }

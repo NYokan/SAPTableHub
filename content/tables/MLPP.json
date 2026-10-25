@@ -8,5 +8,24 @@
     "es": "Documentos del ledger de materiales (cantidades)",
     "en": "Material ledger documents (quantities)",
     "pt": "Documentos do ledger de materiais (quantidades)"
+  },
+  "purpose": {
+    "es": "En ECC, las cantidades de cada posición de documento del ledger de materiales (cantidad movida y unidad). Junto con MLCR, que tiene los valores, completa el detalle del movimiento.",
+    "en": "In ECC, the quantities of each material ledger document item (quantity moved and unit). Together with MLCR, which holds the values, it completes the movement detail.",
+    "pt": "No ECC, as quantidades de cada item de documento do ledger de materiais (quantidade movimentada e unidade). Junto com a MLCR, que tem os valores, completa o detalhe do movimento."
+  },
+  "synonyms": {
+    "es": [
+      "cantidades del material ledger",
+      "cantidades de documentos ML"
+    ],
+    "en": [
+      "material ledger quantities",
+      "ML document quantities"
+    ],
+    "pt": [
+      "quantidades do material ledger",
+      "quantidades dos documentos ML"
+    ]
   }
 }

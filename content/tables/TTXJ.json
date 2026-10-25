@@ -8,5 +8,30 @@
     "es": "Códigos de jurisdicción fiscal",
     "en": "Tax jurisdiction codes",
     "pt": "Códigos de domicílio fiscal"
+  },
+  "purpose": {
+    "es": "Los códigos de jurisdicción fiscal de cada esquema de cálculo: identifican la autoridad fiscal (estado, condado, ciudad) cuyo impuesto aplica, como en el sales tax de EE. UU. Clientes, centros y documentos guardan el código en el campo TXJCD.",
+    "en": "The tax jurisdiction codes of each tax procedure: they identify the tax authority (state, county, city) whose tax applies, as in US sales tax. Customers, plants and documents store the code in field TXJCD.",
+    "pt": "Os códigos de jurisdição fiscal de cada esquema de cálculo: identificam a autoridade fiscal (estado, condado, cidade) cujo imposto se aplica, como no sales tax dos EUA. Clientes, centros e documentos guardam o código no campo TXJCD."
+  },
+  "synonyms": {
+    "es": [
+      "jurisdicción fiscal",
+      "código de jurisdicción",
+      "sales tax",
+      "TXJCD"
+    ],
+    "en": [
+      "tax jurisdiction",
+      "jurisdiction code",
+      "sales tax",
+      "TXJCD"
+    ],
+    "pt": [
+      "jurisdição fiscal",
+      "código de jurisdição",
+      "sales tax",
+      "TXJCD"
+    ]
   }
 }

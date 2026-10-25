@@ -9,5 +9,30 @@
     "es": "Facturas de proveedor bloqueadas para pago",
     "en": "Vendor invoices blocked for payment",
     "pt": "Faturas de fornecedor bloqueadas para pagamento"
+  },
+  "purpose": {
+    "es": "Una fila por cada factura de proveedor de la verificación logística que está bloqueada para pago, con el motivo del bloqueo. La transacción de liberación de facturas (MRBR) parte de esta lista.",
+    "en": "One row per logistics invoice verification vendor invoice that is blocked for payment, with the blocking reason. The invoice release transaction (MRBR) starts from this list.",
+    "pt": "Uma linha por fatura de fornecedor da revisão de faturas logística que está bloqueada para pagamento, com o motivo do bloqueio. A transação de liberação de faturas (MRBR) parte desta lista."
+  },
+  "synonyms": {
+    "es": [
+      "facturas bloqueadas",
+      "bloqueo de pago",
+      "liberar facturas",
+      "MRBR"
+    ],
+    "en": [
+      "blocked invoices",
+      "payment block",
+      "release blocked invoices",
+      "MRBR"
+    ],
+    "pt": [
+      "faturas bloqueadas",
+      "bloqueio de pagamento",
+      "liberar faturas",
+      "MRBR"
+    ]
   }
 }

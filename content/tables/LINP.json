@@ -9,5 +9,27 @@
     "es": "Inventario WM (ubicaciones)",
     "en": "WM inventory documents (bins)",
     "pt": "Inventário WM (posições)"
+  },
+  "purpose": {
+    "es": "Posiciones de un documento de inventario físico WM: una fila por ubicación que se cuenta, con su estado de recuento. La cabecera está en LINK y el detalle por cuanto en LINV.",
+    "en": "Items of a WM physical inventory document: one row per storage bin to be counted, with its count status. The header is in LINK and quant detail in LINV.",
+    "pt": "Itens de um documento de inventário físico WM: uma linha por posição a contar, com seu status de contagem. O cabeçalho está na LINK e o detalhe por quant na LINV."
+  },
+  "synonyms": {
+    "es": [
+      "ubicaciones a inventariar",
+      "recuento por ubicación",
+      "posición de inventario WM"
+    ],
+    "en": [
+      "bins to count",
+      "count per bin",
+      "WM inventory item"
+    ],
+    "pt": [
+      "posições a inventariar",
+      "contagem por posição",
+      "item de inventário WM"
+    ]
   }
 }

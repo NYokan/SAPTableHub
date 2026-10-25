@@ -8,5 +8,24 @@
     "es": "Jerarquía de productos (textos)",
     "en": "Product hierarchy (texts)",
     "pt": "Hierarquia de produtos (textos)"
+  },
+  "purpose": {
+    "es": "Descripciones por idioma de los nodos de la jerarquía de productos (T179). Se usa para mostrar el nombre legible en informes en lugar del código.",
+    "en": "Language-dependent descriptions of product hierarchy nodes (T179). Used to show the readable name in reports instead of the code.",
+    "pt": "Descrições por idioma de nós da hierarquia de produtos (T179). Usada para mostrar o nome legível em relatórios em vez do código."
+  },
+  "synonyms": {
+    "es": [
+      "nombre de jerarquía de productos",
+      "descripción familia de productos"
+    ],
+    "en": [
+      "product hierarchy name",
+      "product family description"
+    ],
+    "pt": [
+      "nome da hierarquia de produtos",
+      "descrição família de produtos"
+    ]
   }
 }

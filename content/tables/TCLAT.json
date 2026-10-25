@@ -8,5 +8,24 @@
     "es": "Tipos de clase (textos)",
     "en": "Class types (texts)",
     "pt": "Tipos de classe (textos)"
+  },
+  "purpose": {
+    "es": "Descripción de cada tipo de clase por idioma. Complementa a TCLA.",
+    "en": "Description of each class type per language. It complements TCLA.",
+    "pt": "Descrição de cada tipo de classe por idioma. Complementa a TCLA."
+  },
+  "synonyms": {
+    "es": [
+      "nombre de tipo de clase",
+      "texto de tipo de clase"
+    ],
+    "en": [
+      "class type name",
+      "class type text"
+    ],
+    "pt": [
+      "nome do tipo de classe",
+      "texto do tipo de classe"
+    ]
   }
 }

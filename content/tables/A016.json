@@ -8,5 +8,30 @@
     "es": "Condiciones de compra por posición de contrato",
     "en": "Purchasing conditions by contract item",
     "pt": "Condições de compra por item de contrato"
+  },
+  "purpose": {
+    "es": "Tabla de condiciones de compra con clave contrato y posición de contrato: una fila por clase de condición, contrato, posición y periodo de validez. Indica qué registro de condición aplica; los importes están en KONP y la cabecera en KONH.",
+    "en": "Purchasing condition table keyed by contract and contract item: one row per condition type, contract, item and validity period. It points to the condition record that applies; the amounts are in KONP and the header in KONH.",
+    "pt": "Tabela de condições de compra com chave contrato e item de contrato: uma linha por tipo de condição, contrato, item e período de validade. Indica qual registro de condição se aplica; os valores estão na KONP e o cabeçalho na KONH."
+  },
+  "synonyms": {
+    "es": [
+      "precio de contrato",
+      "condiciones de contrato",
+      "precio por posición de contrato",
+      "contrato marco precio"
+    ],
+    "en": [
+      "contract price",
+      "contract conditions",
+      "contract item pricing",
+      "outline agreement price"
+    ],
+    "pt": [
+      "preço de contrato",
+      "condições de contrato",
+      "preço por item de contrato",
+      "contrato básico preço"
+    ]
   }
 }

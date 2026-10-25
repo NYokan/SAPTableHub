@@ -8,5 +8,27 @@
     "es": "Direcciones (observaciones)",
     "en": "Addresses (remarks)",
     "pt": "Endereços (observações)"
+  },
+  "purpose": {
+    "es": "Una fila por dirección e idioma con el texto de observaciones de la dirección, la nota libre que se escribe en la pantalla de dirección. Se enlaza con ADRC por el número de dirección.",
+    "en": "One row per address and language with the address remarks text, the free note entered on the address screen. It links to ADRC through the address number.",
+    "pt": "Uma linha por endereço e idioma com o texto de observações do endereço, a nota livre digitada na tela de endereço. Liga-se à ADRC pelo número do endereço."
+  },
+  "synonyms": {
+    "es": [
+      "observaciones de dirección",
+      "nota de dirección",
+      "comentario de dirección"
+    ],
+    "en": [
+      "address remarks",
+      "address note",
+      "address comment"
+    ],
+    "pt": [
+      "observações do endereço",
+      "nota do endereço",
+      "comentário do endereço"
+    ]
   }
 }

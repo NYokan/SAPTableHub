@@ -8,5 +8,27 @@
     "es": "Rutas",
     "en": "Routes",
     "pt": "Itinerários"
+  },
+  "purpose": {
+    "es": "Rutas de transporte (campo ROUTE): una fila por ruta, con su tiempo de tránsito, clase de expedición y distancia. La ruta se determina en el pedido y la entrega y sirve para planificar fechas y transportes.",
+    "en": "Transport routes (field ROUTE): one row per route, with its transit time, shipping type and distance. The route is determined in the order and delivery and is used to schedule dates and shipments.",
+    "pt": "Itinerários de transporte (campo ROUTE): uma linha por itinerário, com seu tempo de trânsito, tipo de expedição e distância. O itinerário é determinado na ordem e na remessa e serve para planejar datas e transportes."
+  },
+  "synonyms": {
+    "es": [
+      "ruta de transporte",
+      "tiempo de tránsito",
+      "ROUTE"
+    ],
+    "en": [
+      "transport route",
+      "transit time",
+      "ROUTE"
+    ],
+    "pt": [
+      "itinerário de transporte",
+      "tempo de trânsito",
+      "ROUTE"
+    ]
   }
 }

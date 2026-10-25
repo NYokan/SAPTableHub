@@ -8,5 +8,27 @@
     "es": "Tipos de catálogo",
     "en": "Catalog types",
     "pt": "Tipos de catálogo"
+  },
+  "purpose": {
+    "es": "Tipos de catálogo de calidad y mantenimiento (por ejemplo, defectos, causas, acciones, decisiones de empleo, características). Cada tipo agrupa sus grupos de códigos y códigos.",
+    "en": "Quality and maintenance catalog types (for example, defects, causes, activities, usage decisions, characteristics). Each type groups its code groups and codes.",
+    "pt": "Tipos de catálogo de qualidade e manutenção (por exemplo, defeitos, causas, ações, decisões de utilização, características). Cada tipo agrupa seus grupos de códigos e códigos."
+  },
+  "synonyms": {
+    "es": [
+      "tipo de catálogo",
+      "catálogo de calidad",
+      "catálogo de mantenimiento"
+    ],
+    "en": [
+      "catalog type",
+      "quality catalog",
+      "maintenance catalog"
+    ],
+    "pt": [
+      "tipo de catálogo",
+      "catálogo de qualidade",
+      "catálogo de manutenção"
+    ]
   }
 }

@@ -8,5 +8,24 @@
     "es": "Utilizaciones de listas de materiales (descripciones)",
     "en": "Bill of material usages (descriptions)",
     "pt": "Utilizações de listas técnicas (descrições)"
+  },
+  "purpose": {
+    "es": "Descripción de cada utilización de listas de materiales, por idioma. Se une con T416 o MAST por el campo STLAN para mostrar su nombre.",
+    "en": "Description of each bill of material usage, per language. It is joined to T416 or MAST by the STLAN field to show its name.",
+    "pt": "Descrição de cada utilização de listas técnicas, por idioma. É unida à T416 ou à MAST pelo campo STLAN para mostrar seu nome."
+  },
+  "synonyms": {
+    "es": [
+      "nombre de utilización de BOM",
+      "descripción de uso de lista de materiales"
+    ],
+    "en": [
+      "BOM usage name",
+      "BOM usage description"
+    ],
+    "pt": [
+      "nome da utilização da BOM",
+      "descrição do uso da lista técnica"
+    ]
   }
 }

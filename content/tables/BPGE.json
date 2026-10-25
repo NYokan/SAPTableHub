@@ -8,5 +8,30 @@
     "es": "Presupuesto y plan global por objeto",
     "en": "Overall budget and plan per object",
     "pt": "Orçamento e plano global por objeto"
+  },
+  "purpose": {
+    "es": "Totales globales de presupuesto y plan por objeto (orden, elemento PEP, programa de inversión), sin desglose por año. Una fila por objeto, operación de valor y versión. Es la fuente para consultar cuánto presupuesto total tiene un proyecto u orden.",
+    "en": "Overall budget and plan totals per object (order, WBS element, investment program), with no breakdown by year. One row per object, value transaction and version. It is the source to check how much total budget a project or order has.",
+    "pt": "Totais globais de orçamento e plano por objeto (ordem, elemento PEP, programa de investimento), sem divisão por ano. Uma linha por objeto, operação de valor e versão. É a fonte para consultar quanto orçamento total um projeto ou ordem tem."
+  },
+  "synonyms": {
+    "es": [
+      "presupuesto total",
+      "presupuesto del proyecto",
+      "presupuesto de la orden",
+      "plan global"
+    ],
+    "en": [
+      "total budget",
+      "project budget",
+      "order budget",
+      "overall plan"
+    ],
+    "pt": [
+      "orçamento total",
+      "orçamento do projeto",
+      "orçamento da ordem",
+      "plano global"
+    ]
   }
 }

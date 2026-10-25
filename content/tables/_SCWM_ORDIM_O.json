@@ -8,5 +8,27 @@
     "es": "EWM: tareas de almacén abiertas",
     "en": "EWM: open warehouse tasks",
     "pt": "EWM: tarefas de depósito abertas"
+  },
+  "purpose": {
+    "es": "Tareas de almacén abiertas en Extended Warehouse Management (EWM): cada fila es un movimiento pendiente de producto (ubicación origen y destino, cantidad, producto). Al confirmarse pasan a /SCWM/ORDIM_C.",
+    "en": "Open warehouse tasks in Extended Warehouse Management (EWM): each row is a pending product movement (source and destination bin, quantity, product). Once confirmed they move to /SCWM/ORDIM_C.",
+    "pt": "Tarefas de depósito abertas no Extended Warehouse Management (EWM): cada linha é um movimento pendente de produto (posição de origem e destino, quantidade, produto). Ao serem confirmadas passam para a /SCWM/ORDIM_C."
+  },
+  "synonyms": {
+    "es": [
+      "tareas de almacén abiertas",
+      "tareas pendientes EWM",
+      "picking pendiente EWM"
+    ],
+    "en": [
+      "open warehouse tasks",
+      "pending EWM tasks",
+      "open EWM picking"
+    ],
+    "pt": [
+      "tarefas de depósito abertas",
+      "tarefas pendentes EWM",
+      "picking pendente EWM"
+    ]
   }
 }

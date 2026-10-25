@@ -8,5 +8,27 @@
     "es": "Valoración de stock de proyecto",
     "en": "Project stock valuation",
     "pt": "Avaliação do estoque de projeto"
+  },
+  "purpose": {
+    "es": "Valor y cantidad del stock de proyecto (asignado a un elemento PEP) cuando se valora por separado. Una fila por material, área de valoración y elemento PEP; es el equivalente de MBEW para ese stock.",
+    "en": "Value and quantity of project stock (assigned to a WBS element) when valuated separately. One row per material, valuation area and WBS element; it is the MBEW equivalent for that stock.",
+    "pt": "Valor e quantidade do estoque de projeto (atribuído a um elemento PEP) quando avaliado separadamente. Uma linha por material, área de avaliação e elemento PEP; é o equivalente da MBEW para esse estoque."
+  },
+  "synonyms": {
+    "es": [
+      "valor del stock de proyecto",
+      "valoración stock Q",
+      "stock PEP valorado"
+    ],
+    "en": [
+      "project stock value",
+      "special stock Q valuation",
+      "WBS stock valuation"
+    ],
+    "pt": [
+      "valor do estoque de projeto",
+      "avaliação estoque Q",
+      "estoque PEP avaliado"
+    ]
   }
 }

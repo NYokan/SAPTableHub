@@ -8,5 +8,30 @@
     "es": "Laboratorios y oficinas técnicas",
     "en": "Laboratories and design offices",
     "pt": "Laboratórios e escritórios técnicos"
+  },
+  "purpose": {
+    "es": "Lista de laboratorios u oficinas técnicas responsables de un material, que se indica en el maestro de materiales (dato general). Se usa para filtrar materiales por área de ingeniería o laboratorio responsable.",
+    "en": "List of laboratories or design offices responsible for a material, entered in the material master (basic data). Used to filter materials by responsible engineering area or lab.",
+    "pt": "Lista de laboratórios ou escritórios técnicos responsáveis por um material, informados no mestre de materiais (dados básicos). Usada para filtrar materiais por área de engenharia ou laboratório responsável."
+  },
+  "synonyms": {
+    "es": [
+      "laboratorio",
+      "oficina técnica",
+      "oficina de diseño",
+      "responsable técnico del material"
+    ],
+    "en": [
+      "laboratory",
+      "design office",
+      "engineering office",
+      "material lab"
+    ],
+    "pt": [
+      "laboratório",
+      "escritório técnico",
+      "escritório de projetos",
+      "responsável técnico do material"
+    ]
   }
 }

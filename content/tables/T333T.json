@@ -9,5 +9,24 @@
     "es": "Clases de movimiento WM (textos)",
     "en": "WM movement types (texts)",
     "pt": "Tipos de movimento WM (textos)"
+  },
+  "purpose": {
+    "es": "Descripciones por idioma de las clases de movimiento WM (T333). Se usa para mostrar el nombre legible en informes en lugar del código.",
+    "en": "Language-dependent descriptions of WM movement types (T333). Used to show the readable name in reports instead of the code.",
+    "pt": "Descrições por idioma de tipos de movimento WM (T333). Usada para mostrar o nome legível em relatórios em vez do código."
+  },
+  "synonyms": {
+    "es": [
+      "texto clase de movimiento WM",
+      "descripción movimiento WM"
+    ],
+    "en": [
+      "WM movement type text",
+      "WM movement description"
+    ],
+    "pt": [
+      "texto tipo de movimento WM",
+      "descrição movimento WM"
+    ]
   }
 }

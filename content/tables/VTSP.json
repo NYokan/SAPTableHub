@@ -8,5 +8,27 @@
     "es": "Transportes: asignación de etapas a posiciones",
     "en": "Shipments: stage-to-item assignment",
     "pt": "Transportes: atribuição de etapas a itens"
+  },
+  "purpose": {
+    "es": "Asignación de las etapas de un transporte a sus posiciones (entregas): indica qué entregas recorren cada tramo. Enlaza VTTS (etapas) con VTTP (posiciones del transporte).",
+    "en": "Assignment of a shipment's stages to its items (deliveries): it shows which deliveries travel each leg. It links VTTS (stages) with VTTP (shipment items).",
+    "pt": "Atribuição das etapas de um transporte aos seus itens (remessas): indica quais remessas percorrem cada trecho. Liga a VTTS (etapas) com a VTTP (itens do transporte)."
+  },
+  "synonyms": {
+    "es": [
+      "etapas por entrega",
+      "asignación de etapas",
+      "tramo por entrega"
+    ],
+    "en": [
+      "stages per delivery",
+      "stage assignment",
+      "leg per delivery"
+    ],
+    "pt": [
+      "etapas por remessa",
+      "atribuição de etapas",
+      "trecho por remessa"
+    ]
   }
 }

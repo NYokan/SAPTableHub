@@ -1,0 +1,35 @@
+{
+  "id": "T683U",
+  "area": "sales",
+  "contents": "text",
+  "component": "SD-BF-PR",
+  "category": "TRANSP",
+  "deliveryClass": "C",
+  "title": {
+    "es": "Esquemas de cálculo: textos",
+    "en": "Pricing procedures: texts",
+    "pt": "Esquemas de cálculo: textos"
+  },
+  "purpose": {
+    "es": "El nombre de cada esquema de cálculo en cada idioma. Sirve para mostrar en informes qué esquema de precios se aplicó a un pedido o factura en lugar de solo su código; los esquemas se definen en T683.",
+    "en": "The name of each pricing procedure in each language. It is used to show in reports which pricing procedure was applied to an order or invoice instead of just its code; the procedures themselves are defined in T683.",
+    "pt": "O nome de cada esquema de cálculo em cada idioma. Serve para mostrar em relatórios qual esquema de preços foi aplicado a uma ordem ou fatura em vez de apenas o código; os esquemas são definidos na T683."
+  },
+  "synonyms": {
+    "es": [
+      "nombre del esquema de cálculo",
+      "texto del esquema de precios",
+      "descripción del esquema de cálculo"
+    ],
+    "en": [
+      "pricing procedure name",
+      "pricing procedure description",
+      "pricing procedure text"
+    ],
+    "pt": [
+      "nome do esquema de cálculo",
+      "descrição do esquema de preços",
+      "texto do esquema de cálculo"
+    ]
+  }
+}

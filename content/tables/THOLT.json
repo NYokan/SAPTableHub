@@ -8,5 +8,24 @@
     "es": "Días festivos (textos)",
     "en": "Public holidays (texts)",
     "pt": "Feriados (textos)"
+  },
+  "purpose": {
+    "es": "Nombre de cada día festivo por idioma, por ejemplo «Navidad» o «Día del Trabajo». Complementa a THOL.",
+    "en": "Name of each public holiday per language, for example 'Christmas' or 'Labor Day'. It complements THOL.",
+    "pt": "Nome de cada feriado por idioma, por exemplo 'Natal' ou 'Dia do Trabalho'. Complementa a THOL."
+  },
+  "synonyms": {
+    "es": [
+      "nombre de feriado",
+      "texto de día festivo"
+    ],
+    "en": [
+      "holiday name",
+      "public holiday text"
+    ],
+    "pt": [
+      "nome do feriado",
+      "texto do feriado"
+    ]
   }
 }

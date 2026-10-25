@@ -9,5 +9,27 @@
     "es": "Claves de valores de compras",
     "en": "Purchasing value keys",
     "pt": "Chaves de valores de compras"
+  },
+  "purpose": {
+    "es": "Una fila por cada clave de valores de compras: agrupa días de recordatorio al proveedor, tolerancias de entrega en exceso y defecto e instrucciones de envío. Se asigna en la vista de compras del material y se propone en los pedidos.",
+    "en": "One row per purchasing value key: it bundles reminder days to the vendor, over- and underdelivery tolerances and shipping instructions. It is assigned in the material's purchasing view and proposed in orders.",
+    "pt": "Uma linha por chave de valores de compras: agrupa dias de lembrete ao fornecedor, tolerâncias de excesso e falta de fornecimento e instruções de envio. É atribuída na visão de compras do material e proposta nos pedidos."
+  },
+  "synonyms": {
+    "es": [
+      "clave de valores de compras",
+      "tolerancia de entrega",
+      "días de recordatorio"
+    ],
+    "en": [
+      "purchasing value key",
+      "delivery tolerance",
+      "reminder days"
+    ],
+    "pt": [
+      "chave de valores de compras",
+      "tolerância de entrega",
+      "dias de lembrete"
+    ]
   }
 }

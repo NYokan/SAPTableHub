@@ -8,5 +8,30 @@
     "es": "Clases de necesidad",
     "en": "Requirements classes",
     "pt": "Classes de necessidade"
+  },
+  "purpose": {
+    "es": "Configuración de las clases de necesidad: controlan cómo se trata una demanda, por ejemplo verificación de disponibilidad, si es relevante para planificación, si la posición lleva stock especial de pedido o imputación, y si se calcula costo.",
+    "en": "Configuration of requirements classes: they control how a demand is handled, for example availability check, relevance for planning, whether the item uses individual sales order stock or account assignment, and whether it is costed.",
+    "pt": "Configuração das classes de necessidade: controlam como uma demanda é tratada, por exemplo verificação de disponibilidade, relevância para planejamento, se o item usa estoque especial de pedido ou atribuição de custos, e se é custeado."
+  },
+  "synonyms": {
+    "es": [
+      "clase de necesidad",
+      "BEDKL",
+      "fabricación contra pedido",
+      "control de demanda"
+    ],
+    "en": [
+      "requirements class",
+      "BEDKL",
+      "make-to-order",
+      "demand control"
+    ],
+    "pt": [
+      "classe de necessidade",
+      "BEDKL",
+      "produção sob encomenda",
+      "controle de demanda"
+    ]
   }
 }

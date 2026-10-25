@@ -8,5 +8,27 @@
     "es": "Muestras físicas",
     "en": "Physical samples",
     "pt": "Amostras físicas"
+  },
+  "purpose": {
+    "es": "Muestras físicas tomadas para inspección: una fila por muestra, con el material, lote, lote de inspección, cantidad, fecha de extracción y lugar donde se guarda.",
+    "en": "Physical samples taken for inspection: one row per sample, with material, batch, inspection lot, quantity, drawing date and where it is stored.",
+    "pt": "Amostras físicas tomadas para inspeção: uma linha por amostra, com material, lote, lote de inspeção, quantidade, data de coleta e onde está guardada."
+  },
+  "synonyms": {
+    "es": [
+      "muestra física",
+      "muestra de laboratorio",
+      "retención de muestras"
+    ],
+    "en": [
+      "physical sample",
+      "lab sample",
+      "retained sample"
+    ],
+    "pt": [
+      "amostra física",
+      "amostra de laboratório",
+      "retenção de amostras"
+    ]
   }
 }

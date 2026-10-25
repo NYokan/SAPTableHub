@@ -9,5 +9,27 @@
     "es": "Motivos de pedido: textos",
     "en": "Order reasons: texts",
     "pt": "Motivos da ordem: textos"
+  },
+  "purpose": {
+    "es": "Descripción de cada motivo de pedido en cada idioma: una fila por código e idioma. Sirve para mostrar un nombre legible en lugar del código AUGRU en informes; los códigos se definen en TVAU.",
+    "en": "Description of each order reason in each language: one row per code and language. Use it to show a readable name instead of the AUGRU code in reports; the codes themselves are defined in TVAU.",
+    "pt": "Descrição de cada motivo da ordem em cada idioma: uma linha por código e idioma. Serve para mostrar um nome legível em vez do código AUGRU em relatórios; os códigos são definidos na TVAU."
+  },
+  "synonyms": {
+    "es": [
+      "texto motivo de pedido",
+      "motivo de la devolución",
+      "AUGRU"
+    ],
+    "en": [
+      "order reason text",
+      "return reason",
+      "AUGRU"
+    ],
+    "pt": [
+      "texto motivo da ordem",
+      "motivo da devolução",
+      "AUGRU"
+    ]
   }
 }

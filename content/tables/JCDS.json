@@ -8,5 +8,30 @@
     "es": "Estados de objeto (historial de cambios)",
     "en": "Object statuses (change history)",
     "pt": "Status de objeto (histórico de alterações)"
+  },
+  "purpose": {
+    "es": "Una fila por cada cambio de un estado de objeto: qué estado se activó o desactivó, en qué objeto, quién y cuándo. Sirve para saber, por ejemplo, cuándo se liberó o se cerró técnicamente una orden.",
+    "en": "One row per change to an object status: which status was set or reset, on which object, by whom and when. It tells, for example, when an order was released or technically completed.",
+    "pt": "Uma linha por alteração de um status de objeto: qual status foi ativado ou desativado, em qual objeto, por quem e quando. Serve para saber, por exemplo, quando uma ordem foi liberada ou encerrada tecnicamente."
+  },
+  "synonyms": {
+    "es": [
+      "historial de estados",
+      "fecha de cambio de estado",
+      "cuándo se liberó",
+      "cambios de status"
+    ],
+    "en": [
+      "status history",
+      "status change date",
+      "when released",
+      "status change log"
+    ],
+    "pt": [
+      "histórico de status",
+      "data da mudança de status",
+      "quando foi liberada",
+      "alterações de status"
+    ]
   }
 }

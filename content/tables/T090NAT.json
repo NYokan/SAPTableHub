@@ -7,5 +7,24 @@
     "es": "Claves de amortización: textos",
     "en": "Depreciation keys: texts",
     "pt": "Chaves de depreciação: textos"
+  },
+  "purpose": {
+    "es": "Nombre de cada clave de amortización en cada idioma, por plan de valoración. Sirve para mostrar «Lineal sobre vida útil» en lugar del código de T090NA.",
+    "en": "Name of each depreciation key in each language, per chart of depreciation. It is used to show \"Straight-line over useful life\" instead of the code from T090NA.",
+    "pt": "Nome de cada chave de depreciação em cada idioma, por plano de avaliação. Serve para mostrar «Linear pela vida útil» em vez do código da T090NA."
+  },
+  "synonyms": {
+    "es": [
+      "texto clave de amortización",
+      "descripción método de amortización"
+    ],
+    "en": [
+      "depreciation key text",
+      "depreciation method description"
+    ],
+    "pt": [
+      "texto da chave de depreciação",
+      "descrição do método de depreciação"
+    ]
   }
 }

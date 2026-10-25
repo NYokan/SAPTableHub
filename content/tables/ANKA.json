@@ -8,5 +8,30 @@
     "es": "Clases de activos fijos",
     "en": "Asset classes",
     "pt": "Classes de ativos fixos"
+  },
+  "purpose": {
+    "es": "Una fila por cada clase de activo fijo (edificios, maquinaria, vehículos…): rango de numeración, determinación de cuentas y otros valores generales que heredan los activos de esa clase. El activo guarda su clase en ANLA-ANLKL.",
+    "en": "One row per asset class (buildings, machinery, vehicles…): number range, account determination and other general defaults inherited by the assets of that class. The asset stores its class in ANLA-ANLKL.",
+    "pt": "Uma linha por classe de ativo imobilizado (edifícios, máquinas, veículos…): intervalo de numeração, determinação de contas e outros valores gerais herdados pelos ativos da classe. O ativo guarda sua classe em ANLA-ANLKL."
+  },
+  "synonyms": {
+    "es": [
+      "clase de activo",
+      "clases de activos fijos",
+      "categoría de activo",
+      "ANLKL"
+    ],
+    "en": [
+      "asset class",
+      "asset classes",
+      "fixed asset category",
+      "ANLKL"
+    ],
+    "pt": [
+      "classe de ativo",
+      "classes de imobilizado",
+      "categoria de ativo",
+      "ANLKL"
+    ]
   }
 }

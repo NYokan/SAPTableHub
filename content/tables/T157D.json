@@ -8,5 +8,30 @@
     "es": "Motivos de movimiento",
     "en": "Reasons for movement",
     "pt": "Motivos de movimento"
+  },
+  "purpose": {
+    "es": "Lista de motivos de movimiento que se pueden indicar en un movimiento de mercancías según su clase de movimiento (por ejemplo, rotura o caducidad en una baja de stock). Permite analizar por qué se movió el stock.",
+    "en": "List of reasons for movement that can be entered in a goods movement depending on the movement type (for example, breakage or expiry in a scrapping). It lets you analyse why stock was moved.",
+    "pt": "Lista de motivos de movimento que podem ser informados em um movimento de mercadorias conforme o tipo de movimento (por exemplo, quebra ou vencimento em uma baixa de estoque). Permite analisar por que o estoque foi movimentado."
+  },
+  "synonyms": {
+    "es": [
+      "motivo de movimiento",
+      "causa de baja",
+      "motivo de desguace",
+      "razón del movimiento"
+    ],
+    "en": [
+      "reason for movement",
+      "scrapping reason",
+      "write-off reason",
+      "movement reason code"
+    ],
+    "pt": [
+      "motivo de movimento",
+      "causa da baixa",
+      "motivo de sucateamento",
+      "razão do movimento"
+    ]
   }
 }

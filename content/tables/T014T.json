@@ -9,5 +9,24 @@
     "es": "Áreas de control de créditos: textos",
     "en": "Credit control areas: texts",
     "pt": "Áreas de controle de crédito: textos"
+  },
+  "purpose": {
+    "es": "Nombre de cada área de control de créditos en cada idioma, para mostrar una descripción legible en lugar del código de T014.",
+    "en": "Name of each credit control area in each language, to show a readable description instead of the code from T014.",
+    "pt": "Nome de cada área de controle de crédito em cada idioma, para mostrar uma descrição legível em vez do código da T014."
+  },
+  "synonyms": {
+    "es": [
+      "texto área de control de créditos",
+      "nombre área de crédito"
+    ],
+    "en": [
+      "credit control area text",
+      "credit control area name"
+    ],
+    "pt": [
+      "texto da área de controle de crédito",
+      "nome da área de crédito"
+    ]
   }
 }

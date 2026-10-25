@@ -8,5 +8,27 @@
     "es": "Puestos de planificación de transporte",
     "en": "Transportation planning points",
     "pt": "Locais de planejamento de transporte"
+  },
+  "purpose": {
+    "es": "Lista de puestos de planificación de transporte (campo TPLST), las unidades que organizan y planifican los transportes, asignadas a una sociedad. Cada documento de transporte (VTTK) pertenece a uno.",
+    "en": "List of transportation planning points (field TPLST), the units that organize and plan shipments, assigned to a company code. Each shipment document (VTTK) belongs to one.",
+    "pt": "Lista de locais de planejamento de transporte (campo TPLST), as unidades que organizam e planejam os transportes, atribuídas a uma empresa. Cada documento de transporte (VTTK) pertence a um."
+  },
+  "synonyms": {
+    "es": [
+      "puesto de planificación de transporte",
+      "TPLST",
+      "planificación de transportes"
+    ],
+    "en": [
+      "transportation planning point",
+      "TPLST",
+      "shipment planning"
+    ],
+    "pt": [
+      "local de planejamento de transporte",
+      "TPLST",
+      "planejamento de transportes"
+    ]
   }
 }

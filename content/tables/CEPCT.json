@@ -9,5 +9,27 @@
     "es": "Centros de beneficio (textos)",
     "en": "Profit centers (texts)",
     "pt": "Centros de lucro (textos)"
+  },
+  "purpose": {
+    "es": "Nombres corto y largo de cada centro de beneficio, por idioma, sociedad CO y período de validez. Es la tabla que se une a CEPC para mostrar la descripción en los informes.",
+    "en": "Short and long names of each profit center, per language, controlling area and validity period. It is joined to CEPC to show the description in reports.",
+    "pt": "Nomes curto e longo de cada centro de lucro, por idioma, área de contabilidade de custos e período de validade. É unida à CEPC para exibir a descrição nos relatórios."
+  },
+  "synonyms": {
+    "es": [
+      "nombre del centro de beneficio",
+      "descripción del centro de beneficio",
+      "texto de centro de beneficio"
+    ],
+    "en": [
+      "profit center name",
+      "profit center description",
+      "profit center text"
+    ],
+    "pt": [
+      "nome do centro de lucro",
+      "descrição do centro de lucro",
+      "texto do centro de lucro"
+    ]
   }
 }

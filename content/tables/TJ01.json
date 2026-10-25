@@ -7,5 +7,27 @@
     "es": "Operaciones empresariales",
     "en": "Business transactions",
     "pt": "Operações empresariais"
+  },
+  "purpose": {
+    "es": "Lista de operaciones empresariales del sistema (por ejemplo, RKIU reparto real, KOAO liquidación real, COIN contabilización desde FI): códigos que identifican qué tipo de proceso generó una partida o cambio de estado en Controlling. Una fila por operación (VRGNG).",
+    "en": "List of system business transactions (for example, RKIU actual assessment, KOAO actual settlement, COIN posting from FI): codes that identify which kind of process created a Controlling line item or status change. One row per transaction (VRGNG).",
+    "pt": "Lista de operações de negócio do sistema (por exemplo, RKIU rateio real, KOAO apropriação real, COIN lançamento vindo do FI): códigos que identificam que tipo de processo gerou uma partida ou mudança de status no Controlling. Uma linha por operação (VRGNG)."
+  },
+  "synonyms": {
+    "es": [
+      "operación empresarial",
+      "VRGNG",
+      "tipo de operación CO"
+    ],
+    "en": [
+      "business transaction",
+      "VRGNG",
+      "CO transaction type"
+    ],
+    "pt": [
+      "operação de negócio",
+      "VRGNG",
+      "tipo de operação CO"
+    ]
   }
 }

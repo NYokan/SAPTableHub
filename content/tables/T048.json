@@ -9,5 +9,27 @@
     "es": "Tipos de correspondencia",
     "en": "Correspondence types",
     "pt": "Tipos de correspondência"
+  },
+  "purpose": {
+    "es": "Los tipos de correspondencia contable (extracto de cuenta, confirmación de saldos, aviso de pago, copia de documento…): qué datos piden al solicitarla y qué programa la imprime. Las solicitudes concretas están en BKORM.",
+    "en": "The accounting correspondence types (account statement, balance confirmation, payment notice, document copy…): which data they require when requested and which program prints them. The actual requests are in BKORM.",
+    "pt": "Os tipos de correspondência contábil (extrato de conta, confirmação de saldo, aviso de pagamento, cópia de documento…): quais dados exigem ao serem solicitados e qual programa os imprime. As solicitações concretas estão na BKORM."
+  },
+  "synonyms": {
+    "es": [
+      "tipo de correspondencia",
+      "extracto de cuenta",
+      "confirmación de saldos"
+    ],
+    "en": [
+      "correspondence type",
+      "account statement",
+      "balance confirmation"
+    ],
+    "pt": [
+      "tipo de correspondência",
+      "extrato de conta",
+      "confirmação de saldo"
+    ]
   }
 }

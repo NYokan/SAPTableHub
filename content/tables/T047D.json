@@ -8,5 +8,27 @@
     "es": "Procedimientos de reclamación: importes mínimos",
     "en": "Dunning procedures: minimum amounts",
     "pt": "Procedimentos de advertência: montantes mínimos"
+  },
+  "purpose": {
+    "es": "Los importes mínimos de cada procedimiento de reclamación por nivel y moneda: por debajo de esos importes o porcentajes no se envía la carta de reclamación.",
+    "en": "The minimum amounts of each dunning procedure by level and currency: below these amounts or percentages no dunning notice is sent.",
+    "pt": "Os montantes mínimos de cada procedimento de advertência por nível e moeda: abaixo desses montantes ou percentuais a carta de cobrança não é enviada."
+  },
+  "synonyms": {
+    "es": [
+      "importe mínimo de reclamación",
+      "umbral de reclamación",
+      "monto mínimo de cobro"
+    ],
+    "en": [
+      "minimum dunning amount",
+      "dunning threshold",
+      "minimum amount to dun"
+    ],
+    "pt": [
+      "montante mínimo de advertência",
+      "limite de advertência",
+      "valor mínimo de cobrança"
+    ]
   }
 }

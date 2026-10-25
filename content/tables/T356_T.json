@@ -8,5 +8,24 @@
     "es": "Prioridades de mantenimiento (textos)",
     "en": "Maintenance priorities (texts)",
     "pt": "Prioridades de manutenção (textos)"
+  },
+  "purpose": {
+    "es": "Descripciones por idioma de las prioridades de mantenimiento (T356). Se usa para mostrar el nombre legible en informes en lugar del código.",
+    "en": "Language-dependent descriptions of maintenance priorities (T356). Used to show the readable name in reports instead of the code.",
+    "pt": "Descrições por idioma de prioridades de manutenção (T356). Usada para mostrar o nome legível em relatórios em vez do código."
+  },
+  "synonyms": {
+    "es": [
+      "texto de prioridad",
+      "descripción de urgencia"
+    ],
+    "en": [
+      "priority text",
+      "urgency description"
+    ],
+    "pt": [
+      "texto da prioridade",
+      "descrição da urgência"
+    ]
   }
 }

@@ -7,5 +7,30 @@
     "es": "Valoración de stocks: extracto del Universal Journal",
     "en": "Inventory valuation: Universal Journal extract",
     "pt": "Avaliação de estoques: extrato do Universal Journal"
+  },
+  "purpose": {
+    "es": "Tabla de S/4HANA que guarda, ya resumidos por material y área de valoración, los importes y cantidades de stock que salen de ACDOCA. El sistema la usa para leer rápido el valor del inventario sin recorrer todo el Universal Journal; para análisis de detalle conviene ir a ACDOCA.",
+    "en": "S/4HANA table that holds stock amounts and quantities taken from ACDOCA, already summarized by material and valuation area. The system uses it to read inventory value quickly without scanning the whole Universal Journal; for detailed analysis, go to ACDOCA.",
+    "pt": "Tabela do S/4HANA que guarda, já resumidos por material e área de avaliação, os valores e quantidades de estoque vindos da ACDOCA. O sistema a usa para ler rápido o valor do inventário sem percorrer todo o Universal Journal; para análise detalhada, use a ACDOCA."
+  },
+  "synonyms": {
+    "es": [
+      "valor del inventario",
+      "valoración de stock S/4HANA",
+      "extracto de ACDOCA",
+      "valor de existencias"
+    ],
+    "en": [
+      "inventory value",
+      "stock valuation S/4HANA",
+      "ACDOCA extract",
+      "stock value aggregate"
+    ],
+    "pt": [
+      "valor do inventário",
+      "avaliação de estoque S/4HANA",
+      "extrato da ACDOCA",
+      "valor do estoque"
+    ]
   }
 }

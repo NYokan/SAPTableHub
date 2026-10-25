@@ -8,5 +8,27 @@
     "es": "Planes de cuentas: textos",
     "en": "Charts of accounts: texts",
     "pt": "Planos de contas: textos"
+  },
+  "purpose": {
+    "es": "Nombre de cada plan de cuentas en cada idioma, para mostrar una descripción legible en lugar del código del plan (KTOPL).",
+    "en": "Name of each chart of accounts in each language, to show a readable description instead of the chart code (KTOPL).",
+    "pt": "Nome de cada plano de contas em cada idioma, para mostrar uma descrição legível em vez do código do plano (KTOPL)."
+  },
+  "synonyms": {
+    "es": [
+      "nombre del plan de cuentas",
+      "texto plan de cuentas",
+      "KTOPL"
+    ],
+    "en": [
+      "chart of accounts name",
+      "chart of accounts text",
+      "KTOPL"
+    ],
+    "pt": [
+      "nome do plano de contas",
+      "texto do plano de contas",
+      "KTOPL"
+    ]
   }
 }

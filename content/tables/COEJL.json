@@ -8,5 +8,27 @@
     "es": "Partidas de plan de actividades",
     "en": "Plan line items for activities",
     "pt": "Partidas de plano de atividades"
+  },
+  "purpose": {
+    "es": "Una fila por cada partida de plan de tipos de actividad: cantidades de actividad y capacidad planificadas para un centro de coste y tipo de actividad, por ejercicio y versión. Los totales están en COSL.",
+    "en": "One row per plan line item for activity types: planned activity quantities and capacity for a cost center and activity type, by fiscal year and version. The totals are in COSL.",
+    "pt": "Uma linha por partida de plano de tipos de atividade: quantidades de atividade e capacidade planejadas para um centro de custo e tipo de atividade, por exercício e versão. Os totais estão na COSL."
+  },
+  "synonyms": {
+    "es": [
+      "plan de actividades",
+      "actividad planificada",
+      "capacidad planificada"
+    ],
+    "en": [
+      "activity plan",
+      "planned activity",
+      "planned capacity"
+    ],
+    "pt": [
+      "plano de atividades",
+      "atividade planejada",
+      "capacidade planejada"
+    ]
   }
 }

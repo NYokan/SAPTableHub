@@ -8,5 +8,30 @@
     "es": "Registros de condición: precio por cliente y material",
     "en": "Condition records: price per customer and material",
     "pt": "Registros de condição: preço por cliente e material"
+  },
+  "purpose": {
+    "es": "Precios o descuentos acordados para un cliente concreto y un material: una fila por organización de ventas, canal, cliente y material, con su validez. El importe está en KONP, enlazado por KNUMH.",
+    "en": "Prices or discounts agreed for a specific customer and material: one row per sales organization, channel, customer and material, with its validity. The amount is in KONP, linked by KNUMH.",
+    "pt": "Preços ou descontos acordados para um cliente específico e um material: uma linha por organização de vendas, canal, cliente e material, com sua validade. O valor fica na KONP, ligado pelo KNUMH."
+  },
+  "synonyms": {
+    "es": [
+      "precio especial por cliente",
+      "precio cliente-material",
+      "descuento por cliente y material",
+      "tabla de condiciones 005"
+    ],
+    "en": [
+      "customer-specific price",
+      "customer material price",
+      "customer material discount",
+      "condition table 005"
+    ],
+    "pt": [
+      "preço especial por cliente",
+      "preço cliente-material",
+      "desconto por cliente e material",
+      "tabela de condições 005"
+    ]
   }
 }

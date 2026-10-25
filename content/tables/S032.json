@@ -8,5 +8,27 @@
     "es": "Estadísticas de inventario: stock actual",
     "en": "Inventory statistics: current stock",
     "pt": "Estatísticas de estoque: estoque atual"
+  },
+  "purpose": {
+    "es": "Estadística de gestión de inventario (LIS) con el stock actual de cada material por centro y almacén, en cantidad y valor, junto con datos de agrupación como tipo y grupo de material. Base de informes de stock como el análisis ABC.",
+    "en": "Inventory management statistics (LIS) with the current stock of each material by plant and storage location, in quantity and value, plus grouping data such as material type and group. Basis for stock reports such as ABC analysis.",
+    "pt": "Estatística de gestão de estoque (LIS) com o estoque atual de cada material por centro e depósito, em quantidade e valor, com dados de agrupamento como tipo e grupo de material. Base de relatórios de estoque como a análise ABC."
+  },
+  "synonyms": {
+    "es": [
+      "estadística de stock actual",
+      "LIS stock",
+      "valor de stock por almacén"
+    ],
+    "en": [
+      "current stock statistics",
+      "LIS stock",
+      "stock value per storage location"
+    ],
+    "pt": [
+      "estatística de estoque atual",
+      "LIS estoque",
+      "valor de estoque por depósito"
+    ]
   }
 }

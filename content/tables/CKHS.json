@@ -8,5 +8,30 @@
     "es": "Cálculos de coste unitario (cabecera)",
     "en": "Unit cost estimates (header)",
     "pt": "Cálculos de custo unitário (cabeçalho)"
+  },
+  "purpose": {
+    "es": "Una fila por cada cálculo de coste unitario o de costes a medida: a qué objeto pertenece, fechas, versión y totales del cálculo. Las posiciones del cálculo están en CKIS.",
+    "en": "One row per unit cost estimate or ad hoc cost estimate: which object it belongs to, dates, version and estimate totals. The estimate items are in CKIS.",
+    "pt": "Uma linha por cálculo de custo unitário ou cálculo de custos ad hoc: a qual objeto pertence, datas, versão e totais do cálculo. Os itens do cálculo estão na CKIS."
+  },
+  "synonyms": {
+    "es": [
+      "cálculo de coste unitario",
+      "costeo unitario",
+      "cálculo a medida",
+      "cabecera de cálculo"
+    ],
+    "en": [
+      "unit cost estimate",
+      "unit costing",
+      "ad hoc cost estimate",
+      "costing header"
+    ],
+    "pt": [
+      "cálculo de custo unitário",
+      "custeio unitário",
+      "cálculo ad hoc",
+      "cabeçalho do cálculo"
+    ]
   }
 }

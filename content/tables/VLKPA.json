@@ -8,5 +8,24 @@
     "es": "Índice de entregas por interlocutor",
     "en": "Delivery index by partner",
     "pt": "Índice de remessas por parceiro"
+  },
+  "purpose": {
+    "es": "Índice de entregas por interlocutor: una fila por entrega y cliente (u otra función de interlocutor) con fecha y puesto de expedición. Permite buscar rápido las entregas de un cliente.",
+    "en": "Index of deliveries by partner: one row per delivery and customer (or other partner function) with date and shipping point. It allows a quick search of a customer's deliveries.",
+    "pt": "Índice de remessas por parceiro: uma linha por remessa e cliente (ou outra função de parceiro) com data e local de expedição. Permite buscar rapidamente as remessas de um cliente."
+  },
+  "synonyms": {
+    "es": [
+      "entregas por cliente",
+      "índice de entregas por cliente"
+    ],
+    "en": [
+      "deliveries by customer",
+      "delivery index by customer"
+    ],
+    "pt": [
+      "remessas por cliente",
+      "índice de remessas por cliente"
+    ]
   }
 }

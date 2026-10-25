@@ -9,5 +9,31 @@
     "es": "Registros info de compras",
     "en": "Purchasing info records",
     "pt": "Registros info de compras"
+  },
+  "purpose": {
+    "es": "Una fila por cada registro info de compras: la relación entre un proveedor y un material, con datos generales como el número de material del proveedor y los recordatorios. Los precios y condiciones por organización de compras y centro están en EINE.",
+    "en": "One row per purchasing info record: the relationship between a vendor and a material, with general data such as the vendor's material number and reminders. Prices and conditions per purchasing organization and plant are in EINE.",
+    "pt": "Uma linha por registro info de compras: a relação entre um fornecedor e um material, com dados gerais como o número do material no fornecedor e os lembretes. Preços e condições por organização de compras e centro estão na EINE."
+  },
+  "synonyms": {
+    "es": [
+      "registro info",
+      "info record",
+      "material por proveedor",
+      "relación proveedor material",
+      "número de material del proveedor"
+    ],
+    "en": [
+      "info record",
+      "purchasing info record",
+      "vendor material",
+      "supplier material number"
+    ],
+    "pt": [
+      "registro info",
+      "registro info de compras",
+      "material por fornecedor",
+      "código do material no fornecedor"
+    ]
   }
 }

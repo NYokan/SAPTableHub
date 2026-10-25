@@ -8,5 +8,24 @@
     "es": "Clases de tipo de cambio (textos)",
     "en": "Exchange rate types (texts)",
     "pt": "Categorias de taxa de câmbio (textos)"
+  },
+  "purpose": {
+    "es": "Descripción de cada clase de tipo de cambio por idioma, por ejemplo «Cotización media». Complementa a TCURV.",
+    "en": "Description of each exchange rate type per language, for example 'Standard translation at average rate'. It complements TCURV.",
+    "pt": "Descrição de cada tipo de taxa de câmbio por idioma, por exemplo 'Cotação média'. Complementa a TCURV."
+  },
+  "synonyms": {
+    "es": [
+      "nombre de clase de tipo de cambio",
+      "texto de tipo de cambio"
+    ],
+    "en": [
+      "exchange rate type name",
+      "rate type text"
+    ],
+    "pt": [
+      "nome do tipo de taxa de câmbio",
+      "texto do tipo de taxa"
+    ]
   }
 }

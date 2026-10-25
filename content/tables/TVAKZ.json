@@ -8,5 +8,24 @@
     "es": "Clases de documento permitidas por área de ventas",
     "en": "Allowed sales document types per sales area",
     "pt": "Tipos de documento permitidos por área de vendas"
+  },
+  "purpose": {
+    "es": "Combinaciones permitidas de clase de documento de ventas y área de ventas (organización, canal y sector). Sirve para saber qué tipos de pedido puede crear cada organización de ventas.",
+    "en": "Allowed combinations of sales document type and sales area (organization, channel and division). Use it to know which order types each sales organization may create.",
+    "pt": "Combinações permitidas de tipo de documento de vendas e área de vendas (organização, canal e setor). Serve para saber quais tipos de ordem cada organização de vendas pode criar."
+  },
+  "synonyms": {
+    "es": [
+      "clases de pedido permitidas",
+      "tipo de pedido por área de ventas"
+    ],
+    "en": [
+      "allowed order types",
+      "order type per sales area"
+    ],
+    "pt": [
+      "tipos de ordem permitidos",
+      "tipo de ordem por área de vendas"
+    ]
   }
 }

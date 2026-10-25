@@ -8,5 +8,27 @@
     "es": "Tipos de reparto",
     "en": "Schedule line categories",
     "pt": "Categorias de divisão de remessa"
+  },
+  "purpose": {
+    "es": "Configuración de los tipos de reparto (campo ETTYP): indica si la línea de reparto genera necesidad para planificación, si se puede entregar y qué clase de movimiento usa. Cada línea de VBEP lleva uno.",
+    "en": "Configuration of schedule line categories (field ETTYP): whether the schedule line creates a requirement for planning, whether it can be delivered and which movement type it uses. Every VBEP line carries one.",
+    "pt": "Configuração das categorias de divisão de remessa (campo ETTYP): indica se a divisão gera necessidade para o planejamento, se pode ser entregue e qual tipo de movimento usa. Cada linha da VBEP tem uma."
+  },
+  "synonyms": {
+    "es": [
+      "tipo de reparto",
+      "categoría de reparto",
+      "ETTYP"
+    ],
+    "en": [
+      "schedule line category",
+      "ETTYP",
+      "schedule line type"
+    ],
+    "pt": [
+      "categoria de divisão de remessa",
+      "tipo de divisão",
+      "ETTYP"
+    ]
   }
 }

@@ -9,5 +9,24 @@
     "es": "Clasificación fiscal de clientes: textos",
     "en": "Customer tax classifications: texts",
     "pt": "Classificação fiscal de clientes: textos"
+  },
+  "purpose": {
+    "es": "Descripción de cada clasificación fiscal de cliente en cada idioma, por categoría de impuesto. Sirve para mostrar un nombre legible en lugar del código TAXKD; los valores se definen en TSKD.",
+    "en": "Description of each customer tax classification in each language, per tax category. Use it to show a readable name instead of the TAXKD code; the values are defined in TSKD.",
+    "pt": "Descrição de cada classificação fiscal de cliente em cada idioma, por categoria de imposto. Serve para mostrar um nome legível em vez do código TAXKD; os valores são definidos na TSKD."
+  },
+  "synonyms": {
+    "es": [
+      "texto clasificación fiscal cliente",
+      "TAXKD"
+    ],
+    "en": [
+      "customer tax classification text",
+      "TAXKD"
+    ],
+    "pt": [
+      "texto classificação fiscal cliente",
+      "TAXKD"
+    ]
   }
 }

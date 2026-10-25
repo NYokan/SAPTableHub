@@ -8,5 +8,27 @@
     "es": "Clientes: cifras de operaciones especiales de mayor",
     "en": "Customers: special G/L transaction figures",
     "pt": "Clientes: cifras de operações especiais do razão"
+  },
+  "purpose": {
+    "es": "Totales de operaciones de mayor especial (anticipos, letras de cambio, garantías) de cada cliente por sociedad, ejercicio e indicador de mayor especial. Da los saldos de anticipos u otros conceptos especiales sin sumar partidas. En S/4HANA se calculan desde ACDOCA.",
+    "en": "Totals of special G/L transactions (down payments, bills of exchange, guarantees) of each customer per company code, fiscal year and special G/L indicator. It gives balances of down payments and other special items without adding up line items. In S/4HANA they are derived from ACDOCA.",
+    "pt": "Totais de operações de razão especial (adiantamentos, letras de câmbio, garantias) de cada cliente por empresa, exercício e código de razão especial. Dá os saldos de adiantamentos ou outros itens especiais sem somar partidas. No S/4HANA são calculados a partir da ACDOCA."
+  },
+  "synonyms": {
+    "es": [
+      "anticipos de clientes saldo",
+      "saldo de mayor especial cliente",
+      "garantías de clientes"
+    ],
+    "en": [
+      "customer down payment balance",
+      "customer special G/L balance",
+      "customer guarantees"
+    ],
+    "pt": [
+      "saldo de adiantamentos de clientes",
+      "saldo de razão especial do cliente",
+      "garantias de clientes"
+    ]
   }
 }

@@ -7,5 +7,30 @@
     "es": "Procesos empresariales (ABC)",
     "en": "Business processes (ABC)",
     "pt": "Processos empresariais (ABC)"
+  },
+  "purpose": {
+    "es": "Una fila por cada proceso empresarial del costeo basado en actividades (ABC), por sociedad CO y período de validez: responsable, centro de beneficio y otros datos maestros. Los procesos recogen costes de centros de coste y los trasladan a productos o clientes.",
+    "en": "One row per business process in activity-based costing (ABC), per controlling area and validity period: person responsible, profit center and other master data. Processes collect costs from cost centers and pass them on to products or customers.",
+    "pt": "Uma linha por processo de negócio do custeio baseado em atividades (ABC), por área de contabilidade de custos e período de validade: responsável, centro de lucro e outros dados mestres. Os processos recebem custos de centros de custo e os repassam a produtos ou clientes."
+  },
+  "synonyms": {
+    "es": [
+      "costeo ABC",
+      "costeo basado en actividades",
+      "procesos ABC",
+      "proceso empresarial"
+    ],
+    "en": [
+      "activity-based costing",
+      "ABC",
+      "ABC processes",
+      "business process master"
+    ],
+    "pt": [
+      "custeio ABC",
+      "custeio baseado em atividades",
+      "processos ABC",
+      "processo de negócio"
+    ]
   }
 }

@@ -8,5 +8,24 @@
     "es": "Clases de equipo (textos)",
     "en": "Equipment categories (texts)",
     "pt": "Categorias de equipamento (textos)"
+  },
+  "purpose": {
+    "es": "Descripciones por idioma de las clases de equipo (T370T). Se usa para mostrar el nombre legible en informes en lugar del código.",
+    "en": "Language-dependent descriptions of equipment categories (T370T). Used to show the readable name in reports instead of the code.",
+    "pt": "Descrições por idioma de categorias de equipamento (T370T). Usada para mostrar o nome legível em relatórios em vez do código."
+  },
+  "synonyms": {
+    "es": [
+      "texto clase de equipo",
+      "descripción categoría de equipo"
+    ],
+    "en": [
+      "equipment category text",
+      "equipment category description"
+    ],
+    "pt": [
+      "texto categoria de equipamento",
+      "descrição categoria de equipamento"
+    ]
   }
 }

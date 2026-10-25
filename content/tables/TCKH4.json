@@ -8,5 +8,24 @@
     "es": "Componentes de coste (textos)",
     "en": "Cost components (texts)",
     "pt": "Componentes de custo (textos)"
+  },
+  "purpose": {
+    "es": "Nombre de cada componente de coste por estructura de componentes de coste, por idioma. Se une con TCKH3 para mostrar el texto del componente en los informes de cálculo de costes.",
+    "en": "Name of each cost component per cost component structure, per language. It is joined to TCKH3 to show the component text in costing reports.",
+    "pt": "Nome de cada componente de custo por estrutura de componentes de custo, por idioma. É unida à TCKH3 para mostrar o texto do componente nos relatórios de cálculo de custos."
+  },
+  "synonyms": {
+    "es": [
+      "nombre de componente de coste",
+      "descripción de componente de coste"
+    ],
+    "en": [
+      "cost component name",
+      "cost component description"
+    ],
+    "pt": [
+      "nome do componente de custo",
+      "descrição do componente de custo"
+    ]
   }
 }

@@ -8,5 +8,24 @@
     "es": "Laboratorios y oficinas técnicas (textos)",
     "en": "Laboratories and design offices (texts)",
     "pt": "Laboratórios e escritórios técnicos (textos)"
+  },
+  "purpose": {
+    "es": "Descripciones por idioma de los laboratorios y oficinas técnicas (T024L). Se usa para mostrar el nombre legible en informes en lugar del código.",
+    "en": "Language-dependent descriptions of laboratories and design offices (T024L). Used to show the readable name in reports instead of the code.",
+    "pt": "Descrições por idioma de laboratórios e escritórios técnicos (T024L). Usada para mostrar o nome legível em relatórios em vez do código."
+  },
+  "synonyms": {
+    "es": [
+      "nombre del laboratorio",
+      "descripción oficina técnica"
+    ],
+    "en": [
+      "laboratory name",
+      "design office description"
+    ],
+    "pt": [
+      "nome do laboratório",
+      "descrição escritório técnico"
+    ]
   }
 }

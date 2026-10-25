@@ -9,5 +9,27 @@
     "es": "Maestro de servicios: textos",
     "en": "Service master: texts",
     "pt": "Mestre de serviços: textos"
+  },
+  "purpose": {
+    "es": "Una fila por servicio del maestro de servicios e idioma con su texto breve. Los datos del servicio (unidad, grupo de artículos, clase de servicio) están en ASMD.",
+    "en": "One row per service master record and language with its short text. The service data (unit, material group, service category) is in ASMD.",
+    "pt": "Uma linha por serviço do mestre de serviços e idioma com seu texto breve. Os dados do serviço (unidade, grupo de mercadorias, categoria de serviço) estão na ASMD."
+  },
+  "synonyms": {
+    "es": [
+      "descripción de servicio",
+      "texto del servicio",
+      "nombre de servicio"
+    ],
+    "en": [
+      "service description",
+      "service short text",
+      "service name"
+    ],
+    "pt": [
+      "descrição do serviço",
+      "texto do serviço",
+      "nome do serviço"
+    ]
   }
 }

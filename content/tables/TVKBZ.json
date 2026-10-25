@@ -9,5 +9,24 @@
     "es": "Oficinas de ventas por área de ventas",
     "en": "Sales offices per sales area",
     "pt": "Escritórios de vendas por área de vendas"
+  },
+  "purpose": {
+    "es": "Asignación de oficinas de ventas a áreas de ventas (organización, canal y sector): una fila por combinación. Indica en qué áreas de ventas puede trabajar cada oficina.",
+    "en": "Assignment of sales offices to sales areas (organization, channel and division): one row per combination. It shows in which sales areas each office may operate.",
+    "pt": "Atribuição de escritórios de vendas a áreas de vendas (organização, canal e setor): uma linha por combinação. Indica em quais áreas de vendas cada escritório pode atuar."
+  },
+  "synonyms": {
+    "es": [
+      "oficina de ventas por área de ventas",
+      "asignación oficina de ventas"
+    ],
+    "en": [
+      "sales office per sales area",
+      "sales office assignment"
+    ],
+    "pt": [
+      "escritório de vendas por área de vendas",
+      "atribuição escritório de vendas"
+    ]
   }
 }

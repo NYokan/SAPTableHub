@@ -8,5 +8,27 @@
     "es": "Prioridades de mantenimiento",
     "en": "Maintenance priorities",
     "pt": "Prioridades de manutenção"
+  },
+  "purpose": {
+    "es": "Prioridades de mantenimiento dentro de cada tipo de prioridad (por ejemplo, 1 muy alta, 4 baja), con el plazo relativo de inicio y fin que proponen para avisos y órdenes.",
+    "en": "Maintenance priorities within each priority type (for example, 1 very high, 4 low), with the relative start and end lead time they propose for notifications and orders.",
+    "pt": "Prioridades de manutenção dentro de cada tipo de prioridade (por exemplo, 1 muito alta, 4 baixa), com o prazo relativo de início e fim que propõem para notas e ordens."
+  },
+  "synonyms": {
+    "es": [
+      "prioridad de mantenimiento",
+      "urgencia de la orden",
+      "plazo por prioridad"
+    ],
+    "en": [
+      "maintenance priority",
+      "order urgency",
+      "lead time by priority"
+    ],
+    "pt": [
+      "prioridade de manutenção",
+      "urgência da ordem",
+      "prazo por prioridade"
+    ]
   }
 }

@@ -8,5 +8,30 @@
     "es": "Características de planificación de necesidades",
     "en": "MRP types",
     "pt": "Tipos de MRP"
+  },
+  "purpose": {
+    "es": "Configuración de las características de planificación de necesidades (por ejemplo, PD MRP, VB punto de pedido, ND sin planificación): definen si y cómo se planifica un material. Una fila por característica (DISMM).",
+    "en": "Configuration of MRP types (for example, PD MRP, VB reorder point, ND no planning): they define whether and how a material is planned. One row per MRP type (DISMM).",
+    "pt": "Configuração dos tipos de MRP (por exemplo, PD MRP, VB ponto de reabastecimento, ND sem planejamento): definem se e como um material é planejado. Uma linha por tipo (DISMM)."
+  },
+  "synonyms": {
+    "es": [
+      "característica de planificación",
+      "tipo de MRP",
+      "DISMM",
+      "punto de pedido"
+    ],
+    "en": [
+      "MRP type",
+      "DISMM",
+      "reorder point",
+      "planning method"
+    ],
+    "pt": [
+      "tipo de MRP",
+      "característica de planejamento",
+      "DISMM",
+      "ponto de reabastecimento"
+    ]
   }
 }

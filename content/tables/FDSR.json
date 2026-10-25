@@ -8,5 +8,30 @@
     "es": "Gestión de tesorería: saldos de libros auxiliares",
     "en": "Cash management: subledger totals",
     "pt": "Gestão de caixa: saldos de razões auxiliares"
+  },
+  "purpose": {
+    "es": "Saldos acumulados de clientes y proveedores para la previsión de liquidez, agrupados por grupo de tesorería, nivel de planificación y fecha prevista de cobro o pago.",
+    "en": "Accumulated totals of customers and vendors for the liquidity forecast, grouped by planning group, planning level and expected payment or collection date.",
+    "pt": "Saldos acumulados de clientes e fornecedores para a previsão de liquidez, agrupados por grupo de planejamento, nível de planejamento e data prevista de recebimento ou pagamento."
+  },
+  "synonyms": {
+    "es": [
+      "previsión de liquidez",
+      "grupo de tesorería",
+      "cobros y pagos previstos",
+      "liquidity forecast"
+    ],
+    "en": [
+      "liquidity forecast",
+      "planning group",
+      "expected receipts and payments",
+      "cash forecast"
+    ],
+    "pt": [
+      "previsão de liquidez",
+      "grupo de planejamento",
+      "recebimentos e pagamentos previstos",
+      "liquidity forecast"
+    ]
   }
 }

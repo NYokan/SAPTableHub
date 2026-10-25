@@ -8,5 +8,27 @@
     "es": "Grupos de precios de cliente: textos",
     "en": "Customer price groups: texts",
     "pt": "Grupos de preço de cliente: textos"
+  },
+  "purpose": {
+    "es": "Descripción de cada grupo de precios de cliente en cada idioma: una fila por código e idioma. Sirve para mostrar un nombre legible en lugar del código KONDA en informes; los códigos se definen en T188.",
+    "en": "Description of each customer price group in each language: one row per code and language. Use it to show a readable name instead of the KONDA code in reports; the codes themselves are defined in T188.",
+    "pt": "Descrição de cada grupo de preços de cliente em cada idioma: uma linha por código e idioma. Serve para mostrar um nome legível em vez do código KONDA em relatórios; os códigos são definidos na T188."
+  },
+  "synonyms": {
+    "es": [
+      "texto grupo de precios de cliente",
+      "descripción grupo de precios cliente",
+      "KONDA"
+    ],
+    "en": [
+      "customer price group text",
+      "price group description",
+      "KONDA"
+    ],
+    "pt": [
+      "texto grupo de preços de cliente",
+      "descrição grupo de preços cliente",
+      "KONDA"
+    ]
   }
 }

@@ -8,5 +8,30 @@
     "es": "Gestión de tesorería: avisos de tesorería",
     "en": "Cash management: memo records",
     "pt": "Gestão de caixa: avisos de tesouraria"
+  },
+  "purpose": {
+    "es": "Los avisos de tesorería: entradas y salidas de caja previstas que se registran a mano (por ejemplo, un pago de impuestos esperado) para que aparezcan en la previsión de liquidez junto a las partidas reales. Una fila por aviso con importe, fecha y nivel de planificación.",
+    "en": "Cash management memo records: expected cash inflows and outflows entered manually (for example, an expected tax payment) so they appear in the liquidity forecast next to real items. One row per memo record with amount, date and planning level.",
+    "pt": "Os avisos de tesouraria: entradas e saídas de caixa previstas registradas manualmente (por exemplo, um pagamento de impostos esperado) para aparecerem na previsão de liquidez junto com as partidas reais. Uma linha por aviso com montante, data e nível de planejamento."
+  },
+  "synonyms": {
+    "es": [
+      "aviso de tesorería",
+      "previsión de caja manual",
+      "planificación de liquidez",
+      "memo de tesorería"
+    ],
+    "en": [
+      "memo record",
+      "planning advice",
+      "manual cash forecast",
+      "liquidity planning"
+    ],
+    "pt": [
+      "aviso de tesouraria",
+      "previsão de caixa manual",
+      "planejamento de liquidez",
+      "memo de tesouraria"
+    ]
   }
 }

@@ -9,5 +9,30 @@
     "es": "Clases de condición: datos de precios",
     "en": "Condition types: pricing data",
     "pt": "Tipos de condição: dados de preço"
+  },
+  "purpose": {
+    "es": "Datos de control de cada clase de condición en precios: regla de cálculo (importe, porcentaje, por cantidad), clase de condición (precio, descuento, impuesto), escalas, redondeo y si se puede modificar a mano. Explica cómo se comporta una condición como PR00 en el pedido.",
+    "en": "Control data of each condition type in pricing: calculation type (amount, percentage, per quantity), condition class (price, discount, tax), scales, rounding and whether it can be changed manually. It explains how a condition such as PR00 behaves in the order.",
+    "pt": "Dados de controle de cada tipo de condição em preços: regra de cálculo (valor, percentual, por quantidade), classe de condição (preço, desconto, imposto), escalas, arredondamento e se pode ser alterada manualmente. Explica como uma condição como PR00 se comporta na ordem."
+  },
+  "synonyms": {
+    "es": [
+      "clase de condición",
+      "tipo de condición",
+      "configuración de condición",
+      "KSCHL"
+    ],
+    "en": [
+      "condition type",
+      "pricing condition settings",
+      "condition type control",
+      "KSCHL"
+    ],
+    "pt": [
+      "tipo de condição",
+      "configuração de condição",
+      "controle do tipo de condição",
+      "KSCHL"
+    ]
   }
 }

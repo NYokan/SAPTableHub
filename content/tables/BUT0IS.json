@@ -8,5 +8,27 @@
     "es": "Socios de negocio (ramos)",
     "en": "Business partners (industries)",
     "pt": "Parceiros de negócios (setores)"
+  },
+  "purpose": {
+    "es": "Una fila por cada ramo o sector industrial asignado a un socio de negocio, según un sistema de ramos, con indicación de cuál es el ramo estándar.",
+    "en": "One row per industry assigned to a business partner, under an industry system, flagging which one is the standard industry.",
+    "pt": "Uma linha por setor industrial atribuído a um parceiro de negócios, segundo um sistema de setores, indicando qual é o setor padrão."
+  },
+  "synonyms": {
+    "es": [
+      "sector del socio",
+      "ramo industrial",
+      "industria del cliente"
+    ],
+    "en": [
+      "BP industry",
+      "industry sector",
+      "customer industry"
+    ],
+    "pt": [
+      "setor do parceiro",
+      "ramo de atividade",
+      "indústria do cliente"
+    ]
   }
 }

@@ -9,5 +9,33 @@
     "es": "Materiales: unidades de medida",
     "en": "Materials: units of measure",
     "pt": "Materiais: unidades de medida"
+  },
+  "purpose": {
+    "es": "Unidades de medida alternativas de cada material y su conversión a la unidad base (por ejemplo, 1 caja = 12 unidades), además de medidas, peso, volumen y código EAN por unidad.",
+    "en": "Alternative units of measure for each material and their conversion to the base unit (for example, 1 box = 12 pieces), plus dimensions, weight, volume and EAN code per unit.",
+    "pt": "Unidades de medida alternativas de cada material e sua conversão para a unidade básica (por exemplo, 1 caixa = 12 unidades), além de dimensões, peso, volume e código EAN por unidade."
+  },
+  "synonyms": {
+    "es": [
+      "unidades de medida alternativas",
+      "factor de conversión",
+      "conversión de unidades",
+      "código EAN",
+      "unidad de embalaje"
+    ],
+    "en": [
+      "alternative units of measure",
+      "conversion factor",
+      "unit conversion",
+      "EAN code",
+      "pack size"
+    ],
+    "pt": [
+      "unidades de medida alternativas",
+      "fator de conversão",
+      "conversão de unidades",
+      "código EAN",
+      "unidade de embalagem"
+    ]
   }
 }

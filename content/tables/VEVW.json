@@ -7,5 +7,30 @@
     "es": "Unidades de manipulación: dónde se usan",
     "en": "Handling units: where used",
     "pt": "Unidades de manuseio: onde são usadas"
+  },
+  "purpose": {
+    "es": "Indica en qué documentos se usa cada unidad de manipulación (HU): entregas, órdenes de transporte, pedidos, etc. Sirve para seguir dónde ha estado un palé o bulto; la cabecera de la HU está en VEKP.",
+    "en": "Shows in which documents each handling unit (HU) is used: deliveries, transfer orders, orders, etc. Used to trace where a pallet or package has been; the HU header is in VEKP.",
+    "pt": "Indica em quais documentos cada unidade de manuseio (HU) é usada: remessas, ordens de transferência, pedidos etc. Serve para seguir por onde passou um palete ou volume; o cabeçalho da HU está na VEKP."
+  },
+  "synonyms": {
+    "es": [
+      "uso de unidad de manipulación",
+      "dónde se usa la HU",
+      "rastreo de HU",
+      "bultos por documento"
+    ],
+    "en": [
+      "handling unit where-used",
+      "HU usage",
+      "HU tracking",
+      "packages per document"
+    ],
+    "pt": [
+      "uso de unidade de manuseio",
+      "onde a HU é usada",
+      "rastreio de HU",
+      "volumes por documento"
+    ]
   }
 }

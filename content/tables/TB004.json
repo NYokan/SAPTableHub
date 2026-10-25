@@ -8,5 +8,27 @@
     "es": "Tipos de socio de negocio",
     "en": "Business partner types",
     "pt": "Tipos de parceiro de negócios"
+  },
+  "purpose": {
+    "es": "Una fila por cada tipo de socio de negocio, una clasificación libre que cada empresa define para agrupar socios según sus necesidades. Los textos están en TB004T.",
+    "en": "One row per business partner type, a free classification each company defines to group partners according to its needs. The texts are in TB004T.",
+    "pt": "Uma linha por tipo de parceiro de negócios, uma classificação livre que cada empresa define para agrupar parceiros conforme suas necessidades. Os textos estão na TB004T."
+  },
+  "synonyms": {
+    "es": [
+      "tipo de socio de negocio",
+      "clasificación de socios",
+      "tipo BP"
+    ],
+    "en": [
+      "business partner type",
+      "partner classification",
+      "BP type"
+    ],
+    "pt": [
+      "tipo de parceiro de negócios",
+      "classificação de parceiros",
+      "tipo BP"
+    ]
   }
 }

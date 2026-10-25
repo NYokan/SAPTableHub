@@ -9,5 +9,30 @@
     "es": "Clientes: datos por sociedad",
     "en": "Customers: company code data",
     "pt": "Clientes: dados por empresa"
+  },
+  "purpose": {
+    "es": "Una fila por cliente y sociedad con sus datos contables: cuenta asociada (de conciliación), condiciones de pago, clave de clasificación, responsable de contabilidad y bloqueos. Complementa a KNA1, que tiene los datos generales del cliente.",
+    "en": "One row per customer and company code with its accounting data: reconciliation account, payment terms, sort key, accounting clerk and blocks. It complements KNA1, which holds the general customer data.",
+    "pt": "Uma linha por cliente e empresa com seus dados contábeis: conta de reconciliação, condições de pagamento, chave de ordenação, responsável contábil e bloqueios. Complementa a KNA1, que tem os dados gerais do cliente."
+  },
+  "synonyms": {
+    "es": [
+      "cliente por sociedad",
+      "cuenta de conciliación de clientes",
+      "datos contables del cliente",
+      "maestro de clientes FI"
+    ],
+    "en": [
+      "customer company code data",
+      "customer reconciliation account",
+      "customer accounting data",
+      "customer master FI"
+    ],
+    "pt": [
+      "cliente por empresa",
+      "conta de reconciliação de clientes",
+      "dados contábeis do cliente",
+      "mestre de clientes FI"
+    ]
   }
 }

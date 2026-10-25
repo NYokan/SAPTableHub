@@ -9,5 +9,27 @@
     "es": "Grupos de vendedores por oficina de ventas",
     "en": "Sales groups per sales office",
     "pt": "Equipes de vendas por escritório de vendas"
+  },
+  "purpose": {
+    "es": "Asignación de grupos de vendedores a oficinas de ventas: una fila por oficina y grupo. Refleja la estructura comercial interna (qué equipo pertenece a qué oficina).",
+    "en": "Assignment of sales groups to sales offices: one row per office and group. It reflects the internal sales structure (which team belongs to which office).",
+    "pt": "Atribuição de equipes de vendas a escritórios de vendas: uma linha por escritório e equipe. Reflete a estrutura comercial interna (qual equipe pertence a qual escritório)."
+  },
+  "synonyms": {
+    "es": [
+      "grupo de vendedores por oficina",
+      "estructura comercial",
+      "asignación oficina grupo"
+    ],
+    "en": [
+      "sales group per sales office",
+      "sales structure",
+      "office group assignment"
+    ],
+    "pt": [
+      "equipe de vendas por escritório",
+      "estrutura comercial",
+      "atribuição escritório equipe"
+    ]
   }
 }

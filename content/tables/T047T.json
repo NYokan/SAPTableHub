@@ -8,5 +8,27 @@
     "es": "Procedimientos de reclamación: textos",
     "en": "Dunning procedures: texts",
     "pt": "Procedimentos de advertência: textos"
+  },
+  "purpose": {
+    "es": "Nombre de cada procedimiento de reclamación en cada idioma, para mostrar una descripción legible en lugar del código del procedimiento (MAHNA).",
+    "en": "Name of each dunning procedure in each language, to show a readable description instead of the procedure code (MAHNA).",
+    "pt": "Nome de cada procedimento de advertência em cada idioma, para mostrar uma descrição legível em vez do código do procedimento (MAHNA)."
+  },
+  "synonyms": {
+    "es": [
+      "texto procedimiento de reclamación",
+      "nombre procedimiento de reclamación",
+      "MAHNA"
+    ],
+    "en": [
+      "dunning procedure text",
+      "dunning procedure name",
+      "MAHNA"
+    ],
+    "pt": [
+      "texto do procedimento de advertência",
+      "nome do procedimento de advertência",
+      "MAHNA"
+    ]
   }
 }

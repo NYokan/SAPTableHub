@@ -9,5 +9,27 @@
     "es": "Proveedores: números de IVA en la UE",
     "en": "Vendors: EU VAT registration numbers",
     "pt": "Fornecedores: números de IVA na UE"
+  },
+  "purpose": {
+    "es": "Una fila por proveedor y país de la UE con el número de identificación a efectos de IVA en ese país. Complementa al número de IVA principal de LFA1 cuando el proveedor está registrado en varios países.",
+    "en": "One row per vendor and EU country with the VAT registration number in that country. It complements the main VAT number in LFA1 when the vendor is registered in several countries.",
+    "pt": "Uma linha por fornecedor e país da UE com o número de identificação de IVA naquele país. Complementa o número de IVA principal da LFA1 quando o fornecedor está registrado em vários países."
+  },
+  "synonyms": {
+    "es": [
+      "NIF intracomunitario",
+      "número de IVA UE",
+      "VAT del proveedor"
+    ],
+    "en": [
+      "EU VAT number",
+      "VAT registration number",
+      "vendor VAT ID"
+    ],
+    "pt": [
+      "número de IVA da UE",
+      "registro de IVA",
+      "VAT do fornecedor"
+    ]
   }
 }

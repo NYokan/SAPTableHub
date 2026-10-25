@@ -8,5 +8,24 @@
     "es": "Clases de documento (textos)",
     "en": "Document types (texts)",
     "pt": "Tipos de documento (textos)"
+  },
+  "purpose": {
+    "es": "Descripción de cada clase de documento del DMS por idioma. Complementa a TDWA.",
+    "en": "Description of each DMS document type per language. It complements TDWA.",
+    "pt": "Descrição de cada tipo de documento do DMS por idioma. Complementa a TDWA."
+  },
+  "synonyms": {
+    "es": [
+      "nombre de clase de documento",
+      "texto de tipo de documento DMS"
+    ],
+    "en": [
+      "document type name",
+      "DMS document type text"
+    ],
+    "pt": [
+      "nome do tipo de documento",
+      "texto do tipo de documento DMS"
+    ]
   }
 }

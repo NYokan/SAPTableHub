@@ -8,5 +8,27 @@
     "es": "Datos de control de planificación secundaria",
     "en": "Secondary cost planning control data",
     "pt": "Dados de controle do planejamento secundário"
+  },
+  "purpose": {
+    "es": "Datos de control de la planificación de costes secundarios (actividades recibidas de otros centros) por objeto CO, ejercicio, versión y combinación emisor/receptor. Los importes planificados están en COSS.",
+    "en": "Control data for secondary cost planning (activities received from other cost centers) per CO object, fiscal year, version and sender/receiver combination. The planned amounts are in COSS.",
+    "pt": "Dados de controle do planejamento de custos secundários (atividades recebidas de outros centros) por objeto CO, exercício, versão e combinação emissor/receptor. Os valores planejados estão na COSS."
+  },
+  "synonyms": {
+    "es": [
+      "control de plan secundario",
+      "planificación de costes secundarios",
+      "consumo de actividad planificado"
+    ],
+    "en": [
+      "secondary planning control",
+      "secondary cost planning",
+      "planned activity input"
+    ],
+    "pt": [
+      "controle do plano secundário",
+      "planejamento de custos secundários",
+      "consumo de atividade planejado"
+    ]
   }
 }

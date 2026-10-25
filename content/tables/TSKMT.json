@@ -8,5 +8,24 @@
     "es": "Clasificación fiscal de materiales: textos",
     "en": "Material tax classifications: texts",
     "pt": "Classificação fiscal de materiais: textos"
+  },
+  "purpose": {
+    "es": "Descripción de cada clasificación fiscal de material en cada idioma: una fila por código e idioma. Sirve para mostrar un nombre legible en lugar del código TAXKM en informes; los códigos se definen en TSKM.",
+    "en": "Description of each material tax classification in each language: one row per code and language. Use it to show a readable name instead of the TAXKM code in reports; the codes themselves are defined in TSKM.",
+    "pt": "Descrição de cada classificação fiscal de material em cada idioma: uma linha por código e idioma. Serve para mostrar um nome legível em vez do código TAXKM em relatórios; os códigos são definidos na TSKM."
+  },
+  "synonyms": {
+    "es": [
+      "texto clasificación fiscal material",
+      "TAXKM"
+    ],
+    "en": [
+      "material tax classification text",
+      "TAXKM"
+    ],
+    "pt": [
+      "texto classificação fiscal material",
+      "TAXKM"
+    ]
   }
 }

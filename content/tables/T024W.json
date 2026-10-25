@@ -9,5 +9,27 @@
     "es": "Organizaciones de compras válidas por centro",
     "en": "Valid purchasing organizations per plant",
     "pt": "Organizações de compras válidas por centro"
+  },
+  "purpose": {
+    "es": "Una fila por cada combinación de centro y organización de compras habilitada para comprar para él. Define qué organizaciones de compras pueden emitir pedidos para cada centro.",
+    "en": "One row per combination of plant and purchasing organization allowed to buy for it. It defines which purchasing organizations can issue orders for each plant.",
+    "pt": "Uma linha por combinação de centro e organização de compras habilitada a comprar para ele. Define quais organizações de compras podem emitir pedidos para cada centro."
+  },
+  "synonyms": {
+    "es": [
+      "organización de compras por centro",
+      "centro y organización de compras",
+      "asignación de centros a compras"
+    ],
+    "en": [
+      "purchasing org per plant",
+      "plant purchasing org assignment",
+      "plant to purchasing organization"
+    ],
+    "pt": [
+      "organização de compras por centro",
+      "centro e organização de compras",
+      "atribuição de centros a compras"
+    ]
   }
 }

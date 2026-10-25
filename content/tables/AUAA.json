@@ -8,5 +8,30 @@
     "es": "Documentos de liquidación (receptores)",
     "en": "Settlement documents (receivers)",
     "pt": "Documentos de liquidação (receptores)"
+  },
+  "purpose": {
+    "es": "Una fila por cada receptor de un documento de liquidación: a qué objeto (cuenta de mayor, centro de coste, orden, activo, segmento de rentabilidad, etc.) se trasladaron los costes de una orden o proyecto. La cabecera está en AUAK.",
+    "en": "One row per receiver in a settlement document: which object (G/L account, cost center, order, asset, profitability segment, etc.) received the costs settled from an order or project. The header is in AUAK.",
+    "pt": "Uma linha por receptor de um documento de apropriação: para qual objeto (conta do razão, centro de custo, ordem, ativo, segmento de rentabilidade etc.) os custos de uma ordem ou projeto foram transferidos. O cabeçalho está na AUAK."
+  },
+  "synonyms": {
+    "es": [
+      "receptores de liquidación",
+      "destino de liquidación",
+      "liquidación de órdenes",
+      "receptor de costes"
+    ],
+    "en": [
+      "settlement receivers",
+      "settlement destination",
+      "order settlement",
+      "cost receiver"
+    ],
+    "pt": [
+      "receptores da apropriação",
+      "destino da apropriação",
+      "apropriação de ordens",
+      "receptor de custos"
+    ]
   }
 }

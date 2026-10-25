@@ -8,5 +8,30 @@
     "es": "Nuevo mayor: partidas individuales de plan",
     "en": "New G/L: plan line items",
     "pt": "Novo razão: partidas individuais de plano"
+  },
+  "purpose": {
+    "es": "Las partidas individuales de planificación del nuevo mayor: cada fila es un importe planificado por cuenta, período y objetos como centro de beneficio o segmento. Sus totales están en FAGLFLEXT junto a los reales.",
+    "en": "The plan line items of New G/L: each row is a planned amount by account, period and objects such as profit center or segment. Their totals are in FAGLFLEXT next to the actuals.",
+    "pt": "As partidas individuais de planejamento do novo razão: cada linha é um valor planejado por conta, período e objetos como centro de lucro ou segmento. Seus totais estão na FAGLFLEXT junto com os reais."
+  },
+  "synonyms": {
+    "es": [
+      "presupuesto del mayor",
+      "planificación del nuevo mayor",
+      "plan de cuentas de mayor",
+      "plan vs real"
+    ],
+    "en": [
+      "G/L plan data",
+      "new G/L planning",
+      "G/L budget",
+      "plan vs actual"
+    ],
+    "pt": [
+      "orçamento do razão",
+      "planejamento do novo razão",
+      "plano de contas do razão",
+      "planejado vs real"
+    ]
   }
 }

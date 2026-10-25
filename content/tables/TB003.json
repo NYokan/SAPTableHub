@@ -8,5 +8,30 @@
     "es": "Roles de socio de negocio",
     "en": "Business partner roles",
     "pt": "Funções de parceiro de negócios"
+  },
+  "purpose": {
+    "es": "Una fila por cada rol de socio de negocio disponible (por ejemplo FLCU01 cliente, FLVN01 proveedor), con su categoría de rol. Los roles que tiene cada socio están en BUT100 y los textos en TB003T.",
+    "en": "One row per available business partner role (for example FLCU01 customer, FLVN01 vendor), with its role category. The roles each partner has are in BUT100 and the texts in TB003T.",
+    "pt": "Uma linha por função de parceiro de negócios disponível (por exemplo FLCU01 cliente, FLVN01 fornecedor), com sua categoria de função. As funções de cada parceiro estão na BUT100 e os textos na TB003T."
+  },
+  "synonyms": {
+    "es": [
+      "roles BP",
+      "rol de socio de negocio",
+      "FLCU01",
+      "FLVN01"
+    ],
+    "en": [
+      "BP roles",
+      "business partner role",
+      "FLCU01",
+      "FLVN01"
+    ],
+    "pt": [
+      "funções BP",
+      "função de parceiro de negócios",
+      "FLCU01",
+      "FLVN01"
+    ]
   }
 }

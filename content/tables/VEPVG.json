@@ -8,5 +8,30 @@
     "es": "Índice de documentos pendientes de entregar",
     "en": "Delivery due list index",
     "pt": "Índice de documentos a remeter"
+  },
+  "purpose": {
+    "es": "Índice de documentos de ventas pendientes de entregar: una fila por línea de pedido lista para generar entrega, con puesto de expedición, fecha de selección y destinatario. Alimenta la lista de entregas a crear (VL10).",
+    "en": "Index of sales documents due for delivery: one row per order line ready to create a delivery, with shipping point, selection date and ship-to party. It feeds the delivery due list (VL10).",
+    "pt": "Índice de documentos de vendas pendentes de remessa: uma linha por linha de ordem pronta para gerar remessa, com local de expedição, data de seleção e recebedor. Alimenta a lista de remessas a criar (VL10)."
+  },
+  "synonyms": {
+    "es": [
+      "pendientes de entregar",
+      "lista de entregas pendientes",
+      "VL10",
+      "pedidos por entregar"
+    ],
+    "en": [
+      "delivery due list",
+      "due for delivery",
+      "VL10",
+      "orders to deliver"
+    ],
+    "pt": [
+      "pendentes de remessa",
+      "lista de remessas pendentes",
+      "VL10",
+      "ordens a entregar"
+    ]
   }
 }

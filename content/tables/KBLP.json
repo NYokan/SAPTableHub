@@ -9,5 +9,27 @@
     "es": "Compromisos de fondos: posiciones",
     "en": "Earmarked funds: items",
     "pt": "Compromissos de fundos: itens"
+  },
+  "purpose": {
+    "es": "Las líneas de un documento de compromiso de fondos: importe reservado, importe ya consumido, cuenta de mayor, centro de coste u orden, y datos de presupuesto como fondo o posición presupuestaria. La cabecera está en KBLK.",
+    "en": "The lines of an earmarked funds document: reserved amount, amount already consumed, G/L account, cost center or order, and budget data such as fund or commitment item. The header is in KBLK.",
+    "pt": "As linhas de um documento de comprometimento de fundos: montante reservado, montante já consumido, conta do razão, centro de custo ou ordem, e dados de orçamento como fundo ou item de compromisso. O cabeçalho está na KBLK."
+  },
+  "synonyms": {
+    "es": [
+      "líneas de reserva de fondos",
+      "consumo de reserva",
+      "presupuesto comprometido"
+    ],
+    "en": [
+      "funds reservation items",
+      "reservation consumption",
+      "committed budget"
+    ],
+    "pt": [
+      "itens da reserva de fundos",
+      "consumo da reserva",
+      "orçamento comprometido"
+    ]
   }
 }

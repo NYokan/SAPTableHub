@@ -9,5 +9,30 @@
     "es": "Comercio exterior: datos de importación/exportación (posiciones)",
     "en": "Foreign trade: import/export data (items)",
     "pt": "Comércio exterior: dados de importação/exportação (itens)"
+  },
+  "purpose": {
+    "es": "Una fila por cada posición con datos de comercio exterior: código estadístico de mercancía (partida arancelaria), país de origen, procedimiento de exportación o importación y pesos. Cuelga de EIKP por el número de exportación/importación.",
+    "en": "One row per item with foreign trade data: commodity code (customs tariff number), country of origin, export or import procedure and weights. It belongs to EIKP through the export/import number.",
+    "pt": "Uma linha por item com dados de comércio exterior: código estatístico da mercadoria (NCM), país de origem, procedimento de exportação ou importação e pesos. Pertence à EIKP pelo número de exportação/importação."
+  },
+  "synonyms": {
+    "es": [
+      "partida arancelaria",
+      "código de mercancía",
+      "país de origen",
+      "datos aduaneros de posición"
+    ],
+    "en": [
+      "commodity code",
+      "tariff number",
+      "country of origin",
+      "customs item data"
+    ],
+    "pt": [
+      "NCM",
+      "código da mercadoria",
+      "país de origem",
+      "dados aduaneiros do item"
+    ]
   }
 }

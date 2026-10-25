@@ -7,5 +7,27 @@
     "es": "Revisiones de mantenimiento",
     "en": "Maintenance revisions",
     "pt": "Revisões de manutenção"
+  },
+  "purpose": {
+    "es": "Lista de revisiones de mantenimiento por centro de planificación: periodos (con fecha de inicio y fin) que agrupan órdenes y avisos, típicamente para paradas de planta.",
+    "en": "List of maintenance revisions per planning plant: periods (with start and end date) that group orders and notifications, typically for plant shutdowns.",
+    "pt": "Lista de revisões de manutenção por centro de planejamento: períodos (com data de início e fim) que agrupam ordens e notas, tipicamente para paradas de planta."
+  },
+  "synonyms": {
+    "es": [
+      "revisión de mantenimiento",
+      "parada de planta",
+      "shutdown"
+    ],
+    "en": [
+      "maintenance revision",
+      "plant shutdown",
+      "turnaround"
+    ],
+    "pt": [
+      "revisão de manutenção",
+      "parada de planta",
+      "shutdown"
+    ]
   }
 }

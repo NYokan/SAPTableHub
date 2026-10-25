@@ -9,5 +9,30 @@
     "es": "Activos fijos: amortización planificada por período",
     "en": "Fixed assets: planned depreciation per period",
     "pt": "Ativos fixos: depreciação planejada por período"
+  },
+  "purpose": {
+    "es": "En S/4HANA, la amortización planificada de cada activo fijo por área de valoración, ejercicio y período. Sustituye a los valores planificados que en ECC estaban en ANLC y ANLP; lo realmente contabilizado está en ACDOCA.",
+    "en": "In S/4HANA, the planned depreciation of each fixed asset per depreciation area, fiscal year and period. It replaces the planned values that ECC kept in ANLC and ANLP; what is actually posted is in ACDOCA.",
+    "pt": "No S/4HANA, a depreciação planejada de cada ativo imobilizado por área de avaliação, exercício e período. Substitui os valores planejados que no ECC ficavam na ANLC e na ANLP; o que é efetivamente lançado está na ACDOCA."
+  },
+  "synonyms": {
+    "es": [
+      "amortización planificada",
+      "amortización prevista",
+      "plan de amortización",
+      "depreciación planificada"
+    ],
+    "en": [
+      "planned depreciation",
+      "depreciation forecast",
+      "depreciation plan",
+      "planned asset values"
+    ],
+    "pt": [
+      "depreciação planejada",
+      "depreciação prevista",
+      "plano de depreciação",
+      "valores planejados do ativo"
+    ]
   }
 }

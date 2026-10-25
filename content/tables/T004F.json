@@ -8,5 +8,27 @@
     "es": "Grupos de estado de campo",
     "en": "Field status groups",
     "pt": "Grupos de status de campo"
+  },
+  "purpose": {
+    "es": "Los grupos de estado de campo de cada variante: para cada grupo, qué campos son obligatorios, opcionales u ocultos al contabilizar en una cuenta de mayor (por ejemplo, si el centro de coste es obligatorio). Las cuentas guardan su grupo en SKB1.",
+    "en": "The field status groups of each variant: for each group, which fields are required, optional or suppressed when posting to a G/L account (for example, whether a cost center is required). Accounts store their group in SKB1.",
+    "pt": "Os grupos de status de campo de cada variante: para cada grupo, quais campos são obrigatórios, opcionais ou ocultos ao lançar em uma conta do razão (por exemplo, se o centro de custo é obrigatório). As contas guardam seu grupo na SKB1."
+  },
+  "synonyms": {
+    "es": [
+      "grupo de estado de campo",
+      "campos obligatorios contabilización",
+      "FSTAG"
+    ],
+    "en": [
+      "field status group",
+      "required posting fields",
+      "FSTAG"
+    ],
+    "pt": [
+      "grupo de status de campo",
+      "campos obrigatórios no lançamento",
+      "FSTAG"
+    ]
   }
 }

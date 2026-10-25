@@ -8,5 +8,27 @@
     "es": "Cuentas de mayor: grupos de cuentas",
     "en": "G/L accounts: account groups",
     "pt": "Contas do razão: grupos de contas"
+  },
+  "purpose": {
+    "es": "Los grupos de cuentas de mayor de cada plan de cuentas (por ejemplo, cuentas de balance, de resultados, de materiales): controlan el rango de números permitido y qué campos se piden al crear la cuenta.",
+    "en": "The G/L account groups of each chart of accounts (for example balance sheet, P&L or material accounts): they control the allowed number range and which fields are requested when creating the account.",
+    "pt": "Os grupos de contas do razão de cada plano de contas (por exemplo contas de balanço, de resultado, de materiais): controlam o intervalo de números permitido e quais campos são pedidos ao criar a conta."
+  },
+  "synonyms": {
+    "es": [
+      "grupo de cuentas de mayor",
+      "tipo de cuenta contable",
+      "KTOKS"
+    ],
+    "en": [
+      "G/L account group",
+      "G/L account type",
+      "KTOKS"
+    ],
+    "pt": [
+      "grupo de contas do razão",
+      "tipo de conta contábil",
+      "KTOKS"
+    ]
   }
 }

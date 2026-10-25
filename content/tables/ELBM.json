@@ -8,5 +8,30 @@
     "es": "Evaluación de proveedores: notas por criterio principal",
     "en": "Vendor evaluation: main criteria scores",
     "pt": "Avaliação de fornecedores: notas por critério principal"
+  },
+  "purpose": {
+    "es": "Una fila por proveedor, organización de compras y criterio principal de evaluación (por ejemplo precio, calidad, entrega o servicio) con la nota obtenida. Cuelga de ELBK.",
+    "en": "One row per vendor, purchasing organization and main evaluation criterion (for example price, quality, delivery or service) with the score obtained. It belongs to ELBK.",
+    "pt": "Uma linha por fornecedor, organização de compras e critério principal de avaliação (por exemplo preço, qualidade, entrega ou serviço) com a nota obtida. Pertence à ELBK."
+  },
+  "synonyms": {
+    "es": [
+      "nota por criterio",
+      "criterios de evaluación",
+      "nota de calidad del proveedor",
+      "nota de entrega"
+    ],
+    "en": [
+      "main criteria score",
+      "evaluation criteria",
+      "vendor quality score",
+      "delivery score"
+    ],
+    "pt": [
+      "nota por critério",
+      "critérios de avaliação",
+      "nota de qualidade do fornecedor",
+      "nota de entrega"
+    ]
   }
 }

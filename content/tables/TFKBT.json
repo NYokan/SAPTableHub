@@ -8,5 +8,24 @@
     "es": "Áreas funcionales: textos",
     "en": "Functional areas: texts",
     "pt": "Áreas funcionais: textos"
+  },
+  "purpose": {
+    "es": "Nombre de cada área funcional en cada idioma, para mostrar una descripción legible en lugar del código de TFKB.",
+    "en": "Name of each functional area in each language, to show a readable description instead of the code from TFKB.",
+    "pt": "Nome de cada área funcional em cada idioma, para mostrar uma descrição legível em vez do código da TFKB."
+  },
+  "synonyms": {
+    "es": [
+      "texto área funcional",
+      "nombre área funcional"
+    ],
+    "en": [
+      "functional area text",
+      "functional area name"
+    ],
+    "pt": [
+      "texto da área funcional",
+      "nome da área funcional"
+    ]
   }
 }

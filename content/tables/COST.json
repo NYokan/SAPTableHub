@@ -8,5 +8,30 @@
     "es": "Tarifas de actividades (totales de precios)",
     "en": "Activity prices (price totals)",
     "pt": "Tarifas de atividades (totais de preços)"
+  },
+  "purpose": {
+    "es": "Tarifas por período de cada tipo de actividad en un centro de coste, ejercicio y versión: precio fijo y variable planificado o real. Es la fuente para saber cuánto vale una hora de máquina o mano de obra en Controlling.",
+    "en": "Period prices for each activity type in a cost center, fiscal year and version: planned or actual fixed and variable price. It is the source for how much an hour of machine or labor costs in Controlling.",
+    "pt": "Tarifas por período de cada tipo de atividade em um centro de custo, exercício e versão: preço fixo e variável planejado ou real. É a fonte para saber quanto custa uma hora de máquina ou mão de obra no Controlling."
+  },
+  "synonyms": {
+    "es": [
+      "tarifa de actividad",
+      "precio de actividad",
+      "costo hora máquina",
+      "tarifa por hora"
+    ],
+    "en": [
+      "activity price",
+      "activity rate",
+      "machine hour rate",
+      "labor rate"
+    ],
+    "pt": [
+      "tarifa de atividade",
+      "preço da atividade",
+      "custo hora máquina",
+      "tarifa por hora"
+    ]
   }
 }

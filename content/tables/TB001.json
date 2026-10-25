@@ -8,5 +8,27 @@
     "es": "Agrupaciones de socios de negocio",
     "en": "Business partner groupings",
     "pt": "Agrupamentos de parceiros de negócios"
+  },
+  "purpose": {
+    "es": "Una fila por cada agrupación de socios de negocio: determina el rango de números y si la numeración es interna o externa al crear un socio. Los textos están en TB002.",
+    "en": "One row per business partner grouping: it determines the number range and whether numbering is internal or external when a partner is created. The texts are in TB002.",
+    "pt": "Uma linha por agrupamento de parceiros de negócios: determina o intervalo de numeração e se a numeração é interna ou externa ao criar um parceiro. Os textos estão na TB002."
+  },
+  "synonyms": {
+    "es": [
+      "agrupación de socios",
+      "rango de números BP",
+      "agrupamiento BP"
+    ],
+    "en": [
+      "BP grouping",
+      "BP number range",
+      "partner grouping"
+    ],
+    "pt": [
+      "agrupamento de parceiros",
+      "faixa de numeração BP",
+      "agrupamento BP"
+    ]
   }
 }

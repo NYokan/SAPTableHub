@@ -8,5 +8,33 @@
     "es": "Movimientos de mercancías erróneos de notificaciones",
     "en": "Failed goods movements from confirmations",
     "pt": "Movimentos de mercadorias com erro de confirmações"
+  },
+  "purpose": {
+    "es": "Una fila por cada movimiento de mercancías generado al notificar una orden que no se pudo contabilizar (por ejemplo, por falta de stock o un bloqueo). Es la lista de errores que se revisa y reprocesa con la transacción COGI.",
+    "en": "One row per goods movement triggered by an order confirmation that could not be posted (for example, due to missing stock or a lock). It is the error list reviewed and reprocessed with transaction COGI.",
+    "pt": "Uma linha por movimento de mercadorias gerado pelo apontamento de uma ordem que não pôde ser lançado (por exemplo, por falta de estoque ou bloqueio). É a lista de erros revisada e reprocessada com a transação COGI."
+  },
+  "synonyms": {
+    "es": [
+      "COGI",
+      "movimientos erróneos",
+      "errores de notificación",
+      "consumos fallidos",
+      "backflush con error"
+    ],
+    "en": [
+      "COGI",
+      "failed goods movements",
+      "confirmation errors",
+      "failed backflush",
+      "goods movement errors"
+    ],
+    "pt": [
+      "COGI",
+      "movimentos com erro",
+      "erros de apontamento",
+      "baixa automática com erro",
+      "consumos com falha"
+    ]
   }
 }

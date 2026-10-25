@@ -8,5 +8,27 @@
     "es": "Parámetros por clase de orden y centro",
     "en": "Parameters per order type and plant",
     "pt": "Parâmetros por tipo de ordem e centro"
+  },
+  "purpose": {
+    "es": "Parámetros que dependen de la clase de orden y el centro (por ejemplo, para órdenes de fabricación): cómo se seleccionan hoja de ruta y lista de materiales, variantes de cálculo de costes y otras opciones de control. Una fila por centro y clase de orden.",
+    "en": "Parameters that depend on order type and plant (for example, for production orders): how routings and BOMs are selected, costing variants and other control options. One row per plant and order type.",
+    "pt": "Parâmetros que dependem do tipo de ordem e do centro (por exemplo, para ordens de produção): como roteiro e lista técnica são selecionados, variantes de cálculo de custos e outras opções de controle. Uma linha por centro e tipo de ordem."
+  },
+  "synonyms": {
+    "es": [
+      "parámetros por clase de orden",
+      "configuración de órdenes de fabricación",
+      "OPL8"
+    ],
+    "en": [
+      "order type parameters",
+      "production order configuration",
+      "OPL8"
+    ],
+    "pt": [
+      "parâmetros por tipo de ordem",
+      "configuração de ordens de produção",
+      "OPL8"
+    ]
   }
 }
