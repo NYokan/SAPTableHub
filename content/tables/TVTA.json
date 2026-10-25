@@ -31,5 +31,52 @@
       "estrutura de vendas",
       "organização comercial"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "VKORG",
+      "key": true
+    },
+    {
+      "name": "VTWEG",
+      "key": true
+    },
+    {
+      "name": "SPART",
+      "key": true
+    },
+    {
+      "name": "VTWKO"
+    },
+    {
+      "name": "SPAKO"
+    },
+    {
+      "name": "VTWKU"
+    },
+    {
+      "name": "SPAKU"
+    }
+  ],
+  "relations": [
+    {
+      "table": "TVKO",
+      "type": "config",
+      "on": "VKORG"
+    },
+    {
+      "table": "TVTW",
+      "type": "config",
+      "on": "VTWEG"
+    },
+    {
+      "table": "TSPA",
+      "type": "config",
+      "on": "SPART"
+    }
+  ]
 }

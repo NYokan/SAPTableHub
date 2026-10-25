@@ -36,5 +36,48 @@
       "leitura",
       "medição"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "POINT",
+      "key": true
+    },
+    {
+      "name": "MPOBJ"
+    },
+    {
+      "name": "PSORT"
+    },
+    {
+      "name": "PTTXT"
+    },
+    {
+      "name": "MPTYP"
+    },
+    {
+      "name": "INDCT"
+    },
+    {
+      "name": "ATINN"
+    },
+    {
+      "name": "ERDAT"
+    }
+  ],
+  "relations": [
+    {
+      "table": "IMRG",
+      "type": "items",
+      "on": "POINT"
+    },
+    {
+      "table": "CABN",
+      "type": "master",
+      "on": "ATINN"
+    }
+  ]
 }

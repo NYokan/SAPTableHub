@@ -32,5 +32,46 @@
       "relacionamento BP",
       "vínculo entre parceiros"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "CLIENT",
+      "key": true
+    },
+    {
+      "name": "RELNR",
+      "key": true
+    },
+    {
+      "name": "PARTNER1",
+      "key": true
+    },
+    {
+      "name": "PARTNER2",
+      "key": true
+    },
+    {
+      "name": "DATE_TO",
+      "key": true
+    },
+    {
+      "name": "DATE_FROM"
+    },
+    {
+      "name": "RELTYP"
+    },
+    {
+      "name": "CRUSR"
+    },
+    {
+      "name": "CRDAT"
+    }
+  ],
+  "relations": [
+    {
+      "table": "BUT000",
+      "type": "master",
+      "on": "PARTNER1 = PARTNER"
+    }
+  ]
 }

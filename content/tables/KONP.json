@@ -38,5 +38,50 @@
       "tarifa",
       "condição de preço"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "KNUMH",
+      "key": true
+    },
+    {
+      "name": "KOPOS",
+      "key": true
+    },
+    {
+      "name": "KAPPL"
+    },
+    {
+      "name": "KSCHL"
+    },
+    {
+      "name": "KBETR"
+    },
+    {
+      "name": "KONWA"
+    },
+    {
+      "name": "KPEIN"
+    },
+    {
+      "name": "KMEIN"
+    },
+    {
+      "name": "KRECH"
+    },
+    {
+      "name": "LOEVM_KO"
+    }
+  ],
+  "relations": [
+    {
+      "table": "KONH",
+      "type": "header",
+      "on": "KNUMH"
+    }
+  ]
 }

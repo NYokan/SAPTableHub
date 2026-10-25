@@ -30,5 +30,25 @@
       "tipo de divisão",
       "ETTYP"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "ETTYP",
+      "key": true
+    },
+    {
+      "name": "BWART"
+    }
+  ],
+  "relations": [
+    {
+      "table": "TVEPT",
+      "type": "text",
+      "on": "ETTYP"
+    }
+  ]
 }

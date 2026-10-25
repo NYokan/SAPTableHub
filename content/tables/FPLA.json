@@ -36,5 +36,39 @@
       "parcelas",
       "faturamento parcial"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "FPLNR",
+      "key": true
+    },
+    {
+      "name": "FPART"
+    },
+    {
+      "name": "BEDAT"
+    },
+    {
+      "name": "ENDAT"
+    },
+    {
+      "name": "VBELN"
+    }
+  ],
+  "relations": [
+    {
+      "table": "FPLT",
+      "type": "items",
+      "on": "FPLNR"
+    },
+    {
+      "table": "VBAK",
+      "type": "rel",
+      "on": "VBELN"
+    }
+  ]
 }

@@ -31,5 +31,43 @@
       "descrição da moeda",
       "texto da moeda"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "WAERS",
+      "key": true
+    },
+    {
+      "name": "LTEXT",
+      "label": {
+        "es": "Texto largo",
+        "en": "Long text",
+        "pt": "Texto longo"
+      }
+    },
+    {
+      "name": "KTEXT",
+      "type": "CHAR 15",
+      "label": {
+        "es": "Texto corto",
+        "en": "Short text",
+        "pt": "Texto breve"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "table": "TCURC",
+      "type": "header",
+      "on": "WAERS"
+    }
+  ]
 }

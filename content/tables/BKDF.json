@@ -33,5 +33,47 @@
       "lançamento periódico",
       "lançamentos repetitivos"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "BUKRS",
+      "key": true
+    },
+    {
+      "name": "BELNR",
+      "key": true
+    },
+    {
+      "name": "GJAHR",
+      "key": true
+    },
+    {
+      "name": "DBBDT"
+    },
+    {
+      "name": "DBEDT"
+    },
+    {
+      "name": "DBATR"
+    },
+    {
+      "name": "DBTAG"
+    }
+  ],
+  "relations": [
+    {
+      "table": "BKPF",
+      "type": "rel",
+      "on": "BUKRS + BELNR + GJAHR"
+    },
+    {
+      "table": "BSEG",
+      "type": "items",
+      "on": "BUKRS + BELNR + GJAHR"
+    }
+  ]
 }

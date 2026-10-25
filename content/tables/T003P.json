@@ -27,5 +27,30 @@
       "nome do tipo de ordem",
       "descrição do tipo de ordem"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "CLIENT",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "AUART",
+      "key": true
+    },
+    {
+      "name": "TXT",
+      "type": "CHAR 40"
+    }
+  ],
+  "relations": [
+    {
+      "table": "T003O",
+      "type": "master",
+      "on": "AUART"
+    }
+  ]
 }

@@ -33,5 +33,67 @@
       "preço do estoque do cliente",
       "avaliação estoque E"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "MATNR",
+      "key": true
+    },
+    {
+      "name": "BWKEY",
+      "key": true
+    },
+    {
+      "name": "BWTAR",
+      "key": true
+    },
+    {
+      "name": "SOBKZ",
+      "key": true
+    },
+    {
+      "name": "VBELN",
+      "key": true
+    },
+    {
+      "name": "POSNR",
+      "key": true
+    },
+    {
+      "name": "LBKUM"
+    },
+    {
+      "name": "SALK3"
+    },
+    {
+      "name": "VPRSV"
+    },
+    {
+      "name": "VERPR"
+    },
+    {
+      "name": "STPRS"
+    }
+  ],
+  "relations": [
+    {
+      "table": "MBEW",
+      "type": "rel",
+      "on": "MATNR + BWKEY + BWTAR"
+    },
+    {
+      "table": "VBAP",
+      "type": "rel",
+      "on": "VBELN + POSNR"
+    },
+    {
+      "table": "MSKA",
+      "type": "rel",
+      "on": "MATNR + VBELN + POSNR"
+    }
+  ]
 }

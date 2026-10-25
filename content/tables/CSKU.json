@@ -31,5 +31,39 @@
       "descrição da classe de custo",
       "texto do elemento de custo"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "KTOPL",
+      "key": true
+    },
+    {
+      "name": "KSTAR",
+      "key": true
+    },
+    {
+      "name": "KTEXT"
+    },
+    {
+      "name": "LTEXT"
+    },
+    {
+      "name": "MCTXT"
+    }
+  ],
+  "relations": [
+    {
+      "table": "CSKA",
+      "type": "master",
+      "on": "KTOPL + KSTAR"
+    }
+  ]
 }

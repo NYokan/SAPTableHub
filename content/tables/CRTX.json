@@ -31,5 +31,42 @@
       "descrição do centro de trabalho",
       "texto do recurso"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "OBJTY",
+      "key": true
+    },
+    {
+      "name": "OBJID",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "KTEXT",
+      "type": "CHAR 40",
+      "label": {
+        "es": "Descripción breve",
+        "en": "Short description",
+        "pt": "Descrição breve"
+      }
+    },
+    {
+      "name": "KTEXT_UP"
+    }
+  ],
+  "relations": [
+    {
+      "table": "CRHD",
+      "type": "master",
+      "on": "OBJTY + OBJID"
+    }
+  ]
 }

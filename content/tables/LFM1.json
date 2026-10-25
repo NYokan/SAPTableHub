@@ -34,5 +34,60 @@
       "moeda do pedido",
       "valor mínimo do pedido"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "LIFNR",
+      "key": true
+    },
+    {
+      "name": "EKORG",
+      "key": true
+    },
+    {
+      "name": "WAERS"
+    },
+    {
+      "name": "ZTERM"
+    },
+    {
+      "name": "INCO1"
+    },
+    {
+      "name": "INCO2"
+    },
+    {
+      "name": "EKGRP"
+    },
+    {
+      "name": "WEBRE"
+    },
+    {
+      "name": "SPERM"
+    },
+    {
+      "name": "ERDAT"
+    }
+  ],
+  "relations": [
+    {
+      "table": "LFA1",
+      "type": "master",
+      "on": "LIFNR"
+    },
+    {
+      "table": "T024E",
+      "type": "config",
+      "on": "EKORG"
+    },
+    {
+      "table": "LFM2",
+      "type": "rel",
+      "on": "LIFNR + EKORG"
+    }
+  ]
 }

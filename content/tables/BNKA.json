@@ -37,5 +37,47 @@
       "BIC",
       "agência bancária"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "BANKS",
+      "key": true
+    },
+    {
+      "name": "BANKL",
+      "key": true
+    },
+    {
+      "name": "BANKA"
+    },
+    {
+      "name": "PROVZ"
+    },
+    {
+      "name": "STRAS"
+    },
+    {
+      "name": "ORT01"
+    },
+    {
+      "name": "SWIFT"
+    },
+    {
+      "name": "BNKLZ"
+    },
+    {
+      "name": "LOEVM"
+    }
+  ],
+  "relations": [
+    {
+      "table": "T005",
+      "type": "config",
+      "on": "BANKS = LAND1"
+    }
+  ]
 }

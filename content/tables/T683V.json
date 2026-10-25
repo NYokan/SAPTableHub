@@ -30,5 +30,41 @@
       "esquema do cliente",
       "esquema do documento"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "VKORG",
+      "key": true
+    },
+    {
+      "name": "VTWEG",
+      "key": true
+    },
+    {
+      "name": "SPART",
+      "key": true
+    },
+    {
+      "name": "KALVG",
+      "key": true
+    },
+    {
+      "name": "KALKS",
+      "key": true
+    },
+    {
+      "name": "KALSM"
+    }
+  ],
+  "relations": [
+    {
+      "table": "T683",
+      "type": "config",
+      "on": "KALSM"
+    }
+  ]
 }

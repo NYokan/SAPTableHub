@@ -30,5 +30,54 @@
       "fax",
       "fax de contato"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "CLIENT",
+      "key": true
+    },
+    {
+      "name": "ADDRNUMBER",
+      "key": true
+    },
+    {
+      "name": "PERSNUMBER",
+      "key": true
+    },
+    {
+      "name": "DATE_FROM",
+      "key": true
+    },
+    {
+      "name": "CONSNUMBER",
+      "key": true
+    },
+    {
+      "name": "COUNTRY"
+    },
+    {
+      "name": "FAX_NUMBER"
+    },
+    {
+      "name": "FAX_EXTENS"
+    },
+    {
+      "name": "FAXNR_LONG"
+    },
+    {
+      "name": "FLGDEFAULT"
+    }
+  ],
+  "relations": [
+    {
+      "table": "ADRC",
+      "type": "header",
+      "on": "ADDRNUMBER"
+    },
+    {
+      "table": "T005",
+      "type": "config",
+      "on": "COUNTRY = LAND1"
+    }
+  ]
 }

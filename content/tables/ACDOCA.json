@@ -41,5 +41,77 @@
       "contabilidade S/4HANA",
       "saldos contábeis"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "RCLNT",
+      "key": true
+    },
+    {
+      "name": "RLDNR",
+      "key": true
+    },
+    {
+      "name": "RBUKRS",
+      "key": true
+    },
+    {
+      "name": "GJAHR",
+      "key": true
+    },
+    {
+      "name": "BELNR",
+      "key": true
+    },
+    {
+      "name": "DOCLN",
+      "key": true
+    },
+    {
+      "name": "RACCT"
+    },
+    {
+      "name": "BUDAT"
+    },
+    {
+      "name": "BLART"
+    },
+    {
+      "name": "POPER"
+    },
+    {
+      "name": "DRCRK"
+    },
+    {
+      "name": "KOSTL"
+    },
+    {
+      "name": "PRCTR"
+    },
+    {
+      "name": "KUNNR"
+    }
+  ],
+  "relations": [
+    {
+      "table": "BKPF",
+      "type": "header",
+      "on": "RBUKRS = BUKRS + BELNR + GJAHR"
+    },
+    {
+      "table": "T001",
+      "type": "config",
+      "on": "RBUKRS = BUKRS"
+    },
+    {
+      "table": "KNA1",
+      "type": "master",
+      "on": "KUNNR"
+    },
+    {
+      "table": "LFA1",
+      "type": "master",
+      "on": "LIFNR"
+    }
+  ]
 }

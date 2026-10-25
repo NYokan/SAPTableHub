@@ -34,5 +34,41 @@
       "doca",
       "saída do armazém"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "VSTEL",
+      "key": true
+    },
+    {
+      "name": "ADRNR"
+    },
+    {
+      "name": "ALAND"
+    },
+    {
+      "name": "FABKL"
+    }
+  ],
+  "relations": [
+    {
+      "table": "TVSTT",
+      "type": "text",
+      "on": "VSTEL"
+    },
+    {
+      "table": "ADRC",
+      "type": "master",
+      "on": "ADRNR = ADDRNUMBER"
+    },
+    {
+      "table": "TVSWZ",
+      "type": "rel",
+      "on": "VSTEL"
+    }
+  ]
 }

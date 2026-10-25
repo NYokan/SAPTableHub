@@ -33,5 +33,54 @@
       "preço por item de contrato",
       "contrato básico preço"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "KAPPL",
+      "key": true
+    },
+    {
+      "name": "KSCHL",
+      "key": true
+    },
+    {
+      "name": "EVRTN",
+      "key": true
+    },
+    {
+      "name": "EVRTP",
+      "key": true
+    },
+    {
+      "name": "DATBI",
+      "key": true
+    },
+    {
+      "name": "DATAB"
+    },
+    {
+      "name": "KNUMH"
+    }
+  ],
+  "relations": [
+    {
+      "table": "KONH",
+      "type": "rel",
+      "on": "KNUMH"
+    },
+    {
+      "table": "KONP",
+      "type": "rel",
+      "on": "KNUMH"
+    },
+    {
+      "table": "EKPO",
+      "type": "rel",
+      "on": "EVRTN = EBELN + EVRTP = EBELP"
+    }
+  ]
 }

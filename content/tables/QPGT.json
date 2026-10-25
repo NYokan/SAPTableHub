@@ -26,5 +26,33 @@
       "texto grupo de códigos",
       "descrição grupo de catálogo"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDANT",
+      "key": true
+    },
+    {
+      "name": "KATALOGART",
+      "key": true
+    },
+    {
+      "name": "CODEGRUPPE",
+      "key": true
+    },
+    {
+      "name": "SPRACHE",
+      "key": true
+    },
+    {
+      "name": "KURZTEXT"
+    }
+  ],
+  "relations": [
+    {
+      "table": "QPGR",
+      "type": "master",
+      "on": "KATALOGART + CODEGRUPPE"
+    }
+  ]
 }

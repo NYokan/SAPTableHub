@@ -30,5 +30,47 @@
       "grupo de carregamento",
       "local de expedição proposto"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "VSBED",
+      "key": true
+    },
+    {
+      "name": "LADGR",
+      "key": true
+    },
+    {
+      "name": "WERKS",
+      "key": true
+    },
+    {
+      "name": "LGORT",
+      "key": true
+    },
+    {
+      "name": "VSTEL"
+    }
+  ],
+  "relations": [
+    {
+      "table": "TVST",
+      "type": "config",
+      "on": "VSTEL"
+    },
+    {
+      "table": "TVSB",
+      "type": "config",
+      "on": "VSBED"
+    },
+    {
+      "table": "T001W",
+      "type": "config",
+      "on": "WERKS"
+    }
+  ]
 }

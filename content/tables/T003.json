@@ -37,5 +37,31 @@
       "BLART",
       "numeração de documentos"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "BLART",
+      "key": true
+    },
+    {
+      "name": "NUMKR"
+    },
+    {
+      "name": "KOARS"
+    },
+    {
+      "name": "STBLA"
+    }
+  ],
+  "relations": [
+    {
+      "table": "T003T",
+      "type": "text",
+      "on": "BLART"
+    }
+  ]
 }

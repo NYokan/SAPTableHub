@@ -27,5 +27,29 @@
       "nome do tipo de taxa de câmbio",
       "texto do tipo de taxa"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "KURST",
+      "key": true
+    },
+    {
+      "name": "CURVW"
+    }
+  ],
+  "relations": [
+    {
+      "table": "TCURV",
+      "type": "header",
+      "on": "KURST"
+    }
+  ]
 }

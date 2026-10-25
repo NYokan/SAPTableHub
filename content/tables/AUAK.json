@@ -36,5 +36,31 @@
       "apropriação CO",
       "KO88"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "BELNR",
+      "key": true
+    },
+    {
+      "name": "KOKRS"
+    },
+    {
+      "name": "GJAHR"
+    },
+    {
+      "name": "PERIO"
+    }
+  ],
+  "relations": [
+    {
+      "table": "TKA01",
+      "type": "config",
+      "on": "KOKRS"
+    }
+  ]
 }

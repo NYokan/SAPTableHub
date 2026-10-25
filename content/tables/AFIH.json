@@ -38,5 +38,64 @@
       "manutenção corretiva",
       "manutenção preventiva"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "AUFNR",
+      "key": true
+    },
+    {
+      "name": "EQUNR"
+    },
+    {
+      "name": "ILOAN"
+    },
+    {
+      "name": "IWERK"
+    },
+    {
+      "name": "INGPR"
+    },
+    {
+      "name": "ILART"
+    },
+    {
+      "name": "PRIOK"
+    },
+    {
+      "name": "ARTPR"
+    },
+    {
+      "name": "QMNUM"
+    },
+    {
+      "name": "WARPL"
+    }
+  ],
+  "relations": [
+    {
+      "table": "AUFK",
+      "type": "rel",
+      "on": "AUFNR"
+    },
+    {
+      "table": "EQUI",
+      "type": "master",
+      "on": "EQUNR"
+    },
+    {
+      "table": "ILOA",
+      "type": "rel",
+      "on": "ILOAN"
+    },
+    {
+      "table": "MPLA",
+      "type": "rel",
+      "on": "WARPL"
+    }
+  ]
 }

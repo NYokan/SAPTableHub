@@ -36,5 +36,45 @@
       "débito automático",
       "banco do cliente"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "KUNNR",
+      "key": true
+    },
+    {
+      "name": "BANKS",
+      "key": true
+    },
+    {
+      "name": "BANKL",
+      "key": true
+    },
+    {
+      "name": "BANKN",
+      "key": true
+    },
+    {
+      "name": "KOINH"
+    },
+    {
+      "name": "BVTYP"
+    }
+  ],
+  "relations": [
+    {
+      "table": "KNA1",
+      "type": "master",
+      "on": "KUNNR"
+    },
+    {
+      "table": "BNKA",
+      "type": "master",
+      "on": "BANKS + BANKL"
+    }
+  ]
 }

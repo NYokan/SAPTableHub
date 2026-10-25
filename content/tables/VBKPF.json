@@ -36,5 +36,67 @@
       "aprovação",
       "rascunho de lançamento"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "AUSBK",
+      "key": true
+    },
+    {
+      "name": "BUKRS",
+      "key": true
+    },
+    {
+      "name": "BELNR",
+      "key": true
+    },
+    {
+      "name": "GJAHR",
+      "key": true
+    },
+    {
+      "name": "BLART"
+    },
+    {
+      "name": "BLDAT"
+    },
+    {
+      "name": "BUDAT"
+    },
+    {
+      "name": "WAERS"
+    },
+    {
+      "name": "USNAM"
+    },
+    {
+      "name": "BSTAT"
+    }
+  ],
+  "relations": [
+    {
+      "table": "VBSEGS",
+      "type": "items",
+      "on": "AUSBK + BELNR + GJAHR"
+    },
+    {
+      "table": "VBSEGD",
+      "type": "items",
+      "on": "AUSBK + BELNR + GJAHR"
+    },
+    {
+      "table": "VBSEGK",
+      "type": "items",
+      "on": "AUSBK + BELNR + GJAHR"
+    },
+    {
+      "table": "BKPF",
+      "type": "rel",
+      "on": "BUKRS + BELNR + GJAHR"
+    }
+  ]
 }

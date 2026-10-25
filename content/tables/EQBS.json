@@ -33,5 +33,37 @@
       "localização da peça",
       "série em estoque"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "EQUNR",
+      "key": true
+    },
+    {
+      "name": "B_WERK"
+    },
+    {
+      "name": "B_LAGER"
+    },
+    {
+      "name": "B_CHARGE"
+    },
+    {
+      "name": "SOBKZ"
+    },
+    {
+      "name": "LBBSA"
+    }
+  ],
+  "relations": [
+    {
+      "table": "EQUI",
+      "type": "master",
+      "on": "EQUNR"
+    }
+  ]
 }

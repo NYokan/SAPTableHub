@@ -36,5 +36,48 @@
       "dados bancários",
       "banco do fornecedor"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "LIFNR",
+      "key": true
+    },
+    {
+      "name": "BANKS",
+      "key": true
+    },
+    {
+      "name": "BANKL",
+      "key": true
+    },
+    {
+      "name": "BANKN",
+      "key": true
+    },
+    {
+      "name": "BKONT"
+    },
+    {
+      "name": "BVTYP"
+    },
+    {
+      "name": "KOINH"
+    }
+  ],
+  "relations": [
+    {
+      "table": "LFA1",
+      "type": "master",
+      "on": "LIFNR"
+    },
+    {
+      "table": "BNKA",
+      "type": "master",
+      "on": "BANKS + BANKL"
+    }
+  ]
 }

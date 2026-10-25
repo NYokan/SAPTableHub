@@ -27,5 +27,64 @@
       "histórico estoque de projeto",
       "estoque Q histórico"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "MATNR",
+      "key": true
+    },
+    {
+      "name": "WERKS",
+      "key": true
+    },
+    {
+      "name": "LGORT",
+      "key": true
+    },
+    {
+      "name": "CHARG",
+      "key": true
+    },
+    {
+      "name": "SOBKZ",
+      "key": true
+    },
+    {
+      "name": "PSPNR",
+      "key": true
+    },
+    {
+      "name": "LFGJA",
+      "key": true
+    },
+    {
+      "name": "LFMON",
+      "key": true
+    },
+    {
+      "name": "PRLAB"
+    },
+    {
+      "name": "PRINS"
+    },
+    {
+      "name": "PRSPE"
+    }
+  ],
+  "relations": [
+    {
+      "table": "MSPR",
+      "type": "rel",
+      "on": "MATNR + WERKS + LGORT + CHARG + SOBKZ + PSPNR"
+    },
+    {
+      "table": "PRPS",
+      "type": "master",
+      "on": "PSPNR"
+    }
+  ]
 }

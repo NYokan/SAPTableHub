@@ -30,5 +30,54 @@
       "liquidação de fretes",
       "custo de frete por transporte"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "FKNUM",
+      "key": true
+    },
+    {
+      "name": "FKPOS",
+      "key": true
+    },
+    {
+      "name": "REBEL"
+    },
+    {
+      "name": "BUKRS"
+    },
+    {
+      "name": "NETWR"
+    },
+    {
+      "name": "WAERS"
+    },
+    {
+      "name": "EBELN"
+    },
+    {
+      "name": "EBELP"
+    }
+  ],
+  "relations": [
+    {
+      "table": "VFKK",
+      "type": "header",
+      "on": "FKNUM"
+    },
+    {
+      "table": "VTTK",
+      "type": "rel",
+      "on": "REBEL = TKNUM"
+    },
+    {
+      "table": "EKKO",
+      "type": "rel",
+      "on": "EBELN"
+    }
+  ]
 }

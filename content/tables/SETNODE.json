@@ -30,5 +30,43 @@
       "subgrupos",
       "árvore de centros de custo"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SETCLASS",
+      "key": true
+    },
+    {
+      "name": "SUBCLASS",
+      "key": true
+    },
+    {
+      "name": "SETNAME",
+      "key": true
+    },
+    {
+      "name": "LINEID",
+      "key": true
+    },
+    {
+      "name": "SUBSETCLS"
+    },
+    {
+      "name": "SUBSETSCLS"
+    },
+    {
+      "name": "SUBSETNAME"
+    }
+  ],
+  "relations": [
+    {
+      "table": "SETHEADER",
+      "type": "header",
+      "on": "SETCLASS + SUBCLASS + SETNAME"
+    }
+  ]
 }

@@ -37,5 +37,50 @@
       "saída de mercadorias",
       "cabeçalho do movimento"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "MBLNR",
+      "key": true
+    },
+    {
+      "name": "MJAHR",
+      "key": true
+    },
+    {
+      "name": "VGART"
+    },
+    {
+      "name": "BLART"
+    },
+    {
+      "name": "BLDAT"
+    },
+    {
+      "name": "BUDAT"
+    },
+    {
+      "name": "CPUDT"
+    },
+    {
+      "name": "USNAM"
+    },
+    {
+      "name": "XBLNR"
+    },
+    {
+      "name": "BKTXT"
+    }
+  ],
+  "relations": [
+    {
+      "table": "MSEG",
+      "type": "items",
+      "on": "MBLNR + MJAHR"
+    }
+  ]
 }

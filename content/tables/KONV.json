@@ -37,5 +37,57 @@
       "detalhe de preços",
       "KNUMV"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "KNUMV",
+      "key": true
+    },
+    {
+      "name": "KPOSN",
+      "key": true
+    },
+    {
+      "name": "STUNR",
+      "key": true
+    },
+    {
+      "name": "ZAEHK",
+      "key": true
+    },
+    {
+      "name": "KSCHL"
+    },
+    {
+      "name": "KBETR"
+    },
+    {
+      "name": "WAERS"
+    },
+    {
+      "name": "KAWRT"
+    },
+    {
+      "name": "KWERT"
+    },
+    {
+      "name": "KINAK"
+    }
+  ],
+  "relations": [
+    {
+      "table": "VBAK",
+      "type": "rel",
+      "on": "KNUMV"
+    },
+    {
+      "table": "T685A",
+      "type": "config",
+      "on": "KAPPL + KSCHL"
+    }
+  ]
 }

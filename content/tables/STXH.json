@@ -36,5 +36,46 @@
       "observação",
       "texto de cabeçalho"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "TDOBJECT",
+      "key": true
+    },
+    {
+      "name": "TDNAME",
+      "key": true
+    },
+    {
+      "name": "TDID",
+      "key": true
+    },
+    {
+      "name": "TDSPRAS",
+      "key": true
+    },
+    {
+      "name": "TDFDATE"
+    },
+    {
+      "name": "TDFUSER"
+    },
+    {
+      "name": "TDLDATE"
+    },
+    {
+      "name": "TDLUSER"
+    }
+  ],
+  "relations": [
+    {
+      "table": "STXL",
+      "type": "items",
+      "on": "TDOBJECT + TDNAME + TDID + TDSPRAS"
+    }
+  ]
 }

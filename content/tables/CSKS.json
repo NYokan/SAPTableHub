@@ -33,5 +33,75 @@
       "centros de custo",
       "cadastro de centros de custo"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "KOKRS",
+      "key": true
+    },
+    {
+      "name": "KOSTL",
+      "key": true
+    },
+    {
+      "name": "DATBI",
+      "key": true
+    },
+    {
+      "name": "DATAB"
+    },
+    {
+      "name": "BUKRS"
+    },
+    {
+      "name": "GSBER"
+    },
+    {
+      "name": "KOSAR"
+    },
+    {
+      "name": "VERAK"
+    },
+    {
+      "name": "ABTEI"
+    },
+    {
+      "name": "PRCTR"
+    },
+    {
+      "name": "KHINR"
+    },
+    {
+      "name": "WAERS"
+    },
+    {
+      "name": "ERSDA"
+    }
+  ],
+  "relations": [
+    {
+      "table": "CSKT",
+      "type": "text",
+      "on": "KOKRS + KOSTL + DATBI"
+    },
+    {
+      "table": "TKA05",
+      "type": "config",
+      "on": "KOSAR"
+    },
+    {
+      "table": "CEPC",
+      "type": "master",
+      "on": "KOKRS + PRCTR"
+    },
+    {
+      "table": "TKA01",
+      "type": "config",
+      "on": "KOKRS"
+    }
+  ]
 }

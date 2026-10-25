@@ -30,5 +30,36 @@
       "séries expedidas",
       "série por remessa"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "OBKNR",
+      "key": true
+    },
+    {
+      "name": "LIEF_NR"
+    },
+    {
+      "name": "POSNR"
+    },
+    {
+      "name": "ANZSN"
+    }
+  ],
+  "relations": [
+    {
+      "table": "OBJK",
+      "type": "items",
+      "on": "OBKNR"
+    },
+    {
+      "table": "LIKP",
+      "type": "rel",
+      "on": "LIEF_NR = VBELN"
+    }
+  ]
 }

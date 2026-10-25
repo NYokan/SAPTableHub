@@ -34,5 +34,53 @@
       "programa de entregas",
       "quantidade pendente"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "EBELN",
+      "key": true
+    },
+    {
+      "name": "EBELP",
+      "key": true
+    },
+    {
+      "name": "ETENR",
+      "key": true
+    },
+    {
+      "name": "EINDT"
+    },
+    {
+      "name": "SLFDT"
+    },
+    {
+      "name": "MENGE"
+    },
+    {
+      "name": "WEMNG"
+    },
+    {
+      "name": "BANFN"
+    },
+    {
+      "name": "BNFPO"
+    }
+  ],
+  "relations": [
+    {
+      "table": "EKPO",
+      "type": "header",
+      "on": "EBELN + EBELP"
+    },
+    {
+      "table": "EBAN",
+      "type": "rel",
+      "on": "BANFN + BNFPO"
+    }
+  ]
 }

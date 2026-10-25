@@ -34,5 +34,31 @@
       "versão de demonstrações financeiras",
       "FSV"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "VERSN",
+      "key": true,
+      "type": "CHAR 4"
+    },
+    {
+      "name": "KTOPL"
+    }
+  ],
+  "relations": [
+    {
+      "table": "T011T",
+      "type": "text",
+      "on": "VERSN"
+    },
+    {
+      "table": "T004",
+      "type": "config",
+      "on": "KTOPL"
+    }
+  ]
 }

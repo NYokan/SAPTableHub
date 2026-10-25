@@ -1,4 +1,5 @@
 import { loadDetail } from '../lib/data.ts';
+import { parseField } from '../lib/fields.ts';
 import { ic } from '../lib/icons.ts';
 import { catalogRoute, routeHref, type TableRoute } from '../lib/router.ts';
 import { esc } from '../lib/text.ts';
@@ -53,9 +54,10 @@ export function renderTable(el: HTMLElement, r: TableRoute, c: Ctx): TableSummar
 export function detailHTML(c: Ctx, t: TableSummary, d: TableDetail | null | undefined, sheet?: { relHref: (id: string) => string }): string {
   const tech = c.mode === 'tech';
   const fields = t.f.map((f) => {
-    const key = f.startsWith('*');
-    const name = key ? f.slice(1) : f;
-    return { name, key, def: c.data.fields[name] };
+    const { name, key, type } = parseField(f);
+    const def = c.data.fields[name];
+    const label = d?.lab?.[name];
+    return { name, key, def: def && (type || label) ? { ...def, ...(type ? { type } : {}), ...(label ? { label } : {}) } : def };
   });
   const keyBadge = `<span class="kb">${ic('key', 13)}${esc(tx(c, 'key'))}</span>`;
 

@@ -37,5 +37,61 @@
       "imposto a pagar",
       "apuração de impostos"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "BUKRS",
+      "key": true
+    },
+    {
+      "name": "BELNR",
+      "key": true
+    },
+    {
+      "name": "GJAHR",
+      "key": true
+    },
+    {
+      "name": "BUZEI",
+      "key": true
+    },
+    {
+      "name": "MWSKZ"
+    },
+    {
+      "name": "KTOSL"
+    },
+    {
+      "name": "KSCHL"
+    },
+    {
+      "name": "SHKZG"
+    },
+    {
+      "name": "HKONT"
+    },
+    {
+      "name": "HWBAS"
+    },
+    {
+      "name": "HWSTE"
+    },
+    {
+      "name": "FWBAS"
+    },
+    {
+      "name": "FWSTE"
+    }
+  ],
+  "relations": [
+    {
+      "table": "BKPF",
+      "type": "header",
+      "on": "BUKRS + BELNR + GJAHR"
+    }
+  ]
 }

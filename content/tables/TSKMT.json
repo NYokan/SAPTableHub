@@ -27,5 +27,33 @@
       "texto classificação fiscal material",
       "TAXKM"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "TATYP",
+      "key": true
+    },
+    {
+      "name": "TAXKM",
+      "key": true
+    },
+    {
+      "name": "VTEXT"
+    }
+  ],
+  "relations": [
+    {
+      "table": "TSKM",
+      "type": "config",
+      "on": "TATYP + TAXKM"
+    }
+  ]
 }

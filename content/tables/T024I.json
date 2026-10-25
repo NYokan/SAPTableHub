@@ -30,5 +30,29 @@
       "planejador de manutenção",
       "grupo planejador PM"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "IWERK",
+      "key": true
+    },
+    {
+      "name": "INGRP",
+      "key": true
+    },
+    {
+      "name": "INNAM"
+    }
+  ],
+  "relations": [
+    {
+      "table": "T001W",
+      "type": "config",
+      "on": "IWERK = WERKS"
+    }
+  ]
 }

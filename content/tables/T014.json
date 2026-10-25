@@ -31,5 +31,25 @@
       "KKBER",
       "moeda do limite de crédito"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "KKBER",
+      "key": true
+    },
+    {
+      "name": "WAERS"
+    }
+  ],
+  "relations": [
+    {
+      "table": "T014T",
+      "type": "text",
+      "on": "KKBER"
+    }
+  ]
 }

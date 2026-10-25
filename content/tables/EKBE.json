@@ -36,5 +36,80 @@
       "faturas do pedido",
       "recebido e faturado"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "EBELN",
+      "key": true
+    },
+    {
+      "name": "EBELP",
+      "key": true
+    },
+    {
+      "name": "ZEKKN",
+      "key": true
+    },
+    {
+      "name": "VGABE",
+      "key": true
+    },
+    {
+      "name": "GJAHR",
+      "key": true
+    },
+    {
+      "name": "BELNR",
+      "key": true
+    },
+    {
+      "name": "BUZEI",
+      "key": true,
+      "type": "NUMC 4"
+    },
+    {
+      "name": "BEWTP"
+    },
+    {
+      "name": "BWART"
+    },
+    {
+      "name": "BUDAT"
+    },
+    {
+      "name": "MENGE"
+    },
+    {
+      "name": "DMBTR"
+    },
+    {
+      "name": "WAERS"
+    }
+  ],
+  "relations": [
+    {
+      "table": "EKPO",
+      "type": "header",
+      "on": "EBELN + EBELP"
+    },
+    {
+      "table": "EKKO",
+      "type": "header",
+      "on": "EBELN"
+    },
+    {
+      "table": "MSEG",
+      "type": "rel",
+      "on": "BELNR = MBLNR + GJAHR = MJAHR + BUZEI = ZEILE"
+    },
+    {
+      "table": "RBKP",
+      "type": "rel",
+      "on": "BELNR + GJAHR"
+    }
+  ]
 }

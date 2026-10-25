@@ -35,5 +35,72 @@
       "lista de custos",
       "custo por componente"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "LEDNR",
+      "key": true
+    },
+    {
+      "name": "BZOBJ",
+      "key": true
+    },
+    {
+      "name": "KALNR",
+      "key": true
+    },
+    {
+      "name": "KALKA",
+      "key": true
+    },
+    {
+      "name": "KADKY",
+      "key": true
+    },
+    {
+      "name": "TVERS",
+      "key": true
+    },
+    {
+      "name": "BWVAR",
+      "key": true
+    },
+    {
+      "name": "KKZMA",
+      "key": true
+    },
+    {
+      "name": "POSNR",
+      "key": true,
+      "type": "NUMC 5"
+    },
+    {
+      "name": "TYPPS"
+    },
+    {
+      "name": "KSTAR"
+    },
+    {
+      "name": "MATNR"
+    },
+    {
+      "name": "WERKS"
+    }
+  ],
+  "relations": [
+    {
+      "table": "KEKO",
+      "type": "header",
+      "on": "BZOBJ + KALNR + KALKA + KADKY + TVERS + BWVAR + KKZMA"
+    },
+    {
+      "table": "MARA",
+      "type": "master",
+      "on": "MATNR"
+    }
+  ]
 }

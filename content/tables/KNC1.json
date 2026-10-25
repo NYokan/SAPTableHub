@@ -36,5 +36,42 @@
       "devedores",
       "saldo por período"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "KUNNR",
+      "key": true
+    },
+    {
+      "name": "BUKRS",
+      "key": true
+    },
+    {
+      "name": "GJAHR",
+      "key": true
+    },
+    {
+      "name": "UMSAV"
+    },
+    {
+      "name": "UM01S"
+    },
+    {
+      "name": "UM01H"
+    },
+    {
+      "name": "UM01U"
+    }
+  ],
+  "relations": [
+    {
+      "table": "KNB1",
+      "type": "master",
+      "on": "KUNNR + BUKRS"
+    }
+  ]
 }

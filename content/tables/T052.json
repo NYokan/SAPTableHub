@@ -36,5 +36,41 @@
       "desconto por pagamento antecipado",
       "ZTERM"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "ZTERM",
+      "key": true
+    },
+    {
+      "name": "ZTAGG",
+      "key": true
+    },
+    {
+      "name": "ZTAG1"
+    },
+    {
+      "name": "ZPRZ1"
+    },
+    {
+      "name": "ZTAG2"
+    },
+    {
+      "name": "ZPRZ2"
+    },
+    {
+      "name": "ZTAG3"
+    }
+  ],
+  "relations": [
+    {
+      "table": "T052U",
+      "type": "text",
+      "on": "ZTERM + ZTAGG"
+    }
+  ]
 }

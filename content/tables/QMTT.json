@@ -27,5 +27,37 @@
       "descrição método de inspeção",
       "nome do método de ensaio"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "WERKS",
+      "key": true
+    },
+    {
+      "name": "PMTNR",
+      "key": true
+    },
+    {
+      "name": "VERSION",
+      "key": true
+    },
+    {
+      "name": "SPRACHE",
+      "key": true
+    },
+    {
+      "name": "KURZTEXT"
+    }
+  ],
+  "relations": [
+    {
+      "table": "QMTB",
+      "type": "master",
+      "on": "WERKS + PMTNR + VERSION"
+    }
+  ]
 }

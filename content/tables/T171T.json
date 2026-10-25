@@ -31,5 +31,29 @@
       "nome região de vendas",
       "BZIRK"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "BZIRK",
+      "key": true
+    },
+    {
+      "name": "BZTXT"
+    }
+  ],
+  "relations": [
+    {
+      "table": "T171",
+      "type": "config",
+      "on": "BZIRK"
+    }
+  ]
 }

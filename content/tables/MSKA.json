@@ -36,5 +36,76 @@
       "produção sob encomenda",
       "estoque especial E"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "MATNR",
+      "key": true
+    },
+    {
+      "name": "WERKS",
+      "key": true
+    },
+    {
+      "name": "LGORT",
+      "key": true
+    },
+    {
+      "name": "CHARG",
+      "key": true
+    },
+    {
+      "name": "SOBKZ",
+      "key": true
+    },
+    {
+      "name": "VBELN",
+      "key": true
+    },
+    {
+      "name": "POSNR",
+      "key": true
+    },
+    {
+      "name": "LFGJA"
+    },
+    {
+      "name": "LFMON"
+    },
+    {
+      "name": "KALAB"
+    },
+    {
+      "name": "KAINS"
+    },
+    {
+      "name": "KASPE"
+    }
+  ],
+  "relations": [
+    {
+      "table": "VBAP",
+      "type": "rel",
+      "on": "VBELN + POSNR"
+    },
+    {
+      "table": "MARD",
+      "type": "rel",
+      "on": "MATNR + WERKS + LGORT"
+    },
+    {
+      "table": "EBEW",
+      "type": "rel",
+      "on": "MATNR + VBELN + POSNR"
+    },
+    {
+      "table": "MSKAH",
+      "type": "rel",
+      "on": "MATNR + WERKS + LGORT + CHARG + SOBKZ + VBELN + POSNR"
+    }
+  ]
 }

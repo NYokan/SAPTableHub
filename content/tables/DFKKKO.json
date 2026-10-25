@@ -34,5 +34,48 @@
       "documento de conta contrato",
       "FICA"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "OPBEL",
+      "key": true
+    },
+    {
+      "name": "BLART"
+    },
+    {
+      "name": "HERKF"
+    },
+    {
+      "name": "BLDAT"
+    },
+    {
+      "name": "BUDAT"
+    },
+    {
+      "name": "WAERS"
+    },
+    {
+      "name": "CPUDT"
+    },
+    {
+      "name": "ERNAM"
+    }
+  ],
+  "relations": [
+    {
+      "table": "DFKKOP",
+      "type": "items",
+      "on": "OPBEL"
+    },
+    {
+      "table": "DFKKOPK",
+      "type": "items",
+      "on": "OPBEL"
+    }
+  ]
 }

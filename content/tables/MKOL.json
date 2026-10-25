@@ -32,5 +32,67 @@
       "estoque em consignação",
       "estoque especial K"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "MATNR",
+      "key": true
+    },
+    {
+      "name": "WERKS",
+      "key": true
+    },
+    {
+      "name": "LGORT",
+      "key": true
+    },
+    {
+      "name": "CHARG",
+      "key": true
+    },
+    {
+      "name": "SOBKZ",
+      "key": true
+    },
+    {
+      "name": "LIFNR",
+      "key": true
+    },
+    {
+      "name": "LFGJA"
+    },
+    {
+      "name": "LFMON"
+    },
+    {
+      "name": "SLABS"
+    },
+    {
+      "name": "SINSM"
+    },
+    {
+      "name": "SSPEM"
+    }
+  ],
+  "relations": [
+    {
+      "table": "MARD",
+      "type": "rel",
+      "on": "MATNR + WERKS + LGORT"
+    },
+    {
+      "table": "LFA1",
+      "type": "master",
+      "on": "LIFNR"
+    },
+    {
+      "table": "MKOLH",
+      "type": "rel",
+      "on": "MATNR + WERKS + LGORT + CHARG + SOBKZ + LIFNR"
+    }
+  ]
 }

@@ -31,5 +31,34 @@
       "parceiro da conta contrato",
       "débito automático FI-CA"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "VKONT",
+      "key": true
+    },
+    {
+      "name": "GPART",
+      "key": true
+    },
+    {
+      "name": "OPBUK"
+    }
+  ],
+  "relations": [
+    {
+      "table": "FKKVK",
+      "type": "header",
+      "on": "VKONT"
+    },
+    {
+      "table": "BUT000",
+      "type": "master",
+      "on": "GPART = PARTNER"
+    }
+  ]
 }

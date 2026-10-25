@@ -28,5 +28,29 @@
       "texto do bloqueio de pagamento",
       "descrição do bloqueio de pagamento"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "ZAHLS",
+      "key": true
+    },
+    {
+      "name": "TEXTL"
+    }
+  ],
+  "relations": [
+    {
+      "table": "T008",
+      "type": "config",
+      "on": "ZAHLS"
+    }
+  ]
 }

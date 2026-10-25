@@ -34,5 +34,58 @@
       "detalhe das alterações",
       "histórico de alterações por campo"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDANT",
+      "key": true
+    },
+    {
+      "name": "OBJECTCLAS",
+      "key": true
+    },
+    {
+      "name": "OBJECTID",
+      "key": true
+    },
+    {
+      "name": "CHANGENR",
+      "key": true
+    },
+    {
+      "name": "TABNAME",
+      "key": true
+    },
+    {
+      "name": "TABKEY",
+      "key": true
+    },
+    {
+      "name": "FNAME",
+      "key": true
+    },
+    {
+      "name": "CHNGIND",
+      "key": true
+    },
+    {
+      "name": "VALUE_NEW"
+    },
+    {
+      "name": "VALUE_OLD"
+    },
+    {
+      "name": "CUKY_NEW"
+    },
+    {
+      "name": "UNIT_NEW"
+    }
+  ],
+  "relations": [
+    {
+      "table": "CDHDR",
+      "type": "header",
+      "on": "OBJECTCLAS + OBJECTID + CHANGENR"
+    }
+  ]
 }

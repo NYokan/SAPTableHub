@@ -30,5 +30,41 @@
       "atividades da notificação",
       "ação realizada"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "QMNUM",
+      "key": true
+    },
+    {
+      "name": "MANUM",
+      "key": true
+    },
+    {
+      "name": "FENUM"
+    },
+    {
+      "name": "MNKAT"
+    },
+    {
+      "name": "MNGRP"
+    },
+    {
+      "name": "MNCOD"
+    },
+    {
+      "name": "MATXT"
+    }
+  ],
+  "relations": [
+    {
+      "table": "QMEL",
+      "type": "header",
+      "on": "QMNUM"
+    }
+  ]
 }

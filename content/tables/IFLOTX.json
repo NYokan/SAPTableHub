@@ -30,5 +30,35 @@
       "nome do local",
       "texto do local"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "TPLNR",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "PLTXT"
+    },
+    {
+      "name": "PLTXU"
+    },
+    {
+      "name": "KZLTX"
+    }
+  ],
+  "relations": [
+    {
+      "table": "IFLOT",
+      "type": "master",
+      "on": "TPLNR"
+    }
+  ]
 }

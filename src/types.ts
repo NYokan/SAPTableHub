@@ -19,10 +19,12 @@ export interface TableSummary {
   s4?: 1;
   title: L10n;
   syn: Record<Lang, string[]>;
-  /** Field names; key fields start with "*". */
+  /** Field names; key fields start with "*", and a type of its own for this table follows a colon. */
   f: string[];
   /** 1 when the table has a plain-language explanation. */
   p: 0 | 1;
+  /** How many other tables relate to this one, when any do. */
+  r?: number;
 }
 
 export interface Relation {
@@ -34,6 +36,8 @@ export interface Relation {
 export interface TableDetail {
   purpose: L10n | null;
   rel: Relation[];
+  /** Labels of fields that mean something narrower in this table than in the dictionary. */
+  lab?: Record<string, L10n>;
 }
 
 export interface FieldDef {

@@ -30,5 +30,57 @@
       "embalagens no cliente histórico",
       "estoque W histórico"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "MATNR",
+      "key": true
+    },
+    {
+      "name": "WERKS",
+      "key": true
+    },
+    {
+      "name": "CHARG",
+      "key": true
+    },
+    {
+      "name": "SOBKZ",
+      "key": true
+    },
+    {
+      "name": "KUNNR",
+      "key": true
+    },
+    {
+      "name": "LFGJA",
+      "key": true
+    },
+    {
+      "name": "LFMON",
+      "key": true
+    },
+    {
+      "name": "KULAB"
+    },
+    {
+      "name": "KUINS"
+    }
+  ],
+  "relations": [
+    {
+      "table": "MSKU",
+      "type": "rel",
+      "on": "MATNR + WERKS + CHARG + SOBKZ + KUNNR"
+    },
+    {
+      "table": "KNA1",
+      "type": "master",
+      "on": "KUNNR"
+    }
+  ]
 }

@@ -30,5 +30,40 @@
       "calendário fiscal",
       "mês para período contábil"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "PERIV",
+      "key": true
+    },
+    {
+      "name": "BDATJ",
+      "key": true
+    },
+    {
+      "name": "BUMON",
+      "key": true
+    },
+    {
+      "name": "BUTAG",
+      "key": true
+    },
+    {
+      "name": "POPER"
+    },
+    {
+      "name": "RELJR"
+    }
+  ],
+  "relations": [
+    {
+      "table": "T009",
+      "type": "config",
+      "on": "PERIV"
+    }
+  ]
 }

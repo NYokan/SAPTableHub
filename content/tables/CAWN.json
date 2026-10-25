@@ -30,5 +30,55 @@
       "valores permitidos",
       "lista de valores de classificação"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "ATINN",
+      "key": true,
+      "label": {
+        "es": "Característica (número interno)",
+        "en": "Characteristic (internal number)",
+        "pt": "Característica (número interno)"
+      }
+    },
+    {
+      "name": "ATZHL",
+      "key": true
+    },
+    {
+      "name": "ADZHL",
+      "key": true
+    },
+    {
+      "name": "ATWRT"
+    },
+    {
+      "name": "ATFLV"
+    },
+    {
+      "name": "ATFLB"
+    },
+    {
+      "name": "DATUV"
+    },
+    {
+      "name": "LKENZ"
+    }
+  ],
+  "relations": [
+    {
+      "table": "CABN",
+      "type": "header",
+      "on": "ATINN"
+    },
+    {
+      "table": "CAWNT",
+      "type": "text",
+      "on": "ATINN + ATZHL"
+    }
+  ]
 }

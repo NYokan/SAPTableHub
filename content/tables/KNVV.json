@@ -34,5 +34,81 @@
       "cadastro de clientes vendas",
       "cliente por organização de vendas"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "KUNNR",
+      "key": true
+    },
+    {
+      "name": "VKORG",
+      "key": true
+    },
+    {
+      "name": "VTWEG",
+      "key": true
+    },
+    {
+      "name": "SPART",
+      "key": true
+    },
+    {
+      "name": "KDGRP"
+    },
+    {
+      "name": "BZIRK"
+    },
+    {
+      "name": "VKBUR"
+    },
+    {
+      "name": "VKGRP"
+    },
+    {
+      "name": "KONDA"
+    },
+    {
+      "name": "WAERS"
+    },
+    {
+      "name": "INCO1"
+    },
+    {
+      "name": "ZTERM",
+      "label": {
+        "es": "Condiciones de pago",
+        "en": "Payment terms",
+        "pt": "Condições de pagamento"
+      }
+    },
+    {
+      "name": "KALKS"
+    }
+  ],
+  "relations": [
+    {
+      "table": "KNA1",
+      "type": "master",
+      "on": "KUNNR"
+    },
+    {
+      "table": "KNVP",
+      "type": "rel",
+      "on": "KUNNR + VKORG + VTWEG + SPART"
+    },
+    {
+      "table": "T151",
+      "type": "config",
+      "on": "KDGRP"
+    },
+    {
+      "table": "TVBUR",
+      "type": "config",
+      "on": "VKBUR"
+    }
+  ]
 }

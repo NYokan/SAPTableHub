@@ -31,5 +31,28 @@
       "tipo de entrega",
       "tipo de expedição"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "LFART",
+      "key": true
+    },
+    {
+      "name": "VBTYP"
+    },
+    {
+      "name": "NUMKI"
+    }
+  ],
+  "relations": [
+    {
+      "table": "TVLKT",
+      "type": "text",
+      "on": "LFART"
+    }
+  ]
 }

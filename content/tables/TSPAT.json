@@ -34,5 +34,29 @@
       "linha de produtos",
       "SPART"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "SPART",
+      "key": true
+    },
+    {
+      "name": "VTEXT"
+    }
+  ],
+  "relations": [
+    {
+      "table": "TSPA",
+      "type": "config",
+      "on": "SPART"
+    }
+  ]
 }

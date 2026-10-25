@@ -29,5 +29,45 @@
       "texto do tipo de movimento",
       "descrição do movimento"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "BWART",
+      "key": true
+    },
+    {
+      "name": "SOBKZ",
+      "key": true
+    },
+    {
+      "name": "KZBEW",
+      "key": true
+    },
+    {
+      "name": "KZZUG",
+      "key": true
+    },
+    {
+      "name": "KZVBR",
+      "key": true
+    },
+    {
+      "name": "BTEXT"
+    }
+  ],
+  "relations": [
+    {
+      "table": "T156",
+      "type": "master",
+      "on": "BWART"
+    }
+  ]
 }

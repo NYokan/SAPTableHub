@@ -30,5 +30,49 @@
       "trechos do transporte",
       "origem e destino do transporte"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "TKNUM",
+      "key": true
+    },
+    {
+      "name": "TSNUM",
+      "key": true
+    },
+    {
+      "name": "TSTYP"
+    },
+    {
+      "name": "VSTEL"
+    },
+    {
+      "name": "VSTEZ"
+    },
+    {
+      "name": "KUNNA"
+    },
+    {
+      "name": "KUNNZ"
+    },
+    {
+      "name": "ROUTE"
+    }
+  ],
+  "relations": [
+    {
+      "table": "VTTK",
+      "type": "header",
+      "on": "TKNUM"
+    },
+    {
+      "table": "TVST",
+      "type": "config",
+      "on": "VSTEL"
+    }
+  ]
 }

@@ -32,5 +32,31 @@
       "unidade de frete",
       "Transportation Management"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "DB_KEY",
+      "key": true
+    },
+    {
+      "name": "TOR_ID"
+    },
+    {
+      "name": "TOR_CAT"
+    },
+    {
+      "name": "TOR_TYPE"
+    }
+  ],
+  "relations": [
+    {
+      "table": "/SCMTMS/D_TORITE",
+      "type": "items",
+      "on": "DB_KEY = ROOT_KEY"
+    }
+  ]
 }

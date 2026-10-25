@@ -30,5 +30,58 @@
       "sequência alternativa",
       "sequência paralela"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "PLNTY",
+      "key": true
+    },
+    {
+      "name": "PLNNR",
+      "key": true
+    },
+    {
+      "name": "PLNAL",
+      "key": true
+    },
+    {
+      "name": "PLNFL",
+      "key": true
+    },
+    {
+      "name": "ZAEHL",
+      "key": true
+    },
+    {
+      "name": "FLGAT"
+    },
+    {
+      "name": "BEZFL"
+    },
+    {
+      "name": "LTXA1"
+    },
+    {
+      "name": "DATUV"
+    },
+    {
+      "name": "LOEKZ"
+    }
+  ],
+  "relations": [
+    {
+      "table": "PLKO",
+      "type": "header",
+      "on": "PLNTY + PLNNR + PLNAL"
+    },
+    {
+      "table": "PLAS",
+      "type": "items",
+      "on": "PLNTY + PLNNR + PLNAL + PLNFL"
+    }
+  ]
 }

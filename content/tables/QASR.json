@@ -30,5 +30,48 @@
       "valores medidos por amostra",
       "resultado de inspeção por amostra"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDANT",
+      "key": true
+    },
+    {
+      "name": "PRUEFLOS",
+      "key": true
+    },
+    {
+      "name": "VORGLFNR",
+      "key": true
+    },
+    {
+      "name": "MERKNR",
+      "key": true
+    },
+    {
+      "name": "PROBENR",
+      "key": true
+    },
+    {
+      "name": "MBEWERTG"
+    },
+    {
+      "name": "MITTELWERT"
+    },
+    {
+      "name": "PRUEFER"
+    }
+  ],
+  "relations": [
+    {
+      "table": "QAMR",
+      "type": "rel",
+      "on": "PRUEFLOS + VORGLFNR + MERKNR"
+    },
+    {
+      "table": "QALS",
+      "type": "header",
+      "on": "PRUEFLOS"
+    }
+  ]
 }

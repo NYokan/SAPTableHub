@@ -27,5 +27,30 @@
       "texto da variante de exercício",
       "descrição do ano fiscal"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "PERIV",
+      "key": true
+    },
+    {
+      "name": "LTEXT",
+      "type": "CHAR 30"
+    }
+  ],
+  "relations": [
+    {
+      "table": "T009",
+      "type": "config",
+      "on": "PERIV"
+    }
+  ]
 }

@@ -32,5 +32,39 @@
       "BWKEY",
       "centro e empresa"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "BWKEY",
+      "key": true
+    },
+    {
+      "name": "BUKRS"
+    },
+    {
+      "name": "BWMOD"
+    },
+    {
+      "name": "XBKNG"
+    },
+    {
+      "name": "MLBWA"
+    }
+  ],
+  "relations": [
+    {
+      "table": "T001",
+      "type": "master",
+      "on": "BUKRS"
+    },
+    {
+      "table": "T001W",
+      "type": "rel",
+      "on": "BWKEY"
+    }
+  ]
 }

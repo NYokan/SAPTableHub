@@ -30,5 +30,60 @@
       "aquisição de ativo pré-editada",
       "documento pré-editado"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "AUSBK",
+      "key": true
+    },
+    {
+      "name": "BELNR",
+      "key": true
+    },
+    {
+      "name": "GJAHR",
+      "key": true
+    },
+    {
+      "name": "BZKEY",
+      "key": true
+    },
+    {
+      "name": "BUKRS"
+    },
+    {
+      "name": "BSCHL"
+    },
+    {
+      "name": "ANLN1"
+    },
+    {
+      "name": "ANLN2"
+    },
+    {
+      "name": "ANBWA"
+    },
+    {
+      "name": "DMBTR"
+    },
+    {
+      "name": "SHKZG"
+    }
+  ],
+  "relations": [
+    {
+      "table": "VBKPF",
+      "type": "header",
+      "on": "AUSBK + BELNR + GJAHR"
+    },
+    {
+      "table": "ANLA",
+      "type": "master",
+      "on": "BUKRS + ANLN1 + ANLN2"
+    }
+  ]
 }

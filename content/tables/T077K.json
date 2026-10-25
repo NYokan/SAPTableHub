@@ -31,5 +31,33 @@
       "tipo de fornecedor",
       "faixa de numeração de fornecedor"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "KTOKK",
+      "key": true
+    },
+    {
+      "name": "NUMKR",
+      "label": {
+        "es": "Rango de números",
+        "en": "Number range",
+        "pt": "Intervalo de numeração"
+      }
+    },
+    {
+      "name": "XCPDS"
+    }
+  ],
+  "relations": [
+    {
+      "table": "T077Y",
+      "type": "text",
+      "on": "KTOKK"
+    }
+  ]
 }

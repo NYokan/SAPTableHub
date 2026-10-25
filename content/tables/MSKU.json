@@ -36,5 +36,60 @@
       "embalagens retornáveis",
       "estoque especial W"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "MATNR",
+      "key": true
+    },
+    {
+      "name": "WERKS",
+      "key": true
+    },
+    {
+      "name": "CHARG",
+      "key": true
+    },
+    {
+      "name": "SOBKZ",
+      "key": true
+    },
+    {
+      "name": "KUNNR",
+      "key": true
+    },
+    {
+      "name": "LFGJA"
+    },
+    {
+      "name": "LFMON"
+    },
+    {
+      "name": "KULAB"
+    },
+    {
+      "name": "KUINS"
+    }
+  ],
+  "relations": [
+    {
+      "table": "KNA1",
+      "type": "master",
+      "on": "KUNNR"
+    },
+    {
+      "table": "MARC",
+      "type": "master",
+      "on": "MATNR + WERKS"
+    },
+    {
+      "table": "MSKUH",
+      "type": "rel",
+      "on": "MATNR + WERKS + CHARG + SOBKZ + KUNNR"
+    }
+  ]
 }

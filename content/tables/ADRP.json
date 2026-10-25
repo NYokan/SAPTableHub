@@ -33,5 +33,50 @@
       "nome e sobrenome",
       "dados da pessoa"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "CLIENT",
+      "key": true
+    },
+    {
+      "name": "PERSNUMBER",
+      "key": true
+    },
+    {
+      "name": "DATE_FROM",
+      "key": true
+    },
+    {
+      "name": "NATION",
+      "key": true
+    },
+    {
+      "name": "TITLE"
+    },
+    {
+      "name": "NAME_FIRST"
+    },
+    {
+      "name": "NAME_LAST"
+    },
+    {
+      "name": "SORT1"
+    },
+    {
+      "name": "LANGU"
+    }
+  ],
+  "relations": [
+    {
+      "table": "ADCP",
+      "type": "rel",
+      "on": "PERSNUMBER"
+    },
+    {
+      "table": "TSAD3",
+      "type": "config",
+      "on": "TITLE"
+    }
+  ]
 }

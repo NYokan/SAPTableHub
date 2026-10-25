@@ -31,5 +31,42 @@
       "nível de advertência",
       "bloqueio de advertência"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "LIFNR",
+      "key": true
+    },
+    {
+      "name": "BUKRS",
+      "key": true
+    },
+    {
+      "name": "MABER",
+      "key": true
+    },
+    {
+      "name": "MAHNA"
+    },
+    {
+      "name": "MANSP"
+    },
+    {
+      "name": "MADAT"
+    },
+    {
+      "name": "MAHNS"
+    }
+  ],
+  "relations": [
+    {
+      "table": "LFB1",
+      "type": "master",
+      "on": "LIFNR + BUKRS"
+    }
+  ]
 }

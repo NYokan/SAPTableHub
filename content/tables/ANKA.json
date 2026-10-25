@@ -33,5 +33,25 @@
       "categoria de ativo",
       "ANLKL"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "ANLKL",
+      "key": true
+    },
+    {
+      "name": "KTOGR"
+    }
+  ],
+  "relations": [
+    {
+      "table": "ANKT",
+      "type": "text",
+      "on": "ANLKL"
+    }
+  ]
 }

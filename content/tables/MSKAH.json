@@ -27,5 +27,68 @@
       "histórico estoque de pedido de cliente",
       "estoque E histórico"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "MATNR",
+      "key": true
+    },
+    {
+      "name": "WERKS",
+      "key": true
+    },
+    {
+      "name": "LGORT",
+      "key": true
+    },
+    {
+      "name": "CHARG",
+      "key": true
+    },
+    {
+      "name": "SOBKZ",
+      "key": true
+    },
+    {
+      "name": "VBELN",
+      "key": true
+    },
+    {
+      "name": "POSNR",
+      "key": true
+    },
+    {
+      "name": "LFGJA",
+      "key": true
+    },
+    {
+      "name": "LFMON",
+      "key": true
+    },
+    {
+      "name": "KALAB"
+    },
+    {
+      "name": "KAINS"
+    },
+    {
+      "name": "KASPE"
+    }
+  ],
+  "relations": [
+    {
+      "table": "MSKA",
+      "type": "rel",
+      "on": "MATNR + WERKS + LGORT + CHARG + SOBKZ + VBELN + POSNR"
+    },
+    {
+      "table": "VBAP",
+      "type": "rel",
+      "on": "VBELN + POSNR"
+    }
+  ]
 }

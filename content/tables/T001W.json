@@ -36,5 +36,66 @@
       "centro logístico",
       "filial"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "WERKS",
+      "key": true
+    },
+    {
+      "name": "NAME1",
+      "type": "CHAR 30"
+    },
+    {
+      "name": "BWKEY"
+    },
+    {
+      "name": "LAND1"
+    },
+    {
+      "name": "REGIO"
+    },
+    {
+      "name": "ORT01",
+      "type": "CHAR 25"
+    },
+    {
+      "name": "PSTLZ"
+    },
+    {
+      "name": "FABKL"
+    },
+    {
+      "name": "EKORG"
+    },
+    {
+      "name": "VKORG"
+    }
+  ],
+  "relations": [
+    {
+      "table": "T001K",
+      "type": "config",
+      "on": "BWKEY"
+    },
+    {
+      "table": "T001L",
+      "type": "rel",
+      "on": "WERKS"
+    },
+    {
+      "table": "T005",
+      "type": "config",
+      "on": "LAND1"
+    },
+    {
+      "table": "T024E",
+      "type": "config",
+      "on": "EKORG"
+    }
+  ]
 }

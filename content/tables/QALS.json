@@ -36,5 +36,67 @@
       "controle de qualidade",
       "inspeção de recebimento"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDANT",
+      "key": true
+    },
+    {
+      "name": "PRUEFLOS",
+      "key": true
+    },
+    {
+      "name": "ART"
+    },
+    {
+      "name": "HERKUNFT"
+    },
+    {
+      "name": "MATNR"
+    },
+    {
+      "name": "WERK"
+    },
+    {
+      "name": "CHARG"
+    },
+    {
+      "name": "LIFNR"
+    },
+    {
+      "name": "EBELN"
+    },
+    {
+      "name": "ENSTEHDAT"
+    },
+    {
+      "name": "LOSMENGE"
+    },
+    {
+      "name": "MENGENEINH"
+    }
+  ],
+  "relations": [
+    {
+      "table": "QAMV",
+      "type": "items",
+      "on": "PRUEFLOS"
+    },
+    {
+      "table": "QAVE",
+      "type": "rel",
+      "on": "PRUEFLOS"
+    },
+    {
+      "table": "MARA",
+      "type": "master",
+      "on": "MATNR"
+    },
+    {
+      "table": "TQ30",
+      "type": "config",
+      "on": "ART"
+    }
+  ]
 }

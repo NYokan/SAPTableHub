@@ -33,5 +33,36 @@
       "conversão de unidades",
       "fator de conversão"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "MSEHI",
+      "key": true
+    },
+    {
+      "name": "DIMID"
+    },
+    {
+      "name": "ISOCODE"
+    },
+    {
+      "name": "ANDEC"
+    }
+  ],
+  "relations": [
+    {
+      "table": "T006A",
+      "type": "text",
+      "on": "MSEHI"
+    },
+    {
+      "table": "T006D",
+      "type": "config",
+      "on": "DIMID"
+    }
+  ]
 }

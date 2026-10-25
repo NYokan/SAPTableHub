@@ -27,5 +27,62 @@
       "histórico de estoque por lote",
       "estoque do lote no fechamento"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "MATNR",
+      "key": true
+    },
+    {
+      "name": "WERKS",
+      "key": true
+    },
+    {
+      "name": "LGORT",
+      "key": true
+    },
+    {
+      "name": "CHARG",
+      "key": true
+    },
+    {
+      "name": "LFGJA",
+      "key": true
+    },
+    {
+      "name": "LFMON",
+      "key": true
+    },
+    {
+      "name": "CLABS"
+    },
+    {
+      "name": "CUMLM"
+    },
+    {
+      "name": "CINSM"
+    },
+    {
+      "name": "CSPEM"
+    },
+    {
+      "name": "CRETM"
+    }
+  ],
+  "relations": [
+    {
+      "table": "MCHB",
+      "type": "rel",
+      "on": "MATNR + WERKS + LGORT + CHARG"
+    },
+    {
+      "table": "MCHA",
+      "type": "master",
+      "on": "MATNR + WERKS + CHARG"
+    }
+  ]
 }

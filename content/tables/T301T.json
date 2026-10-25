@@ -28,5 +28,33 @@
       "nome tipo de depósito",
       "descrição zona do depósito"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "LGNUM",
+      "key": true
+    },
+    {
+      "name": "LGTYP",
+      "key": true
+    },
+    {
+      "name": "LTYPT"
+    }
+  ],
+  "relations": [
+    {
+      "table": "T301",
+      "type": "master",
+      "on": "LGNUM + LGTYP"
+    }
+  ]
 }

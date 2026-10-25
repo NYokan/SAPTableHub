@@ -37,5 +37,47 @@
       "atividade interna",
       "tarifa interna"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "KOKRS",
+      "key": true
+    },
+    {
+      "name": "LSTAR",
+      "key": true
+    },
+    {
+      "name": "DATBI",
+      "key": true
+    },
+    {
+      "name": "DATAB"
+    },
+    {
+      "name": "LEINH"
+    },
+    {
+      "name": "LATYP"
+    },
+    {
+      "name": "VKSTA"
+    }
+  ],
+  "relations": [
+    {
+      "table": "CSLT",
+      "type": "text",
+      "on": "KOKRS + LSTAR + DATBI"
+    },
+    {
+      "table": "TKA01",
+      "type": "config",
+      "on": "KOKRS"
+    }
+  ]
 }

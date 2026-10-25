@@ -58,7 +58,7 @@
   "noPlain": "There is no plain-language explanation for this table yet. It will come with the editorial content.",
   "mainFields": "Main fields",
   "fieldsNote": "Only the main fields are shown.",
-  "noFields": "This table's fields will load when the SAP dictionary is imported.",
+  "noFields": "The main fields of this table are not documented yet.",
   "key": "Key",
   "colField": "Field",
   "colType": "Type",

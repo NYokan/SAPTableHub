@@ -27,5 +27,60 @@
       "itens do material ledger",
       "linhas do documento ML"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "BELNR",
+      "key": true
+    },
+    {
+      "name": "KJAHR",
+      "key": true
+    },
+    {
+      "name": "POSNR",
+      "key": true
+    },
+    {
+      "name": "KALNR"
+    },
+    {
+      "name": "PSART"
+    },
+    {
+      "name": "MATNR"
+    },
+    {
+      "name": "BWKEY",
+      "label": {
+        "es": "Ámbito de valoración",
+        "en": "Valuation area",
+        "pt": "Área de avaliação"
+      }
+    },
+    {
+      "name": "BWTAR"
+    }
+  ],
+  "relations": [
+    {
+      "table": "MLHD",
+      "type": "header",
+      "on": "BELNR + KJAHR"
+    },
+    {
+      "table": "CKMLHD",
+      "type": "master",
+      "on": "KALNR"
+    },
+    {
+      "table": "MARA",
+      "type": "master",
+      "on": "MATNR"
+    }
+  ]
 }

@@ -33,5 +33,54 @@
       "função do contato",
       "endereço de trabalho"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "CLIENT",
+      "key": true
+    },
+    {
+      "name": "ADDRNUMBER",
+      "key": true
+    },
+    {
+      "name": "PERSNUMBER",
+      "key": true
+    },
+    {
+      "name": "DATE_FROM",
+      "key": true
+    },
+    {
+      "name": "NATION",
+      "key": true
+    },
+    {
+      "name": "DEPARTMENT"
+    },
+    {
+      "name": "FUNCTION"
+    },
+    {
+      "name": "TEL_NUMBER"
+    },
+    {
+      "name": "TEL_EXTENS"
+    },
+    {
+      "name": "FAX_NUMBER"
+    }
+  ],
+  "relations": [
+    {
+      "table": "ADRC",
+      "type": "master",
+      "on": "ADDRNUMBER"
+    },
+    {
+      "table": "ADRP",
+      "type": "master",
+      "on": "PERSNUMBER"
+    }
+  ]
 }

@@ -28,5 +28,37 @@
       "nome área de armazenagem",
       "descrição seção do depósito"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "LGNUM",
+      "key": true
+    },
+    {
+      "name": "LGTYP",
+      "key": true
+    },
+    {
+      "name": "LGBER",
+      "key": true
+    },
+    {
+      "name": "LBERT"
+    }
+  ],
+  "relations": [
+    {
+      "table": "T302",
+      "type": "master",
+      "on": "LGNUM + LGTYP + LGBER"
+    }
+  ]
 }

@@ -28,5 +28,29 @@
       "nome do depósito WM",
       "descrição número do depósito"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "LGNUM",
+      "key": true
+    },
+    {
+      "name": "LNUMT"
+    }
+  ],
+  "relations": [
+    {
+      "table": "T300",
+      "type": "master",
+      "on": "LGNUM"
+    }
+  ]
 }

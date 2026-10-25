@@ -39,5 +39,63 @@
       "vencimento",
       "rastreabilidade"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "MATNR",
+      "key": true
+    },
+    {
+      "name": "CHARG",
+      "key": true
+    },
+    {
+      "name": "ERSDA"
+    },
+    {
+      "name": "ERNAM"
+    },
+    {
+      "name": "LVORM"
+    },
+    {
+      "name": "ZUSTD"
+    },
+    {
+      "name": "VFDAT"
+    },
+    {
+      "name": "HSDAT"
+    },
+    {
+      "name": "LIFNR"
+    },
+    {
+      "name": "LICHA"
+    },
+    {
+      "name": "LWEDT"
+    }
+  ],
+  "relations": [
+    {
+      "table": "MARA",
+      "type": "master",
+      "on": "MATNR"
+    },
+    {
+      "table": "MCHA",
+      "type": "rel",
+      "on": "MATNR + CHARG"
+    },
+    {
+      "table": "LFA1",
+      "type": "master",
+      "on": "LIFNR"
+    }
+  ]
 }

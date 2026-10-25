@@ -33,5 +33,59 @@
       "desenho técnico",
       "gestão de documentos"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "DOKAR",
+      "key": true
+    },
+    {
+      "name": "DOKNR",
+      "key": true
+    },
+    {
+      "name": "DOKVR",
+      "key": true
+    },
+    {
+      "name": "DOKTL",
+      "key": true
+    },
+    {
+      "name": "DOKST"
+    },
+    {
+      "name": "DWNAM"
+    },
+    {
+      "name": "ADATUM"
+    },
+    {
+      "name": "LABOR"
+    },
+    {
+      "name": "AENNR"
+    }
+  ],
+  "relations": [
+    {
+      "table": "DRAT",
+      "type": "text",
+      "on": "DOKAR + DOKNR + DOKVR + DOKTL"
+    },
+    {
+      "table": "DRAD",
+      "type": "rel",
+      "on": "DOKAR + DOKNR + DOKVR + DOKTL"
+    },
+    {
+      "table": "TDWA",
+      "type": "config",
+      "on": "DOKAR"
+    }
+  ]
 }

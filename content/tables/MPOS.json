@@ -33,5 +33,61 @@
       "lista de tarefas",
       "plano de manutenção"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "WAPOS",
+      "key": true
+    },
+    {
+      "name": "WARPL"
+    },
+    {
+      "name": "PSTXT"
+    },
+    {
+      "name": "IWERK"
+    },
+    {
+      "name": "EQUNR"
+    },
+    {
+      "name": "ILOAN"
+    },
+    {
+      "name": "PLNTY"
+    },
+    {
+      "name": "PLNNR"
+    },
+    {
+      "name": "PLNAL"
+    }
+  ],
+  "relations": [
+    {
+      "table": "MPLA",
+      "type": "header",
+      "on": "WARPL"
+    },
+    {
+      "table": "EQUI",
+      "type": "master",
+      "on": "EQUNR"
+    },
+    {
+      "table": "ILOA",
+      "type": "rel",
+      "on": "ILOAN"
+    },
+    {
+      "table": "PLKO",
+      "type": "master",
+      "on": "PLNTY + PLNNR + PLNAL"
+    }
+  ]
 }

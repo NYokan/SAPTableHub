@@ -31,5 +31,29 @@
       "texto do serviço",
       "nome do serviço"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "ASNUM",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "ASKTX"
+    }
+  ],
+  "relations": [
+    {
+      "table": "ASMD",
+      "type": "master",
+      "on": "ASNUM"
+    }
+  ]
 }

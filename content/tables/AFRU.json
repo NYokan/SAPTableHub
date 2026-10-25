@@ -41,5 +41,66 @@
       "refugo",
       "horas trabalhadas"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "RUECK",
+      "key": true
+    },
+    {
+      "name": "RMZHL",
+      "key": true
+    },
+    {
+      "name": "AUFNR"
+    },
+    {
+      "name": "VORNR"
+    },
+    {
+      "name": "ARBID"
+    },
+    {
+      "name": "WERKS"
+    },
+    {
+      "name": "BUDAT"
+    },
+    {
+      "name": "LMNGA"
+    },
+    {
+      "name": "XMNGA"
+    },
+    {
+      "name": "ERSDA"
+    },
+    {
+      "name": "ERNAM"
+    },
+    {
+      "name": "STOKZ"
+    }
+  ],
+  "relations": [
+    {
+      "table": "AFKO",
+      "type": "rel",
+      "on": "AUFNR"
+    },
+    {
+      "table": "CRHD",
+      "type": "master",
+      "on": "ARBID = OBJID"
+    },
+    {
+      "table": "T001W",
+      "type": "config",
+      "on": "WERKS"
+    }
+  ]
 }

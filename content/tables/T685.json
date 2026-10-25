@@ -37,5 +37,38 @@
       "PR00",
       "KSCHL"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "KVEWE",
+      "key": true
+    },
+    {
+      "name": "KAPPL",
+      "key": true
+    },
+    {
+      "name": "KSCHL",
+      "key": true
+    },
+    {
+      "name": "KOZGF"
+    }
+  ],
+  "relations": [
+    {
+      "table": "T685T",
+      "type": "text",
+      "on": "KVEWE + KAPPL + KSCHL"
+    },
+    {
+      "table": "T685A",
+      "type": "rel",
+      "on": "KAPPL + KSCHL"
+    }
+  ]
 }

@@ -33,5 +33,49 @@
       "hierarquia de sets",
       "set de valores"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SETCLASS",
+      "key": true
+    },
+    {
+      "name": "SUBCLASS",
+      "key": true
+    },
+    {
+      "name": "SETNAME",
+      "key": true
+    },
+    {
+      "name": "SETTYPE"
+    },
+    {
+      "name": "TABNAME"
+    },
+    {
+      "name": "FIELDNAME"
+    }
+  ],
+  "relations": [
+    {
+      "table": "SETHEADERT",
+      "type": "text",
+      "on": "SETCLASS + SUBCLASS + SETNAME"
+    },
+    {
+      "table": "SETLEAF",
+      "type": "rel",
+      "on": "SETCLASS + SUBCLASS + SETNAME"
+    },
+    {
+      "table": "SETNODE",
+      "type": "rel",
+      "on": "SETCLASS + SUBCLASS + SETNAME"
+    }
+  ]
 }

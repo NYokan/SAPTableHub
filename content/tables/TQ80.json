@@ -30,5 +30,34 @@
       "tipo de notificação",
       "tipo de reclamação"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "QMART",
+      "key": true
+    },
+    {
+      "name": "QMTYP"
+    },
+    {
+      "name": "HERKZ"
+    },
+    {
+      "name": "RBNR"
+    },
+    {
+      "name": "STSMA"
+    }
+  ],
+  "relations": [
+    {
+      "table": "TQ80_T",
+      "type": "text",
+      "on": "QMART"
+    }
+  ]
 }

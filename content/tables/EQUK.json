@@ -33,5 +33,49 @@
       "quota de fornecedor",
       "divisão entre fornecedores"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "MATNR",
+      "key": true
+    },
+    {
+      "name": "WERKS",
+      "key": true
+    },
+    {
+      "name": "BDATU",
+      "key": true,
+      "label": {
+        "es": "Fin de validez",
+        "en": "Valid to date",
+        "pt": "Fim da validade"
+      }
+    },
+    {
+      "name": "VDATU"
+    },
+    {
+      "name": "ERDAT"
+    },
+    {
+      "name": "ERNAM"
+    }
+  ],
+  "relations": [
+    {
+      "table": "EQUP",
+      "type": "items",
+      "on": "QUNUM"
+    },
+    {
+      "table": "MARC",
+      "type": "master",
+      "on": "MATNR + WERKS"
+    }
+  ]
 }

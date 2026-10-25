@@ -34,5 +34,66 @@
       "dados contábeis do cliente",
       "mestre de clientes FI"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "KUNNR",
+      "key": true
+    },
+    {
+      "name": "BUKRS",
+      "key": true
+    },
+    {
+      "name": "AKONT"
+    },
+    {
+      "name": "ZTERM"
+    },
+    {
+      "name": "ZWELS"
+    },
+    {
+      "name": "BUSAB"
+    },
+    {
+      "name": "ZUAWA"
+    },
+    {
+      "name": "SPERR"
+    },
+    {
+      "name": "LOEVM"
+    },
+    {
+      "name": "ALTKN"
+    },
+    {
+      "name": "ERDAT"
+    },
+    {
+      "name": "ERNAM"
+    }
+  ],
+  "relations": [
+    {
+      "table": "KNA1",
+      "type": "master",
+      "on": "KUNNR"
+    },
+    {
+      "table": "T001",
+      "type": "config",
+      "on": "BUKRS"
+    },
+    {
+      "table": "SKB1",
+      "type": "master",
+      "on": "BUKRS + AKONT = SAKNR"
+    }
+  ]
 }

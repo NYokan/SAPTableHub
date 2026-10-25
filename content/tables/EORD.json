@@ -36,5 +36,69 @@
       "fonte de suprimento",
       "fornecedor homologado"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "MATNR",
+      "key": true
+    },
+    {
+      "name": "WERKS",
+      "key": true
+    },
+    {
+      "name": "ZEORD",
+      "key": true
+    },
+    {
+      "name": "VDATU"
+    },
+    {
+      "name": "BDATU",
+      "label": {
+        "es": "Fin de validez",
+        "en": "Valid to date",
+        "pt": "Fim da validade"
+      }
+    },
+    {
+      "name": "LIFNR"
+    },
+    {
+      "name": "EKORG"
+    },
+    {
+      "name": "FLIFN"
+    },
+    {
+      "name": "NOTKZ"
+    },
+    {
+      "name": "EBELN"
+    },
+    {
+      "name": "EBELP"
+    }
+  ],
+  "relations": [
+    {
+      "table": "MARC",
+      "type": "master",
+      "on": "MATNR + WERKS"
+    },
+    {
+      "table": "LFA1",
+      "type": "master",
+      "on": "LIFNR"
+    },
+    {
+      "table": "EKPO",
+      "type": "rel",
+      "on": "EBELN + EBELP"
+    }
+  ]
 }

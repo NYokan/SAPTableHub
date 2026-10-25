@@ -34,5 +34,30 @@
       "escritório regional",
       "VKBUR"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "VKBUR",
+      "key": true
+    },
+    {
+      "name": "ADRNR"
+    }
+  ],
+  "relations": [
+    {
+      "table": "TVBVK",
+      "type": "rel",
+      "on": "VKBUR"
+    },
+    {
+      "table": "ADRC",
+      "type": "master",
+      "on": "ADRNR = ADDRNUMBER"
+    }
+  ]
 }

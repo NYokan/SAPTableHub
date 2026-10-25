@@ -37,5 +37,61 @@
       "código EAN",
       "unidade de embalagem"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "MATNR",
+      "key": true
+    },
+    {
+      "name": "MEINH",
+      "key": true
+    },
+    {
+      "name": "UMREZ"
+    },
+    {
+      "name": "UMREN"
+    },
+    {
+      "name": "EAN11"
+    },
+    {
+      "name": "NUMTP"
+    },
+    {
+      "name": "LAENG"
+    },
+    {
+      "name": "BREIT"
+    },
+    {
+      "name": "HOEHE"
+    },
+    {
+      "name": "MEABM"
+    },
+    {
+      "name": "VOLUM"
+    },
+    {
+      "name": "BRGEW"
+    }
+  ],
+  "relations": [
+    {
+      "table": "MARA",
+      "type": "master",
+      "on": "MATNR"
+    },
+    {
+      "table": "MEAN",
+      "type": "rel",
+      "on": "MATNR + MEINH"
+    }
+  ]
 }

@@ -34,5 +34,36 @@
       "plano contábil",
       "KTOPL"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "KTOPL",
+      "key": true
+    },
+    {
+      "name": "DSPRA"
+    },
+    {
+      "name": "SAKLN"
+    },
+    {
+      "name": "KKTPL"
+    }
+  ],
+  "relations": [
+    {
+      "table": "T004T",
+      "type": "text",
+      "on": "KTOPL"
+    },
+    {
+      "table": "SKA1",
+      "type": "rel",
+      "on": "KTOPL"
+    }
+  ]
 }

@@ -36,5 +36,60 @@
       "estrutura de produto",
       "receita"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "MATNR",
+      "key": true
+    },
+    {
+      "name": "WERKS",
+      "key": true
+    },
+    {
+      "name": "STLAN",
+      "key": true
+    },
+    {
+      "name": "STLNR",
+      "key": true
+    },
+    {
+      "name": "STLAL",
+      "key": true
+    },
+    {
+      "name": "ANDAT"
+    },
+    {
+      "name": "ANNAM"
+    },
+    {
+      "name": "LOSVN"
+    },
+    {
+      "name": "LOSBS"
+    }
+  ],
+  "relations": [
+    {
+      "table": "STKO",
+      "type": "header",
+      "on": "STLNR + STLAL"
+    },
+    {
+      "table": "MARC",
+      "type": "master",
+      "on": "MATNR + WERKS"
+    },
+    {
+      "table": "T416",
+      "type": "config",
+      "on": "STLAN"
+    }
+  ]
 }

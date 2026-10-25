@@ -28,5 +28,30 @@
       "texto da estrutura de balanço",
       "nome da versão de balanço"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "VERSN",
+      "key": true,
+      "type": "CHAR 4"
+    },
+    {
+      "name": "VSTXT"
+    }
+  ],
+  "relations": [
+    {
+      "table": "T011",
+      "type": "config",
+      "on": "VERSN"
+    }
+  ]
 }

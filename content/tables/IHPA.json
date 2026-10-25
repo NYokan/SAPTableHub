@@ -33,5 +33,48 @@
       "função de parceiro PM",
       "parceiro da nota"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "OBJNR",
+      "key": true
+    },
+    {
+      "name": "PARVW",
+      "key": true
+    },
+    {
+      "name": "COUNTER",
+      "key": true
+    },
+    {
+      "name": "PARNR",
+      "type": "CHAR 12",
+      "label": {
+        "es": "Número de interlocutor",
+        "en": "Partner number",
+        "pt": "Número do parceiro"
+      }
+    },
+    {
+      "name": "OBTYP"
+    },
+    {
+      "name": "ERDAT"
+    },
+    {
+      "name": "ERNAM"
+    }
+  ],
+  "relations": [
+    {
+      "table": "TPAR",
+      "type": "config",
+      "on": "PARVW"
+    }
+  ]
 }

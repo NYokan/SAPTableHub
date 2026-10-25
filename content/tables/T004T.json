@@ -30,5 +30,29 @@
       "texto do plano de contas",
       "KTOPL"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "KTOPL",
+      "key": true
+    },
+    {
+      "name": "KTPLT"
+    }
+  ],
+  "relations": [
+    {
+      "table": "T004",
+      "type": "config",
+      "on": "KTOPL"
+    }
+  ]
 }

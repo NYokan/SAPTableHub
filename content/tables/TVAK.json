@@ -34,5 +34,31 @@
       "tipo de pedido",
       "tipo de documento"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "AUART",
+      "key": true
+    },
+    {
+      "name": "VBTYP"
+    },
+    {
+      "name": "NUMKI"
+    },
+    {
+      "name": "KALVG"
+    }
+  ],
+  "relations": [
+    {
+      "table": "TVAKT",
+      "type": "text",
+      "on": "AUART"
+    }
+  ]
 }

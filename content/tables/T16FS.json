@@ -34,5 +34,40 @@
       "aprovação de pedidos",
       "níveis de aprovação"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "FRGGR",
+      "key": true
+    },
+    {
+      "name": "FRGSX",
+      "key": true
+    },
+    {
+      "name": "FRGC1"
+    },
+    {
+      "name": "FRGC2"
+    },
+    {
+      "name": "FRGC3"
+    }
+  ],
+  "relations": [
+    {
+      "table": "T16FT",
+      "type": "text",
+      "on": "FRGGR + FRGSX"
+    },
+    {
+      "table": "T16FG",
+      "type": "config",
+      "on": "FRGGR"
+    }
+  ]
 }

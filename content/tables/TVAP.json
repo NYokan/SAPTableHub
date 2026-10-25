@@ -34,5 +34,28 @@
       "tipo de linha",
       "item gratuito"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "PSTYV",
+      "key": true
+    },
+    {
+      "name": "FKREL"
+    },
+    {
+      "name": "PRSFD"
+    }
+  ],
+  "relations": [
+    {
+      "table": "TVAPT",
+      "type": "text",
+      "on": "PSTYV"
+    }
+  ]
 }

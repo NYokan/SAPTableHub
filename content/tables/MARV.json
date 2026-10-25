@@ -32,5 +32,40 @@
       "fechamento de período MM",
       "MMPV"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "BUKRS",
+      "key": true
+    },
+    {
+      "name": "LFGJA"
+    },
+    {
+      "name": "LFMON"
+    },
+    {
+      "name": "VMGJA"
+    },
+    {
+      "name": "VMMON"
+    },
+    {
+      "name": "XRUEM"
+    },
+    {
+      "name": "XRUEV"
+    }
+  ],
+  "relations": [
+    {
+      "table": "T001",
+      "type": "master",
+      "on": "BUKRS"
+    }
+  ]
 }

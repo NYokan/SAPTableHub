@@ -36,5 +36,49 @@
       "item de serviço",
       "pedido de serviços"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "PACKNO",
+      "key": true
+    },
+    {
+      "name": "INTROW",
+      "key": true
+    },
+    {
+      "name": "EXTROW"
+    },
+    {
+      "name": "SRVPOS"
+    },
+    {
+      "name": "SUB_PACKNO"
+    },
+    {
+      "name": "KTEXT1"
+    },
+    {
+      "name": "MENGE"
+    },
+    {
+      "name": "MEINS"
+    }
+  ],
+  "relations": [
+    {
+      "table": "ESLH",
+      "type": "header",
+      "on": "PACKNO"
+    },
+    {
+      "table": "ASMD",
+      "type": "master",
+      "on": "SRVPOS = ASNUM"
+    }
+  ]
 }

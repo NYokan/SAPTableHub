@@ -27,5 +27,33 @@
       "texto do grupo de contas do razão",
       "descrição do grupo de contas"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "KTOPL",
+      "key": true
+    },
+    {
+      "name": "KTOKS",
+      "key": true
+    },
+    {
+      "name": "TXT30"
+    }
+  ],
+  "relations": [
+    {
+      "table": "T077S",
+      "type": "config",
+      "on": "KTOPL + KTOKS"
+    }
+  ]
 }

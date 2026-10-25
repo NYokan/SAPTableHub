@@ -33,5 +33,86 @@
       "versão de fabricação",
       "combinação lista e roteiro"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "MATNR",
+      "key": true
+    },
+    {
+      "name": "WERKS",
+      "key": true
+    },
+    {
+      "name": "VERID",
+      "key": true
+    },
+    {
+      "name": "ADATU",
+      "label": {
+        "es": "Válida desde",
+        "en": "Valid from",
+        "pt": "Válida desde"
+      }
+    },
+    {
+      "name": "BDATU",
+      "label": {
+        "es": "Válida hasta",
+        "en": "Valid to",
+        "pt": "Válida até"
+      }
+    },
+    {
+      "name": "TEXT1",
+      "type": "CHAR 40",
+      "label": {
+        "es": "Texto breve",
+        "en": "Short text",
+        "pt": "Texto breve"
+      }
+    },
+    {
+      "name": "PLNTY"
+    },
+    {
+      "name": "PLNNR"
+    },
+    {
+      "name": "ALNAL"
+    },
+    {
+      "name": "STLAN"
+    },
+    {
+      "name": "STLAL"
+    },
+    {
+      "name": "BSTMI"
+    },
+    {
+      "name": "BSTMA"
+    }
+  ],
+  "relations": [
+    {
+      "table": "MARC",
+      "type": "master",
+      "on": "MATNR + WERKS"
+    },
+    {
+      "table": "PLKO",
+      "type": "rel",
+      "on": "PLNTY + PLNNR + ALNAL = PLNAL"
+    },
+    {
+      "table": "MAST",
+      "type": "rel",
+      "on": "MATNR + WERKS + STLAN + STLAL"
+    }
+  ]
 }

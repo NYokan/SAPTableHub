@@ -34,5 +34,39 @@
       "código de retenção",
       "isenção de retenção"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "LIFNR",
+      "key": true
+    },
+    {
+      "name": "BUKRS",
+      "key": true
+    },
+    {
+      "name": "WITHT",
+      "key": true
+    },
+    {
+      "name": "WT_WITHCD"
+    },
+    {
+      "name": "WT_SUBJCT"
+    },
+    {
+      "name": "QSREC"
+    }
+  ],
+  "relations": [
+    {
+      "table": "LFB1",
+      "type": "master",
+      "on": "LIFNR + BUKRS"
+    }
+  ]
 }

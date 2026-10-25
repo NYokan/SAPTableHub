@@ -33,5 +33,51 @@
       "leitura",
       "resultado por unidade"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDANT",
+      "key": true
+    },
+    {
+      "name": "PRUEFLOS",
+      "key": true
+    },
+    {
+      "name": "VORGLFNR",
+      "key": true
+    },
+    {
+      "name": "MERKNR",
+      "key": true
+    },
+    {
+      "name": "DETAILERG",
+      "key": true
+    },
+    {
+      "name": "MESSWERT"
+    },
+    {
+      "name": "MBEWERTG"
+    },
+    {
+      "name": "PRUEFER"
+    },
+    {
+      "name": "PRUEFDATUV"
+    }
+  ],
+  "relations": [
+    {
+      "table": "QAMR",
+      "type": "rel",
+      "on": "PRUEFLOS + VORGLFNR + MERKNR"
+    },
+    {
+      "table": "QALS",
+      "type": "header",
+      "on": "PRUEFLOS"
+    }
+  ]
 }

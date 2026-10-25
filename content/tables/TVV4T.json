@@ -28,5 +28,34 @@
       "texto grupo de clientes 4",
       "KVGR4"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "KVGR4",
+      "key": true
+    },
+    {
+      "name": "BEZEI",
+      "label": {
+        "es": "Descripción",
+        "en": "Description",
+        "pt": "Descrição"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "table": "TVV4",
+      "type": "config",
+      "on": "KVGR4"
+    }
+  ]
 }

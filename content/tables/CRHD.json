@@ -39,5 +39,62 @@
       "linha de produção",
       "recurso"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "OBJTY",
+      "key": true
+    },
+    {
+      "name": "OBJID",
+      "key": true
+    },
+    {
+      "name": "ARBPL"
+    },
+    {
+      "name": "WERKS"
+    },
+    {
+      "name": "VERAN"
+    },
+    {
+      "name": "VGWTS"
+    },
+    {
+      "name": "BEGDA"
+    },
+    {
+      "name": "ENDDA"
+    },
+    {
+      "name": "LVORM"
+    }
+  ],
+  "relations": [
+    {
+      "table": "CRTX",
+      "type": "text",
+      "on": "OBJTY + OBJID"
+    },
+    {
+      "table": "CRCA",
+      "type": "rel",
+      "on": "OBJTY + OBJID"
+    },
+    {
+      "table": "TC24",
+      "type": "config",
+      "on": "WERKS + VERAN"
+    },
+    {
+      "table": "T001W",
+      "type": "config",
+      "on": "WERKS"
+    }
+  ]
 }

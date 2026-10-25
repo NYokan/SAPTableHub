@@ -38,5 +38,68 @@
       "item da lista técnica",
       "ingredientes"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "STLTY",
+      "key": true
+    },
+    {
+      "name": "STLNR",
+      "key": true
+    },
+    {
+      "name": "STLKN",
+      "key": true
+    },
+    {
+      "name": "STPOZ",
+      "key": true
+    },
+    {
+      "name": "IDNRK"
+    },
+    {
+      "name": "POSTP"
+    },
+    {
+      "name": "MEINS"
+    },
+    {
+      "name": "POTX1"
+    },
+    {
+      "name": "DATUV"
+    },
+    {
+      "name": "LKENZ"
+    },
+    {
+      "name": "SANKA"
+    },
+    {
+      "name": "AUSCH"
+    }
+  ],
+  "relations": [
+    {
+      "table": "STKO",
+      "type": "header",
+      "on": "STLTY + STLNR"
+    },
+    {
+      "table": "MARA",
+      "type": "master",
+      "on": "IDNRK = MATNR"
+    },
+    {
+      "table": "T418",
+      "type": "config",
+      "on": "POSTP"
+    }
+  ]
 }

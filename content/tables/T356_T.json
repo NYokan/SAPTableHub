@@ -27,5 +27,33 @@
       "texto da prioridade",
       "descrição da urgência"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "ARTPR",
+      "key": true
+    },
+    {
+      "name": "PRIOK",
+      "key": true
+    },
+    {
+      "name": "PRIOKX"
+    }
+  ],
+  "relations": [
+    {
+      "table": "T356",
+      "type": "master",
+      "on": "ARTPR + PRIOK"
+    }
+  ]
 }

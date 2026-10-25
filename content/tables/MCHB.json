@@ -32,5 +32,68 @@
       "saldo do lote",
       "inventário por lote"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "MATNR",
+      "key": true
+    },
+    {
+      "name": "WERKS",
+      "key": true
+    },
+    {
+      "name": "LGORT",
+      "key": true
+    },
+    {
+      "name": "CHARG",
+      "key": true
+    },
+    {
+      "name": "LFGJA"
+    },
+    {
+      "name": "LFMON"
+    },
+    {
+      "name": "ERSDA"
+    },
+    {
+      "name": "CLABS"
+    },
+    {
+      "name": "CUMLM"
+    },
+    {
+      "name": "CINSM"
+    },
+    {
+      "name": "CSPEM"
+    },
+    {
+      "name": "CRETM"
+    }
+  ],
+  "relations": [
+    {
+      "table": "MCHA",
+      "type": "master",
+      "on": "MATNR + WERKS + CHARG"
+    },
+    {
+      "table": "MARD",
+      "type": "rel",
+      "on": "MATNR + WERKS + LGORT"
+    },
+    {
+      "table": "MCHBH",
+      "type": "rel",
+      "on": "MATNR + WERKS + LGORT + CHARG"
+    }
+  ]
 }

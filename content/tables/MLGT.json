@@ -34,5 +34,52 @@
       "dados de material WM",
       "quantidade máxima da posição"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "MATNR",
+      "key": true
+    },
+    {
+      "name": "LGNUM",
+      "key": true
+    },
+    {
+      "name": "LGTYP",
+      "key": true
+    },
+    {
+      "name": "LGPLA"
+    },
+    {
+      "name": "LPMAX"
+    },
+    {
+      "name": "LPMIN"
+    },
+    {
+      "name": "NSMNG"
+    }
+  ],
+  "relations": [
+    {
+      "table": "MLGN",
+      "type": "rel",
+      "on": "MATNR + LGNUM"
+    },
+    {
+      "table": "T301",
+      "type": "config",
+      "on": "LGNUM + LGTYP"
+    },
+    {
+      "table": "MARA",
+      "type": "master",
+      "on": "MATNR"
+    }
+  ]
 }

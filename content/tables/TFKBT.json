@@ -27,5 +27,29 @@
       "texto da área funcional",
       "nome da área funcional"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "FKBER",
+      "key": true
+    },
+    {
+      "name": "FKBTX"
+    }
+  ],
+  "relations": [
+    {
+      "table": "TFKB",
+      "type": "config",
+      "on": "FKBER"
+    }
+  ]
 }

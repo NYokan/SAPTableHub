@@ -32,5 +32,66 @@
       "estoque no fim do mês",
       "estoque por período"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "MATNR",
+      "key": true
+    },
+    {
+      "name": "WERKS",
+      "key": true
+    },
+    {
+      "name": "LGORT",
+      "key": true
+    },
+    {
+      "name": "LFGJA",
+      "key": true
+    },
+    {
+      "name": "LFMON",
+      "key": true
+    },
+    {
+      "name": "LABST"
+    },
+    {
+      "name": "UMLME"
+    },
+    {
+      "name": "INSME"
+    },
+    {
+      "name": "EINME"
+    },
+    {
+      "name": "SPEME"
+    },
+    {
+      "name": "RETME"
+    }
+  ],
+  "relations": [
+    {
+      "table": "MARD",
+      "type": "rel",
+      "on": "MATNR + WERKS + LGORT"
+    },
+    {
+      "table": "MARC",
+      "type": "master",
+      "on": "MATNR + WERKS"
+    },
+    {
+      "table": "T001L",
+      "type": "config",
+      "on": "WERKS + LGORT"
+    }
+  ]
 }

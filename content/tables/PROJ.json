@@ -33,5 +33,67 @@
       "código do projeto",
       "obra"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "PSPNR",
+      "key": true,
+      "label": {
+        "es": "Número interno de proyecto o PEP",
+        "en": "Internal project or WBS number",
+        "pt": "Número interno do projeto ou PEP"
+      }
+    },
+    {
+      "name": "PSPID"
+    },
+    {
+      "name": "POST1"
+    },
+    {
+      "name": "VBUKR"
+    },
+    {
+      "name": "VKOKR"
+    },
+    {
+      "name": "PROFL"
+    },
+    {
+      "name": "PLFAZ"
+    },
+    {
+      "name": "PLSEZ"
+    },
+    {
+      "name": "VERNR"
+    },
+    {
+      "name": "ERDAT"
+    },
+    {
+      "name": "ERNAM"
+    }
+  ],
+  "relations": [
+    {
+      "table": "PRPS",
+      "type": "items",
+      "on": "PSPNR = PSPHI"
+    },
+    {
+      "table": "TCJ04",
+      "type": "config",
+      "on": "VERNR"
+    },
+    {
+      "table": "T001",
+      "type": "config",
+      "on": "VBUKR = BUKRS"
+    }
+  ]
 }

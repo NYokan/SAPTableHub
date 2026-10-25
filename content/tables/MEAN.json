@@ -36,5 +36,44 @@
       "GTIN",
       "UPC"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "MATNR",
+      "key": true
+    },
+    {
+      "name": "MEINH",
+      "key": true
+    },
+    {
+      "name": "LFNUM",
+      "key": true
+    },
+    {
+      "name": "EAN11"
+    },
+    {
+      "name": "EANTP"
+    },
+    {
+      "name": "HPEAN"
+    }
+  ],
+  "relations": [
+    {
+      "table": "MARM",
+      "type": "rel",
+      "on": "MATNR + MEINH"
+    },
+    {
+      "table": "MARA",
+      "type": "master",
+      "on": "MATNR"
+    }
+  ]
 }

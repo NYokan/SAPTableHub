@@ -31,5 +31,29 @@
       "nome tipo de faturamento",
       "FKART"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "FKART",
+      "key": true
+    },
+    {
+      "name": "VTEXT"
+    }
+  ],
+  "relations": [
+    {
+      "table": "TVFK",
+      "type": "config",
+      "on": "FKART"
+    }
+  ]
 }

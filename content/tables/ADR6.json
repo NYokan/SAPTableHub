@@ -33,5 +33,43 @@
       "e-mail de contato",
       "endereço de e-mail"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "CLIENT",
+      "key": true
+    },
+    {
+      "name": "ADDRNUMBER",
+      "key": true
+    },
+    {
+      "name": "PERSNUMBER",
+      "key": true
+    },
+    {
+      "name": "DATE_FROM",
+      "key": true
+    },
+    {
+      "name": "CONSNUMBER",
+      "key": true
+    },
+    {
+      "name": "SMTP_ADDR"
+    },
+    {
+      "name": "FLGDEFAULT"
+    },
+    {
+      "name": "HOME_FLAG"
+    }
+  ],
+  "relations": [
+    {
+      "table": "ADRC",
+      "type": "header",
+      "on": "ADDRNUMBER"
+    }
+  ]
 }

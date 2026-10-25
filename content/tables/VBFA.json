@@ -34,5 +34,61 @@
       "documento subsequente",
       "rastreio ordem-fatura"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "VBELV",
+      "key": true
+    },
+    {
+      "name": "POSNV",
+      "key": true
+    },
+    {
+      "name": "VBELN",
+      "key": true
+    },
+    {
+      "name": "POSNN",
+      "key": true
+    },
+    {
+      "name": "VBTYP_N",
+      "key": true
+    },
+    {
+      "name": "VBTYP_V"
+    },
+    {
+      "name": "RFMNG"
+    },
+    {
+      "name": "RFWRT"
+    },
+    {
+      "name": "WAERS"
+    },
+    {
+      "name": "MATNR"
+    },
+    {
+      "name": "ERDAT"
+    }
+  ],
+  "relations": [
+    {
+      "table": "VBAK",
+      "type": "rel",
+      "on": "VBELV = VBELN"
+    },
+    {
+      "table": "MARA",
+      "type": "master",
+      "on": "MATNR"
+    }
+  ]
 }

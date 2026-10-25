@@ -28,5 +28,33 @@
       "nome da estratégia de liberação",
       "descrição do fluxo de aprovação"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "FRGGR",
+      "key": true
+    },
+    {
+      "name": "FRGSX",
+      "key": true
+    },
+    {
+      "name": "FRGXT"
+    }
+  ],
+  "relations": [
+    {
+      "table": "T16FS",
+      "type": "config",
+      "on": "FRGGR + FRGSX"
+    }
+  ]
 }

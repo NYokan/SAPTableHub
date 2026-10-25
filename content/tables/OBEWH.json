@@ -27,5 +27,66 @@
       "histórico valor estoque no subcontratado",
       "avaliação histórica estoque O"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "MATNR",
+      "key": true
+    },
+    {
+      "name": "BWKEY",
+      "key": true
+    },
+    {
+      "name": "BWTAR",
+      "key": true
+    },
+    {
+      "name": "SOBKZ",
+      "key": true
+    },
+    {
+      "name": "LIFNR",
+      "key": true
+    },
+    {
+      "name": "LFGJA",
+      "key": true
+    },
+    {
+      "name": "LFMON",
+      "key": true
+    },
+    {
+      "name": "LBKUM"
+    },
+    {
+      "name": "SALK3"
+    },
+    {
+      "name": "VPRSV"
+    },
+    {
+      "name": "VERPR"
+    },
+    {
+      "name": "STPRS"
+    }
+  ],
+  "relations": [
+    {
+      "table": "OBEW",
+      "type": "rel",
+      "on": "MATNR + BWKEY + BWTAR + SOBKZ + LIFNR"
+    },
+    {
+      "table": "LFA1",
+      "type": "master",
+      "on": "LIFNR"
+    }
+  ]
 }

@@ -36,5 +36,31 @@
       "KOKRS",
       "estrutura organizacional"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "KOKRS",
+      "key": true
+    },
+    {
+      "name": "WAERS"
+    },
+    {
+      "name": "KTOPL"
+    },
+    {
+      "name": "KHINR"
+    }
+  ],
+  "relations": [
+    {
+      "table": "TKA02",
+      "type": "rel",
+      "on": "KOKRS"
+    }
+  ]
 }

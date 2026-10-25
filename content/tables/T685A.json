@@ -34,5 +34,35 @@
       "controle do tipo de condição",
       "KSCHL"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "KAPPL",
+      "key": true
+    },
+    {
+      "name": "KSCHL",
+      "key": true
+    },
+    {
+      "name": "KRECH"
+    },
+    {
+      "name": "KOAID"
+    },
+    {
+      "name": "KMANU"
+    }
+  ],
+  "relations": [
+    {
+      "table": "T685",
+      "type": "config",
+      "on": "KAPPL + KSCHL"
+    }
+  ]
 }

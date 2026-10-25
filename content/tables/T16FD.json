@@ -28,5 +28,33 @@
       "nome do código de liberação",
       "descrição do aprovador"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "FRGGR",
+      "key": true
+    },
+    {
+      "name": "FRGCO",
+      "key": true
+    },
+    {
+      "name": "FRGCT"
+    }
+  ],
+  "relations": [
+    {
+      "table": "T16FC",
+      "type": "config",
+      "on": "FRGGR + FRGCO"
+    }
+  ]
 }

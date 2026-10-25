@@ -34,5 +34,53 @@
       "código ISO",
       "nacionalidade"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "LAND1",
+      "key": true
+    },
+    {
+      "name": "LANDK"
+    },
+    {
+      "name": "INTCA"
+    },
+    {
+      "name": "INTCA3"
+    },
+    {
+      "name": "WAERS"
+    },
+    {
+      "name": "SPRAS"
+    },
+    {
+      "name": "XEGLD"
+    },
+    {
+      "name": "KALSM"
+    }
+  ],
+  "relations": [
+    {
+      "table": "T005T",
+      "type": "text",
+      "on": "LAND1"
+    },
+    {
+      "table": "T005S",
+      "type": "rel",
+      "on": "LAND1"
+    },
+    {
+      "table": "TCURC",
+      "type": "config",
+      "on": "WAERS"
+    }
+  ]
 }

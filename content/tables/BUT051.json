@@ -33,5 +33,49 @@
       "contato da empresa",
       "departamento do contato"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "CLIENT",
+      "key": true
+    },
+    {
+      "name": "RELNR",
+      "key": true
+    },
+    {
+      "name": "PARTNER1",
+      "key": true
+    },
+    {
+      "name": "PARTNER2",
+      "key": true
+    },
+    {
+      "name": "DATE_TO",
+      "key": true
+    },
+    {
+      "name": "PAFKT",
+      "type": "CHAR 4"
+    },
+    {
+      "name": "ABTNR"
+    },
+    {
+      "name": "TEL_NUMBER"
+    }
+  ],
+  "relations": [
+    {
+      "table": "BUT000",
+      "type": "master",
+      "on": "PARTNER1 = PARTNER"
+    },
+    {
+      "table": "BUT050",
+      "type": "rel",
+      "on": "RELNR + PARTNER1 + PARTNER2 + DATE_TO"
+    }
+  ]
 }

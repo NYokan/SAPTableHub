@@ -33,5 +33,55 @@
       "bloqueio de crédito",
       "gestão de crédito"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "KUNNR",
+      "key": true
+    },
+    {
+      "name": "KKBER",
+      "key": true
+    },
+    {
+      "name": "KLIMK"
+    },
+    {
+      "name": "SKFOR"
+    },
+    {
+      "name": "SAUFT"
+    },
+    {
+      "name": "CTLPC"
+    },
+    {
+      "name": "CRBLB"
+    },
+    {
+      "name": "SBGRP"
+    },
+    {
+      "name": "NXTRV"
+    },
+    {
+      "name": "KNKLI"
+    }
+  ],
+  "relations": [
+    {
+      "table": "KNA1",
+      "type": "master",
+      "on": "KUNNR"
+    },
+    {
+      "table": "KNKA",
+      "type": "rel",
+      "on": "KUNNR"
+    }
+  ]
 }

@@ -31,5 +31,33 @@
       "tipo de documento de compras",
       "descrição do tipo de documento"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "BSART",
+      "key": true
+    },
+    {
+      "name": "BSTYP",
+      "key": true
+    },
+    {
+      "name": "BATXT"
+    }
+  ],
+  "relations": [
+    {
+      "table": "T161",
+      "type": "config",
+      "on": "BSTYP + BSART"
+    }
+  ]
 }

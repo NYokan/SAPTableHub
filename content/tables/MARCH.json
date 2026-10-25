@@ -30,5 +30,50 @@
       "estoque de período anterior",
       "estoque no fechamento do mês"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "MATNR",
+      "key": true
+    },
+    {
+      "name": "WERKS",
+      "key": true
+    },
+    {
+      "name": "LFGJA",
+      "key": true
+    },
+    {
+      "name": "LFMON",
+      "key": true
+    },
+    {
+      "name": "UMLMC"
+    },
+    {
+      "name": "TRAME"
+    }
+  ],
+  "relations": [
+    {
+      "table": "MARC",
+      "type": "rel",
+      "on": "MATNR + WERKS"
+    },
+    {
+      "table": "MARA",
+      "type": "master",
+      "on": "MATNR"
+    },
+    {
+      "table": "T001W",
+      "type": "config",
+      "on": "WERKS"
+    }
+  ]
 }

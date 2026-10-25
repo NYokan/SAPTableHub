@@ -36,5 +36,28 @@
       "tipo de conta",
       "código de lançamento"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "BSCHL",
+      "key": true
+    },
+    {
+      "name": "KOART"
+    },
+    {
+      "name": "SHKZG"
+    }
+  ],
+  "relations": [
+    {
+      "table": "TBSLT",
+      "type": "text",
+      "on": "BSCHL"
+    }
+  ]
 }

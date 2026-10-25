@@ -30,5 +30,42 @@
       "imposto retido na fonte",
       "retenção do cliente"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "KUNNR",
+      "key": true
+    },
+    {
+      "name": "BUKRS",
+      "key": true
+    },
+    {
+      "name": "WITHT",
+      "key": true
+    },
+    {
+      "name": "WT_WITHCD"
+    },
+    {
+      "name": "WT_AGENT"
+    },
+    {
+      "name": "WT_AGTDF"
+    },
+    {
+      "name": "WT_AGTDT"
+    }
+  ],
+  "relations": [
+    {
+      "table": "KNB1",
+      "type": "master",
+      "on": "KUNNR + BUKRS"
+    }
+  ]
 }

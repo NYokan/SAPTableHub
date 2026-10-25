@@ -31,5 +31,46 @@
       "sub-faixa do fornecedor",
       "fornecedor por centro"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "LIFNR",
+      "key": true
+    },
+    {
+      "name": "EKORG",
+      "key": true
+    },
+    {
+      "name": "LTSNR",
+      "key": true
+    },
+    {
+      "name": "WERKS",
+      "key": true
+    },
+    {
+      "name": "WAERS"
+    },
+    {
+      "name": "ZTERM"
+    },
+    {
+      "name": "INCO1"
+    },
+    {
+      "name": "EKGRP"
+    }
+  ],
+  "relations": [
+    {
+      "table": "LFM1",
+      "type": "master",
+      "on": "LIFNR + EKORG"
+    }
+  ]
 }

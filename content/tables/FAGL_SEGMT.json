@@ -27,5 +27,29 @@
       "texto do segmento",
       "nome do segmento"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "LANGU",
+      "key": true
+    },
+    {
+      "name": "SEGMENT",
+      "key": true
+    },
+    {
+      "name": "NAME"
+    }
+  ],
+  "relations": [
+    {
+      "table": "FAGL_SEGM",
+      "type": "config",
+      "on": "SEGMENT"
+    }
+  ]
 }

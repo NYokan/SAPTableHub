@@ -31,5 +31,30 @@
       "integração CVI",
       "número de fornecedor do BP"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "CLIENT",
+      "key": true
+    },
+    {
+      "name": "PARTNER_GUID",
+      "key": true
+    },
+    {
+      "name": "VENDOR"
+    }
+  ],
+  "relations": [
+    {
+      "table": "LFA1",
+      "type": "master",
+      "on": "VENDOR = LIFNR"
+    },
+    {
+      "table": "BUT000",
+      "type": "master",
+      "on": "PARTNER_GUID"
+    }
+  ]
 }

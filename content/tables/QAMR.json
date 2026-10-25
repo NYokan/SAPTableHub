@@ -36,5 +36,47 @@
       "análise",
       "medição"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDANT",
+      "key": true
+    },
+    {
+      "name": "PRUEFLOS",
+      "key": true
+    },
+    {
+      "name": "VORGLFNR",
+      "key": true
+    },
+    {
+      "name": "MERKNR",
+      "key": true
+    },
+    {
+      "name": "MBEWERTG"
+    },
+    {
+      "name": "MITTELWERT"
+    },
+    {
+      "name": "PRUEFER"
+    },
+    {
+      "name": "PRUEFDATUV"
+    }
+  ],
+  "relations": [
+    {
+      "table": "QAMV",
+      "type": "rel",
+      "on": "PRUEFLOS + VORGLFNR + MERKNR"
+    },
+    {
+      "table": "QALS",
+      "type": "header",
+      "on": "PRUEFLOS"
+    }
+  ]
 }

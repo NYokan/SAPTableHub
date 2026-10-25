@@ -36,5 +36,66 @@
       "estoque WM",
       "estoque no depósito"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "LGNUM",
+      "key": true
+    },
+    {
+      "name": "LQNUM",
+      "key": true
+    },
+    {
+      "name": "MATNR"
+    },
+    {
+      "name": "WERKS"
+    },
+    {
+      "name": "CHARG"
+    },
+    {
+      "name": "BESTQ"
+    },
+    {
+      "name": "SOBKZ"
+    },
+    {
+      "name": "LGTYP"
+    },
+    {
+      "name": "LGPLA"
+    },
+    {
+      "name": "GESME"
+    },
+    {
+      "name": "VERME"
+    },
+    {
+      "name": "MEINS"
+    }
+  ],
+  "relations": [
+    {
+      "table": "LAGP",
+      "type": "master",
+      "on": "LGNUM + LGTYP + LGPLA"
+    },
+    {
+      "table": "MARA",
+      "type": "master",
+      "on": "MATNR"
+    },
+    {
+      "table": "LEIN",
+      "type": "rel",
+      "on": "LENUM"
+    }
+  ]
 }

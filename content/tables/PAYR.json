@@ -36,5 +36,77 @@
       "cheque anulado",
       "pagamento com cheque"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "ZBUKR",
+      "key": true
+    },
+    {
+      "name": "HBKID",
+      "key": true
+    },
+    {
+      "name": "HKTID",
+      "key": true
+    },
+    {
+      "name": "RZAWE",
+      "key": true
+    },
+    {
+      "name": "CHECT",
+      "key": true
+    },
+    {
+      "name": "VBLNR"
+    },
+    {
+      "name": "GJAHR"
+    },
+    {
+      "name": "ZALDT"
+    },
+    {
+      "name": "RWBTR"
+    },
+    {
+      "name": "WAERS"
+    },
+    {
+      "name": "LIFNR"
+    },
+    {
+      "name": "KUNNR"
+    },
+    {
+      "name": "ZNME1"
+    }
+  ],
+  "relations": [
+    {
+      "table": "BKPF",
+      "type": "rel",
+      "on": "ZBUKR = BUKRS + VBLNR = BELNR + GJAHR"
+    },
+    {
+      "table": "T012",
+      "type": "config",
+      "on": "ZBUKR = BUKRS + HBKID"
+    },
+    {
+      "table": "LFA1",
+      "type": "master",
+      "on": "LIFNR"
+    },
+    {
+      "table": "KNA1",
+      "type": "master",
+      "on": "KUNNR"
+    }
+  ]
 }

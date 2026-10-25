@@ -30,5 +30,38 @@
       "conta de depreciação acumulada",
       "determinação de contas de ativos"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "KTOPL",
+      "key": true
+    },
+    {
+      "name": "KTOGR",
+      "key": true
+    },
+    {
+      "name": "AFABE",
+      "key": true
+    },
+    {
+      "name": "KTANSW"
+    }
+  ],
+  "relations": [
+    {
+      "table": "T095B",
+      "type": "rel",
+      "on": "KTOPL + KTOGR + AFABE"
+    },
+    {
+      "table": "SKA1",
+      "type": "master",
+      "on": "KTOPL + KTANSW = SAKNR"
+    }
+  ]
 }

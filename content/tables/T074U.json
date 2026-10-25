@@ -36,5 +36,34 @@
       "UMSKZ",
       "letra de câmbio"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "KOART",
+      "key": true
+    },
+    {
+      "name": "UMSKZ",
+      "key": true
+    },
+    {
+      "name": "UMSKS"
+    }
+  ],
+  "relations": [
+    {
+      "table": "T074T",
+      "type": "text",
+      "on": "KOART + UMSKZ = SHBKZ"
+    },
+    {
+      "table": "T074",
+      "type": "rel",
+      "on": "KOART + UMSKZ"
+    }
+  ]
 }

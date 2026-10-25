@@ -37,5 +37,45 @@
       "RC",
       "elemento PEP"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "BANFN",
+      "key": true
+    },
+    {
+      "name": "BNFPO",
+      "key": true
+    },
+    {
+      "name": "ZEBKN",
+      "key": true
+    },
+    {
+      "name": "SAKTO"
+    },
+    {
+      "name": "KOSTL"
+    },
+    {
+      "name": "AUFNR"
+    },
+    {
+      "name": "ANLN1"
+    },
+    {
+      "name": "MENGE"
+    }
+  ],
+  "relations": [
+    {
+      "table": "EBAN",
+      "type": "header",
+      "on": "BANFN + BNFPO"
+    }
+  ]
 }

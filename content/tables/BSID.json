@@ -33,5 +33,82 @@
       "aging de clientes",
       "faturas a receber"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "BUKRS",
+      "key": true
+    },
+    {
+      "name": "KUNNR",
+      "key": true
+    },
+    {
+      "name": "UMSKS",
+      "key": true
+    },
+    {
+      "name": "UMSKZ",
+      "key": true
+    },
+    {
+      "name": "AUGDT",
+      "key": true
+    },
+    {
+      "name": "AUGBL",
+      "key": true
+    },
+    {
+      "name": "ZUONR",
+      "key": true
+    },
+    {
+      "name": "GJAHR",
+      "key": true
+    },
+    {
+      "name": "BELNR",
+      "key": true
+    },
+    {
+      "name": "BUZEI",
+      "key": true
+    },
+    {
+      "name": "BUDAT"
+    },
+    {
+      "name": "DMBTR"
+    },
+    {
+      "name": "SHKZG"
+    }
+  ],
+  "relations": [
+    {
+      "table": "BKPF",
+      "type": "header",
+      "on": "BUKRS + BELNR + GJAHR"
+    },
+    {
+      "table": "BSEG",
+      "type": "rel",
+      "on": "BUKRS + BELNR + GJAHR + BUZEI"
+    },
+    {
+      "table": "KNA1",
+      "type": "master",
+      "on": "KUNNR"
+    },
+    {
+      "table": "KNB1",
+      "type": "master",
+      "on": "KUNNR + BUKRS"
+    }
+  ]
 }

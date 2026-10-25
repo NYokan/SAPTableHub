@@ -36,5 +36,69 @@
       "ficha do ativo",
       "mestre de ativos"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "BUKRS",
+      "key": true
+    },
+    {
+      "name": "ANLN1",
+      "key": true
+    },
+    {
+      "name": "ANLN2",
+      "key": true
+    },
+    {
+      "name": "ANLKL"
+    },
+    {
+      "name": "TXT50"
+    },
+    {
+      "name": "AKTIV"
+    },
+    {
+      "name": "DEAKT"
+    },
+    {
+      "name": "ZUGDT"
+    },
+    {
+      "name": "INVNR"
+    },
+    {
+      "name": "ERDAT"
+    },
+    {
+      "name": "ERNAM"
+    }
+  ],
+  "relations": [
+    {
+      "table": "ANKA",
+      "type": "config",
+      "on": "ANLKL"
+    },
+    {
+      "table": "ANLZ",
+      "type": "rel",
+      "on": "BUKRS + ANLN1 + ANLN2"
+    },
+    {
+      "table": "ANLB",
+      "type": "rel",
+      "on": "BUKRS + ANLN1 + ANLN2"
+    },
+    {
+      "table": "T001",
+      "type": "config",
+      "on": "BUKRS"
+    }
+  ]
 }

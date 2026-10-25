@@ -34,5 +34,63 @@
       "material embalado",
       "embalagem"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "VENUM",
+      "key": true
+    },
+    {
+      "name": "VEPOS",
+      "key": true
+    },
+    {
+      "name": "VELIN"
+    },
+    {
+      "name": "VBELN"
+    },
+    {
+      "name": "POSNR"
+    },
+    {
+      "name": "MATNR"
+    },
+    {
+      "name": "CHARG"
+    },
+    {
+      "name": "VEMNG"
+    },
+    {
+      "name": "VEMEH"
+    },
+    {
+      "name": "WERKS"
+    },
+    {
+      "name": "LGORT"
+    }
+  ],
+  "relations": [
+    {
+      "table": "VEKP",
+      "type": "header",
+      "on": "VENUM"
+    },
+    {
+      "table": "MARA",
+      "type": "master",
+      "on": "MATNR"
+    },
+    {
+      "table": "LIPS",
+      "type": "rel",
+      "on": "VBELN + POSNR"
+    }
+  ]
 }

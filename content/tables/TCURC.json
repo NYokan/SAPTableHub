@@ -34,5 +34,36 @@
       "código ISO da moeda",
       "divisas"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "WAERS",
+      "key": true
+    },
+    {
+      "name": "ISOCD"
+    },
+    {
+      "name": "ALTWR"
+    },
+    {
+      "name": "XPRIMARY"
+    }
+  ],
+  "relations": [
+    {
+      "table": "TCURT",
+      "type": "text",
+      "on": "WAERS"
+    },
+    {
+      "table": "TCURX",
+      "type": "config",
+      "on": "WAERS = CURRKEY"
+    }
+  ]
 }

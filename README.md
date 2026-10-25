@@ -78,7 +78,7 @@ Crea `content/tables/NOMBRE.json`. Solo `id`, `area`, `contents` y `title` son o
 ```
 
 - `area`, `contents`, `category`, `deliveryClass` y `relations[].type` usan los códigos de `taxonomy.json`.
-- Cada campo de `fields` debe existir en `fields.json`.
+- Cada campo de `fields` debe existir en `fields.json`. Si en esa tabla tiene otra longitud que la del diccionario (por ejemplo, textos `VTEXT` de 40 caracteres), se indica con `"type": "CHAR 40"` en el propio campo.
 - `synonyms` son las palabras de negocio con las que la gente buscaría la tabla. Mejoran mucho la búsqueda.
 - Las tablas con espacio de nombres (`/ABC/TABLA`) se guardan como `_ABC_TABLA.json`.
 

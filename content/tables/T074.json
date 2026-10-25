@@ -34,5 +34,42 @@
       "conta de reconciliação especial",
       "UMSKZ"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "KTOPL",
+      "key": true
+    },
+    {
+      "name": "KOART",
+      "key": true
+    },
+    {
+      "name": "UMSKZ",
+      "key": true
+    },
+    {
+      "name": "HKONT",
+      "key": true
+    },
+    {
+      "name": "SKONT"
+    }
+  ],
+  "relations": [
+    {
+      "table": "T074U",
+      "type": "config",
+      "on": "KOART + UMSKZ"
+    },
+    {
+      "table": "SKA1",
+      "type": "master",
+      "on": "KTOPL + SKONT = SAKNR"
+    }
+  ]
 }

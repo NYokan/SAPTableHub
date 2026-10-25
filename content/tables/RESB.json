@@ -38,5 +38,70 @@
       "necessidade dependente",
       "retirada de material"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "RSNUM",
+      "key": true
+    },
+    {
+      "name": "RSPOS",
+      "key": true
+    },
+    {
+      "name": "RSART",
+      "key": true
+    },
+    {
+      "name": "MATNR"
+    },
+    {
+      "name": "WERKS"
+    },
+    {
+      "name": "LGORT"
+    },
+    {
+      "name": "BDTER"
+    },
+    {
+      "name": "BDMNG"
+    },
+    {
+      "name": "MEINS"
+    },
+    {
+      "name": "ENMNG"
+    },
+    {
+      "name": "AUFNR"
+    },
+    {
+      "name": "BWART"
+    },
+    {
+      "name": "XLOEK"
+    }
+  ],
+  "relations": [
+    {
+      "table": "AFKO",
+      "type": "rel",
+      "on": "RSNUM"
+    },
+    {
+      "table": "MARA",
+      "type": "master",
+      "on": "MATNR"
+    },
+    {
+      "table": "T001W",
+      "type": "config",
+      "on": "WERKS"
+    }
+  ]
 }

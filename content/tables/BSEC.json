@@ -34,5 +34,66 @@
       "conta CPD",
       "dados de terceiro esporádico"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "BUKRS",
+      "key": true
+    },
+    {
+      "name": "BELNR",
+      "key": true
+    },
+    {
+      "name": "GJAHR",
+      "key": true
+    },
+    {
+      "name": "BUZEI",
+      "key": true
+    },
+    {
+      "name": "NAME1"
+    },
+    {
+      "name": "STRAS"
+    },
+    {
+      "name": "PSTLZ"
+    },
+    {
+      "name": "ORT01"
+    },
+    {
+      "name": "LAND1"
+    },
+    {
+      "name": "STCD1"
+    },
+    {
+      "name": "BANKS"
+    },
+    {
+      "name": "BANKL"
+    },
+    {
+      "name": "BANKN"
+    }
+  ],
+  "relations": [
+    {
+      "table": "BKPF",
+      "type": "header",
+      "on": "BUKRS + BELNR + GJAHR"
+    },
+    {
+      "table": "BSEG",
+      "type": "rel",
+      "on": "BUKRS + BELNR + GJAHR + BUZEI"
+    }
+  ]
 }

@@ -27,5 +27,29 @@
       "texto grupo classificação contábil material",
       "KTGRM"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "KTGRM",
+      "key": true
+    },
+    {
+      "name": "VTEXT"
+    }
+  ],
+  "relations": [
+    {
+      "table": "TVKM",
+      "type": "config",
+      "on": "KTGRM"
+    }
+  ]
 }

@@ -35,5 +35,57 @@
       "celular",
       "ramal"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "CLIENT",
+      "key": true
+    },
+    {
+      "name": "ADDRNUMBER",
+      "key": true
+    },
+    {
+      "name": "PERSNUMBER",
+      "key": true
+    },
+    {
+      "name": "DATE_FROM",
+      "key": true
+    },
+    {
+      "name": "CONSNUMBER",
+      "key": true
+    },
+    {
+      "name": "COUNTRY"
+    },
+    {
+      "name": "TEL_NUMBER"
+    },
+    {
+      "name": "TEL_EXTENS"
+    },
+    {
+      "name": "TELNR_LONG"
+    },
+    {
+      "name": "FLGDEFAULT"
+    },
+    {
+      "name": "R3_USER"
+    }
+  ],
+  "relations": [
+    {
+      "table": "ADRC",
+      "type": "header",
+      "on": "ADDRNUMBER"
+    },
+    {
+      "table": "T005",
+      "type": "config",
+      "on": "COUNTRY = LAND1"
+    }
+  ]
 }

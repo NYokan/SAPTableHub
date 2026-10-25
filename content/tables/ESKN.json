@@ -31,5 +31,38 @@
       "centro de custo do serviço",
       "conta do serviço"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "PACKNO",
+      "key": true
+    },
+    {
+      "name": "ZEKKN",
+      "key": true
+    },
+    {
+      "name": "SAKTO"
+    },
+    {
+      "name": "KOSTL"
+    },
+    {
+      "name": "AUFNR"
+    },
+    {
+      "name": "ANLN1"
+    }
+  ],
+  "relations": [
+    {
+      "table": "ESLL",
+      "type": "rel",
+      "on": "PACKNO"
+    }
+  ]
 }

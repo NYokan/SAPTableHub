@@ -34,5 +34,59 @@
       "endereço do pedido",
       "fornecedor de mercadorias"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "LIFNR",
+      "key": true
+    },
+    {
+      "name": "EKORG",
+      "key": true
+    },
+    {
+      "name": "LTSNR",
+      "key": true
+    },
+    {
+      "name": "WERKS",
+      "key": true
+    },
+    {
+      "name": "PARVW",
+      "key": true
+    },
+    {
+      "name": "PARZA",
+      "key": true
+    },
+    {
+      "name": "LIFN2"
+    },
+    {
+      "name": "DEFPA"
+    },
+    {
+      "name": "ERDAT"
+    },
+    {
+      "name": "ERNAM"
+    }
+  ],
+  "relations": [
+    {
+      "table": "LFM1",
+      "type": "master",
+      "on": "LIFNR + EKORG"
+    },
+    {
+      "table": "LFA1",
+      "type": "rel",
+      "on": "LIFN2 = LIFNR"
+    }
+  ]
 }

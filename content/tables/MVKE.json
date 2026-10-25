@@ -33,5 +33,70 @@
       "unidade de venda",
       "centro fornecedor"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "MATNR",
+      "key": true
+    },
+    {
+      "name": "VKORG",
+      "key": true
+    },
+    {
+      "name": "VTWEG",
+      "key": true
+    },
+    {
+      "name": "VMSTA"
+    },
+    {
+      "name": "VMSTD"
+    },
+    {
+      "name": "DWERK"
+    },
+    {
+      "name": "KONDM"
+    },
+    {
+      "name": "KTGRM"
+    },
+    {
+      "name": "MTPOS"
+    },
+    {
+      "name": "PRODH"
+    },
+    {
+      "name": "VRKME"
+    },
+    {
+      "name": "AUMNG"
+    },
+    {
+      "name": "MVGR1"
+    }
+  ],
+  "relations": [
+    {
+      "table": "MARA",
+      "type": "master",
+      "on": "MATNR"
+    },
+    {
+      "table": "TVKOV",
+      "type": "config",
+      "on": "VKORG + VTWEG"
+    },
+    {
+      "table": "T179",
+      "type": "config",
+      "on": "PRODH"
+    }
+  ]
 }

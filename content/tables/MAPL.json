@@ -32,5 +32,57 @@
       "atribuição de roteiro",
       "plano do material"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "MATNR",
+      "key": true
+    },
+    {
+      "name": "WERKS",
+      "key": true
+    },
+    {
+      "name": "PLNTY",
+      "key": true
+    },
+    {
+      "name": "PLNNR",
+      "key": true
+    },
+    {
+      "name": "PLNAL",
+      "key": true
+    },
+    {
+      "name": "ZKRIZ",
+      "key": true
+    },
+    {
+      "name": "ZAEHL",
+      "key": true
+    },
+    {
+      "name": "DATUV"
+    },
+    {
+      "name": "LOEKZ"
+    }
+  ],
+  "relations": [
+    {
+      "table": "PLKO",
+      "type": "header",
+      "on": "PLNTY + PLNNR + PLNAL"
+    },
+    {
+      "table": "MARC",
+      "type": "master",
+      "on": "MATNR + WERKS"
+    }
+  ]
 }

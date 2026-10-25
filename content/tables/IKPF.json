@@ -36,5 +36,46 @@
       "inventário",
       "documento de inventário"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "IBLNR",
+      "key": true
+    },
+    {
+      "name": "GJAHR",
+      "key": true
+    },
+    {
+      "name": "WERKS"
+    },
+    {
+      "name": "LGORT"
+    },
+    {
+      "name": "SOBKZ"
+    },
+    {
+      "name": "GIDAT"
+    },
+    {
+      "name": "ZLDAT"
+    }
+  ],
+  "relations": [
+    {
+      "table": "ISEG",
+      "type": "items",
+      "on": "IBLNR + GJAHR"
+    },
+    {
+      "table": "T001L",
+      "type": "config",
+      "on": "WERKS + LGORT"
+    }
+  ]
 }

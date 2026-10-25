@@ -30,5 +30,36 @@
       "desconto por valor",
       "faixas por valor"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "KNUMH",
+      "key": true
+    },
+    {
+      "name": "KOPOS",
+      "key": true
+    },
+    {
+      "name": "KLFN1",
+      "key": true
+    },
+    {
+      "name": "KSTBW"
+    },
+    {
+      "name": "KBETR"
+    }
+  ],
+  "relations": [
+    {
+      "table": "KONP",
+      "type": "header",
+      "on": "KNUMH + KOPOS"
+    }
+  ]
 }

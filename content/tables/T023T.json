@@ -28,5 +28,32 @@
       "texto do grupo de mercadorias",
       "descrição do grupo de materiais"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "MATKL",
+      "key": true
+    },
+    {
+      "name": "WGBEZ"
+    },
+    {
+      "name": "WGBEZ60"
+    }
+  ],
+  "relations": [
+    {
+      "table": "T023",
+      "type": "master",
+      "on": "MATKL"
+    }
+  ]
 }

@@ -45,6 +45,9 @@ describe('search', () => {
   });
   it('sends a field name to its home table', () => {
     assert.equal(ids('MATNR')[0], 'MARA');
+    // the table whose whole key is the field, and the most referenced of those
+    assert.equal(ids('BUKRS')[0], 'T001');
+    assert.equal(ids('WERKS')[0], 'T001W');
     const hit = search(entries, 'MATNR', 'es').hits.find((h) => h.t.id === 'VBAP');
     assert.deepEqual(hit?.via, { field: 'MATNR' });
   });

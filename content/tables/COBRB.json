@@ -36,5 +36,54 @@
       "percentual de distribuição",
       "destino de custos"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "OBJNR",
+      "key": true
+    },
+    {
+      "name": "BUREG",
+      "key": true
+    },
+    {
+      "name": "LFDNR",
+      "key": true
+    },
+    {
+      "name": "PERBZ"
+    },
+    {
+      "name": "PROZS"
+    },
+    {
+      "name": "KONTY"
+    },
+    {
+      "name": "KOSTL"
+    },
+    {
+      "name": "AUFNR"
+    },
+    {
+      "name": "HKONT"
+    },
+    {
+      "name": "GABJA"
+    },
+    {
+      "name": "GABPE"
+    }
+  ],
+  "relations": [
+    {
+      "table": "AUFK",
+      "type": "master",
+      "on": "AUFNR"
+    }
+  ]
 }

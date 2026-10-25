@@ -2,6 +2,7 @@ import assert from 'node:assert/strict';
 import path from 'node:path';
 import { describe, it } from 'node:test';
 import { compile, loadContent, shardOf as buildShard, validate, type Content } from '../scripts/lib/content.mjs';
+import { parseField } from '../src/lib/fields.ts';
 import { shardOf as siteShard } from '../src/lib/shard.ts';
 import en from '../src/i18n/en.json' with { type: 'json' };
 import es from '../src/i18n/es.json' with { type: 'json' };
@@ -38,6 +39,16 @@ describe('content', () => {
     const errors = validate(c).join('\n');
     assert.match(errors, /área desconocida "hr"/);
     assert.match(errors, /categoría desconocida "VIEW"/);
+  });
+  it('keeps a field type that differs in one table, and reads it back in the site', () => {
+    const c = clone();
+    const t = c.tables.find((x) => x.data.fields)!;
+    t.data.fields[t.data.fields.length - 1].type = 'CHAR 40';
+    assert.deepEqual(validate(c), []);
+    const entry = compile(c).index.tables.find((x) => x.id === t.data.id)!.f.at(-1)!;
+    assert.deepEqual(parseField(entry), { name: t.data.fields.at(-1).name, key: false, type: 'CHAR 40' });
+    t.data.fields[0].type = 'texto';
+    assert.match(validate(c).join('\n'), /debe tener la forma "CHAR 40"/);
   });
   it('compiles every table into exactly one detail group', () => {
     const { index, details } = compile(content);

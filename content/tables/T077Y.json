@@ -28,5 +28,29 @@
       "nome do grupo de contas",
       "descrição do grupo de fornecedores"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "KTOKK",
+      "key": true
+    },
+    {
+      "name": "TXT30"
+    }
+  ],
+  "relations": [
+    {
+      "table": "T077K",
+      "type": "config",
+      "on": "KTOKK"
+    }
+  ]
 }

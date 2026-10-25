@@ -33,5 +33,62 @@
       "rede de clientes",
       "nó superior"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "HITYP",
+      "key": true
+    },
+    {
+      "name": "KUNNR",
+      "key": true
+    },
+    {
+      "name": "VKORG",
+      "key": true
+    },
+    {
+      "name": "VTWEG",
+      "key": true
+    },
+    {
+      "name": "SPART",
+      "key": true
+    },
+    {
+      "name": "DATAB",
+      "key": true
+    },
+    {
+      "name": "DATBI"
+    },
+    {
+      "name": "HKUNNR"
+    },
+    {
+      "name": "HVKORG"
+    },
+    {
+      "name": "HVTWEG"
+    },
+    {
+      "name": "HSPART"
+    }
+  ],
+  "relations": [
+    {
+      "table": "KNA1",
+      "type": "master",
+      "on": "KUNNR"
+    },
+    {
+      "table": "KNVV",
+      "type": "master",
+      "on": "KUNNR + VKORG + VTWEG + SPART"
+    }
+  ]
 }

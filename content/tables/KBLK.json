@@ -34,5 +34,39 @@
       "fundos comprometidos",
       "earmarked funds"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "BELNR",
+      "key": true
+    },
+    {
+      "name": "BLTYP"
+    },
+    {
+      "name": "BUKRS"
+    },
+    {
+      "name": "BLDAT"
+    },
+    {
+      "name": "BUDAT"
+    }
+  ],
+  "relations": [
+    {
+      "table": "KBLP",
+      "type": "items",
+      "on": "BELNR"
+    },
+    {
+      "table": "T001",
+      "type": "config",
+      "on": "BUKRS"
+    }
+  ]
 }

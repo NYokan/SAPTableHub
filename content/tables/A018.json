@@ -33,5 +33,67 @@
       "preço por fornecedor e material",
       "condições de compra"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "KAPPL",
+      "key": true
+    },
+    {
+      "name": "KSCHL",
+      "key": true
+    },
+    {
+      "name": "LIFNR",
+      "key": true
+    },
+    {
+      "name": "MATNR",
+      "key": true
+    },
+    {
+      "name": "EKORG",
+      "key": true
+    },
+    {
+      "name": "ESOKZ",
+      "key": true
+    },
+    {
+      "name": "DATBI",
+      "key": true
+    },
+    {
+      "name": "DATAB"
+    },
+    {
+      "name": "KNUMH"
+    }
+  ],
+  "relations": [
+    {
+      "table": "KONH",
+      "type": "rel",
+      "on": "KNUMH"
+    },
+    {
+      "table": "KONP",
+      "type": "rel",
+      "on": "KNUMH"
+    },
+    {
+      "table": "LFA1",
+      "type": "master",
+      "on": "LIFNR"
+    },
+    {
+      "table": "MARA",
+      "type": "master",
+      "on": "MATNR"
+    }
+  ]
 }

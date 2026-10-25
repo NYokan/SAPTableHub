@@ -33,5 +33,61 @@
       "requisição de material",
       "solicitação ao almoxarifado"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "RSNUM",
+      "key": true
+    },
+    {
+      "name": "RSDAT"
+    },
+    {
+      "name": "USNAM"
+    },
+    {
+      "name": "BWART"
+    },
+    {
+      "name": "WEMPF"
+    },
+    {
+      "name": "KOSTL"
+    },
+    {
+      "name": "AUFNR"
+    },
+    {
+      "name": "UMWRK"
+    },
+    {
+      "name": "UMLGO"
+    }
+  ],
+  "relations": [
+    {
+      "table": "RESB",
+      "type": "items",
+      "on": "RSNUM"
+    },
+    {
+      "table": "CSKS",
+      "type": "master",
+      "on": "KOSTL"
+    },
+    {
+      "table": "AUFK",
+      "type": "master",
+      "on": "AUFNR"
+    },
+    {
+      "table": "T156",
+      "type": "config",
+      "on": "BWART"
+    }
+  ]
 }

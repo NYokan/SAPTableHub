@@ -28,5 +28,29 @@
       "texto condição de expedição",
       "VSBED"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "VSBED",
+      "key": true
+    },
+    {
+      "name": "VTEXT"
+    }
+  ],
+  "relations": [
+    {
+      "table": "TVSB",
+      "type": "config",
+      "on": "VSBED"
+    }
+  ]
 }

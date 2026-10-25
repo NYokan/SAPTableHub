@@ -36,5 +36,62 @@
       "data confirmada",
       "ASN"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "EBELN",
+      "key": true
+    },
+    {
+      "name": "EBELP",
+      "key": true
+    },
+    {
+      "name": "ETENS",
+      "key": true
+    },
+    {
+      "name": "EBTYP"
+    },
+    {
+      "name": "EINDT"
+    },
+    {
+      "name": "MENGE"
+    },
+    {
+      "name": "DABMG"
+    },
+    {
+      "name": "XBLNR",
+      "type": "CHAR 35",
+      "label": {
+        "es": "Referencia externa",
+        "en": "Reference document number",
+        "pt": "Referência externa"
+      }
+    },
+    {
+      "name": "VBELN"
+    },
+    {
+      "name": "ERDAT"
+    }
+  ],
+  "relations": [
+    {
+      "table": "EKPO",
+      "type": "header",
+      "on": "EBELN + EBELP"
+    },
+    {
+      "table": "LIKP",
+      "type": "rel",
+      "on": "VBELN"
+    }
+  ]
 }

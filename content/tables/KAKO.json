@@ -36,5 +36,51 @@
       "turnos",
       "utilização"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "KAPID",
+      "key": true
+    },
+    {
+      "name": "NAME",
+      "type": "CHAR 8"
+    },
+    {
+      "name": "WERKS"
+    },
+    {
+      "name": "KAPAR"
+    },
+    {
+      "name": "PLANR"
+    },
+    {
+      "name": "BEGZT"
+    },
+    {
+      "name": "ENDZT"
+    }
+  ],
+  "relations": [
+    {
+      "table": "KAKT",
+      "type": "text",
+      "on": "KAPID"
+    },
+    {
+      "table": "TC26",
+      "type": "config",
+      "on": "KAPAR"
+    },
+    {
+      "table": "T001W",
+      "type": "config",
+      "on": "WERKS"
+    }
+  ]
 }

@@ -36,5 +36,53 @@
       "atividade planejada",
       "utilização"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "LEDNR",
+      "key": true
+    },
+    {
+      "name": "OBJNR",
+      "key": true
+    },
+    {
+      "name": "GJAHR",
+      "key": true
+    },
+    {
+      "name": "WRTTP",
+      "key": true
+    },
+    {
+      "name": "VERSN",
+      "key": true,
+      "label": {
+        "es": "Versión",
+        "en": "Version",
+        "pt": "Versão"
+      }
+    },
+    {
+      "name": "VRGNG",
+      "key": true
+    },
+    {
+      "name": "PERBL",
+      "key": true
+    },
+    {
+      "name": "MEINH"
+    },
+    {
+      "name": "LST001"
+    },
+    {
+      "name": "KAP001"
+    }
+  ]
 }

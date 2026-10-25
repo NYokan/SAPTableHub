@@ -34,5 +34,52 @@
       "passos do esquema",
       "KALSM"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "KVEWE",
+      "key": true
+    },
+    {
+      "name": "KAPPL",
+      "key": true
+    },
+    {
+      "name": "KALSM",
+      "key": true
+    },
+    {
+      "name": "STUNR",
+      "key": true
+    },
+    {
+      "name": "ZAEHK",
+      "key": true
+    },
+    {
+      "name": "KSCHL"
+    },
+    {
+      "name": "KVSL1"
+    },
+    {
+      "name": "KOFRM"
+    }
+  ],
+  "relations": [
+    {
+      "table": "T683",
+      "type": "header",
+      "on": "KVEWE + KAPPL + KALSM"
+    },
+    {
+      "table": "T685",
+      "type": "config",
+      "on": "KVEWE + KAPPL + KSCHL"
+    }
+  ]
 }

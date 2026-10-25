@@ -37,5 +37,81 @@
       "quantidade faturada",
       "valor faturado"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "BELNR",
+      "key": true
+    },
+    {
+      "name": "GJAHR",
+      "key": true
+    },
+    {
+      "name": "BUZEI",
+      "key": true,
+      "type": "NUMC 6"
+    },
+    {
+      "name": "EBELN"
+    },
+    {
+      "name": "EBELP"
+    },
+    {
+      "name": "MATNR"
+    },
+    {
+      "name": "WERKS"
+    },
+    {
+      "name": "WRBTR"
+    },
+    {
+      "name": "MENGE"
+    },
+    {
+      "name": "BSTME"
+    },
+    {
+      "name": "SHKZG"
+    },
+    {
+      "name": "MWSKZ",
+      "label": {
+        "es": "Indicador de impuestos",
+        "en": "Tax code",
+        "pt": "Código de imposto"
+      }
+    },
+    {
+      "name": "LFBNR"
+    }
+  ],
+  "relations": [
+    {
+      "table": "RBKP",
+      "type": "header",
+      "on": "BELNR + GJAHR"
+    },
+    {
+      "table": "EKPO",
+      "type": "rel",
+      "on": "EBELN + EBELP"
+    },
+    {
+      "table": "MARA",
+      "type": "master",
+      "on": "MATNR"
+    },
+    {
+      "table": "RBCO",
+      "type": "rel",
+      "on": "BELNR + GJAHR + BUZEI"
+    }
+  ]
 }

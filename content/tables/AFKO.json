@@ -39,5 +39,67 @@
       "OP",
       "datas da ordem"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "AUFNR",
+      "key": true
+    },
+    {
+      "name": "GSTRP"
+    },
+    {
+      "name": "GLTRP"
+    },
+    {
+      "name": "GAMNG"
+    },
+    {
+      "name": "GMEIN"
+    },
+    {
+      "name": "PLNBEZ"
+    },
+    {
+      "name": "AUFPL"
+    },
+    {
+      "name": "RSNUM"
+    },
+    {
+      "name": "DISPO"
+    },
+    {
+      "name": "FEVOR"
+    },
+    {
+      "name": "PLNNR"
+    }
+  ],
+  "relations": [
+    {
+      "table": "AUFK",
+      "type": "rel",
+      "on": "AUFNR"
+    },
+    {
+      "table": "AFVC",
+      "type": "items",
+      "on": "AUFPL"
+    },
+    {
+      "table": "RESB",
+      "type": "items",
+      "on": "RSNUM"
+    },
+    {
+      "table": "MARA",
+      "type": "master",
+      "on": "PLNBEZ = MATNR"
+    }
+  ]
 }

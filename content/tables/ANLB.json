@@ -33,5 +33,50 @@
       "início da depreciação",
       "condições de depreciação"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "BUKRS",
+      "key": true
+    },
+    {
+      "name": "ANLN1",
+      "key": true
+    },
+    {
+      "name": "ANLN2",
+      "key": true
+    },
+    {
+      "name": "AFABE",
+      "key": true
+    },
+    {
+      "name": "BDATU",
+      "key": true
+    },
+    {
+      "name": "AFASL"
+    },
+    {
+      "name": "NDJAR"
+    },
+    {
+      "name": "NDPER"
+    },
+    {
+      "name": "AFABG"
+    }
+  ],
+  "relations": [
+    {
+      "table": "ANLA",
+      "type": "master",
+      "on": "BUKRS + ANLN1 + ANLN2"
+    }
+  ]
 }

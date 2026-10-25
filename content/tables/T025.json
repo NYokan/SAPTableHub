@@ -32,5 +32,25 @@
       "BKLAS",
       "conta de estoque"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "BKLAS",
+      "key": true
+    },
+    {
+      "name": "KKREF"
+    }
+  ],
+  "relations": [
+    {
+      "table": "T025T",
+      "type": "text",
+      "on": "BKLAS"
+    }
+  ]
 }

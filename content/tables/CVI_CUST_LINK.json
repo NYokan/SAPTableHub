@@ -33,5 +33,38 @@
       "integração CVI",
       "número de cliente do BP"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "CLIENT",
+      "key": true
+    },
+    {
+      "name": "PARTNER_GUID",
+      "key": true,
+      "label": {
+        "es": "GUID del socio de negocio",
+        "en": "Business partner GUID",
+        "pt": "GUID do parceiro de negócios"
+      }
+    },
+    {
+      "name": "CUSTOMER"
+    },
+    {
+      "name": "CRDAT"
+    }
+  ],
+  "relations": [
+    {
+      "table": "BUT000",
+      "type": "master",
+      "on": "PARTNER_GUID"
+    },
+    {
+      "table": "KNA1",
+      "type": "master",
+      "on": "CUSTOMER = KUNNR"
+    }
+  ]
 }

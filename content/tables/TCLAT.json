@@ -27,5 +27,29 @@
       "nome do tipo de classe",
       "texto do tipo de classe"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "KLART",
+      "key": true
+    },
+    {
+      "name": "ARTXT"
+    }
+  ],
+  "relations": [
+    {
+      "table": "TCLA",
+      "type": "header",
+      "on": "KLART"
+    }
+  ]
 }

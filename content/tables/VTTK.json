@@ -39,5 +39,58 @@
       "caminhão",
       "frete"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "TKNUM",
+      "key": true
+    },
+    {
+      "name": "SHTYP"
+    },
+    {
+      "name": "TPLST"
+    },
+    {
+      "name": "TDLNR"
+    },
+    {
+      "name": "ROUTE"
+    },
+    {
+      "name": "STTRG"
+    },
+    {
+      "name": "ERDAT"
+    },
+    {
+      "name": "ERNAM"
+    }
+  ],
+  "relations": [
+    {
+      "table": "VTTP",
+      "type": "items",
+      "on": "TKNUM"
+    },
+    {
+      "table": "TVTK",
+      "type": "config",
+      "on": "SHTYP"
+    },
+    {
+      "table": "LFA1",
+      "type": "master",
+      "on": "TDLNR = LIFNR"
+    },
+    {
+      "table": "VTTS",
+      "type": "rel",
+      "on": "TKNUM"
+    }
+  ]
 }

@@ -30,5 +30,58 @@
       "ligação cabeçalho-operação",
       "seleção de operações"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "PLNTY",
+      "key": true
+    },
+    {
+      "name": "PLNNR",
+      "key": true
+    },
+    {
+      "name": "PLNAL",
+      "key": true
+    },
+    {
+      "name": "PLNFL",
+      "key": true
+    },
+    {
+      "name": "PLNKN",
+      "key": true
+    },
+    {
+      "name": "ZAEHL",
+      "key": true
+    },
+    {
+      "name": "DATUV"
+    },
+    {
+      "name": "LOEKZ"
+    }
+  ],
+  "relations": [
+    {
+      "table": "PLKO",
+      "type": "header",
+      "on": "PLNTY + PLNNR + PLNAL"
+    },
+    {
+      "table": "PLPO",
+      "type": "rel",
+      "on": "PLNTY + PLNNR + PLNKN"
+    },
+    {
+      "table": "PLFL",
+      "type": "rel",
+      "on": "PLNTY + PLNNR + PLNAL + PLNFL"
+    }
+  ]
 }

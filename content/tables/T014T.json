@@ -28,5 +28,29 @@
       "texto da área de controle de crédito",
       "nome da área de crédito"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "KKBER",
+      "key": true
+    },
+    {
+      "name": "KKBTX"
+    }
+  ],
+  "relations": [
+    {
+      "table": "T014",
+      "type": "config",
+      "on": "KKBER"
+    }
+  ]
 }

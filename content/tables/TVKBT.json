@@ -31,5 +31,34 @@
       "nome escritório de vendas",
       "VKBUR"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "VKBUR",
+      "key": true
+    },
+    {
+      "name": "BEZEI",
+      "label": {
+        "es": "Descripción",
+        "en": "Description",
+        "pt": "Descrição"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "table": "TVBUR",
+      "type": "config",
+      "on": "VKBUR"
+    }
+  ]
 }

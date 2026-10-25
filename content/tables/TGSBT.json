@@ -27,5 +27,29 @@
       "texto da divisão",
       "nome da business area"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "GSBER",
+      "key": true
+    },
+    {
+      "name": "GTEXT"
+    }
+  ],
+  "relations": [
+    {
+      "table": "TGSB",
+      "type": "config",
+      "on": "GSBER"
+    }
+  ]
 }

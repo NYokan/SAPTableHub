@@ -30,5 +30,47 @@
       "séries por documento de material",
       "rastreabilidade de séries"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "OBKNR",
+      "key": true
+    },
+    {
+      "name": "MBLNR"
+    },
+    {
+      "name": "MJAHR"
+    },
+    {
+      "name": "ZEILE"
+    },
+    {
+      "name": "BWART"
+    },
+    {
+      "name": "ANZSN"
+    }
+  ],
+  "relations": [
+    {
+      "table": "OBJK",
+      "type": "items",
+      "on": "OBKNR"
+    },
+    {
+      "table": "MKPF",
+      "type": "rel",
+      "on": "MBLNR + MJAHR"
+    },
+    {
+      "table": "MSEG",
+      "type": "rel",
+      "on": "MBLNR + MJAHR + ZEILE"
+    }
+  ]
 }

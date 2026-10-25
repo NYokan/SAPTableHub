@@ -33,5 +33,34 @@
       "atribuição de remessas",
       "item de transporte"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "TKNUM",
+      "key": true
+    },
+    {
+      "name": "TPNUM",
+      "key": true
+    },
+    {
+      "name": "VBELN"
+    }
+  ],
+  "relations": [
+    {
+      "table": "VTTK",
+      "type": "header",
+      "on": "TKNUM"
+    },
+    {
+      "table": "LIKP",
+      "type": "rel",
+      "on": "VBELN"
+    }
+  ]
 }

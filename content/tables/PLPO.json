@@ -36,5 +36,71 @@
       "valor standard",
       "etapa de produção"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "PLNTY",
+      "key": true
+    },
+    {
+      "name": "PLNNR",
+      "key": true
+    },
+    {
+      "name": "PLNKN",
+      "key": true
+    },
+    {
+      "name": "ZAEHL",
+      "key": true
+    },
+    {
+      "name": "VORNR"
+    },
+    {
+      "name": "STEUS"
+    },
+    {
+      "name": "ARBID"
+    },
+    {
+      "name": "WERKS"
+    },
+    {
+      "name": "LTXA1"
+    },
+    {
+      "name": "DATUV"
+    },
+    {
+      "name": "BMSCH"
+    },
+    {
+      "name": "VGW01"
+    },
+    {
+      "name": "VGE01"
+    }
+  ],
+  "relations": [
+    {
+      "table": "PLKO",
+      "type": "header",
+      "on": "PLNTY + PLNNR"
+    },
+    {
+      "table": "CRHD",
+      "type": "master",
+      "on": "ARBID = OBJID"
+    },
+    {
+      "table": "T430",
+      "type": "config",
+      "on": "STEUS"
+    }
+  ]
 }

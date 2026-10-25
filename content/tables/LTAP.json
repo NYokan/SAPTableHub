@@ -36,5 +36,70 @@
       "posição de destino",
       "confirmação de OT"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "LGNUM",
+      "key": true
+    },
+    {
+      "name": "TANUM",
+      "key": true
+    },
+    {
+      "name": "TAPOS",
+      "key": true
+    },
+    {
+      "name": "MATNR"
+    },
+    {
+      "name": "WERKS"
+    },
+    {
+      "name": "CHARG"
+    },
+    {
+      "name": "MEINS"
+    },
+    {
+      "name": "VLTYP"
+    },
+    {
+      "name": "VLPLA"
+    },
+    {
+      "name": "NLTYP"
+    },
+    {
+      "name": "NLPLA"
+    },
+    {
+      "name": "VSOLM"
+    },
+    {
+      "name": "PQUIT"
+    }
+  ],
+  "relations": [
+    {
+      "table": "LTAK",
+      "type": "header",
+      "on": "LGNUM + TANUM"
+    },
+    {
+      "table": "MARA",
+      "type": "master",
+      "on": "MATNR"
+    },
+    {
+      "table": "LAGP",
+      "type": "master",
+      "on": "LGNUM + VLTYP = LGTYP + VLPLA = LGPLA"
+    }
+  ]
 }

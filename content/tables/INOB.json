@@ -33,5 +33,36 @@
       "objeto classificado",
       "CUOBJ"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "CUOBJ",
+      "key": true
+    },
+    {
+      "name": "KLART"
+    },
+    {
+      "name": "OBTAB"
+    },
+    {
+      "name": "OBJEK"
+    }
+  ],
+  "relations": [
+    {
+      "table": "KSSK",
+      "type": "rel",
+      "on": "CUOBJ = OBJEK"
+    },
+    {
+      "table": "TCLA",
+      "type": "config",
+      "on": "KLART"
+    }
+  ]
 }

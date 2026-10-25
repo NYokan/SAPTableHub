@@ -37,5 +37,47 @@
       "custo secundário",
       "elemento de custo"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "KOKRS",
+      "key": true
+    },
+    {
+      "name": "KSTAR",
+      "key": true
+    },
+    {
+      "name": "DATBI",
+      "key": true
+    },
+    {
+      "name": "DATAB"
+    },
+    {
+      "name": "KATYP"
+    },
+    {
+      "name": "ERSDA"
+    },
+    {
+      "name": "USNAM"
+    }
+  ],
+  "relations": [
+    {
+      "table": "CSKA",
+      "type": "master",
+      "on": "KSTAR"
+    },
+    {
+      "table": "TKA01",
+      "type": "config",
+      "on": "KOKRS"
+    }
+  ]
 }

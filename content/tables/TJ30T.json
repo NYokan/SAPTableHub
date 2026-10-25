@@ -27,5 +27,41 @@
       "texto do status de usuário",
       "descrição do status de usuário"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "STSMA",
+      "key": true
+    },
+    {
+      "name": "ESTAT",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "TXT04"
+    },
+    {
+      "name": "TXT30",
+      "label": {
+        "es": "Texto del estado",
+        "en": "Status text",
+        "pt": "Texto do status"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "table": "TJ30",
+      "type": "header",
+      "on": "STSMA + ESTAT"
+    }
+  ]
 }

@@ -27,5 +27,29 @@
       "texto do grupo de contas de clientes",
       "descrição do tipo de cliente"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "KTOKD",
+      "key": true
+    },
+    {
+      "name": "TXT30"
+    }
+  ],
+  "relations": [
+    {
+      "table": "T077D",
+      "type": "config",
+      "on": "KTOKD"
+    }
+  ]
 }

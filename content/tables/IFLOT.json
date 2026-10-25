@@ -39,5 +39,58 @@
       "instalação",
       "sistema"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "TPLNR",
+      "key": true
+    },
+    {
+      "name": "FLTYP"
+    },
+    {
+      "name": "TPLKZ"
+    },
+    {
+      "name": "TPLMA"
+    },
+    {
+      "name": "EQART"
+    },
+    {
+      "name": "ILOAN"
+    },
+    {
+      "name": "OBJNR"
+    },
+    {
+      "name": "ERDAT"
+    }
+  ],
+  "relations": [
+    {
+      "table": "IFLOTX",
+      "type": "text",
+      "on": "TPLNR"
+    },
+    {
+      "table": "ILOA",
+      "type": "rel",
+      "on": "ILOAN"
+    },
+    {
+      "table": "T370F",
+      "type": "config",
+      "on": "FLTYP"
+    },
+    {
+      "table": "T370S",
+      "type": "config",
+      "on": "TPLKZ"
+    }
+  ]
 }

@@ -30,5 +30,54 @@
       "atividade planejada",
       "capacidade planejada"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "KOKRS",
+      "key": true
+    },
+    {
+      "name": "BELNR",
+      "key": true
+    },
+    {
+      "name": "BUZEI",
+      "key": true
+    },
+    {
+      "name": "PERBL",
+      "key": true
+    },
+    {
+      "name": "GJAHR"
+    },
+    {
+      "name": "WRTTP"
+    },
+    {
+      "name": "VERSN",
+      "label": {
+        "es": "Versión",
+        "en": "Version",
+        "pt": "Versão"
+      }
+    },
+    {
+      "name": "OBJNR"
+    },
+    {
+      "name": "VRGNG"
+    }
+  ],
+  "relations": [
+    {
+      "table": "COBK",
+      "type": "header",
+      "on": "KOKRS + BELNR"
+    }
+  ]
 }

@@ -33,5 +33,36 @@
       "períodos especiais",
       "PERIV"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "PERIV",
+      "key": true
+    },
+    {
+      "name": "XKALE"
+    },
+    {
+      "name": "ANZBP"
+    },
+    {
+      "name": "ANZSP"
+    }
+  ],
+  "relations": [
+    {
+      "table": "T009T",
+      "type": "text",
+      "on": "PERIV"
+    },
+    {
+      "table": "T009B",
+      "type": "config",
+      "on": "PERIV"
+    }
+  ]
 }

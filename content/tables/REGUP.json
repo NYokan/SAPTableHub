@@ -36,5 +36,74 @@
       "F110",
       "detalhe do pagamento"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "LAUFD",
+      "key": true
+    },
+    {
+      "name": "LAUFI",
+      "key": true
+    },
+    {
+      "name": "XVORL",
+      "key": true
+    },
+    {
+      "name": "ZBUKR",
+      "key": true
+    },
+    {
+      "name": "LIFNR",
+      "key": true
+    },
+    {
+      "name": "KUNNR",
+      "key": true
+    },
+    {
+      "name": "EMPFG",
+      "key": true
+    },
+    {
+      "name": "VBLNR",
+      "key": true
+    },
+    {
+      "name": "BUKRS",
+      "key": true
+    },
+    {
+      "name": "BELNR",
+      "key": true
+    },
+    {
+      "name": "GJAHR",
+      "key": true
+    },
+    {
+      "name": "BUZEI",
+      "key": true
+    },
+    {
+      "name": "DMBTR"
+    }
+  ],
+  "relations": [
+    {
+      "table": "REGUH",
+      "type": "header",
+      "on": "LAUFD + LAUFI + XVORL + ZBUKR + LIFNR + KUNNR + EMPFG + VBLNR"
+    },
+    {
+      "table": "BKPF",
+      "type": "rel",
+      "on": "BUKRS + BELNR + GJAHR"
+    }
+  ]
 }

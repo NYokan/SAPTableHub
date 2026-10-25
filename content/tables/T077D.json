@@ -30,5 +30,35 @@
       "tipo de cliente",
       "KTOKD"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "KTOKD",
+      "key": true
+    },
+    {
+      "name": "NUMKR",
+      "label": {
+        "es": "Rango de números",
+        "en": "Number range",
+        "pt": "Intervalo de numeração"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "table": "T077X",
+      "type": "text",
+      "on": "KTOKD"
+    },
+    {
+      "table": "KNA1",
+      "type": "rel",
+      "on": "KTOKD"
+    }
+  ]
 }

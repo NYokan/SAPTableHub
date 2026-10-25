@@ -31,5 +31,36 @@
       "preço por volume",
       "faixas de preço"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "KNUMH",
+      "key": true
+    },
+    {
+      "name": "KOPOS",
+      "key": true
+    },
+    {
+      "name": "KLFN1",
+      "key": true
+    },
+    {
+      "name": "KSTBM"
+    },
+    {
+      "name": "KBETR"
+    }
+  ],
+  "relations": [
+    {
+      "table": "KONP",
+      "type": "header",
+      "on": "KNUMH + KOPOS"
+    }
+  ]
 }

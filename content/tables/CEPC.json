@@ -37,5 +37,66 @@
       "linha de negócio",
       "responsável pelo resultado"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "PRCTR",
+      "key": true
+    },
+    {
+      "name": "DATBI",
+      "key": true
+    },
+    {
+      "name": "KOKRS",
+      "key": true
+    },
+    {
+      "name": "DATAB"
+    },
+    {
+      "name": "VERAK"
+    },
+    {
+      "name": "ABTEI"
+    },
+    {
+      "name": "KHINR"
+    },
+    {
+      "name": "SEGMENT"
+    },
+    {
+      "name": "LAND1"
+    },
+    {
+      "name": "ERSDA"
+    }
+  ],
+  "relations": [
+    {
+      "table": "CEPCT",
+      "type": "text",
+      "on": "PRCTR + DATBI + KOKRS"
+    },
+    {
+      "table": "CEPC_BUKRS",
+      "type": "rel",
+      "on": "KOKRS + PRCTR"
+    },
+    {
+      "table": "TKA01",
+      "type": "config",
+      "on": "KOKRS"
+    },
+    {
+      "table": "FAGL_SEGM",
+      "type": "master",
+      "on": "SEGMENT"
+    }
+  ]
 }

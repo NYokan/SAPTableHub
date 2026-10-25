@@ -33,5 +33,55 @@
       "estoque comprometido",
       "necessidade por ordem"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "VBELN",
+      "key": true
+    },
+    {
+      "name": "POSNR",
+      "key": true
+    },
+    {
+      "name": "ETENR",
+      "key": true
+    },
+    {
+      "name": "MATNR"
+    },
+    {
+      "name": "WERKS"
+    },
+    {
+      "name": "MBDAT"
+    },
+    {
+      "name": "OMENG"
+    },
+    {
+      "name": "MEINS"
+    }
+  ],
+  "relations": [
+    {
+      "table": "VBEP",
+      "type": "rel",
+      "on": "VBELN + POSNR + ETENR"
+    },
+    {
+      "table": "MARA",
+      "type": "master",
+      "on": "MATNR"
+    },
+    {
+      "table": "T001W",
+      "type": "config",
+      "on": "WERKS"
+    }
+  ]
 }

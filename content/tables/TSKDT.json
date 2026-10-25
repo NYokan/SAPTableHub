@@ -28,5 +28,33 @@
       "texto classificação fiscal cliente",
       "TAXKD"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "TATYP",
+      "key": true
+    },
+    {
+      "name": "TAXKD",
+      "key": true
+    },
+    {
+      "name": "VTEXT"
+    }
+  ],
+  "relations": [
+    {
+      "table": "TSKD",
+      "type": "config",
+      "on": "TATYP + TAXKD"
+    }
+  ]
 }

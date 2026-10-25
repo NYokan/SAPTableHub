@@ -27,5 +27,33 @@
       "texto motivo de movimento",
       "descrição causa da baixa"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "BWART",
+      "key": true
+    },
+    {
+      "name": "GRUND",
+      "key": true
+    },
+    {
+      "name": "GRTXT"
+    }
+  ],
+  "relations": [
+    {
+      "table": "T157D",
+      "type": "master",
+      "on": "BWART + GRUND"
+    }
+  ]
 }

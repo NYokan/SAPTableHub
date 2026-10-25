@@ -36,5 +36,52 @@
       "IRRF",
       "comprovante de retenção"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "BUKRS",
+      "key": true
+    },
+    {
+      "name": "BELNR",
+      "key": true
+    },
+    {
+      "name": "GJAHR",
+      "key": true
+    },
+    {
+      "name": "BUZEI",
+      "key": true
+    },
+    {
+      "name": "WITHT",
+      "key": true
+    },
+    {
+      "name": "WT_WITHCD"
+    },
+    {
+      "name": "WT_QSSHH"
+    },
+    {
+      "name": "WT_QBSHH"
+    }
+  ],
+  "relations": [
+    {
+      "table": "BKPF",
+      "type": "header",
+      "on": "BUKRS + BELNR + GJAHR"
+    },
+    {
+      "table": "BSEG",
+      "type": "rel",
+      "on": "BUKRS + BELNR + GJAHR + BUZEI"
+    }
+  ]
 }

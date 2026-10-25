@@ -31,5 +31,29 @@
       "nome equipe de vendas",
       "VKGRP"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "VKGRP",
+      "key": true
+    },
+    {
+      "name": "BEZEI"
+    }
+  ],
+  "relations": [
+    {
+      "table": "TVBVK",
+      "type": "config",
+      "on": "VKGRP"
+    }
+  ]
 }

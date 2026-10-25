@@ -40,5 +40,71 @@
       "nota fiscal de entrada",
       "contas a pagar"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "BELNR",
+      "key": true
+    },
+    {
+      "name": "GJAHR",
+      "key": true
+    },
+    {
+      "name": "BLDAT"
+    },
+    {
+      "name": "BUDAT"
+    },
+    {
+      "name": "BUKRS"
+    },
+    {
+      "name": "LIFNR"
+    },
+    {
+      "name": "WAERS"
+    },
+    {
+      "name": "RMWWR"
+    },
+    {
+      "name": "XBLNR",
+      "label": {
+        "es": "Referencia externa",
+        "en": "Reference document number",
+        "pt": "Referência externa"
+      }
+    },
+    {
+      "name": "ZTERM"
+    },
+    {
+      "name": "RBSTAT"
+    },
+    {
+      "name": "USNAM"
+    }
+  ],
+  "relations": [
+    {
+      "table": "RSEG",
+      "type": "items",
+      "on": "BELNR + GJAHR"
+    },
+    {
+      "table": "LFA1",
+      "type": "master",
+      "on": "LIFNR"
+    },
+    {
+      "table": "T001",
+      "type": "config",
+      "on": "BUKRS"
+    }
+  ]
 }

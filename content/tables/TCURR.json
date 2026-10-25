@@ -37,5 +37,53 @@
       "divisa",
       "conversão de moeda"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "KURST",
+      "key": true
+    },
+    {
+      "name": "FCURR",
+      "key": true
+    },
+    {
+      "name": "TCURR",
+      "key": true
+    },
+    {
+      "name": "GDATU",
+      "key": true
+    },
+    {
+      "name": "UKURS"
+    },
+    {
+      "name": "FFACT"
+    },
+    {
+      "name": "TFACT"
+    }
+  ],
+  "relations": [
+    {
+      "table": "TCURV",
+      "type": "config",
+      "on": "KURST"
+    },
+    {
+      "table": "TCURC",
+      "type": "master",
+      "on": "FCURR = WAERS"
+    },
+    {
+      "table": "TCURF",
+      "type": "rel",
+      "on": "KURST + FCURR + TCURR"
+    }
+  ]
 }

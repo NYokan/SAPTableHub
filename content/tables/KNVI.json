@@ -31,5 +31,38 @@
       "cliente isento de impostos",
       "indicador de imposto cliente"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "KUNNR",
+      "key": true
+    },
+    {
+      "name": "ALAND",
+      "key": true
+    },
+    {
+      "name": "TATYP",
+      "key": true
+    },
+    {
+      "name": "TAXKD"
+    }
+  ],
+  "relations": [
+    {
+      "table": "KNA1",
+      "type": "master",
+      "on": "KUNNR"
+    },
+    {
+      "table": "TSKD",
+      "type": "config",
+      "on": "TATYP + TAXKD"
+    }
+  ]
 }

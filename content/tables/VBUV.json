@@ -30,5 +30,52 @@
       "ordem incompleta",
       "campos faltantes"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "VBELN",
+      "key": true
+    },
+    {
+      "name": "POSNR",
+      "key": true
+    },
+    {
+      "name": "ETENR",
+      "key": true
+    },
+    {
+      "name": "PARVW",
+      "key": true
+    },
+    {
+      "name": "TDID",
+      "key": true
+    },
+    {
+      "name": "TBNAM",
+      "key": true
+    },
+    {
+      "name": "FDNAM",
+      "key": true
+    },
+    {
+      "name": "FEHGR"
+    },
+    {
+      "name": "STATG"
+    }
+  ],
+  "relations": [
+    {
+      "table": "VBAK",
+      "type": "header",
+      "on": "VBELN"
+    }
+  ]
 }

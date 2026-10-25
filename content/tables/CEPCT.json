@@ -31,5 +31,43 @@
       "descrição do centro de lucro",
       "texto do centro de lucro"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "PRCTR",
+      "key": true
+    },
+    {
+      "name": "DATBI",
+      "key": true
+    },
+    {
+      "name": "KOKRS",
+      "key": true
+    },
+    {
+      "name": "KTEXT"
+    },
+    {
+      "name": "LTEXT"
+    },
+    {
+      "name": "MCTXT"
+    }
+  ],
+  "relations": [
+    {
+      "table": "CEPC",
+      "type": "master",
+      "on": "PRCTR + DATBI + KOKRS"
+    }
+  ]
 }

@@ -31,5 +31,49 @@
       "VKORG",
       "organização de vendas por empresa"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "VKORG",
+      "key": true
+    },
+    {
+      "name": "BUKRS"
+    },
+    {
+      "name": "WAERS"
+    },
+    {
+      "name": "KUNNR"
+    },
+    {
+      "name": "ADRNR"
+    }
+  ],
+  "relations": [
+    {
+      "table": "TVKOT",
+      "type": "text",
+      "on": "VKORG"
+    },
+    {
+      "table": "T001",
+      "type": "config",
+      "on": "BUKRS"
+    },
+    {
+      "table": "KNA1",
+      "type": "master",
+      "on": "KUNNR"
+    },
+    {
+      "table": "ADRC",
+      "type": "master",
+      "on": "ADRNR = ADDRNUMBER"
+    }
+  ]
 }

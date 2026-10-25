@@ -33,5 +33,46 @@
       "IBAN do parceiro",
       "banco do parceiro"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "PARTNER",
+      "key": true
+    },
+    {
+      "name": "BKVID",
+      "key": true
+    },
+    {
+      "name": "BANKS"
+    },
+    {
+      "name": "BANKL"
+    },
+    {
+      "name": "BANKN"
+    },
+    {
+      "name": "BKONT"
+    },
+    {
+      "name": "KOINH"
+    }
+  ],
+  "relations": [
+    {
+      "table": "BUT000",
+      "type": "header",
+      "on": "PARTNER"
+    },
+    {
+      "table": "BNKA",
+      "type": "master",
+      "on": "BANKS + BANKL"
+    }
+  ]
 }

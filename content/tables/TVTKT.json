@@ -27,5 +27,34 @@
       "texto tipo de transporte",
       "SHTYP"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "SHTYP",
+      "key": true
+    },
+    {
+      "name": "BEZEI",
+      "label": {
+        "es": "Descripción",
+        "en": "Description",
+        "pt": "Descrição"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "table": "TVTK",
+      "type": "config",
+      "on": "SHTYP"
+    }
+  ]
 }

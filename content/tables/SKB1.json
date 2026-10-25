@@ -34,5 +34,58 @@
       "moeda da conta",
       "conta de reconciliação"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "BUKRS",
+      "key": true
+    },
+    {
+      "name": "SAKNR",
+      "key": true
+    },
+    {
+      "name": "WAERS"
+    },
+    {
+      "name": "XOPVW"
+    },
+    {
+      "name": "XKRES"
+    },
+    {
+      "name": "MWSKZ"
+    },
+    {
+      "name": "FSTAG"
+    },
+    {
+      "name": "MITKZ"
+    },
+    {
+      "name": "ZUAWA"
+    },
+    {
+      "name": "ERDAT"
+    },
+    {
+      "name": "ERNAM"
+    }
+  ],
+  "relations": [
+    {
+      "table": "SKA1",
+      "type": "master",
+      "on": "SAKNR"
+    },
+    {
+      "table": "T001",
+      "type": "config",
+      "on": "BUKRS"
+    }
+  ]
 }

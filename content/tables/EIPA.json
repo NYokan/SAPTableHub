@@ -34,5 +34,55 @@
       "evolução de preços",
       "preço do pedido"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "INFNR",
+      "key": true
+    },
+    {
+      "name": "EBELN",
+      "key": true
+    },
+    {
+      "name": "EBELP",
+      "key": true
+    },
+    {
+      "name": "BEDAT"
+    },
+    {
+      "name": "PREIS"
+    },
+    {
+      "name": "PEINH",
+      "label": {
+        "es": "Unidad de precio",
+        "en": "Price unit",
+        "pt": "Unidade de preço"
+      }
+    },
+    {
+      "name": "EKORG"
+    },
+    {
+      "name": "WERKS"
+    }
+  ],
+  "relations": [
+    {
+      "table": "EINA",
+      "type": "header",
+      "on": "INFNR"
+    },
+    {
+      "table": "EKPO",
+      "type": "rel",
+      "on": "EBELN + EBELP"
+    }
+  ]
 }

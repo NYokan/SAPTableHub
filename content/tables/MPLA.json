@@ -36,5 +36,41 @@
       "estratégia",
       "manutenção planejada"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "WARPL",
+      "key": true
+    },
+    {
+      "name": "WPTXT"
+    },
+    {
+      "name": "STRAT"
+    },
+    {
+      "name": "OBJNR"
+    }
+  ],
+  "relations": [
+    {
+      "table": "MPOS",
+      "type": "items",
+      "on": "WARPL"
+    },
+    {
+      "table": "MMPT",
+      "type": "rel",
+      "on": "WARPL"
+    },
+    {
+      "table": "T351",
+      "type": "config",
+      "on": "STRAT"
+    }
+  ]
 }

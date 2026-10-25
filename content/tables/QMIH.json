@@ -36,5 +36,53 @@
       "parada",
       "solicitação de manutenção"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "QMNUM",
+      "key": true
+    },
+    {
+      "name": "EQUNR"
+    },
+    {
+      "name": "ILOAN"
+    },
+    {
+      "name": "IWERK"
+    },
+    {
+      "name": "INGRP"
+    },
+    {
+      "name": "AUSVN"
+    },
+    {
+      "name": "AUSBS"
+    },
+    {
+      "name": "MSAUS"
+    }
+  ],
+  "relations": [
+    {
+      "table": "QMEL",
+      "type": "header",
+      "on": "QMNUM"
+    },
+    {
+      "table": "EQUI",
+      "type": "master",
+      "on": "EQUNR"
+    },
+    {
+      "table": "ILOA",
+      "type": "rel",
+      "on": "ILOAN"
+    }
+  ]
 }

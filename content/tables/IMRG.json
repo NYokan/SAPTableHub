@@ -36,5 +36,46 @@
       "leitura de contador",
       "valor medido"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "MDOCM",
+      "key": true
+    },
+    {
+      "name": "POINT"
+    },
+    {
+      "name": "IDATE"
+    },
+    {
+      "name": "ITIME"
+    },
+    {
+      "name": "READG"
+    },
+    {
+      "name": "RECDU"
+    },
+    {
+      "name": "MDTXT"
+    },
+    {
+      "name": "ERNAM"
+    },
+    {
+      "name": "ERDAT"
+    }
+  ],
+  "relations": [
+    {
+      "table": "IMPTT",
+      "type": "master",
+      "on": "POINT"
+    }
+  ]
 }

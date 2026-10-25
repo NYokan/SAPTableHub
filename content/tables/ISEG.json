@@ -36,5 +36,70 @@
       "quantidade contada",
       "ajuste de inventário"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "IBLNR",
+      "key": true
+    },
+    {
+      "name": "GJAHR",
+      "key": true
+    },
+    {
+      "name": "ZEILI",
+      "key": true
+    },
+    {
+      "name": "MATNR"
+    },
+    {
+      "name": "WERKS"
+    },
+    {
+      "name": "LGORT"
+    },
+    {
+      "name": "CHARG"
+    },
+    {
+      "name": "BUCHM"
+    },
+    {
+      "name": "MEINS"
+    },
+    {
+      "name": "XZAEL"
+    },
+    {
+      "name": "XDIFF"
+    },
+    {
+      "name": "MBLNR"
+    },
+    {
+      "name": "MJAHR"
+    }
+  ],
+  "relations": [
+    {
+      "table": "IKPF",
+      "type": "header",
+      "on": "IBLNR + GJAHR"
+    },
+    {
+      "table": "MARA",
+      "type": "master",
+      "on": "MATNR"
+    },
+    {
+      "table": "MKPF",
+      "type": "rel",
+      "on": "MBLNR + MJAHR"
+    }
+  ]
 }

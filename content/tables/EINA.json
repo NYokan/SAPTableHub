@@ -35,5 +35,53 @@
       "material por fornecedor",
       "código do material no fornecedor"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "INFNR",
+      "key": true
+    },
+    {
+      "name": "MATNR"
+    },
+    {
+      "name": "LIFNR"
+    },
+    {
+      "name": "MATKL"
+    },
+    {
+      "name": "IDNLF"
+    },
+    {
+      "name": "MEINS"
+    },
+    {
+      "name": "ERDAT"
+    },
+    {
+      "name": "LOEKZ"
+    }
+  ],
+  "relations": [
+    {
+      "table": "EINE",
+      "type": "items",
+      "on": "INFNR"
+    },
+    {
+      "table": "LFA1",
+      "type": "master",
+      "on": "LIFNR"
+    },
+    {
+      "table": "MARA",
+      "type": "master",
+      "on": "MATNR"
+    }
+  ]
 }

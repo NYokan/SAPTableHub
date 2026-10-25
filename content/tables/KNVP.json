@@ -40,5 +40,64 @@
       "vendedor do cliente",
       "parceiro"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "KUNNR",
+      "key": true
+    },
+    {
+      "name": "VKORG",
+      "key": true
+    },
+    {
+      "name": "VTWEG",
+      "key": true
+    },
+    {
+      "name": "SPART",
+      "key": true
+    },
+    {
+      "name": "PARVW",
+      "key": true
+    },
+    {
+      "name": "PARZA",
+      "key": true
+    },
+    {
+      "name": "KUNN2"
+    },
+    {
+      "name": "LIFNR"
+    },
+    {
+      "name": "PERNR"
+    },
+    {
+      "name": "PARNR"
+    }
+  ],
+  "relations": [
+    {
+      "table": "KNVV",
+      "type": "master",
+      "on": "KUNNR + VKORG + VTWEG + SPART"
+    },
+    {
+      "table": "KNA1",
+      "type": "master",
+      "on": "KUNN2 = KUNNR"
+    },
+    {
+      "table": "TPAR",
+      "type": "config",
+      "on": "PARVW"
+    }
+  ]
 }

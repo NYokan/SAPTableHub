@@ -33,5 +33,41 @@
       "descrição da causa",
       "catálogo"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "KATALOGART",
+      "key": true
+    },
+    {
+      "name": "CODEGRUPPE",
+      "key": true
+    },
+    {
+      "name": "CODE",
+      "key": true
+    },
+    {
+      "name": "SPRACHE",
+      "key": true
+    },
+    {
+      "name": "VERSION",
+      "key": true
+    },
+    {
+      "name": "KURZTEXT"
+    }
+  ],
+  "relations": [
+    {
+      "table": "QPCD",
+      "type": "master",
+      "on": "KATALOGART + CODEGRUPPE + CODE + VERSION"
+    }
+  ]
 }

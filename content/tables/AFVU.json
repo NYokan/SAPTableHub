@@ -31,5 +31,53 @@
       "campos livres da operação",
       "dados adicionais da operação"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "AUFPL",
+      "key": true
+    },
+    {
+      "name": "APLZL",
+      "key": true
+    },
+    {
+      "name": "SLWID"
+    },
+    {
+      "name": "USR00"
+    },
+    {
+      "name": "USR01"
+    },
+    {
+      "name": "USR02"
+    },
+    {
+      "name": "USR03"
+    },
+    {
+      "name": "USR08"
+    },
+    {
+      "name": "USR09"
+    },
+    {
+      "name": "USR10"
+    },
+    {
+      "name": "USR11"
+    }
+  ],
+  "relations": [
+    {
+      "table": "AFVC",
+      "type": "rel",
+      "on": "AUFPL + APLZL"
+    }
+  ]
 }

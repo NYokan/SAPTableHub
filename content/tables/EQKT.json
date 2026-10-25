@@ -30,5 +30,35 @@
       "nome do equipamento",
       "texto do equipamento"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "EQUNR",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "EQKTX"
+    },
+    {
+      "name": "EQKTU"
+    },
+    {
+      "name": "KZLTX"
+    }
+  ],
+  "relations": [
+    {
+      "table": "EQUI",
+      "type": "master",
+      "on": "EQUNR"
+    }
+  ]
 }

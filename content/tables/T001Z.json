@@ -30,5 +30,29 @@
       "CNPJ da empresa",
       "parâmetros da empresa"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "BUKRS",
+      "key": true
+    },
+    {
+      "name": "PARTY",
+      "key": true
+    },
+    {
+      "name": "PAVAL"
+    }
+  ],
+  "relations": [
+    {
+      "table": "T001",
+      "type": "config",
+      "on": "BUKRS"
+    }
+  ]
 }

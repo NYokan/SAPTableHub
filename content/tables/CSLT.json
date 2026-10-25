@@ -31,5 +31,43 @@
       "descrição da atividade",
       "texto do tipo de atividade"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "KOKRS",
+      "key": true
+    },
+    {
+      "name": "LSTAR",
+      "key": true
+    },
+    {
+      "name": "DATBI",
+      "key": true
+    },
+    {
+      "name": "KTEXT"
+    },
+    {
+      "name": "LTEXT"
+    },
+    {
+      "name": "MCTXT"
+    }
+  ],
+  "relations": [
+    {
+      "table": "CSLA",
+      "type": "master",
+      "on": "KOKRS + LSTAR + DATBI"
+    }
+  ]
 }

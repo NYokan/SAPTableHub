@@ -28,5 +28,29 @@
       "texto do indicador de liberação",
       "descrição do status de liberação"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "FRGKE",
+      "key": true
+    },
+    {
+      "name": "FRGET"
+    }
+  ],
+  "relations": [
+    {
+      "table": "T16FB",
+      "type": "config",
+      "on": "FRGKE"
+    }
+  ]
 }

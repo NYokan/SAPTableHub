@@ -35,5 +35,69 @@
       "preço histórico",
       "fechamento do mês"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "MATNR",
+      "key": true
+    },
+    {
+      "name": "BWKEY",
+      "key": true
+    },
+    {
+      "name": "BWTAR",
+      "key": true
+    },
+    {
+      "name": "LFGJA",
+      "key": true
+    },
+    {
+      "name": "LFMON",
+      "key": true
+    },
+    {
+      "name": "LBKUM"
+    },
+    {
+      "name": "SALK3"
+    },
+    {
+      "name": "VPRSV"
+    },
+    {
+      "name": "VERPR"
+    },
+    {
+      "name": "STPRS"
+    },
+    {
+      "name": "PEINH"
+    },
+    {
+      "name": "BKLAS"
+    }
+  ],
+  "relations": [
+    {
+      "table": "MBEW",
+      "type": "rel",
+      "on": "MATNR + BWKEY + BWTAR"
+    },
+    {
+      "table": "MARA",
+      "type": "master",
+      "on": "MATNR"
+    },
+    {
+      "table": "T001K",
+      "type": "config",
+      "on": "BWKEY"
+    }
+  ]
 }

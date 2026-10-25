@@ -36,5 +36,52 @@
       "tesouraria",
       "HKTID"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "BUKRS",
+      "key": true
+    },
+    {
+      "name": "HBKID",
+      "key": true
+    },
+    {
+      "name": "HKTID",
+      "key": true
+    },
+    {
+      "name": "BANKN"
+    },
+    {
+      "name": "BKONT"
+    },
+    {
+      "name": "WAERS"
+    },
+    {
+      "name": "HKONT"
+    }
+  ],
+  "relations": [
+    {
+      "table": "T012",
+      "type": "header",
+      "on": "BUKRS + HBKID"
+    },
+    {
+      "table": "T012T",
+      "type": "text",
+      "on": "BUKRS + HBKID + HKTID"
+    },
+    {
+      "table": "SKB1",
+      "type": "master",
+      "on": "BUKRS + HKONT = SAKNR"
+    }
+  ]
 }

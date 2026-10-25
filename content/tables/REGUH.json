@@ -39,5 +39,80 @@
       "transferências",
       "pagamento a fornecedores"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "LAUFD",
+      "key": true
+    },
+    {
+      "name": "LAUFI",
+      "key": true
+    },
+    {
+      "name": "XVORL",
+      "key": true
+    },
+    {
+      "name": "ZBUKR",
+      "key": true
+    },
+    {
+      "name": "LIFNR",
+      "key": true
+    },
+    {
+      "name": "KUNNR",
+      "key": true
+    },
+    {
+      "name": "EMPFG",
+      "key": true
+    },
+    {
+      "name": "VBLNR",
+      "key": true
+    },
+    {
+      "name": "ZALDT"
+    },
+    {
+      "name": "RZAWE"
+    },
+    {
+      "name": "HBKID"
+    },
+    {
+      "name": "RBETR"
+    },
+    {
+      "name": "WAERS"
+    }
+  ],
+  "relations": [
+    {
+      "table": "REGUP",
+      "type": "items",
+      "on": "LAUFD + LAUFI + XVORL + ZBUKR + LIFNR + KUNNR + EMPFG + VBLNR"
+    },
+    {
+      "table": "LFA1",
+      "type": "master",
+      "on": "LIFNR"
+    },
+    {
+      "table": "KNA1",
+      "type": "master",
+      "on": "KUNNR"
+    },
+    {
+      "table": "T012",
+      "type": "config",
+      "on": "ZBUKR = BUKRS + HBKID"
+    }
+  ]
 }

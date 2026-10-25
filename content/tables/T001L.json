@@ -33,5 +33,43 @@
       "local de estoque",
       "almoxarifado"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "WERKS",
+      "key": true
+    },
+    {
+      "name": "LGORT",
+      "key": true
+    },
+    {
+      "name": "LGOBE"
+    },
+    {
+      "name": "SPART"
+    },
+    {
+      "name": "VKORG"
+    },
+    {
+      "name": "VTWEG"
+    }
+  ],
+  "relations": [
+    {
+      "table": "T001W",
+      "type": "master",
+      "on": "WERKS"
+    },
+    {
+      "table": "T320",
+      "type": "rel",
+      "on": "WERKS + LGORT"
+    }
+  ]
 }

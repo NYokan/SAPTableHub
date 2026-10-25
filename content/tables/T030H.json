@@ -30,5 +30,45 @@
       "ganhos e perdas cambiais",
       "avaliação em moeda estrangeira"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "KTOPL",
+      "key": true
+    },
+    {
+      "name": "HKONT",
+      "key": true
+    },
+    {
+      "name": "WAERS",
+      "key": true
+    },
+    {
+      "name": "CURTP",
+      "key": true
+    },
+    {
+      "name": "LSREA"
+    },
+    {
+      "name": "LHREA"
+    }
+  ],
+  "relations": [
+    {
+      "table": "T004",
+      "type": "config",
+      "on": "KTOPL"
+    },
+    {
+      "table": "SKA1",
+      "type": "master",
+      "on": "KTOPL + HKONT = SAKNR"
+    }
+  ]
 }

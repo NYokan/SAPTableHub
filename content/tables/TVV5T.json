@@ -28,5 +28,34 @@
       "texto grupo de clientes 5",
       "KVGR5"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "KVGR5",
+      "key": true
+    },
+    {
+      "name": "BEZEI",
+      "label": {
+        "es": "Descripción",
+        "en": "Description",
+        "pt": "Descrição"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "table": "TVV5",
+      "type": "config",
+      "on": "KVGR5"
+    }
+  ]
 }

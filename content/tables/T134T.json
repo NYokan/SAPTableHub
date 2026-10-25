@@ -28,5 +28,29 @@
       "texto do tipo de material",
       "descrição do tipo de material"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "MTART",
+      "key": true
+    },
+    {
+      "name": "MTBEZ"
+    }
+  ],
+  "relations": [
+    {
+      "table": "T134",
+      "type": "master",
+      "on": "MTART"
+    }
+  ]
 }

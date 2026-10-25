@@ -27,5 +27,29 @@
       "nome da classe de avaliação",
       "texto da classe de avaliação"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "BKLAS",
+      "key": true
+    },
+    {
+      "name": "BKBEZ"
+    }
+  ],
+  "relations": [
+    {
+      "table": "T025",
+      "type": "master",
+      "on": "BKLAS"
+    }
+  ]
 }

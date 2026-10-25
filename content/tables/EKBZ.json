@@ -36,5 +36,71 @@
       "custos adicionais",
       "histórico do pedido"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "EBELN",
+      "key": true
+    },
+    {
+      "name": "EBELP",
+      "key": true
+    },
+    {
+      "name": "STUNR",
+      "key": true
+    },
+    {
+      "name": "ZAEHK",
+      "key": true
+    },
+    {
+      "name": "VGABE",
+      "key": true
+    },
+    {
+      "name": "GJAHR",
+      "key": true
+    },
+    {
+      "name": "BELNR",
+      "key": true
+    },
+    {
+      "name": "BUZEI",
+      "key": true,
+      "type": "NUMC 4"
+    },
+    {
+      "name": "BEWTP"
+    },
+    {
+      "name": "BUDAT"
+    },
+    {
+      "name": "MENGE"
+    },
+    {
+      "name": "DMBTR"
+    },
+    {
+      "name": "WAERS"
+    }
+  ],
+  "relations": [
+    {
+      "table": "EKPO",
+      "type": "header",
+      "on": "EBELN + EBELP"
+    },
+    {
+      "table": "EKBE",
+      "type": "rel",
+      "on": "EBELN + EBELP"
+    }
+  ]
 }

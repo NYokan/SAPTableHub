@@ -38,5 +38,39 @@
       "matéria-prima",
       "produto acabado"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "MTART",
+      "key": true
+    },
+    {
+      "name": "MTREF"
+    },
+    {
+      "name": "NUMKI"
+    },
+    {
+      "name": "NUMKE"
+    },
+    {
+      "name": "KKREF"
+    }
+  ],
+  "relations": [
+    {
+      "table": "T134T",
+      "type": "text",
+      "on": "MTART"
+    },
+    {
+      "table": "T134M",
+      "type": "rel",
+      "on": "MTART"
+    }
+  ]
 }

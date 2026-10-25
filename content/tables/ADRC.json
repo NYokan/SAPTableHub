@@ -36,5 +36,75 @@
       "logradouro",
       "rua e cidade"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "CLIENT",
+      "key": true
+    },
+    {
+      "name": "ADDRNUMBER",
+      "key": true
+    },
+    {
+      "name": "DATE_FROM",
+      "key": true
+    },
+    {
+      "name": "NATION",
+      "key": true
+    },
+    {
+      "name": "TITLE"
+    },
+    {
+      "name": "SORT1"
+    },
+    {
+      "name": "STREET"
+    },
+    {
+      "name": "HOUSE_NUM1"
+    },
+    {
+      "name": "POST_CODE1"
+    },
+    {
+      "name": "CITY1"
+    },
+    {
+      "name": "REGION"
+    },
+    {
+      "name": "COUNTRY"
+    },
+    {
+      "name": "LANGU"
+    },
+    {
+      "name": "TEL_NUMBER"
+    }
+  ],
+  "relations": [
+    {
+      "table": "ADR2",
+      "type": "rel",
+      "on": "ADDRNUMBER"
+    },
+    {
+      "table": "ADR6",
+      "type": "rel",
+      "on": "ADDRNUMBER"
+    },
+    {
+      "table": "T005",
+      "type": "config",
+      "on": "COUNTRY = LAND1"
+    },
+    {
+      "table": "T005U",
+      "type": "text",
+      "on": "COUNTRY = LAND1 + REGION = BLAND"
+    }
+  ]
 }

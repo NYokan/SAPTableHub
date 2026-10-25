@@ -30,5 +30,52 @@
       "classes",
       "classificação de materiais"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "CLINT",
+      "key": true
+    },
+    {
+      "name": "KLART"
+    },
+    {
+      "name": "CLASS"
+    },
+    {
+      "name": "STATU",
+      "label": {
+        "es": "Status de clasificación",
+        "en": "Classification status",
+        "pt": "Status de classificação"
+      }
+    },
+    {
+      "name": "VONDT"
+    },
+    {
+      "name": "BISDT"
+    }
+  ],
+  "relations": [
+    {
+      "table": "TCLA",
+      "type": "config",
+      "on": "KLART"
+    },
+    {
+      "table": "SWOR",
+      "type": "text",
+      "on": "CLINT"
+    },
+    {
+      "table": "KSML",
+      "type": "rel",
+      "on": "CLINT"
+    }
+  ]
 }

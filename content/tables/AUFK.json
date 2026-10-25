@@ -39,5 +39,67 @@
       "ordem de investimento",
       "mestre de ordens"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "AUFNR",
+      "key": true
+    },
+    {
+      "name": "AUTYP"
+    },
+    {
+      "name": "BUKRS"
+    },
+    {
+      "name": "WERKS"
+    },
+    {
+      "name": "KOKRS"
+    },
+    {
+      "name": "OBJNR"
+    },
+    {
+      "name": "PRCTR"
+    },
+    {
+      "name": "KOSTV"
+    },
+    {
+      "name": "WAERS"
+    },
+    {
+      "name": "ERNAM"
+    },
+    {
+      "name": "ERDAT"
+    }
+  ],
+  "relations": [
+    {
+      "table": "T003O",
+      "type": "config",
+      "on": "AUART"
+    },
+    {
+      "table": "AFIH",
+      "type": "rel",
+      "on": "AUFNR"
+    },
+    {
+      "table": "AFKO",
+      "type": "rel",
+      "on": "AUFNR"
+    },
+    {
+      "table": "TKA01",
+      "type": "config",
+      "on": "KOKRS"
+    }
+  ]
 }

@@ -31,5 +31,34 @@
       "conta de contrato FI-CA",
       "VKONT"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "VKONT",
+      "key": true
+    },
+    {
+      "name": "VKTYP"
+    },
+    {
+      "name": "VKBEZ"
+    },
+    {
+      "name": "ERDAT"
+    },
+    {
+      "name": "ERNAM"
+    }
+  ],
+  "relations": [
+    {
+      "table": "FKKVKP",
+      "type": "rel",
+      "on": "VKONT"
+    }
+  ]
 }

@@ -37,5 +37,75 @@
       "item de documento de material",
       "consumo de material"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "MBLNR",
+      "key": true
+    },
+    {
+      "name": "MJAHR",
+      "key": true
+    },
+    {
+      "name": "ZEILE",
+      "key": true
+    },
+    {
+      "name": "BWART"
+    },
+    {
+      "name": "MATNR"
+    },
+    {
+      "name": "WERKS"
+    },
+    {
+      "name": "LGORT"
+    },
+    {
+      "name": "CHARG"
+    },
+    {
+      "name": "SHKZG"
+    },
+    {
+      "name": "MENGE"
+    },
+    {
+      "name": "MEINS"
+    },
+    {
+      "name": "DMBTR"
+    },
+    {
+      "name": "EBELN"
+    }
+  ],
+  "relations": [
+    {
+      "table": "MKPF",
+      "type": "header",
+      "on": "MBLNR + MJAHR"
+    },
+    {
+      "table": "MARA",
+      "type": "master",
+      "on": "MATNR"
+    },
+    {
+      "table": "T156",
+      "type": "config",
+      "on": "BWART"
+    },
+    {
+      "table": "EKPO",
+      "type": "rel",
+      "on": "EBELN + EBELP"
+    }
+  ]
 }

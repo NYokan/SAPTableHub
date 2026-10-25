@@ -30,5 +30,37 @@
       "nota do endereço",
       "comentário do endereço"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "CLIENT",
+      "key": true
+    },
+    {
+      "name": "ADDRNUMBER",
+      "key": true
+    },
+    {
+      "name": "DATE_FROM",
+      "key": true
+    },
+    {
+      "name": "NATION",
+      "key": true
+    },
+    {
+      "name": "LANGU",
+      "key": true
+    },
+    {
+      "name": "REMARK"
+    }
+  ],
+  "relations": [
+    {
+      "table": "ADRC",
+      "type": "header",
+      "on": "ADDRNUMBER + DATE_FROM + NATION"
+    }
+  ]
 }

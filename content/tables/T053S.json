@@ -27,5 +27,41 @@
       "texto do motivo de diferença",
       "descrição do código de motivo"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "BUKRS",
+      "key": true
+    },
+    {
+      "name": "RSTGR",
+      "key": true
+    },
+    {
+      "name": "TXT20",
+      "label": {
+        "es": "Descripción corta",
+        "en": "Short description",
+        "pt": "Descrição curta"
+      }
+    },
+    {
+      "name": "TXT40"
+    }
+  ],
+  "relations": [
+    {
+      "table": "T053R",
+      "type": "config",
+      "on": "BUKRS + RSTGR"
+    }
+  ]
 }

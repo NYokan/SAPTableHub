@@ -31,5 +31,29 @@
       "planejador de necessidades",
       "responsável pelo planejamento"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "WERKS",
+      "key": true
+    },
+    {
+      "name": "DISPO",
+      "key": true
+    },
+    {
+      "name": "DSNAM"
+    }
+  ],
+  "relations": [
+    {
+      "table": "T001W",
+      "type": "config",
+      "on": "WERKS"
+    }
+  ]
 }

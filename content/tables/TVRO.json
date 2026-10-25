@@ -30,5 +30,38 @@
       "tempo de trânsito",
       "ROUTE"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "ROUTE",
+      "key": true
+    },
+    {
+      "name": "VSART",
+      "label": {
+        "es": "Tipo de expedición",
+        "en": "Shipping type",
+        "pt": "Tipo de expedição"
+      }
+    },
+    {
+      "name": "TDLNR"
+    }
+  ],
+  "relations": [
+    {
+      "table": "TVROT",
+      "type": "text",
+      "on": "ROUTE"
+    },
+    {
+      "table": "LFA1",
+      "type": "master",
+      "on": "TDLNR = LIFNR"
+    }
+  ]
 }

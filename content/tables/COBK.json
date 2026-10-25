@@ -37,5 +37,63 @@
       "rateio",
       "lançamento de custos"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "KOKRS",
+      "key": true
+    },
+    {
+      "name": "BELNR",
+      "key": true
+    },
+    {
+      "name": "GJAHR"
+    },
+    {
+      "name": "VRGNG"
+    },
+    {
+      "name": "BLDAT"
+    },
+    {
+      "name": "BUDAT"
+    },
+    {
+      "name": "PERAB"
+    },
+    {
+      "name": "USNAM"
+    },
+    {
+      "name": "BLTXT"
+    },
+    {
+      "name": "REFBN"
+    },
+    {
+      "name": "AWTYP"
+    }
+  ],
+  "relations": [
+    {
+      "table": "COEP",
+      "type": "items",
+      "on": "KOKRS + BELNR"
+    },
+    {
+      "table": "TKA01",
+      "type": "config",
+      "on": "KOKRS"
+    },
+    {
+      "table": "TJ01",
+      "type": "config",
+      "on": "VRGNG"
+    }
+  ]
 }

@@ -36,5 +36,32 @@
       "BSART",
       "NB"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "BSTYP",
+      "key": true
+    },
+    {
+      "name": "BSART",
+      "key": true
+    },
+    {
+      "name": "NUMKI"
+    },
+    {
+      "name": "NUMKE"
+    }
+  ],
+  "relations": [
+    {
+      "table": "T161T",
+      "type": "text",
+      "on": "BSTYP + BSART"
+    }
+  ]
 }

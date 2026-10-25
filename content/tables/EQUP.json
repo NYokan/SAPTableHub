@@ -34,5 +34,48 @@
       "regulamento de quotas",
       "divisão de compras"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "QUNUM",
+      "key": true
+    },
+    {
+      "name": "QUPOS",
+      "key": true
+    },
+    {
+      "name": "BESKZ",
+      "label": {
+        "es": "Tipo de aprovisionamiento",
+        "en": "Procurement type",
+        "pt": "Tipo de suprimento"
+      }
+    },
+    {
+      "name": "SOBES"
+    },
+    {
+      "name": "LIFNR"
+    },
+    {
+      "name": "BEWRK"
+    }
+  ],
+  "relations": [
+    {
+      "table": "EQUK",
+      "type": "header",
+      "on": "QUNUM"
+    },
+    {
+      "table": "LFA1",
+      "type": "master",
+      "on": "LIFNR"
+    }
+  ]
 }

@@ -36,5 +36,67 @@
       "ledger",
       "segmento"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "RCLNT",
+      "key": true
+    },
+    {
+      "name": "RYEAR",
+      "key": true
+    },
+    {
+      "name": "DOCNR",
+      "key": true
+    },
+    {
+      "name": "RLDNR",
+      "key": true
+    },
+    {
+      "name": "RBUKRS",
+      "key": true
+    },
+    {
+      "name": "DOCLN",
+      "key": true
+    },
+    {
+      "name": "RACCT"
+    },
+    {
+      "name": "RCNTR"
+    },
+    {
+      "name": "PRCTR"
+    },
+    {
+      "name": "SEGMENT"
+    },
+    {
+      "name": "POPER"
+    },
+    {
+      "name": "DRCRK"
+    },
+    {
+      "name": "BELNR"
+    },
+    {
+      "name": "BUZEI"
+    }
+  ],
+  "relations": [
+    {
+      "table": "BKPF",
+      "type": "header",
+      "on": "RBUKRS = BUKRS + BELNR + RYEAR = GJAHR"
+    },
+    {
+      "table": "FAGL_SEGM",
+      "type": "config",
+      "on": "SEGMENT"
+    }
+  ]
 }

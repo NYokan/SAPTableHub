@@ -36,5 +36,47 @@
       "tarefa",
       "CAPA"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "QMNUM",
+      "key": true
+    },
+    {
+      "name": "MANUM",
+      "key": true
+    },
+    {
+      "name": "FENUM"
+    },
+    {
+      "name": "MNKAT"
+    },
+    {
+      "name": "MNGRP"
+    },
+    {
+      "name": "MNCOD"
+    },
+    {
+      "name": "MATXT"
+    },
+    {
+      "name": "PSTER"
+    },
+    {
+      "name": "PETER"
+    }
+  ],
+  "relations": [
+    {
+      "table": "QMEL",
+      "type": "header",
+      "on": "QMNUM"
+    }
+  ]
 }

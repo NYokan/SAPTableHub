@@ -33,5 +33,51 @@
       "limites de tolerância",
       "plano de inspeção"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "PLNTY",
+      "key": true
+    },
+    {
+      "name": "PLNNR",
+      "key": true
+    },
+    {
+      "name": "PLNKN",
+      "key": true
+    },
+    {
+      "name": "KZEINSTELL",
+      "key": true
+    },
+    {
+      "name": "MERKNR",
+      "key": true
+    },
+    {
+      "name": "ZAEHL",
+      "key": true
+    },
+    {
+      "name": "VERWMERKM"
+    },
+    {
+      "name": "MKVERSION"
+    },
+    {
+      "name": "STICHPRVER"
+    }
+  ],
+  "relations": [
+    {
+      "table": "PLKO",
+      "type": "header",
+      "on": "PLNTY + PLNNR"
+    }
+  ]
 }

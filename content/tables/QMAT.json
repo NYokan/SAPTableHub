@@ -30,5 +30,50 @@
       "tipo de inspeção do material",
       "inspeção ativa"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "ART",
+      "key": true
+    },
+    {
+      "name": "MATNR",
+      "key": true
+    },
+    {
+      "name": "WERKS",
+      "key": true
+    },
+    {
+      "name": "AKTIV",
+      "type": "CHAR 1",
+      "label": {
+        "es": "Activo",
+        "en": "Active",
+        "pt": "Ativo"
+      }
+    },
+    {
+      "name": "PPL"
+    },
+    {
+      "name": "DYN"
+    }
+  ],
+  "relations": [
+    {
+      "table": "MARC",
+      "type": "master",
+      "on": "MATNR + WERKS"
+    },
+    {
+      "table": "TQ30",
+      "type": "config",
+      "on": "ART"
+    }
+  ]
 }

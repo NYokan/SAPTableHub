@@ -30,5 +30,41 @@
       "título do documento DMS",
       "texto do documento"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "DOKAR",
+      "key": true
+    },
+    {
+      "name": "DOKNR",
+      "key": true
+    },
+    {
+      "name": "DOKVR",
+      "key": true
+    },
+    {
+      "name": "DOKTL",
+      "key": true
+    },
+    {
+      "name": "LANGU",
+      "key": true
+    },
+    {
+      "name": "DKTXT"
+    }
+  ],
+  "relations": [
+    {
+      "table": "DRAW",
+      "type": "header",
+      "on": "DOKAR + DOKNR + DOKVR + DOKTL"
+    }
+  ]
 }

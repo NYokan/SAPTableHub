@@ -39,5 +39,34 @@
       "imposto de entrada",
       "imposto de saída"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "KALSM",
+      "key": true
+    },
+    {
+      "name": "MWSKZ",
+      "key": true,
+      "label": {
+        "es": "Código de impuesto",
+        "en": "Tax code",
+        "pt": "Código de imposto"
+      }
+    },
+    {
+      "name": "MWART"
+    }
+  ],
+  "relations": [
+    {
+      "table": "T007S",
+      "type": "text",
+      "on": "KALSM + MWSKZ"
+    }
+  ]
 }

@@ -30,5 +30,29 @@
       "supervisor de produção",
       "programador de produção"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "WERKS",
+      "key": true
+    },
+    {
+      "name": "FEVOR",
+      "key": true
+    },
+    {
+      "name": "TXT"
+    }
+  ],
+  "relations": [
+    {
+      "table": "T001W",
+      "type": "config",
+      "on": "WERKS"
+    }
+  ]
 }

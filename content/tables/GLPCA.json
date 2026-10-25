@@ -36,5 +36,59 @@
       "DRE por unidade",
       "EC-PCA"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "RCLNT",
+      "key": true
+    },
+    {
+      "name": "GL_SIRID",
+      "key": true
+    },
+    {
+      "name": "RYEAR"
+    },
+    {
+      "name": "POPER"
+    },
+    {
+      "name": "RBUKRS"
+    },
+    {
+      "name": "KOKRS"
+    },
+    {
+      "name": "RPRCTR"
+    },
+    {
+      "name": "RACCT",
+      "label": {
+        "es": "Número de cuenta",
+        "en": "Account number",
+        "pt": "Número da conta"
+      }
+    },
+    {
+      "name": "RVERS"
+    },
+    {
+      "name": "BUDAT"
+    },
+    {
+      "name": "REFDOCNR"
+    }
+  ],
+  "relations": [
+    {
+      "table": "CEPC",
+      "type": "master",
+      "on": "KOKRS + RPRCTR = PRCTR"
+    },
+    {
+      "table": "T001",
+      "type": "config",
+      "on": "RBUKRS = BUKRS"
+    }
+  ]
 }

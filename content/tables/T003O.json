@@ -31,5 +31,36 @@
       "AUART",
       "configuração de ordens"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "CLIENT",
+      "key": true
+    },
+    {
+      "name": "AUART",
+      "key": true
+    },
+    {
+      "name": "AUTYP"
+    },
+    {
+      "name": "NUMKR",
+      "label": {
+        "es": "Rango de números",
+        "en": "Number range",
+        "pt": "Intervalo de numeração"
+      }
+    },
+    {
+      "name": "STSMA"
+    }
+  ],
+  "relations": [
+    {
+      "table": "T003P",
+      "type": "text",
+      "on": "AUART"
+    }
+  ]
 }

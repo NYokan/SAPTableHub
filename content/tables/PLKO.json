@@ -39,5 +39,83 @@
       "plano de inspeção",
       "processo de fabricação"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "PLNTY",
+      "key": true
+    },
+    {
+      "name": "PLNNR",
+      "key": true
+    },
+    {
+      "name": "PLNAL",
+      "key": true
+    },
+    {
+      "name": "ZAEHL",
+      "key": true
+    },
+    {
+      "name": "DATUV"
+    },
+    {
+      "name": "KTEXT",
+      "type": "CHAR 40",
+      "label": {
+        "es": "Descripción breve",
+        "en": "Short description",
+        "pt": "Descrição breve"
+      }
+    },
+    {
+      "name": "WERKS"
+    },
+    {
+      "name": "VERWE"
+    },
+    {
+      "name": "STATU",
+      "type": "CHAR 3",
+      "label": {
+        "es": "Status de hoja de ruta",
+        "en": "Task list status",
+        "pt": "Status do roteiro"
+      }
+    },
+    {
+      "name": "PLNME"
+    },
+    {
+      "name": "LOSVN"
+    },
+    {
+      "name": "LOSBS"
+    },
+    {
+      "name": "ANDAT"
+    }
+  ],
+  "relations": [
+    {
+      "table": "PLPO",
+      "type": "items",
+      "on": "PLNTY + PLNNR"
+    },
+    {
+      "table": "MAPL",
+      "type": "rel",
+      "on": "PLNTY + PLNNR + PLNAL"
+    },
+    {
+      "table": "T411",
+      "type": "config",
+      "on": "VERWE"
+    }
+  ]
 }

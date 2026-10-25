@@ -34,5 +34,28 @@
       "EKORG",
       "estrutura de compras"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "EKORG",
+      "key": true
+    },
+    {
+      "name": "EKOTX"
+    },
+    {
+      "name": "BUKRS"
+    }
+  ],
+  "relations": [
+    {
+      "table": "T001",
+      "type": "config",
+      "on": "BUKRS"
+    }
+  ]
 }

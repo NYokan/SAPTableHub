@@ -36,5 +36,54 @@
       "MD61",
       "plano de produção"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "MATNR",
+      "key": true
+    },
+    {
+      "name": "WERKS",
+      "key": true
+    },
+    {
+      "name": "BEDAE",
+      "key": true
+    },
+    {
+      "name": "VERSB",
+      "key": true
+    },
+    {
+      "name": "PBDNR",
+      "key": true
+    },
+    {
+      "name": "BDZEI"
+    },
+    {
+      "name": "VERVS"
+    }
+  ],
+  "relations": [
+    {
+      "table": "PBED",
+      "type": "items",
+      "on": "BDZEI"
+    },
+    {
+      "table": "MARC",
+      "type": "master",
+      "on": "MATNR + WERKS"
+    },
+    {
+      "table": "T459A",
+      "type": "config",
+      "on": "BEDAE"
+    }
+  ]
 }

@@ -38,5 +38,67 @@
       "nota de manutenção",
       "ocorrência"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "QMNUM",
+      "key": true
+    },
+    {
+      "name": "QMART"
+    },
+    {
+      "name": "QMTXT"
+    },
+    {
+      "name": "QMDAT"
+    },
+    {
+      "name": "ERDAT"
+    },
+    {
+      "name": "MATNR"
+    },
+    {
+      "name": "MAWERK"
+    },
+    {
+      "name": "LIFNUM"
+    },
+    {
+      "name": "KUNUM"
+    },
+    {
+      "name": "PRUEFLOS"
+    },
+    {
+      "name": "PRIOK"
+    }
+  ],
+  "relations": [
+    {
+      "table": "QMFE",
+      "type": "items",
+      "on": "QMNUM"
+    },
+    {
+      "table": "TQ80",
+      "type": "config",
+      "on": "QMART"
+    },
+    {
+      "table": "MARA",
+      "type": "master",
+      "on": "MATNR"
+    },
+    {
+      "table": "QALS",
+      "type": "rel",
+      "on": "PRUEFLOS"
+    }
+  ]
 }

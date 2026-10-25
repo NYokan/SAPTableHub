@@ -34,5 +34,49 @@
       "transferência entre centros",
       "itinerário da transferência"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "EBELN",
+      "key": true
+    },
+    {
+      "name": "EBELP",
+      "key": true
+    },
+    {
+      "name": "VSTEL"
+    },
+    {
+      "name": "VKORG"
+    },
+    {
+      "name": "VTWEG"
+    },
+    {
+      "name": "SPART"
+    },
+    {
+      "name": "KUNNR"
+    },
+    {
+      "name": "ROUTE"
+    }
+  ],
+  "relations": [
+    {
+      "table": "EKPO",
+      "type": "header",
+      "on": "EBELN + EBELP"
+    },
+    {
+      "table": "KNA1",
+      "type": "master",
+      "on": "KUNNR"
+    }
+  ]
 }

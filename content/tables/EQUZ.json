@@ -36,5 +36,53 @@
       "equipamento superior",
       "período de validade"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "EQUNR",
+      "key": true
+    },
+    {
+      "name": "DATBI",
+      "key": true
+    },
+    {
+      "name": "EQLFN",
+      "key": true
+    },
+    {
+      "name": "DATAB"
+    },
+    {
+      "name": "IWERK"
+    },
+    {
+      "name": "ILOAN"
+    },
+    {
+      "name": "HEQUI"
+    },
+    {
+      "name": "TIDNR"
+    },
+    {
+      "name": "INGRP"
+    }
+  ],
+  "relations": [
+    {
+      "table": "EQUI",
+      "type": "master",
+      "on": "EQUNR"
+    },
+    {
+      "table": "ILOA",
+      "type": "rel",
+      "on": "ILOAN"
+    }
+  ]
 }

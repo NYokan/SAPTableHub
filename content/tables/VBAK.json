@@ -56,7 +56,12 @@
       "name": "ERDAT"
     },
     {
-      "name": "AUART"
+      "name": "AUART",
+      "label": {
+        "es": "Clase de documento de ventas",
+        "en": "Sales document type",
+        "pt": "Tipo de documento de vendas"
+      }
     },
     {
       "name": "VKORG"

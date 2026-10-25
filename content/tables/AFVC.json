@@ -36,5 +36,65 @@
       "etapa de trabalho",
       "operações da ordem"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "AUFPL",
+      "key": true
+    },
+    {
+      "name": "APLZL",
+      "key": true
+    },
+    {
+      "name": "PLNFL"
+    },
+    {
+      "name": "VORNR"
+    },
+    {
+      "name": "STEUS"
+    },
+    {
+      "name": "ARBID"
+    },
+    {
+      "name": "WERKS"
+    },
+    {
+      "name": "LTXA1"
+    },
+    {
+      "name": "LIFNR"
+    },
+    {
+      "name": "OBJNR"
+    }
+  ],
+  "relations": [
+    {
+      "table": "AFKO",
+      "type": "header",
+      "on": "AUFPL"
+    },
+    {
+      "table": "AFVV",
+      "type": "rel",
+      "on": "AUFPL + APLZL"
+    },
+    {
+      "table": "CRHD",
+      "type": "master",
+      "on": "ARBID = OBJID"
+    },
+    {
+      "table": "T430",
+      "type": "config",
+      "on": "STEUS"
+    }
+  ]
 }

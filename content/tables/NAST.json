@@ -36,5 +36,71 @@
       "envio de documento",
       "formulário"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "KAPPL",
+      "key": true
+    },
+    {
+      "name": "OBJKY",
+      "key": true
+    },
+    {
+      "name": "KSCHL",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "PARNR",
+      "key": true,
+      "type": "CHAR 10",
+      "label": {
+        "es": "Interlocutor del mensaje",
+        "en": "Output partner",
+        "pt": "Parceiro da mensagem"
+      }
+    },
+    {
+      "name": "PARVW",
+      "key": true
+    },
+    {
+      "name": "ERDAT",
+      "key": true
+    },
+    {
+      "name": "ERUHR",
+      "key": true
+    },
+    {
+      "name": "NACHA"
+    },
+    {
+      "name": "VSTAT"
+    },
+    {
+      "name": "DATVR"
+    },
+    {
+      "name": "UHRVR"
+    },
+    {
+      "name": "USNAM"
+    }
+  ],
+  "relations": [
+    {
+      "table": "TNAPR",
+      "type": "config",
+      "on": "KSCHL + NACHA + KAPPL"
+    }
+  ]
 }

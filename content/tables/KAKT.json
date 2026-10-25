@@ -27,5 +27,35 @@
       "nome da capacidade",
       "descrição da capacidade"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "KAPID",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "KTEXT",
+      "type": "CHAR 40",
+      "label": {
+        "es": "Descripción breve",
+        "en": "Short description",
+        "pt": "Descrição breve"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "table": "KAKO",
+      "type": "master",
+      "on": "KAPID"
+    }
+  ]
 }

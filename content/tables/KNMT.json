@@ -33,5 +33,50 @@
       "referência do cliente",
       "registro info cliente-material"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "VKORG",
+      "key": true
+    },
+    {
+      "name": "VTWEG",
+      "key": true
+    },
+    {
+      "name": "KUNNR",
+      "key": true
+    },
+    {
+      "name": "MATNR",
+      "key": true
+    },
+    {
+      "name": "KDMAT"
+    },
+    {
+      "name": "POSTX"
+    }
+  ],
+  "relations": [
+    {
+      "table": "KNMTK",
+      "type": "header",
+      "on": "VKORG + VTWEG + KUNNR"
+    },
+    {
+      "table": "KNA1",
+      "type": "master",
+      "on": "KUNNR"
+    },
+    {
+      "table": "MARA",
+      "type": "master",
+      "on": "MATNR"
+    }
+  ]
 }

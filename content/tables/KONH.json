@@ -33,5 +33,46 @@
       "validade de preços",
       "condições de preço"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "KNUMH",
+      "key": true
+    },
+    {
+      "name": "KAPPL"
+    },
+    {
+      "name": "KSCHL"
+    },
+    {
+      "name": "KOTABNR"
+    },
+    {
+      "name": "VAKEY"
+    },
+    {
+      "name": "DATAB"
+    },
+    {
+      "name": "DATBI"
+    },
+    {
+      "name": "ERDAT"
+    },
+    {
+      "name": "ERNAM"
+    }
+  ],
+  "relations": [
+    {
+      "table": "KONP",
+      "type": "items",
+      "on": "KNUMH"
+    }
+  ]
 }

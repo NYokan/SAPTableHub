@@ -27,5 +27,29 @@
       "texto tipo de nota",
       "descrição tipo de notificação"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "QMART",
+      "key": true
+    },
+    {
+      "name": "QMARTX"
+    }
+  ],
+  "relations": [
+    {
+      "table": "TQ80",
+      "type": "config",
+      "on": "QMART"
+    }
+  ]
 }

@@ -58,7 +58,7 @@
   "noPlain": "Ainda não há uma explicação em linguagem simples para esta tabela. Ela virá com o conteúdo editorial.",
   "mainFields": "Campos principais",
   "fieldsNote": "Somente os campos principais são exibidos.",
-  "noFields": "Os campos desta tabela serão carregados ao importar o dicionário SAP.",
+  "noFields": "Os campos principais desta tabela ainda não estão documentados.",
   "key": "Chave",
   "colField": "Campo",
   "colType": "Tipo",

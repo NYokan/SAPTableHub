@@ -31,5 +31,31 @@
       "taxa média",
       "taxa M"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "KURST",
+      "key": true
+    },
+    {
+      "name": "XINVR"
+    },
+    {
+      "name": "BWAER"
+    },
+    {
+      "name": "XBWRL"
+    }
+  ],
+  "relations": [
+    {
+      "table": "TCURW",
+      "type": "text",
+      "on": "KURST"
+    }
+  ]
 }

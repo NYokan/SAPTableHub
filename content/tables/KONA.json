@@ -33,5 +33,43 @@
       "bonificação por volume",
       "desconto posterior"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "KNUMA",
+      "key": true
+    },
+    {
+      "name": "BOART"
+    },
+    {
+      "name": "VKORG"
+    },
+    {
+      "name": "VTWEG"
+    },
+    {
+      "name": "SPART"
+    },
+    {
+      "name": "DATAB"
+    },
+    {
+      "name": "DATBI"
+    },
+    {
+      "name": "BONEM"
+    }
+  ],
+  "relations": [
+    {
+      "table": "KNA1",
+      "type": "master",
+      "on": "BONEM = KUNNR"
+    }
+  ]
 }

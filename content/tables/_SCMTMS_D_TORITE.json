@@ -29,5 +29,28 @@
       "carga da ordem de frete",
       "TM itens"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "DB_KEY",
+      "key": true
+    },
+    {
+      "name": "PARENT_KEY"
+    },
+    {
+      "name": "ROOT_KEY"
+    }
+  ],
+  "relations": [
+    {
+      "table": "/SCMTMS/D_TORROT",
+      "type": "header",
+      "on": "ROOT_KEY = DB_KEY"
+    }
+  ]
 }

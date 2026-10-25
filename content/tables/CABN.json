@@ -33,5 +33,54 @@
       "característica de material",
       "característica de lote"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "ATINN",
+      "key": true,
+      "label": {
+        "es": "Característica (número interno)",
+        "en": "Characteristic (internal number)",
+        "pt": "Característica (número interno)"
+      }
+    },
+    {
+      "name": "ADZHL",
+      "key": true
+    },
+    {
+      "name": "ATNAM"
+    },
+    {
+      "name": "ATFOR"
+    },
+    {
+      "name": "ATKLA"
+    },
+    {
+      "name": "MSEHI"
+    },
+    {
+      "name": "DATUV"
+    },
+    {
+      "name": "LKENZ"
+    }
+  ],
+  "relations": [
+    {
+      "table": "CABNT",
+      "type": "text",
+      "on": "ATINN"
+    },
+    {
+      "table": "CAWN",
+      "type": "rel",
+      "on": "ATINN"
+    }
+  ]
 }

@@ -5,6 +5,7 @@ import path from 'node:path';
 
 export const LANGS = ['es', 'en', 'pt'];
 const NAME_RE = /^[A-Z0-9_/]+$/;
+const TYPE_RE = /^[A-Z0-9]+ \d+(,\d+)?$/;
 const COMP_RE = /^[A-Z][A-Z0-9]*(-[A-Z0-9]+)*$/;
 
 /** Detail files are grouped by the first two characters of the table name, so the site never needs one file per table. */
@@ -83,6 +84,8 @@ export function validate(c) {
     const seen = new Set();
     for (const f of t.fields ?? []) {
       if (!c.fields[f.name]) err(file, `el campo ${f.name} no está en fields.json`);
+      if (f.label !== undefined && !isL10n(f.label)) err(file, `la etiqueta propia de ${f.name} necesita es, en y pt`);
+      if (f.type !== undefined && !TYPE_RE.test(f.type)) err(file, `el tipo de ${f.name} debe tener la forma "CHAR 40"`);
       if (seen.has(f.name)) err(file, `el campo ${f.name} está repetido`);
       seen.add(f.name);
     }
@@ -103,6 +106,9 @@ export function validate(c) {
 export function compile(c) {
   const tables = c.tables.map((x) => x.data).sort((a, b) => a.id.localeCompare(b.id));
   const empty = { es: [], en: [], pt: [] };
+  // how many other tables point to each one: the central tables of an area are the most referenced
+  const refs = {};
+  for (const t of tables) for (const id of new Set((t.relations ?? []).map((r) => r.table))) refs[id] = (refs[id] ?? 0) + 1;
   const index = {
     tables: tables.map((t) => ({
       id: t.id,
@@ -114,8 +120,10 @@ export function compile(c) {
       ...(t.s4only ? { s4: 1 } : {}),
       title: t.title,
       syn: t.synonyms ?? empty,
-      f: (t.fields ?? []).map((f) => (f.key ? '*' : '') + f.name),
+      // a field whose type in this table differs from the dictionary carries it after a colon: "*VTEXT:CHAR 40"
+      f: (t.fields ?? []).map((f) => (f.key ? '*' : '') + f.name + (f.type ? ':' + f.type : '')),
       p: t.purpose ? 1 : 0,
+      ...(refs[t.id] ? { r: refs[t.id] } : {}),
     })),
     fields: c.fields,
     taxonomy: c.taxonomy,
@@ -123,7 +131,9 @@ export function compile(c) {
   };
   const details = {};
   for (const t of tables) {
-    (details[shardOf(t.id)] ??= {})[t.id] = { purpose: t.purpose ?? null, rel: t.relations ?? [] };
+    // a field that means something narrower in this table (AUART is an order type here, not a sales document type)
+    const lab = Object.fromEntries((t.fields ?? []).filter((f) => f.label).map((f) => [f.name, f.label]));
+    (details[shardOf(t.id)] ??= {})[t.id] = { purpose: t.purpose ?? null, rel: t.relations ?? [], ...(Object.keys(lab).length ? { lab } : {}) };
   }
   return { index, details };
 }

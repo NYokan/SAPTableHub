@@ -27,5 +27,37 @@
       "nome da conta bancária",
       "descrição da conta do banco próprio"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "BUKRS",
+      "key": true
+    },
+    {
+      "name": "HBKID",
+      "key": true
+    },
+    {
+      "name": "HKTID",
+      "key": true
+    },
+    {
+      "name": "TEXT1"
+    }
+  ],
+  "relations": [
+    {
+      "table": "T012K",
+      "type": "config",
+      "on": "BUKRS + HBKID + HKTID"
+    }
+  ]
 }

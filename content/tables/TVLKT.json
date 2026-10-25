@@ -31,5 +31,29 @@
       "nome tipo de remessa",
       "LFART"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "LFART",
+      "key": true
+    },
+    {
+      "name": "VTEXT"
+    }
+  ],
+  "relations": [
+    {
+      "table": "TVLK",
+      "type": "config",
+      "on": "LFART"
+    }
+  ]
 }

@@ -30,5 +30,33 @@
       "plano de avaliação por empresa",
       "último período depreciado"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "BUKRS",
+      "key": true
+    },
+    {
+      "name": "AFAPL"
+    },
+    {
+      "name": "LGJAHR"
+    }
+  ],
+  "relations": [
+    {
+      "table": "T001",
+      "type": "config",
+      "on": "BUKRS"
+    },
+    {
+      "table": "T096",
+      "type": "config",
+      "on": "AFAPL"
+    }
+  ]
 }

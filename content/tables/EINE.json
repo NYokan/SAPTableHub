@@ -39,5 +39,68 @@
       "prazo de entrega",
       "condições de compra"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "INFNR",
+      "key": true
+    },
+    {
+      "name": "EKORG",
+      "key": true
+    },
+    {
+      "name": "ESOKZ",
+      "key": true
+    },
+    {
+      "name": "WERKS",
+      "key": true
+    },
+    {
+      "name": "NETPR"
+    },
+    {
+      "name": "WAERS"
+    },
+    {
+      "name": "PEINH",
+      "label": {
+        "es": "Unidad de precio",
+        "en": "Price unit",
+        "pt": "Unidade de preço"
+      }
+    },
+    {
+      "name": "BPRME"
+    },
+    {
+      "name": "APLFZ"
+    },
+    {
+      "name": "EKGRP"
+    },
+    {
+      "name": "NORBM"
+    },
+    {
+      "name": "MINBM"
+    }
+  ],
+  "relations": [
+    {
+      "table": "EINA",
+      "type": "header",
+      "on": "INFNR"
+    },
+    {
+      "table": "T024E",
+      "type": "config",
+      "on": "EKORG"
+    }
+  ]
 }

@@ -37,5 +37,40 @@
       "cargo",
       "departamento"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "PARNR",
+      "key": true
+    },
+    {
+      "name": "KUNNR"
+    },
+    {
+      "name": "NAMEV"
+    },
+    {
+      "name": "NAME1"
+    },
+    {
+      "name": "ABTNR"
+    },
+    {
+      "name": "PAFKT"
+    },
+    {
+      "name": "TELF1"
+    }
+  ],
+  "relations": [
+    {
+      "table": "KNA1",
+      "type": "master",
+      "on": "KUNNR"
+    }
+  ]
 }

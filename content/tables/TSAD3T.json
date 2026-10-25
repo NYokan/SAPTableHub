@@ -27,5 +27,29 @@
       "texto do tratamento",
       "saudação no endereço"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "CLIENT",
+      "key": true
+    },
+    {
+      "name": "LANGU",
+      "key": true
+    },
+    {
+      "name": "TITLE",
+      "key": true
+    },
+    {
+      "name": "TITLE_MEDI"
+    }
+  ],
+  "relations": [
+    {
+      "table": "TSAD3",
+      "type": "header",
+      "on": "TITLE"
+    }
+  ]
 }

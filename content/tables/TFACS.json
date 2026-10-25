@@ -30,5 +30,58 @@
       "calendário de trabalho anual",
       "é dia útil"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "IDENT",
+      "key": true
+    },
+    {
+      "name": "JAHR",
+      "key": true
+    },
+    {
+      "name": "MON01"
+    },
+    {
+      "name": "MON02"
+    },
+    {
+      "name": "MON03"
+    },
+    {
+      "name": "MON04"
+    },
+    {
+      "name": "MON05"
+    },
+    {
+      "name": "MON06"
+    },
+    {
+      "name": "MON07"
+    },
+    {
+      "name": "MON08"
+    },
+    {
+      "name": "MON09"
+    },
+    {
+      "name": "MON10"
+    },
+    {
+      "name": "MON11"
+    },
+    {
+      "name": "MON12"
+    }
+  ],
+  "relations": [
+    {
+      "table": "TFACD",
+      "type": "header",
+      "on": "IDENT"
+    }
+  ]
 }

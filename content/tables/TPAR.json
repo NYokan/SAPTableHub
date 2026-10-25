@@ -34,5 +34,25 @@
       "tipo de parceiro",
       "PARVW"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "PARVW",
+      "key": true
+    },
+    {
+      "name": "NRART"
+    }
+  ],
+  "relations": [
+    {
+      "table": "TPART",
+      "type": "text",
+      "on": "PARVW"
+    }
+  ]
 }

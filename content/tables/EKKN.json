@@ -39,5 +39,51 @@
       "conta do razão",
       "elemento PEP"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "EBELN",
+      "key": true
+    },
+    {
+      "name": "EBELP",
+      "key": true
+    },
+    {
+      "name": "ZEKKN",
+      "key": true
+    },
+    {
+      "name": "SAKTO"
+    },
+    {
+      "name": "KOSTL"
+    },
+    {
+      "name": "AUFNR"
+    },
+    {
+      "name": "ANLN1"
+    },
+    {
+      "name": "PS_PSP_PNR"
+    },
+    {
+      "name": "MENGE"
+    },
+    {
+      "name": "VPROZ"
+    }
+  ],
+  "relations": [
+    {
+      "table": "EKPO",
+      "type": "header",
+      "on": "EBELN + EBELP"
+    }
+  ]
 }

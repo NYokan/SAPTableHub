@@ -37,5 +37,56 @@
       "quantidade confirmada",
       "tempos de produção"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "AUFPL",
+      "key": true
+    },
+    {
+      "name": "APLZL",
+      "key": true
+    },
+    {
+      "name": "MGVRG"
+    },
+    {
+      "name": "MEINH"
+    },
+    {
+      "name": "FSAVD"
+    },
+    {
+      "name": "FSEDD"
+    },
+    {
+      "name": "SSAVD"
+    },
+    {
+      "name": "SSEDD"
+    },
+    {
+      "name": "VGW01"
+    },
+    {
+      "name": "VGE01"
+    },
+    {
+      "name": "BMSCH"
+    },
+    {
+      "name": "LMNGA"
+    }
+  ],
+  "relations": [
+    {
+      "table": "AFVC",
+      "type": "rel",
+      "on": "AUFPL + APLZL"
+    }
+  ]
 }

@@ -31,5 +31,37 @@
       "letra da categoria de item",
       "texto da categoria de item"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "PSTYP",
+      "key": true
+    },
+    {
+      "name": "EPSTP"
+    },
+    {
+      "name": "PTEXT",
+      "label": {
+        "es": "Descripción del tipo de posición",
+        "en": "Item category text",
+        "pt": "Texto da categoria de item"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "table": "T163",
+      "type": "config",
+      "on": "PSTYP"
+    }
+  ]
 }

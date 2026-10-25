@@ -27,5 +27,37 @@
       "texto do código de retenção",
       "descrição do código de retenção"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "LAND1",
+      "key": true
+    },
+    {
+      "name": "WITHT",
+      "key": true
+    },
+    {
+      "name": "WT_WITHCD",
+      "key": true
+    },
+    {
+      "name": "TEXT40"
+    }
+  ],
+  "relations": [
+    {
+      "table": "T059Z",
+      "type": "config",
+      "on": "LAND1 + WITHT + WT_WITHCD"
+    }
+  ]
 }

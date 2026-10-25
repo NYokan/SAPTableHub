@@ -26,5 +26,29 @@
       "texto do tipo de movimento de ativo",
       "descrição do movimento de ativo"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "BWASL",
+      "key": true
+    },
+    {
+      "name": "BWATXT"
+    }
+  ],
+  "relations": [
+    {
+      "table": "TABW",
+      "type": "config",
+      "on": "BWASL"
+    }
+  ]
 }

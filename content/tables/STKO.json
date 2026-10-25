@@ -35,5 +35,73 @@
       "quantidade básica",
       "receita"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "STLTY",
+      "key": true
+    },
+    {
+      "name": "STLNR",
+      "key": true
+    },
+    {
+      "name": "STLAL",
+      "key": true
+    },
+    {
+      "name": "STKOZ",
+      "key": true
+    },
+    {
+      "name": "DATUV"
+    },
+    {
+      "name": "BMENG",
+      "label": {
+        "es": "Cantidad base de la lista de materiales",
+        "en": "BOM base quantity",
+        "pt": "Quantidade básica da lista técnica"
+      }
+    },
+    {
+      "name": "BMEIN"
+    },
+    {
+      "name": "STLST"
+    },
+    {
+      "name": "STKTX"
+    },
+    {
+      "name": "LOEKZ"
+    },
+    {
+      "name": "ANDAT"
+    },
+    {
+      "name": "ANNAM"
+    }
+  ],
+  "relations": [
+    {
+      "table": "STPO",
+      "type": "items",
+      "on": "STLTY + STLNR"
+    },
+    {
+      "table": "MAST",
+      "type": "rel",
+      "on": "STLNR + STLAL"
+    },
+    {
+      "table": "T415S",
+      "type": "config",
+      "on": "STLST"
+    }
+  ]
 }

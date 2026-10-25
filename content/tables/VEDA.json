@@ -37,5 +37,41 @@
       "renovação",
       "contrato de serviço"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "VBELN",
+      "key": true
+    },
+    {
+      "name": "VPOSN",
+      "key": true
+    },
+    {
+      "name": "VBEGDAT"
+    },
+    {
+      "name": "VENDDAT"
+    },
+    {
+      "name": "VLAUFZ"
+    },
+    {
+      "name": "VLAUFK"
+    },
+    {
+      "name": "VKUESCH"
+    }
+  ],
+  "relations": [
+    {
+      "table": "VBAK",
+      "type": "header",
+      "on": "VBELN"
+    }
+  ]
 }

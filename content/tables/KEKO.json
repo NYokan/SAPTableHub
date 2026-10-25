@@ -38,5 +38,69 @@
       "custo do produto",
       "custeio"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "BZOBJ",
+      "key": true
+    },
+    {
+      "name": "KALNR",
+      "key": true
+    },
+    {
+      "name": "KALKA",
+      "key": true
+    },
+    {
+      "name": "KADKY",
+      "key": true
+    },
+    {
+      "name": "TVERS",
+      "key": true
+    },
+    {
+      "name": "BWVAR",
+      "key": true
+    },
+    {
+      "name": "KKZMA",
+      "key": true
+    },
+    {
+      "name": "MATNR"
+    },
+    {
+      "name": "WERKS"
+    },
+    {
+      "name": "KLVAR"
+    },
+    {
+      "name": "KADAT"
+    },
+    {
+      "name": "LOSGR"
+    },
+    {
+      "name": "FEH_STA"
+    }
+  ],
+  "relations": [
+    {
+      "table": "CKIS",
+      "type": "items",
+      "on": "BZOBJ + KALNR + KALKA + KADKY + TVERS + BWVAR + KKZMA"
+    },
+    {
+      "table": "MARA",
+      "type": "master",
+      "on": "MATNR"
+    }
+  ]
 }

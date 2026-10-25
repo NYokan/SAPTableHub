@@ -36,5 +36,55 @@
       "prateleira",
       "posições vazias"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "LGNUM",
+      "key": true
+    },
+    {
+      "name": "LGTYP",
+      "key": true
+    },
+    {
+      "name": "LGPLA",
+      "key": true
+    },
+    {
+      "name": "LGBER"
+    },
+    {
+      "name": "LPTYP"
+    },
+    {
+      "name": "SKZUE"
+    },
+    {
+      "name": "SKZUA"
+    },
+    {
+      "name": "KZLER"
+    }
+  ],
+  "relations": [
+    {
+      "table": "T301",
+      "type": "config",
+      "on": "LGNUM + LGTYP"
+    },
+    {
+      "table": "LQUA",
+      "type": "rel",
+      "on": "LGNUM + LGTYP + LGPLA"
+    },
+    {
+      "table": "T302",
+      "type": "config",
+      "on": "LGNUM + LGTYP + LGBER"
+    }
+  ]
 }

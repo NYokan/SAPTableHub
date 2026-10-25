@@ -33,5 +33,57 @@
       "dados WM do material",
       "estratégia de armazenagem"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "MATNR",
+      "key": true
+    },
+    {
+      "name": "LGNUM",
+      "key": true
+    },
+    {
+      "name": "LVSME"
+    },
+    {
+      "name": "LGBKZ"
+    },
+    {
+      "name": "LTKZE"
+    },
+    {
+      "name": "LTKZA"
+    },
+    {
+      "name": "LHMG1"
+    },
+    {
+      "name": "LHME1"
+    },
+    {
+      "name": "LETY1"
+    }
+  ],
+  "relations": [
+    {
+      "table": "MARA",
+      "type": "master",
+      "on": "MATNR"
+    },
+    {
+      "table": "T300",
+      "type": "config",
+      "on": "LGNUM"
+    },
+    {
+      "table": "MLGT",
+      "type": "rel",
+      "on": "MATNR + LGNUM"
+    }
+  ]
 }

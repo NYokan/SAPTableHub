@@ -30,5 +30,37 @@
       "nome do set",
       "texto do grupo de centros de custo"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SETCLASS",
+      "key": true
+    },
+    {
+      "name": "SUBCLASS",
+      "key": true
+    },
+    {
+      "name": "SETNAME",
+      "key": true
+    },
+    {
+      "name": "LANGU",
+      "key": true
+    },
+    {
+      "name": "DESCRIPT"
+    }
+  ],
+  "relations": [
+    {
+      "table": "SETHEADER",
+      "type": "header",
+      "on": "SETCLASS + SUBCLASS + SETNAME"
+    }
+  ]
 }

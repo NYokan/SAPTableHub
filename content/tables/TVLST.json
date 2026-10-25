@@ -31,5 +31,29 @@
       "motivo bloqueio remessa",
       "LIFSP"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "LIFSP",
+      "key": true
+    },
+    {
+      "name": "VTEXT"
+    }
+  ],
+  "relations": [
+    {
+      "table": "TVLS",
+      "type": "config",
+      "on": "LIFSP"
+    }
+  ]
 }

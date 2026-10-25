@@ -35,5 +35,66 @@
       "RC",
       "necessidade de compra"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "BANFN",
+      "key": true
+    },
+    {
+      "name": "BNFPO",
+      "key": true
+    },
+    {
+      "name": "BSART"
+    },
+    {
+      "name": "MATNR"
+    },
+    {
+      "name": "WERKS"
+    },
+    {
+      "name": "EKGRP"
+    },
+    {
+      "name": "MENGE"
+    },
+    {
+      "name": "MEINS"
+    },
+    {
+      "name": "BADAT"
+    },
+    {
+      "name": "LFDAT"
+    },
+    {
+      "name": "EBELN"
+    },
+    {
+      "name": "EBELP"
+    }
+  ],
+  "relations": [
+    {
+      "table": "EBKN",
+      "type": "rel",
+      "on": "BANFN + BNFPO"
+    },
+    {
+      "table": "MARA",
+      "type": "master",
+      "on": "MATNR"
+    },
+    {
+      "table": "EKPO",
+      "type": "rel",
+      "on": "EBELN + EBELP"
+    }
+  ]
 }

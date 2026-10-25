@@ -30,5 +30,28 @@
       "custos de frete",
       "documento de custos de frete"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "FKNUM",
+      "key": true
+    },
+    {
+      "name": "ERNAM"
+    },
+    {
+      "name": "ERDAT"
+    }
+  ],
+  "relations": [
+    {
+      "table": "VFKP",
+      "type": "items",
+      "on": "FKNUM"
+    }
+  ]
 }

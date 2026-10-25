@@ -36,5 +36,42 @@
       "encerrado",
       "status da ordem"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "OBJNR",
+      "key": true
+    },
+    {
+      "name": "STAT",
+      "key": true
+    },
+    {
+      "name": "INACT"
+    },
+    {
+      "name": "CHGNR"
+    }
+  ],
+  "relations": [
+    {
+      "table": "JSTO",
+      "type": "header",
+      "on": "OBJNR"
+    },
+    {
+      "table": "JCDS",
+      "type": "rel",
+      "on": "OBJNR + STAT"
+    },
+    {
+      "table": "TJ02T",
+      "type": "text",
+      "on": "STAT = ISTAT"
+    }
+  ]
 }

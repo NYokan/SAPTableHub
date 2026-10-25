@@ -36,5 +36,49 @@
       "BSX",
       "KTOSL"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "KTOPL",
+      "key": true
+    },
+    {
+      "name": "KTOSL",
+      "key": true
+    },
+    {
+      "name": "BWMOD",
+      "key": true
+    },
+    {
+      "name": "KOMOK",
+      "key": true
+    },
+    {
+      "name": "BKLAS",
+      "key": true
+    },
+    {
+      "name": "KONTS"
+    },
+    {
+      "name": "KONTH"
+    }
+  ],
+  "relations": [
+    {
+      "table": "T004",
+      "type": "config",
+      "on": "KTOPL"
+    },
+    {
+      "table": "SKA1",
+      "type": "master",
+      "on": "KTOPL + KONTS = SAKNR"
+    }
+  ]
 }

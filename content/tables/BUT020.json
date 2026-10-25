@@ -30,5 +30,43 @@
       "endereços BP",
       "endereço do parceiro"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "CLIENT",
+      "key": true
+    },
+    {
+      "name": "PARTNER",
+      "key": true
+    },
+    {
+      "name": "ADDRNUMBER",
+      "key": true
+    },
+    {
+      "name": "XDFADR"
+    },
+    {
+      "name": "ADDRESS_GUID"
+    },
+    {
+      "name": "ADDR_VALID_FROM"
+    },
+    {
+      "name": "ADDR_VALID_TO"
+    }
+  ],
+  "relations": [
+    {
+      "table": "BUT000",
+      "type": "header",
+      "on": "PARTNER"
+    },
+    {
+      "table": "ADRC",
+      "type": "master",
+      "on": "ADDRNUMBER"
+    }
+  ]
 }

@@ -33,5 +33,42 @@
       "house bank",
       "HBKID"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "BUKRS",
+      "key": true
+    },
+    {
+      "name": "HBKID",
+      "key": true
+    },
+    {
+      "name": "BANKS"
+    },
+    {
+      "name": "BANKL"
+    }
+  ],
+  "relations": [
+    {
+      "table": "T012K",
+      "type": "rel",
+      "on": "BUKRS + HBKID"
+    },
+    {
+      "table": "BNKA",
+      "type": "master",
+      "on": "BANKS + BANKL"
+    },
+    {
+      "table": "T001",
+      "type": "config",
+      "on": "BUKRS"
+    }
+  ]
 }

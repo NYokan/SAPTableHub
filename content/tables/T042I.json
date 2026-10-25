@@ -30,5 +30,40 @@
       "conta transitória de pagamentos",
       "determinação de conta bancária"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "ZBUKR",
+      "key": true
+    },
+    {
+      "name": "HBKID",
+      "key": true
+    },
+    {
+      "name": "ZLSCH",
+      "key": true
+    },
+    {
+      "name": "WAERS",
+      "key": true
+    },
+    {
+      "name": "HKTID"
+    },
+    {
+      "name": "UKONT"
+    }
+  ],
+  "relations": [
+    {
+      "table": "T012K",
+      "type": "config",
+      "on": "ZBUKR = BUKRS + HBKID + HKTID"
+    }
+  ]
 }

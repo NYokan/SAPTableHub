@@ -28,5 +28,57 @@
       "histórico estoque no subcontratado",
       "estoque O histórico"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "MATNR",
+      "key": true
+    },
+    {
+      "name": "WERKS",
+      "key": true
+    },
+    {
+      "name": "CHARG",
+      "key": true
+    },
+    {
+      "name": "SOBKZ",
+      "key": true
+    },
+    {
+      "name": "LIFNR",
+      "key": true
+    },
+    {
+      "name": "LFGJA",
+      "key": true
+    },
+    {
+      "name": "LFMON",
+      "key": true
+    },
+    {
+      "name": "LBLAB"
+    },
+    {
+      "name": "LBINS"
+    }
+  ],
+  "relations": [
+    {
+      "table": "MSLB",
+      "type": "rel",
+      "on": "MATNR + WERKS + CHARG + SOBKZ + LIFNR"
+    },
+    {
+      "table": "LFA1",
+      "type": "master",
+      "on": "LIFNR"
+    }
+  ]
 }

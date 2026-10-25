@@ -38,5 +38,44 @@
       "limite inferior",
       "valor-alvo"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDANT",
+      "key": true
+    },
+    {
+      "name": "PRUEFLOS",
+      "key": true
+    },
+    {
+      "name": "VORGLFNR",
+      "key": true
+    },
+    {
+      "name": "MERKNR",
+      "key": true
+    },
+    {
+      "name": "VERWMERKM"
+    },
+    {
+      "name": "MKVERSION"
+    },
+    {
+      "name": "KURZTEXT"
+    }
+  ],
+  "relations": [
+    {
+      "table": "QALS",
+      "type": "header",
+      "on": "PRUEFLOS"
+    },
+    {
+      "table": "QAMR",
+      "type": "rel",
+      "on": "PRUEFLOS + VORGLFNR + MERKNR"
+    }
+  ]
 }

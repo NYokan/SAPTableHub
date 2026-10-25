@@ -36,5 +36,67 @@
       "status do lote",
       "data de entrada"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "MATNR",
+      "key": true
+    },
+    {
+      "name": "WERKS",
+      "key": true
+    },
+    {
+      "name": "CHARG",
+      "key": true
+    },
+    {
+      "name": "ERSDA"
+    },
+    {
+      "name": "ERNAM"
+    },
+    {
+      "name": "LVORM"
+    },
+    {
+      "name": "ZUSTD"
+    },
+    {
+      "name": "BWTAR"
+    },
+    {
+      "name": "VFDAT"
+    },
+    {
+      "name": "HSDAT"
+    },
+    {
+      "name": "LIFNR"
+    },
+    {
+      "name": "LICHA"
+    }
+  ],
+  "relations": [
+    {
+      "table": "MCH1",
+      "type": "rel",
+      "on": "MATNR + CHARG"
+    },
+    {
+      "table": "MARC",
+      "type": "master",
+      "on": "MATNR + WERKS"
+    },
+    {
+      "table": "MCHB",
+      "type": "rel",
+      "on": "MATNR + WERKS + CHARG"
+    }
+  ]
 }

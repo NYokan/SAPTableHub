@@ -30,5 +30,37 @@
       "material não avaliado",
       "controle de estoque por tipo de material"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "BWKEY",
+      "key": true
+    },
+    {
+      "name": "MTART",
+      "key": true
+    },
+    {
+      "name": "MENGU"
+    },
+    {
+      "name": "WERTU"
+    }
+  ],
+  "relations": [
+    {
+      "table": "T134",
+      "type": "master",
+      "on": "MTART"
+    },
+    {
+      "table": "T001K",
+      "type": "config",
+      "on": "BWKEY"
+    }
+  ]
 }

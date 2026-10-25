@@ -33,5 +33,47 @@
       "motivo do defeito",
       "análise de causa"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "QMNUM",
+      "key": true
+    },
+    {
+      "name": "FENUM",
+      "key": true
+    },
+    {
+      "name": "URNUM",
+      "key": true
+    },
+    {
+      "name": "URKAT"
+    },
+    {
+      "name": "URGRP"
+    },
+    {
+      "name": "URCOD"
+    },
+    {
+      "name": "URTXT"
+    }
+  ],
+  "relations": [
+    {
+      "table": "QMFE",
+      "type": "header",
+      "on": "QMNUM + FENUM"
+    },
+    {
+      "table": "QMEL",
+      "type": "header",
+      "on": "QMNUM"
+    }
+  ]
 }

@@ -28,5 +28,34 @@
       "texto grupo de clientes 3",
       "KVGR3"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "KVGR3",
+      "key": true
+    },
+    {
+      "name": "BEZEI",
+      "label": {
+        "es": "Descripción",
+        "en": "Description",
+        "pt": "Descrição"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "table": "TVV3",
+      "type": "config",
+      "on": "KVGR3"
+    }
+  ]
 }

@@ -34,5 +34,51 @@
       "plano de contas",
       "mestre de contas do razão"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "KTOPL",
+      "key": true
+    },
+    {
+      "name": "SAKNR",
+      "key": true
+    },
+    {
+      "name": "KTOKS"
+    },
+    {
+      "name": "XBILK"
+    },
+    {
+      "name": "GVTYP"
+    },
+    {
+      "name": "ERDAT"
+    },
+    {
+      "name": "ERNAM"
+    }
+  ],
+  "relations": [
+    {
+      "table": "SKAT",
+      "type": "text",
+      "on": "KTOPL + SAKNR"
+    },
+    {
+      "table": "SKB1",
+      "type": "rel",
+      "on": "SAKNR"
+    },
+    {
+      "table": "T004",
+      "type": "config",
+      "on": "KTOPL"
+    }
+  ]
 }

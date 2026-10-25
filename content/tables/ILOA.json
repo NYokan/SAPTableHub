@@ -36,5 +36,72 @@
       "local físico",
       "sala"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "ILOAN",
+      "key": true
+    },
+    {
+      "name": "TPLNR"
+    },
+    {
+      "name": "SWERK"
+    },
+    {
+      "name": "STORT",
+      "label": {
+        "es": "Emplazamiento",
+        "en": "Location",
+        "pt": "Localização"
+      }
+    },
+    {
+      "name": "BEBER"
+    },
+    {
+      "name": "MSGRP"
+    },
+    {
+      "name": "BUKRS"
+    },
+    {
+      "name": "KOKRS"
+    },
+    {
+      "name": "KOSTL"
+    },
+    {
+      "name": "ANLNR"
+    },
+    {
+      "name": "AUFNR"
+    }
+  ],
+  "relations": [
+    {
+      "table": "IFLOT",
+      "type": "master",
+      "on": "TPLNR"
+    },
+    {
+      "table": "T499S",
+      "type": "config",
+      "on": "SWERK = WERKS + STORT = STAND"
+    },
+    {
+      "table": "T357",
+      "type": "config",
+      "on": "SWERK = WERKS + BEBER"
+    },
+    {
+      "table": "CSKS",
+      "type": "master",
+      "on": "KOKRS + KOSTL"
+    }
+  ]
 }

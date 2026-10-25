@@ -30,5 +30,34 @@
       "área de avaliação por empresa",
       "parâmetros de ativos por empresa"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "BUKRS",
+      "key": true
+    },
+    {
+      "name": "AFABE",
+      "key": true
+    },
+    {
+      "name": "WAERS"
+    }
+  ],
+  "relations": [
+    {
+      "table": "T001",
+      "type": "config",
+      "on": "BUKRS"
+    },
+    {
+      "table": "T093C",
+      "type": "config",
+      "on": "BUKRS"
+    }
+  ]
 }

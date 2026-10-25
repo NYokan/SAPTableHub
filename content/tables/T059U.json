@@ -27,5 +27,33 @@
       "texto do tipo de retenção",
       "descrição do tipo de retenção"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "LAND1",
+      "key": true
+    },
+    {
+      "name": "WITHT",
+      "key": true
+    },
+    {
+      "name": "TEXT40"
+    }
+  ],
+  "relations": [
+    {
+      "table": "T059P",
+      "type": "config",
+      "on": "LAND1 + WITHT"
+    }
+  ]
 }

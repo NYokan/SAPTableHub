@@ -36,5 +36,45 @@
       "bloqueio de crédito",
       "status global"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "VBELN",
+      "key": true
+    },
+    {
+      "name": "GBSTK"
+    },
+    {
+      "name": "LFSTK"
+    },
+    {
+      "name": "FKSTK"
+    },
+    {
+      "name": "WBSTK"
+    },
+    {
+      "name": "ABSTK"
+    },
+    {
+      "name": "CMGST"
+    }
+  ],
+  "relations": [
+    {
+      "table": "VBUP",
+      "type": "items",
+      "on": "VBELN"
+    },
+    {
+      "table": "VBAK",
+      "type": "rel",
+      "on": "VBELN"
+    }
+  ]
 }

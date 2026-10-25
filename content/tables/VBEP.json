@@ -34,5 +34,61 @@
       "quantidade confirmada",
       "divisão de remessa"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "VBELN",
+      "key": true
+    },
+    {
+      "name": "POSNR",
+      "key": true
+    },
+    {
+      "name": "ETENR",
+      "key": true
+    },
+    {
+      "name": "ETTYP"
+    },
+    {
+      "name": "EDATU"
+    },
+    {
+      "name": "WMENG"
+    },
+    {
+      "name": "BMENG"
+    },
+    {
+      "name": "VRKME"
+    },
+    {
+      "name": "MBDAT"
+    },
+    {
+      "name": "LIFSP"
+    }
+  ],
+  "relations": [
+    {
+      "table": "VBAP",
+      "type": "header",
+      "on": "VBELN + POSNR"
+    },
+    {
+      "table": "VBAK",
+      "type": "header",
+      "on": "VBELN"
+    },
+    {
+      "table": "TVLS",
+      "type": "config",
+      "on": "LIFSP"
+    }
+  ]
 }

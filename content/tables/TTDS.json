@@ -30,5 +30,30 @@
       "TPLST",
       "planejamento de transportes"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "TPLST",
+      "key": true
+    },
+    {
+      "name": "BUKRS"
+    }
+  ],
+  "relations": [
+    {
+      "table": "TTDST",
+      "type": "text",
+      "on": "TPLST"
+    },
+    {
+      "table": "T001",
+      "type": "config",
+      "on": "BUKRS"
+    }
+  ]
 }

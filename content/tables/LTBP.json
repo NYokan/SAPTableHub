@@ -31,5 +31,53 @@
       "quantidade pendente",
       "material a movimentar"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "LGNUM",
+      "key": true
+    },
+    {
+      "name": "TBNUM",
+      "key": true
+    },
+    {
+      "name": "TBPOS",
+      "key": true
+    },
+    {
+      "name": "MATNR"
+    },
+    {
+      "name": "WERKS"
+    },
+    {
+      "name": "CHARG"
+    },
+    {
+      "name": "MENGE"
+    },
+    {
+      "name": "MEINS"
+    },
+    {
+      "name": "ELIKZ"
+    }
+  ],
+  "relations": [
+    {
+      "table": "LTBK",
+      "type": "header",
+      "on": "LGNUM + TBNUM"
+    },
+    {
+      "table": "MARA",
+      "type": "master",
+      "on": "MATNR"
+    }
+  ]
 }

@@ -34,5 +34,66 @@
       "dados contábeis do fornecedor",
       "bloqueio de pagamento do fornecedor"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "LIFNR",
+      "key": true
+    },
+    {
+      "name": "BUKRS",
+      "key": true
+    },
+    {
+      "name": "AKONT"
+    },
+    {
+      "name": "ZTERM"
+    },
+    {
+      "name": "ZWELS"
+    },
+    {
+      "name": "BUSAB"
+    },
+    {
+      "name": "ZUAWA"
+    },
+    {
+      "name": "REPRF"
+    },
+    {
+      "name": "SPERR"
+    },
+    {
+      "name": "LOEVM"
+    },
+    {
+      "name": "ERDAT"
+    },
+    {
+      "name": "ERNAM"
+    }
+  ],
+  "relations": [
+    {
+      "table": "LFA1",
+      "type": "master",
+      "on": "LIFNR"
+    },
+    {
+      "table": "T001",
+      "type": "config",
+      "on": "BUKRS"
+    },
+    {
+      "table": "SKB1",
+      "type": "master",
+      "on": "BUKRS + AKONT = SAKNR"
+    }
+  ]
 }

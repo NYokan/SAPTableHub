@@ -31,5 +31,48 @@
       "relação de conversão",
       "unidades por taxa de câmbio"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "KURST",
+      "key": true
+    },
+    {
+      "name": "FCURR",
+      "key": true
+    },
+    {
+      "name": "TCURR",
+      "key": true
+    },
+    {
+      "name": "GDATU",
+      "key": true
+    },
+    {
+      "name": "FFACT"
+    },
+    {
+      "name": "TFACT"
+    },
+    {
+      "name": "ABWCT"
+    }
+  ],
+  "relations": [
+    {
+      "table": "TCURV",
+      "type": "config",
+      "on": "KURST"
+    },
+    {
+      "table": "TCURR",
+      "type": "rel",
+      "on": "KURST + FCURR + TCURR"
+    }
+  ]
 }

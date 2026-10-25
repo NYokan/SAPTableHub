@@ -34,5 +34,40 @@
       "catálogo de serviços",
       "serviço padrão"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "ASNUM",
+      "key": true
+    },
+    {
+      "name": "ASTYP"
+    },
+    {
+      "name": "MATKL"
+    },
+    {
+      "name": "MEINS"
+    },
+    {
+      "name": "BKLAS"
+    },
+    {
+      "name": "ERDAT"
+    },
+    {
+      "name": "ERNAM"
+    }
+  ],
+  "relations": [
+    {
+      "table": "ASMDT",
+      "type": "text",
+      "on": "ASNUM"
+    }
+  ]
 }

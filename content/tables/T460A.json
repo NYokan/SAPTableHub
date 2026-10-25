@@ -33,5 +33,37 @@
       "item fantasma",
       "transferência entre centros"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "WERKS",
+      "key": true
+    },
+    {
+      "name": "SOBSL",
+      "key": true
+    },
+    {
+      "name": "BESKZ"
+    },
+    {
+      "name": "SOBES"
+    }
+  ],
+  "relations": [
+    {
+      "table": "T460T",
+      "type": "text",
+      "on": "WERKS + SOBSL"
+    },
+    {
+      "table": "T001W",
+      "type": "config",
+      "on": "WERKS"
+    }
+  ]
 }

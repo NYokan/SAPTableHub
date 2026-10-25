@@ -40,5 +40,69 @@
       "organização",
       "terceiro"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "CLIENT",
+      "key": true
+    },
+    {
+      "name": "PARTNER",
+      "key": true
+    },
+    {
+      "name": "BPKIND"
+    },
+    {
+      "name": "BU_GROUP"
+    },
+    {
+      "name": "BU_SORT1"
+    },
+    {
+      "name": "NAME_ORG1"
+    },
+    {
+      "name": "NAME_FIRST"
+    },
+    {
+      "name": "NAME_LAST"
+    },
+    {
+      "name": "CRDAT"
+    },
+    {
+      "name": "XDELE"
+    },
+    {
+      "name": "PARTNER_GUID",
+      "label": {
+        "es": "GUID del socio de negocio",
+        "en": "Business partner GUID",
+        "pt": "GUID do parceiro de negócios"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "table": "BUT020",
+      "type": "rel",
+      "on": "PARTNER"
+    },
+    {
+      "table": "BUT100",
+      "type": "rel",
+      "on": "PARTNER"
+    },
+    {
+      "table": "TB001",
+      "type": "config",
+      "on": "BU_GROUP"
+    },
+    {
+      "table": "TB004",
+      "type": "config",
+      "on": "BPKIND"
+    }
+  ]
 }

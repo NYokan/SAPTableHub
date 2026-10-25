@@ -37,5 +37,71 @@
       "dívida do cliente",
       "faturamento em massa"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "OPBEL",
+      "key": true
+    },
+    {
+      "name": "OPUPW",
+      "key": true
+    },
+    {
+      "name": "OPUPK",
+      "key": true
+    },
+    {
+      "name": "OPUPZ",
+      "key": true
+    },
+    {
+      "name": "BUKRS"
+    },
+    {
+      "name": "GPART"
+    },
+    {
+      "name": "VKONT"
+    },
+    {
+      "name": "HVORG"
+    },
+    {
+      "name": "TVORG"
+    },
+    {
+      "name": "HKONT"
+    },
+    {
+      "name": "BETRW"
+    },
+    {
+      "name": "WAERS"
+    },
+    {
+      "name": "FAEDN"
+    }
+  ],
+  "relations": [
+    {
+      "table": "DFKKKO",
+      "type": "header",
+      "on": "OPBEL"
+    },
+    {
+      "table": "FKKVK",
+      "type": "master",
+      "on": "VKONT"
+    },
+    {
+      "table": "BUT000",
+      "type": "master",
+      "on": "GPART = PARTNER"
+    }
+  ]
 }

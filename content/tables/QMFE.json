@@ -36,5 +36,54 @@
       "item da nota",
       "quantidade defeituosa"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "QMNUM",
+      "key": true
+    },
+    {
+      "name": "FENUM",
+      "key": true
+    },
+    {
+      "name": "FEKAT"
+    },
+    {
+      "name": "FEGRP"
+    },
+    {
+      "name": "FECOD"
+    },
+    {
+      "name": "FETXT"
+    },
+    {
+      "name": "OTKAT"
+    },
+    {
+      "name": "OTGRP"
+    }
+  ],
+  "relations": [
+    {
+      "table": "QMEL",
+      "type": "header",
+      "on": "QMNUM"
+    },
+    {
+      "table": "QMUR",
+      "type": "rel",
+      "on": "QMNUM + FENUM"
+    },
+    {
+      "table": "QPCT",
+      "type": "text",
+      "on": "FEKAT = KATALOGART + FEGRP = CODEGRUPPE + FECOD = CODE"
+    }
+  ]
 }

@@ -1,4 +1,5 @@
 import { LANGS, type DataIndex, type Lang, type TableSummary } from '../types.ts';
+import { parseField } from './fields.ts';
 import { norm, osa, tokenize } from './text.ts';
 
 const STOP = new Set([
@@ -6,6 +7,9 @@ const STOP = new Set([
   'of', 'the', 'an', 'and', 'for', 'in', 'to',
   'da', 'do', 'das', 'dos', 'o', 'as', 'os', 'um', 'uma', 'e', 'em',
 ]);
+
+// client fields, which every client-dependent table has in its key
+const CLIENT = new Set(['MANDT', 'CLIENT', 'MANDANT', 'RCLNT']);
 
 interface Phrase {
   lang: Lang;
@@ -30,6 +34,8 @@ export interface Entry {
   syns: Phrase[];
   words: string[];
   fields: FieldEntry[];
+  /** The one key field besides the client, when there is just one: the field this table is the home of. */
+  soleKey: string;
   /** Everything the list filter looks at, per language. */
   hay: Record<Lang, string>;
 }
@@ -42,16 +48,17 @@ export function buildEntries(data: DataIndex): Entry[] {
     const syns = LANGS.flatMap((lang) => t.syn[lang].map((raw) => phrase(lang, raw)));
     const words = [...new Set([...titles, ...syns].flatMap((p) => p.tok))];
     const fields = t.f.map((f) => {
-      const key = f.startsWith('*');
-      const name = key ? f.slice(1) : f;
+      const { name, key } = parseField(f);
       const def = data.fields[name];
       return { name, key, lc: name.toLowerCase(), labels: LANGS.map((l) => tokenize(def ? def.label[l] : '')) };
     });
+    const keys = fields.filter((f) => f.key && !CLIENT.has(f.name));
+    const soleKey = keys.length === 1 ? keys[0].name : '';
     const hay = {} as Record<Lang, string>;
     for (const l of LANGS) {
       hay[l] = norm([t.id, t.title[l], tx.areas[t.area]?.[l] ?? '', tx.contents[t.kind]?.[l] ?? '', ...t.syn[l]].join(' '));
     }
-    return { t, order, id: t.id.toLowerCase(), titles, syns, words, fields, hay };
+    return { t, order, id: t.id.toLowerCase(), titles, syns, words, fields, soleKey, hay };
   });
 }
 
@@ -93,7 +100,7 @@ function scoreEntry(x: Entry, words: string[], full: string, lang: Lang) {
     for (const p of x.syns) if (p.n === qt) cand(p.lang === lang ? 40 : 29, { syn: p.raw });
     for (const f of x.fields) {
       // a field name points to its "home" table first: the one where it is a key of master data
-      if (f.lc === qt) cand(18 + (f.key ? 10 : 0) + (x.t.kind === 'master' ? 8 : 0), { field: f.name });
+      if (f.lc === qt) cand(18 + (f.key ? 10 : 0) + (x.t.kind === 'master' ? 8 : 0) + (x.soleKey === f.name ? 12 : 0), { field: f.name });
       else if (qt.length >= 3 && f.labels.some((ws) => ws.some((w) => w.startsWith(qt)))) cand(7, { field: f.name });
     }
     if (best.score === 0 && qt.length >= 4) {
@@ -139,10 +146,12 @@ export function search(entries: Entry[], query: string, lang: Lang, area = ''): 
   if (!words.length) words = raw;
   const full = norm(query).trim();
   const scored = pool.map((x) => ({ x, ...scoreEntry(x, words, full, lang) }));
-  // ties go to tables documented field by field, which are the commonly used ones, then to those with an explanation,
-  // then to master data and headers before items, texts and configuration, and only then to alphabetical order
+  // ties go to tables documented field by field, then to the ones most other tables relate to (the central ones),
+  // then to those with an explanation, then to master data and headers before items, texts and configuration,
+  // and only then to alphabetical order
   const tie = (a: (typeof scored)[number], b: (typeof scored)[number]) =>
     Math.sign(b.x.t.f.length) - Math.sign(a.x.t.f.length) ||
+    (b.x.t.r ?? 0) - (a.x.t.r ?? 0) ||
     b.x.t.p - a.x.t.p ||
     kindRank(a.x.t.kind) - kindRank(b.x.t.kind) ||
     a.x.order - b.x.order;

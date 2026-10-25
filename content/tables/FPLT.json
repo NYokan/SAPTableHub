@@ -33,5 +33,46 @@
       "faturamento periódico",
       "plano de faturamento"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "FPLNR",
+      "key": true
+    },
+    {
+      "name": "FPLTR",
+      "key": true
+    },
+    {
+      "name": "FKDAT"
+    },
+    {
+      "name": "FAKWR"
+    },
+    {
+      "name": "WAERS"
+    },
+    {
+      "name": "FKSAF"
+    },
+    {
+      "name": "FAKSP"
+    }
+  ],
+  "relations": [
+    {
+      "table": "FPLA",
+      "type": "header",
+      "on": "FPLNR"
+    },
+    {
+      "table": "TVFS",
+      "type": "config",
+      "on": "FAKSP"
+    }
+  ]
 }

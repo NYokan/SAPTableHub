@@ -36,5 +36,75 @@
       "detalhe de custos",
       "KSB1"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "KOKRS",
+      "key": true
+    },
+    {
+      "name": "BELNR",
+      "key": true
+    },
+    {
+      "name": "BUZEI",
+      "key": true
+    },
+    {
+      "name": "GJAHR"
+    },
+    {
+      "name": "PERIO"
+    },
+    {
+      "name": "WRTTP"
+    },
+    {
+      "name": "VERSN",
+      "label": {
+        "es": "Versión",
+        "en": "Version",
+        "pt": "Versão"
+      }
+    },
+    {
+      "name": "OBJNR"
+    },
+    {
+      "name": "KSTAR"
+    },
+    {
+      "name": "VRGNG"
+    },
+    {
+      "name": "WKGBTR"
+    },
+    {
+      "name": "WTGBTR"
+    },
+    {
+      "name": "TWAER"
+    }
+  ],
+  "relations": [
+    {
+      "table": "COBK",
+      "type": "header",
+      "on": "KOKRS + BELNR"
+    },
+    {
+      "table": "CSKB",
+      "type": "master",
+      "on": "KOKRS + KSTAR"
+    },
+    {
+      "table": "TJ01",
+      "type": "config",
+      "on": "VRGNG"
+    }
+  ]
 }

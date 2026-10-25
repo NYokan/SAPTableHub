@@ -27,5 +27,33 @@
       "texto da categoria de risco",
       "descrição do risco de crédito"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "CTLPC",
+      "key": true
+    },
+    {
+      "name": "KKBER",
+      "key": true
+    },
+    {
+      "name": "RTEXT"
+    }
+  ],
+  "relations": [
+    {
+      "table": "T691A",
+      "type": "config",
+      "on": "KKBER + CTLPC"
+    }
+  ]
 }

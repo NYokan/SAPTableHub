@@ -49,7 +49,12 @@
     },
     {
       "name": "BELNR",
-      "key": true
+      "key": true,
+      "label": {
+        "es": "Número de documento contable",
+        "en": "Accounting document number",
+        "pt": "Número do documento contábil"
+      }
     },
     {
       "name": "GJAHR",

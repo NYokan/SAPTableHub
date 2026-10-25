@@ -32,5 +32,34 @@
       "PSA",
       "abastecimento da produção"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "WERKS",
+      "key": true
+    },
+    {
+      "name": "PRVBE",
+      "key": true
+    },
+    {
+      "name": "LGORT"
+    }
+  ],
+  "relations": [
+    {
+      "table": "PVKT",
+      "type": "text",
+      "on": "WERKS + PRVBE"
+    },
+    {
+      "table": "T001L",
+      "type": "config",
+      "on": "WERKS + LGORT"
+    }
+  ]
 }

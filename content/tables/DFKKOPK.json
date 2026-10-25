@@ -31,5 +31,43 @@
       "contrapartidas FI-CA",
       "receitas FI-CA"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "OPBEL",
+      "key": true
+    },
+    {
+      "name": "OPUPK",
+      "key": true
+    },
+    {
+      "name": "BUKRS"
+    },
+    {
+      "name": "HKONT"
+    },
+    {
+      "name": "BETRH"
+    },
+    {
+      "name": "BETRW"
+    }
+  ],
+  "relations": [
+    {
+      "table": "DFKKKO",
+      "type": "header",
+      "on": "OPBEL"
+    },
+    {
+      "table": "SKB1",
+      "type": "master",
+      "on": "BUKRS + HKONT = SAKNR"
+    }
+  ]
 }

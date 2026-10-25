@@ -28,5 +28,29 @@
       "texto categoria de divisão de remessa",
       "ETTYP"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "ETTYP",
+      "key": true
+    },
+    {
+      "name": "VTEXT"
+    }
+  ],
+  "relations": [
+    {
+      "table": "TVEP",
+      "type": "config",
+      "on": "ETTYP"
+    }
+  ]
 }

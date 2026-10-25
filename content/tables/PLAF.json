@@ -35,5 +35,57 @@
       "proposta de produção",
       "plano de produção"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "PLNUM",
+      "key": true
+    },
+    {
+      "name": "MATNR"
+    },
+    {
+      "name": "PLWRK"
+    },
+    {
+      "name": "PWWRK"
+    },
+    {
+      "name": "GSMNG"
+    },
+    {
+      "name": "MEINS"
+    },
+    {
+      "name": "PSTTR"
+    },
+    {
+      "name": "PEDTR"
+    },
+    {
+      "name": "PAART"
+    },
+    {
+      "name": "DISPO"
+    },
+    {
+      "name": "BESKZ"
+    }
+  ],
+  "relations": [
+    {
+      "table": "MARC",
+      "type": "master",
+      "on": "MATNR + PLWRK = WERKS"
+    },
+    {
+      "table": "T024D",
+      "type": "config",
+      "on": "PLWRK = WERKS + DISPO"
+    }
+  ]
 }

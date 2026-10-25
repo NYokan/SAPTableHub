@@ -40,5 +40,56 @@
       "embalagem",
       "SSCC"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "VENUM",
+      "key": true
+    },
+    {
+      "name": "EXIDV"
+    },
+    {
+      "name": "VHILM"
+    },
+    {
+      "name": "BRGEW",
+      "type": "QUAN 15,3"
+    },
+    {
+      "name": "NTGEW",
+      "type": "QUAN 15,3"
+    },
+    {
+      "name": "GEWEI"
+    },
+    {
+      "name": "VPOBJ"
+    },
+    {
+      "name": "VPOBJKEY"
+    },
+    {
+      "name": "ERDAT"
+    },
+    {
+      "name": "ERNAM"
+    }
+  ],
+  "relations": [
+    {
+      "table": "VEPO",
+      "type": "items",
+      "on": "VENUM"
+    },
+    {
+      "table": "MARA",
+      "type": "master",
+      "on": "VHILM = MATNR"
+    }
+  ]
 }

@@ -33,5 +33,50 @@
       "quando foi liberada",
       "alterações de status"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "OBJNR",
+      "key": true
+    },
+    {
+      "name": "STAT",
+      "key": true
+    },
+    {
+      "name": "CHGNR",
+      "key": true
+    },
+    {
+      "name": "USNAM"
+    },
+    {
+      "name": "UDATE"
+    },
+    {
+      "name": "UTIME"
+    },
+    {
+      "name": "INACT"
+    },
+    {
+      "name": "CHIND"
+    }
+  ],
+  "relations": [
+    {
+      "table": "JEST",
+      "type": "rel",
+      "on": "OBJNR + STAT"
+    },
+    {
+      "table": "TJ02T",
+      "type": "text",
+      "on": "STAT = ISTAT"
+    }
+  ]
 }

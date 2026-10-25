@@ -34,5 +34,34 @@
       "estrutura organizacional",
       "KOKRS por empresa"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "BUKRS",
+      "key": true
+    },
+    {
+      "name": "GSBER",
+      "key": true
+    },
+    {
+      "name": "KOKRS"
+    }
+  ],
+  "relations": [
+    {
+      "table": "TKA01",
+      "type": "master",
+      "on": "KOKRS"
+    },
+    {
+      "table": "T001",
+      "type": "master",
+      "on": "BUKRS"
+    }
+  ]
 }

@@ -30,5 +30,38 @@
       "texto da característica",
       "nome da característica"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "ATINN",
+      "key": true,
+      "label": {
+        "es": "Característica (número interno)",
+        "en": "Characteristic (internal number)",
+        "pt": "Característica (número interno)"
+      }
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "ADZHL",
+      "key": true
+    },
+    {
+      "name": "ATBEZ"
+    }
+  ],
+  "relations": [
+    {
+      "table": "CABN",
+      "type": "header",
+      "on": "ATINN"
+    }
+  ]
 }

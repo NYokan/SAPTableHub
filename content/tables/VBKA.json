@@ -33,5 +33,37 @@
       "ligação de vendas",
       "contato comercial"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "VBELN",
+      "key": true
+    },
+    {
+      "name": "VKORG"
+    },
+    {
+      "name": "VTWEG"
+    },
+    {
+      "name": "SPART"
+    },
+    {
+      "name": "ERDAT"
+    },
+    {
+      "name": "ERNAM"
+    }
+  ],
+  "relations": [
+    {
+      "table": "TVKO",
+      "type": "config",
+      "on": "VKORG"
+    }
+  ]
 }

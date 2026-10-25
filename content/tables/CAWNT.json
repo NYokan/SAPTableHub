@@ -30,5 +30,42 @@
       "texto do valor",
       "significado do valor"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "ATINN",
+      "key": true,
+      "label": {
+        "es": "Característica (número interno)",
+        "en": "Characteristic (internal number)",
+        "pt": "Característica (número interno)"
+      }
+    },
+    {
+      "name": "ATZHL",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "ADZHL",
+      "key": true
+    },
+    {
+      "name": "ATWTB"
+    }
+  ],
+  "relations": [
+    {
+      "table": "CAWN",
+      "type": "header",
+      "on": "ATINN + ATZHL"
+    }
+  ]
 }

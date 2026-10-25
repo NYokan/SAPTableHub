@@ -36,5 +36,30 @@
       "família de materiais",
       "MATKL"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "MATKL",
+      "key": true
+    },
+    {
+      "name": "SPART"
+    }
+  ],
+  "relations": [
+    {
+      "table": "T023T",
+      "type": "text",
+      "on": "MATKL"
+    },
+    {
+      "table": "TSPA",
+      "type": "config",
+      "on": "SPART"
+    }
+  ]
 }

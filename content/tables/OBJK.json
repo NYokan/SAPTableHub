@@ -30,5 +30,53 @@
       "números de série do documento",
       "equipamentos da ordem"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "OBKNR",
+      "key": true
+    },
+    {
+      "name": "OBZAE",
+      "key": true
+    },
+    {
+      "name": "EQUNR"
+    },
+    {
+      "name": "SERNR"
+    },
+    {
+      "name": "MATNR"
+    },
+    {
+      "name": "TASER"
+    }
+  ],
+  "relations": [
+    {
+      "table": "SER01",
+      "type": "header",
+      "on": "OBKNR"
+    },
+    {
+      "table": "SER03",
+      "type": "header",
+      "on": "OBKNR"
+    },
+    {
+      "table": "EQUI",
+      "type": "master",
+      "on": "EQUNR"
+    },
+    {
+      "table": "MARA",
+      "type": "master",
+      "on": "MATNR"
+    }
+  ]
 }

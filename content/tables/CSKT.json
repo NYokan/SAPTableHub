@@ -31,5 +31,43 @@
       "descrição do centro de custo",
       "texto do centro de custo"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "KOKRS",
+      "key": true
+    },
+    {
+      "name": "KOSTL",
+      "key": true
+    },
+    {
+      "name": "DATBI",
+      "key": true
+    },
+    {
+      "name": "KTEXT"
+    },
+    {
+      "name": "LTEXT"
+    },
+    {
+      "name": "MCTXT"
+    }
+  ],
+  "relations": [
+    {
+      "table": "CSKS",
+      "type": "master",
+      "on": "KOKRS + KOSTL + DATBI"
+    }
+  ]
 }

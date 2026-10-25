@@ -37,5 +37,45 @@
       "auditoria de mudanças",
       "quem alterou"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDANT",
+      "key": true
+    },
+    {
+      "name": "OBJECTCLAS",
+      "key": true
+    },
+    {
+      "name": "OBJECTID",
+      "key": true
+    },
+    {
+      "name": "CHANGENR",
+      "key": true
+    },
+    {
+      "name": "USERNAME"
+    },
+    {
+      "name": "UDATE"
+    },
+    {
+      "name": "UTIME"
+    },
+    {
+      "name": "TCODE"
+    },
+    {
+      "name": "CHANGE_IND"
+    }
+  ],
+  "relations": [
+    {
+      "table": "CDPOS",
+      "type": "items",
+      "on": "OBJECTCLAS + OBJECTID + CHANGENR"
+    }
+  ]
 }

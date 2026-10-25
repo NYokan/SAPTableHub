@@ -33,5 +33,55 @@
       "documento de ativo imobilizado",
       "baixa de ativo"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "BUKRS",
+      "key": true
+    },
+    {
+      "name": "ANLN1",
+      "key": true
+    },
+    {
+      "name": "ANLN2",
+      "key": true
+    },
+    {
+      "name": "GJAHR",
+      "key": true
+    },
+    {
+      "name": "LNRAN",
+      "key": true
+    },
+    {
+      "name": "BUDAT"
+    },
+    {
+      "name": "BLDAT"
+    },
+    {
+      "name": "BZDAT"
+    },
+    {
+      "name": "SGTXT"
+    }
+  ],
+  "relations": [
+    {
+      "table": "ANEP",
+      "type": "items",
+      "on": "BUKRS + ANLN1 + ANLN2 + GJAHR + LNRAN"
+    },
+    {
+      "table": "ANLA",
+      "type": "master",
+      "on": "BUKRS + ANLN1 + ANLN2"
+    }
+  ]
 }

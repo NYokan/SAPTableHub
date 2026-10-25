@@ -29,5 +29,33 @@
       "descrição do status",
       "abreviatura do status"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "ISTAT",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "TXT04"
+    },
+    {
+      "name": "TXT30",
+      "label": {
+        "es": "Texto del estado",
+        "en": "Status text",
+        "pt": "Texto do status"
+      }
+    }
+  ],
+  "relations": [
+    {
+      "table": "TJ02",
+      "type": "header",
+      "on": "ISTAT"
+    }
+  ]
 }

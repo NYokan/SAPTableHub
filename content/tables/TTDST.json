@@ -27,5 +27,29 @@
       "texto local de planejamento de transporte",
       "TPLST"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "TPLST",
+      "key": true
+    },
+    {
+      "name": "BEZEI"
+    }
+  ],
+  "relations": [
+    {
+      "table": "TTDS",
+      "type": "config",
+      "on": "TPLST"
+    }
+  ]
 }

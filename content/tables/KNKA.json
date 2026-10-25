@@ -30,5 +30,36 @@
       "limite de crédito central",
       "conta de crédito"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "KUNNR",
+      "key": true
+    },
+    {
+      "name": "KLIMG"
+    },
+    {
+      "name": "KLIME"
+    },
+    {
+      "name": "WAERS"
+    }
+  ],
+  "relations": [
+    {
+      "table": "KNA1",
+      "type": "master",
+      "on": "KUNNR"
+    },
+    {
+      "table": "KNKK",
+      "type": "rel",
+      "on": "KUNNR"
+    }
+  ]
 }

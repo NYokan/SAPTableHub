@@ -36,5 +36,72 @@
       "valor do estoque",
       "custo do material"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "MATNR",
+      "key": true
+    },
+    {
+      "name": "BWKEY",
+      "key": true
+    },
+    {
+      "name": "BWTAR",
+      "key": true
+    },
+    {
+      "name": "LBKUM"
+    },
+    {
+      "name": "SALK3"
+    },
+    {
+      "name": "VPRSV"
+    },
+    {
+      "name": "VERPR"
+    },
+    {
+      "name": "STPRS"
+    },
+    {
+      "name": "PEINH"
+    },
+    {
+      "name": "BKLAS"
+    },
+    {
+      "name": "LFGJA"
+    },
+    {
+      "name": "LFMON"
+    }
+  ],
+  "relations": [
+    {
+      "table": "MARA",
+      "type": "master",
+      "on": "MATNR"
+    },
+    {
+      "table": "T001K",
+      "type": "config",
+      "on": "BWKEY"
+    },
+    {
+      "table": "MBEWH",
+      "type": "rel",
+      "on": "MATNR + BWKEY + BWTAR"
+    },
+    {
+      "table": "T025",
+      "type": "config",
+      "on": "BKLAS"
+    }
+  ]
 }

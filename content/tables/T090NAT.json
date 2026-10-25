@@ -26,5 +26,33 @@
       "texto da chave de depreciação",
       "descrição do método de depreciação"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "AFAPL",
+      "key": true
+    },
+    {
+      "name": "AFASL",
+      "key": true
+    },
+    {
+      "name": "AFATXT"
+    }
+  ],
+  "relations": [
+    {
+      "table": "T090NA",
+      "type": "config",
+      "on": "AFAPL + AFASL"
+    }
+  ]
 }

@@ -37,5 +37,54 @@
       "recebimento de serviços",
       "ML81N"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "LBLNI",
+      "key": true
+    },
+    {
+      "name": "EBELN"
+    },
+    {
+      "name": "EBELP"
+    },
+    {
+      "name": "PACKNO"
+    },
+    {
+      "name": "TXZ01"
+    },
+    {
+      "name": "LZVON"
+    },
+    {
+      "name": "LZBIS"
+    },
+    {
+      "name": "ERDAT"
+    },
+    {
+      "name": "ERNAM"
+    },
+    {
+      "name": "WAERS"
+    }
+  ],
+  "relations": [
+    {
+      "table": "EKPO",
+      "type": "rel",
+      "on": "EBELN + EBELP"
+    },
+    {
+      "table": "ESLL",
+      "type": "items",
+      "on": "PACKNO"
+    }
+  ]
 }

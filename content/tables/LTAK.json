@@ -37,5 +37,76 @@
       "armazenagem",
       "movimento de depósito"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "LGNUM",
+      "key": true
+    },
+    {
+      "name": "TANUM",
+      "key": true
+    },
+    {
+      "name": "BWLVS"
+    },
+    {
+      "name": "BDATU",
+      "label": {
+        "es": "Fecha de creación",
+        "en": "Creation date",
+        "pt": "Data de criação"
+      }
+    },
+    {
+      "name": "BZEIT"
+    },
+    {
+      "name": "KQUIT"
+    },
+    {
+      "name": "BENUM"
+    },
+    {
+      "name": "BETYP"
+    },
+    {
+      "name": "TBNUM"
+    },
+    {
+      "name": "VBELN"
+    },
+    {
+      "name": "MBLNR"
+    },
+    {
+      "name": "MJAHR"
+    }
+  ],
+  "relations": [
+    {
+      "table": "LTAP",
+      "type": "items",
+      "on": "LGNUM + TANUM"
+    },
+    {
+      "table": "T333",
+      "type": "config",
+      "on": "LGNUM + BWLVS"
+    },
+    {
+      "table": "LIKP",
+      "type": "rel",
+      "on": "VBELN"
+    },
+    {
+      "table": "LTBK",
+      "type": "rel",
+      "on": "LGNUM + TBNUM"
+    }
+  ]
 }

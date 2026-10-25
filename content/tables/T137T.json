@@ -27,5 +27,29 @@
       "nome do setor industrial",
       "descrição do ramo"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "MBRSH",
+      "key": true
+    },
+    {
+      "name": "MBBEZ"
+    }
+  ],
+  "relations": [
+    {
+      "table": "T137",
+      "type": "master",
+      "on": "MBRSH"
+    }
+  ]
 }

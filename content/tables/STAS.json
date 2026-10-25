@@ -30,5 +30,49 @@
       "ligação cabeçalho-item",
       "seleção de itens"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "STLTY",
+      "key": true
+    },
+    {
+      "name": "STLNR",
+      "key": true
+    },
+    {
+      "name": "STLAL",
+      "key": true
+    },
+    {
+      "name": "STLKN",
+      "key": true
+    },
+    {
+      "name": "STASZ",
+      "key": true
+    },
+    {
+      "name": "DATUV"
+    },
+    {
+      "name": "LKENZ"
+    }
+  ],
+  "relations": [
+    {
+      "table": "STKO",
+      "type": "header",
+      "on": "STLTY + STLNR + STLAL"
+    },
+    {
+      "table": "STPO",
+      "type": "rel",
+      "on": "STLTY + STLNR + STLKN"
+    }
+  ]
 }

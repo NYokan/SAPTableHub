@@ -37,5 +37,36 @@
       "plano de contas",
       "texto da conta"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "KTOPL",
+      "key": true
+    },
+    {
+      "name": "SAKNR",
+      "key": true
+    },
+    {
+      "name": "TXT20"
+    },
+    {
+      "name": "TXT50"
+    }
+  ],
+  "relations": [
+    {
+      "table": "SKA1",
+      "type": "master",
+      "on": "KTOPL + SAKNR"
+    }
+  ]
 }

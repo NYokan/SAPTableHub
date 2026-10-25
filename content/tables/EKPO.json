@@ -55,7 +55,12 @@
       "name": "WERKS"
     },
     {
-      "name": "MENGE"
+      "name": "MENGE",
+      "label": {
+        "es": "Cantidad pedida",
+        "en": "Order quantity",
+        "pt": "Quantidade do pedido"
+      }
     },
     {
       "name": "MEINS"

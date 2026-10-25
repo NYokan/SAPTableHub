@@ -27,5 +27,29 @@
       "texto grupo classificação contábil cliente",
       "KTGRD"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "KTGRD",
+      "key": true
+    },
+    {
+      "name": "VTEXT"
+    }
+  ],
+  "relations": [
+    {
+      "table": "TVKT",
+      "type": "config",
+      "on": "KTGRD"
+    }
+  ]
 }

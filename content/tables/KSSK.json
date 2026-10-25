@@ -30,5 +30,71 @@
       "atribuição a classe",
       "material classificado"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "OBJEK",
+      "key": true
+    },
+    {
+      "name": "MAFID",
+      "key": true
+    },
+    {
+      "name": "KLART",
+      "key": true
+    },
+    {
+      "name": "CLINT",
+      "key": true
+    },
+    {
+      "name": "ADZHL",
+      "key": true
+    },
+    {
+      "name": "ZAEHL",
+      "type": "INT2 5",
+      "label": {
+        "es": "Posición de clasificación",
+        "en": "Classification item",
+        "pt": "Item da classificação"
+      }
+    },
+    {
+      "name": "STATU",
+      "label": {
+        "es": "Status de clasificación",
+        "en": "Classification status",
+        "pt": "Status de classificação"
+      }
+    },
+    {
+      "name": "DATUV"
+    },
+    {
+      "name": "LKENZ"
+    }
+  ],
+  "relations": [
+    {
+      "table": "KLAH",
+      "type": "master",
+      "on": "CLINT"
+    },
+    {
+      "table": "AUSP",
+      "type": "rel",
+      "on": "OBJEK + MAFID + KLART"
+    },
+    {
+      "table": "TCLA",
+      "type": "config",
+      "on": "KLART"
+    }
+  ]
 }

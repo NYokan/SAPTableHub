@@ -30,5 +30,38 @@
       "cabeçalho ML",
       "documento do ledger de materiais"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "BELNR",
+      "key": true
+    },
+    {
+      "name": "KJAHR",
+      "key": true
+    },
+    {
+      "name": "VGART"
+    },
+    {
+      "name": "AWTYP"
+    },
+    {
+      "name": "AWREF"
+    },
+    {
+      "name": "CPUDT"
+    }
+  ],
+  "relations": [
+    {
+      "table": "MLIT",
+      "type": "items",
+      "on": "BELNR + KJAHR"
+    }
+  ]
 }

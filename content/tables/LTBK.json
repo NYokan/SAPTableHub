@@ -31,5 +31,54 @@
       "solicitação de movimentação WM",
       "requisição de depósito"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "LGNUM",
+      "key": true
+    },
+    {
+      "name": "TBNUM",
+      "key": true
+    },
+    {
+      "name": "STATU"
+    },
+    {
+      "name": "BWLVS"
+    },
+    {
+      "name": "BENUM"
+    },
+    {
+      "name": "BETYP"
+    },
+    {
+      "name": "MBLNR"
+    },
+    {
+      "name": "MJAHR"
+    }
+  ],
+  "relations": [
+    {
+      "table": "LTBP",
+      "type": "items",
+      "on": "LGNUM + TBNUM"
+    },
+    {
+      "table": "T333",
+      "type": "config",
+      "on": "LGNUM + BWLVS"
+    },
+    {
+      "table": "MKPF",
+      "type": "rel",
+      "on": "MBLNR + MJAHR"
+    }
+  ]
 }

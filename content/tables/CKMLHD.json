@@ -33,5 +33,47 @@
       "custo real de materiais",
       "material ledger"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "KALNR",
+      "key": true
+    },
+    {
+      "name": "MATNR"
+    },
+    {
+      "name": "BWKEY",
+      "label": {
+        "es": "Ámbito de valoración",
+        "en": "Valuation area",
+        "pt": "Área de avaliação"
+      }
+    },
+    {
+      "name": "BWTAR"
+    },
+    {
+      "name": "VBELN"
+    },
+    {
+      "name": "POSNR"
+    }
+  ],
+  "relations": [
+    {
+      "table": "MARA",
+      "type": "master",
+      "on": "MATNR"
+    },
+    {
+      "table": "MBEW",
+      "type": "rel",
+      "on": "MATNR + BWKEY + BWTAR"
+    }
+  ]
 }

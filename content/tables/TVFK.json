@@ -37,5 +37,28 @@
       "nota de débito",
       "estorno"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "FKART",
+      "key": true
+    },
+    {
+      "name": "VBTYP"
+    },
+    {
+      "name": "NUMKI"
+    }
+  ],
+  "relations": [
+    {
+      "table": "TVFKT",
+      "type": "text",
+      "on": "FKART"
+    }
+  ]
 }

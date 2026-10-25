@@ -30,5 +30,25 @@
       "descrição do idioma",
       "texto do idioma"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "SPRSL",
+      "key": true
+    },
+    {
+      "name": "SPTXT"
+    }
+  ],
+  "relations": [
+    {
+      "table": "T002",
+      "type": "header",
+      "on": "SPRSL = SPRAS"
+    }
+  ]
 }

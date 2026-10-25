@@ -39,5 +39,67 @@
       "número de série",
       "veículo"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "EQUNR",
+      "key": true
+    },
+    {
+      "name": "EQTYP"
+    },
+    {
+      "name": "EQART"
+    },
+    {
+      "name": "MATNR"
+    },
+    {
+      "name": "SERNR"
+    },
+    {
+      "name": "HERST"
+    },
+    {
+      "name": "TYPBZ"
+    },
+    {
+      "name": "BAUJJ"
+    },
+    {
+      "name": "INBDT"
+    },
+    {
+      "name": "OBJNR"
+    },
+    {
+      "name": "ERDAT"
+    }
+  ],
+  "relations": [
+    {
+      "table": "EQKT",
+      "type": "text",
+      "on": "EQUNR"
+    },
+    {
+      "table": "EQUZ",
+      "type": "rel",
+      "on": "EQUNR"
+    },
+    {
+      "table": "T370T",
+      "type": "config",
+      "on": "EQTYP"
+    },
+    {
+      "table": "MARA",
+      "type": "master",
+      "on": "MATNR"
+    }
+  ]
 }

@@ -36,5 +36,72 @@
       "item do projeto",
       "imputação de projeto"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "PSPNR",
+      "key": true,
+      "label": {
+        "es": "Número interno de proyecto o PEP",
+        "en": "Internal project or WBS number",
+        "pt": "Número interno do projeto ou PEP"
+      }
+    },
+    {
+      "name": "POSID"
+    },
+    {
+      "name": "POST1"
+    },
+    {
+      "name": "PSPHI"
+    },
+    {
+      "name": "PBUKR"
+    },
+    {
+      "name": "PKOKR"
+    },
+    {
+      "name": "PRCTR"
+    },
+    {
+      "name": "PRART"
+    },
+    {
+      "name": "VERNR"
+    },
+    {
+      "name": "ERDAT"
+    },
+    {
+      "name": "OBJNR"
+    }
+  ],
+  "relations": [
+    {
+      "table": "PROJ",
+      "type": "header",
+      "on": "PSPHI = PSPNR"
+    },
+    {
+      "table": "TCJ1",
+      "type": "config",
+      "on": "PRART"
+    },
+    {
+      "table": "TCJ04",
+      "type": "config",
+      "on": "VERNR"
+    },
+    {
+      "table": "T001",
+      "type": "config",
+      "on": "PBUKR = BUKRS"
+    }
+  ]
 }

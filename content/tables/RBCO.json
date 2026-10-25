@@ -37,5 +37,52 @@
       "rateio da fatura",
       "fatura de fornecedor"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "BELNR",
+      "key": true
+    },
+    {
+      "name": "GJAHR",
+      "key": true
+    },
+    {
+      "name": "BUZEI",
+      "key": true,
+      "type": "NUMC 6"
+    },
+    {
+      "name": "COBL_NR",
+      "key": true
+    },
+    {
+      "name": "KOSTL"
+    },
+    {
+      "name": "AUFNR"
+    },
+    {
+      "name": "WRBTR"
+    },
+    {
+      "name": "MENGE"
+    }
+  ],
+  "relations": [
+    {
+      "table": "RSEG",
+      "type": "header",
+      "on": "BELNR + GJAHR + BUZEI"
+    },
+    {
+      "table": "RBKP",
+      "type": "header",
+      "on": "BELNR + GJAHR"
+    }
+  ]
 }

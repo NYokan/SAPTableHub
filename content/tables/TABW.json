@@ -29,5 +29,30 @@
       "tipo de operação de ativo",
       "BWASL"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "BWASL",
+      "key": true
+    },
+    {
+      "name": "BWAGRP"
+    }
+  ],
+  "relations": [
+    {
+      "table": "TABWT",
+      "type": "text",
+      "on": "BWASL"
+    },
+    {
+      "table": "TABWG",
+      "type": "config",
+      "on": "BWAGRP"
+    }
+  ]
 }

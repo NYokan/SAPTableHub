@@ -34,5 +34,45 @@
       "indicador de imposto",
       "tributação do material"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "MATNR",
+      "key": true
+    },
+    {
+      "name": "ALAND",
+      "key": true,
+      "label": {
+        "es": "País de expedición",
+        "en": "Departure country",
+        "pt": "País de expedição"
+      }
+    },
+    {
+      "name": "TAXM1"
+    },
+    {
+      "name": "TAXM2"
+    },
+    {
+      "name": "TAXIM"
+    }
+  ],
+  "relations": [
+    {
+      "table": "MARA",
+      "type": "master",
+      "on": "MATNR"
+    },
+    {
+      "table": "T005",
+      "type": "config",
+      "on": "ALAND = LAND1"
+    }
+  ]
 }

@@ -34,5 +34,35 @@
       "nacionalidade",
       "descrição do país"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "LAND1",
+      "key": true
+    },
+    {
+      "name": "LANDX"
+    },
+    {
+      "name": "NATIO"
+    },
+    {
+      "name": "LANDX50"
+    }
+  ],
+  "relations": [
+    {
+      "table": "T005",
+      "type": "header",
+      "on": "LAND1"
+    }
+  ]
 }
