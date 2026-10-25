@@ -30,5 +30,26 @@
       "local físico",
       "prédio da planta"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "WERKS",
+      "key": true
+    },
+    {
+      "name": "STAND",
+      "key": true
+    },
+    {
+      "name": "KTEXT",
+      "type": "CHAR 40"
+    },
+    {
+      "name": "ADDRNUM"
+    }
+  ]
 }

@@ -31,5 +31,39 @@
       "fornecedor eventual",
       "endereço no pedido de compra"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "EBELN",
+      "key": true
+    },
+    {
+      "name": "NAME1"
+    },
+    {
+      "name": "NAME2"
+    },
+    {
+      "name": "STRAS"
+    },
+    {
+      "name": "ORT01"
+    },
+    {
+      "name": "PSTLZ"
+    },
+    {
+      "name": "LAND1"
+    },
+    {
+      "name": "REGIO"
+    },
+    {
+      "name": "TELFX"
+    }
+  ]
 }

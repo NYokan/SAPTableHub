@@ -28,5 +28,23 @@
       "texto grupo de materiais 2",
       "MVGR2"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "MVGR2",
+      "key": true
+    },
+    {
+      "name": "BEZEI",
+      "type": "CHAR 40"
+    }
+  ]
 }

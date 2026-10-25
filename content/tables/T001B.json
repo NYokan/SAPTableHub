@@ -33,5 +33,74 @@
       "fechamento mensal",
       "OB52"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "RRCTY",
+      "key": true
+    },
+    {
+      "name": "BUKRS",
+      "key": true,
+      "label": {
+        "es": "Variante de períodos contables",
+        "en": "Posting period variant",
+        "pt": "Variante de períodos contábeis"
+      }
+    },
+    {
+      "name": "MKOAR",
+      "key": true
+    },
+    {
+      "name": "BKONT",
+      "key": true,
+      "type": "CHAR 10",
+      "label": {
+        "es": "Cuenta hasta",
+        "en": "To account",
+        "pt": "Conta até"
+      }
+    },
+    {
+      "name": "VKONT",
+      "type": "CHAR 10",
+      "label": {
+        "es": "Cuenta desde",
+        "en": "From account",
+        "pt": "Conta de"
+      }
+    },
+    {
+      "name": "FRYE1"
+    },
+    {
+      "name": "FRPE1"
+    },
+    {
+      "name": "TOYE1"
+    },
+    {
+      "name": "TOPE1"
+    },
+    {
+      "name": "FRYE2"
+    },
+    {
+      "name": "FRPE2"
+    },
+    {
+      "name": "TOYE2"
+    },
+    {
+      "name": "TOPE2"
+    },
+    {
+      "name": "BRGRU"
+    }
+  ]
 }

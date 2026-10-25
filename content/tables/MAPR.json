@@ -30,5 +30,28 @@
       "ligação à previsão",
       "material com previsão"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "WERKS",
+      "key": true
+    },
+    {
+      "name": "MATNR",
+      "key": true
+    },
+    {
+      "name": "PNUM1"
+    },
+    {
+      "name": "PERKZ"
+    },
+    {
+      "name": "DATUM"
+    }
+  ]
 }

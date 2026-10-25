@@ -34,5 +34,30 @@
       "valor esperado",
       "teto de gasto em serviços"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "PACKNO",
+      "key": true
+    },
+    {
+      "name": "SUMLIMIT"
+    },
+    {
+      "name": "SUMNOLIM"
+    },
+    {
+      "name": "COMMITMENT"
+    },
+    {
+      "name": "ACTVALUE"
+    },
+    {
+      "name": "WAERS"
+    }
+  ]
 }

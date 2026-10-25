@@ -30,5 +30,28 @@
       "tipo de operação bancária",
       "contas do extrato"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "BANKL",
+      "key": true
+    },
+    {
+      "name": "KTONR",
+      "key": true
+    },
+    {
+      "name": "BUKRS"
+    },
+    {
+      "name": "BNKKO"
+    },
+    {
+      "name": "VGTYP"
+    }
+  ]
 }

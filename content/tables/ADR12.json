@@ -33,5 +33,36 @@
       "URL do endereço",
       "endereço de internet"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "CLIENT",
+      "key": true
+    },
+    {
+      "name": "ADDRNUMBER",
+      "key": true
+    },
+    {
+      "name": "PERSNUMBER",
+      "key": true
+    },
+    {
+      "name": "DATE_FROM",
+      "key": true
+    },
+    {
+      "name": "CONSNUMBER",
+      "key": true
+    },
+    {
+      "name": "URI_TYPE"
+    },
+    {
+      "name": "URI_ADDR"
+    },
+    {
+      "name": "FLGDEFAULT"
+    }
+  ]
 }

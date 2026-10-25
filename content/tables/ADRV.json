@@ -30,5 +30,35 @@
       "uso de endereços",
       "dono do endereço"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "CLIENT",
+      "key": true
+    },
+    {
+      "name": "ADDRNUMBER",
+      "key": true
+    },
+    {
+      "name": "CONSNUMBER",
+      "key": true,
+      "type": "NUMC 10"
+    },
+    {
+      "name": "APPL_TABLE"
+    },
+    {
+      "name": "APPL_FIELD"
+    },
+    {
+      "name": "APPL_KEY"
+    },
+    {
+      "name": "ADDR_GROUP"
+    },
+    {
+      "name": "OWNER"
+    }
+  ]
 }

@@ -27,5 +27,25 @@
       "nome da função BP",
       "texto da função do parceiro"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "CLIENT",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "ROLE",
+      "key": true
+    },
+    {
+      "name": "RLTITL"
+    },
+    {
+      "name": "RLTXT"
+    }
+  ]
 }

@@ -30,5 +30,48 @@
       "estoque O total",
       "material em subcontratação"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "MATNR",
+      "key": true
+    },
+    {
+      "name": "WERKS",
+      "key": true
+    },
+    {
+      "name": "SOBKZ",
+      "key": true
+    },
+    {
+      "name": "LIFNR",
+      "key": true
+    },
+    {
+      "name": "SLLAB"
+    },
+    {
+      "name": "SLINS"
+    },
+    {
+      "name": "SLEIN"
+    },
+    {
+      "name": "SLUML"
+    },
+    {
+      "name": "LFGJA"
+    },
+    {
+      "name": "LFMON"
+    },
+    {
+      "name": "ERSDA"
+    }
+  ]
 }

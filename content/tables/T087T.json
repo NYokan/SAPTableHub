@@ -27,5 +27,26 @@
       "texto do grupo de avaliação",
       "descrição do grupo de ativos"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "ORDNR",
+      "key": true
+    },
+    {
+      "name": "ORD4X",
+      "key": true
+    },
+    {
+      "name": "ORDTX"
+    }
+  ]
 }

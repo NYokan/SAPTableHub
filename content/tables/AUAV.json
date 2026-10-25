@@ -30,5 +30,34 @@
       "tipo de apropriação",
       "apropriação real"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "BELNR",
+      "key": true
+    },
+    {
+      "name": "LFDNR",
+      "key": true
+    },
+    {
+      "name": "VRGNG"
+    },
+    {
+      "name": "KOKRS"
+    },
+    {
+      "name": "COBEL"
+    },
+    {
+      "name": "BUKRS"
+    },
+    {
+      "name": "FIBEL"
+    }
+  ]
 }

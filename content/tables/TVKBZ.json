@@ -28,5 +28,27 @@
       "escritório de vendas por área de vendas",
       "atribuição escritório de vendas"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "VKORG",
+      "key": true
+    },
+    {
+      "name": "VTWEG",
+      "key": true
+    },
+    {
+      "name": "SPART",
+      "key": true
+    },
+    {
+      "name": "VKBUR",
+      "key": true
+    }
+  ]
 }

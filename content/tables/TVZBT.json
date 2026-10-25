@@ -31,5 +31,23 @@
       "descrição condições de pagamento",
       "ZTERM"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "ZTERM",
+      "key": true
+    },
+    {
+      "name": "VTEXT",
+      "type": "CHAR 30"
+    }
+  ]
 }

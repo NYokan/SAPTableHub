@@ -30,5 +30,36 @@
       "categoria de centro de custo",
       "KOSAR"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "KOSAR",
+      "key": true
+    },
+    {
+      "name": "BKZKP"
+    },
+    {
+      "name": "BKZKS"
+    },
+    {
+      "name": "BKZER"
+    },
+    {
+      "name": "PKZKP"
+    },
+    {
+      "name": "PKZKS"
+    },
+    {
+      "name": "PKZER"
+    },
+    {
+      "name": "FUNC_AREA"
+    }
+  ]
 }

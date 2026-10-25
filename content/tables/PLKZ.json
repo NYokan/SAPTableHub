@@ -30,5 +30,29 @@
       "cabeçalho do grupo",
       "grupo de roteiro"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "PLNTY",
+      "key": true
+    },
+    {
+      "name": "PLNNR",
+      "key": true
+    },
+    {
+      "name": "PLNAL",
+      "key": true
+    },
+    {
+      "name": "AEDAT"
+    },
+    {
+      "name": "AENAM"
+    }
+  ]
 }

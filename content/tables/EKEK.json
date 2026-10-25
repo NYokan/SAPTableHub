@@ -34,5 +34,39 @@
       "liberação JIT",
       "previsão de remessas"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "EBELN",
+      "key": true
+    },
+    {
+      "name": "EBELP",
+      "key": true
+    },
+    {
+      "name": "ABART",
+      "key": true
+    },
+    {
+      "name": "ABRUF",
+      "key": true
+    },
+    {
+      "name": "ABRDT"
+    },
+    {
+      "name": "ERDAT"
+    },
+    {
+      "name": "LWEDT"
+    },
+    {
+      "name": "LWEMG"
+    }
+  ]
 }

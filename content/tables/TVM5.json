@@ -31,5 +31,15 @@
       "MVGR5",
       "classificação de material 5"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "MVGR5",
+      "key": true
+    }
+  ]
 }

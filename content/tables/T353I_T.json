@@ -27,5 +27,22 @@
       "texto tipo de atividade",
       "descrição tipo de trabalho PM"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "ILART",
+      "key": true
+    },
+    {
+      "name": "ILATX"
+    }
+  ]
 }

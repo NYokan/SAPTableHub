@@ -30,5 +30,43 @@
       "linhas de orçamento",
       "orçamento do projeto"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "BELNR",
+      "key": true,
+      "type": "NUMC 10"
+    },
+    {
+      "name": "BUZEI",
+      "key": true
+    },
+    {
+      "name": "OBJNR"
+    },
+    {
+      "name": "WRTTP"
+    },
+    {
+      "name": "VERSN"
+    },
+    {
+      "name": "VORGA",
+      "label": {
+        "es": "Operación de presupuestación",
+        "en": "Budgeting activity",
+        "pt": "Operação de orçamento"
+      }
+    },
+    {
+      "name": "TWAER"
+    },
+    {
+      "name": "WTGES"
+    }
+  ]
 }

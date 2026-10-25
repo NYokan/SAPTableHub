@@ -30,5 +30,30 @@
       "frequência de manutenção",
       "manutenção preventiva"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "STRAT",
+      "key": true
+    },
+    {
+      "name": "ZEIEH"
+    },
+    {
+      "name": "LEIEH"
+    },
+    {
+      "name": "TERMK"
+    },
+    {
+      "name": "HORIZ"
+    },
+    {
+      "name": "FABKL"
+    }
+  ]
 }

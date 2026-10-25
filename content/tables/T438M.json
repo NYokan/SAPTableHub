@@ -30,5 +30,45 @@
       "grupo MRP",
       "parâmetros MRP comuns"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "WERKS",
+      "key": true
+    },
+    {
+      "name": "MTART",
+      "key": true,
+      "label": {
+        "es": "Grupo de planificación de necesidades",
+        "en": "MRP group",
+        "pt": "Grupo de planejamento de necessidades"
+      }
+    },
+    {
+      "name": "STRGR"
+    },
+    {
+      "name": "VRMOD"
+    },
+    {
+      "name": "VINT1"
+    },
+    {
+      "name": "VINT2"
+    },
+    {
+      "name": "PLAHZ"
+    },
+    {
+      "name": "FIXHZ"
+    },
+    {
+      "name": "UMTHZ"
+    }
+  ]
 }

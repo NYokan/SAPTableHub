@@ -33,5 +33,47 @@
       "ferramental",
       "PRT"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "OBJTY",
+      "key": true
+    },
+    {
+      "name": "OBJID",
+      "key": true
+    },
+    {
+      "name": "ZAEHL",
+      "key": true
+    },
+    {
+      "name": "FHMAR"
+    },
+    {
+      "name": "STEUF"
+    },
+    {
+      "name": "STORT"
+    },
+    {
+      "name": "BASEH"
+    },
+    {
+      "name": "DATUV"
+    },
+    {
+      "name": "LOEKZ"
+    },
+    {
+      "name": "ANDAT"
+    },
+    {
+      "name": "ANNAM"
+    }
+  ]
 }

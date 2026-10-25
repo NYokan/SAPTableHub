@@ -34,5 +34,40 @@
       "país de origem",
       "dados aduaneiros do item"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "EXNUM",
+      "key": true
+    },
+    {
+      "name": "EXPOS",
+      "key": true
+    },
+    {
+      "name": "STAWN"
+    },
+    {
+      "name": "HERKL"
+    },
+    {
+      "name": "HERKR"
+    },
+    {
+      "name": "GRWRT"
+    },
+    {
+      "name": "EXART"
+    },
+    {
+      "name": "EXPRF"
+    },
+    {
+      "name": "VERLD"
+    }
+  ]
 }

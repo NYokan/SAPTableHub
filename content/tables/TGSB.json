@@ -32,5 +32,18 @@
       "linha de negócio",
       "GSBER"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "GSBER",
+      "key": true
+    },
+    {
+      "name": "GSBER_KONS"
+    }
+  ]
 }

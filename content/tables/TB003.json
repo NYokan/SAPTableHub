@@ -33,5 +33,18 @@
       "FLCU01",
       "FLVN01"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "CLIENT",
+      "key": true
+    },
+    {
+      "name": "ROLE",
+      "key": true
+    },
+    {
+      "name": "ROLECATEGORY"
+    }
+  ]
 }

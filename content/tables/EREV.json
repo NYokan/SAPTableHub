@@ -33,5 +33,56 @@
       "revisões do pedido",
       "versão de compra"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "BSTYP",
+      "key": true
+    },
+    {
+      "name": "EDOKN",
+      "key": true
+    },
+    {
+      "name": "EDOKP",
+      "key": true
+    },
+    {
+      "name": "REVNO",
+      "key": true
+    },
+    {
+      "name": "ERNAM"
+    },
+    {
+      "name": "ERDAT"
+    },
+    {
+      "name": "NETWR",
+      "type": "CURR 13,2"
+    },
+    {
+      "name": "DIFWR"
+    },
+    {
+      "name": "WAERS"
+    },
+    {
+      "name": "RSCOD"
+    },
+    {
+      "name": "TXZ01",
+      "type": "CHAR 60"
+    },
+    {
+      "name": "FGDAT"
+    },
+    {
+      "name": "REVOK"
+    }
+  ]
 }

@@ -34,5 +34,43 @@
       "bloqueio de crédito",
       "limite por segmento"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "CLIENT",
+      "key": true
+    },
+    {
+      "name": "PARTNER",
+      "key": true
+    },
+    {
+      "name": "CREDIT_SGMNT",
+      "key": true
+    },
+    {
+      "name": "CREDIT_LIMIT"
+    },
+    {
+      "name": "XBLOCKED"
+    },
+    {
+      "name": "BLOCK_REASON"
+    },
+    {
+      "name": "LIMIT_VALID_DATE"
+    },
+    {
+      "name": "COORDINATOR"
+    },
+    {
+      "name": "XCRITICAL"
+    },
+    {
+      "name": "FOLLOW_UP_DT"
+    },
+    {
+      "name": "CRED_LIM_CALC"
+    }
+  ]
 }

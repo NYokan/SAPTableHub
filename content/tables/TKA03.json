@@ -32,5 +32,25 @@
       "indicador estatístico",
       "STAGR"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "KOKRS",
+      "key": true
+    },
+    {
+      "name": "STAGR",
+      "key": true
+    },
+    {
+      "name": "MSEHI"
+    },
+    {
+      "name": "GRTYP"
+    }
+  ]
 }

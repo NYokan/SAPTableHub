@@ -30,5 +30,15 @@
       "unidade ISO",
       "unidade para EDI"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "CLIENT",
+      "key": true
+    },
+    {
+      "name": "ISOCODE",
+      "key": true
+    }
+  ]
 }

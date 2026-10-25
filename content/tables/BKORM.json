@@ -33,5 +33,60 @@
       "confirmação de saldo",
       "cópia de documento"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "EVENT",
+      "key": true
+    },
+    {
+      "name": "BUKRS",
+      "key": true
+    },
+    {
+      "name": "KOART",
+      "key": true
+    },
+    {
+      "name": "KONTO",
+      "key": true
+    },
+    {
+      "name": "BELNR",
+      "key": true
+    },
+    {
+      "name": "GJAHR",
+      "key": true
+    },
+    {
+      "name": "USNAM",
+      "key": true
+    },
+    {
+      "name": "DATUM",
+      "key": true,
+      "label": {
+        "es": "Fecha de la solicitud",
+        "en": "Request date",
+        "pt": "Data da solicitação"
+      }
+    },
+    {
+      "name": "UZEIT",
+      "key": true,
+      "label": {
+        "es": "Hora de la solicitud",
+        "en": "Request time",
+        "pt": "Hora da solicitação"
+      }
+    },
+    {
+      "name": "ERLDT"
+    }
+  ]
 }

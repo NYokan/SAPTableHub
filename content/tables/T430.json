@@ -33,5 +33,40 @@
       "controle da operação",
       "operação externa"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "PLNAW",
+      "key": true
+    },
+    {
+      "name": "STEUS",
+      "key": true
+    },
+    {
+      "name": "TERM"
+    },
+    {
+      "name": "KAPA"
+    },
+    {
+      "name": "KALKZ"
+    },
+    {
+      "name": "LIEF"
+    },
+    {
+      "name": "RUEK"
+    },
+    {
+      "name": "AUTWE"
+    },
+    {
+      "name": "LODR"
+    }
+  ]
 }

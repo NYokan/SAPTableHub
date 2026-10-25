@@ -37,5 +37,55 @@
       "produto acabado",
       "coproduto"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "AUFNR",
+      "key": true
+    },
+    {
+      "name": "POSNR",
+      "key": true,
+      "type": "NUMC 4"
+    },
+    {
+      "name": "MATNR"
+    },
+    {
+      "name": "PSMNG"
+    },
+    {
+      "name": "WEMNG"
+    },
+    {
+      "name": "MEINS"
+    },
+    {
+      "name": "DWERK",
+      "label": {
+        "es": "Centro de la orden",
+        "en": "Order plant",
+        "pt": "Centro da ordem"
+      }
+    },
+    {
+      "name": "LGORT"
+    },
+    {
+      "name": "DGLTP"
+    },
+    {
+      "name": "LTRMI"
+    },
+    {
+      "name": "KDAUF"
+    },
+    {
+      "name": "KDPOS"
+    }
+  ]
 }

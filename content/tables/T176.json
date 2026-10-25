@@ -33,5 +33,15 @@
       "pedido via EDI",
       "BSARK"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "BSARK",
+      "key": true
+    }
+  ]
 }

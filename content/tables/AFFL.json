@@ -33,5 +33,51 @@
       "sequência paralela",
       "sequência alternativa"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "AUFPL",
+      "key": true
+    },
+    {
+      "name": "APLZL",
+      "key": true
+    },
+    {
+      "name": "PLNTY"
+    },
+    {
+      "name": "PLNNR"
+    },
+    {
+      "name": "PLNAL"
+    },
+    {
+      "name": "PLNFL"
+    },
+    {
+      "name": "FLGAT"
+    },
+    {
+      "name": "BEZFL"
+    },
+    {
+      "name": "LTXA1",
+      "label": {
+        "es": "Descripción de la secuencia",
+        "en": "Sequence description",
+        "pt": "Descrição da sequência"
+      }
+    },
+    {
+      "name": "LOSVN"
+    },
+    {
+      "name": "LOSBS"
+    }
+  ]
 }

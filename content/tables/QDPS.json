@@ -29,5 +29,37 @@
       "etapa de inspeção",
       "severidade da inspeção"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "DYNREGEL",
+      "key": true
+    },
+    {
+      "name": "PRSTUFE",
+      "key": true
+    },
+    {
+      "name": "PRSCHAERFE"
+    },
+    {
+      "name": "KZSKIP"
+    },
+    {
+      "name": "ANZPRRED"
+    },
+    {
+      "name": "REDSTUFE"
+    },
+    {
+      "name": "ANZRWVER"
+    },
+    {
+      "name": "VERSTUFE"
+    }
+  ]
 }

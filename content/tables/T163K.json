@@ -32,5 +32,33 @@
       "KNTTP",
       "tipo de classificação"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "KNTTP",
+      "key": true
+    },
+    {
+      "name": "KZVBR"
+    },
+    {
+      "name": "SOBKZ"
+    },
+    {
+      "name": "WEPOS"
+    },
+    {
+      "name": "WEUNB"
+    },
+    {
+      "name": "REPOS"
+    },
+    {
+      "name": "KOMOK"
+    }
+  ]
 }

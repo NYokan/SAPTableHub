@@ -27,5 +27,22 @@
       "texto requisito de recipiente",
       "descrição de recipiente"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "BEHVO",
+      "key": true
+    },
+    {
+      "name": "BVTXT"
+    }
+  ]
 }

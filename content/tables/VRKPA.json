@@ -27,5 +27,72 @@
       "faturas por cliente",
       "índice de faturas por cliente"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "KUNDE",
+      "key": true
+    },
+    {
+      "name": "PARVW",
+      "key": true
+    },
+    {
+      "name": "VKORG",
+      "key": true
+    },
+    {
+      "name": "FKDAT",
+      "key": true
+    },
+    {
+      "name": "VTWEG",
+      "key": true
+    },
+    {
+      "name": "FKART",
+      "key": true
+    },
+    {
+      "name": "KUNNR",
+      "key": true
+    },
+    {
+      "name": "KUNAG",
+      "key": true
+    },
+    {
+      "name": "VBTYP",
+      "key": true
+    },
+    {
+      "name": "ERNAM",
+      "key": true
+    },
+    {
+      "name": "VBELN",
+      "key": true
+    },
+    {
+      "name": "FKTYP"
+    },
+    {
+      "name": "BELNR",
+      "label": {
+        "es": "Documento contable",
+        "en": "Accounting document",
+        "pt": "Documento contábil"
+      }
+    },
+    {
+      "name": "GJAHR"
+    },
+    {
+      "name": "ADRNR"
+    }
+  ]
 }

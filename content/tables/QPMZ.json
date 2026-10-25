@@ -27,5 +27,46 @@
       "método da característica",
       "atribuição de métodos de inspeção"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "ZAEHLER",
+      "key": true,
+      "label": {
+        "es": "Centro",
+        "en": "Plant",
+        "pt": "Centro"
+      }
+    },
+    {
+      "name": "MKMNR",
+      "key": true
+    },
+    {
+      "name": "VERSION",
+      "key": true
+    },
+    {
+      "name": "WERKPM",
+      "key": true
+    },
+    {
+      "name": "PMETHODE",
+      "key": true
+    },
+    {
+      "name": "VERSPM",
+      "key": true
+    },
+    {
+      "name": "GUELTIGAB"
+    },
+    {
+      "name": "GELOESCHT"
+    }
+  ]
 }

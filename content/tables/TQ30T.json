@@ -27,5 +27,22 @@
       "texto tipo de inspeção",
       "descrição tipo de inspeção"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SPRACHE",
+      "key": true
+    },
+    {
+      "name": "ART",
+      "key": true
+    },
+    {
+      "name": "KURZTEXT"
+    }
+  ]
 }

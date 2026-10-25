@@ -27,5 +27,55 @@
       "texto do item de cálculo",
       "descrição do item de custos"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "LEDNR",
+      "key": true
+    },
+    {
+      "name": "BZOBJ",
+      "key": true
+    },
+    {
+      "name": "KALNR",
+      "key": true
+    },
+    {
+      "name": "KALKA",
+      "key": true
+    },
+    {
+      "name": "KADKY",
+      "key": true
+    },
+    {
+      "name": "TVERS",
+      "key": true
+    },
+    {
+      "name": "BWVAR",
+      "key": true
+    },
+    {
+      "name": "KKZMA",
+      "key": true
+    },
+    {
+      "name": "POSNR",
+      "key": true,
+      "type": "NUMC 5"
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "LTEXT"
+    }
+  ]
 }

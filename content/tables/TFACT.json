@@ -27,5 +27,19 @@
       "nome do calendário de fábrica",
       "texto do calendário"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "IDENT",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "LTEXT",
+      "type": "CHAR 60"
+    }
+  ]
 }

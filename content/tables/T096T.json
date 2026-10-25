@@ -27,5 +27,28 @@
       "texto do plano de avaliação",
       "nome do plano de avaliação"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "AFAPL",
+      "key": true
+    },
+    {
+      "name": "KTEXT",
+      "type": "CHAR 50",
+      "label": {
+        "es": "Nombre del plan de valoración",
+        "en": "Chart of depreciation name",
+        "pt": "Nome do plano de avaliação"
+      }
+    }
+  ]
 }

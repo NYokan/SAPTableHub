@@ -31,5 +31,21 @@
       "status de liberação",
       "pedido bloqueado para aprovação"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "FRGKE",
+      "key": true
+    },
+    {
+      "name": "KZFAE"
+    },
+    {
+      "name": "TLFAE"
+    }
+  ]
 }

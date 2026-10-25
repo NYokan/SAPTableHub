@@ -31,5 +31,57 @@
       "recursos de produção no roteiro",
       "PRT do roteiro"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "PLNTY",
+      "key": true
+    },
+    {
+      "name": "PLNNR",
+      "key": true
+    },
+    {
+      "name": "PZLFH",
+      "key": true
+    },
+    {
+      "name": "ZAEHL",
+      "key": true
+    },
+    {
+      "name": "OBJTY"
+    },
+    {
+      "name": "OBJID"
+    },
+    {
+      "name": "PLNAL"
+    },
+    {
+      "name": "PLNKN"
+    },
+    {
+      "name": "PSNFH"
+    },
+    {
+      "name": "STEUF"
+    },
+    {
+      "name": "TXTZ1"
+    },
+    {
+      "name": "DATUV"
+    },
+    {
+      "name": "LOEKZ"
+    },
+    {
+      "name": "AENNR"
+    }
+  ]
 }

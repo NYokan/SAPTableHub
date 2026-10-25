@@ -31,5 +31,36 @@
       "tolerância de entrega",
       "dias de lembrete"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "EKWSL",
+      "key": true
+    },
+    {
+      "name": "MAHN1"
+    },
+    {
+      "name": "MAHN2"
+    },
+    {
+      "name": "MAHN3"
+    },
+    {
+      "name": "UNTTO"
+    },
+    {
+      "name": "UEBTO"
+    },
+    {
+      "name": "UEBTK"
+    },
+    {
+      "name": "EVERS"
+    }
+  ]
 }

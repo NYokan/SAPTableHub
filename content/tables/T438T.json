@@ -27,5 +27,22 @@
       "nome do tipo de MRP",
       "descrição do tipo de MRP"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "DISMM",
+      "key": true
+    },
+    {
+      "name": "DIBEZ"
+    }
+  ]
 }

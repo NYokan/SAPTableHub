@@ -37,5 +37,57 @@
       "função de parceiro",
       "pedido de compra"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "EBELN",
+      "key": true
+    },
+    {
+      "name": "EBELP",
+      "key": true
+    },
+    {
+      "name": "EKORG",
+      "key": true
+    },
+    {
+      "name": "LTSNR",
+      "key": true
+    },
+    {
+      "name": "WERKS",
+      "key": true
+    },
+    {
+      "name": "PARVW",
+      "key": true
+    },
+    {
+      "name": "PARZA",
+      "key": true
+    },
+    {
+      "name": "LIFN2"
+    },
+    {
+      "name": "PARNR"
+    },
+    {
+      "name": "PERNR"
+    },
+    {
+      "name": "DEFPA"
+    },
+    {
+      "name": "ERDAT"
+    },
+    {
+      "name": "ERNAM"
+    }
+  ]
 }

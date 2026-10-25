@@ -27,5 +27,22 @@
       "nome do tamanho de lote",
       "descrição da DISLS"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "DISLS",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "LOSLT"
+    }
+  ]
 }

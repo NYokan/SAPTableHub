@@ -30,5 +30,39 @@
       "indicador de tarifa",
       "planejamento de tarifas"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "LEDNR",
+      "key": true
+    },
+    {
+      "name": "OBJNR",
+      "key": true
+    },
+    {
+      "name": "GJAHR",
+      "key": true
+    },
+    {
+      "name": "VERSN",
+      "key": true
+    },
+    {
+      "name": "TARKZ"
+    },
+    {
+      "name": "VKSTA"
+    },
+    {
+      "name": "LATYP"
+    },
+    {
+      "name": "KALSM"
+    }
+  ]
 }

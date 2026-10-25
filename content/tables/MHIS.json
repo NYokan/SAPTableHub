@@ -33,5 +33,33 @@
       "datas planejadas",
       "cumprimento"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "WARPL",
+      "key": true
+    },
+    {
+      "name": "ABNUM",
+      "key": true
+    },
+    {
+      "name": "ZAEHL",
+      "key": true,
+      "type": "NUMC 2"
+    },
+    {
+      "name": "NPLDA"
+    },
+    {
+      "name": "ABRUD"
+    },
+    {
+      "name": "LRMDT"
+    }
+  ]
 }

@@ -5,7 +5,7 @@
   "navCatalog": "Listado",
   "navSearch": "Buscar",
   "mySelection": "Mi selección",
-  "dataNote": "Contenido de ejemplo escrito a mano: no se extrajo de SAP y falta verificarlo.",
+  "dataNote": "Explicaciones escritas para este sitio. Nombres, claves y tipos de campos contrastados con una referencia pública del diccionario de ECC 6.0; compruébalos en tu sistema antes de usarlos.",
   "foot": "Proyecto independiente, sin relación con SAP SE. SAP es una marca registrada de SAP SE.",
   "loading": "Cargando…",
   "catTitle": "Listado de tablas",

@@ -34,5 +34,49 @@
       "controle tipo de depósito",
       "FIFO depósito"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "LGNUM",
+      "key": true
+    },
+    {
+      "name": "LGTYP",
+      "key": true
+    },
+    {
+      "name": "STEIN"
+    },
+    {
+      "name": "STAUS"
+    },
+    {
+      "name": "QUEIN"
+    },
+    {
+      "name": "QUAUS"
+    },
+    {
+      "name": "MISCH"
+    },
+    {
+      "name": "ZULAG"
+    },
+    {
+      "name": "NEGAT"
+    },
+    {
+      "name": "KAPAP"
+    },
+    {
+      "name": "SPEIN"
+    },
+    {
+      "name": "SPAUS"
+    }
+  ]
 }

@@ -31,5 +31,17 @@
       "extrato de conta",
       "confirmação de saldo"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "EVENT",
+      "key": true
+    },
+    {
+      "name": "XKONT"
+    },
+    {
+      "name": "XBELG"
+    }
+  ]
 }

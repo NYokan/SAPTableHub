@@ -28,5 +28,26 @@
       "nome tipo de posição",
       "descrição tipo de vão"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "LGNUM",
+      "key": true
+    },
+    {
+      "name": "LPTYP",
+      "key": true
+    },
+    {
+      "name": "PTYPT"
+    }
+  ]
 }

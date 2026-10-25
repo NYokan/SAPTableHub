@@ -31,5 +31,14 @@
       "moedas sem decimais",
       "ajuste de valores"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "CURRKEY",
+      "key": true
+    },
+    {
+      "name": "CURRDEC"
+    }
+  ]
 }

@@ -31,5 +31,37 @@
       "serviços não planejados contrato",
       "teto do contrato"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "PACKNO",
+      "key": true
+    },
+    {
+      "name": "INTROW",
+      "key": true
+    },
+    {
+      "name": "EBELN"
+    },
+    {
+      "name": "EBELP"
+    },
+    {
+      "name": "LIMIT"
+    },
+    {
+      "name": "NOLIMIT"
+    },
+    {
+      "name": "ACTVALUE"
+    },
+    {
+      "name": "KTEXT1"
+    }
+  ]
 }

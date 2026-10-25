@@ -30,5 +30,62 @@
       "partidas compensadas pelo pagamento",
       "documento de compensação"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "BUKRS_CLR",
+      "key": true
+    },
+    {
+      "name": "BELNR_CLR",
+      "key": true
+    },
+    {
+      "name": "GJAHR_CLR",
+      "key": true
+    },
+    {
+      "name": "INDEX_CLR",
+      "key": true
+    },
+    {
+      "name": "BUKRS"
+    },
+    {
+      "name": "BELNR",
+      "label": {
+        "es": "Documento compensado",
+        "en": "Cleared document",
+        "pt": "Documento compensado"
+      }
+    },
+    {
+      "name": "GJAHR"
+    },
+    {
+      "name": "BUZEI"
+    },
+    {
+      "name": "KOART"
+    },
+    {
+      "name": "SHKZG"
+    },
+    {
+      "name": "DMBTR"
+    },
+    {
+      "name": "WRBTR"
+    },
+    {
+      "name": "WAERS"
+    },
+    {
+      "name": "UMSKZ"
+    }
+  ]
 }

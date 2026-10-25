@@ -30,5 +30,24 @@
       "tipo de avaliação",
       "avaliação por origem"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "BWTAR",
+      "key": true
+    },
+    {
+      "name": "KKREF"
+    },
+    {
+      "name": "BSEXT"
+    },
+    {
+      "name": "BSINT"
+    }
+  ]
 }

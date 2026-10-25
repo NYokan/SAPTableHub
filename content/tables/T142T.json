@@ -27,5 +27,22 @@
       "texto condição de armazenagem",
       "descrição armazenagem"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "RAUBE",
+      "key": true
+    },
+    {
+      "name": "RBTXT"
+    }
+  ]
 }

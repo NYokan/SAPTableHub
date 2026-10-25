@@ -34,5 +34,53 @@
       "liquidação de consignação",
       "MRKO"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "MBLNR",
+      "key": true
+    },
+    {
+      "name": "MJAHR",
+      "key": true
+    },
+    {
+      "name": "ZEILE",
+      "key": true
+    },
+    {
+      "name": "LIFNR"
+    },
+    {
+      "name": "MATNR"
+    },
+    {
+      "name": "WERKS"
+    },
+    {
+      "name": "BUDAT"
+    },
+    {
+      "name": "BUKRS"
+    },
+    {
+      "name": "SOBKZ"
+    },
+    {
+      "name": "BSTMG"
+    },
+    {
+      "name": "BSTME"
+    },
+    {
+      "name": "WRBTR"
+    },
+    {
+      "name": "BWAER"
+    }
+  ]
 }

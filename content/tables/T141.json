@@ -35,5 +35,39 @@
       "material obsoleto",
       "descontinuado"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "MMSTA",
+      "key": true
+    },
+    {
+      "name": "DEINK"
+    },
+    {
+      "name": "DSTLK"
+    },
+    {
+      "name": "DAPLA"
+    },
+    {
+      "name": "DDISP"
+    },
+    {
+      "name": "DFAKO"
+    },
+    {
+      "name": "DBEST"
+    },
+    {
+      "name": "DPROG"
+    },
+    {
+      "name": "DERZK"
+    }
+  ]
 }

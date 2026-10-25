@@ -33,5 +33,28 @@
       "item de texto",
       "POSTP"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "POSTP",
+      "key": true
+    },
+    {
+      "name": "MATIN"
+    },
+    {
+      "name": "TXPOS"
+    },
+    {
+      "name": "DKPOS"
+    },
+    {
+      "name": "KLPOS",
+      "type": "CHAR 1"
+    }
+  ]
 }

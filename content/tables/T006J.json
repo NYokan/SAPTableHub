@@ -30,5 +30,22 @@
       "texto da unidade ISO",
       "nome da unidade ISO"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "CLIENT",
+      "key": true
+    },
+    {
+      "name": "LANGU",
+      "key": true
+    },
+    {
+      "name": "ISOCODE",
+      "key": true
+    },
+    {
+      "name": "ISOTXT"
+    }
+  ]
 }

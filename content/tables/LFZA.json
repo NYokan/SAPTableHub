@@ -31,5 +31,23 @@
       "beneficiário autorizado",
       "pagamento a terceiro"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "LIFNR",
+      "key": true
+    },
+    {
+      "name": "BUKRS",
+      "key": true
+    },
+    {
+      "name": "EMPFK",
+      "key": true
+    }
+  ]
 }

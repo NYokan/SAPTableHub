@@ -37,5 +37,18 @@
       "CIF",
       "termo comercial"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "INCO1",
+      "key": true
+    },
+    {
+      "name": "ORTOB"
+    }
+  ]
 }

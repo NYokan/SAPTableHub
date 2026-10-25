@@ -36,5 +36,53 @@
       "diferenças de preço",
       "valor do estoque"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "KALNR",
+      "key": true
+    },
+    {
+      "name": "BDATJ",
+      "key": true
+    },
+    {
+      "name": "POPER",
+      "key": true
+    },
+    {
+      "name": "UNTPER",
+      "key": true
+    },
+    {
+      "name": "CURTP",
+      "key": true
+    },
+    {
+      "name": "VPRSV"
+    },
+    {
+      "name": "STPRS"
+    },
+    {
+      "name": "PVPRS"
+    },
+    {
+      "name": "PEINH"
+    },
+    {
+      "name": "WAERS"
+    },
+    {
+      "name": "SALK3",
+      "type": "CURR 15,2"
+    },
+    {
+      "name": "SALKV"
+    }
+  ]
 }

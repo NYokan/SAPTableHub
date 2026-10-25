@@ -28,5 +28,23 @@
       "texto grupo de materiais 1",
       "MVGR1"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "MVGR1",
+      "key": true
+    },
+    {
+      "name": "BEZEI",
+      "type": "CHAR 40"
+    }
+  ]
 }

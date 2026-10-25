@@ -27,5 +27,22 @@
       "texto da chave de advertência",
       "descrição da chave de advertência"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "MSCHL",
+      "key": true
+    },
+    {
+      "name": "TEXT1"
+    }
+  ]
 }

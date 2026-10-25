@@ -30,5 +30,75 @@
       "LIS movimentos",
       "detalhe de movimentos"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SSOUR",
+      "key": true
+    },
+    {
+      "name": "VRSIO",
+      "key": true
+    },
+    {
+      "name": "SPMON",
+      "key": true
+    },
+    {
+      "name": "SPTAG",
+      "key": true
+    },
+    {
+      "name": "SPWOC",
+      "key": true
+    },
+    {
+      "name": "SPBUP",
+      "key": true
+    },
+    {
+      "name": "WERKS",
+      "key": true
+    },
+    {
+      "name": "MATNR",
+      "key": true
+    },
+    {
+      "name": "LGORT",
+      "key": true
+    },
+    {
+      "name": "MBLNR",
+      "key": true
+    },
+    {
+      "name": "BASME"
+    },
+    {
+      "name": "HWAER"
+    },
+    {
+      "name": "MZUBB"
+    },
+    {
+      "name": "WZUBB"
+    },
+    {
+      "name": "MAGBB"
+    },
+    {
+      "name": "WAGBB"
+    },
+    {
+      "name": "MGVBR"
+    },
+    {
+      "name": "WGVBR"
+    }
+  ]
 }

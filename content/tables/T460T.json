@@ -27,5 +27,26 @@
       "nome do suprimento especial",
       "descrição da SOBSL"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "WERKS",
+      "key": true
+    },
+    {
+      "name": "SOBSL",
+      "key": true
+    },
+    {
+      "name": "LTEXT"
+    }
+  ]
 }

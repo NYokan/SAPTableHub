@@ -27,5 +27,25 @@
       "nome do agrupamento BP",
       "texto do agrupamento de parceiros"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "BU_GROUP",
+      "key": true
+    },
+    {
+      "name": "TXT15"
+    },
+    {
+      "name": "TXT40"
+    }
+  ]
 }

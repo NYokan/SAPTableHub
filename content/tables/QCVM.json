@@ -26,5 +26,37 @@
       "características do certificado",
       "conteúdo do certificado de análise"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDANT",
+      "key": true
+    },
+    {
+      "name": "CTYP",
+      "key": true
+    },
+    {
+      "name": "VORLNR",
+      "key": true
+    },
+    {
+      "name": "VERSION",
+      "key": true
+    },
+    {
+      "name": "BLOCKNR",
+      "key": true
+    },
+    {
+      "name": "MERKMALNR",
+      "key": true
+    },
+    {
+      "name": "MKMNR"
+    },
+    {
+      "name": "VERSIONMK"
+    }
+  ]
 }

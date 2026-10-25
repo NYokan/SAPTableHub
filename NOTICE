@@ -12,6 +12,10 @@ Licensed under the Apache License, Version 2.0
 (http://www.apache.org/licenses/LICENSE-2.0).
 
 Only table names and application components were taken from that file.
+
+Field names, key flags and data types were checked against the public
+ECC 6.0 dictionary reference at leanx.eu. Only those technical facts
+were used; field labels are original writing for this project.
 Titles, explanations and synonyms in content/ are original writing for
 this project and are not SAP's official descriptions.
 

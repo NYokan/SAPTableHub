@@ -31,5 +31,15 @@
       "KVGR2",
       "classificação de clientes 2"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "KVGR2",
+      "key": true
+    }
+  ]
 }

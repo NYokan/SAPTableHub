@@ -33,5 +33,42 @@
       "transferência de orçamento",
       "histórico de orçamento"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "BELNR",
+      "key": true,
+      "type": "NUMC 10"
+    },
+    {
+      "name": "GJAHR"
+    },
+    {
+      "name": "VORGA",
+      "label": {
+        "es": "Operación de presupuestación",
+        "en": "Budgeting activity",
+        "pt": "Operação de orçamento"
+      }
+    },
+    {
+      "name": "BLDAT"
+    },
+    {
+      "name": "BUDAT"
+    },
+    {
+      "name": "CPUDT"
+    },
+    {
+      "name": "USNAM"
+    },
+    {
+      "name": "SGTEXT"
+    }
+  ]
 }

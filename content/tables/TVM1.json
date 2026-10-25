@@ -31,5 +31,15 @@
       "MVGR1",
       "classificação de material 1"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "MVGR1",
+      "key": true
+    }
+  ]
 }

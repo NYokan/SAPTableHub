@@ -36,5 +36,87 @@
       "totais do projeto",
       "receitas do projeto"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "OBJNR",
+      "key": true
+    },
+    {
+      "name": "LEDNR",
+      "key": true,
+      "type": "CHAR 4"
+    },
+    {
+      "name": "WRTTP",
+      "key": true
+    },
+    {
+      "name": "TRGKZ",
+      "key": true
+    },
+    {
+      "name": "GJAHR",
+      "key": true
+    },
+    {
+      "name": "ACPOS",
+      "key": true
+    },
+    {
+      "name": "VORGA",
+      "key": true
+    },
+    {
+      "name": "VERSN",
+      "key": true
+    },
+    {
+      "name": "ABKAT",
+      "key": true
+    },
+    {
+      "name": "GEBER",
+      "key": true
+    },
+    {
+      "name": "TWAER",
+      "key": true
+    },
+    {
+      "name": "PERBL",
+      "key": true
+    },
+    {
+      "name": "BELTP"
+    },
+    {
+      "name": "WLP00"
+    },
+    {
+      "name": "WLP01"
+    },
+    {
+      "name": "WLP02"
+    },
+    {
+      "name": "WLP03"
+    },
+    {
+      "name": "WTP00"
+    },
+    {
+      "name": "WTP01"
+    },
+    {
+      "name": "WTP02"
+    },
+    {
+      "name": "WTP03"
+    }
+  ]
 }

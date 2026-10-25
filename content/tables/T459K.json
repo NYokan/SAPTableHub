@@ -33,5 +33,41 @@
       "produção sob encomenda",
       "controle de demanda"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "BEDAR",
+      "key": true
+    },
+    {
+      "name": "ATPPR"
+    },
+    {
+      "name": "BEDSD"
+    },
+    {
+      "name": "KNTTP"
+    },
+    {
+      "name": "KALKU"
+    },
+    {
+      "name": "KALVAR"
+    },
+    {
+      "name": "APROF"
+    },
+    {
+      "name": "AUART",
+      "label": {
+        "es": "Clase de orden",
+        "en": "Order type",
+        "pt": "Tipo de ordem"
+      }
+    }
+  ]
 }

@@ -31,5 +31,15 @@
       "KONDM",
       "desconto por grupo de material"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "KONDM",
+      "key": true
+    }
+  ]
 }

@@ -31,5 +31,45 @@
       "distribuição por classificação contábil",
       "serviço por centro de custo"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "PACKNO",
+      "key": true
+    },
+    {
+      "name": "INTROW",
+      "key": true
+    },
+    {
+      "name": "NUMKN",
+      "key": true
+    },
+    {
+      "name": "ZEKKN"
+    },
+    {
+      "name": "MENGE"
+    },
+    {
+      "name": "WPROZ"
+    },
+    {
+      "name": "NETWR",
+      "type": "CURR 11,2"
+    },
+    {
+      "name": "ACT_MENGE"
+    },
+    {
+      "name": "ACT_WERT"
+    },
+    {
+      "name": "LOEKZ"
+    }
+  ]
 }

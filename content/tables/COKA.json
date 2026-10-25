@@ -27,5 +27,38 @@
       "dados de controle CO",
       "controle por classe de custo"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "OBJNR",
+      "key": true
+    },
+    {
+      "name": "GJAHR",
+      "key": true
+    },
+    {
+      "name": "KSTAR",
+      "key": true
+    },
+    {
+      "name": "HRKFT",
+      "key": true
+    },
+    {
+      "name": "MEINH",
+      "label": {
+        "es": "Unidad de medida",
+        "en": "Unit of measure",
+        "pt": "Unidade de medida"
+      }
+    },
+    {
+      "name": "MGEFL"
+    }
+  ]
 }

@@ -31,5 +31,29 @@
       "valor retido",
       "retenção na fatura de fornecedor"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "BELNR",
+      "key": true
+    },
+    {
+      "name": "GJAHR",
+      "key": true
+    },
+    {
+      "name": "WITHT",
+      "key": true
+    },
+    {
+      "name": "WT_WITHCD"
+    },
+    {
+      "name": "WT_QSSHB"
+    }
+  ]
 }

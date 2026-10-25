@@ -33,5 +33,58 @@
       "liquidação automática de entradas",
       "MRRL"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "BUDAT",
+      "key": true
+    },
+    {
+      "name": "LIFNR",
+      "key": true
+    },
+    {
+      "name": "BELNR",
+      "key": true,
+      "label": {
+        "es": "Documento de material",
+        "en": "Material document",
+        "pt": "Documento de material"
+      }
+    },
+    {
+      "name": "BUZEI",
+      "key": true,
+      "type": "NUMC 4"
+    },
+    {
+      "name": "GJAHR",
+      "key": true
+    },
+    {
+      "name": "EBELN"
+    },
+    {
+      "name": "EBELP"
+    },
+    {
+      "name": "BUKRS"
+    },
+    {
+      "name": "WERKS"
+    },
+    {
+      "name": "LFBNR"
+    },
+    {
+      "name": "LFGJA"
+    },
+    {
+      "name": "LFPOS"
+    }
+  ]
 }

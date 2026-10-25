@@ -29,5 +29,30 @@
       "inspeção reduzida",
       "skip lot"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "DYNREGEL",
+      "key": true
+    },
+    {
+      "name": "PRSTUFEANF"
+    },
+    {
+      "name": "ERSTELLER"
+    },
+    {
+      "name": "ERSTELLDAT"
+    },
+    {
+      "name": "AENDERER"
+    },
+    {
+      "name": "AENDERDAT"
+    }
+  ]
 }

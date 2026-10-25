@@ -30,5 +30,37 @@
       "montante mínimo de pagamento",
       "montante máximo de pagamento"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "ZBUKR",
+      "key": true
+    },
+    {
+      "name": "ZLSCH",
+      "key": true
+    },
+    {
+      "name": "VONBT"
+    },
+    {
+      "name": "BISBT"
+    },
+    {
+      "name": "XAUSL"
+    },
+    {
+      "name": "XFWAE"
+    },
+    {
+      "name": "ZFORN"
+    },
+    {
+      "name": "XEIPO"
+    }
+  ]
 }

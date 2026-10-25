@@ -30,5 +30,42 @@
       "centro de custo e atividade",
       "tipo de atividade do centro"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "KOKRS",
+      "key": true
+    },
+    {
+      "name": "KOSTL",
+      "key": true
+    },
+    {
+      "name": "LSTAR",
+      "key": true
+    },
+    {
+      "name": "GJAHR",
+      "key": true
+    },
+    {
+      "name": "LATYP"
+    },
+    {
+      "name": "LEINH"
+    },
+    {
+      "name": "AUSEH"
+    },
+    {
+      "name": "AUSFK"
+    },
+    {
+      "name": "OBJNR"
+    }
+  ]
 }

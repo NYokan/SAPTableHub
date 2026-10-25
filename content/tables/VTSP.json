@@ -30,5 +30,23 @@
       "atribuição de etapas",
       "trecho por remessa"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "TKNUM",
+      "key": true
+    },
+    {
+      "name": "TSNUM",
+      "key": true
+    },
+    {
+      "name": "TPNUM",
+      "key": true
+    }
+  ]
 }

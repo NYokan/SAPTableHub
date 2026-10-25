@@ -29,5 +29,47 @@
       "lista técnica de documento",
       "DMS"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "DOKAR",
+      "key": true
+    },
+    {
+      "name": "DOKNR",
+      "key": true
+    },
+    {
+      "name": "DOKVR",
+      "key": true
+    },
+    {
+      "name": "DOKTL",
+      "key": true
+    },
+    {
+      "name": "STLNR",
+      "key": true
+    },
+    {
+      "name": "STLAL",
+      "key": true
+    },
+    {
+      "name": "ANDAT"
+    },
+    {
+      "name": "ANNAM"
+    },
+    {
+      "name": "AEDAT"
+    },
+    {
+      "name": "AENAM"
+    }
+  ]
 }

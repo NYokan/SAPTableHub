@@ -27,5 +27,23 @@
       "nome da hierarquia de produtos",
       "descrição família de produtos"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "PRODH",
+      "key": true
+    },
+    {
+      "name": "VTEXT",
+      "type": "CHAR 40"
+    }
+  ]
 }

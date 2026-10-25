@@ -30,5 +30,39 @@
       "modelo de local de instalação",
       "local modelo"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "TRPNR",
+      "key": true
+    },
+    {
+      "name": "TPLKZ"
+    },
+    {
+      "name": "TRPMA"
+    },
+    {
+      "name": "IWERK"
+    },
+    {
+      "name": "INGRP"
+    },
+    {
+      "name": "RBNR"
+    },
+    {
+      "name": "ERDAT"
+    },
+    {
+      "name": "ERNAM"
+    },
+    {
+      "name": "LVORM"
+    }
+  ]
 }

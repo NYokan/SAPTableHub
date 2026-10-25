@@ -33,5 +33,15 @@
       "território de vendas",
       "BZIRK"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "BZIRK",
+      "key": true
+    }
+  ]
 }

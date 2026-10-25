@@ -30,5 +30,45 @@
       "plano EC-PCA",
       "orçamento por centro de lucro"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "RCLNT",
+      "key": true
+    },
+    {
+      "name": "GL_SIRID",
+      "key": true
+    },
+    {
+      "name": "RVERS"
+    },
+    {
+      "name": "RYEAR"
+    },
+    {
+      "name": "RBUKRS"
+    },
+    {
+      "name": "KOKRS"
+    },
+    {
+      "name": "RPRCTR"
+    },
+    {
+      "name": "RACCT"
+    },
+    {
+      "name": "DOCNR"
+    },
+    {
+      "name": "BUDAT"
+    },
+    {
+      "name": "SGTXT"
+    },
+    {
+      "name": "USNAM"
+    }
+  ]
 }

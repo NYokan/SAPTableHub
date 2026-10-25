@@ -31,5 +31,22 @@
       "aprovador de compras",
       "código de aprovação"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "FRGGR",
+      "key": true
+    },
+    {
+      "name": "FRGCO",
+      "key": true
+    },
+    {
+      "name": "FRGWF"
+    }
+  ]
 }

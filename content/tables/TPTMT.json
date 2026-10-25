@@ -27,5 +27,22 @@
       "texto grupo de categorias de item",
       "MTPOS"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "MTPOS",
+      "key": true
+    },
+    {
+      "name": "BEZEI"
+    }
+  ]
 }

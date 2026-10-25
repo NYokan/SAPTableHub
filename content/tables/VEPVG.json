@@ -33,5 +33,79 @@
       "VL10",
       "ordens a entregar"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "VSTEL",
+      "key": true
+    },
+    {
+      "name": "LEDAT",
+      "key": true
+    },
+    {
+      "name": "LPRIO",
+      "key": true
+    },
+    {
+      "name": "ROUTE",
+      "key": true
+    },
+    {
+      "name": "SPDNR",
+      "key": true
+    },
+    {
+      "name": "WADAT",
+      "key": true
+    },
+    {
+      "name": "KUNWE",
+      "key": true
+    },
+    {
+      "name": "VBELN",
+      "key": true
+    },
+    {
+      "name": "LIFSP",
+      "key": true
+    },
+    {
+      "name": "KUNNR"
+    },
+    {
+      "name": "VKORG"
+    },
+    {
+      "name": "VTWEG"
+    },
+    {
+      "name": "SPART"
+    },
+    {
+      "name": "VKBUR"
+    },
+    {
+      "name": "AUART"
+    },
+    {
+      "name": "BRGEW",
+      "type": "QUAN 15,3"
+    },
+    {
+      "name": "GEWEI"
+    },
+    {
+      "name": "VOLUM",
+      "type": "QUAN 15,3"
+    },
+    {
+      "name": "VOLEH"
+    }
+  ]
 }

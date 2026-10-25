@@ -36,5 +36,58 @@
       "contrato básico",
       "chamada de contrato"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "KONNR",
+      "key": true
+    },
+    {
+      "name": "KTPNR",
+      "key": true
+    },
+    {
+      "name": "EBELN",
+      "key": true
+    },
+    {
+      "name": "EBELP",
+      "key": true
+    },
+    {
+      "name": "BEDAT"
+    },
+    {
+      "name": "MENGE"
+    },
+    {
+      "name": "MEINS"
+    },
+    {
+      "name": "NETWR",
+      "type": "CURR 13,2"
+    },
+    {
+      "name": "WAERS"
+    },
+    {
+      "name": "BUKRS"
+    },
+    {
+      "name": "WERKS"
+    },
+    {
+      "name": "EKORG"
+    },
+    {
+      "name": "LOEKZ"
+    },
+    {
+      "name": "BSTYP"
+    }
+  ]
 }

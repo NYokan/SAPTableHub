@@ -31,5 +31,26 @@
       "zona de separação de pedidos",
       "corredor de picking"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "LGNUM",
+      "key": true
+    },
+    {
+      "name": "LGTYP",
+      "key": true
+    },
+    {
+      "name": "KOBER",
+      "key": true
+    },
+    {
+      "name": "LDEST"
+    }
+  ]
 }

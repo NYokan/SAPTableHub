@@ -31,5 +31,22 @@
       "tipo de palete",
       "tipo de suporte de carga"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "LGNUM",
+      "key": true
+    },
+    {
+      "name": "LETYP",
+      "key": true
+    },
+    {
+      "name": "KKAPV"
+    }
+  ]
 }

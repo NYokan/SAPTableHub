@@ -27,5 +27,22 @@
       "nome do tipo de centro de custo",
       "descrição do KOSAR"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "KOSAR",
+      "key": true
+    },
+    {
+      "name": "KTEXT"
+    }
+  ]
 }

@@ -27,5 +27,23 @@
       "nome da versão CO",
       "descrição da versão"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "VERSI",
+      "key": true
+    },
+    {
+      "name": "VTEXT",
+      "type": "CHAR 30"
+    }
+  ]
 }

@@ -34,5 +34,53 @@
       "nivelamento de capacidade",
       "carga do centro de trabalho"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "BEDID",
+      "key": true
+    },
+    {
+      "name": "BEDZL",
+      "key": true
+    },
+    {
+      "name": "CANUM",
+      "key": true
+    },
+    {
+      "name": "ARBID"
+    },
+    {
+      "name": "KAPID"
+    },
+    {
+      "name": "AUFPL"
+    },
+    {
+      "name": "APLZL"
+    },
+    {
+      "name": "VORNR"
+    },
+    {
+      "name": "KBEASOLL"
+    },
+    {
+      "name": "KBEAREST"
+    },
+    {
+      "name": "KEINH"
+    },
+    {
+      "name": "FSTAD"
+    },
+    {
+      "name": "FENDD"
+    }
+  ]
 }

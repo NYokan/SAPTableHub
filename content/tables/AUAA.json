@@ -33,5 +33,50 @@
       "apropriação de ordens",
       "receptor de custos"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "BELNR",
+      "key": true
+    },
+    {
+      "name": "LFDNR",
+      "key": true,
+      "type": "NUMC 4"
+    },
+    {
+      "name": "EMTYP"
+    },
+    {
+      "name": "KOKRS"
+    },
+    {
+      "name": "BUKRS"
+    },
+    {
+      "name": "SAKNR"
+    },
+    {
+      "name": "KOSTL"
+    },
+    {
+      "name": "AUFNR"
+    },
+    {
+      "name": "PSPNR"
+    },
+    {
+      "name": "ANLN1"
+    },
+    {
+      "name": "PRCTR"
+    },
+    {
+      "name": "KDAUF"
+    }
+  ]
 }

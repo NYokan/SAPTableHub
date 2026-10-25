@@ -39,5 +39,89 @@
       "demonstração de resultados",
       "totais por período"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "RCLNT",
+      "key": true
+    },
+    {
+      "name": "RYEAR",
+      "key": true
+    },
+    {
+      "name": "OBJNR00",
+      "key": true
+    },
+    {
+      "name": "OBJNR01",
+      "key": true
+    },
+    {
+      "name": "OBJNR02",
+      "key": true
+    },
+    {
+      "name": "OBJNR03",
+      "key": true
+    },
+    {
+      "name": "OBJNR04",
+      "key": true
+    },
+    {
+      "name": "OBJNR05",
+      "key": true
+    },
+    {
+      "name": "OBJNR06",
+      "key": true
+    },
+    {
+      "name": "OBJNR07",
+      "key": true
+    },
+    {
+      "name": "OBJNR08",
+      "key": true
+    },
+    {
+      "name": "DRCRK",
+      "key": true
+    },
+    {
+      "name": "RPMAX",
+      "key": true
+    },
+    {
+      "name": "RLDNR"
+    },
+    {
+      "name": "RBUKRS"
+    },
+    {
+      "name": "RACCT"
+    },
+    {
+      "name": "RTCUR"
+    },
+    {
+      "name": "PRCTR"
+    },
+    {
+      "name": "SEGMENT"
+    },
+    {
+      "name": "RCNTR"
+    },
+    {
+      "name": "RFAREA"
+    },
+    {
+      "name": "HSLVT"
+    },
+    {
+      "name": "HSL01"
+    }
+  ]
 }

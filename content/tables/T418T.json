@@ -27,5 +27,28 @@
       "nome do tipo de item",
       "descrição do tipo de item da BOM"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "POSTP",
+      "key": true
+    },
+    {
+      "name": "PTEXT",
+      "type": "CHAR 30",
+      "label": {
+        "es": "Descripción del tipo de posición",
+        "en": "Item category description",
+        "pt": "Descrição do tipo de item"
+      }
+    }
+  ]
 }

@@ -33,5 +33,21 @@
       "classe 023 lotes",
       "tipos de classificação"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "KLART",
+      "key": true
+    },
+    {
+      "name": "OBTAB"
+    },
+    {
+      "name": "MULTOBJ"
+    }
+  ]
 }

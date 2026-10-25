@@ -37,5 +37,45 @@
       "contêiner",
       "abastecimento de linha"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "PKNUM",
+      "key": true
+    },
+    {
+      "name": "MATNR"
+    },
+    {
+      "name": "WERKS"
+    },
+    {
+      "name": "PRVBE"
+    },
+    {
+      "name": "BEHAZ"
+    },
+    {
+      "name": "BEHMG"
+    },
+    {
+      "name": "LIFNR"
+    },
+    {
+      "name": "EKORG"
+    },
+    {
+      "name": "EBELN"
+    },
+    {
+      "name": "KOSTL"
+    },
+    {
+      "name": "MEINS"
+    }
+  ]
 }

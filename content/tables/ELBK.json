@@ -33,5 +33,34 @@
       "classificação de fornecedor",
       "rating de fornecedor"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "EKORG",
+      "key": true
+    },
+    {
+      "name": "LIFNR",
+      "key": true
+    },
+    {
+      "name": "GESBU"
+    },
+    {
+      "name": "LEBDT"
+    },
+    {
+      "name": "LEBEW"
+    },
+    {
+      "name": "GEWSL"
+    },
+    {
+      "name": "LOEKZ"
+    }
+  ]
 }

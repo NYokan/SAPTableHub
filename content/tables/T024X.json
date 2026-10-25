@@ -27,5 +27,22 @@
       "nome do laboratório",
       "descrição escritório técnico"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "LABOR",
+      "key": true
+    },
+    {
+      "name": "LBTXT"
+    }
+  ]
 }

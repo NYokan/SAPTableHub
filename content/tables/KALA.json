@@ -33,5 +33,50 @@
       "rodada de custos",
       "cálculo massivo de custos"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "KALAID",
+      "key": true
+    },
+    {
+      "name": "KALADAT",
+      "key": true
+    },
+    {
+      "name": "TVERS",
+      "key": true
+    },
+    {
+      "name": "KALABEZ"
+    },
+    {
+      "name": "KALKA"
+    },
+    {
+      "name": "KADAT"
+    },
+    {
+      "name": "BIDAT"
+    },
+    {
+      "name": "BWDAT"
+    },
+    {
+      "name": "ALDAT"
+    },
+    {
+      "name": "BUKRS"
+    },
+    {
+      "name": "KOKRS"
+    },
+    {
+      "name": "ERFNM"
+    }
+  ]
 }

@@ -33,5 +33,61 @@
       "divisão por segmento",
       "divisão por centro de lucro"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "BELNR",
+      "key": true
+    },
+    {
+      "name": "GJAHR",
+      "key": true
+    },
+    {
+      "name": "BUKRS",
+      "key": true
+    },
+    {
+      "name": "BUZEI",
+      "key": true
+    },
+    {
+      "name": "SPL_NO",
+      "key": true
+    },
+    {
+      "name": "HKONT"
+    },
+    {
+      "name": "PRCTR"
+    },
+    {
+      "name": "SEGMENT"
+    },
+    {
+      "name": "KOSTL"
+    },
+    {
+      "name": "GSBER"
+    },
+    {
+      "name": "FKBER"
+    },
+    {
+      "name": "SHKZG"
+    },
+    {
+      "name": "BSCHL"
+    },
+    {
+      "name": "AUFNR"
+    },
+    {
+      "name": "PS_PSP_PNR"
+    }
+  ]
 }

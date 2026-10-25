@@ -34,5 +34,24 @@
       "BWART",
       "código de movimento"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "BWART",
+      "key": true
+    },
+    {
+      "name": "SHKZG"
+    },
+    {
+      "name": "XSTBW"
+    },
+    {
+      "name": "KZGRU"
+    }
+  ]
 }

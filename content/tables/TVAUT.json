@@ -31,5 +31,23 @@
       "motivo da devolução",
       "AUGRU"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "AUGRU",
+      "key": true
+    },
+    {
+      "name": "BEZEI",
+      "type": "CHAR 40"
+    }
+  ]
 }

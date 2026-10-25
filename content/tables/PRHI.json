@@ -33,5 +33,36 @@
       "estrutura",
       "nível superior"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "POSNR",
+      "key": true,
+      "type": "NUMC 8",
+      "label": {
+        "es": "Elemento PEP (interno)",
+        "en": "WBS element (internal)",
+        "pt": "Elemento PEP (interno)"
+      }
+    },
+    {
+      "name": "PSPHI"
+    },
+    {
+      "name": "UP"
+    },
+    {
+      "name": "DOWN"
+    },
+    {
+      "name": "LEFT"
+    },
+    {
+      "name": "RIGHT"
+    }
+  ]
 }

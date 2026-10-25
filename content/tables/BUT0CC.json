@@ -30,5 +30,31 @@
       "cartão de pagamento",
       "cartões do cliente"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "PARTNER",
+      "key": true
+    },
+    {
+      "name": "CCARD_ID",
+      "key": true
+    },
+    {
+      "name": "CCINS"
+    },
+    {
+      "name": "CCNUM"
+    },
+    {
+      "name": "CCDEF"
+    },
+    {
+      "name": "CCACCNAME"
+    }
+  ]
 }

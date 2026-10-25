@@ -30,5 +30,45 @@
       "reconciliação CO-FI",
       "partidas de reconciliação"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "RCLNT",
+      "key": true
+    },
+    {
+      "name": "GL_SIRID",
+      "key": true
+    },
+    {
+      "name": "RYEAR"
+    },
+    {
+      "name": "POPER"
+    },
+    {
+      "name": "RBUKRS"
+    },
+    {
+      "name": "RACCT"
+    },
+    {
+      "name": "KOKRS"
+    },
+    {
+      "name": "DOCNR"
+    },
+    {
+      "name": "BUDAT"
+    },
+    {
+      "name": "TSL"
+    },
+    {
+      "name": "HSL"
+    },
+    {
+      "name": "SGTXT"
+    }
+  ]
 }

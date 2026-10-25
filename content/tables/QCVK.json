@@ -29,5 +29,41 @@
       "certificado de análise",
       "certificado de qualidade"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDANT",
+      "key": true
+    },
+    {
+      "name": "CTYP",
+      "key": true
+    },
+    {
+      "name": "VORLNR",
+      "key": true
+    },
+    {
+      "name": "VERSION",
+      "key": true
+    },
+    {
+      "name": "KURZTEXT"
+    },
+    {
+      "name": "GUELTIGAB"
+    },
+    {
+      "name": "ERSTELLER"
+    },
+    {
+      "name": "ERSTELDAT"
+    },
+    {
+      "name": "AENDERER"
+    },
+    {
+      "name": "AENDERDAT"
+    }
+  ]
 }

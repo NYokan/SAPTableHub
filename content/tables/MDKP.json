@@ -35,5 +35,57 @@
       "resultado do MRP",
       "mensagens de exceção"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "DTART",
+      "key": true
+    },
+    {
+      "name": "MATNR",
+      "key": true
+    },
+    {
+      "name": "PLWRK",
+      "key": true
+    },
+    {
+      "name": "PLSCN",
+      "key": true
+    },
+    {
+      "name": "DTNUM"
+    },
+    {
+      "name": "DSDAT"
+    },
+    {
+      "name": "MTART"
+    },
+    {
+      "name": "MEINS"
+    },
+    {
+      "name": "DISMM"
+    },
+    {
+      "name": "DISPO"
+    },
+    {
+      "name": "BESKZ"
+    },
+    {
+      "name": "EISBE"
+    },
+    {
+      "name": "DISLS"
+    },
+    {
+      "name": "EKGRP"
+    }
+  ]
 }

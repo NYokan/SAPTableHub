@@ -29,5 +29,34 @@
       "catálogo de defeitos",
       "grupo de catálogo"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "KATALOGART",
+      "key": true
+    },
+    {
+      "name": "CODEGRUPPE",
+      "key": true
+    },
+    {
+      "name": "STATUS"
+    },
+    {
+      "name": "INAKTIV"
+    },
+    {
+      "name": "VERWENDUNG"
+    },
+    {
+      "name": "ERSTELLER"
+    },
+    {
+      "name": "E_DATUM"
+    }
+  ]
 }

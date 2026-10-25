@@ -31,5 +31,43 @@
       "estoque disponível projetado",
       "cobertura"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "DTNUM",
+      "key": true
+    },
+    {
+      "name": "DTPOS",
+      "key": true
+    },
+    {
+      "name": "DAT00"
+    },
+    {
+      "name": "DELKZ"
+    },
+    {
+      "name": "DELNR"
+    },
+    {
+      "name": "DELPS"
+    },
+    {
+      "name": "MNG01"
+    },
+    {
+      "name": "PLUMI"
+    },
+    {
+      "name": "BESKZ"
+    },
+    {
+      "name": "LGORT"
+    }
+  ]
 }

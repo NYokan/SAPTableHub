@@ -33,5 +33,15 @@
       "escritório de projetos",
       "responsável técnico do material"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "LABOR",
+      "key": true
+    }
+  ]
 }

@@ -30,5 +30,77 @@
       "LIS material",
       "vendas por produto"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SSOUR",
+      "key": true
+    },
+    {
+      "name": "VRSIO",
+      "key": true
+    },
+    {
+      "name": "SPMON",
+      "key": true
+    },
+    {
+      "name": "SPTAG",
+      "key": true
+    },
+    {
+      "name": "SPWOC",
+      "key": true
+    },
+    {
+      "name": "SPBUP",
+      "key": true
+    },
+    {
+      "name": "MATNR",
+      "key": true
+    },
+    {
+      "name": "VKORG",
+      "key": true
+    },
+    {
+      "name": "VTWEG",
+      "key": true
+    },
+    {
+      "name": "AENETWR"
+    },
+    {
+      "name": "AEMENGE"
+    },
+    {
+      "name": "UMNETWR"
+    },
+    {
+      "name": "UMMENGE"
+    },
+    {
+      "name": "RENETWR"
+    },
+    {
+      "name": "REMENGE"
+    },
+    {
+      "name": "GUNETWR"
+    },
+    {
+      "name": "OAUWE"
+    },
+    {
+      "name": "STWAE"
+    },
+    {
+      "name": "BASME"
+    }
+  ]
 }

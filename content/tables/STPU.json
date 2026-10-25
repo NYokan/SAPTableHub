@@ -30,5 +30,40 @@
       "ponto de montagem",
       "referência de posição"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "STLTY",
+      "key": true
+    },
+    {
+      "name": "STLNR",
+      "key": true
+    },
+    {
+      "name": "STLKN",
+      "key": true
+    },
+    {
+      "name": "STPOZ",
+      "key": true
+    },
+    {
+      "name": "UPOSZ",
+      "key": true
+    },
+    {
+      "name": "UPMNG"
+    },
+    {
+      "name": "EBORT"
+    },
+    {
+      "name": "UPTXT"
+    }
+  ]
 }

@@ -35,5 +35,45 @@
       "rejeição de lote",
       "liberação de qualidade"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDANT",
+      "key": true
+    },
+    {
+      "name": "PRUEFLOS",
+      "key": true
+    },
+    {
+      "name": "KZART",
+      "key": true
+    },
+    {
+      "name": "ZAEHLER",
+      "key": true,
+      "type": "CHAR 6"
+    },
+    {
+      "name": "VCODEGRP"
+    },
+    {
+      "name": "VCODE"
+    },
+    {
+      "name": "VBEWERTUNG"
+    },
+    {
+      "name": "QKENNZAHL"
+    },
+    {
+      "name": "VNAME"
+    },
+    {
+      "name": "VDATUM"
+    },
+    {
+      "name": "VAUSWAHLMG"
+    }
+  ]
 }

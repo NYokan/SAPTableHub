@@ -28,5 +28,26 @@
       "texto tipo de movimento WM",
       "descrição movimento WM"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "LGNUM",
+      "key": true
+    },
+    {
+      "name": "BWLVS",
+      "key": true
+    },
+    {
+      "name": "LBWAT"
+    }
+  ]
 }

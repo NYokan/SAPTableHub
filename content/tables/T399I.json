@@ -30,5 +30,21 @@
       "centro de planejamento de manutenção",
       "planta de manutenção"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "IWERK",
+      "key": true
+    },
+    {
+      "name": "DAUNE"
+    },
+    {
+      "name": "ARBEH"
+    }
+  ]
 }

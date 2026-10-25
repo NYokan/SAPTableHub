@@ -33,5 +33,52 @@
       "risco de crédito",
       "exposição de crédito"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SSOUR",
+      "key": true
+    },
+    {
+      "name": "VRSIO",
+      "key": true
+    },
+    {
+      "name": "KKBER",
+      "key": true
+    },
+    {
+      "name": "KNKLI",
+      "key": true
+    },
+    {
+      "name": "SPMON",
+      "key": true
+    },
+    {
+      "name": "SPTAG",
+      "key": true
+    },
+    {
+      "name": "SPWOC",
+      "key": true
+    },
+    {
+      "name": "SPBUP",
+      "key": true
+    },
+    {
+      "name": "OLIKW"
+    },
+    {
+      "name": "OFAKW"
+    },
+    {
+      "name": "CMWAE"
+    }
+  ]
 }

@@ -29,5 +29,32 @@
       "chave de lançamento",
       "BSCHL"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "BSCHL",
+      "key": true
+    },
+    {
+      "name": "UMSKZ",
+      "key": true
+    },
+    {
+      "name": "LTEXT",
+      "type": "CHAR 20",
+      "label": {
+        "es": "Nombre de la clave de contabilización",
+        "en": "Posting key name",
+        "pt": "Nome da chave de lançamento"
+      }
+    }
+  ]
 }

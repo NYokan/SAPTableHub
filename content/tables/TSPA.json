@@ -34,5 +34,15 @@
       "divisão",
       "SPART"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SPART",
+      "key": true
+    }
+  ]
 }

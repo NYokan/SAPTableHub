@@ -34,5 +34,18 @@
       "cotação perdida",
       "ABGRU"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "ABGRU",
+      "key": true
+    },
+    {
+      "name": "KOWRR"
+    }
+  ]
 }

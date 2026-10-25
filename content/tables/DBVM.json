@@ -30,5 +30,39 @@
       "entradas de planejamento MRP",
       "planejamento por área"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "MAFID",
+      "key": true
+    },
+    {
+      "name": "DISST",
+      "key": true
+    },
+    {
+      "name": "MATNR",
+      "key": true
+    },
+    {
+      "name": "BERID",
+      "key": true
+    },
+    {
+      "name": "GSAEN"
+    },
+    {
+      "name": "AKKEN"
+    },
+    {
+      "name": "RESDT"
+    },
+    {
+      "name": "ERDAT"
+    }
+  ]
 }

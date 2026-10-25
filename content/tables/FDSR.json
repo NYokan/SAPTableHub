@@ -33,5 +33,50 @@
       "recebimentos e pagamentos previstos",
       "liquidity forecast"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "BUKRS",
+      "key": true
+    },
+    {
+      "name": "GRUPP",
+      "key": true
+    },
+    {
+      "name": "EBENE",
+      "key": true
+    },
+    {
+      "name": "DISPW",
+      "key": true
+    },
+    {
+      "name": "DATUM",
+      "key": true,
+      "label": {
+        "es": "Fecha de planificación",
+        "en": "Planning date",
+        "pt": "Data de planejamento"
+      }
+    },
+    {
+      "name": "AVDAT",
+      "key": true
+    },
+    {
+      "name": "GSBER",
+      "key": true
+    },
+    {
+      "name": "WRSHB"
+    },
+    {
+      "name": "DMSHB"
+    }
+  ]
 }

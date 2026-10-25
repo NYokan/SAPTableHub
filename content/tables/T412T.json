@@ -27,5 +27,23 @@
       "nome do status do roteiro",
       "descrição do status do roteiro"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "PLNST",
+      "key": true
+    },
+    {
+      "name": "TXT",
+      "type": "CHAR 40"
+    }
+  ]
 }

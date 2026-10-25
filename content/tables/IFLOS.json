@@ -30,5 +30,47 @@
       "codificação alternativa do local",
       "rotulagem de locais de instalação"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "TPLNR",
+      "key": true
+    },
+    {
+      "name": "ALKEY",
+      "key": true
+    },
+    {
+      "name": "VERSN",
+      "key": true,
+      "type": "NUMC 3",
+      "label": {
+        "es": "Versión de la etiqueta",
+        "en": "Label version",
+        "pt": "Versão do rótulo"
+      }
+    },
+    {
+      "name": "STRNO"
+    },
+    {
+      "name": "ACTVS"
+    },
+    {
+      "name": "PRKEY"
+    },
+    {
+      "name": "TPLKZ"
+    },
+    {
+      "name": "ERDAT"
+    },
+    {
+      "name": "ERNAM"
+    }
+  ]
 }

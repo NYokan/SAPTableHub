@@ -34,5 +34,37 @@
       "contagem do depósito",
       "contagem por posição"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "LGNUM",
+      "key": true
+    },
+    {
+      "name": "IVNUM",
+      "key": true
+    },
+    {
+      "name": "ISTAT",
+      "type": "CHAR 1",
+      "label": {
+        "es": "Estado del inventario",
+        "en": "Inventory status",
+        "pt": "Status do inventário"
+      }
+    },
+    {
+      "name": "LGTYP"
+    },
+    {
+      "name": "PDATU"
+    },
+    {
+      "name": "UNAME"
+    }
+  ]
 }

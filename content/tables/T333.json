@@ -31,5 +31,43 @@
       "movimento de depósito",
       "movimento WM"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "LGNUM",
+      "key": true
+    },
+    {
+      "name": "BWLVS",
+      "key": true
+    },
+    {
+      "name": "TRART"
+    },
+    {
+      "name": "VLTYP"
+    },
+    {
+      "name": "VLPLA"
+    },
+    {
+      "name": "NLTYP"
+    },
+    {
+      "name": "NLPLA"
+    },
+    {
+      "name": "BETYP"
+    },
+    {
+      "name": "SQUIT"
+    },
+    {
+      "name": "AUTTA"
+    }
+  ]
 }

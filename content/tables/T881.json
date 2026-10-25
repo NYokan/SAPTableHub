@@ -33,5 +33,26 @@
       "ledger FI-SL",
       "ledger principal"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "RLDNR",
+      "key": true
+    },
+    {
+      "name": "TAB",
+      "label": {
+        "es": "Tabla de totales",
+        "en": "Totals table",
+        "pt": "Tabela de totais"
+      }
+    },
+    {
+      "name": "XLEADING"
+    }
+  ]
 }

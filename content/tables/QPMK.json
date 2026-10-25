@@ -37,5 +37,55 @@
       "teste",
       "especificação de qualidade"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "ZAEHLER",
+      "key": true,
+      "label": {
+        "es": "Centro",
+        "en": "Plant",
+        "pt": "Centro"
+      }
+    },
+    {
+      "name": "MKMNR",
+      "key": true
+    },
+    {
+      "name": "VERSION",
+      "key": true
+    },
+    {
+      "name": "GUELTIGAB"
+    },
+    {
+      "name": "SORTFELD"
+    },
+    {
+      "name": "MASSEINHSW"
+    },
+    {
+      "name": "STELLEN"
+    },
+    {
+      "name": "SOLLWERT"
+    },
+    {
+      "name": "TOLERANZOB"
+    },
+    {
+      "name": "TOLERANZUN"
+    },
+    {
+      "name": "ATINN"
+    },
+    {
+      "name": "LOEKZ"
+    }
+  ]
 }

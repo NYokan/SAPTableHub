@@ -33,5 +33,27 @@
       "moeda paralela",
       "moeda forte"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "BUKRS",
+      "key": true
+    },
+    {
+      "name": "CURTP"
+    },
+    {
+      "name": "KURST"
+    },
+    {
+      "name": "CURSR"
+    },
+    {
+      "name": "CURDT"
+    }
+  ]
 }

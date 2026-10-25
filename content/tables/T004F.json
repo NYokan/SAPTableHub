@@ -30,5 +30,30 @@
       "campos obrigatórios no lançamento",
       "FSTAG"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "BUKRS",
+      "key": true,
+      "label": {
+        "es": "Variante de estado de campos",
+        "en": "Field status variant",
+        "pt": "Variante de status de campos"
+      }
+    },
+    {
+      "name": "FSTAG",
+      "key": true
+    },
+    {
+      "name": "FAUS1"
+    },
+    {
+      "name": "FAUS2"
+    }
+  ]
 }

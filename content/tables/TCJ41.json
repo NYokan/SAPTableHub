@@ -30,5 +30,36 @@
       "configuração de projeto",
       "modelo de projeto"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "PROFIDPROJ",
+      "key": true
+    },
+    {
+      "name": "BUKRS"
+    },
+    {
+      "name": "KOKRS"
+    },
+    {
+      "name": "WERKS"
+    },
+    {
+      "name": "PRCTR"
+    },
+    {
+      "name": "WAERS"
+    },
+    {
+      "name": "PRART"
+    },
+    {
+      "name": "VKORG"
+    }
+  ]
 }

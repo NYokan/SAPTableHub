@@ -33,5 +33,40 @@
       "faturamento por marcos",
       "entregável"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MLST_MANDT",
+      "key": true
+    },
+    {
+      "name": "MLST_ZAEHL",
+      "key": true
+    },
+    {
+      "name": "ZAEHL",
+      "key": true
+    },
+    {
+      "name": "PSPNR"
+    },
+    {
+      "name": "MLSTN"
+    },
+    {
+      "name": "LST_ACTDT"
+    },
+    {
+      "name": "PRCNT"
+    },
+    {
+      "name": "FPROZ"
+    },
+    {
+      "name": "AUFPL"
+    },
+    {
+      "name": "LOEKZ"
+    }
+  ]
 }

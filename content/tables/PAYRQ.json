@@ -33,5 +33,45 @@
       "transferência entre bancos",
       "payment request"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "KEYNO",
+      "key": true
+    },
+    {
+      "name": "ZBUKR"
+    },
+    {
+      "name": "BUKRS"
+    },
+    {
+      "name": "WRBTR"
+    },
+    {
+      "name": "WAERS"
+    },
+    {
+      "name": "DUEDT"
+    },
+    {
+      "name": "VALUT"
+    },
+    {
+      "name": "HBKID"
+    },
+    {
+      "name": "HKTID"
+    },
+    {
+      "name": "ZNME1"
+    },
+    {
+      "name": "XBLNR"
+    }
+  ]
 }

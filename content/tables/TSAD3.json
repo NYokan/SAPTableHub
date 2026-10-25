@@ -30,5 +30,27 @@
       "título do endereço",
       "Sr. Sra."
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "CLIENT",
+      "key": true
+    },
+    {
+      "name": "TITLE",
+      "key": true
+    },
+    {
+      "name": "PERSON"
+    },
+    {
+      "name": "ORGANIZATN"
+    },
+    {
+      "name": "XGROUP"
+    },
+    {
+      "name": "SEX"
+    }
+  ]
 }

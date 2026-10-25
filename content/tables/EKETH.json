@@ -31,5 +31,47 @@
       "alterações no programa de remessas",
       "versões de divisões"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "EBELN",
+      "key": true
+    },
+    {
+      "name": "EBELP",
+      "key": true
+    },
+    {
+      "name": "ETENR",
+      "key": true
+    },
+    {
+      "name": "EINDT"
+    },
+    {
+      "name": "SLFDT"
+    },
+    {
+      "name": "MENGE"
+    },
+    {
+      "name": "WEMNG"
+    },
+    {
+      "name": "AMENG"
+    },
+    {
+      "name": "BANFN"
+    },
+    {
+      "name": "BNFPO"
+    },
+    {
+      "name": "CHARG"
+    }
+  ]
 }

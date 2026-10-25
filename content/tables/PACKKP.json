@@ -34,5 +34,49 @@
       "paletização",
       "esquema de embalagem"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "PACKNR",
+      "key": true
+    },
+    {
+      "name": "HDCOUNT",
+      "key": true
+    },
+    {
+      "name": "POBJID"
+    },
+    {
+      "name": "HEIGHT"
+    },
+    {
+      "name": "WIDTH"
+    },
+    {
+      "name": "LENGTH"
+    },
+    {
+      "name": "UNITDIM"
+    },
+    {
+      "name": "TOTLWEI"
+    },
+    {
+      "name": "UNITWEI"
+    },
+    {
+      "name": "TOTLVOL"
+    },
+    {
+      "name": "UNITVOL"
+    },
+    {
+      "name": "CRNAM"
+    }
+  ]
 }

@@ -33,5 +33,24 @@
       "lote fixo",
       "DISLS"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "DISLS",
+      "key": true
+    },
+    {
+      "name": "LOSVF"
+    },
+    {
+      "name": "LOSKZ"
+    },
+    {
+      "name": "PERAZ"
+    }
+  ]
 }

@@ -30,5 +30,57 @@
       "transporte e remessas",
       "rastreio de transporte"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "TKNUM",
+      "key": true
+    },
+    {
+      "name": "VBELV",
+      "key": true
+    },
+    {
+      "name": "POSNV",
+      "key": true
+    },
+    {
+      "name": "VBTYP_V",
+      "key": true
+    },
+    {
+      "name": "VBELN",
+      "key": true
+    },
+    {
+      "name": "POSNN",
+      "key": true
+    },
+    {
+      "name": "VBTYP_N",
+      "key": true
+    },
+    {
+      "name": "RFMNG"
+    },
+    {
+      "name": "MEINS"
+    },
+    {
+      "name": "VRKME"
+    },
+    {
+      "name": "ERDAT"
+    },
+    {
+      "name": "ERZET"
+    },
+    {
+      "name": "AEDAT"
+    }
+  ]
 }

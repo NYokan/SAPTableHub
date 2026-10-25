@@ -8,5 +8,101 @@
     "es": "Estadísticas de inventario: análisis de stock y necesidades",
     "en": "Inventory statistics: stock and requirements analysis",
     "pt": "Estatísticas de estoque: análise de estoque e necessidades"
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SSOUR",
+      "key": true
+    },
+    {
+      "name": "VRSIO",
+      "key": true
+    },
+    {
+      "name": "SPMON",
+      "key": true
+    },
+    {
+      "name": "SPTAG",
+      "key": true
+    },
+    {
+      "name": "SPWOC",
+      "key": true
+    },
+    {
+      "name": "SPBUP",
+      "key": true
+    },
+    {
+      "name": "WERKS",
+      "key": true
+    },
+    {
+      "name": "MATNR",
+      "key": true
+    },
+    {
+      "name": "LGORT",
+      "key": true
+    },
+    {
+      "name": "DISPO",
+      "key": true
+    },
+    {
+      "name": "DISMM",
+      "key": true
+    },
+    {
+      "name": "MTART",
+      "key": true
+    },
+    {
+      "name": "MATKL",
+      "key": true
+    },
+    {
+      "name": "GSBER",
+      "key": true
+    },
+    {
+      "name": "SPART",
+      "key": true
+    },
+    {
+      "name": "BASME"
+    },
+    {
+      "name": "HWAER"
+    },
+    {
+      "name": "MZUBB"
+    },
+    {
+      "name": "WZUBB"
+    },
+    {
+      "name": "MAGBB"
+    },
+    {
+      "name": "WAGBB"
+    },
+    {
+      "name": "MGVBR"
+    },
+    {
+      "name": "WGVBR"
+    },
+    {
+      "name": "MBWBEST"
+    },
+    {
+      "name": "WBWBEST"
+    }
+  ]
 }

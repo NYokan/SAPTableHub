@@ -27,5 +27,29 @@
       "texto pacote de manutenção",
       "descrição do ciclo"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "STRAT",
+      "key": true
+    },
+    {
+      "name": "PAKET",
+      "key": true
+    },
+    {
+      "name": "KTEX1"
+    },
+    {
+      "name": "KZYK1"
+    }
+  ]
 }

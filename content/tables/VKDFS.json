@@ -33,5 +33,60 @@
       "VF04",
       "remessas não faturadas"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "FKTYP",
+      "key": true
+    },
+    {
+      "name": "VKORG",
+      "key": true
+    },
+    {
+      "name": "FKDAT",
+      "key": true
+    },
+    {
+      "name": "KUNNR",
+      "key": true
+    },
+    {
+      "name": "FKART",
+      "key": true
+    },
+    {
+      "name": "LLAND",
+      "key": true
+    },
+    {
+      "name": "VBELN",
+      "key": true
+    },
+    {
+      "name": "VBTYP"
+    },
+    {
+      "name": "FAKSK"
+    },
+    {
+      "name": "VTWEG"
+    },
+    {
+      "name": "SPART"
+    },
+    {
+      "name": "VSTEL"
+    },
+    {
+      "name": "NETWR"
+    },
+    {
+      "name": "WAERK"
+    }
+  ]
 }

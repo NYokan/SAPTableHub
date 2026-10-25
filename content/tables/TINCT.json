@@ -31,5 +31,23 @@
       "condições de entrega",
       "descrição Incoterm"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "INCO1",
+      "key": true
+    },
+    {
+      "name": "BEZEI",
+      "type": "CHAR 30"
+    }
+  ]
 }

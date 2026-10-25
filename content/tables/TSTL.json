@@ -31,5 +31,23 @@
       "impostos de vendas por país",
       "TATYP"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "TALND",
+      "key": true
+    },
+    {
+      "name": "LFDNR",
+      "key": true,
+      "type": "NUMC 1"
+    },
+    {
+      "name": "TATYP"
+    }
+  ]
 }

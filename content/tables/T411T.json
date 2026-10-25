@@ -27,5 +27,23 @@
       "nome da utilização do roteiro",
       "descrição do uso do roteiro"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "VERWE",
+      "key": true
+    },
+    {
+      "name": "TXT",
+      "type": "CHAR 20"
+    }
+  ]
 }

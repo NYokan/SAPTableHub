@@ -31,5 +31,15 @@
       "lista de preços",
       "PLTYP"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "PLTYP",
+      "key": true
+    }
+  ]
 }

@@ -33,5 +33,59 @@
       "autorização do cartão",
       "cartão de pagamento"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "BUKRS",
+      "key": true
+    },
+    {
+      "name": "BELNR",
+      "key": true
+    },
+    {
+      "name": "GJAHR",
+      "key": true
+    },
+    {
+      "name": "RFZEI",
+      "key": true
+    },
+    {
+      "name": "CCINS"
+    },
+    {
+      "name": "CCNUM"
+    },
+    {
+      "name": "DATBI",
+      "label": {
+        "es": "Caducidad de la tarjeta",
+        "en": "Card expiry date",
+        "pt": "Validade do cartão"
+      }
+    },
+    {
+      "name": "CCNAME"
+    },
+    {
+      "name": "AUTWR"
+    },
+    {
+      "name": "CCWAE"
+    },
+    {
+      "name": "AUNUM"
+    },
+    {
+      "name": "AUDAT"
+    },
+    {
+      "name": "KUNNR"
+    }
+  ]
 }

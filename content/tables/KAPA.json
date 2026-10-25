@@ -30,5 +30,56 @@
       "capacidade disponível",
       "horas disponíveis"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "KAPID",
+      "key": true
+    },
+    {
+      "name": "VERSN",
+      "key": true,
+      "type": "NUMC 2",
+      "label": {
+        "es": "Versión de capacidad",
+        "en": "Capacity version",
+        "pt": "Versão de capacidade"
+      }
+    },
+    {
+      "name": "DATUB",
+      "key": true
+    },
+    {
+      "name": "TAGNR",
+      "key": true
+    },
+    {
+      "name": "SCHNR",
+      "key": true
+    },
+    {
+      "name": "BEGZT"
+    },
+    {
+      "name": "ENDZT"
+    },
+    {
+      "name": "PAUSE"
+    },
+    {
+      "name": "NGRAD"
+    },
+    {
+      "name": "ANZHL"
+    },
+    {
+      "name": "WOTAG",
+      "type": "INT1 3"
+    }
+  ]
 }

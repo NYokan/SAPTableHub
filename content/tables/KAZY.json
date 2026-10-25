@@ -30,5 +30,41 @@
       "capacidade disponível por período",
       "calendário de capacidade"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "KAPID",
+      "key": true
+    },
+    {
+      "name": "VERSN",
+      "key": true,
+      "type": "NUMC 2",
+      "label": {
+        "es": "Versión de capacidad",
+        "en": "Capacity version",
+        "pt": "Versão de capacidade"
+      }
+    },
+    {
+      "name": "DATUB",
+      "key": true
+    },
+    {
+      "name": "ANZHL"
+    },
+    {
+      "name": "ANZSH"
+    },
+    {
+      "name": "ANZTG"
+    },
+    {
+      "name": "NGRAD"
+    }
+  ]
 }

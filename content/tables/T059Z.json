@@ -31,5 +31,32 @@
       "alíquota de retenção",
       "WT_WITHCD"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "LAND1",
+      "key": true
+    },
+    {
+      "name": "WITHT",
+      "key": true
+    },
+    {
+      "name": "WT_WITHCD",
+      "key": true
+    },
+    {
+      "name": "QSATZ"
+    },
+    {
+      "name": "QPROZ"
+    },
+    {
+      "name": "QSCOD"
+    }
+  ]
 }

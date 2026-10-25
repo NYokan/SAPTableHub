@@ -30,5 +30,39 @@
       "atributos da classe",
       "estrutura da classe"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "CLINT",
+      "key": true
+    },
+    {
+      "name": "POSNR",
+      "key": true,
+      "type": "NUMC 3"
+    },
+    {
+      "name": "ADZHL",
+      "key": true
+    },
+    {
+      "name": "IMERK"
+    },
+    {
+      "name": "KLART"
+    },
+    {
+      "name": "DATUV"
+    },
+    {
+      "name": "AENNR"
+    },
+    {
+      "name": "LKENZ"
+    }
+  ]
 }

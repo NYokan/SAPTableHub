@@ -27,5 +27,22 @@
       "texto do motivo de anulação de cheque",
       "descrição da anulação de cheque"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "LANGU",
+      "key": true
+    },
+    {
+      "name": "VOIDR",
+      "key": true
+    },
+    {
+      "name": "VOIDT"
+    }
+  ]
 }

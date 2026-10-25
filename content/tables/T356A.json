@@ -27,5 +27,15 @@
       "tipo de prioridade",
       "escala de prioridades"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "ARTPR",
+      "key": true
+    }
+  ]
 }

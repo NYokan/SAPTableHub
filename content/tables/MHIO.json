@@ -30,5 +30,38 @@
       "chamadas do plano de manutenção",
       "histórico do plano preventivo"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "WARPL",
+      "key": true
+    },
+    {
+      "name": "ABNUM",
+      "key": true
+    },
+    {
+      "name": "WPPOS",
+      "key": true
+    },
+    {
+      "name": "AUFNR"
+    },
+    {
+      "name": "QMNUM"
+    },
+    {
+      "name": "GSTRP"
+    },
+    {
+      "name": "LBLNI"
+    },
+    {
+      "name": "PRUEFLOS"
+    }
+  ]
 }

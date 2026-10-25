@@ -33,5 +33,61 @@
       "consumo mensal",
       "valores de consumo"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "MATNR",
+      "key": true
+    },
+    {
+      "name": "WERKS",
+      "key": true
+    },
+    {
+      "name": "GJAHR",
+      "key": true
+    },
+    {
+      "name": "PERKZ",
+      "key": true
+    },
+    {
+      "name": "ZAHLR",
+      "key": true
+    },
+    {
+      "name": "GSV01"
+    },
+    {
+      "name": "GSV02"
+    },
+    {
+      "name": "GSV03"
+    },
+    {
+      "name": "GSV04"
+    },
+    {
+      "name": "GSV05"
+    },
+    {
+      "name": "GSV06"
+    },
+    {
+      "name": "GSV07"
+    },
+    {
+      "name": "GSV08"
+    },
+    {
+      "name": "GSV09"
+    },
+    {
+      "name": "GSV10"
+    }
+  ]
 }

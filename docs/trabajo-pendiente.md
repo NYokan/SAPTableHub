@@ -1,6 +1,6 @@
 # Trabajo pendiente
 
-Estado a 25 de octubre de 2026, en la rama `concepto-tabla`. Lo que queda por verificar tabla a tabla (categoría, clase de entrega, dudas y tablas sin explicación) está en [`pendientes.md`](pendientes.md); este archivo recoge el resto.
+Estado a 25 de octubre de 2026, en la rama `concepto-tabla`. Lo que queda por verificar tabla a tabla (categoría, clase de entrega, dudas, tablas sin explicación y tablas sin campos) está en [`pendientes.md`](pendientes.md); este archivo recoge el resto.
 
 ## Integración en `main` y limpieza (requieren confirmación manual)
 
@@ -16,13 +16,13 @@ Claude Code bloqueó estas acciones por afectar a la rama principal o borrar ram
 
 ## Contenido
 
-- **Campos y relaciones.** Solo 17 de las 1.003 tablas tienen campos y relaciones. No se escribieron a mano para no introducir errores; conviene cargarlos desde una extracción de un sistema real (DD03L/DD04T para campos, DD05S/DD08L para claves externas).
+- **Campos y relaciones.** 921 de las 1.001 tablas tienen su clave completa y sus campos principales, y 453 tienen relaciones. Nombres, claves y tipos se contrastaron con la referencia pública del diccionario de ECC 6.0 de leanx.eu (el 95 % de las claves escritas de memoria eran exactas; el resto se corrigió). Faltan 80 tablas: 19 de S/4HANA sin referencia pública y 61 en las que no se tenía claro el significado de algún campo. Las relaciones de las tablas añadidas en la segunda pasada están por hacer. Una extracción de un sistema real (DD03L, DD04T, DD08L) permitiría completar y confirmar todo, incluidas las etiquetas oficiales.
 - **Espacio en `main`.** `src/views/common.ts:29` dice `tableHref =(` en `main`; en `concepto-tabla` ya está corregido y se arregla al integrar.
-- **Explicaciones.** 993 de 1.003 tablas tienen explicación y sinónimos. Las 10 restantes y las que conviene repasar están en `pendientes.md`.
+- **Explicaciones.** 991 de 1.001 tablas tienen explicación y sinónimos. Las 10 restantes y las que conviene repasar están en `pendientes.md`.
 - **Lista oficial de SAP.** De las 271 tablas clásicas de la lista de liberación de objetos, 249 están en el sitio; las 22 restantes se descartaron a propósito (vistas, tablas de sistema o contenido dudoso).
 - **Más tablas.** Se pueden añadir cuando se puedan verificar; no se rellenó con tablas dudosas.
 
 ## Técnico
 
-- **Tamaño del índice.** 474 KB sin comprimir y 89,6 KB con gzip. Si el catálogo crece mucho más (sobre 300 KB comprimido), habría que dividirlo por letra o por área.
+- **Tamaño del índice.** 806 KB sin comprimir y 164 KB con gzip (107 KB de tablas, sobre todo sinónimos, y 55 KB del diccionario de campos). Si el catálogo crece mucho más (sobre 300 KB comprimido), habría que dividirlo por letra o por área.
 - **Servidores de desarrollo.** Claude Code los cerraba cuando faltaba memoria; se activó `CLAUDE_CODE_DISABLE_BG_SHELL_PRESSURE_REAP=1` (variable de usuario de Windows y `~/.claude/settings.json`). Se aplica al abrir Claude Code de nuevo.

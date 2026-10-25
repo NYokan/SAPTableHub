@@ -27,5 +27,22 @@
       "nome do status da BOM",
       "descrição do status da lista técnica"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "STLST",
+      "key": true
+    },
+    {
+      "name": "STTXT"
+    }
+  ]
 }

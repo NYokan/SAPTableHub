@@ -27,5 +27,23 @@
       "registro info cliente-material",
       "cabeçalho info cliente material"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "VKORG",
+      "key": true
+    },
+    {
+      "name": "VTWEG",
+      "key": true
+    },
+    {
+      "name": "KUNNR",
+      "key": true
+    }
+  ]
 }

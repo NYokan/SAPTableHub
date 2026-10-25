@@ -29,5 +29,48 @@
       "distribuição de medições",
       "registro classificado"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDANT",
+      "key": true
+    },
+    {
+      "name": "PRUEFLOS",
+      "key": true
+    },
+    {
+      "name": "VORGLFNR",
+      "key": true
+    },
+    {
+      "name": "MERKNR",
+      "key": true
+    },
+    {
+      "name": "DETAILERG",
+      "key": true
+    },
+    {
+      "name": "PROBENR"
+    },
+    {
+      "name": "KLASSENR"
+    },
+    {
+      "name": "ANZKLASEH"
+    },
+    {
+      "name": "CODE"
+    },
+    {
+      "name": "MBEWERTG"
+    },
+    {
+      "name": "PRUEFER"
+    },
+    {
+      "name": "PRUEFDATUV"
+    }
+  ]
 }

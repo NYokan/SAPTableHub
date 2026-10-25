@@ -33,5 +33,37 @@
       "intervalo",
       "programação"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "WARPL",
+      "key": true
+    },
+    {
+      "name": "NUMMER",
+      "key": true
+    },
+    {
+      "name": "ZYKL1"
+    },
+    {
+      "name": "ZEIEH"
+    },
+    {
+      "name": "PAK_TEXT"
+    },
+    {
+      "name": "OFFSET"
+    },
+    {
+      "name": "POINT"
+    },
+    {
+      "name": "INAKTIV"
+    }
+  ]
 }

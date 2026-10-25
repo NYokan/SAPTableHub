@@ -33,5 +33,40 @@
       "tipo de mensagem",
       "Smart Form"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "KSCHL",
+      "key": true,
+      "label": {
+        "es": "Clase de mensaje",
+        "en": "Output type",
+        "pt": "Tipo de mensagem"
+      }
+    },
+    {
+      "name": "NACHA",
+      "key": true
+    },
+    {
+      "name": "KAPPL",
+      "key": true
+    },
+    {
+      "name": "PGNAM"
+    },
+    {
+      "name": "RONAM"
+    },
+    {
+      "name": "FONAM"
+    },
+    {
+      "name": "SFORM"
+    }
+  ]
 }

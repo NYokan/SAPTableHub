@@ -30,5 +30,46 @@
       "valores do document splitting",
       "divisão por segmento"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "BELNR",
+      "key": true
+    },
+    {
+      "name": "GJAHR",
+      "key": true
+    },
+    {
+      "name": "BUKRS",
+      "key": true
+    },
+    {
+      "name": "BUZEI",
+      "key": true
+    },
+    {
+      "name": "SPL_NO",
+      "key": true
+    },
+    {
+      "name": "CURTP",
+      "key": true
+    },
+    {
+      "name": "WRBTR",
+      "label": {
+        "es": "Importe en el tipo de moneda",
+        "en": "Amount in currency type",
+        "pt": "Montante no tipo de moeda"
+      }
+    },
+    {
+      "name": "WAERS"
+    }
+  ]
 }

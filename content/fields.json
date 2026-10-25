@@ -8570,9 +8570,9 @@
   "VERSN": {
     "type": "CHAR 3",
     "label": {
-      "es": "Estructura de balance",
-      "en": "Financial statement version",
-      "pt": "Estrutura de balanço"
+      "es": "Versión",
+      "en": "Version",
+      "pt": "Versão"
     }
   },
   "VERVS": {
@@ -9525,6 +9525,8598 @@
       "es": "Vías de pago permitidas",
       "en": "Payment methods allowed",
       "pt": "Formas de pagamento permitidas"
+    }
+  },
+  "ZUJHR": {
+    "type": "NUMC 4",
+    "label": {
+      "es": "Año de alta",
+      "en": "Acquisition year",
+      "pt": "Ano de aquisição"
+    }
+  },
+  "ZUCOD": {
+    "type": "NUMC 4",
+    "label": {
+      "es": "Subclasificación de alta",
+      "en": "Acquisition subclassification",
+      "pt": "Subclassificação de aquisição"
+    }
+  },
+  "PERAF": {
+    "type": "NUMC 3",
+    "label": {
+      "es": "Período de amortización",
+      "en": "Depreciation period",
+      "pt": "Período de depreciação"
+    }
+  },
+  "ANBTR": {
+    "type": "CURR 13,2",
+    "label": {
+      "es": "Importe del movimiento",
+      "en": "Transaction amount",
+      "pt": "Montante do movimento"
+    }
+  },
+  "NAFAB": {
+    "type": "CURR 13,2",
+    "label": {
+      "es": "Amortización normal",
+      "en": "Ordinary depreciation",
+      "pt": "Depreciação normal"
+    }
+  },
+  "SAFAB": {
+    "type": "CURR 13,2",
+    "label": {
+      "es": "Amortización especial",
+      "en": "Special depreciation",
+      "pt": "Depreciação especial"
+    }
+  },
+  "KANSW": {
+    "type": "CURR 13,2",
+    "label": {
+      "es": "Valor de adquisición acumulado",
+      "en": "Cumulative acquisition value",
+      "pt": "Valor de aquisição acumulado"
+    }
+  },
+  "ANSWL": {
+    "type": "CURR 13,2",
+    "label": {
+      "es": "Movimientos del ejercicio",
+      "en": "Transactions for the year",
+      "pt": "Movimentos do exercício"
+    }
+  },
+  "KNAFA": {
+    "type": "CURR 13,2",
+    "label": {
+      "es": "Amortización normal acumulada",
+      "en": "Accumulated ordinary depreciation",
+      "pt": "Depreciação normal acumulada"
+    }
+  },
+  "NAFAG": {
+    "type": "CURR 13,2",
+    "label": {
+      "es": "Amortización normal contabilizada",
+      "en": "Ordinary depreciation posted",
+      "pt": "Depreciação normal contabilizada"
+    }
+  },
+  "NAFAP": {
+    "type": "CURR 13,2",
+    "label": {
+      "es": "Amortización normal planificada",
+      "en": "Planned ordinary depreciation",
+      "pt": "Depreciação normal planejada"
+    }
+  },
+  "SAFAG": {
+    "type": "CURR 13,2",
+    "label": {
+      "es": "Amortización especial contabilizada",
+      "en": "Special depreciation posted",
+      "pt": "Depreciação especial contabilizada"
+    }
+  },
+  "ANLHTXT": {
+    "type": "CHAR 50",
+    "label": {
+      "es": "Texto del número principal de activo",
+      "en": "Main asset number text",
+      "pt": "Texto do número principal do imobilizado"
+    }
+  },
+  "AFBNR": {
+    "type": "NUMC 2",
+    "label": {
+      "es": "Número de ejecución de amortización",
+      "en": "Depreciation run number",
+      "pt": "Número da execução de depreciação"
+    }
+  },
+  "AFABER": {
+    "type": "NUMC 2",
+    "label": {
+      "es": "Área de valoración",
+      "en": "Depreciation area",
+      "pt": "Área de avaliação"
+    }
+  },
+  "NAFAZ": {
+    "type": "CURR 13,2",
+    "label": {
+      "es": "Amortización normal del período",
+      "en": "Ordinary depreciation for the period",
+      "pt": "Depreciação normal do período"
+    }
+  },
+  "EMTYP": {
+    "type": "CHAR 2",
+    "label": {
+      "es": "Tipo de receptor",
+      "en": "Receiver type",
+      "pt": "Tipo de recebedor"
+    }
+  },
+  "KDAUF": {
+    "type": "CHAR 10",
+    "label": {
+      "es": "Pedido de cliente",
+      "en": "Sales order",
+      "pt": "Pedido do cliente"
+    }
+  },
+  "WOGBTR": {
+    "type": "CURR 15,2",
+    "label": {
+      "es": "Importe en moneda del objeto",
+      "en": "Amount in object currency",
+      "pt": "Montante na moeda do objeto"
+    }
+  },
+  "MEGBTR": {
+    "type": "QUAN 15,3",
+    "label": {
+      "es": "Cantidad total",
+      "en": "Total quantity",
+      "pt": "Quantidade total"
+    }
+  },
+  "COBEL": {
+    "type": "CHAR 10",
+    "label": {
+      "es": "Documento CO",
+      "en": "CO document",
+      "pt": "Documento CO"
+    }
+  },
+  "FIBEL": {
+    "type": "CHAR 10",
+    "label": {
+      "es": "Documento FI",
+      "en": "FI document",
+      "pt": "Documento FI"
+    }
+  },
+  "VORGA": {
+    "type": "CHAR 4",
+    "label": {
+      "es": "Tipo de operación",
+      "en": "Activity type",
+      "pt": "Tipo de operação"
+    }
+  },
+  "SGTEXT": {
+    "type": "CHAR 50",
+    "label": {
+      "es": "Texto del documento",
+      "en": "Document text",
+      "pt": "Texto do documento"
+    }
+  },
+  "WTGES": {
+    "type": "CURR 15,2",
+    "label": {
+      "es": "Importe total en moneda de transacción",
+      "en": "Total amount in transaction currency",
+      "pt": "Montante total na moeda da transação"
+    }
+  },
+  "WTJHR": {
+    "type": "CURR 15,2",
+    "label": {
+      "es": "Importe anual en moneda de transacción",
+      "en": "Annual amount in transaction currency",
+      "pt": "Montante anual na moeda da transação"
+    }
+  },
+  "PRZNR": {
+    "type": "CHAR 12",
+    "label": {
+      "es": "Proceso empresarial",
+      "en": "Business process",
+      "pt": "Processo empresarial"
+    }
+  },
+  "VERAP": {
+    "type": "CHAR 20",
+    "label": {
+      "es": "Responsable",
+      "en": "Person responsible",
+      "pt": "Responsável"
+    }
+  },
+  "MEEHT": {
+    "type": "UNIT 3",
+    "label": {
+      "es": "Unidad de cantidad",
+      "en": "Quantity unit",
+      "pt": "Unidade de quantidade"
+    }
+  },
+  "HWGES": {
+    "type": "CURR 15,2",
+    "label": {
+      "es": "Valor total",
+      "en": "Total value",
+      "pt": "Valor total"
+    }
+  },
+  "HWGFX": {
+    "type": "CURR 15,2",
+    "label": {
+      "es": "Valor fijo",
+      "en": "Fixed value",
+      "pt": "Valor fixo"
+    }
+  },
+  "HWAER": {
+    "type": "CUKY 5",
+    "label": {
+      "es": "Moneda local",
+      "en": "Local currency",
+      "pt": "Moeda local"
+    }
+  },
+  "ERFDT": {
+    "type": "DATS 8",
+    "label": {
+      "es": "Fecha de registro",
+      "en": "Entry date",
+      "pt": "Data de registro"
+    }
+  },
+  "ERFNM": {
+    "type": "CHAR 12",
+    "label": {
+      "es": "Registrado por",
+      "en": "Entered by",
+      "pt": "Registrado por"
+    }
+  },
+  "UNTPER": {
+    "type": "NUMC 3",
+    "label": {
+      "es": "Subperíodo",
+      "en": "Subperiod",
+      "pt": "Subperíodo"
+    }
+  },
+  "PVPRS": {
+    "type": "CURR 11,2",
+    "label": {
+      "es": "Precio periódico unitario",
+      "en": "Periodic unit price",
+      "pt": "Preço unitário periódico"
+    }
+  },
+  "SALKV": {
+    "type": "CURR 15,2",
+    "label": {
+      "es": "Valor a precio periódico",
+      "en": "Value at periodic price",
+      "pt": "Valor ao preço periódico"
+    }
+  },
+  "STATUS": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Estado",
+      "en": "Status",
+      "pt": "Status"
+    }
+  },
+  "APROF": {
+    "type": "CHAR 6",
+    "label": {
+      "es": "Perfil de liquidación",
+      "en": "Settlement profile",
+      "pt": "Perfil de liquidação"
+    }
+  },
+  "LETJA": {
+    "type": "NUMC 4",
+    "label": {
+      "es": "Año de la última liquidación",
+      "en": "Year of last settlement",
+      "pt": "Ano da última liquidação"
+    }
+  },
+  "LETPE": {
+    "type": "NUMC 3",
+    "label": {
+      "es": "Período de la última liquidación",
+      "en": "Period of last settlement",
+      "pt": "Período da última liquidação"
+    }
+  },
+  "AENAM": {
+    "type": "CHAR 12",
+    "label": {
+      "es": "Modificado por",
+      "en": "Changed by",
+      "pt": "Modificado por"
+    }
+  },
+  "AEDAT": {
+    "type": "DATS 8",
+    "label": {
+      "es": "Fecha de modificación",
+      "en": "Change date",
+      "pt": "Data de modificação"
+    }
+  },
+  "TSL": {
+    "type": "CURR 17,2",
+    "label": {
+      "es": "Importe en moneda de transacción",
+      "en": "Amount in transaction currency",
+      "pt": "Montante na moeda da transação"
+    }
+  },
+  "HSL": {
+    "type": "CURR 17,2",
+    "label": {
+      "es": "Importe en moneda local",
+      "en": "Amount in local currency",
+      "pt": "Montante na moeda local"
+    }
+  },
+  "HRKFT": {
+    "type": "CHAR 14",
+    "label": {
+      "es": "Origen",
+      "en": "Origin",
+      "pt": "Origem"
+    }
+  },
+  "MGEFL": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Registro de cantidades",
+      "en": "Record quantity",
+      "pt": "Registro de quantidades"
+    }
+  },
+  "TARKZ": {
+    "type": "CHAR 3",
+    "label": {
+      "es": "Indicador de tarifa",
+      "en": "Price indicator",
+      "pt": "Indicador de tarifa"
+    }
+  },
+  "VBUND": {
+    "type": "CHAR 6",
+    "label": {
+      "es": "Sociedad asociada",
+      "en": "Trading partner",
+      "pt": "Sociedade associada"
+    }
+  },
+  "PARGB": {
+    "type": "CHAR 4",
+    "label": {
+      "es": "División del socio",
+      "en": "Partner business area",
+      "pt": "Divisão do parceiro"
+    }
+  },
+  "BEKNZ": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Indicador debe/haber",
+      "en": "Debit/credit indicator",
+      "pt": "Indicador débito/crédito"
+    }
+  },
+  "WTG001": {
+    "type": "CURR 15,2",
+    "label": {
+      "es": "Importe período 1 (moneda de transacción)",
+      "en": "Period 1 amount (transaction currency)",
+      "pt": "Montante período 1 (moeda da transação)"
+    }
+  },
+  "WKG001": {
+    "type": "CURR 15,2",
+    "label": {
+      "es": "Importe período 1 (moneda de la sociedad CO)",
+      "en": "Period 1 amount (controlling area currency)",
+      "pt": "Montante período 1 (moeda da área de contabilidade de custos)"
+    }
+  },
+  "MEG001": {
+    "type": "QUAN 15,3",
+    "label": {
+      "es": "Cantidad período 1",
+      "en": "Period 1 quantity",
+      "pt": "Quantidade período 1"
+    }
+  },
+  "STAGR": {
+    "type": "CHAR 6",
+    "label": {
+      "es": "Magnitud estadística",
+      "en": "Statistical key figure",
+      "pt": "Índice estatístico"
+    }
+  },
+  "SME001": {
+    "type": "QUAN 15,3",
+    "label": {
+      "es": "Valor estadístico período 1",
+      "en": "Period 1 statistical value",
+      "pt": "Valor estatístico período 1"
+    }
+  },
+  "PAROB": {
+    "type": "CHAR 22",
+    "label": {
+      "es": "Objeto socio",
+      "en": "Partner object",
+      "pt": "Objeto parceiro"
+    }
+  },
+  "USPOB": {
+    "type": "CHAR 22",
+    "label": {
+      "es": "Objeto de origen",
+      "en": "Source object",
+      "pt": "Objeto de origem"
+    }
+  },
+  "TKG001": {
+    "type": "CURR 11,2",
+    "label": {
+      "es": "Tarifa total período 1",
+      "en": "Period 1 total price",
+      "pt": "Tarifa total período 1"
+    }
+  },
+  "TKF001": {
+    "type": "CURR 11,2",
+    "label": {
+      "es": "Tarifa fija período 1",
+      "en": "Period 1 fixed price",
+      "pt": "Tarifa fixa período 1"
+    }
+  },
+  "FUNC_AREA": {
+    "type": "CHAR 16",
+    "label": {
+      "es": "Área funcional",
+      "en": "Functional area",
+      "pt": "Área funcional"
+    }
+  },
+  "AUSEH": {
+    "type": "UNIT 3",
+    "label": {
+      "es": "Unidad de producción",
+      "en": "Output unit",
+      "pt": "Unidade de produção"
+    }
+  },
+  "AUSFK": {
+    "type": "DEC 5,2",
+    "label": {
+      "es": "Factor de producción",
+      "en": "Output factor",
+      "pt": "Fator de produção"
+    }
+  },
+  "KALAID": {
+    "type": "CHAR 8",
+    "label": {
+      "es": "Ejecución de cálculo de costes",
+      "en": "Costing run",
+      "pt": "Execução de cálculo de custos"
+    }
+  },
+  "KALADAT": {
+    "type": "DATS 8",
+    "label": {
+      "es": "Fecha de la ejecución de cálculo",
+      "en": "Costing run date",
+      "pt": "Data da execução de cálculo"
+    }
+  },
+  "KALABEZ": {
+    "type": "CHAR 50",
+    "label": {
+      "es": "Descripción de la ejecución",
+      "en": "Costing run description",
+      "pt": "Descrição da execução"
+    }
+  },
+  "BIDAT": {
+    "type": "DATS 8",
+    "label": {
+      "es": "Fin de validez del cálculo",
+      "en": "Costing valid to",
+      "pt": "Fim de validade do cálculo"
+    }
+  },
+  "BWDAT": {
+    "type": "DATS 8",
+    "label": {
+      "es": "Fecha de valoración",
+      "en": "Valuation date",
+      "pt": "Data de avaliação"
+    }
+  },
+  "ALDAT": {
+    "type": "DATS 8",
+    "label": {
+      "es": "Fecha de estructura de cantidades",
+      "en": "Quantity structure date",
+      "pt": "Data da estrutura de quantidades"
+    }
+  },
+  "CATEG": {
+    "type": "CHAR 2",
+    "label": {
+      "es": "Categoría",
+      "en": "Category",
+      "pt": "Categoria"
+    }
+  },
+  "PTYP": {
+    "type": "CHAR 4",
+    "label": {
+      "es": "Tipo de proceso",
+      "en": "Process type",
+      "pt": "Tipo de processo"
+    }
+  },
+  "BVALT": {
+    "type": "NUMC 12",
+    "label": {
+      "es": "Alternativa de aprovisionamiento",
+      "en": "Procurement alternative",
+      "pt": "Alternativa de suprimento"
+    }
+  },
+  "ESTPRD": {
+    "type": "CURR 15,2",
+    "label": {
+      "es": "Diferencias de precio (nivel único)",
+      "en": "Price differences (single-level)",
+      "pt": "Diferenças de preço (nível único)"
+    }
+  },
+  "ESTKDM": {
+    "type": "CURR 15,2",
+    "label": {
+      "es": "Diferencias de cambio (nivel único)",
+      "en": "Exchange rate differences (single-level)",
+      "pt": "Diferenças cambiais (nível único)"
+    }
+  },
+  "MSTPRD": {
+    "type": "CURR 15,2",
+    "label": {
+      "es": "Diferencias de precio (multinivel)",
+      "en": "Price differences (multilevel)",
+      "pt": "Diferenças de preço (multinível)"
+    }
+  },
+  "MSTKDM": {
+    "type": "CURR 15,2",
+    "label": {
+      "es": "Diferencias de cambio (multinivel)",
+      "en": "Exchange rate differences (multilevel)",
+      "pt": "Diferenças cambiais (multinível)"
+    }
+  },
+  "TAB": {
+    "type": "CHAR 30",
+    "label": {
+      "es": "Tabla",
+      "en": "Table",
+      "pt": "Tabela"
+    }
+  },
+  "CYCLE": {
+    "type": "CHAR 10",
+    "label": {
+      "es": "Ciclo",
+      "en": "Cycle",
+      "pt": "Ciclo"
+    }
+  },
+  "SDATE": {
+    "type": "DATS 8",
+    "label": {
+      "es": "Fecha de inicio",
+      "en": "Start date",
+      "pt": "Data de início"
+    }
+  },
+  "EDATE": {
+    "type": "DATS 8",
+    "label": {
+      "es": "Fecha de fin",
+      "en": "End date",
+      "pt": "Data de fim"
+    }
+  },
+  "ITERFLAG": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Indicador iterativo",
+      "en": "Iterative indicator",
+      "pt": "Indicador iterativo"
+    }
+  },
+  "LASTEXEC": {
+    "type": "DATS 8",
+    "label": {
+      "es": "Última ejecución",
+      "en": "Last run",
+      "pt": "Última execução"
+    }
+  },
+  "LEXECBY": {
+    "type": "CHAR 12",
+    "label": {
+      "es": "Última ejecución por",
+      "en": "Last run by",
+      "pt": "Última execução por"
+    }
+  },
+  "CRDATE": {
+    "type": "DATS 8",
+    "label": {
+      "es": "Fecha de creación",
+      "en": "Creation date",
+      "pt": "Data de criação"
+    }
+  },
+  "MODDATE": {
+    "type": "DATS 8",
+    "label": {
+      "es": "Fecha de modificación",
+      "en": "Change date",
+      "pt": "Data de modificação"
+    }
+  },
+  "MODUSER": {
+    "type": "CHAR 12",
+    "label": {
+      "es": "Modificado por",
+      "en": "Changed by",
+      "pt": "Modificado por"
+    }
+  },
+  "SEQNR": {
+    "type": "NUMC 4",
+    "label": {
+      "es": "Número secuencial",
+      "en": "Sequence number",
+      "pt": "Número sequencial"
+    }
+  },
+  "SRULE": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Regla del emisor",
+      "en": "Sender rule",
+      "pt": "Regra do emissor"
+    }
+  },
+  "RRULE": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Regla del receptor",
+      "en": "Receiver rule",
+      "pt": "Regra do recebedor"
+    }
+  },
+  "SPERCENT": {
+    "type": "DEC 5,2",
+    "label": {
+      "es": "Porcentaje del emisor",
+      "en": "Sender percentage",
+      "pt": "Percentual do emissor"
+    }
+  },
+  "GRTYP": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Tipo de magnitud (fija o total)",
+      "en": "Key figure category (fixed or total)",
+      "pt": "Tipo de índice (fixo ou total)"
+    }
+  },
+  "BKZKP": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Bloqueo de costes primarios reales",
+      "en": "Actual primary costs lock",
+      "pt": "Bloqueio de custos primários reais"
+    }
+  },
+  "BKZKS": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Bloqueo de costes secundarios reales",
+      "en": "Actual secondary costs lock",
+      "pt": "Bloqueio de custos secundários reais"
+    }
+  },
+  "BKZER": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Bloqueo de ingresos reales",
+      "en": "Actual revenues lock",
+      "pt": "Bloqueio de receitas reais"
+    }
+  },
+  "PKZKP": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Bloqueo de costes primarios planificados",
+      "en": "Plan primary costs lock",
+      "pt": "Bloqueio de custos primários planejados"
+    }
+  },
+  "PKZKS": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Bloqueo de costes secundarios planificados",
+      "en": "Plan secondary costs lock",
+      "pt": "Bloqueio de custos secundários planejados"
+    }
+  },
+  "PKZER": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Bloqueo de ingresos planificados",
+      "en": "Plan revenues lock",
+      "pt": "Bloqueio de receitas planejadas"
+    }
+  },
+  "VSPKZ": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Versión bloqueada",
+      "en": "Version locked",
+      "pt": "Versão bloqueada"
+    }
+  },
+  "ACTUAL": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Versión real",
+      "en": "Actual version",
+      "pt": "Versão real"
+    }
+  },
+  "PLANNING": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Planificación permitida",
+      "en": "Planning allowed",
+      "pt": "Planejamento permitido"
+    }
+  },
+  "VERSI": {
+    "type": "CHAR 3",
+    "label": {
+      "es": "Versión",
+      "en": "Version",
+      "pt": "Versão"
+    }
+  },
+  "VRSLFD": {
+    "type": "NUMC 2",
+    "label": {
+      "es": "Número correlativo del seguro",
+      "en": "Insurance sequence number",
+      "pt": "Número sequencial do seguro"
+    }
+  },
+  "VSGES": {
+    "type": "CHAR 2",
+    "label": {
+      "es": "Compañía de seguros",
+      "en": "Insurance company",
+      "pt": "Companhia de seguros"
+    }
+  },
+  "VRSBA": {
+    "type": "CURR 13,2",
+    "label": {
+      "es": "Valor asegurable base",
+      "en": "Base insurable value",
+      "pt": "Valor segurável base"
+    }
+  },
+  "VRSBG": {
+    "type": "DATS 8",
+    "label": {
+      "es": "Inicio del seguro",
+      "en": "Insurance start date",
+      "pt": "Início do seguro"
+    }
+  },
+  "KONTO": {
+    "type": "CHAR 10",
+    "label": {
+      "es": "Número de cuenta",
+      "en": "Account number",
+      "pt": "Número da conta"
+    }
+  },
+  "AVSID": {
+    "type": "CHAR 16",
+    "label": {
+      "es": "Número de aviso de pago",
+      "en": "Payment advice number",
+      "pt": "Número do aviso de pagamento"
+    }
+  },
+  "AVSPO": {
+    "type": "NUMC 5",
+    "label": {
+      "es": "Posición del aviso de pago",
+      "en": "Payment advice item",
+      "pt": "Item do aviso de pagamento"
+    }
+  },
+  "WSKTO": {
+    "type": "CURR 13,2",
+    "label": {
+      "es": "Descuento por pronto pago",
+      "en": "Cash discount amount",
+      "pt": "Desconto por pagamento antecipado"
+    }
+  },
+  "EVENT": {
+    "type": "CHAR 5",
+    "label": {
+      "es": "Tipo de correspondencia",
+      "en": "Correspondence type",
+      "pt": "Tipo de correspondência"
+    }
+  },
+  "DATUM": {
+    "type": "DATS 8",
+    "label": {
+      "es": "Fecha",
+      "en": "Date",
+      "pt": "Data"
+    }
+  },
+  "UZEIT": {
+    "type": "TIMS 6",
+    "label": {
+      "es": "Hora",
+      "en": "Time",
+      "pt": "Hora"
+    }
+  },
+  "ERLDT": {
+    "type": "DATS 8",
+    "label": {
+      "es": "Fecha de procesamiento",
+      "en": "Processing date",
+      "pt": "Data de processamento"
+    }
+  },
+  "WDATE": {
+    "type": "DATS 8",
+    "label": {
+      "es": "Fecha de emisión de la letra",
+      "en": "Bill of exchange issue date",
+      "pt": "Data de emissão da letra"
+    }
+  },
+  "WNAME": {
+    "type": "CHAR 30",
+    "label": {
+      "es": "Nombre del librador",
+      "en": "Drawer name",
+      "pt": "Nome do sacador"
+    }
+  },
+  "WORT1": {
+    "type": "CHAR 30",
+    "label": {
+      "es": "Ciudad del librador",
+      "en": "Drawer city",
+      "pt": "Cidade do sacador"
+    }
+  },
+  "WBZOG": {
+    "type": "CHAR 30",
+    "label": {
+      "es": "Librado",
+      "en": "Drawee",
+      "pt": "Sacado"
+    }
+  },
+  "WORT2": {
+    "type": "CHAR 30",
+    "label": {
+      "es": "Ciudad del librado",
+      "en": "Drawee city",
+      "pt": "Cidade do sacado"
+    }
+  },
+  "WBANK": {
+    "type": "CHAR 60",
+    "label": {
+      "es": "Banco de la letra",
+      "en": "Bill of exchange bank",
+      "pt": "Banco da letra"
+    }
+  },
+  "RFZEI": {
+    "type": "NUMC 3",
+    "label": {
+      "es": "Posición de tarjeta de pago",
+      "en": "Payment card item",
+      "pt": "Item do cartão de pagamento"
+    }
+  },
+  "CCINS": {
+    "type": "CHAR 4",
+    "label": {
+      "es": "Tipo de tarjeta de pago",
+      "en": "Payment card type",
+      "pt": "Tipo de cartão de pagamento"
+    }
+  },
+  "CCNUM": {
+    "type": "CHAR 25",
+    "label": {
+      "es": "Número de tarjeta de pago",
+      "en": "Payment card number",
+      "pt": "Número do cartão de pagamento"
+    }
+  },
+  "CCNAME": {
+    "type": "CHAR 40",
+    "label": {
+      "es": "Titular de la tarjeta",
+      "en": "Cardholder name",
+      "pt": "Titular do cartão"
+    }
+  },
+  "AUTWR": {
+    "type": "CURR 15,2",
+    "label": {
+      "es": "Importe autorizado",
+      "en": "Authorized amount",
+      "pt": "Montante autorizado"
+    }
+  },
+  "CCWAE": {
+    "type": "CUKY 5",
+    "label": {
+      "es": "Moneda de la tarjeta",
+      "en": "Card currency",
+      "pt": "Moeda do cartão"
+    }
+  },
+  "AUNUM": {
+    "type": "CHAR 10",
+    "label": {
+      "es": "Número de autorización",
+      "en": "Authorization number",
+      "pt": "Número de autorização"
+    }
+  },
+  "AUDAT": {
+    "type": "DATS 8",
+    "label": {
+      "es": "Fecha de autorización",
+      "en": "Authorization date",
+      "pt": "Data de autorização"
+    }
+  },
+  "BUKRS_CLR": {
+    "type": "CHAR 4",
+    "label": {
+      "es": "Sociedad del documento de compensación",
+      "en": "Clearing document company code",
+      "pt": "Empresa do documento de compensação"
+    }
+  },
+  "BELNR_CLR": {
+    "type": "CHAR 10",
+    "label": {
+      "es": "Documento de compensación",
+      "en": "Clearing document",
+      "pt": "Documento de compensação"
+    }
+  },
+  "GJAHR_CLR": {
+    "type": "NUMC 4",
+    "label": {
+      "es": "Ejercicio del documento de compensación",
+      "en": "Clearing document fiscal year",
+      "pt": "Exercício do documento de compensação"
+    }
+  },
+  "INDEX_CLR": {
+    "type": "NUMC 6",
+    "label": {
+      "es": "Número correlativo de compensación",
+      "en": "Clearing sequence number",
+      "pt": "Número sequencial de compensação"
+    }
+  },
+  "BVORG": {
+    "type": "CHAR 16",
+    "label": {
+      "es": "Número de operación entre sociedades",
+      "en": "Cross-company transaction number",
+      "pt": "Número de operação entre empresas"
+    }
+  },
+  "XARCH": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Archivado",
+      "en": "Archived",
+      "pt": "Arquivado"
+    }
+  },
+  "KEYZ1": {
+    "type": "CHAR 12",
+    "label": {
+      "es": "Lote de pago",
+      "en": "Payment lot",
+      "pt": "Lote de pagamento"
+    }
+  },
+  "VALUT": {
+    "type": "DATS 8",
+    "label": {
+      "es": "Fecha valor",
+      "en": "Value date",
+      "pt": "Data valor"
+    }
+  },
+  "ANZPO": {
+    "type": "NUMC 6",
+    "label": {
+      "es": "Número de posiciones",
+      "en": "Number of items",
+      "pt": "Número de itens"
+    }
+  },
+  "POSZA": {
+    "type": "NUMC 6",
+    "label": {
+      "es": "Posición del lote de pago",
+      "en": "Payment lot item",
+      "pt": "Item do lote de pagamento"
+    }
+  },
+  "BETRZ": {
+    "type": "CURR 13,2",
+    "label": {
+      "es": "Importe del pago",
+      "en": "Payment amount",
+      "pt": "Montante do pagamento"
+    }
+  },
+  "SELT1": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Tipo de criterio de selección",
+      "en": "Selection criterion type",
+      "pt": "Tipo de critério de seleção"
+    }
+  },
+  "SELW1": {
+    "type": "CHAR 35",
+    "label": {
+      "es": "Valor de selección",
+      "en": "Selection value",
+      "pt": "Valor de seleção"
+    }
+  },
+  "DOCCT": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Categoría de documento",
+      "en": "Document category",
+      "pt": "Categoria de documento"
+    }
+  },
+  "RPMAX": {
+    "type": "NUMC 3",
+    "label": {
+      "es": "Período",
+      "en": "Period",
+      "pt": "Período"
+    }
+  },
+  "RTCUR": {
+    "type": "CUKY 5",
+    "label": {
+      "es": "Moneda de la transacción",
+      "en": "Transaction currency",
+      "pt": "Moeda da transação"
+    }
+  },
+  "RFAREA": {
+    "type": "CHAR 16",
+    "label": {
+      "es": "Área funcional",
+      "en": "Functional area",
+      "pt": "Área funcional"
+    }
+  },
+  "RBUSA": {
+    "type": "CHAR 4",
+    "label": {
+      "es": "División",
+      "en": "Business area",
+      "pt": "Divisão"
+    }
+  },
+  "OBJNR00": {
+    "type": "INT4 10",
+    "label": {
+      "es": "Número de objeto 00",
+      "en": "Object number 00",
+      "pt": "Número de objeto 00"
+    }
+  },
+  "OBJNR01": {
+    "type": "INT4 10",
+    "label": {
+      "es": "Número de objeto 01",
+      "en": "Object number 01",
+      "pt": "Número de objeto 01"
+    }
+  },
+  "OBJNR02": {
+    "type": "INT4 10",
+    "label": {
+      "es": "Número de objeto 02",
+      "en": "Object number 02",
+      "pt": "Número de objeto 02"
+    }
+  },
+  "OBJNR03": {
+    "type": "INT4 10",
+    "label": {
+      "es": "Número de objeto 03",
+      "en": "Object number 03",
+      "pt": "Número de objeto 03"
+    }
+  },
+  "OBJNR04": {
+    "type": "INT4 10",
+    "label": {
+      "es": "Número de objeto 04",
+      "en": "Object number 04",
+      "pt": "Número de objeto 04"
+    }
+  },
+  "OBJNR05": {
+    "type": "INT4 10",
+    "label": {
+      "es": "Número de objeto 05",
+      "en": "Object number 05",
+      "pt": "Número de objeto 05"
+    }
+  },
+  "OBJNR06": {
+    "type": "INT4 10",
+    "label": {
+      "es": "Número de objeto 06",
+      "en": "Object number 06",
+      "pt": "Número de objeto 06"
+    }
+  },
+  "OBJNR07": {
+    "type": "INT4 10",
+    "label": {
+      "es": "Número de objeto 07",
+      "en": "Object number 07",
+      "pt": "Número de objeto 07"
+    }
+  },
+  "OBJNR08": {
+    "type": "INT4 10",
+    "label": {
+      "es": "Número de objeto 08",
+      "en": "Object number 08",
+      "pt": "Número de objeto 08"
+    }
+  },
+  "HSLVT": {
+    "type": "CURR 23,2",
+    "label": {
+      "es": "Arrastre de saldo en moneda local",
+      "en": "Balance carryforward in local currency",
+      "pt": "Saldo transportado em moeda local"
+    }
+  },
+  "HSL01": {
+    "type": "CURR 23,2",
+    "label": {
+      "es": "Importe período 1 en moneda local",
+      "en": "Period 1 amount in local currency",
+      "pt": "Montante período 1 em moeda local"
+    }
+  },
+  "SPL_NO": {
+    "type": "NUMC 6",
+    "label": {
+      "es": "Posición del desdoblamiento",
+      "en": "Split item number",
+      "pt": "Item do desdobramento"
+    }
+  },
+  "ARCHK": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Indicador de archivo",
+      "en": "Archiving indicator",
+      "pt": "Indicador de arquivamento"
+    }
+  },
+  "BNKKO": {
+    "type": "CHAR 10",
+    "label": {
+      "es": "Cuenta de mayor del banco",
+      "en": "Bank G/L account",
+      "pt": "Conta do razão do banco"
+    }
+  },
+  "GRUPP": {
+    "type": "CHAR 10",
+    "label": {
+      "es": "Grupo de planificación",
+      "en": "Planning group",
+      "pt": "Grupo de planejamento"
+    }
+  },
+  "EBENE": {
+    "type": "CHAR 2",
+    "label": {
+      "es": "Nivel de planificación",
+      "en": "Planning level",
+      "pt": "Nível de planejamento"
+    }
+  },
+  "DISPW": {
+    "type": "CUKY 5",
+    "label": {
+      "es": "Moneda de planificación",
+      "en": "Planning currency",
+      "pt": "Moeda de planejamento"
+    }
+  },
+  "IDENR": {
+    "type": "NUMC 10",
+    "label": {
+      "es": "Número de identificación",
+      "en": "ID number",
+      "pt": "Número de identificação"
+    }
+  },
+  "WRSHB": {
+    "type": "CURR 15,2",
+    "label": {
+      "es": "Importe en moneda de planificación",
+      "en": "Amount in planning currency",
+      "pt": "Montante em moeda de planejamento"
+    }
+  },
+  "DMSHB": {
+    "type": "CURR 15,2",
+    "label": {
+      "es": "Importe en moneda local con signo",
+      "en": "Signed amount in local currency",
+      "pt": "Montante em moeda local com sinal"
+    }
+  },
+  "DSART": {
+    "type": "CHAR 2",
+    "label": {
+      "es": "Tipo de planificación",
+      "en": "Planning type",
+      "pt": "Tipo de planejamento"
+    }
+  },
+  "AVDAT": {
+    "type": "DATS 8",
+    "label": {
+      "es": "Fecha de expiración",
+      "en": "Expiration date",
+      "pt": "Data de expiração"
+    }
+  },
+  "KUKEY": {
+    "type": "NUMC 8",
+    "label": {
+      "es": "Clave corta del extracto",
+      "en": "Statement short key",
+      "pt": "Chave curta do extrato"
+    }
+  },
+  "ESNUM": {
+    "type": "NUMC 5",
+    "label": {
+      "es": "Número de movimiento del extracto",
+      "en": "Statement item number",
+      "pt": "Número do movimento do extrato"
+    }
+  },
+  "CSNUM": {
+    "type": "NUMC 3",
+    "label": {
+      "es": "Número de criterio de compensación",
+      "en": "Clearing criterion number",
+      "pt": "Número de critério de compensação"
+    }
+  },
+  "AGBUK": {
+    "type": "CHAR 4",
+    "label": {
+      "es": "Sociedad de compensación",
+      "en": "Clearing company code",
+      "pt": "Empresa de compensação"
+    }
+  },
+  "AGKON": {
+    "type": "CHAR 16",
+    "label": {
+      "es": "Cuenta a compensar",
+      "en": "Account to clear",
+      "pt": "Conta a compensar"
+    }
+  },
+  "SELFD": {
+    "type": "CHAR 5",
+    "label": {
+      "es": "Campo de selección",
+      "en": "Selection field",
+      "pt": "Campo de seleção"
+    }
+  },
+  "SELVON": {
+    "type": "CHAR 20",
+    "label": {
+      "es": "Valor de selección desde",
+      "en": "Selection value from",
+      "pt": "Valor de seleção de"
+    }
+  },
+  "SELBIS": {
+    "type": "CHAR 20",
+    "label": {
+      "es": "Valor de selección hasta",
+      "en": "Selection value to",
+      "pt": "Valor de seleção até"
+    }
+  },
+  "KWBTR": {
+    "type": "CURR 13,2",
+    "label": {
+      "es": "Importe en moneda de la cuenta",
+      "en": "Amount in account currency",
+      "pt": "Montante em moeda da conta"
+    }
+  },
+  "KWAER": {
+    "type": "CUKY 5",
+    "label": {
+      "es": "Moneda de la cuenta bancaria",
+      "en": "Bank account currency",
+      "pt": "Moeda da conta bancária"
+    }
+  },
+  "VGEXT": {
+    "type": "CHAR 27",
+    "label": {
+      "es": "Operación externa",
+      "en": "External transaction",
+      "pt": "Operação externa"
+    }
+  },
+  "VGINT": {
+    "type": "CHAR 4",
+    "label": {
+      "es": "Regla de contabilización",
+      "en": "Posting rule",
+      "pt": "Regra de lançamento"
+    }
+  },
+  "PARTN": {
+    "type": "CHAR 55",
+    "label": {
+      "es": "Nombre del interlocutor",
+      "en": "Business partner name",
+      "pt": "Nome do parceiro"
+    }
+  },
+  "ANWND": {
+    "type": "CHAR 4",
+    "label": {
+      "es": "Aplicación",
+      "en": "Application",
+      "pt": "Aplicação"
+    }
+  },
+  "ABSND": {
+    "type": "CHAR 50",
+    "label": {
+      "es": "Remitente del extracto",
+      "en": "Statement sender",
+      "pt": "Remetente do extrato"
+    }
+  },
+  "AZIDT": {
+    "type": "CHAR 20",
+    "label": {
+      "es": "Identificación del extracto",
+      "en": "Statement identification",
+      "pt": "Identificação do extrato"
+    }
+  },
+  "EMKEY": {
+    "type": "CHAR 20",
+    "label": {
+      "es": "Destinatario del extracto",
+      "en": "Statement recipient",
+      "pt": "Destinatário do extrato"
+    }
+  },
+  "AZNUM": {
+    "type": "NUMC 5",
+    "label": {
+      "es": "Número de extracto",
+      "en": "Statement number",
+      "pt": "Número do extrato"
+    }
+  },
+  "AZDAT": {
+    "type": "DATS 8",
+    "label": {
+      "es": "Fecha del extracto",
+      "en": "Statement date",
+      "pt": "Data do extrato"
+    }
+  },
+  "SSBTR": {
+    "type": "CURR 17,2",
+    "label": {
+      "es": "Saldo inicial",
+      "en": "Opening balance",
+      "pt": "Saldo inicial"
+    }
+  },
+  "ESBTR": {
+    "type": "CURR 17,2",
+    "label": {
+      "es": "Saldo final",
+      "en": "Closing balance",
+      "pt": "Saldo final"
+    }
+  },
+  "VWEZW": {
+    "type": "CHAR 65",
+    "label": {
+      "es": "Texto de referencia del pago",
+      "en": "Payment reference text",
+      "pt": "Texto de referência do pagamento"
+    }
+  },
+  "RRCTY": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Tipo de registro",
+      "en": "Record type",
+      "pt": "Tipo de registro"
+    }
+  },
+  "TSLVT": {
+    "type": "CURR 15,2",
+    "label": {
+      "es": "Arrastre de saldo en moneda de transacción",
+      "en": "Balance carryforward in transaction currency",
+      "pt": "Saldo transportado em moeda da transação"
+    }
+  },
+  "TSL01": {
+    "type": "CURR 15,2",
+    "label": {
+      "es": "Importe período 1 en moneda de transacción",
+      "en": "Period 1 amount in transaction currency",
+      "pt": "Montante período 1 em moeda da transação"
+    }
+  },
+  "KSLVT": {
+    "type": "CURR 15,2",
+    "label": {
+      "es": "Arrastre de saldo en moneda del grupo",
+      "en": "Balance carryforward in group currency",
+      "pt": "Saldo transportado em moeda do grupo"
+    }
+  },
+  "KSL01": {
+    "type": "CURR 15,2",
+    "label": {
+      "es": "Importe período 1 en moneda del grupo",
+      "en": "Period 1 amount in group currency",
+      "pt": "Montante período 1 em moeda do grupo"
+    }
+  },
+  "BLPOS": {
+    "type": "NUMC 3",
+    "label": {
+      "es": "Posición del documento",
+      "en": "Document item",
+      "pt": "Item do documento"
+    }
+  },
+  "FDATK": {
+    "type": "DATS 8",
+    "label": {
+      "es": "Fecha de vencimiento",
+      "en": "Due date",
+      "pt": "Data de vencimento"
+    }
+  },
+  "ERLKZ": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Indicador de cierre",
+      "en": "Completion indicator",
+      "pt": "Indicador de conclusão"
+    }
+  },
+  "KONKO": {
+    "type": "CHAR 10",
+    "label": {
+      "es": "Número de cuenta",
+      "en": "Account number",
+      "pt": "Número da conta"
+    }
+  },
+  "XMSEL": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Selección de reclamación ejecutada",
+      "en": "Dunning selection run",
+      "pt": "Seleção de advertência executada"
+    }
+  },
+  "XMPRI": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Reclamaciones impresas",
+      "en": "Dunning notices printed",
+      "pt": "Advertências impressas"
+    }
+  },
+  "KEYNO": {
+    "type": "CHAR 10",
+    "label": {
+      "es": "Número de solicitud de pago",
+      "en": "Payment request number",
+      "pt": "Número da solicitação de pagamento"
+    }
+  },
+  "DUEDT": {
+    "type": "DATS 8",
+    "label": {
+      "es": "Fecha de vencimiento",
+      "en": "Due date",
+      "pt": "Data de vencimento"
+    }
+  },
+  "STAPL": {
+    "type": "NUMC 4",
+    "label": {
+      "es": "Número de talonario",
+      "en": "Check lot number",
+      "pt": "Número do talão"
+    }
+  },
+  "CHECF": {
+    "type": "CHAR 13",
+    "label": {
+      "es": "Número de cheque inicial",
+      "en": "First check number",
+      "pt": "Número do cheque inicial"
+    }
+  },
+  "CHECL": {
+    "type": "CHAR 13",
+    "label": {
+      "es": "Último cheque usado",
+      "en": "Last check number used",
+      "pt": "Último cheque usado"
+    }
+  },
+  "DTKEY": {
+    "type": "CHAR 16",
+    "label": {
+      "es": "Clave del fichero de pago",
+      "en": "Payment file key",
+      "pt": "Chave do arquivo de pagamento"
+    }
+  },
+  "DTFOR": {
+    "type": "CHAR 30",
+    "label": {
+      "es": "Formato del soporte de pago",
+      "en": "Payment medium format",
+      "pt": "Formato do meio de pagamento"
+    }
+  },
+  "TSDAT": {
+    "type": "DATS 8",
+    "label": {
+      "es": "Fecha de creación del fichero",
+      "en": "File creation date",
+      "pt": "Data de criação do arquivo"
+    }
+  },
+  "TSUSR": {
+    "type": "CHAR 12",
+    "label": {
+      "es": "Creador del fichero",
+      "en": "File created by",
+      "pt": "Criador do arquivo"
+    }
+  },
+  "DWDAT": {
+    "type": "DATS 8",
+    "label": {
+      "es": "Fecha de descarga",
+      "en": "Download date",
+      "pt": "Data de download"
+    }
+  },
+  "DWUSR": {
+    "type": "CHAR 12",
+    "label": {
+      "es": "Usuario de la descarga",
+      "en": "Downloaded by",
+      "pt": "Usuário do download"
+    }
+  },
+  "XVORE": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Propuesta de pago ejecutada",
+      "en": "Payment proposal run",
+      "pt": "Proposta de pagamento executada"
+    }
+  },
+  "XECHT": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Ejecución de pago realizada",
+      "en": "Payment run executed",
+      "pt": "Execução de pagamento realizada"
+    }
+  },
+  "SSOUR": {
+    "type": "CHAR 4",
+    "label": {
+      "es": "Origen de la estadística",
+      "en": "Statistics source",
+      "pt": "Origem da estatística"
+    }
+  },
+  "VRSIO": {
+    "type": "CHAR 3",
+    "label": {
+      "es": "Versión",
+      "en": "Version",
+      "pt": "Versão"
+    }
+  },
+  "SPMON": {
+    "type": "NUMC 6",
+    "label": {
+      "es": "Mes del período",
+      "en": "Period month",
+      "pt": "Mês do período"
+    }
+  },
+  "SPTAG": {
+    "type": "DATS 8",
+    "label": {
+      "es": "Fecha del período",
+      "en": "Period date",
+      "pt": "Data do período"
+    }
+  },
+  "SPWOC": {
+    "type": "NUMC 6",
+    "label": {
+      "es": "Semana del período",
+      "en": "Period week",
+      "pt": "Semana do período"
+    }
+  },
+  "SPBUP": {
+    "type": "NUMC 6",
+    "label": {
+      "es": "Período contable de la estadística",
+      "en": "Statistics posting period",
+      "pt": "Período contábil da estatística"
+    }
+  },
+  "OEIKW": {
+    "type": "CURR 19,2",
+    "label": {
+      "es": "Valor de pedidos abiertos",
+      "en": "Open order value",
+      "pt": "Valor de pedidos em aberto"
+    }
+  },
+  "CMWAE": {
+    "type": "CUKY 5",
+    "label": {
+      "es": "Moneda del área de crédito",
+      "en": "Credit control currency",
+      "pt": "Moeda da área de crédito"
+    }
+  },
+  "OLIKW": {
+    "type": "CURR 19,2",
+    "label": {
+      "es": "Valor de entregas abiertas",
+      "en": "Open delivery value",
+      "pt": "Valor de remessas em aberto"
+    }
+  },
+  "OFAKW": {
+    "type": "CURR 19,2",
+    "label": {
+      "es": "Valor de facturas abiertas",
+      "en": "Open billing value",
+      "pt": "Valor de faturas em aberto"
+    }
+  },
+  "CURSR": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Moneda de origen de la conversión",
+      "en": "Source currency for translation",
+      "pt": "Moeda de origem da conversão"
+    }
+  },
+  "CURDT": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Tipo de fecha de conversión",
+      "en": "Translation date type",
+      "pt": "Tipo de data de conversão"
+    }
+  },
+  "MKOAR": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Tipo de cuenta permitido",
+      "en": "Permitted account type",
+      "pt": "Tipo de conta permitido"
+    }
+  },
+  "FRYE1": {
+    "type": "NUMC 4",
+    "label": {
+      "es": "Ejercicio desde (intervalo 1)",
+      "en": "From year (interval 1)",
+      "pt": "Exercício de (intervalo 1)"
+    }
+  },
+  "FRPE1": {
+    "type": "NUMC 3",
+    "label": {
+      "es": "Período desde (intervalo 1)",
+      "en": "From period (interval 1)",
+      "pt": "Período de (intervalo 1)"
+    }
+  },
+  "TOYE1": {
+    "type": "NUMC 4",
+    "label": {
+      "es": "Ejercicio hasta (intervalo 1)",
+      "en": "To year (interval 1)",
+      "pt": "Exercício até (intervalo 1)"
+    }
+  },
+  "TOPE1": {
+    "type": "NUMC 3",
+    "label": {
+      "es": "Período hasta (intervalo 1)",
+      "en": "To period (interval 1)",
+      "pt": "Período até (intervalo 1)"
+    }
+  },
+  "FRYE2": {
+    "type": "NUMC 4",
+    "label": {
+      "es": "Ejercicio desde (intervalo 2)",
+      "en": "From year (interval 2)",
+      "pt": "Exercício de (intervalo 2)"
+    }
+  },
+  "FRPE2": {
+    "type": "NUMC 3",
+    "label": {
+      "es": "Período desde (intervalo 2)",
+      "en": "From period (interval 2)",
+      "pt": "Período de (intervalo 2)"
+    }
+  },
+  "TOYE2": {
+    "type": "NUMC 4",
+    "label": {
+      "es": "Ejercicio hasta (intervalo 2)",
+      "en": "To year (interval 2)",
+      "pt": "Exercício até (intervalo 2)"
+    }
+  },
+  "TOPE2": {
+    "type": "NUMC 3",
+    "label": {
+      "es": "Período hasta (intervalo 2)",
+      "en": "To period (interval 2)",
+      "pt": "Período até (intervalo 2)"
+    }
+  },
+  "BRGRU": {
+    "type": "CHAR 4",
+    "label": {
+      "es": "Grupo de autorización",
+      "en": "Authorization group",
+      "pt": "Grupo de autorização"
+    }
+  },
+  "FAUS1": {
+    "type": "CHAR 50",
+    "label": {
+      "es": "Estado de campos (cadena 1)",
+      "en": "Field status string 1",
+      "pt": "Status de campos (cadeia 1)"
+    }
+  },
+  "FAUS2": {
+    "type": "CHAR 50",
+    "label": {
+      "es": "Estado de campos (cadena 2)",
+      "en": "Field status string 2",
+      "pt": "Status de campos (cadeia 2)"
+    }
+  },
+  "XNCHG": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "No modificable en la propuesta",
+      "en": "Not changeable in proposal",
+      "pt": "Não modificável na proposta"
+    }
+  },
+  "KTONR": {
+    "type": "CHAR 18",
+    "label": {
+      "es": "Número de cuenta bancaria",
+      "en": "Bank account number",
+      "pt": "Número da conta bancária"
+    }
+  },
+  "VGTYP": {
+    "type": "CHAR 8",
+    "label": {
+      "es": "Tipo de operación",
+      "en": "Transaction type",
+      "pt": "Tipo de operação"
+    }
+  },
+  "VOZPM": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Signo de la operación",
+      "en": "Transaction sign",
+      "pt": "Sinal da operação"
+    }
+  },
+  "INTAG": {
+    "type": "NUMC 3",
+    "label": {
+      "es": "Algoritmo de interpretación",
+      "en": "Interpretation algorithm",
+      "pt": "Algoritmo de interpretação"
+    }
+  },
+  "MSCHL": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Clave de reclamación",
+      "en": "Dunning key",
+      "pt": "Chave de advertência"
+    }
+  },
+  "MAXST": {
+    "type": "NUMC 1",
+    "label": {
+      "es": "Nivel máximo de reclamación",
+      "en": "Maximum dunning level",
+      "pt": "Nível máximo de advertência"
+    }
+  },
+  "XSEPD": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Imprimir por separado",
+      "en": "Print separately",
+      "pt": "Imprimir separadamente"
+    }
+  },
+  "RANGF": {
+    "type": "NUMC 5",
+    "label": {
+      "es": "Orden de prioridad",
+      "en": "Ranking order",
+      "pt": "Ordem de prioridade"
+    }
+  },
+  "BISTG": {
+    "type": "NUMC 3",
+    "label": {
+      "es": "Días (hasta)",
+      "en": "Days (up to)",
+      "pt": "Dias (até)"
+    }
+  },
+  "BETRA": {
+    "type": "CURR 15,2",
+    "label": {
+      "es": "Importe disponible para pagos",
+      "en": "Available amount for outgoing payments",
+      "pt": "Montante disponível para pagamentos"
+    }
+  },
+  "BETRE": {
+    "type": "CURR 15,2",
+    "label": {
+      "es": "Importe previsto de cobros",
+      "en": "Expected incoming amount",
+      "pt": "Montante previsto de recebimentos"
+    }
+  },
+  "VONBT": {
+    "type": "CURR 13,2",
+    "label": {
+      "es": "Importe mínimo",
+      "en": "Minimum amount",
+      "pt": "Montante mínimo"
+    }
+  },
+  "BISBT": {
+    "type": "CURR 13,2",
+    "label": {
+      "es": "Importe máximo",
+      "en": "Maximum amount",
+      "pt": "Montante máximo"
+    }
+  },
+  "XAUSL": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Pagos al extranjero permitidos",
+      "en": "Foreign payments allowed",
+      "pt": "Pagamentos ao exterior permitidos"
+    }
+  },
+  "XFWAE": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Moneda extranjera permitida",
+      "en": "Foreign currency allowed",
+      "pt": "Moeda estrangeira permitida"
+    }
+  },
+  "ZFORN": {
+    "type": "CHAR 16",
+    "label": {
+      "es": "Formulario de pago",
+      "en": "Payment form",
+      "pt": "Formulário de pagamento"
+    }
+  },
+  "XEIPO": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Pago individual por partida",
+      "en": "Single payment per item",
+      "pt": "Pagamento individual por partida"
+    }
+  },
+  "PROGN": {
+    "type": "CHAR 40",
+    "label": {
+      "es": "Programa del soporte de pago",
+      "en": "Payment medium program",
+      "pt": "Programa do meio de pagamento"
+    }
+  },
+  "XSCHK": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Pago con cheque",
+      "en": "Check payment",
+      "pt": "Pagamento com cheque"
+    }
+  },
+  "XSEPA": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Pago SEPA",
+      "en": "SEPA payment",
+      "pt": "Pagamento SEPA"
+    }
+  },
+  "XIBAN": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "IBAN obligatorio",
+      "en": "IBAN required",
+      "pt": "IBAN obrigatório"
+    }
+  },
+  "RFPRO": {
+    "type": "CHAR 4",
+    "label": {
+      "es": "Grupo de tolerancia",
+      "en": "Tolerance group",
+      "pt": "Grupo de tolerância"
+    }
+  },
+  "MAXBT": {
+    "type": "CURR 15,2",
+    "label": {
+      "es": "Importe máximo por documento",
+      "en": "Maximum amount per document",
+      "pt": "Montante máximo por documento"
+    }
+  },
+  "MAXEB": {
+    "type": "CURR 13,2",
+    "label": {
+      "es": "Importe máximo por partida",
+      "en": "Maximum amount per open item",
+      "pt": "Montante máximo por partida"
+    }
+  },
+  "MAXSK": {
+    "type": "DEC 5,3",
+    "label": {
+      "es": "Porcentaje máximo de descuento",
+      "en": "Maximum cash discount percentage",
+      "pt": "Percentual máximo de desconto"
+    }
+  },
+  "XMABE": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Reclamación por área",
+      "en": "Dunning by dunning area",
+      "pt": "Advertência por área"
+    }
+  },
+  "RBUKM": {
+    "type": "CHAR 4",
+    "label": {
+      "es": "Sociedad de reclamación",
+      "en": "Dunning company code",
+      "pt": "Empresa de advertência"
+    }
+  },
+  "VERTG": {
+    "type": "NUMC 3",
+    "label": {
+      "es": "Días de retraso",
+      "en": "Days in arrears",
+      "pt": "Dias de atraso"
+    }
+  },
+  "XZINS": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Calcular intereses",
+      "en": "Calculate interest",
+      "pt": "Calcular juros"
+    }
+  },
+  "MAHNB": {
+    "type": "NUMC 13",
+    "label": {
+      "es": "Importe reclamado desde",
+      "en": "Dunned amount from",
+      "pt": "Montante advertido a partir de"
+    }
+  },
+  "MAHNG": {
+    "type": "NUMC 13",
+    "label": {
+      "es": "Gastos de reclamación",
+      "en": "Dunning charge",
+      "pt": "Encargos de advertência"
+    }
+  },
+  "MAHNP": {
+    "type": "DEC 5,2",
+    "label": {
+      "es": "Porcentaje de gastos de reclamación",
+      "en": "Dunning charge percentage",
+      "pt": "Percentual de encargos de advertência"
+    }
+  },
+  "TEXTM": {
+    "type": "CHAR 60",
+    "label": {
+      "es": "Texto del procedimiento de reclamación",
+      "en": "Dunning procedure text",
+      "pt": "Texto do procedimento de advertência"
+    }
+  },
+  "XKONT": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Requiere cuenta",
+      "en": "Account required",
+      "pt": "Requer conta"
+    }
+  },
+  "XBELG": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Requiere documento",
+      "en": "Document required",
+      "pt": "Requer documento"
+    }
+  },
+  "URI_TYPE": {
+    "type": "CHAR 3",
+    "label": {
+      "es": "Tipo de URI",
+      "en": "URI type",
+      "pt": "Tipo de URI"
+    }
+  },
+  "URI_ADDR": {
+    "type": "LCHR 2048",
+    "label": {
+      "es": "Dirección web (URI)",
+      "en": "Web address (URI)",
+      "pt": "Endereço web (URI)"
+    }
+  },
+  "COMM_TYPE": {
+    "type": "CHAR 3",
+    "label": {
+      "es": "Tipo de comunicación",
+      "en": "Communication type",
+      "pt": "Tipo de comunicação"
+    }
+  },
+  "APPL_TABLE": {
+    "type": "CHAR 10",
+    "label": {
+      "es": "Tabla de la aplicación",
+      "en": "Application table",
+      "pt": "Tabela da aplicação"
+    }
+  },
+  "APPL_FIELD": {
+    "type": "CHAR 10",
+    "label": {
+      "es": "Campo de la aplicación",
+      "en": "Application field",
+      "pt": "Campo da aplicação"
+    }
+  },
+  "APPL_KEY": {
+    "type": "CHAR 120",
+    "label": {
+      "es": "Clave en la aplicación",
+      "en": "Application key",
+      "pt": "Chave na aplicação"
+    }
+  },
+  "ADDR_GROUP": {
+    "type": "CHAR 4",
+    "label": {
+      "es": "Grupo de direcciones",
+      "en": "Address group",
+      "pt": "Grupo de endereços"
+    }
+  },
+  "OWNER": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Indicador de propietario",
+      "en": "Owner indicator",
+      "pt": "Indicador de proprietário"
+    }
+  },
+  "VALID_TO": {
+    "type": "DEC 15",
+    "label": {
+      "es": "Válido hasta",
+      "en": "Valid to",
+      "pt": "Válido até"
+    }
+  },
+  "ADR_KIND": {
+    "type": "CHAR 10",
+    "label": {
+      "es": "Uso de dirección",
+      "en": "Address usage",
+      "pt": "Uso de endereço"
+    }
+  },
+  "VALID_FROM": {
+    "type": "DEC 15",
+    "label": {
+      "es": "Válido desde",
+      "en": "Valid from",
+      "pt": "Válido desde"
+    }
+  },
+  "XDFADU": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Uso de dirección estándar",
+      "en": "Default address usage",
+      "pt": "Uso de endereço padrão"
+    }
+  },
+  "CCARD_ID": {
+    "type": "CHAR 6",
+    "label": {
+      "es": "ID de tarjeta de pago",
+      "en": "Payment card ID",
+      "pt": "ID do cartão de pagamento"
+    }
+  },
+  "CCDEF": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Tarjeta estándar",
+      "en": "Default card",
+      "pt": "Cartão padrão"
+    }
+  },
+  "CCACCNAME": {
+    "type": "CHAR 40",
+    "label": {
+      "es": "Titular de la tarjeta",
+      "en": "Cardholder",
+      "pt": "Titular do cartão"
+    }
+  },
+  "TYPE": {
+    "type": "CHAR 6",
+    "label": {
+      "es": "Tipo",
+      "en": "Type",
+      "pt": "Tipo"
+    }
+  },
+  "IDNUMBER": {
+    "type": "CHAR 60",
+    "label": {
+      "es": "Número de identificación",
+      "en": "ID number",
+      "pt": "Número de identificação"
+    }
+  },
+  "INSTITUTE": {
+    "type": "CHAR 40",
+    "label": {
+      "es": "Entidad emisora",
+      "en": "Issuing institution",
+      "pt": "Entidade emissora"
+    }
+  },
+  "ENTRY_DATE": {
+    "type": "DATS 8",
+    "label": {
+      "es": "Fecha de alta",
+      "en": "Entry date",
+      "pt": "Data de registro"
+    }
+  },
+  "VALID_DATE_FROM": {
+    "type": "DATS 8",
+    "label": {
+      "es": "Válido desde",
+      "en": "Valid from",
+      "pt": "Válido desde"
+    }
+  },
+  "VALID_DATE_TO": {
+    "type": "DATS 8",
+    "label": {
+      "es": "Válido hasta",
+      "en": "Valid to",
+      "pt": "Válido até"
+    }
+  },
+  "ISTYPE": {
+    "type": "CHAR 4",
+    "label": {
+      "es": "Sistema de ramos",
+      "en": "Industry system",
+      "pt": "Sistema de setores"
+    }
+  },
+  "IND_SECTOR": {
+    "type": "CHAR 10",
+    "label": {
+      "es": "Ramo",
+      "en": "Industry",
+      "pt": "Setor industrial"
+    }
+  },
+  "ISDEF": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Ramo estándar",
+      "en": "Default industry",
+      "pt": "Setor padrão"
+    }
+  },
+  "RLTYP": {
+    "type": "CHAR 6",
+    "label": {
+      "es": "Rol de socio de negocio",
+      "en": "Business partner role",
+      "pt": "Papel do parceiro de negócios"
+    }
+  },
+  "DFVAL": {
+    "type": "CHAR 20",
+    "label": {
+      "es": "Valor de diferenciación",
+      "en": "Differentiation value",
+      "pt": "Valor de diferenciação"
+    }
+  },
+  "TAXTYPE": {
+    "type": "CHAR 4",
+    "label": {
+      "es": "Tipo de número fiscal",
+      "en": "Tax number type",
+      "pt": "Tipo de número fiscal"
+    }
+  },
+  "TAXNUM": {
+    "type": "CHAR 20",
+    "label": {
+      "es": "Número fiscal",
+      "en": "Tax number",
+      "pt": "Número fiscal"
+    }
+  },
+  "DOKOB": {
+    "type": "CHAR 10",
+    "label": {
+      "es": "Objeto vinculado",
+      "en": "Linked object",
+      "pt": "Objeto vinculado"
+    }
+  },
+  "DELFLAG": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Indicador de borrado",
+      "en": "Deletion indicator",
+      "pt": "Indicador de eliminação"
+    }
+  },
+  "IMERK": {
+    "type": "NUMC 10",
+    "label": {
+      "es": "Característica (número interno)",
+      "en": "Internal characteristic",
+      "pt": "Característica (número interno)"
+    }
+  },
+  "RELID": {
+    "type": "CHAR 2",
+    "label": {
+      "es": "Área del cluster",
+      "en": "Cluster area",
+      "pt": "Área do cluster"
+    }
+  },
+  "SRTF2": {
+    "type": "INT1 3",
+    "label": {
+      "es": "Contador de línea",
+      "en": "Line counter",
+      "pt": "Contador de linha"
+    }
+  },
+  "CLUSTD": {
+    "type": "LRAW 7902",
+    "label": {
+      "es": "Datos del texto (comprimidos)",
+      "en": "Text data (compressed)",
+      "pt": "Dados do texto (comprimidos)"
+    }
+  },
+  "KLPOS": {
+    "type": "NUMC 2",
+    "label": {
+      "es": "Posición de palabra clave",
+      "en": "Keyword position",
+      "pt": "Posição da palavra-chave"
+    }
+  },
+  "LAISO": {
+    "type": "CHAR 2",
+    "label": {
+      "es": "Código ISO del idioma",
+      "en": "Language ISO code",
+      "pt": "Código ISO do idioma"
+    }
+  },
+  "FPRCD": {
+    "type": "CHAR 3",
+    "label": {
+      "es": "Código fiscal provincial",
+      "en": "Provincial tax code",
+      "pt": "Código fiscal provincial"
+    }
+  },
+  "HERBL": {
+    "type": "CHAR 2",
+    "label": {
+      "es": "Región de origen",
+      "en": "Region of origin",
+      "pt": "Região de origem"
+    }
+  },
+  "MSSIE": {
+    "type": "UNIT 3",
+    "label": {
+      "es": "Unidad SI",
+      "en": "SI unit",
+      "pt": "Unidade SI"
+    }
+  },
+  "LENG": {
+    "type": "INT2 5",
+    "label": {
+      "es": "Exponente de longitud",
+      "en": "Length exponent",
+      "pt": "Expoente de comprimento"
+    }
+  },
+  "MASS": {
+    "type": "INT2 5",
+    "label": {
+      "es": "Exponente de masa",
+      "en": "Mass exponent",
+      "pt": "Expoente de massa"
+    }
+  },
+  "TIMEX": {
+    "type": "INT2 5",
+    "label": {
+      "es": "Exponente de tiempo",
+      "en": "Time exponent",
+      "pt": "Expoente de tempo"
+    }
+  },
+  "TEMP": {
+    "type": "INT2 5",
+    "label": {
+      "es": "Exponente de temperatura",
+      "en": "Temperature exponent",
+      "pt": "Expoente de temperatura"
+    }
+  },
+  "ISOTXT": {
+    "type": "CHAR 25",
+    "label": {
+      "es": "Texto del código ISO",
+      "en": "ISO code text",
+      "pt": "Texto do código ISO"
+    }
+  },
+  "XAUSB": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Contabilizar diferencia aparte",
+      "en": "Charge off difference separately",
+      "pt": "Lançar diferença à parte"
+    }
+  },
+  "XSTRP": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Partida en disputa",
+      "en": "Disputed item",
+      "pt": "Partida em disputa"
+    }
+  },
+  "WT_POSTM": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Momento de la retención",
+      "en": "Withholding posting time",
+      "pt": "Momento da retenção"
+    }
+  },
+  "WT_BASE": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Base de cálculo de la retención",
+      "en": "Withholding base amount",
+      "pt": "Base de cálculo da retenção"
+    }
+  },
+  "WT_ACCPT": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Tipo de acumulación",
+      "en": "Accumulation type",
+      "pt": "Tipo de acumulação"
+    }
+  },
+  "QSATZ": {
+    "type": "DEC 7,4",
+    "label": {
+      "es": "Tasa de retención",
+      "en": "Withholding tax rate",
+      "pt": "Taxa de retenção"
+    }
+  },
+  "QPROZ": {
+    "type": "DEC 5,2",
+    "label": {
+      "es": "Porcentaje sujeto a retención",
+      "en": "Portion subject to withholding",
+      "pt": "Percentual sujeito a retenção"
+    }
+  },
+  "QSCOD": {
+    "type": "CHAR 4",
+    "label": {
+      "es": "Código oficial de retención",
+      "en": "Official withholding code",
+      "pt": "Código oficial de retenção"
+    }
+  },
+  "ORDNR": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Número de criterio de clasificación",
+      "en": "Evaluation group number",
+      "pt": "Número do critério de classificação"
+    }
+  },
+  "ORD4X": {
+    "type": "CHAR 4",
+    "label": {
+      "es": "Grupo de clasificación",
+      "en": "Evaluation group",
+      "pt": "Grupo de classificação"
+    }
+  },
+  "ORDTX": {
+    "type": "CHAR 30",
+    "label": {
+      "es": "Texto del grupo de clasificación",
+      "en": "Evaluation group text",
+      "pt": "Texto do grupo de classificação"
+    }
+  },
+  "XAKTIV": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Indicador activo",
+      "en": "Active indicator",
+      "pt": "Indicador ativo"
+    }
+  },
+  "XSTORE": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Área real (guarda valores)",
+      "en": "Real area (stores values)",
+      "pt": "Área real (grava valores)"
+    }
+  },
+  "BUHBKT": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Contabilización en el mayor",
+      "en": "Posting to general ledger",
+      "pt": "Lançamento no razão"
+    }
+  },
+  "LDGRP_GL": {
+    "type": "CHAR 4",
+    "label": {
+      "es": "Grupo de ledgers",
+      "en": "Ledger group",
+      "pt": "Grupo de ledgers"
+    }
+  },
+  "AFBKTX": {
+    "type": "CHAR 12",
+    "label": {
+      "es": "Nombre corto del área",
+      "en": "Area short name",
+      "pt": "Nome curto da área"
+    }
+  },
+  "AFBTXT": {
+    "type": "CHAR 50",
+    "label": {
+      "es": "Nombre del área",
+      "en": "Area name",
+      "pt": "Nome da área"
+    }
+  },
+  "XLEADING": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Ledger principal",
+      "en": "Leading ledger",
+      "pt": "Ledger principal"
+    }
+  },
+  "VTRHJ": {
+    "type": "NUMC 4",
+    "label": {
+      "es": "Ejercicio de arrastre de saldos",
+      "en": "Balance carryforward year",
+      "pt": "Exercício de transporte de saldos"
+    }
+  },
+  "NRRNG": {
+    "type": "CHAR 2",
+    "label": {
+      "es": "Rango de números",
+      "en": "Number range",
+      "pt": "Intervalo de numeração"
+    }
+  },
+  "XEXST": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Numeración externa",
+      "en": "External numbering",
+      "pt": "Numeração externa"
+    }
+  },
+  "TXT15": {
+    "type": "CHAR 15",
+    "label": {
+      "es": "Descripción corta",
+      "en": "Short description",
+      "pt": "Descrição curta"
+    }
+  },
+  "ROLE": {
+    "type": "CHAR 6",
+    "label": {
+      "es": "Rol de socio de negocio",
+      "en": "Business partner role",
+      "pt": "Papel do parceiro de negócios"
+    }
+  },
+  "ROLECATEGORY": {
+    "type": "CHAR 6",
+    "label": {
+      "es": "Categoría de rol",
+      "en": "Role category",
+      "pt": "Categoria de papel"
+    }
+  },
+  "RLTITL": {
+    "type": "CHAR 25",
+    "label": {
+      "es": "Título del rol",
+      "en": "Role title",
+      "pt": "Título do papel"
+    }
+  },
+  "RLTXT": {
+    "type": "CHAR 50",
+    "label": {
+      "es": "Descripción del rol",
+      "en": "Role description",
+      "pt": "Descrição do papel"
+    }
+  },
+  "COMP_CODE": {
+    "type": "CHAR 4",
+    "label": {
+      "es": "Sociedad",
+      "en": "Company code",
+      "pt": "Empresa"
+    }
+  },
+  "CAJO_NUMBER": {
+    "type": "CHAR 4",
+    "label": {
+      "es": "Libro de caja",
+      "en": "Cash journal",
+      "pt": "Livro de caixa"
+    }
+  },
+  "TEXT": {
+    "type": "CHAR 30",
+    "label": {
+      "es": "Texto",
+      "en": "Text",
+      "pt": "Texto"
+    }
+  },
+  "GL_ACCOUNT": {
+    "type": "CHAR 10",
+    "label": {
+      "es": "Cuenta de mayor",
+      "en": "G/L account",
+      "pt": "Conta do razão"
+    }
+  },
+  "CURRENCY": {
+    "type": "CUKY 5",
+    "label": {
+      "es": "Moneda",
+      "en": "Currency",
+      "pt": "Moeda"
+    }
+  },
+  "PERSON1": {
+    "type": "CHAR 40",
+    "label": {
+      "es": "Responsable 1",
+      "en": "Person responsible 1",
+      "pt": "Responsável 1"
+    }
+  },
+  "PERSON2": {
+    "type": "CHAR 40",
+    "label": {
+      "es": "Responsable 2",
+      "en": "Person responsible 2",
+      "pt": "Responsável 2"
+    }
+  },
+  "CJCLOSED": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Bloqueado para contabilizar",
+      "en": "Closed for posting",
+      "pt": "Bloqueado para lançamento"
+    }
+  },
+  "FISC_YEAR": {
+    "type": "NUMC 4",
+    "label": {
+      "es": "Ejercicio",
+      "en": "Fiscal year",
+      "pt": "Exercício"
+    }
+  },
+  "POSTING_NUMBER": {
+    "type": "CHAR 10",
+    "label": {
+      "es": "Número de documento de caja",
+      "en": "Cash journal document number",
+      "pt": "Número do documento de caixa"
+    }
+  },
+  "H_RECEIPTS": {
+    "type": "CURR 15,2",
+    "label": {
+      "es": "Total de ingresos",
+      "en": "Total receipts",
+      "pt": "Total de recebimentos"
+    }
+  },
+  "H_PAYMENTS": {
+    "type": "CURR 15,2",
+    "label": {
+      "es": "Total de pagos",
+      "en": "Total payments",
+      "pt": "Total de pagamentos"
+    }
+  },
+  "H_NET_AMOUNT": {
+    "type": "CURR 13,2",
+    "label": {
+      "es": "Importe neto",
+      "en": "Net amount",
+      "pt": "Montante líquido"
+    }
+  },
+  "H_TAX_AMOUNT": {
+    "type": "CURR 13,2",
+    "label": {
+      "es": "Importe de impuestos",
+      "en": "Tax amount",
+      "pt": "Montante de impostos"
+    }
+  },
+  "BP_NAME": {
+    "type": "CHAR 35",
+    "label": {
+      "es": "Nombre del interlocutor",
+      "en": "Business partner name",
+      "pt": "Nome do parceiro"
+    }
+  },
+  "DOCUMENT_DATE": {
+    "type": "DATS 8",
+    "label": {
+      "es": "Fecha de documento",
+      "en": "Document date",
+      "pt": "Data do documento"
+    }
+  },
+  "POSTING_DATE": {
+    "type": "DATS 8",
+    "label": {
+      "es": "Fecha de contabilización",
+      "en": "Posting date",
+      "pt": "Data de lançamento"
+    }
+  },
+  "DOCUMENT_STATUS": {
+    "type": "CHAR 2",
+    "label": {
+      "es": "Estado del documento",
+      "en": "Document status",
+      "pt": "Status do documento"
+    }
+  },
+  "DOCUMENT_NUMBER": {
+    "type": "CHAR 16",
+    "label": {
+      "es": "Número de documento contable",
+      "en": "Accounting document number",
+      "pt": "Número do documento contábil"
+    }
+  },
+  "POSITION_NUMBER": {
+    "type": "NUMC 3",
+    "label": {
+      "es": "Posición",
+      "en": "Item",
+      "pt": "Item"
+    }
+  },
+  "TRANSACT_NUMBER": {
+    "type": "CHAR 4",
+    "label": {
+      "es": "Operación comercial",
+      "en": "Business transaction",
+      "pt": "Operação comercial"
+    }
+  },
+  "P_RECEIPTS": {
+    "type": "CURR 15,2",
+    "label": {
+      "es": "Ingreso",
+      "en": "Receipt",
+      "pt": "Recebimento"
+    }
+  },
+  "P_PAYMENTS": {
+    "type": "CURR 15,2",
+    "label": {
+      "es": "Pago",
+      "en": "Payment",
+      "pt": "Pagamento"
+    }
+  },
+  "VENDOR_NO": {
+    "type": "CHAR 10",
+    "label": {
+      "es": "Proveedor",
+      "en": "Vendor",
+      "pt": "Fornecedor"
+    }
+  },
+  "POSITION_TEXT": {
+    "type": "CHAR 50",
+    "label": {
+      "es": "Texto de la posición",
+      "en": "Item text",
+      "pt": "Texto do item"
+    }
+  },
+  "MULTOBJ": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Varios tipos de objeto",
+      "en": "Multiple object types",
+      "pt": "Vários tipos de objeto"
+    }
+  },
+  "NOTATION": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Tipo de cotización",
+      "en": "Quotation type",
+      "pt": "Tipo de cotação"
+    }
+  },
+  "CURRKEY": {
+    "type": "CUKY 5",
+    "label": {
+      "es": "Moneda",
+      "en": "Currency",
+      "pt": "Moeda"
+    }
+  },
+  "CURRDEC": {
+    "type": "INT1 3",
+    "label": {
+      "es": "Número de decimales",
+      "en": "Number of decimals",
+      "pt": "Número de casas decimais"
+    }
+  },
+  "KLASSE": {
+    "type": "CHAR 18",
+    "label": {
+      "es": "Clase",
+      "en": "Class",
+      "pt": "Classe"
+    }
+  },
+  "KLASSENART": {
+    "type": "CHAR 3",
+    "label": {
+      "es": "Tipo de clase",
+      "en": "Class type",
+      "pt": "Tipo de classe"
+    }
+  },
+  "CVLANG": {
+    "type": "LANG 1",
+    "label": {
+      "es": "Idioma",
+      "en": "Language",
+      "pt": "Idioma"
+    }
+  },
+  "DARTXT": {
+    "type": "CHAR 20",
+    "label": {
+      "es": "Descripción de la clase de documento",
+      "en": "Document type description",
+      "pt": "Descrição do tipo de documento"
+    }
+  },
+  "HOCID": {
+    "type": "CHAR 2",
+    "label": {
+      "es": "Calendario de festivos",
+      "en": "Holiday calendar",
+      "pt": "Calendário de feriados"
+    }
+  },
+  "VJAHR": {
+    "type": "NUMC 4",
+    "label": {
+      "es": "Válido desde el año",
+      "en": "Valid from year",
+      "pt": "Válido a partir do ano"
+    }
+  },
+  "BJAHR": {
+    "type": "NUMC 4",
+    "label": {
+      "es": "Válido hasta el año",
+      "en": "Valid to year",
+      "pt": "Válido até o ano"
+    }
+  },
+  "MOTAG": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Lunes laborable",
+      "en": "Monday workday",
+      "pt": "Segunda-feira útil"
+    }
+  },
+  "DITAG": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Martes laborable",
+      "en": "Tuesday workday",
+      "pt": "Terça-feira útil"
+    }
+  },
+  "MIWCH": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Miércoles laborable",
+      "en": "Wednesday workday",
+      "pt": "Quarta-feira útil"
+    }
+  },
+  "DOTAG": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Jueves laborable",
+      "en": "Thursday workday",
+      "pt": "Quinta-feira útil"
+    }
+  },
+  "FRTAG": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Viernes laborable",
+      "en": "Friday workday",
+      "pt": "Sexta-feira útil"
+    }
+  },
+  "SATAG": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Sábado laborable",
+      "en": "Saturday workday",
+      "pt": "Sábado útil"
+    }
+  },
+  "SOTAG": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Domingo laborable",
+      "en": "Sunday workday",
+      "pt": "Domingo útil"
+    }
+  },
+  "CREATED_BY": {
+    "type": "CHAR 12",
+    "label": {
+      "es": "Creado por",
+      "en": "Created by",
+      "pt": "Criado por"
+    }
+  },
+  "CREATED_ON": {
+    "type": "DATS 8",
+    "label": {
+      "es": "Fecha de creación",
+      "en": "Created on",
+      "pt": "Data de criação"
+    }
+  },
+  "DATBIS": {
+    "type": "DATS 8",
+    "label": {
+      "es": "Válido hasta",
+      "en": "Valid to",
+      "pt": "Válido até"
+    }
+  },
+  "GSBER_KONS": {
+    "type": "CHAR 4",
+    "label": {
+      "es": "División de consolidación",
+      "en": "Consolidation business area",
+      "pt": "Divisão de consolidação"
+    }
+  },
+  "LENG1": {
+    "type": "NUMC 2",
+    "label": {
+      "es": "Longitud del nivel 1",
+      "en": "Length of level 1",
+      "pt": "Comprimento do nível 1"
+    }
+  },
+  "LENG2": {
+    "type": "NUMC 2",
+    "label": {
+      "es": "Longitud del nivel 2",
+      "en": "Length of level 2",
+      "pt": "Comprimento do nível 2"
+    }
+  },
+  "LENG3": {
+    "type": "NUMC 2",
+    "label": {
+      "es": "Longitud del nivel 3",
+      "en": "Length of level 3",
+      "pt": "Comprimento do nível 3"
+    }
+  },
+  "LENG4": {
+    "type": "NUMC 2",
+    "label": {
+      "es": "Longitud del nivel 4",
+      "en": "Length of level 4",
+      "pt": "Comprimento do nível 4"
+    }
+  },
+  "XEXTN": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Sistema fiscal externo",
+      "en": "External tax system",
+      "pt": "Sistema fiscal externo"
+    }
+  },
+  "RFCDEST": {
+    "type": "CHAR 32",
+    "label": {
+      "es": "Destino RFC",
+      "en": "RFC destination",
+      "pt": "Destino RFC"
+    }
+  },
+  "VOIDR": {
+    "type": "NUMC 2",
+    "label": {
+      "es": "Motivo de anulación",
+      "en": "Void reason",
+      "pt": "Motivo de anulação"
+    }
+  },
+  "VOIDT": {
+    "type": "CHAR 50",
+    "label": {
+      "es": "Texto del motivo de anulación",
+      "en": "Void reason text",
+      "pt": "Texto do motivo de anulação"
+    }
+  },
+  "CASE_GUID": {
+    "type": "CHAR 32",
+    "label": {
+      "es": "GUID del caso",
+      "en": "Case GUID",
+      "pt": "GUID do caso"
+    }
+  },
+  "FIN_KUNNR": {
+    "type": "CHAR 10",
+    "label": {
+      "es": "Cliente",
+      "en": "Customer",
+      "pt": "Cliente"
+    }
+  },
+  "FIN_BUKRS": {
+    "type": "CHAR 4",
+    "label": {
+      "es": "Sociedad",
+      "en": "Company code",
+      "pt": "Empresa"
+    }
+  },
+  "FIN_ORIGINAL_AMT": {
+    "type": "CURR 15,2",
+    "label": {
+      "es": "Importe original",
+      "en": "Original amount",
+      "pt": "Montante original"
+    }
+  },
+  "FIN_DISPUTED_AMT": {
+    "type": "CURR 15,2",
+    "label": {
+      "es": "Importe en litigio",
+      "en": "Disputed amount",
+      "pt": "Montante em litígio"
+    }
+  },
+  "FIN_PAID_AMT": {
+    "type": "CURR 15,2",
+    "label": {
+      "es": "Importe pagado",
+      "en": "Paid amount",
+      "pt": "Montante pago"
+    }
+  },
+  "FIN_CREDITED_AMT": {
+    "type": "CURR 15,2",
+    "label": {
+      "es": "Importe abonado",
+      "en": "Credited amount",
+      "pt": "Montante creditado"
+    }
+  },
+  "FIN_WRT_OFF_AMT": {
+    "type": "CURR 15,2",
+    "label": {
+      "es": "Importe dado de baja",
+      "en": "Written-off amount",
+      "pt": "Montante baixado"
+    }
+  },
+  "FIN_DISPUTE_CURR": {
+    "type": "CUKY 5",
+    "label": {
+      "es": "Moneda del litigio",
+      "en": "Dispute currency",
+      "pt": "Moeda do litígio"
+    }
+  },
+  "FIN_COORDINATOR": {
+    "type": "CHAR 12",
+    "label": {
+      "es": "Coordinador",
+      "en": "Coordinator",
+      "pt": "Coordenador"
+    }
+  },
+  "FIN_DUE_DATE": {
+    "type": "DATS 8",
+    "label": {
+      "es": "Fecha de vencimiento",
+      "en": "Due date",
+      "pt": "Data de vencimento"
+    }
+  },
+  "OWN_RATING": {
+    "type": "CHAR 10",
+    "label": {
+      "es": "Calificación crediticia",
+      "en": "Credit score",
+      "pt": "Classificação de crédito"
+    }
+  },
+  "RISK_CLASS": {
+    "type": "CHAR 3",
+    "label": {
+      "es": "Clase de riesgo",
+      "en": "Risk class",
+      "pt": "Classe de risco"
+    }
+  },
+  "CHECK_RULE": {
+    "type": "CHAR 10",
+    "label": {
+      "es": "Regla de verificación",
+      "en": "Check rule",
+      "pt": "Regra de verificação"
+    }
+  },
+  "LIMIT_RULE": {
+    "type": "CHAR 10",
+    "label": {
+      "es": "Regla de cálculo del límite",
+      "en": "Limit calculation rule",
+      "pt": "Regra de cálculo do limite"
+    }
+  },
+  "RATING_VAL_DATE": {
+    "type": "DATS 8",
+    "label": {
+      "es": "Calificación válida hasta",
+      "en": "Score valid to",
+      "pt": "Classificação válida até"
+    }
+  },
+  "CREDIT_GROUP": {
+    "type": "NUMC 4",
+    "label": {
+      "es": "Grupo de crédito",
+      "en": "Credit group",
+      "pt": "Grupo de crédito"
+    }
+  },
+  "CREDIT_SGMNT": {
+    "type": "CHAR 10",
+    "label": {
+      "es": "Segmento de crédito",
+      "en": "Credit segment",
+      "pt": "Segmento de crédito"
+    }
+  },
+  "CREDIT_LIMIT": {
+    "type": "CURR 15,2",
+    "label": {
+      "es": "Límite de crédito",
+      "en": "Credit limit",
+      "pt": "Limite de crédito"
+    }
+  },
+  "XBLOCKED": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Bloqueado",
+      "en": "Blocked",
+      "pt": "Bloqueado"
+    }
+  },
+  "BLOCK_REASON": {
+    "type": "CHAR 2",
+    "label": {
+      "es": "Motivo de bloqueo",
+      "en": "Block reason",
+      "pt": "Motivo de bloqueio"
+    }
+  },
+  "LIMIT_VALID_DATE": {
+    "type": "DATS 8",
+    "label": {
+      "es": "Límite válido hasta",
+      "en": "Limit valid to",
+      "pt": "Limite válido até"
+    }
+  },
+  "COORDINATOR": {
+    "type": "CHAR 12",
+    "label": {
+      "es": "Coordinador",
+      "en": "Coordinator",
+      "pt": "Coordenador"
+    }
+  },
+  "XCRITICAL": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Indicador crítico",
+      "en": "Critical indicator",
+      "pt": "Indicador crítico"
+    }
+  },
+  "FOLLOW_UP_DT": {
+    "type": "DATS 8",
+    "label": {
+      "es": "Fecha de seguimiento",
+      "en": "Follow-up date",
+      "pt": "Data de acompanhamento"
+    }
+  },
+  "CRED_LIM_CALC": {
+    "type": "CURR 15,2",
+    "label": {
+      "es": "Límite de crédito calculado",
+      "en": "Calculated credit limit",
+      "pt": "Limite de crédito calculado"
+    }
+  },
+  "CREDIT_SGMNT_TXT": {
+    "type": "CHAR 50",
+    "label": {
+      "es": "Nombre del segmento de crédito",
+      "en": "Credit segment name",
+      "pt": "Nome do segmento de crédito"
+    }
+  },
+  "COMM_TYP": {
+    "type": "CHAR 3",
+    "label": {
+      "es": "Tipo de compromiso",
+      "en": "Commitment type",
+      "pt": "Tipo de compromisso"
+    }
+  },
+  "AMOUNT": {
+    "type": "CURR 15,2",
+    "label": {
+      "es": "Importe",
+      "en": "Amount",
+      "pt": "Montante"
+    }
+  },
+  "XZUGA": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Indicador de entrada",
+      "en": "Receipt indicator",
+      "pt": "Indicador de entrada"
+    }
+  },
+  "AUFPS": {
+    "type": "NUMC 4",
+    "label": {
+      "es": "Posición de la orden",
+      "en": "Order item",
+      "pt": "Item da ordem"
+    }
+  },
+  "KDPOS": {
+    "type": "NUMC 6",
+    "label": {
+      "es": "Posición del pedido de cliente",
+      "en": "Sales order item",
+      "pt": "Item da ordem de venda"
+    }
+  },
+  "IVNUM": {
+    "type": "CHAR 10",
+    "label": {
+      "es": "Documento de inventario WM",
+      "en": "WM inventory document",
+      "pt": "Documento de inventário WM"
+    }
+  },
+  "PDATU": {
+    "type": "DATS 8",
+    "label": {
+      "es": "Fecha planificada del inventario",
+      "en": "Planned inventory date",
+      "pt": "Data planejada do inventário"
+    }
+  },
+  "UNAME": {
+    "type": "CHAR 12",
+    "label": {
+      "es": "Usuario",
+      "en": "User",
+      "pt": "Usuário"
+    }
+  },
+  "IVPOS": {
+    "type": "NUMC 4",
+    "label": {
+      "es": "Posición del inventario WM",
+      "en": "WM inventory item",
+      "pt": "Item do inventário WM"
+    }
+  },
+  "IDATU": {
+    "type": "DATS 8",
+    "label": {
+      "es": "Fecha de recuento",
+      "en": "Count date",
+      "pt": "Data de contagem"
+    }
+  },
+  "ANZLE": {
+    "type": "DEC 9,3",
+    "label": {
+      "es": "Número de unidades de almacén",
+      "en": "Number of storage units",
+      "pt": "Número de unidades de depósito"
+    }
+  },
+  "NANUM": {
+    "type": "NUMC 2",
+    "label": {
+      "es": "Número de recuento",
+      "en": "Recount number",
+      "pt": "Número de recontagem"
+    }
+  },
+  "UBNUM": {
+    "type": "NUMC 10",
+    "label": {
+      "es": "Aviso de traspaso",
+      "en": "Posting change notice",
+      "pt": "Aviso de transferência"
+    }
+  },
+  "MATN1": {
+    "type": "CHAR 18",
+    "label": {
+      "es": "Material de origen",
+      "en": "Source material",
+      "pt": "Material de origem"
+    }
+  },
+  "WERK1": {
+    "type": "CHAR 4",
+    "label": {
+      "es": "Centro de origen",
+      "en": "Source plant",
+      "pt": "Centro de origem"
+    }
+  },
+  "MTXID": {
+    "type": "CHAR 2",
+    "label": {
+      "es": "Tipo de texto",
+      "en": "Text type",
+      "pt": "Tipo de texto"
+    }
+  },
+  "MAKTM": {
+    "type": "CHAR 40",
+    "label": {
+      "es": "Texto del material por unidad",
+      "en": "Material text per unit",
+      "pt": "Texto do material por unidade"
+    }
+  },
+  "PNUM1": {
+    "type": "NUMC 10",
+    "label": {
+      "es": "Puntero de pronóstico",
+      "en": "Forecast pointer",
+      "pt": "Ponteiro de previsão"
+    }
+  },
+  "PERKZ": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Indicador de periodo",
+      "en": "Period indicator",
+      "pt": "Indicador de período"
+    }
+  },
+  "SALAB": {
+    "type": "QUAN 13,3",
+    "label": {
+      "es": "Stock de libre utilización",
+      "en": "Unrestricted stock",
+      "pt": "Estoque de utilização livre"
+    }
+  },
+  "SAINS": {
+    "type": "QUAN 13,3",
+    "label": {
+      "es": "Stock en control de calidad",
+      "en": "Stock in quality inspection",
+      "pt": "Estoque em controle de qualidade"
+    }
+  },
+  "SASPE": {
+    "type": "QUAN 13,3",
+    "label": {
+      "es": "Stock bloqueado",
+      "en": "Blocked stock",
+      "pt": "Estoque bloqueado"
+    }
+  },
+  "SAEIN": {
+    "type": "QUAN 13,3",
+    "label": {
+      "es": "Stock de utilización restringida",
+      "en": "Restricted-use stock",
+      "pt": "Estoque de utilização restrita"
+    }
+  },
+  "SATRA": {
+    "type": "QUAN 13,3",
+    "label": {
+      "es": "Stock en tránsito",
+      "en": "Stock in transit",
+      "pt": "Estoque em trânsito"
+    }
+  },
+  "SLLAB": {
+    "type": "QUAN 13,3",
+    "label": {
+      "es": "Stock de libre utilización",
+      "en": "Unrestricted stock",
+      "pt": "Estoque de utilização livre"
+    }
+  },
+  "SLINS": {
+    "type": "QUAN 13,3",
+    "label": {
+      "es": "Stock en control de calidad",
+      "en": "Stock in quality inspection",
+      "pt": "Estoque em controle de qualidade"
+    }
+  },
+  "SLEIN": {
+    "type": "QUAN 13,3",
+    "label": {
+      "es": "Stock de utilización restringida",
+      "en": "Restricted-use stock",
+      "pt": "Estoque de utilização restrita"
+    }
+  },
+  "SLUML": {
+    "type": "QUAN 13,3",
+    "label": {
+      "es": "Stock en traslado",
+      "en": "Stock in transfer",
+      "pt": "Estoque em transferência"
+    }
+  },
+  "SQLAB": {
+    "type": "QUAN 13,3",
+    "label": {
+      "es": "Stock de libre utilización",
+      "en": "Unrestricted stock",
+      "pt": "Estoque de utilização livre"
+    }
+  },
+  "SQINS": {
+    "type": "QUAN 13,3",
+    "label": {
+      "es": "Stock en control de calidad",
+      "en": "Stock in quality inspection",
+      "pt": "Estoque em controle de qualidade"
+    }
+  },
+  "SQSPE": {
+    "type": "QUAN 13,3",
+    "label": {
+      "es": "Stock bloqueado",
+      "en": "Blocked stock",
+      "pt": "Estoque bloqueado"
+    }
+  },
+  "SQEIN": {
+    "type": "QUAN 13,3",
+    "label": {
+      "es": "Stock de utilización restringida",
+      "en": "Restricted-use stock",
+      "pt": "Estoque de utilização restrita"
+    }
+  },
+  "SQTRA": {
+    "type": "QUAN 13,3",
+    "label": {
+      "es": "Stock en tránsito",
+      "en": "Stock in transit",
+      "pt": "Estoque em trânsito"
+    }
+  },
+  "ZAHLR": {
+    "type": "NUMC 2",
+    "label": {
+      "es": "Contador de registro",
+      "en": "Record counter",
+      "pt": "Contador de registro"
+    }
+  },
+  "GSV01": {
+    "type": "QUAN 13,3",
+    "label": {
+      "es": "Consumo total, periodo 1",
+      "en": "Total consumption, period 1",
+      "pt": "Consumo total, período 1"
+    }
+  },
+  "GSV02": {
+    "type": "QUAN 13,3",
+    "label": {
+      "es": "Consumo total, periodo 2",
+      "en": "Total consumption, period 2",
+      "pt": "Consumo total, período 2"
+    }
+  },
+  "GSV03": {
+    "type": "QUAN 13,3",
+    "label": {
+      "es": "Consumo total, periodo 3",
+      "en": "Total consumption, period 3",
+      "pt": "Consumo total, período 3"
+    }
+  },
+  "GSV04": {
+    "type": "QUAN 13,3",
+    "label": {
+      "es": "Consumo total, periodo 4",
+      "en": "Total consumption, period 4",
+      "pt": "Consumo total, período 4"
+    }
+  },
+  "GSV05": {
+    "type": "QUAN 13,3",
+    "label": {
+      "es": "Consumo total, periodo 5",
+      "en": "Total consumption, period 5",
+      "pt": "Consumo total, período 5"
+    }
+  },
+  "GSV06": {
+    "type": "QUAN 13,3",
+    "label": {
+      "es": "Consumo total, periodo 6",
+      "en": "Total consumption, period 6",
+      "pt": "Consumo total, período 6"
+    }
+  },
+  "GSV07": {
+    "type": "QUAN 13,3",
+    "label": {
+      "es": "Consumo total, periodo 7",
+      "en": "Total consumption, period 7",
+      "pt": "Consumo total, período 7"
+    }
+  },
+  "GSV08": {
+    "type": "QUAN 13,3",
+    "label": {
+      "es": "Consumo total, periodo 8",
+      "en": "Total consumption, period 8",
+      "pt": "Consumo total, período 8"
+    }
+  },
+  "GSV09": {
+    "type": "QUAN 13,3",
+    "label": {
+      "es": "Consumo total, periodo 9",
+      "en": "Total consumption, period 9",
+      "pt": "Consumo total, período 9"
+    }
+  },
+  "GSV10": {
+    "type": "QUAN 13,3",
+    "label": {
+      "es": "Consumo total, periodo 10",
+      "en": "Total consumption, period 10",
+      "pt": "Consumo total, período 10"
+    }
+  },
+  "PACKNR": {
+    "type": "CHAR 22",
+    "label": {
+      "es": "Instrucción de embalaje (interno)",
+      "en": "Packing instruction (internal)",
+      "pt": "Instrução de embalagem (interno)"
+    }
+  },
+  "HDCOUNT": {
+    "type": "NUMC 8",
+    "label": {
+      "es": "Contador de cabecera",
+      "en": "Header counter",
+      "pt": "Contador de cabeçalho"
+    }
+  },
+  "POBJID": {
+    "type": "CHAR 20",
+    "label": {
+      "es": "Identificación de la instrucción de embalaje",
+      "en": "Packing instruction ID",
+      "pt": "Identificação da instrução de embalagem"
+    }
+  },
+  "HEIGHT": {
+    "type": "QUAN 13,3",
+    "label": {
+      "es": "Altura",
+      "en": "Height",
+      "pt": "Altura"
+    }
+  },
+  "WIDTH": {
+    "type": "QUAN 13,3",
+    "label": {
+      "es": "Ancho",
+      "en": "Width",
+      "pt": "Largura"
+    }
+  },
+  "LENGTH": {
+    "type": "QUAN 13,3",
+    "label": {
+      "es": "Longitud",
+      "en": "Length",
+      "pt": "Comprimento"
+    }
+  },
+  "UNITDIM": {
+    "type": "UNIT 3",
+    "label": {
+      "es": "Unidad de dimensión",
+      "en": "Dimension unit",
+      "pt": "Unidade de dimensão"
+    }
+  },
+  "TOTLWEI": {
+    "type": "QUAN 15,3",
+    "label": {
+      "es": "Peso total",
+      "en": "Total weight",
+      "pt": "Peso total"
+    }
+  },
+  "UNITWEI": {
+    "type": "UNIT 3",
+    "label": {
+      "es": "Unidad de peso",
+      "en": "Weight unit",
+      "pt": "Unidade de peso"
+    }
+  },
+  "TOTLVOL": {
+    "type": "QUAN 15,3",
+    "label": {
+      "es": "Volumen total",
+      "en": "Total volume",
+      "pt": "Volume total"
+    }
+  },
+  "UNITVOL": {
+    "type": "UNIT 3",
+    "label": {
+      "es": "Unidad de volumen",
+      "en": "Volume unit",
+      "pt": "Unidade de volume"
+    }
+  },
+  "CRNAM": {
+    "type": "CHAR 12",
+    "label": {
+      "es": "Creado por",
+      "en": "Created by",
+      "pt": "Criado por"
+    }
+  },
+  "PACKITEMID": {
+    "type": "CHAR 22",
+    "label": {
+      "es": "Posición de embalaje (interno)",
+      "en": "Packing item (internal)",
+      "pt": "Item de embalagem (interno)"
+    }
+  },
+  "ITCOUNT": {
+    "type": "NUMC 8",
+    "label": {
+      "es": "Contador de posición",
+      "en": "Item counter",
+      "pt": "Contador de item"
+    }
+  },
+  "PACKITEM": {
+    "type": "NUMC 6",
+    "label": {
+      "es": "Posición de la instrucción de embalaje",
+      "en": "Packing instruction item",
+      "pt": "Item da instrução de embalagem"
+    }
+  },
+  "PAITEMTYPE": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Tipo de posición de embalaje",
+      "en": "Packing item type",
+      "pt": "Tipo de item de embalagem"
+    }
+  },
+  "SUBPACKNR": {
+    "type": "CHAR 22",
+    "label": {
+      "es": "Instrucción de embalaje subordinada",
+      "en": "Subordinate packing instruction",
+      "pt": "Instrução de embalagem subordinada"
+    }
+  },
+  "TRGQTY": {
+    "type": "QUAN 15,3",
+    "label": {
+      "es": "Cantidad objetivo",
+      "en": "Target quantity",
+      "pt": "Quantidade objetivo"
+    }
+  },
+  "MINQTY": {
+    "type": "QUAN 15,3",
+    "label": {
+      "es": "Cantidad mínima",
+      "en": "Minimum quantity",
+      "pt": "Quantidade mínima"
+    }
+  },
+  "RNDQTY": {
+    "type": "QUAN 15,3",
+    "label": {
+      "es": "Cantidad de redondeo",
+      "en": "Rounding quantity",
+      "pt": "Quantidade de arredondamento"
+    }
+  },
+  "BASEUNIT": {
+    "type": "UNIT 3",
+    "label": {
+      "es": "Unidad de medida base",
+      "en": "Base unit of measure",
+      "pt": "Unidade de medida básica"
+    }
+  },
+  "UNITQTY": {
+    "type": "UNIT 3",
+    "label": {
+      "es": "Unidad de cantidad",
+      "en": "Quantity unit",
+      "pt": "Unidade de quantidade"
+    }
+  },
+  "PNUM2": {
+    "type": "NUMC 10",
+    "label": {
+      "es": "Puntero de valores de pronóstico",
+      "en": "Forecast values pointer",
+      "pt": "Ponteiro de valores de previsão"
+    }
+  },
+  "ERTAG": {
+    "type": "DATS 8",
+    "label": {
+      "es": "Primer día del periodo",
+      "en": "First day of period",
+      "pt": "Primeiro dia do período"
+    }
+  },
+  "PRWRT": {
+    "type": "QUAN 13,3",
+    "label": {
+      "es": "Valor de pronóstico",
+      "en": "Forecast value",
+      "pt": "Valor de previsão"
+    }
+  },
+  "KOPRW": {
+    "type": "QUAN 13,3",
+    "label": {
+      "es": "Valor de pronóstico corregido",
+      "en": "Corrected forecast value",
+      "pt": "Valor de previsão corrigido"
+    }
+  },
+  "FIXKZ": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Indicador de valor fijado",
+      "en": "Fixed value indicator",
+      "pt": "Indicador de valor fixado"
+    }
+  },
+  "BASME": {
+    "type": "UNIT 3",
+    "label": {
+      "es": "Unidad de medida base",
+      "en": "Base unit of measure",
+      "pt": "Unidade de medida básica"
+    }
+  },
+  "MZUBB": {
+    "type": "QUAN 15,3",
+    "label": {
+      "es": "Cantidad de entradas en stock valorado",
+      "en": "Receipt quantity, valuated stock",
+      "pt": "Quantidade de entradas em estoque avaliado"
+    }
+  },
+  "WZUBB": {
+    "type": "CURR 15,2",
+    "label": {
+      "es": "Valor de entradas en stock valorado",
+      "en": "Receipt value, valuated stock",
+      "pt": "Valor de entradas em estoque avaliado"
+    }
+  },
+  "MAGBB": {
+    "type": "QUAN 15,3",
+    "label": {
+      "es": "Cantidad de salidas de stock valorado",
+      "en": "Issue quantity, valuated stock",
+      "pt": "Quantidade de saídas do estoque avaliado"
+    }
+  },
+  "WAGBB": {
+    "type": "CURR 15,2",
+    "label": {
+      "es": "Valor de salidas de stock valorado",
+      "en": "Issue value, valuated stock",
+      "pt": "Valor de saídas do estoque avaliado"
+    }
+  },
+  "MGVBR": {
+    "type": "QUAN 15,3",
+    "label": {
+      "es": "Cantidad de consumo total",
+      "en": "Total consumption quantity",
+      "pt": "Quantidade de consumo total"
+    }
+  },
+  "WGVBR": {
+    "type": "CURR 15,2",
+    "label": {
+      "es": "Valor de consumo total",
+      "en": "Total consumption value",
+      "pt": "Valor de consumo total"
+    }
+  },
+  "MBWBEST": {
+    "type": "QUAN 15,3",
+    "label": {
+      "es": "Cantidad de stock valorado",
+      "en": "Valuated stock quantity",
+      "pt": "Quantidade de estoque avaliado"
+    }
+  },
+  "WBWBEST": {
+    "type": "CURR 15,2",
+    "label": {
+      "es": "Valor de stock valorado",
+      "en": "Valuated stock value",
+      "pt": "Valor do estoque avaliado"
+    }
+  },
+  "MKOBEST": {
+    "type": "QUAN 15,3",
+    "label": {
+      "es": "Cantidad de stock en consignación",
+      "en": "Consignment stock quantity",
+      "pt": "Quantidade de estoque em consignação"
+    }
+  },
+  "LETZTZUG": {
+    "type": "DATS 8",
+    "label": {
+      "es": "Fecha de última entrada",
+      "en": "Last receipt date",
+      "pt": "Data da última entrada"
+    }
+  },
+  "LETZTABG": {
+    "type": "DATS 8",
+    "label": {
+      "es": "Fecha de última salida",
+      "en": "Last issue date",
+      "pt": "Data da última saída"
+    }
+  },
+  "LETZTVER": {
+    "type": "DATS 8",
+    "label": {
+      "es": "Fecha de último consumo",
+      "en": "Last consumption date",
+      "pt": "Data do último consumo"
+    }
+  },
+  "LBTXT": {
+    "type": "CHAR 30",
+    "label": {
+      "es": "Descripción del laboratorio",
+      "en": "Laboratory description",
+      "pt": "Descrição do laboratório"
+    }
+  },
+  "DEINK": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Bloqueo en compras",
+      "en": "Purchasing block",
+      "pt": "Bloqueio em compras"
+    }
+  },
+  "DSTLK": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Bloqueo en cabecera de lista de materiales",
+      "en": "BOM header block",
+      "pt": "Bloqueio no cabeçalho da lista técnica"
+    }
+  },
+  "DAPLA": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Bloqueo en hojas de ruta",
+      "en": "Routing block",
+      "pt": "Bloqueio em roteiros"
+    }
+  },
+  "DDISP": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Bloqueo en planificación de necesidades",
+      "en": "MRP block",
+      "pt": "Bloqueio no MRP"
+    }
+  },
+  "DFAKO": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Bloqueo en cabecera de orden de fabricación",
+      "en": "Production order header block",
+      "pt": "Bloqueio no cabeçalho da ordem de produção"
+    }
+  },
+  "DBEST": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Bloqueo en gestión de stocks",
+      "en": "Inventory management block",
+      "pt": "Bloqueio na gestão de estoques"
+    }
+  },
+  "DPROG": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Bloqueo en pronóstico",
+      "en": "Forecasting block",
+      "pt": "Bloqueio na previsão"
+    }
+  },
+  "DERZK": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Bloqueo en cálculo de costes",
+      "en": "Costing block",
+      "pt": "Bloqueio no cálculo de custos"
+    }
+  },
+  "RAUBE": {
+    "type": "CHAR 2",
+    "label": {
+      "es": "Condición de almacenaje",
+      "en": "Storage condition",
+      "pt": "Condição de armazenagem"
+    }
+  },
+  "RBTXT": {
+    "type": "CHAR 20",
+    "label": {
+      "es": "Descripción de la condición de almacenaje",
+      "en": "Storage condition description",
+      "pt": "Descrição da condição de armazenagem"
+    }
+  },
+  "TEMPB": {
+    "type": "CHAR 2",
+    "label": {
+      "es": "Condición de temperatura",
+      "en": "Temperature condition",
+      "pt": "Condição de temperatura"
+    }
+  },
+  "TBTXT": {
+    "type": "CHAR 20",
+    "label": {
+      "es": "Descripción de la condición de temperatura",
+      "en": "Temperature condition description",
+      "pt": "Descrição da condição de temperatura"
+    }
+  },
+  "BEHVO": {
+    "type": "CHAR 2",
+    "label": {
+      "es": "Requisito de contenedor",
+      "en": "Container requirement",
+      "pt": "Requisito de contêiner"
+    }
+  },
+  "BVTXT": {
+    "type": "CHAR 20",
+    "label": {
+      "es": "Descripción del requisito de contenedor",
+      "en": "Container requirement description",
+      "pt": "Descrição do requisito de contêiner"
+    }
+  },
+  "SOTXT": {
+    "type": "CHAR 20",
+    "label": {
+      "es": "Descripción del stock especial",
+      "en": "Special stock description",
+      "pt": "Descrição do estoque especial"
+    }
+  },
+  "BSEXT": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Permitido en compras externas",
+      "en": "Allowed for external procurement",
+      "pt": "Permitido em compras externas"
+    }
+  },
+  "BSINT": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Permitido en producción interna",
+      "en": "Allowed for in-house production",
+      "pt": "Permitido em produção interna"
+    }
+  },
+  "XSTBW": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Movimiento de anulación",
+      "en": "Reversal movement",
+      "pt": "Movimento de estorno"
+    }
+  },
+  "KZGRU": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Control del motivo de movimiento",
+      "en": "Movement reason control",
+      "pt": "Controle do motivo do movimento"
+    }
+  },
+  "PTYPT": {
+    "type": "CHAR 20",
+    "label": {
+      "es": "Descripción del tipo de ubicación",
+      "en": "Bin type description",
+      "pt": "Descrição do tipo de posição"
+    }
+  },
+  "KKAPV": {
+    "type": "DEC 11,3",
+    "label": {
+      "es": "Consumo de capacidad",
+      "en": "Capacity usage",
+      "pt": "Consumo de capacidade"
+    }
+  },
+  "LETYT": {
+    "type": "CHAR 20",
+    "label": {
+      "es": "Descripción del tipo de unidad de almacén",
+      "en": "Storage unit type description",
+      "pt": "Descrição do tipo de unidade de depósito"
+    }
+  },
+  "KOBER": {
+    "type": "CHAR 3",
+    "label": {
+      "es": "Área de picking",
+      "en": "Picking area",
+      "pt": "Área de picking"
+    }
+  },
+  "LDEST": {
+    "type": "CHAR 4",
+    "label": {
+      "es": "Impresora",
+      "en": "Printer",
+      "pt": "Impressora"
+    }
+  },
+  "KBERT": {
+    "type": "CHAR 25",
+    "label": {
+      "es": "Descripción del área de picking",
+      "en": "Picking area description",
+      "pt": "Descrição da área de picking"
+    }
+  },
+  "STEIN": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Estrategia de entrada en almacén",
+      "en": "Putaway strategy",
+      "pt": "Estratégia de entrada no depósito"
+    }
+  },
+  "STAUS": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Estrategia de salida de almacén",
+      "en": "Stock removal strategy",
+      "pt": "Estratégia de retirada do depósito"
+    }
+  },
+  "QUEIN": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Confirmación obligatoria en entrada",
+      "en": "Confirmation required for putaway",
+      "pt": "Confirmação obrigatória na entrada"
+    }
+  },
+  "QUAUS": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Confirmación obligatoria en salida",
+      "en": "Confirmation required for removal",
+      "pt": "Confirmação obrigatória na retirada"
+    }
+  },
+  "MISCH": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Almacenaje mixto",
+      "en": "Mixed storage",
+      "pt": "Armazenagem mista"
+    }
+  },
+  "ZULAG": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Adición a stock existente",
+      "en": "Addition to existing stock",
+      "pt": "Adição ao estoque existente"
+    }
+  },
+  "NEGAT": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Stock negativo permitido",
+      "en": "Negative stock allowed",
+      "pt": "Estoque negativo permitido"
+    }
+  },
+  "KAPAP": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Método de verificación de capacidad",
+      "en": "Capacity check method",
+      "pt": "Método de verificação de capacidade"
+    }
+  },
+  "SPEIN": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Bloqueado para entradas",
+      "en": "Blocked for putaway",
+      "pt": "Bloqueado para entradas"
+    }
+  },
+  "SPAUS": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Bloqueado para salidas",
+      "en": "Blocked for removal",
+      "pt": "Bloqueado para retiradas"
+    }
+  },
+  "TRART": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Tipo de transferencia",
+      "en": "Transfer type",
+      "pt": "Tipo de transferência"
+    }
+  },
+  "SQUIT": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Confirmación inmediata",
+      "en": "Immediate confirmation",
+      "pt": "Confirmação imediata"
+    }
+  },
+  "AUTTA": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Orden de transporte automática",
+      "en": "Automatic transfer order",
+      "pt": "Ordem de transferência automática"
+    }
+  },
+  "LBWAT": {
+    "type": "CHAR 25",
+    "label": {
+      "es": "Descripción de la clase de movimiento WM",
+      "en": "WM movement type description",
+      "pt": "Descrição do tipo de movimento WM"
+    }
+  },
+  "FTGID": {
+    "type": "CHAR 3",
+    "label": {
+      "es": "Día festivo",
+      "en": "Public holiday",
+      "pt": "Feriado"
+    }
+  },
+  "REGEL": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Regla de fecha del festivo",
+      "en": "Holiday date rule",
+      "pt": "Regra de data do feriado"
+    }
+  },
+  "MONAT": {
+    "type": "NUMC 2",
+    "label": {
+      "es": "Mes",
+      "en": "Month",
+      "pt": "Mês"
+    }
+  },
+  "WOTAG": {
+    "type": "NUMC 1",
+    "label": {
+      "es": "Día de la semana",
+      "en": "Weekday",
+      "pt": "Dia da semana"
+    }
+  },
+  "ABSTD": {
+    "type": "DEC 3",
+    "label": {
+      "es": "Días respecto a Pascua",
+      "en": "Days relative to Easter",
+      "pt": "Dias em relação à Páscoa"
+    }
+  },
+  "KONFE": {
+    "type": "CHAR 2",
+    "label": {
+      "es": "Confesión religiosa",
+      "en": "Religious denomination",
+      "pt": "Confissão religiosa"
+    }
+  },
+  "KLASS": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Clase de festivo",
+      "en": "Holiday class",
+      "pt": "Classe de feriado"
+    }
+  },
+  "IBAN": {
+    "type": "CHAR 34",
+    "label": {
+      "es": "IBAN",
+      "en": "IBAN",
+      "pt": "IBAN"
+    }
+  },
+  "NODIS": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Estado no visible",
+      "en": "Status not displayed",
+      "pt": "Status não exibido"
+    }
+  },
+  "PFLSP": {
+    "type": "LANG 1",
+    "label": {
+      "es": "Idioma de mantenimiento",
+      "en": "Maintenance language",
+      "pt": "Idioma de manutenção"
+    }
+  },
+  "INIST": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Estado inicial",
+      "en": "Initial status",
+      "pt": "Status inicial"
+    }
+  },
+  "STONR": {
+    "type": "NUMC 2",
+    "label": {
+      "es": "Número de orden del estado",
+      "en": "Status order number",
+      "pt": "Número de ordem do status"
+    }
+  },
+  "LINEP": {
+    "type": "NUMC 2",
+    "label": {
+      "es": "Posición de visualización",
+      "en": "Display position",
+      "pt": "Posição de exibição"
+    }
+  },
+  "STATP": {
+    "type": "NUMC 2",
+    "label": {
+      "es": "Prioridad del estado",
+      "en": "Status priority",
+      "pt": "Prioridade do status"
+    }
+  },
+  "BERSL": {
+    "type": "CHAR 8",
+    "label": {
+      "es": "Clave de autorización",
+      "en": "Authorization key",
+      "pt": "Chave de autorização"
+    }
+  },
+  "PGNAM": {
+    "type": "CHAR 40",
+    "label": {
+      "es": "Programa de impresión",
+      "en": "Print program",
+      "pt": "Programa de impressão"
+    }
+  },
+  "RONAM": {
+    "type": "CHAR 30",
+    "label": {
+      "es": "Rutina de impresión",
+      "en": "Print routine",
+      "pt": "Rotina de impressão"
+    }
+  },
+  "FONAM": {
+    "type": "CHAR 16",
+    "label": {
+      "es": "Formulario SAPscript",
+      "en": "SAPscript form",
+      "pt": "Formulário SAPscript"
+    }
+  },
+  "SFORM": {
+    "type": "CHAR 30",
+    "label": {
+      "es": "Formulario Smart Form",
+      "en": "Smart Form",
+      "pt": "Formulário Smart Form"
+    }
+  },
+  "PERSON": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Válido para personas",
+      "en": "Valid for persons",
+      "pt": "Válido para pessoas"
+    }
+  },
+  "ORGANIZATN": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Válido para organizaciones",
+      "en": "Valid for organizations",
+      "pt": "Válido para organizações"
+    }
+  },
+  "XGROUP": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Válido para grupos",
+      "en": "Valid for groups",
+      "pt": "Válido para grupos"
+    }
+  },
+  "SEX": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Sexo",
+      "en": "Gender",
+      "pt": "Sexo"
+    }
+  },
+  "MAGRV": {
+    "type": "CHAR 4",
+    "label": {
+      "es": "Grupo de materiales de embalaje",
+      "en": "Packaging material group",
+      "pt": "Grupo de materiais de embalagem"
+    }
+  },
+  "EXTWG": {
+    "type": "CHAR 18",
+    "label": {
+      "es": "Grupo de artículos externo",
+      "en": "External material group",
+      "pt": "Grupo de mercadorias externo"
+    }
+  },
+  "EWBEZ": {
+    "type": "CHAR 20",
+    "label": {
+      "es": "Descripción del grupo de artículos externo",
+      "en": "External material group description",
+      "pt": "Descrição do grupo de mercadorias externo"
+    }
+  },
+  "PZLFH": {
+    "type": "NUMC 8",
+    "label": {
+      "es": "Contador de medio auxiliar",
+      "en": "Production resource counter",
+      "pt": "Contador de recurso de produção"
+    }
+  },
+  "PSNFH": {
+    "type": "NUMC 4",
+    "label": {
+      "es": "Posición del medio auxiliar",
+      "en": "Production resource item",
+      "pt": "Item do recurso de produção"
+    }
+  },
+  "STEUF": {
+    "type": "CHAR 4",
+    "label": {
+      "es": "Clave de control del medio auxiliar",
+      "en": "Production resource control key",
+      "pt": "Chave de controle do recurso"
+    }
+  },
+  "MGSOL": {
+    "type": "QUAN 9,3",
+    "label": {
+      "es": "Cantidad planificada",
+      "en": "Planned quantity",
+      "pt": "Quantidade planejada"
+    }
+  },
+  "MGIST": {
+    "type": "QUAN 9,3",
+    "label": {
+      "es": "Cantidad real",
+      "en": "Actual quantity",
+      "pt": "Quantidade real"
+    }
+  },
+  "MGEINH": {
+    "type": "UNIT 3",
+    "label": {
+      "es": "Unidad de cantidad",
+      "en": "Quantity unit",
+      "pt": "Unidade de quantidade"
+    }
+  },
+  "TXTZ1": {
+    "type": "CHAR 40",
+    "label": {
+      "es": "Texto breve",
+      "en": "Short text",
+      "pt": "Texto breve"
+    }
+  },
+  "WEBLNR": {
+    "type": "CHAR 10",
+    "label": {
+      "es": "Número de movimiento de mercancías",
+      "en": "Goods movement number",
+      "pt": "Número do movimento de mercadorias"
+    }
+  },
+  "WEBLPOS": {
+    "type": "NUMC 8",
+    "label": {
+      "es": "Posición del movimiento",
+      "en": "Movement item",
+      "pt": "Item do movimento"
+    }
+  },
+  "ERFMG": {
+    "type": "QUAN 13,3",
+    "label": {
+      "es": "Cantidad en unidad de entrada",
+      "en": "Quantity in entry unit",
+      "pt": "Quantidade na unidade de entrada"
+    }
+  },
+  "ERFME": {
+    "type": "UNIT 3",
+    "label": {
+      "es": "Unidad de entrada",
+      "en": "Entry unit",
+      "pt": "Unidade de entrada"
+    }
+  },
+  "PSMNG": {
+    "type": "QUAN 13,3",
+    "label": {
+      "es": "Cantidad de la orden",
+      "en": "Order quantity",
+      "pt": "Quantidade da ordem"
+    }
+  },
+  "DGLTP": {
+    "type": "DATS 8",
+    "label": {
+      "es": "Fecha de fin planificada",
+      "en": "Planned finish date",
+      "pt": "Data de término planejada"
+    }
+  },
+  "LTRMI": {
+    "type": "DATS 8",
+    "label": {
+      "es": "Fecha de entrega real",
+      "en": "Actual delivery date",
+      "pt": "Data de entrega real"
+    }
+  },
+  "MGANR": {
+    "type": "CHAR 20",
+    "label": {
+      "es": "Garantía maestra",
+      "en": "Master warranty",
+      "pt": "Garantia mestre"
+    }
+  },
+  "GAART": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Tipo de garantía",
+      "en": "Warranty type",
+      "pt": "Tipo de garantia"
+    }
+  },
+  "POSNM": {
+    "type": "NUMC 6",
+    "label": {
+      "es": "Número de posición",
+      "en": "Item number",
+      "pt": "Número do item"
+    }
+  },
+  "LSTNR": {
+    "type": "CHAR 18",
+    "label": {
+      "es": "Número de servicio",
+      "en": "Service number",
+      "pt": "Número do serviço"
+    }
+  },
+  "INEXCL": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Inclusión o exclusión",
+      "en": "Inclusion or exclusion",
+      "pt": "Inclusão ou exclusão"
+    }
+  },
+  "CANUM": {
+    "type": "NUMC 4",
+    "label": {
+      "es": "Contador de capacidad",
+      "en": "Capacity counter",
+      "pt": "Contador de capacidade"
+    }
+  },
+  "FORK1": {
+    "type": "CHAR 6",
+    "label": {
+      "es": "Fórmula de preparación",
+      "en": "Setup formula",
+      "pt": "Fórmula de preparação"
+    }
+  },
+  "FORK2": {
+    "type": "CHAR 6",
+    "label": {
+      "es": "Fórmula de ejecución",
+      "en": "Processing formula",
+      "pt": "Fórmula de processamento"
+    }
+  },
+  "FORK3": {
+    "type": "CHAR 6",
+    "label": {
+      "es": "Fórmula de desmontaje",
+      "en": "Teardown formula",
+      "pt": "Fórmula de desmontagem"
+    }
+  },
+  "LASET": {
+    "type": "CHAR 6",
+    "label": {
+      "es": "Conjunto de actividades",
+      "en": "Activity set",
+      "pt": "Conjunto de atividades"
+    }
+  },
+  "LANUM": {
+    "type": "NUMC 4",
+    "label": {
+      "es": "Contador de actividad",
+      "en": "Activity counter",
+      "pt": "Contador de atividade"
+    }
+  },
+  "FORML": {
+    "type": "CHAR 6",
+    "label": {
+      "es": "Fórmula",
+      "en": "Formula",
+      "pt": "Fórmula"
+    }
+  },
+  "FHMAR": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Categoría de medio auxiliar",
+      "en": "Production resource category",
+      "pt": "Categoria de recurso de produção"
+    }
+  },
+  "BASEH": {
+    "type": "UNIT 3",
+    "label": {
+      "es": "Unidad base",
+      "en": "Base unit",
+      "pt": "Unidade base"
+    }
+  },
+  "DISST": {
+    "type": "CHAR 3",
+    "label": {
+      "es": "Código de nivel inferior",
+      "en": "Low-level code",
+      "pt": "Código de nível inferior"
+    }
+  },
+  "GSAEN": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Marca de cambio (planificación total)",
+      "en": "Change flag (total planning)",
+      "pt": "Marca de alteração (planejamento total)"
+    }
+  },
+  "AKKEN": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Marca de cambio (horizonte)",
+      "en": "Change flag (planning horizon)",
+      "pt": "Marca de alteração (horizonte)"
+    }
+  },
+  "RESDT": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Restablecer propuestas",
+      "en": "Reset proposals",
+      "pt": "Redefinir propostas"
+    }
+  },
+  "ALKEY": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Sistema de etiquetado",
+      "en": "Labeling system",
+      "pt": "Sistema de rotulagem"
+    }
+  },
+  "STRNO": {
+    "type": "CHAR 40",
+    "label": {
+      "es": "Etiqueta de ubicación técnica",
+      "en": "Functional location label",
+      "pt": "Rótulo do local de instalação"
+    }
+  },
+  "ACTVS": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Etiqueta activa",
+      "en": "Active label",
+      "pt": "Rótulo ativo"
+    }
+  },
+  "PRKEY": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Etiqueta principal",
+      "en": "Primary label",
+      "pt": "Rótulo principal"
+    }
+  },
+  "TRPNR": {
+    "type": "CHAR 30",
+    "label": {
+      "es": "Ubicación técnica de referencia",
+      "en": "Reference functional location",
+      "pt": "Local de instalação de referência"
+    }
+  },
+  "TRPMA": {
+    "type": "CHAR 30",
+    "label": {
+      "es": "Ubicación de referencia superior",
+      "en": "Superior reference location",
+      "pt": "Local de referência superior"
+    }
+  },
+  "DATUB": {
+    "type": "DATS 8",
+    "label": {
+      "es": "Válido hasta",
+      "en": "Valid to",
+      "pt": "Válido até"
+    }
+  },
+  "TAGNR": {
+    "type": "NUMC 3",
+    "label": {
+      "es": "Día del ciclo",
+      "en": "Day in cycle",
+      "pt": "Dia do ciclo"
+    }
+  },
+  "SCHNR": {
+    "type": "NUMC 1",
+    "label": {
+      "es": "Número de turno",
+      "en": "Shift number",
+      "pt": "Número do turno"
+    }
+  },
+  "PAUSE": {
+    "type": "INT4 10",
+    "label": {
+      "es": "Duración de pausas",
+      "en": "Break time",
+      "pt": "Tempo de pausa"
+    }
+  },
+  "NGRAD": {
+    "type": "NUMC 3",
+    "label": {
+      "es": "Grado de utilización",
+      "en": "Utilization rate",
+      "pt": "Grau de utilização"
+    }
+  },
+  "ANZHL": {
+    "type": "INT2 5",
+    "label": {
+      "es": "Número de capacidades individuales",
+      "en": "Number of individual capacities",
+      "pt": "Número de capacidades individuais"
+    }
+  },
+  "ANZSH": {
+    "type": "NUMC 1",
+    "label": {
+      "es": "Número de turnos",
+      "en": "Number of shifts",
+      "pt": "Número de turnos"
+    }
+  },
+  "ANZTG": {
+    "type": "NUMC 2",
+    "label": {
+      "es": "Días del ciclo",
+      "en": "Days in cycle",
+      "pt": "Dias do ciclo"
+    }
+  },
+  "BEDID": {
+    "type": "NUMC 12",
+    "label": {
+      "es": "ID de necesidad de capacidad",
+      "en": "Capacity requirement ID",
+      "pt": "ID da necessidade de capacidade"
+    }
+  },
+  "BEDZL": {
+    "type": "NUMC 8",
+    "label": {
+      "es": "Contador de necesidad de capacidad",
+      "en": "Capacity requirement counter",
+      "pt": "Contador da necessidade de capacidade"
+    }
+  },
+  "KBEASOLL": {
+    "type": "FLTP 16",
+    "label": {
+      "es": "Necesidad de ejecución planificada",
+      "en": "Planned processing requirement",
+      "pt": "Necessidade de processamento planejada"
+    }
+  },
+  "KBEAREST": {
+    "type": "FLTP 16",
+    "label": {
+      "es": "Necesidad de ejecución pendiente",
+      "en": "Remaining processing requirement",
+      "pt": "Necessidade de processamento restante"
+    }
+  },
+  "KEINH": {
+    "type": "UNIT 3",
+    "label": {
+      "es": "Unidad de capacidad",
+      "en": "Capacity unit",
+      "pt": "Unidade de capacidade"
+    }
+  },
+  "FSTAD": {
+    "type": "DATS 8",
+    "label": {
+      "es": "Inicio más temprano",
+      "en": "Earliest start date",
+      "pt": "Início mais cedo"
+    }
+  },
+  "FENDD": {
+    "type": "DATS 8",
+    "label": {
+      "es": "Fin más temprano",
+      "en": "Earliest finish date",
+      "pt": "Término mais cedo"
+    }
+  },
+  "ARBEI": {
+    "type": "QUAN 7,1",
+    "label": {
+      "es": "Trabajo",
+      "en": "Work",
+      "pt": "Trabalho"
+    }
+  },
+  "ARBEH": {
+    "type": "UNIT 3",
+    "label": {
+      "es": "Unidad de trabajo",
+      "en": "Work unit",
+      "pt": "Unidade de trabalho"
+    }
+  },
+  "GSTRS": {
+    "type": "DATS 8",
+    "label": {
+      "es": "Fecha de inicio programada",
+      "en": "Scheduled start date",
+      "pt": "Data de início programada"
+    }
+  },
+  "GLTRS": {
+    "type": "DATS 8",
+    "label": {
+      "es": "Fecha de fin programada",
+      "en": "Scheduled finish date",
+      "pt": "Data de término programada"
+    }
+  },
+  "VBPOS": {
+    "type": "NUMC 6",
+    "label": {
+      "es": "Posición del pedido de cliente",
+      "en": "Sales order item",
+      "pt": "Item do pedido de cliente"
+    }
+  },
+  "DTART": {
+    "type": "CHAR 2",
+    "label": {
+      "es": "Tipo de lista MRP",
+      "en": "MRP list type",
+      "pt": "Tipo de lista MRP"
+    }
+  },
+  "PLSCN": {
+    "type": "NUMC 3",
+    "label": {
+      "es": "Escenario de planificación",
+      "en": "Planning scenario",
+      "pt": "Cenário de planejamento"
+    }
+  },
+  "DTNUM": {
+    "type": "NUMC 10",
+    "label": {
+      "es": "Número de lista MRP",
+      "en": "MRP list number",
+      "pt": "Número da lista MRP"
+    }
+  },
+  "DSDAT": {
+    "type": "DATS 8",
+    "label": {
+      "es": "Fecha de planificación",
+      "en": "Planning date",
+      "pt": "Data de planejamento"
+    }
+  },
+  "BERTX": {
+    "type": "CHAR 40",
+    "label": {
+      "es": "Descripción del ámbito de planificación",
+      "en": "MRP area description",
+      "pt": "Descrição da área de MRP"
+    }
+  },
+  "BERTY": {
+    "type": "NUMC 2",
+    "label": {
+      "es": "Tipo de ámbito de planificación",
+      "en": "MRP area type",
+      "pt": "Tipo de área de MRP"
+    }
+  },
+  "DTPOS": {
+    "type": "NUMC 6",
+    "label": {
+      "es": "Línea de la lista MRP",
+      "en": "MRP list line",
+      "pt": "Linha da lista MRP"
+    }
+  },
+  "DAT00": {
+    "type": "DATS 8",
+    "label": {
+      "es": "Fecha de recepción o necesidad",
+      "en": "Receipt or requirement date",
+      "pt": "Data de entrada ou necessidade"
+    }
+  },
+  "DELKZ": {
+    "type": "CHAR 2",
+    "label": {
+      "es": "Elemento MRP",
+      "en": "MRP element",
+      "pt": "Elemento MRP"
+    }
+  },
+  "DELNR": {
+    "type": "CHAR 10",
+    "label": {
+      "es": "Número de elemento MRP",
+      "en": "MRP element number",
+      "pt": "Número do elemento MRP"
+    }
+  },
+  "DELPS": {
+    "type": "NUMC 6",
+    "label": {
+      "es": "Posición del elemento MRP",
+      "en": "MRP element item",
+      "pt": "Item do elemento MRP"
+    }
+  },
+  "MNG01": {
+    "type": "QUAN 13,3",
+    "label": {
+      "es": "Cantidad de recepción o necesidad",
+      "en": "Receipt or requirement quantity",
+      "pt": "Quantidade de entrada ou necessidade"
+    }
+  },
+  "PLUMI": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Recepción o salida",
+      "en": "Receipt or issue",
+      "pt": "Entrada ou saída"
+    }
+  },
+  "MDKEY": {
+    "type": "CHAR 25",
+    "label": {
+      "es": "Clave del fichero de planificación",
+      "en": "Planning file key",
+      "pt": "Chave do arquivo de planejamento"
+    }
+  },
+  "ABNUM": {
+    "type": "INT4 10",
+    "label": {
+      "es": "Número de llamada",
+      "en": "Call number",
+      "pt": "Número de chamada"
+    }
+  },
+  "WPPOS": {
+    "type": "CHAR 16",
+    "label": {
+      "es": "Posición del plan de mantenimiento",
+      "en": "Maintenance plan item",
+      "pt": "Item do plano de manutenção"
+    }
+  },
+  "NPLDA": {
+    "type": "DATS 8",
+    "label": {
+      "es": "Fecha planificada",
+      "en": "Planned date",
+      "pt": "Data planejada"
+    }
+  },
+  "ABRUD": {
+    "type": "DATS 8",
+    "label": {
+      "es": "Fecha de llamada",
+      "en": "Call date",
+      "pt": "Data da chamada"
+    }
+  },
+  "LRMDT": {
+    "type": "DATS 8",
+    "label": {
+      "es": "Fecha de cierre",
+      "en": "Completion date",
+      "pt": "Data de conclusão"
+    }
+  },
+  "NUMMER": {
+    "type": "NUMC 2",
+    "label": {
+      "es": "Número de ciclo",
+      "en": "Cycle number",
+      "pt": "Número do ciclo"
+    }
+  },
+  "ZYKL1": {
+    "type": "FLTP 16",
+    "label": {
+      "es": "Duración del ciclo",
+      "en": "Cycle length",
+      "pt": "Duração do ciclo"
+    }
+  },
+  "ZEIEH": {
+    "type": "UNIT 3",
+    "label": {
+      "es": "Unidad del ciclo",
+      "en": "Cycle unit",
+      "pt": "Unidade do ciclo"
+    }
+  },
+  "PAK_TEXT": {
+    "type": "CHAR 30",
+    "label": {
+      "es": "Texto del ciclo",
+      "en": "Cycle text",
+      "pt": "Texto do ciclo"
+    }
+  },
+  "OFFSET": {
+    "type": "FLTP 16",
+    "label": {
+      "es": "Desplazamiento",
+      "en": "Offset",
+      "pt": "Deslocamento"
+    }
+  },
+  "INAKTIV": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Inactivo",
+      "en": "Inactive",
+      "pt": "Inativo"
+    }
+  },
+  "PLNMG": {
+    "type": "QUAN 13,3",
+    "label": {
+      "es": "Cantidad planificada",
+      "en": "Planned quantity",
+      "pt": "Quantidade planejada"
+    }
+  },
+  "ENTMG": {
+    "type": "QUAN 13,3",
+    "label": {
+      "es": "Cantidad consumida",
+      "en": "Withdrawn quantity",
+      "pt": "Quantidade consumida"
+    }
+  },
+  "PERXX": {
+    "type": "CHAR 6",
+    "label": {
+      "es": "Período",
+      "en": "Period",
+      "pt": "Período"
+    }
+  },
+  "LAEDA": {
+    "type": "DATS 8",
+    "label": {
+      "es": "Fecha de modificación",
+      "en": "Changed on",
+      "pt": "Data de modificação"
+    }
+  },
+  "PGTYP": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Tipo de grupo de productos",
+      "en": "Product group type",
+      "pt": "Tipo de grupo de produtos"
+    }
+  },
+  "PRGRP": {
+    "type": "CHAR 18",
+    "label": {
+      "es": "Grupo de productos",
+      "en": "Product group",
+      "pt": "Grupo de produtos"
+    }
+  },
+  "NRMIT": {
+    "type": "CHAR 18",
+    "label": {
+      "es": "Miembro del grupo",
+      "en": "Group member",
+      "pt": "Membro do grupo"
+    }
+  },
+  "WEMIT": {
+    "type": "CHAR 4",
+    "label": {
+      "es": "Centro del miembro",
+      "en": "Member plant",
+      "pt": "Centro do membro"
+    }
+  },
+  "VSNDA": {
+    "type": "CHAR 4",
+    "label": {
+      "es": "Versión",
+      "en": "Version",
+      "pt": "Versão"
+    }
+  },
+  "PRKOF": {
+    "type": "FLTP 16",
+    "label": {
+      "es": "Factor de proporción",
+      "en": "Proportional factor",
+      "pt": "Fator de proporção"
+    }
+  },
+  "PKNUM": {
+    "type": "CHAR 7",
+    "label": {
+      "es": "Ciclo de control",
+      "en": "Control cycle",
+      "pt": "Ciclo de controle"
+    }
+  },
+  "BEHAZ": {
+    "type": "NUMC 3",
+    "label": {
+      "es": "Número de kanbans",
+      "en": "Number of kanbans",
+      "pt": "Número de kanbans"
+    }
+  },
+  "BEHMG": {
+    "type": "QUAN 13,3",
+    "label": {
+      "es": "Cantidad por kanban",
+      "en": "Quantity per kanban",
+      "pt": "Quantidade por kanban"
+    }
+  },
+  "PKKEY": {
+    "type": "NUMC 10",
+    "label": {
+      "es": "Identificador del kanban",
+      "en": "Kanban ID",
+      "pt": "ID do kanban"
+    }
+  },
+  "PKPOS": {
+    "type": "NUMC 3",
+    "label": {
+      "es": "Posición del kanban",
+      "en": "Kanban item",
+      "pt": "Item do kanban"
+    }
+  },
+  "PKBST": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Estado del kanban",
+      "en": "Kanban status",
+      "pt": "Status do kanban"
+    }
+  },
+  "PKIMG": {
+    "type": "QUAN 13,3",
+    "label": {
+      "es": "Cantidad real del kanban",
+      "en": "Actual kanban quantity",
+      "pt": "Quantidade real do kanban"
+    }
+  },
+  "SAEDT": {
+    "type": "DATS 8",
+    "label": {
+      "es": "Fecha de cambio de estado",
+      "en": "Status change date",
+      "pt": "Data de mudança de status"
+    }
+  },
+  "PAKET": {
+    "type": "NUMC 2",
+    "label": {
+      "es": "Paquete de mantenimiento",
+      "en": "Maintenance package",
+      "pt": "Pacote de manutenção"
+    }
+  },
+  "SDAUFNR": {
+    "type": "CHAR 10",
+    "label": {
+      "es": "Documento comercial",
+      "en": "Sales document",
+      "pt": "Documento de vendas"
+    }
+  },
+  "KUNDE": {
+    "type": "CHAR 10",
+    "label": {
+      "es": "Cliente",
+      "en": "Customer",
+      "pt": "Cliente"
+    }
+  },
+  "SD_AUART": {
+    "type": "CHAR 4",
+    "label": {
+      "es": "Clase de documento de ventas",
+      "en": "Sales document type",
+      "pt": "Tipo de documento de vendas"
+    }
+  },
+  "SDAUART": {
+    "type": "CHAR 4",
+    "label": {
+      "es": "Clase de documento de ventas",
+      "en": "Sales document type",
+      "pt": "Tipo de documento de vendas"
+    }
+  },
+  "SERVICE": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Indicador de orden de servicio",
+      "en": "Service order indicator",
+      "pt": "Indicador de ordem de serviço"
+    }
+  },
+  "LEIEH": {
+    "type": "UNIT 3",
+    "label": {
+      "es": "Unidad de rendimiento",
+      "en": "Performance unit",
+      "pt": "Unidade de desempenho"
+    }
+  },
+  "TERMK": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Indicador de programación",
+      "en": "Scheduling indicator",
+      "pt": "Indicador de programação"
+    }
+  },
+  "HORIZ": {
+    "type": "NUMC 3",
+    "label": {
+      "es": "Horizonte de llamada",
+      "en": "Call horizon",
+      "pt": "Horizonte de chamada"
+    }
+  },
+  "ZYKZT": {
+    "type": "FLTP 16",
+    "label": {
+      "es": "Ciclo en tiempo",
+      "en": "Time-based cycle",
+      "pt": "Ciclo por tempo"
+    }
+  },
+  "ZYKLS": {
+    "type": "FLTP 16",
+    "label": {
+      "es": "Ciclo en rendimiento",
+      "en": "Performance-based cycle",
+      "pt": "Ciclo por desempenho"
+    }
+  },
+  "OFFZT": {
+    "type": "FLTP 16",
+    "label": {
+      "es": "Desplazamiento en tiempo",
+      "en": "Time offset",
+      "pt": "Deslocamento de tempo"
+    }
+  },
+  "HIERA": {
+    "type": "NUMC 2",
+    "label": {
+      "es": "Nivel de jerarquía",
+      "en": "Hierarchy level",
+      "pt": "Nível hierárquico"
+    }
+  },
+  "PUFFP": {
+    "type": "NUMC 3",
+    "label": {
+      "es": "Margen previo",
+      "en": "Preliminary buffer",
+      "pt": "Margem prévia"
+    }
+  },
+  "PUFFN": {
+    "type": "NUMC 3",
+    "label": {
+      "es": "Margen posterior",
+      "en": "Follow-up buffer",
+      "pt": "Margem posterior"
+    }
+  },
+  "KTEX1": {
+    "type": "CHAR 30",
+    "label": {
+      "es": "Texto del paquete",
+      "en": "Package text",
+      "pt": "Texto do pacote"
+    }
+  },
+  "KZYK1": {
+    "type": "CHAR 2",
+    "label": {
+      "es": "Abreviatura del ciclo",
+      "en": "Cycle abbreviation",
+      "pt": "Abreviação do ciclo"
+    }
+  },
+  "REVNR": {
+    "type": "CHAR 8",
+    "label": {
+      "es": "Revisión",
+      "en": "Revision",
+      "pt": "Revisão"
+    }
+  },
+  "REVTX": {
+    "type": "CHAR 40",
+    "label": {
+      "es": "Texto de la revisión",
+      "en": "Revision text",
+      "pt": "Texto da revisão"
+    }
+  },
+  "REVBD": {
+    "type": "DATS 8",
+    "label": {
+      "es": "Fecha de inicio de la revisión",
+      "en": "Revision start date",
+      "pt": "Data de início da revisão"
+    }
+  },
+  "REVED": {
+    "type": "DATS 8",
+    "label": {
+      "es": "Fecha de fin de la revisión",
+      "en": "Revision end date",
+      "pt": "Data de fim da revisão"
+    }
+  },
+  "REVTY": {
+    "type": "CHAR 2",
+    "label": {
+      "es": "Tipo de revisión",
+      "en": "Revision type",
+      "pt": "Tipo de revisão"
+    }
+  },
+  "REVAB": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Revisión cerrada",
+      "en": "Revision completed",
+      "pt": "Revisão concluída"
+    }
+  },
+  "ILATX": {
+    "type": "CHAR 30",
+    "label": {
+      "es": "Texto de la clase de actividad",
+      "en": "Activity type text",
+      "pt": "Texto do tipo de atividade"
+    }
+  },
+  "TAGBN": {
+    "type": "NUMC 2",
+    "label": {
+      "es": "Inicio relativo",
+      "en": "Relative start",
+      "pt": "Início relativo"
+    }
+  },
+  "EHTBG": {
+    "type": "UNIT 3",
+    "label": {
+      "es": "Unidad del inicio relativo",
+      "en": "Relative start unit",
+      "pt": "Unidade do início relativo"
+    }
+  },
+  "TAGEN": {
+    "type": "NUMC 2",
+    "label": {
+      "es": "Fin relativo",
+      "en": "Relative end",
+      "pt": "Fim relativo"
+    }
+  },
+  "EHTEN": {
+    "type": "UNIT 3",
+    "label": {
+      "es": "Unidad del fin relativo",
+      "en": "Relative end unit",
+      "pt": "Unidade do fim relativo"
+    }
+  },
+  "ARTPRX": {
+    "type": "CHAR 20",
+    "label": {
+      "es": "Texto del tipo de prioridad",
+      "en": "Priority type text",
+      "pt": "Texto do tipo de prioridade"
+    }
+  },
+  "FING": {
+    "type": "CHAR 14",
+    "label": {
+      "es": "Responsable",
+      "en": "Person responsible",
+      "pt": "Responsável"
+    }
+  },
+  "TELE": {
+    "type": "CHAR 12",
+    "label": {
+      "es": "Teléfono",
+      "en": "Telephone",
+      "pt": "Telefone"
+    }
+  },
+  "PARGR": {
+    "type": "CHAR 4",
+    "label": {
+      "es": "Esquema de interlocutores",
+      "en": "Partner determination procedure",
+      "pt": "Esquema de parceiros"
+    }
+  },
+  "TYPTX": {
+    "type": "CHAR 30",
+    "label": {
+      "es": "Texto de la clase",
+      "en": "Category text",
+      "pt": "Texto da categoria"
+    }
+  },
+  "EARTX": {
+    "type": "CHAR 20",
+    "label": {
+      "es": "Texto del tipo de objeto",
+      "en": "Object type text",
+      "pt": "Texto do tipo de objeto"
+    }
+  },
+  "EDITM": {
+    "type": "CHAR 40",
+    "label": {
+      "es": "Máscara de edición",
+      "en": "Edit mask",
+      "pt": "Máscara de edição"
+    }
+  },
+  "STUFM": {
+    "type": "CHAR 40",
+    "label": {
+      "es": "Niveles de jerarquía",
+      "en": "Hierarchy levels",
+      "pt": "Níveis hierárquicos"
+    }
+  },
+  "DAUNE": {
+    "type": "UNIT 3",
+    "label": {
+      "es": "Unidad de duración",
+      "en": "Duration unit",
+      "pt": "Unidade de duração"
+    }
+  },
+  "STAND": {
+    "type": "CHAR 10",
+    "label": {
+      "es": "Emplazamiento",
+      "en": "Location",
+      "pt": "Localização"
+    }
+  },
+  "ADDRNUM": {
+    "type": "CHAR 10",
+    "label": {
+      "es": "Número de dirección",
+      "en": "Address number",
+      "pt": "Número do endereço"
+    }
+  },
+  "HANDLE": {
+    "type": "CHAR 22",
+    "label": {
+      "es": "ID interno de unidad de manipulación",
+      "en": "Internal handling unit ID",
+      "pt": "ID interno da unidade de manuseio"
+    }
+  },
+  "OBJECT": {
+    "type": "CHAR 2",
+    "label": {
+      "es": "Tipo de objeto",
+      "en": "Object type",
+      "pt": "Tipo de objeto"
+    }
+  },
+  "OBJKEY": {
+    "type": "CHAR 20",
+    "label": {
+      "es": "Clave de objeto",
+      "en": "Object key",
+      "pt": "Chave do objeto"
+    }
+  },
+  "TSTAMP": {
+    "type": "DEC 15",
+    "label": {
+      "es": "Marca de tiempo",
+      "en": "Time stamp",
+      "pt": "Carimbo de data e hora"
+    }
+  },
+  "AUFPL_VOR": {
+    "type": "NUMC 10",
+    "label": {
+      "es": "Plan de operaciones predecesor",
+      "en": "Predecessor operation plan",
+      "pt": "Plano de operações predecessor"
+    }
+  },
+  "APLZL_VOR": {
+    "type": "NUMC 8",
+    "label": {
+      "es": "Operación predecesora",
+      "en": "Predecessor operation",
+      "pt": "Operação predecessora"
+    }
+  },
+  "AUFPL_NCH": {
+    "type": "NUMC 10",
+    "label": {
+      "es": "Plan de operaciones sucesor",
+      "en": "Successor operation plan",
+      "pt": "Plano de operações sucessor"
+    }
+  },
+  "APLZL_NCH": {
+    "type": "NUMC 8",
+    "label": {
+      "es": "Operación sucesora",
+      "en": "Successor operation",
+      "pt": "Operação sucessora"
+    }
+  },
+  "AOBAR": {
+    "type": "CHAR 2",
+    "label": {
+      "es": "Tipo de relación",
+      "en": "Relationship type",
+      "pt": "Tipo de relação"
+    }
+  },
+  "MIMAX": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Indicador mínimo/máximo",
+      "en": "Min/max indicator",
+      "pt": "Indicador mínimo/máximo"
+    }
+  },
+  "DAUER": {
+    "type": "QUAN 5,1",
+    "label": {
+      "es": "Duración",
+      "en": "Duration",
+      "pt": "Duração"
+    }
+  },
+  "ZEINH": {
+    "type": "UNIT 3",
+    "label": {
+      "es": "Unidad de tiempo",
+      "en": "Time unit",
+      "pt": "Unidade de tempo"
+    }
+  },
+  "KALID": {
+    "type": "CHAR 2",
+    "label": {
+      "es": "Calendario de fábrica",
+      "en": "Factory calendar",
+      "pt": "Calendário de fábrica"
+    }
+  },
+  "EXNUM": {
+    "type": "CHAR 10",
+    "label": {
+      "es": "Número de documento de comercio exterior",
+      "en": "Foreign trade document number",
+      "pt": "Número do documento de comércio exterior"
+    }
+  },
+  "EXPVZ": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Medio de transporte en frontera",
+      "en": "Mode of transport at border",
+      "pt": "Meio de transporte na fronteira"
+    }
+  },
+  "IEVER": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Medio de transporte interior",
+      "en": "Domestic mode of transport",
+      "pt": "Meio de transporte interno"
+    }
+  },
+  "ZOLLA": {
+    "type": "CHAR 6",
+    "label": {
+      "es": "Aduana de salida",
+      "en": "Customs office of exit",
+      "pt": "Alfândega de saída"
+    }
+  },
+  "ZOLLB": {
+    "type": "CHAR 6",
+    "label": {
+      "es": "Aduana de destino",
+      "en": "Customs office of destination",
+      "pt": "Alfândega de destino"
+    }
+  },
+  "GRWCU": {
+    "type": "CUKY 5",
+    "label": {
+      "es": "Moneda del valor estadístico",
+      "en": "Statistical value currency",
+      "pt": "Moeda do valor estatístico"
+    }
+  },
+  "EXPOS": {
+    "type": "NUMC 6",
+    "label": {
+      "es": "Posición de comercio exterior",
+      "en": "Foreign trade item",
+      "pt": "Item de comércio exterior"
+    }
+  },
+  "STAWN": {
+    "type": "CHAR 17",
+    "label": {
+      "es": "Código arancelario",
+      "en": "Commodity code",
+      "pt": "Código de mercadoria"
+    }
+  },
+  "HERKL": {
+    "type": "CHAR 3",
+    "label": {
+      "es": "País de origen",
+      "en": "Country of origin",
+      "pt": "País de origem"
+    }
+  },
+  "HERKR": {
+    "type": "CHAR 3",
+    "label": {
+      "es": "Región de origen",
+      "en": "Region of origin",
+      "pt": "Região de origem"
+    }
+  },
+  "GRWRT": {
+    "type": "CURR 13,2",
+    "label": {
+      "es": "Valor estadístico",
+      "en": "Statistical value",
+      "pt": "Valor estatístico"
+    }
+  },
+  "EXART": {
+    "type": "CHAR 2",
+    "label": {
+      "es": "Tipo de operación comercial",
+      "en": "Business transaction type",
+      "pt": "Tipo de operação comercial"
+    }
+  },
+  "EXPRF": {
+    "type": "CHAR 8",
+    "label": {
+      "es": "Procedimiento de exportación/importación",
+      "en": "Export/import procedure",
+      "pt": "Procedimento de exportação/importação"
+    }
+  },
+  "VERLD": {
+    "type": "CHAR 3",
+    "label": {
+      "es": "País de expedición",
+      "en": "Country of dispatch",
+      "pt": "País de expedição"
+    }
+  },
+  "KONNR": {
+    "type": "CHAR 10",
+    "label": {
+      "es": "Contrato marco",
+      "en": "Outline agreement",
+      "pt": "Contrato básico"
+    }
+  },
+  "KTPNR": {
+    "type": "NUMC 5",
+    "label": {
+      "es": "Posición del contrato",
+      "en": "Agreement item",
+      "pt": "Item do contrato"
+    }
+  },
+  "NAME2": {
+    "type": "CHAR 35",
+    "label": {
+      "es": "Nombre 2",
+      "en": "Name 2",
+      "pt": "Nome 2"
+    }
+  },
+  "TELFX": {
+    "type": "CHAR 31",
+    "label": {
+      "es": "Número de fax",
+      "en": "Fax number",
+      "pt": "Número de fax"
+    }
+  },
+  "ABART": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Tipo de llamada",
+      "en": "Release type",
+      "pt": "Tipo de liberação"
+    }
+  },
+  "ABRUF": {
+    "type": "NUMC 10",
+    "label": {
+      "es": "Número de llamada",
+      "en": "Release number",
+      "pt": "Número de liberação"
+    }
+  },
+  "AMENG": {
+    "type": "QUAN 13,3",
+    "label": {
+      "es": "Cantidad anterior",
+      "en": "Previous quantity",
+      "pt": "Quantidade anterior"
+    }
+  },
+  "ETART": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Tipo de reparto",
+      "en": "Schedule line type",
+      "pt": "Tipo de divisão"
+    }
+  },
+  "ABRDT": {
+    "type": "DATS 8",
+    "label": {
+      "es": "Fecha de creación de la llamada",
+      "en": "Release creation date",
+      "pt": "Data de criação da liberação"
+    }
+  },
+  "LWEMG": {
+    "type": "QUAN 13,3",
+    "label": {
+      "es": "Cantidad de la última entrada",
+      "en": "Last goods receipt quantity",
+      "pt": "Quantidade da última entrada"
+    }
+  },
+  "LFPOS": {
+    "type": "NUMC 4",
+    "label": {
+      "es": "Posición del documento de referencia",
+      "en": "Reference document item",
+      "pt": "Item do documento de referência"
+    }
+  },
+  "GESBU": {
+    "type": "DEC 3",
+    "label": {
+      "es": "Nota global",
+      "en": "Overall score",
+      "pt": "Nota geral"
+    }
+  },
+  "LEBDT": {
+    "type": "DATS 8",
+    "label": {
+      "es": "Fecha de evaluación",
+      "en": "Evaluation date",
+      "pt": "Data de avaliação"
+    }
+  },
+  "LEBEW": {
+    "type": "CHAR 12",
+    "label": {
+      "es": "Evaluado por",
+      "en": "Evaluated by",
+      "pt": "Avaliado por"
+    }
+  },
+  "GEWSL": {
+    "type": "CHAR 2",
+    "label": {
+      "es": "Clave de ponderación",
+      "en": "Weighting key",
+      "pt": "Chave de ponderação"
+    }
+  },
+  "HKRIT": {
+    "type": "CHAR 2",
+    "label": {
+      "es": "Criterio principal",
+      "en": "Main criterion",
+      "pt": "Critério principal"
+    }
+  },
+  "BEURT": {
+    "type": "DEC 3",
+    "label": {
+      "es": "Nota",
+      "en": "Score",
+      "pt": "Nota"
+    }
+  },
+  "EDOKN": {
+    "type": "CHAR 10",
+    "label": {
+      "es": "Número de documento de compras",
+      "en": "Purchasing document number",
+      "pt": "Número do documento de compras"
+    }
+  },
+  "EDOKP": {
+    "type": "NUMC 5",
+    "label": {
+      "es": "Posición del documento de compras",
+      "en": "Purchasing document item",
+      "pt": "Item do documento de compras"
+    }
+  },
+  "REVNO": {
+    "type": "CHAR 8",
+    "label": {
+      "es": "Número de versión",
+      "en": "Version number",
+      "pt": "Número da versão"
+    }
+  },
+  "DIFWR": {
+    "type": "CURR 13,2",
+    "label": {
+      "es": "Diferencia de valor",
+      "en": "Value difference",
+      "pt": "Diferença de valor"
+    }
+  },
+  "RSCOD": {
+    "type": "CHAR 4",
+    "label": {
+      "es": "Motivo del cambio",
+      "en": "Reason for change",
+      "pt": "Motivo da alteração"
+    }
+  },
+  "FGDAT": {
+    "type": "DATS 8",
+    "label": {
+      "es": "Fecha de liberación",
+      "en": "Release date",
+      "pt": "Data de liberação"
+    }
+  },
+  "REVOK": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Versión completada",
+      "en": "Version completed",
+      "pt": "Versão concluída"
+    }
+  },
+  "NUMKN": {
+    "type": "NUMC 2",
+    "label": {
+      "es": "Número de imputación del servicio",
+      "en": "Service account assignment number",
+      "pt": "Número de classificação contábil do serviço"
+    }
+  },
+  "WPROZ": {
+    "type": "DEC 4,1",
+    "label": {
+      "es": "Porcentaje de reparto",
+      "en": "Distribution percentage",
+      "pt": "Percentual de distribuição"
+    }
+  },
+  "ACT_MENGE": {
+    "type": "QUAN 13,3",
+    "label": {
+      "es": "Cantidad real",
+      "en": "Actual quantity",
+      "pt": "Quantidade real"
+    }
+  },
+  "ACT_WERT": {
+    "type": "CURR 13,2",
+    "label": {
+      "es": "Valor real",
+      "en": "Actual value",
+      "pt": "Valor real"
+    }
+  },
+  "SUM_NETWR": {
+    "type": "CURR 15,2",
+    "label": {
+      "es": "Valor neto total",
+      "en": "Total net value",
+      "pt": "Valor líquido total"
+    }
+  },
+  "LIMIT": {
+    "type": "CURR 13,2",
+    "label": {
+      "es": "Límite",
+      "en": "Limit",
+      "pt": "Limite"
+    }
+  },
+  "NOLIMIT": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Sin límite",
+      "en": "No limit",
+      "pt": "Sem limite"
+    }
+  },
+  "ACTVALUE": {
+    "type": "CURR 13,2",
+    "label": {
+      "es": "Valor consumido",
+      "en": "Actual value",
+      "pt": "Valor consumido"
+    }
+  },
+  "MLST_MANDT": {
+    "type": "CLNT 3",
+    "label": {
+      "es": "Mandante",
+      "en": "Client",
+      "pt": "Mandante"
+    }
+  },
+  "MLST_ZAEHL": {
+    "type": "NUMC 12",
+    "label": {
+      "es": "Número de hito",
+      "en": "Milestone number",
+      "pt": "Número do marco"
+    }
+  },
+  "MLSTN": {
+    "type": "CHAR 5",
+    "label": {
+      "es": "Utilización del hito",
+      "en": "Milestone usage",
+      "pt": "Utilização do marco"
+    }
+  },
+  "LST_ACTDT": {
+    "type": "DATS 8",
+    "label": {
+      "es": "Fecha real del hito",
+      "en": "Milestone actual date",
+      "pt": "Data real do marco"
+    }
+  },
+  "PRCNT": {
+    "type": "DEC 3",
+    "label": {
+      "es": "Porcentaje de avance",
+      "en": "Percentage of completion",
+      "pt": "Percentual de conclusão"
+    }
+  },
+  "FPROZ": {
+    "type": "DEC 5,2",
+    "label": {
+      "es": "Porcentaje de facturación",
+      "en": "Billing percentage",
+      "pt": "Percentual de faturamento"
+    }
+  },
+  "UP": {
+    "type": "NUMC 8",
+    "label": {
+      "es": "Elemento PEP superior",
+      "en": "Higher-level WBS element",
+      "pt": "Elemento PEP superior"
+    }
+  },
+  "DOWN": {
+    "type": "NUMC 8",
+    "label": {
+      "es": "Primer elemento PEP inferior",
+      "en": "First lower-level WBS element",
+      "pt": "Primeiro elemento PEP inferior"
+    }
+  },
+  "LEFT": {
+    "type": "NUMC 8",
+    "label": {
+      "es": "Elemento PEP anterior",
+      "en": "Previous WBS element",
+      "pt": "Elemento PEP anterior"
+    }
+  },
+  "RIGHT": {
+    "type": "NUMC 8",
+    "label": {
+      "es": "Elemento PEP siguiente",
+      "en": "Next WBS element",
+      "pt": "Elemento PEP seguinte"
+    }
+  },
+  "PSTRT": {
+    "type": "DATS 8",
+    "label": {
+      "es": "Inicio extremo",
+      "en": "Basic start date",
+      "pt": "Data de início base"
+    }
+  },
+  "PENDE": {
+    "type": "DATS 8",
+    "label": {
+      "es": "Fin extremo",
+      "en": "Basic finish date",
+      "pt": "Data de término base"
+    }
+  },
+  "ESTRT": {
+    "type": "DATS 8",
+    "label": {
+      "es": "Inicio previsto",
+      "en": "Forecast start date",
+      "pt": "Data de início prevista"
+    }
+  },
+  "EENDE": {
+    "type": "DATS 8",
+    "label": {
+      "es": "Fin previsto",
+      "en": "Forecast finish date",
+      "pt": "Data de término prevista"
+    }
+  },
+  "ISTRT": {
+    "type": "DATS 8",
+    "label": {
+      "es": "Inicio real",
+      "en": "Actual start date",
+      "pt": "Data de início real"
+    }
+  },
+  "IENDE": {
+    "type": "DATS 8",
+    "label": {
+      "es": "Fin real",
+      "en": "Actual finish date",
+      "pt": "Data de término real"
+    }
+  },
+  "PVBTX": {
+    "type": "CHAR 40",
+    "label": {
+      "es": "Descripción del área de suministro",
+      "en": "Supply area description",
+      "pt": "Descrição da área de abastecimento"
+    }
+  },
+  "TRGKZ": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Indicador de objeto",
+      "en": "Object indicator",
+      "pt": "Indicador de objeto"
+    }
+  },
+  "ACPOS": {
+    "type": "CHAR 14",
+    "label": {
+      "es": "Categoría de valor",
+      "en": "Value category",
+      "pt": "Categoria de valor"
+    }
+  },
+  "ABKAT": {
+    "type": "NUMC 2",
+    "label": {
+      "es": "Categoría de análisis de resultados",
+      "en": "Results analysis category",
+      "pt": "Categoria de análise de resultados"
+    }
+  },
+  "GEBER": {
+    "type": "CHAR 10",
+    "label": {
+      "es": "Fondo",
+      "en": "Fund",
+      "pt": "Fundo"
+    }
+  },
+  "BELTP": {
+    "type": "NUMC 1",
+    "label": {
+      "es": "Tipo de importe (débito/crédito)",
+      "en": "Debit/credit type",
+      "pt": "Tipo de valor (débito/crédito)"
+    }
+  },
+  "WLP00": {
+    "type": "CURR 15,2",
+    "label": {
+      "es": "Valor período 0 (moneda CO)",
+      "en": "Period 0 value (CO currency)",
+      "pt": "Valor período 0 (moeda CO)"
+    }
+  },
+  "WLP01": {
+    "type": "CURR 15,2",
+    "label": {
+      "es": "Valor período 1 (moneda CO)",
+      "en": "Period 1 value (CO currency)",
+      "pt": "Valor período 1 (moeda CO)"
+    }
+  },
+  "WLP02": {
+    "type": "CURR 15,2",
+    "label": {
+      "es": "Valor período 2 (moneda CO)",
+      "en": "Period 2 value (CO currency)",
+      "pt": "Valor período 2 (moeda CO)"
+    }
+  },
+  "WLP03": {
+    "type": "CURR 15,2",
+    "label": {
+      "es": "Valor período 3 (moneda CO)",
+      "en": "Period 3 value (CO currency)",
+      "pt": "Valor período 3 (moeda CO)"
+    }
+  },
+  "WTP00": {
+    "type": "CURR 15,2",
+    "label": {
+      "es": "Valor período 0 (moneda de transacción)",
+      "en": "Period 0 value (transaction currency)",
+      "pt": "Valor período 0 (moeda da transação)"
+    }
+  },
+  "WTP01": {
+    "type": "CURR 15,2",
+    "label": {
+      "es": "Valor período 1 (moneda de transacción)",
+      "en": "Period 1 value (transaction currency)",
+      "pt": "Valor período 1 (moeda da transação)"
+    }
+  },
+  "WTP02": {
+    "type": "CURR 15,2",
+    "label": {
+      "es": "Valor período 2 (moneda de transacción)",
+      "en": "Period 2 value (transaction currency)",
+      "pt": "Valor período 2 (moeda da transação)"
+    }
+  },
+  "WTP03": {
+    "type": "CURR 15,2",
+    "label": {
+      "es": "Valor período 3 (moneda de transacción)",
+      "en": "Period 3 value (transaction currency)",
+      "pt": "Valor período 3 (moeda da transação)"
+    }
+  },
+  "MEG000": {
+    "type": "QUAN 15,3",
+    "label": {
+      "es": "Cantidad período 0",
+      "en": "Period 0 quantity",
+      "pt": "Quantidade período 0"
+    }
+  },
+  "MEG002": {
+    "type": "QUAN 15,3",
+    "label": {
+      "es": "Cantidad período 2",
+      "en": "Period 2 quantity",
+      "pt": "Quantidade período 2"
+    }
+  },
+  "MEG003": {
+    "type": "QUAN 15,3",
+    "label": {
+      "es": "Cantidad período 3",
+      "en": "Period 3 quantity",
+      "pt": "Quantidade período 3"
+    }
+  },
+  "MEG004": {
+    "type": "QUAN 15,3",
+    "label": {
+      "es": "Cantidad período 4",
+      "en": "Period 4 quantity",
+      "pt": "Quantidade período 4"
+    }
+  },
+  "MEG005": {
+    "type": "QUAN 15,3",
+    "label": {
+      "es": "Cantidad período 5",
+      "en": "Period 5 quantity",
+      "pt": "Quantidade período 5"
+    }
+  },
+  "MEG006": {
+    "type": "QUAN 15,3",
+    "label": {
+      "es": "Cantidad período 6",
+      "en": "Period 6 quantity",
+      "pt": "Quantidade período 6"
+    }
+  },
+  "STDAY": {
+    "type": "DATS 8",
+    "label": {
+      "es": "Fecha de inicio",
+      "en": "Start date",
+      "pt": "Data de início"
+    }
+  },
+  "ENDAY": {
+    "type": "DATS 8",
+    "label": {
+      "es": "Fecha de fin",
+      "en": "End date",
+      "pt": "Data de término"
+    }
+  },
+  "UPOSZ": {
+    "type": "CHAR 4",
+    "label": {
+      "es": "Número de subposición",
+      "en": "Sub-item number",
+      "pt": "Número de subitem"
+    }
+  },
+  "UPMNG": {
+    "type": "QUAN 13,3",
+    "label": {
+      "es": "Cantidad de la subposición",
+      "en": "Sub-item quantity",
+      "pt": "Quantidade do subitem"
+    }
+  },
+  "EBORT": {
+    "type": "CHAR 20",
+    "label": {
+      "es": "Punto de montaje",
+      "en": "Installation point",
+      "pt": "Ponto de montagem"
+    }
+  },
+  "UPTXT": {
+    "type": "CHAR 40",
+    "label": {
+      "es": "Texto de la subposición",
+      "en": "Sub-item text",
+      "pt": "Texto do subitem"
+    }
+  },
+  "EXSTL": {
+    "type": "CHAR 18",
+    "label": {
+      "es": "Grupo de listas de materiales",
+      "en": "BOM group",
+      "pt": "Grupo de listas técnicas"
+    }
+  },
+  "ZTEXT": {
+    "type": "CHAR 40",
+    "label": {
+      "es": "Texto de la lista de materiales",
+      "en": "BOM text",
+      "pt": "Texto da lista técnica"
+    }
+  },
+  "PLAHZ": {
+    "type": "NUMC 3",
+    "label": {
+      "es": "Horizonte de planificación",
+      "en": "Planning horizon",
+      "pt": "Horizonte de planejamento"
+    }
+  },
+  "UMTHZ": {
+    "type": "NUMC 3",
+    "label": {
+      "es": "Horizonte de reprogramación",
+      "en": "Rescheduling horizon",
+      "pt": "Horizonte de reprogramação"
+    }
+  },
+  "BZTEK": {
+    "type": "NUMC 2",
+    "label": {
+      "es": "Días permitidos en el pasado",
+      "en": "Days allowed in the past",
+      "pt": "Dias permitidos no passado"
+    }
+  },
+  "NKPAF": {
+    "type": "CHAR 2",
+    "label": {
+      "es": "Rango de números de órdenes previsionales",
+      "en": "Planned order number range",
+      "pt": "Intervalo de numeração de ordens planejadas"
+    }
+  },
+  "NKBAN": {
+    "type": "CHAR 2",
+    "label": {
+      "es": "Rango de números de solicitudes de pedido",
+      "en": "Purchase requisition number range",
+      "pt": "Intervalo de numeração de requisições de compra"
+    }
+  },
+  "NKRES": {
+    "type": "CHAR 2",
+    "label": {
+      "es": "Rango de números de reservas",
+      "en": "Reservation number range",
+      "pt": "Intervalo de numeração de reservas"
+    }
+  },
+  "KLVARP": {
+    "type": "CHAR 4",
+    "label": {
+      "es": "Variante de cálculo de costes planificados",
+      "en": "Costing variant for planned costs",
+      "pt": "Variante de custeio para custos planejados"
+    }
+  },
+  "KLVARI": {
+    "type": "CHAR 4",
+    "label": {
+      "es": "Variante de cálculo de costes reales",
+      "en": "Costing variant for actual costs",
+      "pt": "Variante de custeio para custos reais"
+    }
+  },
+  "AWSLS": {
+    "type": "CHAR 6",
+    "label": {
+      "es": "Clave de desviación",
+      "en": "Variance key",
+      "pt": "Chave de desvio"
+    }
+  },
+  "ABGSL": {
+    "type": "CHAR 6",
+    "label": {
+      "es": "Clave de análisis de resultados",
+      "en": "Results analysis key",
+      "pt": "Chave de análise de resultados"
+    }
+  },
+  "PRUEFART": {
+    "type": "CHAR 8",
+    "label": {
+      "es": "Tipo de inspección",
+      "en": "Inspection type",
+      "pt": "Tipo de inspeção"
+    }
+  },
+  "PLNST": {
+    "type": "CHAR 3",
+    "label": {
+      "es": "Status de hoja de ruta",
+      "en": "Task list status",
+      "pt": "Status do roteiro"
+    }
+  },
+  "FREIF": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Liberado para órdenes",
+      "en": "Released for orders",
+      "pt": "Liberado para ordens"
+    }
+  },
+  "PKLP": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Liberado para cálculo de costes",
+      "en": "Released for costing",
+      "pt": "Liberado para custeio"
+    }
+  },
+  "KZBDP": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Relevante para planificación de necesidades",
+      "en": "MRP relevant",
+      "pt": "Relevante para planejamento de necessidades"
+    }
+  },
+  "KZPAF": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Liberado para órdenes previsionales",
+      "en": "Released for planned orders",
+      "pt": "Liberado para ordens planejadas"
+    }
+  },
+  "KZKLF": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Liberado para cálculo de costes",
+      "en": "Released for costing",
+      "pt": "Liberado para custeio"
+    }
+  },
+  "KZAPF": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Liberado para preparación del trabajo",
+      "en": "Released for work scheduling",
+      "pt": "Liberado para preparação do trabalho"
+    }
+  },
+  "KZAUF": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Liberado para órdenes",
+      "en": "Released for orders",
+      "pt": "Liberado para ordens"
+    }
+  },
+  "KZRVA": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Liberado para pedidos de cliente",
+      "en": "Released for sales orders",
+      "pt": "Liberado para ordens de cliente"
+    }
+  },
+  "STTXT": {
+    "type": "CHAR 30",
+    "label": {
+      "es": "Descripción del status",
+      "en": "Status description",
+      "pt": "Descrição do status"
+    }
+  },
+  "PMPFE": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Relevante para producción",
+      "en": "Production relevant",
+      "pt": "Relevante para produção"
+    }
+  },
+  "PMPKO": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Relevante para ingeniería",
+      "en": "Engineering relevant",
+      "pt": "Relevante para engenharia"
+    }
+  },
+  "PMPKA": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Relevante para cálculo de costes",
+      "en": "Costing relevant",
+      "pt": "Relevante para custeio"
+    }
+  },
+  "PMPRV": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Relevante para repuestos",
+      "en": "Spare parts relevant",
+      "pt": "Relevante para peças de reposição"
+    }
+  },
+  "PMPIN": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Relevante para mantenimiento",
+      "en": "Maintenance relevant",
+      "pt": "Relevante para manutenção"
+    }
+  },
+  "PMPVS": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Relevante para ventas",
+      "en": "Sales relevant",
+      "pt": "Relevante para vendas"
+    }
+  },
+  "ANTXT": {
+    "type": "CHAR 30",
+    "label": {
+      "es": "Descripción de la utilización",
+      "en": "Usage description",
+      "pt": "Descrição da utilização"
+    }
+  },
+  "MATIN": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Material obligatorio",
+      "en": "Material required",
+      "pt": "Material obrigatório"
+    }
+  },
+  "TXPOS": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Posición de texto",
+      "en": "Text item",
+      "pt": "Item de texto"
+    }
+  },
+  "DKPOS": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Posición de documento",
+      "en": "Document item",
+      "pt": "Item de documento"
+    }
+  },
+  "PLNAW": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Aplicación de la hoja de ruta",
+      "en": "Task list application",
+      "pt": "Aplicação do roteiro"
+    }
+  },
+  "TERM": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Relevante para programación",
+      "en": "Scheduling relevant",
+      "pt": "Relevante para programação"
+    }
+  },
+  "KAPA": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Relevante para capacidad",
+      "en": "Capacity relevant",
+      "pt": "Relevante para capacidade"
+    }
+  },
+  "KALKZ": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Relevante para cálculo de costes",
+      "en": "Costing relevant",
+      "pt": "Relevante para custeio"
+    }
+  },
+  "LIEF": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Procesamiento externo",
+      "en": "External processing",
+      "pt": "Processamento externo"
+    }
+  },
+  "RUEK": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Tipo de notificación",
+      "en": "Confirmation type",
+      "pt": "Tipo de confirmação"
+    }
+  },
+  "AUTWE": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Entrada de mercancías automática",
+      "en": "Automatic goods receipt",
+      "pt": "Entrada de mercadorias automática"
+    }
+  },
+  "LODR": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Imprimir hoja de trabajo",
+      "en": "Print work paper",
+      "pt": "Imprimir folha de trabalho"
+    }
+  },
+  "FHORI": {
+    "type": "CHAR 3",
+    "label": {
+      "es": "Clave de horizonte de planificación",
+      "en": "Scheduling margin key",
+      "pt": "Chave de horizonte de planejamento"
+    }
+  },
+  "ERHOR": {
+    "type": "NUMC 3",
+    "label": {
+      "es": "Período de apertura (días)",
+      "en": "Opening period (days)",
+      "pt": "Período de abertura (dias)"
+    }
+  },
+  "SICHZ": {
+    "type": "NUMC 3",
+    "label": {
+      "es": "Holgura después de producción",
+      "en": "Float after production",
+      "pt": "Folga após produção"
+    }
+  },
+  "VORGZ": {
+    "type": "NUMC 3",
+    "label": {
+      "es": "Holgura antes de producción",
+      "en": "Float before production",
+      "pt": "Folga antes da produção"
+    }
+  },
+  "FREIZ": {
+    "type": "NUMC 3",
+    "label": {
+      "es": "Período de liberación (días)",
+      "en": "Release period (days)",
+      "pt": "Período de liberação (dias)"
+    }
+  },
+  "DISVF": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Procedimiento de planificación",
+      "en": "MRP procedure",
+      "pt": "Procedimento de planejamento"
+    }
+  },
+  "PROKZ": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Indicador de pronóstico",
+      "en": "Forecast indicator",
+      "pt": "Indicador de previsão"
+    }
+  },
+  "FXART": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Tipo de fijación",
+      "en": "Firming type",
+      "pt": "Tipo de fixação"
+    }
+  },
+  "STRGR": {
+    "type": "CHAR 2",
+    "label": {
+      "es": "Grupo de estrategias",
+      "en": "Strategy group",
+      "pt": "Grupo de estratégias"
+    }
+  },
+  "VRMOD": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Modo de consumo",
+      "en": "Consumption mode",
+      "pt": "Modo de consumo"
+    }
+  },
+  "VINT1": {
+    "type": "NUMC 3",
+    "label": {
+      "es": "Período de consumo hacia atrás",
+      "en": "Backward consumption period",
+      "pt": "Período de consumo para trás"
+    }
+  },
+  "VINT2": {
+    "type": "NUMC 3",
+    "label": {
+      "es": "Período de consumo hacia adelante",
+      "en": "Forward consumption period",
+      "pt": "Período de consumo para frente"
+    }
+  },
+  "FIXHZ": {
+    "type": "NUMC 3",
+    "label": {
+      "es": "Horizonte de fijación",
+      "en": "Planning time fence",
+      "pt": "Horizonte de fixação"
+    }
+  },
+  "DIBEZ": {
+    "type": "CHAR 30",
+    "label": {
+      "es": "Descripción del tipo de planificación",
+      "en": "MRP type description",
+      "pt": "Descrição do tipo de planejamento"
+    }
+  },
+  "LOSVF": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Procedimiento de tamaño de lote",
+      "en": "Lot-sizing procedure",
+      "pt": "Procedimento de tamanho de lote"
+    }
+  },
+  "LOSKZ": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Indicador de tamaño de lote",
+      "en": "Lot-size indicator",
+      "pt": "Indicador de tamanho de lote"
+    }
+  },
+  "PERAZ": {
+    "type": "DEC 3",
+    "label": {
+      "es": "Número de períodos",
+      "en": "Number of periods",
+      "pt": "Número de períodos"
+    }
+  },
+  "LOSLT": {
+    "type": "CHAR 40",
+    "label": {
+      "es": "Descripción del tamaño de lote",
+      "en": "Lot size description",
+      "pt": "Descrição do tamanho de lote"
+    }
+  },
+  "BEDAR": {
+    "type": "CHAR 3",
+    "label": {
+      "es": "Clase de necesidad",
+      "en": "Requirements class",
+      "pt": "Classe de necessidade"
+    }
+  },
+  "ATPPR": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Verificación de disponibilidad",
+      "en": "Availability check",
+      "pt": "Verificação de disponibilidade"
+    }
+  },
+  "BEDSD": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Transferencia de necesidades",
+      "en": "Requirements transfer",
+      "pt": "Transferência de necessidades"
+    }
+  },
+  "KALKU": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Cálculo de costes",
+      "en": "Costing",
+      "pt": "Custeio"
+    }
+  },
+  "KALVAR": {
+    "type": "CHAR 4",
+    "label": {
+      "es": "Variante de cálculo de costes",
+      "en": "Costing variant",
+      "pt": "Variante de custeio"
+    }
+  },
+  "PAR01": {
+    "type": "CHAR 6",
+    "label": {
+      "es": "Parámetro 1",
+      "en": "Parameter 1",
+      "pt": "Parâmetro 1"
+    }
+  },
+  "PAR02": {
+    "type": "CHAR 6",
+    "label": {
+      "es": "Parámetro 2",
+      "en": "Parameter 2",
+      "pt": "Parâmetro 2"
+    }
+  },
+  "PAR03": {
+    "type": "CHAR 6",
+    "label": {
+      "es": "Parámetro 3",
+      "en": "Parameter 3",
+      "pt": "Parâmetro 3"
+    }
+  },
+  "PAR04": {
+    "type": "CHAR 6",
+    "label": {
+      "es": "Parámetro 4",
+      "en": "Parameter 4",
+      "pt": "Parâmetro 4"
+    }
+  },
+  "PAR05": {
+    "type": "CHAR 6",
+    "label": {
+      "es": "Parámetro 5",
+      "en": "Parameter 5",
+      "pt": "Parâmetro 5"
+    }
+  },
+  "PAR06": {
+    "type": "CHAR 6",
+    "label": {
+      "es": "Parámetro 6",
+      "en": "Parameter 6",
+      "pt": "Parâmetro 6"
+    }
+  },
+  "SCHGRUP": {
+    "type": "CHAR 2",
+    "label": {
+      "es": "Agrupación de turnos",
+      "en": "Shift grouping",
+      "pt": "Agrupamento de turnos"
+    }
+  },
+  "KAPTPROG": {
+    "type": "CHAR 4",
+    "label": {
+      "es": "Turno",
+      "en": "Shift",
+      "pt": "Turno"
+    }
+  },
+  "PAPLAN": {
+    "type": "CHAR 4",
+    "label": {
+      "es": "Plan de pausas",
+      "en": "Break schedule",
+      "pt": "Plano de pausas"
+    }
+  },
+  "EINZT": {
+    "type": "INT4 10",
+    "label": {
+      "es": "Tiempo de trabajo",
+      "en": "Work time",
+      "pt": "Tempo de trabalho"
+    }
+  },
+  "PRATX": {
+    "type": "CHAR 40",
+    "label": {
+      "es": "Descripción del tipo de proyecto",
+      "en": "Project type description",
+      "pt": "Descrição do tipo de projeto"
+    }
+  },
+  "PROFIDPROJ": {
+    "type": "CHAR 7",
+    "label": {
+      "es": "Perfil de proyecto",
+      "en": "Project profile",
+      "pt": "Perfil de projeto"
+    }
+  },
+  "CO_PRODPRF": {
+    "type": "CHAR 6",
+    "label": {
+      "es": "Perfil de control de producción",
+      "en": "Production scheduling profile",
+      "pt": "Perfil de controle de produção"
+    }
+  },
+  "AUART_KDE": {
+    "type": "CHAR 4",
+    "label": {
+      "es": "Clase de orden para pedidos de cliente",
+      "en": "Order type for sales orders",
+      "pt": "Tipo de ordem para ordens de cliente"
+    }
+  },
+  "AUART_PSP": {
+    "type": "CHAR 4",
+    "label": {
+      "es": "Clase de orden para elementos PEP",
+      "en": "Order type for WBS elements",
+      "pt": "Tipo de ordem para elementos PEP"
+    }
+  },
+  "SUMLIMIT": {
+    "type": "CURR 13,2",
+    "label": {
+      "es": "Límite total",
+      "en": "Overall limit",
+      "pt": "Limite total"
+    }
+  },
+  "SUMNOLIM": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Sin límite",
+      "en": "No limit",
+      "pt": "Sem limite"
+    }
+  },
+  "COMMITMENT": {
+    "type": "CURR 13,2",
+    "label": {
+      "es": "Valor esperado",
+      "en": "Expected value",
+      "pt": "Valor esperado"
+    }
+  },
+  "DOCTP": {
+    "type": "CHAR 4",
+    "label": {
+      "es": "Tipo de documento de salida",
+      "en": "Output document type",
+      "pt": "Tipo de documento de saída"
+    }
+  },
+  "LICNR": {
+    "type": "CHAR 15",
+    "label": {
+      "es": "Número de licencia",
+      "en": "License number",
+      "pt": "Número da licença"
+    }
+  },
+  "ZUORDNR": {
+    "type": "NUMC 4",
+    "label": {
+      "es": "Número de asignación",
+      "en": "Assignment number",
+      "pt": "Número de atribuição"
+    }
+  },
+  "SOLLWERT": {
+    "type": "FLTP 16",
+    "label": {
+      "es": "Valor objetivo",
+      "en": "Target value",
+      "pt": "Valor nominal"
+    }
+  },
+  "TOLERANZOB": {
+    "type": "FLTP 16",
+    "label": {
+      "es": "Límite superior de tolerancia",
+      "en": "Upper tolerance limit",
+      "pt": "Limite superior de tolerância"
+    }
+  },
+  "TOLERANZUN": {
+    "type": "FLTP 16",
+    "label": {
+      "es": "Límite inferior de tolerancia",
+      "en": "Lower tolerance limit",
+      "pt": "Limite inferior de tolerância"
+    }
+  },
+  "MASSEINHSW": {
+    "type": "UNIT 3",
+    "label": {
+      "es": "Unidad de medida de la característica",
+      "en": "Characteristic unit of measure",
+      "pt": "Unidade de medida da característica"
+    }
+  },
+  "STELLEN": {
+    "type": "INT1 3",
+    "label": {
+      "es": "Decimales",
+      "en": "Decimal places",
+      "pt": "Casas decimais"
+    }
+  },
+  "KLASSENR": {
+    "type": "NUMC 4",
+    "label": {
+      "es": "Número de clase",
+      "en": "Class number",
+      "pt": "Número da classe"
+    }
+  },
+  "ANZKLASEH": {
+    "type": "INT4 10",
+    "label": {
+      "es": "Unidades en la clase",
+      "en": "Units in class",
+      "pt": "Unidades na classe"
+    }
+  },
+  "TEILLOS": {
+    "type": "NUMC 6",
+    "label": {
+      "es": "Lote parcial",
+      "en": "Partial lot",
+      "pt": "Lote parcial"
+    }
+  },
+  "KTEXTTLOS": {
+    "type": "CHAR 40",
+    "label": {
+      "es": "Texto breve del lote parcial",
+      "en": "Partial lot short text",
+      "pt": "Texto breve do lote parcial"
+    }
+  },
+  "ZAEHLER": {
+    "type": "CHAR 4",
+    "label": {
+      "es": "Contador",
+      "en": "Counter",
+      "pt": "Contador"
+    }
+  },
+  "VCODE": {
+    "type": "CHAR 4",
+    "label": {
+      "es": "Código de decisión",
+      "en": "Decision code",
+      "pt": "Código de decisão"
+    }
+  },
+  "VBEWERTUNG": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Valoración de la decisión",
+      "en": "Decision valuation",
+      "pt": "Avaliação da decisão"
+    }
+  },
+  "ENTSTEHDAT": {
+    "type": "DATS 8",
+    "label": {
+      "es": "Fecha de creación",
+      "en": "Creation date",
+      "pt": "Data de criação"
+    }
+  },
+  "PRUEFUMF": {
+    "type": "QUAN 13,3",
+    "label": {
+      "es": "Tamaño de la muestra",
+      "en": "Sample size",
+      "pt": "Tamanho da amostra"
+    }
+  },
+  "ANNAHMEZ": {
+    "type": "INT2 5",
+    "label": {
+      "es": "Número de aceptación",
+      "en": "Acceptance number",
+      "pt": "Número de aceitação"
+    }
+  },
+  "RUECKWEZ": {
+    "type": "INT2 5",
+    "label": {
+      "es": "Número de rechazo",
+      "en": "Rejection number",
+      "pt": "Número de rejeição"
+    }
+  },
+  "PRSTUFE": {
+    "type": "NUMC 4",
+    "label": {
+      "es": "Nivel de inspección",
+      "en": "Inspection stage",
+      "pt": "Nível de inspeção"
+    }
+  },
+  "PRSCHAERFE": {
+    "type": "NUMC 3",
+    "label": {
+      "es": "Severidad de inspección",
+      "en": "Inspection severity",
+      "pt": "Severidade da inspeção"
+    }
+  },
+  "KZART": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Tipo de registro",
+      "en": "Record type",
+      "pt": "Tipo de registro"
+    }
+  },
+  "VCODEGRP": {
+    "type": "CHAR 8",
+    "label": {
+      "es": "Grupo de códigos de decisión",
+      "en": "Decision code group",
+      "pt": "Grupo de códigos de decisão"
+    }
+  },
+  "QKENNZAHL": {
+    "type": "DEC 3",
+    "label": {
+      "es": "Puntuación de calidad",
+      "en": "Quality score",
+      "pt": "Pontuação de qualidade"
+    }
+  },
+  "VNAME": {
+    "type": "CHAR 12",
+    "label": {
+      "es": "Decidido por",
+      "en": "Decided by",
+      "pt": "Decidido por"
+    }
+  },
+  "VDATUM": {
+    "type": "DATS 8",
+    "label": {
+      "es": "Fecha de decisión",
+      "en": "Decision date",
+      "pt": "Data da decisão"
+    }
+  },
+  "VAUSWAHLMG": {
+    "type": "CHAR 8",
+    "label": {
+      "es": "Conjunto seleccionado de la decisión",
+      "en": "Decision selected set",
+      "pt": "Conjunto selecionado da decisão"
+    }
+  },
+  "CTYP": {
+    "type": "CHAR 4",
+    "label": {
+      "es": "Tipo de certificado",
+      "en": "Certificate type",
+      "pt": "Tipo de certificado"
+    }
+  },
+  "VORLNR": {
+    "type": "CHAR 12",
+    "label": {
+      "es": "Perfil de certificado",
+      "en": "Certificate profile",
+      "pt": "Perfil de certificado"
+    }
+  },
+  "GUELTIGAB": {
+    "type": "DATS 8",
+    "label": {
+      "es": "Válido desde",
+      "en": "Valid from",
+      "pt": "Válido desde"
+    }
+  },
+  "ERSTELLER": {
+    "type": "CHAR 12",
+    "label": {
+      "es": "Creado por",
+      "en": "Created by",
+      "pt": "Criado por"
+    }
+  },
+  "ERSTELDAT": {
+    "type": "DATS 8",
+    "label": {
+      "es": "Fecha de creación",
+      "en": "Creation date",
+      "pt": "Data de criação"
+    }
+  },
+  "AENDERER": {
+    "type": "CHAR 12",
+    "label": {
+      "es": "Modificado por",
+      "en": "Changed by",
+      "pt": "Modificado por"
+    }
+  },
+  "AENDERDAT": {
+    "type": "DATS 8",
+    "label": {
+      "es": "Fecha de modificación",
+      "en": "Change date",
+      "pt": "Data de modificação"
+    }
+  },
+  "BLOCKNR": {
+    "type": "NUMC 4",
+    "label": {
+      "es": "Bloque",
+      "en": "Block",
+      "pt": "Bloco"
+    }
+  },
+  "MERKMALNR": {
+    "type": "NUMC 4",
+    "label": {
+      "es": "Número de característica",
+      "en": "Characteristic number",
+      "pt": "Número da característica"
+    }
+  },
+  "MKMNR": {
+    "type": "CHAR 8",
+    "label": {
+      "es": "Característica maestra de inspección",
+      "en": "Master inspection characteristic",
+      "pt": "Característica mestre de inspeção"
+    }
+  },
+  "VERSIONMK": {
+    "type": "CHAR 6",
+    "label": {
+      "es": "Versión de la característica maestra",
+      "en": "Master characteristic version",
+      "pt": "Versão da característica mestre"
+    }
+  },
+  "DYNREGEL": {
+    "type": "CHAR 3",
+    "label": {
+      "es": "Regla de modificación dinámica",
+      "en": "Dynamic modification rule",
+      "pt": "Regra de modificação dinâmica"
+    }
+  },
+  "PRSTUFEANF": {
+    "type": "NUMC 4",
+    "label": {
+      "es": "Nivel de inspección inicial",
+      "en": "Initial inspection stage",
+      "pt": "Nível de inspeção inicial"
+    }
+  },
+  "ERSTELLDAT": {
+    "type": "DATS 8",
+    "label": {
+      "es": "Fecha de creación",
+      "en": "Creation date",
+      "pt": "Data de criação"
+    }
+  },
+  "KZSKIP": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Omisión de inspección",
+      "en": "Inspection skip",
+      "pt": "Omissão de inspeção"
+    }
+  },
+  "ANZPRRED": {
+    "type": "INT2 5",
+    "label": {
+      "es": "Inspecciones para reducir",
+      "en": "Inspections to reduce",
+      "pt": "Inspeções para reduzir"
+    }
+  },
+  "REDSTUFE": {
+    "type": "NUMC 4",
+    "label": {
+      "es": "Nivel siguiente al reducir",
+      "en": "Next stage when reducing",
+      "pt": "Nível seguinte ao reduzir"
+    }
+  },
+  "ANZRWVER": {
+    "type": "INT2 5",
+    "label": {
+      "es": "Rechazos para endurecer",
+      "en": "Rejections to tighten",
+      "pt": "Rejeições para endurecer"
+    }
+  },
+  "VERSTUFE": {
+    "type": "NUMC 4",
+    "label": {
+      "es": "Nivel siguiente al endurecer",
+      "en": "Next stage when tightening",
+      "pt": "Nível seguinte ao endurecer"
+    }
+  },
+  "ZAEHLERQL": {
+    "type": "INT4 10",
+    "label": {
+      "es": "Contador del nivel de calidad",
+      "en": "Quality level counter",
+      "pt": "Contador do nível de qualidade"
+    }
+  },
+  "HERSTELLER": {
+    "type": "CHAR 10",
+    "label": {
+      "es": "Fabricante",
+      "en": "Manufacturer",
+      "pt": "Fabricante"
+    }
+  },
+  "PRSTUFENAE": {
+    "type": "NUMC 4",
+    "label": {
+      "es": "Siguiente nivel de inspección",
+      "en": "Next inspection stage",
+      "pt": "Próximo nível de inspeção"
+    }
+  },
+  "STICHPRART": {
+    "type": "CHAR 3",
+    "label": {
+      "es": "Tipo de muestreo",
+      "en": "Sampling type",
+      "pt": "Tipo de amostragem"
+    }
+  },
+  "BEWERTMOD": {
+    "type": "CHAR 3",
+    "label": {
+      "es": "Modo de valoración",
+      "en": "Valuation mode",
+      "pt": "Modo de avaliação"
+    }
+  },
+  "STPRUMF": {
+    "type": "INT4 10",
+    "label": {
+      "es": "Tamaño de la muestra",
+      "en": "Sample size",
+      "pt": "Tamanho da amostra"
+    }
+  },
+  "STPRPLAN": {
+    "type": "CHAR 3",
+    "label": {
+      "es": "Plan de muestreo",
+      "en": "Sampling scheme",
+      "pt": "Plano de amostragem"
+    }
+  },
+  "AQLWERT": {
+    "type": "DEC 7,3",
+    "label": {
+      "es": "Valor AQL",
+      "en": "AQL value",
+      "pt": "Valor AQL"
+    }
+  },
+  "LIEFERANT": {
+    "type": "CHAR 10",
+    "label": {
+      "es": "Proveedor",
+      "en": "Vendor",
+      "pt": "Fornecedor"
+    }
+  },
+  "FREI_DAT": {
+    "type": "DATS 8",
+    "label": {
+      "es": "Fecha límite de liberación",
+      "en": "Release until date",
+      "pt": "Data limite de liberação"
+    }
+  },
+  "FREI_MNG": {
+    "type": "QUAN 13,3",
+    "label": {
+      "es": "Cantidad liberada",
+      "en": "Released quantity",
+      "pt": "Quantidade liberada"
+    }
+  },
+  "ME": {
+    "type": "UNIT 3",
+    "label": {
+      "es": "Unidad de medida",
+      "en": "Unit of measure",
+      "pt": "Unidade de medida"
+    }
+  },
+  "BEST_MG": {
+    "type": "QUAN 13,3",
+    "label": {
+      "es": "Cantidad ya pedida",
+      "en": "Quantity already ordered",
+      "pt": "Quantidade já pedida"
+    }
+  },
+  "SPERRGRUND": {
+    "type": "CHAR 40",
+    "label": {
+      "es": "Motivo de bloqueo",
+      "en": "Block reason",
+      "pt": "Motivo de bloqueio"
+    }
+  },
+  "NOINSP": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Sin inspección",
+      "en": "No inspection",
+      "pt": "Sem inspeção"
+    }
+  },
+  "SORTFELD": {
+    "type": "CHAR 40",
+    "label": {
+      "es": "Término de búsqueda",
+      "en": "Search term",
+      "pt": "Termo de pesquisa"
+    }
+  },
+  "AUTOR": {
+    "type": "CHAR 12",
+    "label": {
+      "es": "Creado por",
+      "en": "Created by",
+      "pt": "Criado por"
+    }
+  },
+  "DATES": {
+    "type": "DATS 8",
+    "label": {
+      "es": "Fecha de creación",
+      "en": "Creation date",
+      "pt": "Data de criação"
+    }
+  },
+  "AEAUT": {
+    "type": "CHAR 12",
+    "label": {
+      "es": "Modificado por",
+      "en": "Changed by",
+      "pt": "Modificado por"
+    }
+  },
+  "DATAE": {
+    "type": "DATS 8",
+    "label": {
+      "es": "Fecha de modificación",
+      "en": "Change date",
+      "pt": "Data de modificação"
+    }
+  },
+  "PRFQL": {
+    "type": "CHAR 5",
+    "label": {
+      "es": "Cualificación del inspector",
+      "en": "Inspector qualification",
+      "pt": "Qualificação do inspetor"
+    }
+  },
+  "AUSWAHLMGE": {
+    "type": "CHAR 8",
+    "label": {
+      "es": "Conjunto seleccionado",
+      "en": "Selected set",
+      "pt": "Conjunto selecionado"
+    }
+  },
+  "VERSIONAM": {
+    "type": "CHAR 6",
+    "label": {
+      "es": "Versión del conjunto seleccionado",
+      "en": "Selected set version",
+      "pt": "Versão do conjunto selecionado"
+    }
+  },
+  "BEWERTUNG": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Valoración",
+      "en": "Valuation",
+      "pt": "Avaliação"
+    }
+  },
+  "FEHLKLASSE": {
+    "type": "CHAR 2",
+    "label": {
+      "es": "Clase de defecto",
+      "en": "Defect class",
+      "pt": "Classe de defeito"
+    }
+  },
+  "FOLGEAKTI": {
+    "type": "CHAR 8",
+    "label": {
+      "es": "Acción subsiguiente",
+      "en": "Follow-up action",
+      "pt": "Ação subsequente"
+    }
+  },
+  "GELOESCHT": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Borrado",
+      "en": "Deleted",
+      "pt": "Eliminado"
+    }
+  },
+  "KTX01": {
+    "type": "CHAR 40",
+    "label": {
+      "es": "Texto breve",
+      "en": "Short text",
+      "pt": "Texto breve"
+    }
+  },
+  "VERWENDUNG": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Uso",
+      "en": "Usage",
+      "pt": "Utilização"
+    }
+  },
+  "E_DATUM": {
+    "type": "DATS 8",
+    "label": {
+      "es": "Fecha de creación",
+      "en": "Creation date",
+      "pt": "Data de criação"
+    }
+  },
+  "WERKPM": {
+    "type": "CHAR 4",
+    "label": {
+      "es": "Centro del método",
+      "en": "Method plant",
+      "pt": "Centro do método"
+    }
+  },
+  "PMETHODE": {
+    "type": "CHAR 8",
+    "label": {
+      "es": "Método de inspección",
+      "en": "Inspection method",
+      "pt": "Método de inspeção"
+    }
+  },
+  "VERSPM": {
+    "type": "CHAR 6",
+    "label": {
+      "es": "Versión del método",
+      "en": "Method version",
+      "pt": "Versão do método"
+    }
+  },
+  "PHYNR": {
+    "type": "CHAR 12",
+    "label": {
+      "es": "Muestra física",
+      "en": "Physical sample",
+      "pt": "Amostra física"
+    }
+  },
+  "ENTDATUM": {
+    "type": "DATS 8",
+    "label": {
+      "es": "Fecha de toma de muestra",
+      "en": "Sampling date",
+      "pt": "Data de coleta da amostra"
+    }
+  },
+  "WMWST": {
+    "type": "CURR 13,2",
+    "label": {
+      "es": "Importe de impuesto",
+      "en": "Tax amount",
+      "pt": "Montante do imposto"
+    }
+  },
+  "WT_QSSHB": {
+    "type": "CURR 15,2",
+    "label": {
+      "es": "Base de retención",
+      "en": "Withholding tax base",
+      "pt": "Base de retenção"
+    }
+  },
+  "BSTMG": {
+    "type": "QUAN 13,3",
+    "label": {
+      "es": "Cantidad en unidad de pedido",
+      "en": "Quantity in order unit",
+      "pt": "Quantidade na unidade de pedido"
+    }
+  },
+  "AENETWR": {
+    "type": "CURR 19,2",
+    "label": {
+      "es": "Valor neto de pedidos entrantes",
+      "en": "Incoming orders net value",
+      "pt": "Valor líquido de pedidos recebidos"
+    }
+  },
+  "AEMENGE": {
+    "type": "QUAN 15,3",
+    "label": {
+      "es": "Cantidad de pedidos entrantes",
+      "en": "Incoming orders quantity",
+      "pt": "Quantidade de pedidos recebidos"
+    }
+  },
+  "UMNETWR": {
+    "type": "CURR 19,2",
+    "label": {
+      "es": "Ventas netas",
+      "en": "Net sales",
+      "pt": "Vendas líquidas"
+    }
+  },
+  "UMMENGE": {
+    "type": "QUAN 15,3",
+    "label": {
+      "es": "Cantidad vendida",
+      "en": "Sales quantity",
+      "pt": "Quantidade vendida"
+    }
+  },
+  "RENETWR": {
+    "type": "CURR 19,2",
+    "label": {
+      "es": "Valor neto de devoluciones",
+      "en": "Returns net value",
+      "pt": "Valor líquido de devoluções"
+    }
+  },
+  "REMENGE": {
+    "type": "QUAN 15,3",
+    "label": {
+      "es": "Cantidad devuelta",
+      "en": "Returns quantity",
+      "pt": "Quantidade devolvida"
+    }
+  },
+  "GUNETWR": {
+    "type": "CURR 19,2",
+    "label": {
+      "es": "Valor neto de abonos",
+      "en": "Credit memos net value",
+      "pt": "Valor líquido de créditos"
+    }
+  },
+  "OAUWE": {
+    "type": "CURR 19,2",
+    "label": {
+      "es": "Valor de pedidos abiertos",
+      "en": "Open orders value",
+      "pt": "Valor de pedidos em aberto"
+    }
+  },
+  "STWAE": {
+    "type": "CUKY 5",
+    "label": {
+      "es": "Moneda estadística",
+      "en": "Statistics currency",
+      "pt": "Moeda estatística"
+    }
+  },
+  "ANZAUPOS": {
+    "type": "DEC 9",
+    "label": {
+      "es": "Número de posiciones de pedido",
+      "en": "Number of order items",
+      "pt": "Número de itens de pedido"
+    }
+  },
+  "REWRT": {
+    "type": "CURR 15,2",
+    "label": {
+      "es": "Valor facturado",
+      "en": "Invoiced value",
+      "pt": "Valor faturado"
+    }
+  },
+  "ABEST": {
+    "type": "DEC 9",
+    "label": {
+      "es": "Número de pedidos",
+      "en": "Number of purchase orders",
+      "pt": "Número de pedidos"
+    }
+  },
+  "ABSTP": {
+    "type": "DEC 9",
+    "label": {
+      "es": "Número de posiciones de pedido",
+      "en": "Number of PO items",
+      "pt": "Número de itens de pedido"
+    }
+  },
+  "AANFR": {
+    "type": "DEC 9",
+    "label": {
+      "es": "Número de solicitudes de oferta",
+      "en": "Number of RFQs",
+      "pt": "Número de solicitações de cotação"
+    }
+  },
+  "WEWRT": {
+    "type": "CURR 13,2",
+    "label": {
+      "es": "Valor de entrada de mercancías",
+      "en": "Goods receipt value",
+      "pt": "Valor da entrada de mercadorias"
+    }
+  },
+  "REMNG": {
+    "type": "QUAN 15,3",
+    "label": {
+      "es": "Cantidad facturada",
+      "en": "Invoiced quantity",
+      "pt": "Quantidade faturada"
+    }
+  },
+  "WEPOS": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Entrada de mercancías",
+      "en": "Goods receipt",
+      "pt": "Entrada de mercadorias"
+    }
+  },
+  "WEUNB": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Entrada de mercancías no valorada",
+      "en": "Non-valuated goods receipt",
+      "pt": "Entrada de mercadorias não avaliada"
+    }
+  },
+  "REPOS": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Recepción de factura",
+      "en": "Invoice receipt",
+      "pt": "Recebimento de fatura"
+    }
+  },
+  "KZFAE": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Modificabilidad tras liberación",
+      "en": "Changeability after release",
+      "pt": "Modificabilidade após liberação"
+    }
+  },
+  "TLFAE": {
+    "type": "DEC 4,1",
+    "label": {
+      "es": "Tolerancia de cambio de valor (%)",
+      "en": "Value change tolerance (%)",
+      "pt": "Tolerância de alteração de valor (%)"
+    }
+  },
+  "FRGWF": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Indicador de workflow",
+      "en": "Workflow indicator",
+      "pt": "Indicador de workflow"
+    }
+  },
+  "FRGOT": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Objeto de liberación",
+      "en": "Release object",
+      "pt": "Objeto de liberação"
+    }
+  },
+  "FRGKL": {
+    "type": "CHAR 18",
+    "label": {
+      "es": "Clase de liberación",
+      "en": "Release class",
+      "pt": "Classe de liberação"
+    }
+  },
+  "EKWSL": {
+    "type": "CHAR 4",
+    "label": {
+      "es": "Clave de valores de compras",
+      "en": "Purchasing value key",
+      "pt": "Chave de valores de compras"
+    }
+  },
+  "MAHN1": {
+    "type": "DEC 3",
+    "label": {
+      "es": "Días hasta la 1.ª reclamación",
+      "en": "Days to 1st reminder",
+      "pt": "Dias até a 1.ª reclamação"
+    }
+  },
+  "MAHN2": {
+    "type": "DEC 3",
+    "label": {
+      "es": "Días hasta la 2.ª reclamación",
+      "en": "Days to 2nd reminder",
+      "pt": "Dias até a 2.ª reclamação"
+    }
+  },
+  "MAHN3": {
+    "type": "DEC 3",
+    "label": {
+      "es": "Días hasta la 3.ª reclamación",
+      "en": "Days to 3rd reminder",
+      "pt": "Dias até a 3.ª reclamação"
+    }
+  },
+  "UNTTO": {
+    "type": "DEC 3,1",
+    "label": {
+      "es": "Tolerancia de suministro inferior",
+      "en": "Underdelivery tolerance",
+      "pt": "Tolerância de fornecimento a menor"
+    }
+  },
+  "UEBTO": {
+    "type": "DEC 3,1",
+    "label": {
+      "es": "Tolerancia de suministro excesivo",
+      "en": "Overdelivery tolerance",
+      "pt": "Tolerância de fornecimento a maior"
+    }
+  },
+  "UEBTK": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Suministro excesivo ilimitado",
+      "en": "Unlimited overdelivery",
+      "pt": "Fornecimento a maior ilimitado"
+    }
+  },
+  "ZGTYP": {
+    "type": "CHAR 4",
+    "label": {
+      "es": "Tipo de certificado",
+      "en": "Certificate type",
+      "pt": "Tipo de certificado"
+    }
+  },
+  "QM_PUR": {
+    "type": "CHAR 8",
+    "label": {
+      "es": "Clave de control de QM",
+      "en": "QM control key",
+      "pt": "Chave de controle de QM"
+    }
+  },
+  "TLERF": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Condiciones técnicas de suministro requeridas",
+      "en": "Technical delivery terms required",
+      "pt": "Condições técnicas de fornecimento exigidas"
+    }
+  },
+  "QVERF": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Acuerdo de calidad requerido",
+      "en": "Quality agreement required",
+      "pt": "Acordo de qualidade exigido"
+    }
+  },
+  "LIEFFREI": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Liberación de suministro requerida",
+      "en": "Delivery release required",
+      "pt": "Liberação de fornecimento exigida"
+    }
+  },
+  "ZGERF": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Certificado requerido",
+      "en": "Certificate required",
+      "pt": "Certificado exigido"
+    }
+  },
+  "RESPERRE": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Bloqueo de factura",
+      "en": "Invoice block",
+      "pt": "Bloqueio de fatura"
+    }
+  },
+  "KATALOGTXT": {
+    "type": "CHAR 40",
+    "label": {
+      "es": "Descripción del tipo de catálogo",
+      "en": "Catalog type description",
+      "pt": "Descrição do tipo de catálogo"
+    }
+  },
+  "SCHLAGWORT": {
+    "type": "CHAR 12",
+    "label": {
+      "es": "Palabra clave",
+      "en": "Keyword",
+      "pt": "Palavra-chave"
+    }
+  },
+  "ORTOB": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Lugar obligatorio",
+      "en": "Location required",
+      "pt": "Local obrigatório"
+    }
+  },
+  "TALND": {
+    "type": "CHAR 3",
+    "label": {
+      "es": "País fiscal",
+      "en": "Tax country",
+      "pt": "País fiscal"
+    }
+  },
+  "ABGRU": {
+    "type": "CHAR 2",
+    "label": {
+      "es": "Motivo de rechazo",
+      "en": "Rejection reason",
+      "pt": "Motivo de recusa"
+    }
+  },
+  "KOWRR": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Valores estadísticos",
+      "en": "Statistical values",
+      "pt": "Valores estatísticos"
+    }
+  },
+  "AUGRU": {
+    "type": "CHAR 3",
+    "label": {
+      "es": "Motivo de pedido",
+      "en": "Order reason",
+      "pt": "Motivo da ordem"
+    }
+  },
+  "KOMRL": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Relevante para picking",
+      "en": "Relevant for picking",
+      "pt": "Relevante para picking"
+    }
+  },
+  "LGOZW": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Almacén obligatorio",
+      "en": "Storage location required",
+      "pt": "Depósito obrigatório"
+    }
+  },
+  "UEBPR": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Control de sobreentrega",
+      "en": "Overdelivery check",
+      "pt": "Controle de excesso de fornecimento"
+    }
+  },
+  "PODKZ": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Relevante para prueba de entrega",
+      "en": "Relevant for proof of delivery",
+      "pt": "Relevante para comprovante de entrega"
+    }
+  },
+  "SPEKO": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Bloqueo de picking",
+      "en": "Picking block",
+      "pt": "Bloqueio de picking"
+    }
+  },
+  "SPEWA": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Bloqueo de salida de mercancías",
+      "en": "Goods issue block",
+      "pt": "Bloqueio de saída de mercadorias"
+    }
+  },
+  "SPEDR": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Bloqueo de impresión",
+      "en": "Printing block",
+      "pt": "Bloqueio de impressão"
+    }
+  },
+  "MVGR2": {
+    "type": "CHAR 3",
+    "label": {
+      "es": "Grupo de material 2",
+      "en": "Material group 2",
+      "pt": "Grupo de materiais 2"
+    }
+  },
+  "MVGR3": {
+    "type": "CHAR 3",
+    "label": {
+      "es": "Grupo de material 3",
+      "en": "Material group 3",
+      "pt": "Grupo de materiais 3"
+    }
+  },
+  "MVGR4": {
+    "type": "CHAR 3",
+    "label": {
+      "es": "Grupo de material 4",
+      "en": "Material group 4",
+      "pt": "Grupo de materiais 4"
+    }
+  },
+  "MVGR5": {
+    "type": "CHAR 3",
+    "label": {
+      "es": "Grupo de material 5",
+      "en": "Material group 5",
+      "pt": "Grupo de materiais 5"
+    }
+  },
+  "LAUFK": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Indicador de tramo",
+      "en": "Leg indicator",
+      "pt": "Indicador de trecho"
+    }
+  },
+  "ABFER": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Tipo de finalización del transporte",
+      "en": "Shipment completion type",
+      "pt": "Tipo de conclusão do transporte"
+    }
+  },
+  "IGUID": {
+    "type": "CHAR 32",
+    "label": {
+      "es": "ID de compromiso",
+      "en": "Commitment ID",
+      "pt": "ID do compromisso"
+    }
+  },
+  "TMSTMP": {
+    "type": "DEC 15",
+    "label": {
+      "es": "Marca de tiempo",
+      "en": "Timestamp",
+      "pt": "Carimbo de data/hora"
+    }
+  },
+  "TRVOG": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Grupo de operaciones",
+      "en": "Transaction group",
+      "pt": "Grupo de operações"
+    }
+  },
+  "BSTNK": {
+    "type": "CHAR 20",
+    "label": {
+      "es": "Pedido del cliente",
+      "en": "Customer purchase order",
+      "pt": "Pedido do cliente"
+    }
+  },
+  "ABRLI": {
+    "type": "NUMC 4",
+    "label": {
+      "es": "Número interno de llamada",
+      "en": "Internal release number",
+      "pt": "Número interno de chamada"
+    }
+  },
+  "LABNK": {
+    "type": "CHAR 17",
+    "label": {
+      "es": "Número de llamada del cliente",
+      "en": "Customer release number",
+      "pt": "Número de chamada do cliente"
+    }
+  },
+  "ABEFZ": {
+    "type": "QUAN 15,3",
+    "label": {
+      "es": "Cantidad acumulada recibida",
+      "en": "Cumulative received quantity",
+      "pt": "Quantidade acumulada recebida"
+    }
+  },
+  "LFDKD": {
+    "type": "DATS 8",
+    "label": {
+      "es": "Última entrega según cliente",
+      "en": "Customer's last delivery date",
+      "pt": "Última entrega segundo o cliente"
+    }
+  },
+  "LFNKD": {
+    "type": "CHAR 10",
+    "label": {
+      "es": "Última nota de entrega según cliente",
+      "en": "Customer's last delivery note",
+      "pt": "Última nota de entrega segundo o cliente"
+    }
+  },
+  "SAKRV": {
+    "type": "CHAR 10",
+    "label": {
+      "es": "Cuenta de ingresos",
+      "en": "Revenue account",
+      "pt": "Conta de receitas"
+    }
+  },
+  "BDJPOPER": {
+    "type": "NUMC 7",
+    "label": {
+      "es": "Ejercicio y período contable",
+      "en": "Posting year and period",
+      "pt": "Exercício e período contábil"
+    }
+  },
+  "POPUPO": {
+    "type": "NUMC 3",
+    "label": {
+      "es": "Contador dentro del período",
+      "en": "Counter within period",
+      "pt": "Contador dentro do período"
+    }
+  },
+  "VBELN_N": {
+    "type": "CHAR 10",
+    "label": {
+      "es": "Documento siguiente",
+      "en": "Subsequent document",
+      "pt": "Documento subsequente"
+    }
+  },
+  "POSNR_N": {
+    "type": "NUMC 6",
+    "label": {
+      "es": "Posición del documento siguiente",
+      "en": "Subsequent document item",
+      "pt": "Item do documento subsequente"
+    }
+  },
+  "RVAMT": {
+    "type": "CURR 19,2",
+    "label": {
+      "es": "Importe de ingreso",
+      "en": "Revenue amount",
+      "pt": "Montante de receita"
+    }
+  },
+  "RRSTA": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Estado de reconocimiento de ingresos",
+      "en": "Revenue recognition status",
+      "pt": "Status de reconhecimento de receita"
+    }
+  },
+  "LEDAT": {
+    "type": "DATS 8",
+    "label": {
+      "es": "Fecha de creación de la entrega",
+      "en": "Delivery creation date",
+      "pt": "Data de criação do fornecimento"
+    }
+  },
+  "LPRIO": {
+    "type": "NUMC 2",
+    "label": {
+      "es": "Prioridad de entrega",
+      "en": "Delivery priority",
+      "pt": "Prioridade de remessa"
+    }
+  },
+  "SPDNR": {
+    "type": "CHAR 10",
+    "label": {
+      "es": "Transportista",
+      "en": "Forwarding agent",
+      "pt": "Transportador"
+    }
+  },
+  "WADAT": {
+    "type": "DATS 8",
+    "label": {
+      "es": "Fecha de salida de mercancías",
+      "en": "Goods issue date",
+      "pt": "Data de saída de mercadorias"
+    }
+  },
+  "KUNWE": {
+    "type": "CHAR 10",
+    "label": {
+      "es": "Destinatario de mercancías",
+      "en": "Ship-to party",
+      "pt": "Recebedor da mercadoria"
+    }
+  },
+  "VOLEH": {
+    "type": "UNIT 3",
+    "label": {
+      "es": "Unidad de volumen",
+      "en": "Volume unit",
+      "pt": "Unidade de volume"
+    }
+  },
+  "FKTYP": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Categoría de facturación",
+      "en": "Billing category",
+      "pt": "Categoria de faturamento"
+    }
+  },
+  "LLAND": {
+    "type": "CHAR 3",
+    "label": {
+      "es": "País de destino",
+      "en": "Destination country",
+      "pt": "País de destino"
+    }
+  },
+  "FAKSK": {
+    "type": "CHAR 2",
+    "label": {
+      "es": "Bloqueo de factura",
+      "en": "Billing block",
+      "pt": "Bloqueio de faturamento"
+    }
+  },
+  "ADRNR_WE": {
+    "type": "CHAR 10",
+    "label": {
+      "es": "Dirección del destinatario",
+      "en": "Ship-to address",
+      "pt": "Endereço do recebedor"
+    }
+  },
+  "ERZET": {
+    "type": "TIMS 6",
+    "label": {
+      "es": "Hora de creación",
+      "en": "Creation time",
+      "pt": "Hora de criação"
+    }
+  },
+  "EMPFD": {
+    "type": "CHAR 10",
+    "label": {
+      "es": "Cliente receptor de pagos permitido",
+      "en": "Permitted alternative payer",
+      "pt": "Cliente pagador alternativo permitido"
+    }
+  },
+  "SCHLW": {
+    "type": "CHAR 30",
+    "label": {
+      "es": "Palabra clave de búsqueda",
+      "en": "Search keyword",
+      "pt": "Palavra-chave de pesquisa"
+    }
+  },
+  "OPVAR": {
+    "type": "CHAR 4",
+    "label": {
+      "es": "Variante de períodos contables",
+      "en": "Posting period variant",
+      "pt": "Variante de períodos contábeis"
+    }
+  },
+  "MAABC": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Indicador ABC",
+      "en": "ABC indicator",
+      "pt": "Indicador ABC"
+    }
+  },
+  "EMPFK": {
+    "type": "CHAR 10",
+    "label": {
+      "es": "Proveedor receptor de pagos permitido",
+      "en": "Permitted alternative payee",
+      "pt": "Fornecedor recebedor alternativo permitido"
+    }
+  },
+  "MRM_ZLSPR": {
+    "type": "CHAR 1",
+    "label": {
+      "es": "Motivo de bloqueo de la factura",
+      "en": "Invoice blocking reason",
+      "pt": "Motivo de bloqueio da fatura"
+    }
+  },
+  "FAELL": {
+    "type": "DATS 8",
+    "label": {
+      "es": "Fecha de vencimiento",
+      "en": "Due date",
+      "pt": "Data de vencimento"
     }
   }
 }

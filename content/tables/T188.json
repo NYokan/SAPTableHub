@@ -31,5 +31,15 @@
       "KONDA",
       "atacado varejo"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "KONDA",
+      "key": true
+    }
+  ]
 }

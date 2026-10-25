@@ -30,5 +30,41 @@
       "atribuição de capacidade",
       "fórmula de capacidade"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "OBJTY",
+      "key": true
+    },
+    {
+      "name": "OBJID",
+      "key": true
+    },
+    {
+      "name": "CANUM",
+      "key": true
+    },
+    {
+      "name": "KAPID"
+    },
+    {
+      "name": "BEGDA"
+    },
+    {
+      "name": "ENDDA"
+    },
+    {
+      "name": "FORK1"
+    },
+    {
+      "name": "FORK2"
+    },
+    {
+      "name": "FORK3"
+    }
+  ]
 }

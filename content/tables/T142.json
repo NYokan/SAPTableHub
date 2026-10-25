@@ -30,5 +30,15 @@
       "requisitos de armazenamento",
       "refrigerado"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "RAUBE",
+      "key": true
+    }
+  ]
 }

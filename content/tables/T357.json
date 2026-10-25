@@ -30,5 +30,25 @@
       "seção da planta",
       "área de produção responsável"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "WERKS",
+      "key": true
+    },
+    {
+      "name": "BEBER",
+      "key": true
+    },
+    {
+      "name": "FING"
+    },
+    {
+      "name": "TELE"
+    }
+  ]
 }

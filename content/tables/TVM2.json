@@ -31,5 +31,15 @@
       "MVGR2",
       "classificação de material 2"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "MVGR2",
+      "key": true
+    }
+  ]
 }

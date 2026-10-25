@@ -31,5 +31,23 @@
       "centros por organização de vendas",
       "centro fornecedor"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "VKORG",
+      "key": true
+    },
+    {
+      "name": "VTWEG",
+      "key": true
+    },
+    {
+      "name": "WERKS",
+      "key": true
+    }
+  ]
 }

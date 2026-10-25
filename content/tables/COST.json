@@ -33,5 +33,48 @@
       "custo hora máquina",
       "tarifa por hora"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "LEDNR",
+      "key": true
+    },
+    {
+      "name": "OBJNR",
+      "key": true
+    },
+    {
+      "name": "GJAHR",
+      "key": true
+    },
+    {
+      "name": "WRTTP",
+      "key": true
+    },
+    {
+      "name": "VERSN",
+      "key": true
+    },
+    {
+      "name": "TARKZ",
+      "key": true
+    },
+    {
+      "name": "PERBL",
+      "key": true
+    },
+    {
+      "name": "VRGNG"
+    },
+    {
+      "name": "TKG001"
+    },
+    {
+      "name": "TKF001"
+    }
+  ]
 }

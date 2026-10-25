@@ -31,5 +31,15 @@
       "MVGR3",
       "classificação de material 3"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "MVGR3",
+      "key": true
+    }
+  ]
 }

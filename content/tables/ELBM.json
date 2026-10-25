@@ -33,5 +33,41 @@
       "nota de qualidade do fornecedor",
       "nota de entrega"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "EKORG",
+      "key": true
+    },
+    {
+      "name": "INFNR",
+      "key": true
+    },
+    {
+      "name": "HKRIT",
+      "key": true
+    },
+    {
+      "name": "LIFNR"
+    },
+    {
+      "name": "MATNR"
+    },
+    {
+      "name": "LEBDT"
+    },
+    {
+      "name": "DATUV"
+    },
+    {
+      "name": "ERDAT"
+    },
+    {
+      "name": "ERNAM"
+    }
+  ]
 }

@@ -31,5 +31,55 @@
       "consumo da reserva",
       "orçamento comprometido"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "BELNR",
+      "key": true
+    },
+    {
+      "name": "BLPOS",
+      "key": true
+    },
+    {
+      "name": "PTEXT",
+      "type": "CHAR 50",
+      "label": {
+        "es": "Texto de la posición",
+        "en": "Item text",
+        "pt": "Texto do item"
+      }
+    },
+    {
+      "name": "WTGES"
+    },
+    {
+      "name": "HWGES"
+    },
+    {
+      "name": "SAKNR"
+    },
+    {
+      "name": "KOSTL"
+    },
+    {
+      "name": "AUFNR"
+    },
+    {
+      "name": "LIFNR"
+    },
+    {
+      "name": "FDATK"
+    },
+    {
+      "name": "ERLKZ"
+    },
+    {
+      "name": "MENGE"
+    }
+  ]
 }

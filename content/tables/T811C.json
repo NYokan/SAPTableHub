@@ -32,5 +32,49 @@
       "alocação de custos",
       "KSU5"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "TAB",
+      "key": true,
+      "label": {
+        "es": "Tipo de ciclo (tabla)",
+        "en": "Cycle type (table)",
+        "pt": "Tipo de ciclo (tabela)"
+      }
+    },
+    {
+      "name": "CYCLE",
+      "key": true
+    },
+    {
+      "name": "SDATE",
+      "key": true
+    },
+    {
+      "name": "EDATE"
+    },
+    {
+      "name": "ITERFLAG"
+    },
+    {
+      "name": "LASTEXEC"
+    },
+    {
+      "name": "LEXECBY"
+    },
+    {
+      "name": "CRDATE"
+    },
+    {
+      "name": "MODDATE"
+    },
+    {
+      "name": "MODUSER"
+    }
+  ]
 }

@@ -30,5 +30,29 @@
       "contas de impostos",
       "conta por código de imposto"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "KTOPL",
+      "key": true
+    },
+    {
+      "name": "KTOSL",
+      "key": true
+    },
+    {
+      "name": "MWSKZ",
+      "key": true
+    },
+    {
+      "name": "KONTS"
+    },
+    {
+      "name": "KONTH"
+    }
+  ]
 }

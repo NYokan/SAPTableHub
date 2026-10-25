@@ -30,5 +30,32 @@
       "palavras-chave da classe",
       "texto da classe"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "CLINT",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "KLPOS",
+      "key": true
+    },
+    {
+      "name": "KSCHL",
+      "type": "CHAR 40",
+      "label": {
+        "es": "Palabra clave de la clase",
+        "en": "Class keyword",
+        "pt": "Palavra-chave da classe"
+      }
+    }
+  ]
 }

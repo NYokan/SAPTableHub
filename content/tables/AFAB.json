@@ -36,5 +36,50 @@
       "sucessora",
       "dependência"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "AUFPL_VOR",
+      "key": true
+    },
+    {
+      "name": "APLZL_VOR",
+      "key": true
+    },
+    {
+      "name": "AUFPL_NCH",
+      "key": true
+    },
+    {
+      "name": "APLZL_NCH",
+      "key": true
+    },
+    {
+      "name": "AOBAR",
+      "key": true
+    },
+    {
+      "name": "MIMAX",
+      "key": true
+    },
+    {
+      "name": "DAUER"
+    },
+    {
+      "name": "ZEINH"
+    },
+    {
+      "name": "WERKS"
+    },
+    {
+      "name": "KALID"
+    },
+    {
+      "name": "LOEKZ"
+    }
+  ]
 }

@@ -30,5 +30,15 @@
       "OPVAR",
       "abertura de períodos"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "OPVAR",
+      "key": true
+    }
+  ]
 }

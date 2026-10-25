@@ -27,5 +27,22 @@
       "texto tipo de objeto",
       "descrição tipo de equipamento"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "EQART",
+      "key": true
+    },
+    {
+      "name": "EARTX"
+    }
+  ]
 }

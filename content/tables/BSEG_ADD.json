@@ -38,5 +38,60 @@
       "itens de ledger",
       "contabilidade paralela"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "BUKRS",
+      "key": true
+    },
+    {
+      "name": "BELNR",
+      "key": true
+    },
+    {
+      "name": "GJAHR",
+      "key": true
+    },
+    {
+      "name": "BUZEI",
+      "key": true,
+      "type": "NUMC 6"
+    },
+    {
+      "name": "BSCHL"
+    },
+    {
+      "name": "SHKZG"
+    },
+    {
+      "name": "HKONT"
+    },
+    {
+      "name": "DMBTR",
+      "type": "CURR 23,2"
+    },
+    {
+      "name": "WRBTR",
+      "type": "CURR 23,2"
+    },
+    {
+      "name": "KOSTL"
+    },
+    {
+      "name": "PRCTR"
+    },
+    {
+      "name": "AUFNR"
+    },
+    {
+      "name": "ZUONR"
+    },
+    {
+      "name": "SGTXT"
+    }
+  ]
 }

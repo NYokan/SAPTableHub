@@ -29,5 +29,39 @@
       "tamanho da amostra",
       "plano de amostragem"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "STICHPRVER",
+      "key": true
+    },
+    {
+      "name": "STICHPRART"
+    },
+    {
+      "name": "BEWERTMOD"
+    },
+    {
+      "name": "STPRUMF"
+    },
+    {
+      "name": "ANNAHMEZ"
+    },
+    {
+      "name": "STPRPLAN"
+    },
+    {
+      "name": "AQLWERT"
+    },
+    {
+      "name": "PRSCHAERFE"
+    },
+    {
+      "name": "ERSTELLER"
+    }
+  ]
 }

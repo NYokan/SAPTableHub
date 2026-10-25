@@ -27,5 +27,24 @@
       "categoria de local de instalação",
       "classe de local de instalação"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "FLTYP",
+      "key": true
+    },
+    {
+      "name": "STSMA"
+    },
+    {
+      "name": "PARGR"
+    },
+    {
+      "name": "MPTYP"
+    }
+  ]
 }

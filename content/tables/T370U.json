@@ -27,5 +27,22 @@
       "texto categoria de equipamento",
       "descrição categoria de equipamento"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "EQTYP",
+      "key": true
+    },
+    {
+      "name": "TYPTX"
+    }
+  ]
 }

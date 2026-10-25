@@ -30,5 +30,47 @@
       "inspeção em processo",
       "controle durante a produção"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "PRUEFLOS",
+      "key": true
+    },
+    {
+      "name": "VORGLFNR",
+      "key": true
+    },
+    {
+      "name": "PROBENR",
+      "key": true
+    },
+    {
+      "name": "MENGE"
+    },
+    {
+      "name": "MENGENEINH"
+    },
+    {
+      "name": "EQUNR"
+    },
+    {
+      "name": "TPLNR"
+    },
+    {
+      "name": "VCODE"
+    },
+    {
+      "name": "VBEWERTUNG"
+    },
+    {
+      "name": "PRUEFER"
+    },
+    {
+      "name": "ENTSTEHDAT"
+    }
+  ]
 }

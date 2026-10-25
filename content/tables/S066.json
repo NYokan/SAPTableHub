@@ -33,5 +33,49 @@
       "exposição de crédito",
       "pedidos em aberto crédito"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SSOUR",
+      "key": true
+    },
+    {
+      "name": "VRSIO",
+      "key": true
+    },
+    {
+      "name": "KKBER",
+      "key": true
+    },
+    {
+      "name": "KNKLI",
+      "key": true
+    },
+    {
+      "name": "SPMON",
+      "key": true
+    },
+    {
+      "name": "SPTAG",
+      "key": true
+    },
+    {
+      "name": "SPWOC",
+      "key": true
+    },
+    {
+      "name": "SPBUP",
+      "key": true
+    },
+    {
+      "name": "OEIKW"
+    },
+    {
+      "name": "CMWAE"
+    }
+  ]
 }

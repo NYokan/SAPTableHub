@@ -27,5 +27,37 @@
       "quantidades do material ledger",
       "quantidades dos documentos ML"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "BELNR",
+      "key": true
+    },
+    {
+      "name": "KJAHR",
+      "key": true
+    },
+    {
+      "name": "POSNR",
+      "key": true
+    },
+    {
+      "name": "BDATJ",
+      "key": true
+    },
+    {
+      "name": "POPER",
+      "key": true
+    },
+    {
+      "name": "BUDAT"
+    },
+    {
+      "name": "BKLAS"
+    }
+  ]
 }

@@ -32,5 +32,18 @@
       "receita mestre",
       "plano de inspeção"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "PLNTY",
+      "key": true
+    },
+    {
+      "name": "PLNAW"
+    }
+  ]
 }

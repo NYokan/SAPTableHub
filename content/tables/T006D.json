@@ -30,5 +30,30 @@
       "grandeza física",
       "unidade SI"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "DIMID",
+      "key": true
+    },
+    {
+      "name": "MSSIE"
+    },
+    {
+      "name": "LENG"
+    },
+    {
+      "name": "MASS"
+    },
+    {
+      "name": "TIMEX"
+    },
+    {
+      "name": "TEMP"
+    }
+  ]
 }

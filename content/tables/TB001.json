@@ -30,5 +30,24 @@
       "faixa de numeração BP",
       "agrupamento BP"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "BU_GROUP",
+      "key": true
+    },
+    {
+      "name": "NRRNG"
+    },
+    {
+      "name": "XEXST"
+    },
+    {
+      "name": "KTOKD"
+    }
+  ]
 }

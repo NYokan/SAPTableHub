@@ -33,5 +33,31 @@
       "prazo de abertura",
       "FHORI"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "WERKS",
+      "key": true
+    },
+    {
+      "name": "FHORI",
+      "key": true
+    },
+    {
+      "name": "ERHOR"
+    },
+    {
+      "name": "SICHZ"
+    },
+    {
+      "name": "VORGZ"
+    },
+    {
+      "name": "FREIZ"
+    }
+  ]
 }

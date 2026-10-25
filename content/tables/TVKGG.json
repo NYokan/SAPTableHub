@@ -31,5 +31,15 @@
       "KDKG1",
       "desconto por grupo de cliente"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "KDKGR",
+      "key": true
+    }
+  ]
 }

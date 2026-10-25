@@ -33,5 +33,41 @@
       "número DUNS",
       "registro comercial"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "CLIENT",
+      "key": true
+    },
+    {
+      "name": "PARTNER",
+      "key": true
+    },
+    {
+      "name": "TYPE",
+      "key": true
+    },
+    {
+      "name": "IDNUMBER",
+      "key": true
+    },
+    {
+      "name": "INSTITUTE"
+    },
+    {
+      "name": "ENTRY_DATE"
+    },
+    {
+      "name": "VALID_DATE_FROM"
+    },
+    {
+      "name": "VALID_DATE_TO"
+    },
+    {
+      "name": "COUNTRY"
+    },
+    {
+      "name": "REGION"
+    }
+  ]
 }

@@ -33,5 +33,66 @@
       "plano de contas do razão",
       "planejado vs real"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "RCLNT",
+      "key": true
+    },
+    {
+      "name": "RYEAR",
+      "key": true
+    },
+    {
+      "name": "DOCNR",
+      "key": true
+    },
+    {
+      "name": "RLDNR",
+      "key": true
+    },
+    {
+      "name": "RBUKRS",
+      "key": true
+    },
+    {
+      "name": "DOCLN",
+      "key": true
+    },
+    {
+      "name": "DOCCT",
+      "key": true
+    },
+    {
+      "name": "RPMAX",
+      "key": true
+    },
+    {
+      "name": "RACCT"
+    },
+    {
+      "name": "RVERS"
+    },
+    {
+      "name": "RTCUR"
+    },
+    {
+      "name": "RCNTR"
+    },
+    {
+      "name": "PRCTR"
+    },
+    {
+      "name": "SEGMENT"
+    },
+    {
+      "name": "RFAREA"
+    },
+    {
+      "name": "RBUSA"
+    },
+    {
+      "name": "DRCRK"
+    }
+  ]
 }

@@ -27,5 +27,27 @@
       "categoria de equipamento",
       "classe de equipamento"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "EQTYP",
+      "key": true
+    },
+    {
+      "name": "NUMKI"
+    },
+    {
+      "name": "NUMKE"
+    },
+    {
+      "name": "STSMA"
+    },
+    {
+      "name": "PARGR"
+    }
+  ]
 }

@@ -30,5 +30,29 @@
       "agrupamento de centros",
       "hierarquia de recursos"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "OBJTY",
+      "key": true
+    },
+    {
+      "name": "OBJID",
+      "key": true
+    },
+    {
+      "name": "NAME",
+      "type": "CHAR 10"
+    },
+    {
+      "name": "WERKS"
+    },
+    {
+      "name": "VERAN"
+    }
+  ]
 }

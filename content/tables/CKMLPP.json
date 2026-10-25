@@ -33,5 +33,38 @@
       "status do custo real",
       "fechamento do material ledger"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "KALNR",
+      "key": true
+    },
+    {
+      "name": "BDATJ",
+      "key": true
+    },
+    {
+      "name": "POPER",
+      "key": true
+    },
+    {
+      "name": "UNTPER",
+      "key": true
+    },
+    {
+      "name": "STATUS",
+      "type": "NUMC 2"
+    },
+    {
+      "name": "MEINS"
+    },
+    {
+      "name": "LBKUM",
+      "type": "QUAN 15,3"
+    }
+  ]
 }

@@ -30,5 +30,26 @@
       "ramo de atividade",
       "indústria do cliente"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "CLIENT",
+      "key": true
+    },
+    {
+      "name": "PARTNER",
+      "key": true
+    },
+    {
+      "name": "ISTYPE",
+      "key": true
+    },
+    {
+      "name": "IND_SECTOR",
+      "key": true
+    },
+    {
+      "name": "ISDEF"
+    }
+  ]
 }

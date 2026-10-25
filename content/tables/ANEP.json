@@ -36,5 +36,67 @@
       "transferência de ativo",
       "histórico do ativo"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "BUKRS",
+      "key": true
+    },
+    {
+      "name": "ANLN1",
+      "key": true
+    },
+    {
+      "name": "ANLN2",
+      "key": true
+    },
+    {
+      "name": "GJAHR",
+      "key": true
+    },
+    {
+      "name": "LNRAN",
+      "key": true
+    },
+    {
+      "name": "AFABE",
+      "key": true
+    },
+    {
+      "name": "ZUJHR",
+      "key": true
+    },
+    {
+      "name": "ZUCOD",
+      "key": true
+    },
+    {
+      "name": "PERAF"
+    },
+    {
+      "name": "BELNR"
+    },
+    {
+      "name": "BUZEI"
+    },
+    {
+      "name": "BZDAT"
+    },
+    {
+      "name": "BWASL"
+    },
+    {
+      "name": "ANBTR"
+    },
+    {
+      "name": "NAFAB"
+    },
+    {
+      "name": "SAFAB"
+    }
+  ]
 }

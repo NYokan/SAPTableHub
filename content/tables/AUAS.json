@@ -30,5 +30,52 @@
       "origem da apropriação",
       "valores apropriados"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "BELNR",
+      "key": true
+    },
+    {
+      "name": "LFDNR",
+      "key": true,
+      "type": "NUMC 5"
+    },
+    {
+      "name": "VRGNG"
+    },
+    {
+      "name": "KSTAR"
+    },
+    {
+      "name": "TWAER"
+    },
+    {
+      "name": "WTGBTR"
+    },
+    {
+      "name": "WKGBTR"
+    },
+    {
+      "name": "WOGBTR"
+    },
+    {
+      "name": "MEINH",
+      "label": {
+        "es": "Unidad de medida",
+        "en": "Unit of measure",
+        "pt": "Unidade de medida"
+      }
+    },
+    {
+      "name": "MEGBTR"
+    },
+    {
+      "name": "BWASL"
+    }
+  ]
 }

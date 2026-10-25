@@ -33,5 +33,28 @@
       "previsão por período",
       "demanda prevista"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "PNUM2",
+      "key": true
+    },
+    {
+      "name": "ERTAG",
+      "key": true
+    },
+    {
+      "name": "PRWRT"
+    },
+    {
+      "name": "KOPRW"
+    },
+    {
+      "name": "FIXKZ"
+    }
+  ]
 }

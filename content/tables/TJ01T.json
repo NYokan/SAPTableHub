@@ -26,5 +26,18 @@
       "nome da operação de negócio",
       "descrição da VRGNG"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "VRGNG",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "TXT"
+    }
+  ]
 }

@@ -31,5 +31,70 @@
       "registros retirados da EKBE",
       "histórico do pedido resumido"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "EBELN",
+      "key": true
+    },
+    {
+      "name": "EBELP",
+      "key": true
+    },
+    {
+      "name": "ZEKKN",
+      "key": true
+    },
+    {
+      "name": "VGABE",
+      "key": true
+    },
+    {
+      "name": "GJAHR",
+      "key": true
+    },
+    {
+      "name": "BELNR",
+      "key": true
+    },
+    {
+      "name": "BUZEI",
+      "key": true,
+      "type": "NUMC 4"
+    },
+    {
+      "name": "BEWTP"
+    },
+    {
+      "name": "BWART"
+    },
+    {
+      "name": "BUDAT"
+    },
+    {
+      "name": "MENGE"
+    },
+    {
+      "name": "DMBTR"
+    },
+    {
+      "name": "WRBTR"
+    },
+    {
+      "name": "WAERS"
+    },
+    {
+      "name": "SHKZG"
+    },
+    {
+      "name": "MATNR"
+    },
+    {
+      "name": "WERKS"
+    }
+  ]
 }

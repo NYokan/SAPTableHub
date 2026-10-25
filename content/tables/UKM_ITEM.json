@@ -33,5 +33,35 @@
       "uso do limite de crédito",
       "gestão de crédito FSCM"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "CLIENT",
+      "key": true
+    },
+    {
+      "name": "PARTNER",
+      "key": true
+    },
+    {
+      "name": "CREDIT_SGMNT",
+      "key": true
+    },
+    {
+      "name": "IGUID",
+      "key": true
+    },
+    {
+      "name": "COMM_TYP"
+    },
+    {
+      "name": "AMOUNT"
+    },
+    {
+      "name": "CURRENCY"
+    },
+    {
+      "name": "TMSTMP"
+    }
+  ]
 }

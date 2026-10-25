@@ -30,5 +30,33 @@
       "BOM ativa",
       "estado da BOM"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "STLST",
+      "key": true
+    },
+    {
+      "name": "KZBDP"
+    },
+    {
+      "name": "KZPAF"
+    },
+    {
+      "name": "KZKLF"
+    },
+    {
+      "name": "KZAPF"
+    },
+    {
+      "name": "KZAUF"
+    },
+    {
+      "name": "KZRVA"
+    }
+  ]
 }

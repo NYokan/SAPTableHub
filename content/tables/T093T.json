@@ -27,5 +27,29 @@
       "texto da área de avaliação",
       "nome da área de avaliação"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "AFAPL",
+      "key": true
+    },
+    {
+      "name": "AFABER",
+      "key": true
+    },
+    {
+      "name": "AFBKTX"
+    },
+    {
+      "name": "AFBTXT"
+    }
+  ]
 }

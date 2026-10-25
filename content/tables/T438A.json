@@ -33,5 +33,24 @@
       "DISMM",
       "ponto de reabastecimento"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "DISMM",
+      "key": true
+    },
+    {
+      "name": "DISVF"
+    },
+    {
+      "name": "PROKZ"
+    },
+    {
+      "name": "FXART"
+    }
+  ]
 }

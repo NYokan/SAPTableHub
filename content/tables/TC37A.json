@@ -30,5 +30,40 @@
       "horário do turno",
       "turnos de trabalho"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SCHGRUP",
+      "key": true
+    },
+    {
+      "name": "KAPTPROG",
+      "key": true
+    },
+    {
+      "name": "ENDDA",
+      "key": true
+    },
+    {
+      "name": "BEGDA"
+    },
+    {
+      "name": "BEGZT",
+      "type": "TIMS 6"
+    },
+    {
+      "name": "ENDZT",
+      "type": "TIMS 6"
+    },
+    {
+      "name": "PAPLAN"
+    },
+    {
+      "name": "EINZT"
+    }
+  ]
 }

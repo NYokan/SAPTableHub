@@ -30,5 +30,58 @@
       "faturas pagas no aviso",
       "deduções do aviso"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "BUKRS",
+      "key": true
+    },
+    {
+      "name": "KOART",
+      "key": true
+    },
+    {
+      "name": "KONTO",
+      "key": true
+    },
+    {
+      "name": "AVSID",
+      "key": true
+    },
+    {
+      "name": "AVSPO",
+      "key": true
+    },
+    {
+      "name": "BELNR"
+    },
+    {
+      "name": "GJAHR"
+    },
+    {
+      "name": "BUZEI"
+    },
+    {
+      "name": "XBLNR"
+    },
+    {
+      "name": "WRBTR"
+    },
+    {
+      "name": "WAERS"
+    },
+    {
+      "name": "WSKTO"
+    },
+    {
+      "name": "ZUONR"
+    },
+    {
+      "name": "SGTXT"
+    }
+  ]
 }

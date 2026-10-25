@@ -30,5 +30,42 @@
       "status do kanban",
       "cartões kanban"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "PKKEY",
+      "key": true
+    },
+    {
+      "name": "PKNUM"
+    },
+    {
+      "name": "PKPOS"
+    },
+    {
+      "name": "PKBST"
+    },
+    {
+      "name": "PKIMG"
+    },
+    {
+      "name": "SAEDT"
+    },
+    {
+      "name": "AUFNR"
+    },
+    {
+      "name": "EBELN"
+    },
+    {
+      "name": "MBLNR"
+    },
+    {
+      "name": "PLNUM"
+    }
+  ]
 }

@@ -33,5 +33,43 @@
       "BOM do equipamento",
       "peças da máquina"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "EQUNR",
+      "key": true
+    },
+    {
+      "name": "WERKS",
+      "key": true
+    },
+    {
+      "name": "STLAN",
+      "key": true
+    },
+    {
+      "name": "STLNR",
+      "key": true
+    },
+    {
+      "name": "STLAL",
+      "key": true
+    },
+    {
+      "name": "ANDAT"
+    },
+    {
+      "name": "ANNAM"
+    },
+    {
+      "name": "AEDAT"
+    },
+    {
+      "name": "AENAM"
+    }
+  ]
 }

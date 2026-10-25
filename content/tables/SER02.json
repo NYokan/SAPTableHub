@@ -30,5 +30,45 @@
       "equipamentos do contrato de manutenção",
       "série por contrato"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "OBKNR",
+      "key": true
+    },
+    {
+      "name": "SDAUFNR"
+    },
+    {
+      "name": "POSNR"
+    },
+    {
+      "name": "KUNDE"
+    },
+    {
+      "name": "DATUM"
+    },
+    {
+      "name": "ANZSN"
+    },
+    {
+      "name": "VBTYP"
+    },
+    {
+      "name": "SD_AUART"
+    },
+    {
+      "name": "VKORG"
+    },
+    {
+      "name": "VTWEG"
+    },
+    {
+      "name": "SPART"
+    }
+  ]
 }

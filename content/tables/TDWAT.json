@@ -27,5 +27,22 @@
       "nome do tipo de documento",
       "texto do tipo de documento DMS"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "CVLANG",
+      "key": true
+    },
+    {
+      "name": "DOKAR",
+      "key": true
+    },
+    {
+      "name": "DARTXT"
+    }
+  ]
 }

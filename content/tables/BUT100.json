@@ -31,5 +31,29 @@
       "função BP",
       "papel do parceiro de negócios"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "PARTNER",
+      "key": true
+    },
+    {
+      "name": "RLTYP",
+      "key": true
+    },
+    {
+      "name": "DFVAL",
+      "key": true
+    },
+    {
+      "name": "VALID_FROM"
+    },
+    {
+      "name": "VALID_TO"
+    }
+  ]
 }

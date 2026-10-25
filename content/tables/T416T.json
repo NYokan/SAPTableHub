@@ -27,5 +27,22 @@
       "nome da utilização da BOM",
       "descrição do uso da lista técnica"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "STLAN",
+      "key": true
+    },
+    {
+      "name": "ANTXT"
+    }
+  ]
 }

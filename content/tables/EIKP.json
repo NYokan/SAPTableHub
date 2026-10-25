@@ -37,5 +37,33 @@
       "dados aduaneiros",
       "dados intrastat"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "EXNUM",
+      "key": true
+    },
+    {
+      "name": "ALAND"
+    },
+    {
+      "name": "EXPVZ"
+    },
+    {
+      "name": "IEVER"
+    },
+    {
+      "name": "ZOLLA"
+    },
+    {
+      "name": "ZOLLB"
+    },
+    {
+      "name": "GRWCU"
+    }
+  ]
 }

@@ -8,5 +8,38 @@
     "es": "Clientes: mensajes de salida por área de ventas",
     "en": "Customers: output per sales area",
     "pt": "Clientes: mensagens por área de vendas"
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "KUNNR",
+      "key": true
+    },
+    {
+      "name": "VKORG",
+      "key": true
+    },
+    {
+      "name": "VTWEG",
+      "key": true
+    },
+    {
+      "name": "SPART",
+      "key": true
+    },
+    {
+      "name": "DOCTP",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "NACHA"
+    }
+  ]
 }

@@ -27,5 +27,22 @@
       "nome grupo de embalagem",
       "descrição grupo de embalagem"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "MAGRV",
+      "key": true
+    },
+    {
+      "name": "BEZEI"
+    }
+  ]
 }

@@ -34,5 +34,24 @@
       "consignação",
       "item de serviço"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "PSTYP",
+      "key": true
+    },
+    {
+      "name": "WEPOS"
+    },
+    {
+      "name": "WEUNB"
+    },
+    {
+      "name": "REPOS"
+    }
+  ]
 }

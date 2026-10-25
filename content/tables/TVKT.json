@@ -31,5 +31,15 @@
       "clientes nacionais estrangeiros",
       "KTGRD"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "KTGRD",
+      "key": true
+    }
+  ]
 }

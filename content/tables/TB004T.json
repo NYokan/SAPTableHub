@@ -27,5 +27,22 @@
       "nome do tipo BP",
       "texto do tipo de parceiro"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "CLIENT",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "BPKIND",
+      "key": true
+    },
+    {
+      "name": "TEXT40"
+    }
+  ]
 }

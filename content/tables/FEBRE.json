@@ -30,5 +30,32 @@
       "nota ao beneficiário",
       "texto do movimento bancário"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "KUKEY",
+      "key": true
+    },
+    {
+      "name": "ESNUM",
+      "key": true
+    },
+    {
+      "name": "RSNUM",
+      "key": true,
+      "type": "NUMC 3",
+      "label": {
+        "es": "Línea del texto",
+        "en": "Text line number",
+        "pt": "Linha do texto"
+      }
+    },
+    {
+      "name": "VWEZW"
+    }
+  ]
 }

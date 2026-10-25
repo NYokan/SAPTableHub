@@ -30,5 +30,15 @@
       "classificação externa do material",
       "grupo externo"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "EXTWG",
+      "key": true
+    }
+  ]
 }

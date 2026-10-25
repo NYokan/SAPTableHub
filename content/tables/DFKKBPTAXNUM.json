@@ -35,5 +35,22 @@
       "identificação tributária",
       "inscrição fiscal"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "CLIENT",
+      "key": true
+    },
+    {
+      "name": "PARTNER",
+      "key": true
+    },
+    {
+      "name": "TAXTYPE",
+      "key": true
+    },
+    {
+      "name": "TAXNUM"
+    }
+  ]
 }

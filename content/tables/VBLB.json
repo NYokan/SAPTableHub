@@ -8,5 +8,48 @@
     "es": "Datos de llamadas de entrega de planes de entrega",
     "en": "Scheduling agreement release data",
     "pt": "Dados de chamadas de programas de remessa"
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "VBELN",
+      "key": true
+    },
+    {
+      "name": "POSNR",
+      "key": true
+    },
+    {
+      "name": "ABRLI",
+      "key": true
+    },
+    {
+      "name": "ABART",
+      "key": true
+    },
+    {
+      "name": "LABNK"
+    },
+    {
+      "name": "ABRDT"
+    },
+    {
+      "name": "ABEFZ"
+    },
+    {
+      "name": "LFDKD"
+    },
+    {
+      "name": "LFNKD"
+    },
+    {
+      "name": "ERDAT"
+    },
+    {
+      "name": "ERNAM"
+    }
+  ]
 }

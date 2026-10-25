@@ -33,5 +33,28 @@
       "proposta de pagamento",
       "status da execução de pagamentos"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "LAUFD",
+      "key": true
+    },
+    {
+      "name": "LAUFI",
+      "key": true
+    },
+    {
+      "name": "XVORE"
+    },
+    {
+      "name": "XECHT"
+    },
+    {
+      "name": "KURST"
+    }
+  ]
 }

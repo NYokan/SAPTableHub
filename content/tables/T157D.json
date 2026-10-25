@@ -33,5 +33,19 @@
       "motivo de sucateamento",
       "razão do movimento"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "BWART",
+      "key": true
+    },
+    {
+      "name": "GRUND",
+      "key": true
+    }
+  ]
 }

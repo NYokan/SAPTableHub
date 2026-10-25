@@ -33,5 +33,32 @@
       "confiabilidade de quantidade",
       "detalhe da avaliação"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "EKORG",
+      "key": true
+    },
+    {
+      "name": "LIFNR",
+      "key": true
+    },
+    {
+      "name": "HKRIT",
+      "key": true
+    },
+    {
+      "name": "BEURT"
+    },
+    {
+      "name": "LEBDT"
+    },
+    {
+      "name": "LEBEW"
+    }
+  ]
 }

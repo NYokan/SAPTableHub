@@ -27,5 +27,23 @@
       "responsável pelo centro de trabalho",
       "encarregado do centro"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "WERKS",
+      "key": true
+    },
+    {
+      "name": "VERAN",
+      "key": true
+    },
+    {
+      "name": "KTEXT",
+      "type": "CHAR 40"
+    }
+  ]
 }

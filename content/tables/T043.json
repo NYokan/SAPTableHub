@@ -30,5 +30,18 @@
       "limites de lançamento por usuário",
       "tolerância do funcionário"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "USNAM",
+      "key": true
+    },
+    {
+      "name": "RFPRO"
+    }
+  ]
 }

@@ -27,5 +27,22 @@
       "texto tipo de certificado",
       "descrição certificado"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SPRACHE",
+      "key": true
+    },
+    {
+      "name": "ZGTYP",
+      "key": true
+    },
+    {
+      "name": "KURZTEXT"
+    }
+  ]
 }

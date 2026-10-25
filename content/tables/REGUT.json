@@ -35,5 +35,60 @@
       "DME",
       "arquivo de remessa"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "ZBUKR",
+      "key": true
+    },
+    {
+      "name": "BANKS",
+      "key": true
+    },
+    {
+      "name": "LAUFD",
+      "key": true
+    },
+    {
+      "name": "LAUFI",
+      "key": true
+    },
+    {
+      "name": "XVORL",
+      "key": true
+    },
+    {
+      "name": "DTKEY",
+      "key": true
+    },
+    {
+      "name": "LFDNR",
+      "key": true
+    },
+    {
+      "name": "RBETR"
+    },
+    {
+      "name": "WAERS"
+    },
+    {
+      "name": "DTFOR"
+    },
+    {
+      "name": "TSDAT"
+    },
+    {
+      "name": "TSUSR"
+    },
+    {
+      "name": "DWDAT"
+    },
+    {
+      "name": "DWUSR"
+    }
+  ]
 }

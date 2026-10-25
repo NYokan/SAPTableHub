@@ -29,5 +29,50 @@
       "regras de rateio",
       "base de rateio"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "TAB",
+      "key": true,
+      "label": {
+        "es": "Tipo de ciclo (tabla)",
+        "en": "Cycle type (table)",
+        "pt": "Tipo de ciclo (tabela)"
+      }
+    },
+    {
+      "name": "CYCLE",
+      "key": true
+    },
+    {
+      "name": "SDATE",
+      "key": true
+    },
+    {
+      "name": "SEQNR",
+      "key": true,
+      "label": {
+        "es": "Segmento",
+        "en": "Segment",
+        "pt": "Segmento"
+      }
+    },
+    {
+      "name": "NAME",
+      "type": "CHAR 10"
+    },
+    {
+      "name": "SRULE"
+    },
+    {
+      "name": "RRULE"
+    },
+    {
+      "name": "SPERCENT"
+    }
+  ]
 }

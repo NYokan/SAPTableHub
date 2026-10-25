@@ -31,5 +31,19 @@
       "centro e organização de compras",
       "atribuição de centros a compras"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "WERKS",
+      "key": true
+    },
+    {
+      "name": "EKORG",
+      "key": true
+    }
+  ]
 }

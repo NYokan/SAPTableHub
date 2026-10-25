@@ -33,5 +33,49 @@
       "PRT na ordem",
       "ferramental da ordem"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "AUFPL",
+      "key": true
+    },
+    {
+      "name": "PZLFH",
+      "key": true
+    },
+    {
+      "name": "OBJTY"
+    },
+    {
+      "name": "OBJID"
+    },
+    {
+      "name": "APLZL"
+    },
+    {
+      "name": "PSNFH"
+    },
+    {
+      "name": "STEUF"
+    },
+    {
+      "name": "MGSOL"
+    },
+    {
+      "name": "MGIST"
+    },
+    {
+      "name": "MGEINH"
+    },
+    {
+      "name": "TXTZ1"
+    },
+    {
+      "name": "LOEKZ"
+    }
+  ]
 }

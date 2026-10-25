@@ -33,5 +33,49 @@
       "desenho associado ao material",
       "DMS objeto"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "DOKAR",
+      "key": true
+    },
+    {
+      "name": "DOKNR",
+      "key": true
+    },
+    {
+      "name": "DOKVR",
+      "key": true
+    },
+    {
+      "name": "DOKTL",
+      "key": true
+    },
+    {
+      "name": "DOKOB",
+      "key": true
+    },
+    {
+      "name": "OBZAE",
+      "key": true,
+      "type": "NUMC 4"
+    },
+    {
+      "name": "OBJKY",
+      "key": true,
+      "type": "CHAR 50",
+      "label": {
+        "es": "Clave del objeto vinculado",
+        "en": "Linked object key",
+        "pt": "Chave do objeto vinculado"
+      }
+    },
+    {
+      "name": "DELFLAG"
+    }
+  ]
 }

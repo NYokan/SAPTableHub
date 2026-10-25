@@ -35,5 +35,48 @@
       "tipo de defeito",
       "código de qualidade"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "KATALOGART",
+      "key": true
+    },
+    {
+      "name": "CODEGRUPPE",
+      "key": true
+    },
+    {
+      "name": "CODE",
+      "key": true
+    },
+    {
+      "name": "VERSION",
+      "key": true
+    },
+    {
+      "name": "GUELTIGAB"
+    },
+    {
+      "name": "FEHLKLASSE"
+    },
+    {
+      "name": "FOLGEAKTI"
+    },
+    {
+      "name": "INAKTIV"
+    },
+    {
+      "name": "GELOESCHT"
+    },
+    {
+      "name": "ERSTELLER"
+    },
+    {
+      "name": "E_DATUM"
+    }
+  ]
 }

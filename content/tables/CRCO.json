@@ -30,5 +30,49 @@
       "custeio do centro de trabalho",
       "tipos de atividade do centro"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "OBJTY",
+      "key": true
+    },
+    {
+      "name": "OBJID",
+      "key": true
+    },
+    {
+      "name": "LASET",
+      "key": true
+    },
+    {
+      "name": "ENDDA",
+      "key": true
+    },
+    {
+      "name": "LANUM",
+      "key": true
+    },
+    {
+      "name": "BEGDA"
+    },
+    {
+      "name": "KOKRS"
+    },
+    {
+      "name": "KOSTL"
+    },
+    {
+      "name": "LSTAR"
+    },
+    {
+      "name": "LEINH"
+    },
+    {
+      "name": "FORML"
+    }
+  ]
 }

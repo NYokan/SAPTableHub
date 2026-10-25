@@ -8,5 +8,63 @@
     "es": "Planes de inspección: valores por característica",
     "en": "Inspection plans: characteristic values",
     "pt": "Planos de inspeção: valores por característica"
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "PLNTY",
+      "key": true
+    },
+    {
+      "name": "PLNNR",
+      "key": true
+    },
+    {
+      "name": "PLNKN",
+      "key": true
+    },
+    {
+      "name": "KZEINSTELL",
+      "key": true
+    },
+    {
+      "name": "MERKNR",
+      "key": true
+    },
+    {
+      "name": "ZUORDNR",
+      "key": true
+    },
+    {
+      "name": "ZAEHL",
+      "key": true
+    },
+    {
+      "name": "MATNR"
+    },
+    {
+      "name": "WERKS"
+    },
+    {
+      "name": "PLNAL"
+    },
+    {
+      "name": "SOLLWERT"
+    },
+    {
+      "name": "TOLERANZOB"
+    },
+    {
+      "name": "TOLERANZUN"
+    },
+    {
+      "name": "MASSEINHSW"
+    },
+    {
+      "name": "STELLEN"
+    }
+  ]
 }

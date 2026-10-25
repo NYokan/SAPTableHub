@@ -29,5 +29,33 @@
       "descrição do processo",
       "textos de processos"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "KOKRS",
+      "key": true
+    },
+    {
+      "name": "PRZNR",
+      "key": true
+    },
+    {
+      "name": "DATBI",
+      "key": true
+    },
+    {
+      "name": "KTEXT"
+    },
+    {
+      "name": "LTEXT"
+    }
+  ]
 }

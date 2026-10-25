@@ -8,5 +8,34 @@
     "es": "Centro de coste y clase de coste",
     "en": "Cost center and cost element",
     "pt": "Centro de custo e classe de custo"
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "VERSN",
+      "key": true
+    },
+    {
+      "name": "KOKRS",
+      "key": true
+    },
+    {
+      "name": "GJAHR",
+      "key": true
+    },
+    {
+      "name": "KOSTL",
+      "key": true
+    },
+    {
+      "name": "KSTAR",
+      "key": true
+    },
+    {
+      "name": "MGEFL"
+    }
+  ]
 }

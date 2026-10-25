@@ -34,5 +34,24 @@
       "retenção de envio",
       "LIFSK"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "LIFSP",
+      "key": true
+    },
+    {
+      "name": "SPEKO"
+    },
+    {
+      "name": "SPEWA"
+    },
+    {
+      "name": "SPEDR"
+    }
+  ]
 }

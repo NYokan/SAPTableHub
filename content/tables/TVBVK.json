@@ -31,5 +31,19 @@
       "estrutura comercial",
       "atribuição escritório equipe"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "VKBUR",
+      "key": true
+    },
+    {
+      "name": "VKGRP",
+      "key": true
+    }
+  ]
 }

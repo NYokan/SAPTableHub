@@ -29,5 +29,38 @@
       "códigos de decisão de utilização",
       "catálogo de qualidade"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "WERKS",
+      "key": true
+    },
+    {
+      "name": "KATALOGART",
+      "key": true
+    },
+    {
+      "name": "AUSWAHLMGE",
+      "key": true
+    },
+    {
+      "name": "KTX01"
+    },
+    {
+      "name": "STATUS"
+    },
+    {
+      "name": "VERWENDUNG"
+    },
+    {
+      "name": "ERSTELLER"
+    },
+    {
+      "name": "E_DATUM"
+    }
+  ]
 }

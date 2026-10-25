@@ -27,5 +27,22 @@
       "texto chave de controle QM",
       "descrição chave QM"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SPRACHE",
+      "key": true
+    },
+    {
+      "name": "QM_PUR",
+      "key": true
+    },
+    {
+      "name": "KURZTEXT"
+    }
+  ]
 }

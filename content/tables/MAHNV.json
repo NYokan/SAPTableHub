@@ -30,5 +30,25 @@
       "programa de advertência",
       "rodada de cobrança"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "LAUFD",
+      "key": true
+    },
+    {
+      "name": "LAUFI",
+      "key": true
+    },
+    {
+      "name": "XMSEL"
+    },
+    {
+      "name": "XMPRI"
+    }
+  ]
 }

@@ -30,5 +30,61 @@
       "LIS estoque",
       "valor de estoque por depósito"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SSOUR",
+      "key": true
+    },
+    {
+      "name": "VRSIO",
+      "key": true
+    },
+    {
+      "name": "WERKS",
+      "key": true
+    },
+    {
+      "name": "LGORT",
+      "key": true
+    },
+    {
+      "name": "MATNR",
+      "key": true
+    },
+    {
+      "name": "BASME"
+    },
+    {
+      "name": "HWAER"
+    },
+    {
+      "name": "MBWBEST"
+    },
+    {
+      "name": "WBWBEST"
+    },
+    {
+      "name": "MKOBEST"
+    },
+    {
+      "name": "LETZTZUG"
+    },
+    {
+      "name": "LETZTABG"
+    },
+    {
+      "name": "LETZTVER"
+    },
+    {
+      "name": "MTART"
+    },
+    {
+      "name": "MATKL"
+    }
+  ]
 }

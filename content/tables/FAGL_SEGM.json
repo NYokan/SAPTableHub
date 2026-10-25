@@ -33,5 +33,15 @@
       "IFRS 8",
       "SEGMENT"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SEGMENT",
+      "key": true
+    }
+  ]
 }

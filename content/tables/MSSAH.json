@@ -27,5 +27,52 @@
       "histórico total estoque de pedido",
       "estoque E total histórico"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "MATNR",
+      "key": true
+    },
+    {
+      "name": "WERKS",
+      "key": true
+    },
+    {
+      "name": "SOBKZ",
+      "key": true
+    },
+    {
+      "name": "VBELN",
+      "key": true,
+      "label": {
+        "es": "Pedido de cliente",
+        "en": "Sales order",
+        "pt": "Ordem de venda"
+      }
+    },
+    {
+      "name": "POSNR",
+      "key": true,
+      "label": {
+        "es": "Posición del pedido de cliente",
+        "en": "Sales order item",
+        "pt": "Item da ordem de venda"
+      }
+    },
+    {
+      "name": "LFGJA",
+      "key": true
+    },
+    {
+      "name": "LFMON",
+      "key": true
+    },
+    {
+      "name": "SATRA"
+    }
+  ]
 }

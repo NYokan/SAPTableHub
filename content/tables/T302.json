@@ -31,5 +31,23 @@
       "seção do depósito",
       "setor do depósito"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "LGNUM",
+      "key": true
+    },
+    {
+      "name": "LGTYP",
+      "key": true
+    },
+    {
+      "name": "LGBER",
+      "key": true
+    }
+  ]
 }

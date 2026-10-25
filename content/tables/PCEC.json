@@ -33,5 +33,44 @@
       "numeração de cheques",
       "talonário"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "ZBUKR",
+      "key": true
+    },
+    {
+      "name": "HBKID",
+      "key": true
+    },
+    {
+      "name": "HKTID",
+      "key": true
+    },
+    {
+      "name": "STAPL",
+      "key": true
+    },
+    {
+      "name": "CHECF"
+    },
+    {
+      "name": "CHECT",
+      "label": {
+        "es": "Número de cheque final",
+        "en": "Last check number",
+        "pt": "Número do cheque final"
+      }
+    },
+    {
+      "name": "CHECL"
+    },
+    {
+      "name": "ZWELS"
+    }
+  ]
 }

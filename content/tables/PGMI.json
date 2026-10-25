@@ -33,5 +33,42 @@
       "desagregação SOP",
       "membros do grupo"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "PGTYP",
+      "key": true
+    },
+    {
+      "name": "PRGRP",
+      "key": true
+    },
+    {
+      "name": "WERKS",
+      "key": true
+    },
+    {
+      "name": "NRMIT",
+      "key": true
+    },
+    {
+      "name": "WEMIT",
+      "key": true
+    },
+    {
+      "name": "DATUM",
+      "key": true
+    },
+    {
+      "name": "VSNDA",
+      "key": true
+    },
+    {
+      "name": "PRKOF"
+    }
+  ]
 }

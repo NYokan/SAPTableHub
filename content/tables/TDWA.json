@@ -30,5 +30,21 @@
       "classe de documento DMS",
       "configuração DMS"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "DOKAR",
+      "key": true
+    },
+    {
+      "name": "KLASSE"
+    },
+    {
+      "name": "KLASSENART"
+    }
+  ]
 }

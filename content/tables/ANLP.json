@@ -33,5 +33,65 @@
       "execução de depreciação",
       "depreciação por período"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "BUKRS",
+      "key": true
+    },
+    {
+      "name": "GJAHR",
+      "key": true
+    },
+    {
+      "name": "PERAF",
+      "key": true
+    },
+    {
+      "name": "AFBNR",
+      "key": true
+    },
+    {
+      "name": "ANLN1",
+      "key": true
+    },
+    {
+      "name": "ANLN2",
+      "key": true
+    },
+    {
+      "name": "AFABER",
+      "key": true
+    },
+    {
+      "name": "ZUJHR",
+      "key": true
+    },
+    {
+      "name": "ZUCOD",
+      "key": true
+    },
+    {
+      "name": "NAFAZ"
+    },
+    {
+      "name": "KTOGR"
+    },
+    {
+      "name": "AFASL"
+    },
+    {
+      "name": "KOSTL"
+    },
+    {
+      "name": "BELNR"
+    },
+    {
+      "name": "PRCTR"
+    }
+  ]
 }

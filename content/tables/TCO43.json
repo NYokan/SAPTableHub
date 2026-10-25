@@ -30,5 +30,36 @@
       "liberação automática",
       "perfil de produção"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "WERKS",
+      "key": true
+    },
+    {
+      "name": "CO_PRODPRF",
+      "key": true
+    },
+    {
+      "name": "AUART",
+      "label": {
+        "es": "Clase de orden",
+        "en": "Order type",
+        "pt": "Tipo de ordem"
+      }
+    },
+    {
+      "name": "AUTYP"
+    },
+    {
+      "name": "AUART_KDE"
+    },
+    {
+      "name": "AUART_PSP"
+    }
+  ]
 }

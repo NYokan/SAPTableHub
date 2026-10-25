@@ -27,5 +27,25 @@
       "nome local de referência",
       "descrição local de instalação de referência"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "TRPNR",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "PLTXT"
+    },
+    {
+      "name": "KZLTX"
+    }
+  ]
 }

@@ -31,5 +31,49 @@
       "mudança de status do estoque WM",
       "transferência de lote WM"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "LGNUM",
+      "key": true
+    },
+    {
+      "name": "UBNUM",
+      "key": true
+    },
+    {
+      "name": "STATU"
+    },
+    {
+      "name": "MBLNR"
+    },
+    {
+      "name": "MJAHR"
+    },
+    {
+      "name": "BWART"
+    },
+    {
+      "name": "BWLVS"
+    },
+    {
+      "name": "MATN1"
+    },
+    {
+      "name": "WERK1"
+    },
+    {
+      "name": "MENGE"
+    },
+    {
+      "name": "MEINS"
+    },
+    {
+      "name": "TANUM"
+    }
+  ]
 }

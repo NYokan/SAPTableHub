@@ -28,5 +28,30 @@
       "nome área de picking",
       "descrição zona de picking"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "LGNUM",
+      "key": true
+    },
+    {
+      "name": "LGTYP",
+      "key": true
+    },
+    {
+      "name": "KOBER",
+      "key": true
+    },
+    {
+      "name": "KBERT"
+    }
+  ]
 }

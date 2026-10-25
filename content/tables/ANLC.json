@@ -36,5 +36,57 @@
       "depreciação",
       "valores do ativo"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "BUKRS",
+      "key": true
+    },
+    {
+      "name": "ANLN1",
+      "key": true
+    },
+    {
+      "name": "ANLN2",
+      "key": true
+    },
+    {
+      "name": "GJAHR",
+      "key": true
+    },
+    {
+      "name": "AFABE",
+      "key": true
+    },
+    {
+      "name": "ZUJHR",
+      "key": true
+    },
+    {
+      "name": "ZUCOD",
+      "key": true
+    },
+    {
+      "name": "KANSW"
+    },
+    {
+      "name": "ANSWL"
+    },
+    {
+      "name": "KNAFA"
+    },
+    {
+      "name": "NAFAG"
+    },
+    {
+      "name": "NAFAP"
+    },
+    {
+      "name": "SAFAG"
+    }
+  ]
 }

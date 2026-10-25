@@ -36,5 +36,38 @@
       "cheque",
       "ZLSCH"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "LAND1",
+      "key": true
+    },
+    {
+      "name": "ZLSCH",
+      "key": true
+    },
+    {
+      "name": "TEXT1",
+      "type": "CHAR 30"
+    },
+    {
+      "name": "PROGN"
+    },
+    {
+      "name": "BLART"
+    },
+    {
+      "name": "XSCHK"
+    },
+    {
+      "name": "XSEPA"
+    },
+    {
+      "name": "XIBAN"
+    }
+  ]
 }

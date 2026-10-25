@@ -28,5 +28,25 @@
       "canal por organização de vendas",
       "canais permitidos"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "VKORG",
+      "key": true
+    },
+    {
+      "name": "VTWEG",
+      "key": true
+    },
+    {
+      "name": "VTWKO"
+    },
+    {
+      "name": "VTWKU"
+    }
+  ]
 }

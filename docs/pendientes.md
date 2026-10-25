@@ -125,6 +125,28 @@ Títulos corregidos en esta ronda: `T683T` pasa a `T683U` (la tabla de textos de
 
 Las explicaciones de las tablas de texto (…T) siguen una plantilla común y algunas listas de sinónimos incluyen el nombre técnico del campo clave (p. ej. `AUART`, `BSCHL`). Conviene repasar sobre todo las que los redactores marcaron como menos seguras: `EKAN`, `T006B`, `T006C`, `ELBM`, `ELBP`, `ESUC`, `T350`, `PMCO`.
 
+## Tablas sin campos (80)
+
+921 de las 1.001 tablas tienen su clave completa y sus campos principales. Los nombres, las claves y los tipos de todas ellas, salvo cuatro de S/4HANA, se contrastaron con la referencia pública del diccionario de ECC 6.0 de leanx.eu. Quedan sin campos:
+
+- **Solo S/4HANA, sin referencia pública con la que contrastar** (19): `ACDOCA_M_EXTRACT`, `ACDOCP`, `FAAT_DOC_IT`, `FAAT_PLAN_VALUES`, `FAAT_YDDA`, `FINSC_LD_CMP`, `FINSC_LEDGER`, `FINSC_LEDGER_T`, `FQM_FLOW`, `MATDOC`, `MATDOC_EXTRACT`, `MLDOC`, `MLDOCCCS`, `MLDOC_EXTRACT`, `PPH_DBVM`, `/SCWM/AQUA`, `/SCWM/LAGP`, `/SCWM/ORDIM_C`, `/SCWM/ORDIM_O`. Los campos de `ACDOCA`, `PRCD_ELEMENTS`, `/SCMTMS/D_TORITE` y `/SCMTMS/D_TORROT` se escribieron sin poder contrastarlos.
+- **No se tenía claro el significado de algún campo** (61):
+  - **Ventas** (8): `KNVS`, `T151`, `T173`, `T683`, `TPRIO`, `TVAKZ`, `TVAU`, `VBREVK`
+  - **Compras** (3): `LFAT`, `S013`, `T027A`
+  - **Materiales** (5): `PROP`, `T137`, `T148`, `T300`, `T301`
+  - **Producción** (6): `AFWI`, `CRHS`, `S076`, `T411`, `TC26`, `TC30`
+  - **Calidad** (2): `TQ05`, `TQ15`
+  - **Mantenimiento** (2): `PMCO`, `T353I`
+  - **Finanzas** (14): `ANEA`, `FDSB`, `KNB4`, `MHND`, `MHNK`, `REGUS`, `T040S`, `T043G`, `T047D`, `T047E`, `T096`, `TABWG`, `TTXJ`, `TVOID`
+  - **Controlling** (19): `AUAB`, `BPGE`, `BPJA`, `CEPC_BUKRS`, `CKMLKEPH`, `CKMLPRKEPH`, `COFIT`, `COKP`, `COKS`, `COOI`, `COSB`, `GLPCT`, `KEPH`, `MLKEPH`, `TCK19A`, `TCKH3`, `TCKH4`, `TJ01`, `TKVS`
+  - **General** (2): `TB004`, `THOC`
+
+Títulos que conviene revisar porque los campos reales no encajan con ellos: `TCKH4` (presentada como tabla de textos, pero no tiene campo de texto), `TCK19A` y `T047D` (sus campos son de formularios, no de importes mínimos).
+
+En las tablas de totales por período (`COSP`, `COSS`, `COSR`, `COST`, `RPSCO`, `RPSQT`, `MVER`) solo se muestran las columnas de los primeros períodos como muestra.
+
+Un campo puede llevar en una tabla una etiqueta propia (144 casos) o un tipo propio (133 casos) cuando difiere del diccionario general; conviene repasar las etiquetas propias.
+
 ## Descartadas al integrar
 
 Estas tablas se prepararon pero se quitaron antes de entrar en `content/`:
@@ -132,6 +154,7 @@ Estas tablas se prepararon pero se quitaron antes de entrar en `content/`:
 - `IFLO`, `ITOB`: son vistas, no tablas.
 - `USR21`, `TTXOB`, `TTXOT`, `TTXID`, `TTXIT`, `TTZZ`, `TTZZT`: configuración interna del sistema.
 - `T047A`: no se pudo describir su contenido con seguridad.
+- `BGMKT`, `TVLPT`: no figuran ni en la referencia pública de ECC ni en la lista de SAP; las tablas reales son `BGMK` y `TVAPT` (textos de los tipos de posición).
 - En `DOST` y `QAKL` se quitó la clase de entrega por no tener seguridad.
 
 Algunas dudas de la sección anterior mencionan estas tablas: ya no están en el sitio.

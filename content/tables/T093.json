@@ -33,5 +33,28 @@
       "depreciação contábil",
       "AFABE"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "AFAPL",
+      "key": true
+    },
+    {
+      "name": "AFABER",
+      "key": true
+    },
+    {
+      "name": "XSTORE"
+    },
+    {
+      "name": "BUHBKT"
+    },
+    {
+      "name": "LDGRP_GL"
+    }
+  ]
 }

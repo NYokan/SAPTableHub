@@ -38,5 +38,40 @@
       "programa mestre",
       "plano de produção"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "BDZEI",
+      "key": true
+    },
+    {
+      "name": "PDATU",
+      "key": true
+    },
+    {
+      "name": "PLNMG"
+    },
+    {
+      "name": "ENTMG"
+    },
+    {
+      "name": "MEINS"
+    },
+    {
+      "name": "PERXX"
+    },
+    {
+      "name": "VERID"
+    },
+    {
+      "name": "LAEDA"
+    },
+    {
+      "name": "AENAM"
+    }
+  ]
 }

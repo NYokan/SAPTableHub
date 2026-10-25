@@ -27,5 +27,25 @@
       "texto tipo de catálogo",
       "descrição tipo de catálogo"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SPRACHE",
+      "key": true
+    },
+    {
+      "name": "KATALOGART",
+      "key": true
+    },
+    {
+      "name": "KATALOGTXT"
+    },
+    {
+      "name": "SCHLAGWORT"
+    }
+  ]
 }

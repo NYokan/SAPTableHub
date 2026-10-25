@@ -8,5 +8,53 @@
     "es": "Partidas CO por periodo (cálculo de resultados)",
     "en": "CO period line items (results analysis)",
     "pt": "Partidas CO por período (análise de resultados)"
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "KOKRS",
+      "key": true
+    },
+    {
+      "name": "BELNR",
+      "key": true
+    },
+    {
+      "name": "BUZEI",
+      "key": true
+    },
+    {
+      "name": "GJAHR"
+    },
+    {
+      "name": "PERIO"
+    },
+    {
+      "name": "OBJNR"
+    },
+    {
+      "name": "KSTAR"
+    },
+    {
+      "name": "WRTTP"
+    },
+    {
+      "name": "VERSN"
+    },
+    {
+      "name": "VRGNG"
+    },
+    {
+      "name": "WKGBTR"
+    },
+    {
+      "name": "WTGBTR"
+    },
+    {
+      "name": "TWAER"
+    }
+  ]
 }

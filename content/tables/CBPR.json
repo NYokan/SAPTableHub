@@ -32,5 +32,47 @@
       "processos ABC",
       "processo de negócio"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "KOKRS",
+      "key": true
+    },
+    {
+      "name": "PRZNR",
+      "key": true
+    },
+    {
+      "name": "DATBI",
+      "key": true
+    },
+    {
+      "name": "DATAB"
+    },
+    {
+      "name": "VERAP"
+    },
+    {
+      "name": "BUKRS"
+    },
+    {
+      "name": "GSBER"
+    },
+    {
+      "name": "WERKS"
+    },
+    {
+      "name": "PRCTR"
+    },
+    {
+      "name": "KOSTL"
+    },
+    {
+      "name": "LEINH"
+    }
+  ]
 }

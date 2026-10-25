@@ -27,5 +27,28 @@
       "texto do ledger",
       "nome do ledger"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "LANGU",
+      "key": true
+    },
+    {
+      "name": "RLDNR",
+      "key": true
+    },
+    {
+      "name": "NAME",
+      "type": "CHAR 30",
+      "label": {
+        "es": "Nombre del ledger",
+        "en": "Ledger name",
+        "pt": "Nome do ledger"
+      }
+    }
+  ]
 }

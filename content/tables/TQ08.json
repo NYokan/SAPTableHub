@@ -30,5 +30,30 @@
       "qualidade em compras",
       "requisitos de qualidade do fornecedor"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "QM_PUR",
+      "key": true
+    },
+    {
+      "name": "TLERF"
+    },
+    {
+      "name": "QVERF"
+    },
+    {
+      "name": "LIEFFREI"
+    },
+    {
+      "name": "ZGERF"
+    },
+    {
+      "name": "RESPERRE"
+    }
+  ]
 }

@@ -29,5 +29,33 @@
       "tempos-padrão",
       "tempo de preparação"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "VGWTS",
+      "key": true
+    },
+    {
+      "name": "PAR01"
+    },
+    {
+      "name": "PAR02"
+    },
+    {
+      "name": "PAR03"
+    },
+    {
+      "name": "PAR04"
+    },
+    {
+      "name": "PAR05"
+    },
+    {
+      "name": "PAR06"
+    }
+  ]
 }

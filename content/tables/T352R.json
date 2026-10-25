@@ -29,5 +29,49 @@
       "parada de planta",
       "shutdown"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "IWERK",
+      "key": true
+    },
+    {
+      "name": "REVNR",
+      "key": true
+    },
+    {
+      "name": "REVTX"
+    },
+    {
+      "name": "REVBD"
+    },
+    {
+      "name": "REVED"
+    },
+    {
+      "name": "REVTY"
+    },
+    {
+      "name": "REVAB"
+    },
+    {
+      "name": "EQUNR"
+    },
+    {
+      "name": "TPLNR"
+    },
+    {
+      "name": "AUFNR"
+    },
+    {
+      "name": "ERNAM"
+    },
+    {
+      "name": "ERDAT"
+    }
+  ]
 }

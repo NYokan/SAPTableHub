@@ -30,5 +30,30 @@
       "ordem de bancos para pagamentos",
       "banco pagador"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "ZBUKR",
+      "key": true
+    },
+    {
+      "name": "ZLSCH",
+      "key": true
+    },
+    {
+      "name": "WAERS",
+      "key": true
+    },
+    {
+      "name": "RANGF",
+      "key": true
+    },
+    {
+      "name": "HBKID"
+    }
+  ]
 }

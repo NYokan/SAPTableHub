@@ -30,5 +30,41 @@
       "número IBAN",
       "conta bancária internacional"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "BANKS",
+      "key": true
+    },
+    {
+      "name": "BANKL",
+      "key": true
+    },
+    {
+      "name": "BANKN",
+      "key": true,
+      "type": "CHAR 35"
+    },
+    {
+      "name": "BKONT",
+      "key": true
+    },
+    {
+      "name": "IBAN"
+    },
+    {
+      "name": "VALID_FROM",
+      "type": "DATS 8"
+    },
+    {
+      "name": "ERNAM"
+    },
+    {
+      "name": "ERDAT"
+    }
+  ]
 }

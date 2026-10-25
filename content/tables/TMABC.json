@@ -30,5 +30,15 @@
       "classificação ABC",
       "análise ABC"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "MAABC",
+      "key": true
+    }
+  ]
 }

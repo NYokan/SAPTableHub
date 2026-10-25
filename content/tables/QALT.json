@@ -30,5 +30,40 @@
       "subdivisão do lote de inspeção",
       "lote parcial de produção"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDANT",
+      "key": true
+    },
+    {
+      "name": "PRUEFLOS",
+      "key": true
+    },
+    {
+      "name": "TEILLOS",
+      "key": true
+    },
+    {
+      "name": "MATNR"
+    },
+    {
+      "name": "CHARG"
+    },
+    {
+      "name": "MENGE"
+    },
+    {
+      "name": "MENGENEINH"
+    },
+    {
+      "name": "KTEXTTLOS"
+    },
+    {
+      "name": "PRUEFER"
+    },
+    {
+      "name": "ENSTEHDAT"
+    }
+  ]
 }

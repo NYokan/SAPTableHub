@@ -32,5 +32,37 @@
       "fundo fixo",
       "cash journal"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "COMP_CODE",
+      "key": true
+    },
+    {
+      "name": "CAJO_NUMBER",
+      "key": true
+    },
+    {
+      "name": "TEXT"
+    },
+    {
+      "name": "GL_ACCOUNT"
+    },
+    {
+      "name": "CURRENCY"
+    },
+    {
+      "name": "PERSON1"
+    },
+    {
+      "name": "PERSON2"
+    },
+    {
+      "name": "CJCLOSED"
+    }
+  ]
 }

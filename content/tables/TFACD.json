@@ -30,5 +30,41 @@
       "dias úteis",
       "calendário de trabalho"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "IDENT",
+      "key": true
+    },
+    {
+      "name": "HOCID"
+    },
+    {
+      "name": "VJAHR"
+    },
+    {
+      "name": "BJAHR"
+    },
+    {
+      "name": "MOTAG"
+    },
+    {
+      "name": "DITAG"
+    },
+    {
+      "name": "MIWCH"
+    },
+    {
+      "name": "DOTAG"
+    },
+    {
+      "name": "FRTAG"
+    },
+    {
+      "name": "SATAG"
+    },
+    {
+      "name": "SOTAG"
+    }
+  ]
 }

@@ -30,5 +30,44 @@
       "ciclo de manutenção",
       "intervalo de manutenção"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "STRAT",
+      "key": true
+    },
+    {
+      "name": "ZAEHL",
+      "key": true,
+      "type": "NUMC 2"
+    },
+    {
+      "name": "ZYKZT"
+    },
+    {
+      "name": "ZEIEH"
+    },
+    {
+      "name": "ZYKLS"
+    },
+    {
+      "name": "LEIEH"
+    },
+    {
+      "name": "OFFZT"
+    },
+    {
+      "name": "HIERA"
+    },
+    {
+      "name": "PUFFP"
+    },
+    {
+      "name": "PUFFN"
+    }
+  ]
 }

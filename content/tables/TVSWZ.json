@@ -27,5 +27,19 @@
       "local de expedição por centro",
       "atribuição centro local de expedição"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "WERKS",
+      "key": true
+    },
+    {
+      "name": "VSTEL",
+      "key": true
+    }
+  ]
 }

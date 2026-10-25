@@ -30,5 +30,21 @@
       "configuração de advertência",
       "controle de advertência"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "BUKRS",
+      "key": true
+    },
+    {
+      "name": "XMABE"
+    },
+    {
+      "name": "RBUKM"
+    }
+  ]
 }

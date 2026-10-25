@@ -30,5 +30,42 @@
       "prestações da garantia",
       "escopo da garantia"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "MGANR",
+      "key": true
+    },
+    {
+      "name": "POSNM",
+      "key": true
+    },
+    {
+      "name": "LSTNR"
+    },
+    {
+      "name": "PSART",
+      "type": "CHAR 4"
+    },
+    {
+      "name": "INEXCL"
+    },
+    {
+      "name": "MENGE",
+      "type": "FLTP 16"
+    },
+    {
+      "name": "MSEHI"
+    },
+    {
+      "name": "DATUV"
+    },
+    {
+      "name": "LVORM"
+    }
+  ]
 }

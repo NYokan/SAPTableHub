@@ -33,5 +33,38 @@
       "texto do item",
       "READ_TEXT"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "RELID",
+      "key": true
+    },
+    {
+      "name": "TDOBJECT",
+      "key": true
+    },
+    {
+      "name": "TDNAME",
+      "key": true
+    },
+    {
+      "name": "TDID",
+      "key": true
+    },
+    {
+      "name": "TDSPRAS",
+      "key": true
+    },
+    {
+      "name": "SRTF2",
+      "key": true
+    },
+    {
+      "name": "CLUSTD"
+    }
+  ]
 }

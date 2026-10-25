@@ -33,5 +33,33 @@
       "classe de risco",
       "regra de verificação de crédito"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "CLIENT",
+      "key": true
+    },
+    {
+      "name": "PARTNER",
+      "key": true
+    },
+    {
+      "name": "OWN_RATING"
+    },
+    {
+      "name": "RISK_CLASS"
+    },
+    {
+      "name": "CHECK_RULE"
+    },
+    {
+      "name": "LIMIT_RULE"
+    },
+    {
+      "name": "RATING_VAL_DATE"
+    },
+    {
+      "name": "CREDIT_GROUP"
+    }
+  ]
 }

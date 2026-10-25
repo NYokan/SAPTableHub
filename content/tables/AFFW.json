@@ -36,5 +36,49 @@
       "baixa automática com erro",
       "consumos com falha"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "WEBLNR",
+      "key": true
+    },
+    {
+      "name": "WEBLPOS",
+      "key": true
+    },
+    {
+      "name": "MATNR"
+    },
+    {
+      "name": "WERKS"
+    },
+    {
+      "name": "LGORT"
+    },
+    {
+      "name": "CHARG"
+    },
+    {
+      "name": "BWART"
+    },
+    {
+      "name": "ERFMG"
+    },
+    {
+      "name": "ERFME"
+    },
+    {
+      "name": "AUFNR"
+    },
+    {
+      "name": "BUDAT"
+    },
+    {
+      "name": "RUECK"
+    }
+  ]
 }

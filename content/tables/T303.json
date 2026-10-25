@@ -31,5 +31,19 @@
       "tamanho da posição",
       "tipo de vão"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "LGNUM",
+      "key": true
+    },
+    {
+      "name": "LPTYP",
+      "key": true
+    }
+  ]
 }

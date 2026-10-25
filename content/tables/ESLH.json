@@ -33,5 +33,30 @@
       "serviços",
       "especificações de serviço"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "PACKNO",
+      "key": true
+    },
+    {
+      "name": "EBELN"
+    },
+    {
+      "name": "EBELP"
+    },
+    {
+      "name": "BSTYP"
+    },
+    {
+      "name": "WAERS"
+    },
+    {
+      "name": "SUM_NETWR"
+    }
+  ]
 }

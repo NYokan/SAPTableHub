@@ -30,5 +30,21 @@
       "tipo de objeto de status",
       "perfil de status"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "OBJNR",
+      "key": true
+    },
+    {
+      "name": "OBTYP"
+    },
+    {
+      "name": "STSMA"
+    }
+  ]
 }

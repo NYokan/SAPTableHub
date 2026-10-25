@@ -30,5 +30,41 @@
       "conciliação bancária automática",
       "extrato bancário eletrônico"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "KUKEY",
+      "key": true
+    },
+    {
+      "name": "ESNUM",
+      "key": true
+    },
+    {
+      "name": "CSNUM",
+      "key": true
+    },
+    {
+      "name": "KOART"
+    },
+    {
+      "name": "AGBUK"
+    },
+    {
+      "name": "AGKON"
+    },
+    {
+      "name": "SELFD"
+    },
+    {
+      "name": "SELVON"
+    },
+    {
+      "name": "SELBIS"
+    }
+  ]
 }

@@ -33,5 +33,101 @@
       "gasto por fornecedor",
       "LIS compras"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SSOUR",
+      "key": true
+    },
+    {
+      "name": "VRSIO",
+      "key": true
+    },
+    {
+      "name": "SPMON",
+      "key": true
+    },
+    {
+      "name": "SPTAG",
+      "key": true
+    },
+    {
+      "name": "SPWOC",
+      "key": true
+    },
+    {
+      "name": "SPBUP",
+      "key": true
+    },
+    {
+      "name": "EKORG",
+      "key": true
+    },
+    {
+      "name": "LIFNR",
+      "key": true
+    },
+    {
+      "name": "MATNR",
+      "key": true
+    },
+    {
+      "name": "WERKS",
+      "key": true
+    },
+    {
+      "name": "ESOKZ",
+      "key": true
+    },
+    {
+      "name": "MATKL",
+      "key": true
+    },
+    {
+      "name": "INFNR",
+      "key": true
+    },
+    {
+      "name": "LAND1",
+      "key": true
+    },
+    {
+      "name": "MENGE",
+      "type": "QUAN 15,3",
+      "label": {
+        "es": "Cantidad pedida",
+        "en": "Ordered quantity",
+        "pt": "Quantidade pedida"
+      }
+    },
+    {
+      "name": "BASME"
+    },
+    {
+      "name": "NETWR"
+    },
+    {
+      "name": "HWAER"
+    },
+    {
+      "name": "WEMNG",
+      "type": "QUAN 15,3"
+    },
+    {
+      "name": "WEWRT"
+    },
+    {
+      "name": "REMNG"
+    },
+    {
+      "name": "REWRT"
+    },
+    {
+      "name": "ABSTP"
+    }
+  ]
 }

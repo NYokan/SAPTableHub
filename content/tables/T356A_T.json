@@ -27,5 +27,22 @@
       "texto tipo de prioridade",
       "descrição escala de prioridades"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "ARTPR",
+      "key": true
+    },
+    {
+      "name": "ARTPRX"
+    }
+  ]
 }

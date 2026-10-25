@@ -30,5 +30,56 @@
       "BOM de ordem de venda",
       "produção sob encomenda"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "VBELN",
+      "key": true,
+      "label": {
+        "es": "Pedido de cliente",
+        "en": "Sales order",
+        "pt": "Pedido de cliente"
+      }
+    },
+    {
+      "name": "VBPOS",
+      "key": true
+    },
+    {
+      "name": "MATNR",
+      "key": true
+    },
+    {
+      "name": "WERKS",
+      "key": true
+    },
+    {
+      "name": "STLAN",
+      "key": true
+    },
+    {
+      "name": "STLNR",
+      "key": true
+    },
+    {
+      "name": "STLAL",
+      "key": true
+    },
+    {
+      "name": "ANDAT"
+    },
+    {
+      "name": "ANNAM"
+    },
+    {
+      "name": "AEDAT"
+    },
+    {
+      "name": "AENAM"
+    }
+  ]
 }

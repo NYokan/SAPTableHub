@@ -31,5 +31,26 @@
       "cotação indireta",
       "notação da taxa de câmbio"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "FCURR",
+      "key": true
+    },
+    {
+      "name": "TCURR",
+      "key": true
+    },
+    {
+      "name": "GDATU",
+      "key": true
+    },
+    {
+      "name": "NOTATION"
+    }
+  ]
 }

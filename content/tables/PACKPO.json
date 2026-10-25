@@ -31,5 +31,49 @@
       "material de embalagem",
       "quantidade por palete"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "PACKITEMID",
+      "key": true
+    },
+    {
+      "name": "ITCOUNT",
+      "key": true
+    },
+    {
+      "name": "PACKNR"
+    },
+    {
+      "name": "PACKITEM"
+    },
+    {
+      "name": "PAITEMTYPE"
+    },
+    {
+      "name": "MATNR"
+    },
+    {
+      "name": "SUBPACKNR"
+    },
+    {
+      "name": "TRGQTY"
+    },
+    {
+      "name": "MINQTY"
+    },
+    {
+      "name": "RNDQTY"
+    },
+    {
+      "name": "BASEUNIT"
+    },
+    {
+      "name": "UNITQTY"
+    }
+  ]
 }

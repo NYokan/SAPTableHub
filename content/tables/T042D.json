@@ -30,5 +30,37 @@
       "saldo disponível para pagamentos",
       "limite de pagamento por banco"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "BUKRS",
+      "key": true
+    },
+    {
+      "name": "HBKID",
+      "key": true
+    },
+    {
+      "name": "HKTID",
+      "key": true
+    },
+    {
+      "name": "BISTG",
+      "key": true
+    },
+    {
+      "name": "WAERS",
+      "key": true
+    },
+    {
+      "name": "BETRA"
+    },
+    {
+      "name": "BETRE"
+    }
+  ]
 }

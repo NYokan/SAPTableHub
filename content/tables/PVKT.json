@@ -26,5 +26,26 @@
       "nome da área de abastecimento",
       "descrição da PSA"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "WERKS",
+      "key": true
+    },
+    {
+      "name": "PRVBE",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "PVBTX"
+    }
+  ]
 }

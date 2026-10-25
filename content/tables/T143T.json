@@ -27,5 +27,22 @@
       "texto condição de temperatura",
       "descrição de temperatura"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "TEMPB",
+      "key": true
+    },
+    {
+      "name": "TBTXT"
+    }
+  ]
 }

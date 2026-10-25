@@ -30,5 +30,23 @@
       "pagador permitido",
       "pagamento por terceiro"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "KUNNR",
+      "key": true
+    },
+    {
+      "name": "BUKRS",
+      "key": true
+    },
+    {
+      "name": "EMPFD",
+      "key": true
+    }
+  ]
 }

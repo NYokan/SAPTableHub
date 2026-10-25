@@ -58,12 +58,7 @@
       "name": "WRTTP"
     },
     {
-      "name": "VERSN",
-      "label": {
-        "es": "Versión",
-        "en": "Version",
-        "pt": "Versão"
-      }
+      "name": "VERSN"
     },
     {
       "name": "OBJNR"

@@ -33,5 +33,31 @@
       "MRP de mudança líquida",
       "materiais a planejar"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "MAFID",
+      "key": true
+    },
+    {
+      "name": "MDKEY",
+      "key": true
+    },
+    {
+      "name": "GSAEN"
+    },
+    {
+      "name": "AKKEN"
+    },
+    {
+      "name": "RESDT"
+    },
+    {
+      "name": "ERDAT"
+    }
+  ]
 }

@@ -33,5 +33,44 @@
       "valor segurado",
       "seguradora"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "BUKRS",
+      "key": true
+    },
+    {
+      "name": "ANLN1",
+      "key": true
+    },
+    {
+      "name": "ANLN2",
+      "key": true
+    },
+    {
+      "name": "VRSLFD",
+      "key": true
+    },
+    {
+      "name": "VSART",
+      "label": {
+        "es": "Tipo de seguro",
+        "en": "Insurance type",
+        "pt": "Tipo de seguro"
+      }
+    },
+    {
+      "name": "VSGES"
+    },
+    {
+      "name": "VRSBA"
+    },
+    {
+      "name": "VRSBG"
+    }
+  ]
 }

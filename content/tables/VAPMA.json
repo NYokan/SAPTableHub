@@ -33,5 +33,81 @@
       "índice de ordens",
       "vendas de um produto"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "MATNR",
+      "key": true
+    },
+    {
+      "name": "VKORG",
+      "key": true
+    },
+    {
+      "name": "TRVOG",
+      "key": true
+    },
+    {
+      "name": "AUDAT",
+      "key": true
+    },
+    {
+      "name": "VTWEG",
+      "key": true
+    },
+    {
+      "name": "SPART",
+      "key": true
+    },
+    {
+      "name": "AUART",
+      "key": true,
+      "label": {
+        "es": "Clase de documento de ventas",
+        "en": "Sales document type",
+        "pt": "Tipo de documento de vendas"
+      }
+    },
+    {
+      "name": "KUNNR",
+      "key": true
+    },
+    {
+      "name": "VKBUR",
+      "key": true
+    },
+    {
+      "name": "VKGRP",
+      "key": true
+    },
+    {
+      "name": "BSTNK",
+      "key": true
+    },
+    {
+      "name": "ERNAM",
+      "key": true
+    },
+    {
+      "name": "VBELN",
+      "key": true
+    },
+    {
+      "name": "POSNR",
+      "key": true
+    },
+    {
+      "name": "WERKS"
+    },
+    {
+      "name": "DATAB"
+    },
+    {
+      "name": "DATBI"
+    }
+  ]
 }

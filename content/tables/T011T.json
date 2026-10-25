@@ -41,7 +41,12 @@
     {
       "name": "VERSN",
       "key": true,
-      "type": "CHAR 4"
+      "type": "CHAR 4",
+      "label": {
+        "es": "Estructura de balance",
+        "en": "Financial statement version",
+        "pt": "Estrutura de balanço"
+      }
     },
     {
       "name": "VSTXT"

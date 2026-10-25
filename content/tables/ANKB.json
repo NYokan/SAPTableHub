@@ -30,5 +30,42 @@
       "valores padrão da classe de ativo",
       "chave de depreciação padrão"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "ANLKL",
+      "key": true
+    },
+    {
+      "name": "AFAPL",
+      "key": true
+    },
+    {
+      "name": "AFABE",
+      "key": true
+    },
+    {
+      "name": "BDATU",
+      "key": true
+    },
+    {
+      "name": "AFASL"
+    },
+    {
+      "name": "NDJAR"
+    },
+    {
+      "name": "NDPER"
+    },
+    {
+      "name": "KTOGR"
+    },
+    {
+      "name": "ADATU"
+    }
+  ]
 }

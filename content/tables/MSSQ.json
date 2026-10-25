@@ -30,5 +30,51 @@
       "estoque Q total",
       "estoque por elemento PEP"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "MATNR",
+      "key": true
+    },
+    {
+      "name": "WERKS",
+      "key": true
+    },
+    {
+      "name": "SOBKZ",
+      "key": true
+    },
+    {
+      "name": "PSPNR",
+      "key": true
+    },
+    {
+      "name": "SQLAB"
+    },
+    {
+      "name": "SQINS"
+    },
+    {
+      "name": "SQSPE"
+    },
+    {
+      "name": "SQEIN"
+    },
+    {
+      "name": "SQTRA"
+    },
+    {
+      "name": "LFGJA"
+    },
+    {
+      "name": "LFMON"
+    },
+    {
+      "name": "ERSDA"
+    }
+  ]
 }

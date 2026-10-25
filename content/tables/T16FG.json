@@ -31,5 +31,21 @@
       "aprovação de compras",
       "objeto de liberação"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "FRGGR",
+      "key": true
+    },
+    {
+      "name": "FRGOT"
+    },
+    {
+      "name": "FRGKL"
+    }
+  ]
 }

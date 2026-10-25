@@ -30,5 +30,49 @@
       "recebimentos FI-CA",
       "itens do lote de pagamentos"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "KEYZ1",
+      "key": true
+    },
+    {
+      "name": "POSZA",
+      "key": true
+    },
+    {
+      "name": "BETRZ"
+    },
+    {
+      "name": "BETRH"
+    },
+    {
+      "name": "WAERS"
+    },
+    {
+      "name": "BUDAT"
+    },
+    {
+      "name": "VALUT"
+    },
+    {
+      "name": "SELT1"
+    },
+    {
+      "name": "SELW1"
+    },
+    {
+      "name": "OPBEL"
+    },
+    {
+      "name": "BUKRS"
+    },
+    {
+      "name": "BANKN"
+    }
+  ]
 }

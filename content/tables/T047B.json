@@ -30,5 +30,25 @@
       "dias de atraso por nível",
       "cobrança judicial"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "MAHNA",
+      "key": true
+    },
+    {
+      "name": "MAHNS",
+      "key": true
+    },
+    {
+      "name": "VERTG"
+    },
+    {
+      "name": "XZINS"
+    }
+  ]
 }

@@ -29,5 +29,54 @@
       "avaliação aceito rejeitado",
       "código de decisão de utilização"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "WERKS",
+      "key": true
+    },
+    {
+      "name": "KATALOGART",
+      "key": true
+    },
+    {
+      "name": "AUSWAHLMGE",
+      "key": true
+    },
+    {
+      "name": "CODEGRUPPE",
+      "key": true
+    },
+    {
+      "name": "CODE",
+      "key": true
+    },
+    {
+      "name": "VERSIONAM",
+      "key": true
+    },
+    {
+      "name": "GUELTIGAB"
+    },
+    {
+      "name": "BEWERTUNG"
+    },
+    {
+      "name": "FEHLKLASSE"
+    },
+    {
+      "name": "QKENNZAHL",
+      "type": "INT4 10"
+    },
+    {
+      "name": "FOLGEAKTI"
+    },
+    {
+      "name": "GELOESCHT"
+    }
+  ]
 }

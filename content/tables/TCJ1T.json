@@ -27,5 +27,22 @@
       "texto tipo de projeto",
       "descrição categoria de projeto"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "LANGU",
+      "key": true
+    },
+    {
+      "name": "PRART",
+      "key": true
+    },
+    {
+      "name": "PRATX"
+    }
+  ]
 }

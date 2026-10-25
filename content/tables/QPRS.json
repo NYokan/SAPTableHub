@@ -30,5 +30,57 @@
       "amostra de laboratório",
       "retenção de amostras"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "PHYNR",
+      "key": true
+    },
+    {
+      "name": "PRART",
+      "label": {
+        "es": "Tipo de muestra física",
+        "en": "Physical sample type",
+        "pt": "Tipo de amostra física"
+      }
+    },
+    {
+      "name": "MATNR"
+    },
+    {
+      "name": "WERKS"
+    },
+    {
+      "name": "CHARG"
+    },
+    {
+      "name": "MENGE"
+    },
+    {
+      "name": "MEINH",
+      "label": {
+        "es": "Unidad de medida",
+        "en": "Unit of measure",
+        "pt": "Unidade de medida"
+      }
+    },
+    {
+      "name": "KTEXT",
+      "type": "CHAR 80"
+    },
+    {
+      "name": "LGORT"
+    },
+    {
+      "name": "ENTDATUM"
+    },
+    {
+      "name": "LABOR",
+      "type": "CHAR 8"
+    }
+  ]
 }

@@ -37,5 +37,30 @@
       "exposição",
       "crédito do cliente"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "CLIENT",
+      "key": true
+    },
+    {
+      "name": "PARTNER",
+      "key": true
+    },
+    {
+      "name": "CREDIT_SGMNT",
+      "key": true
+    },
+    {
+      "name": "COMM_TYP",
+      "key": true
+    },
+    {
+      "name": "CURRENCY",
+      "key": true
+    },
+    {
+      "name": "AMOUNT"
+    }
+  ]
 }

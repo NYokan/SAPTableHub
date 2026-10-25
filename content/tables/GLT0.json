@@ -36,5 +36,71 @@
       "saldo da conta",
       "razão clássico"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "RCLNT",
+      "key": true
+    },
+    {
+      "name": "RLDNR",
+      "key": true
+    },
+    {
+      "name": "RRCTY",
+      "key": true
+    },
+    {
+      "name": "RVERS",
+      "key": true
+    },
+    {
+      "name": "BUKRS",
+      "key": true
+    },
+    {
+      "name": "RYEAR",
+      "key": true
+    },
+    {
+      "name": "RACCT",
+      "key": true
+    },
+    {
+      "name": "RBUSA",
+      "key": true
+    },
+    {
+      "name": "RTCUR",
+      "key": true
+    },
+    {
+      "name": "DRCRK",
+      "key": true
+    },
+    {
+      "name": "RPMAX",
+      "key": true
+    },
+    {
+      "name": "TSLVT"
+    },
+    {
+      "name": "TSL01"
+    },
+    {
+      "name": "HSLVT",
+      "type": "CURR 15,2"
+    },
+    {
+      "name": "HSL01",
+      "type": "CURR 15,2"
+    },
+    {
+      "name": "KSLVT"
+    },
+    {
+      "name": "KSL01"
+    }
+  ]
 }

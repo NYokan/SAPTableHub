@@ -30,5 +30,18 @@
       "perfil de status de usuário",
       "status próprios"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "STSMA",
+      "key": true
+    },
+    {
+      "name": "PFLSP"
+    }
+  ]
 }

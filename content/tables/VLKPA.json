@@ -27,5 +27,62 @@
       "remessas por cliente",
       "índice de remessas por cliente"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "KUNDE",
+      "key": true
+    },
+    {
+      "name": "PARVW",
+      "key": true
+    },
+    {
+      "name": "VSTEL",
+      "key": true
+    },
+    {
+      "name": "LFDAT",
+      "key": true
+    },
+    {
+      "name": "VKORG",
+      "key": true
+    },
+    {
+      "name": "LFART",
+      "key": true
+    },
+    {
+      "name": "KUNNR",
+      "key": true,
+      "label": {
+        "es": "Destinatario de mercancías",
+        "en": "Ship-to party",
+        "pt": "Recebedor da mercadoria"
+      }
+    },
+    {
+      "name": "KUNAG",
+      "key": true
+    },
+    {
+      "name": "ERNAM",
+      "key": true
+    },
+    {
+      "name": "VBELN",
+      "key": true
+    },
+    {
+      "name": "ADRNR"
+    },
+    {
+      "name": "ADRNR_WE"
+    }
+  ]
 }

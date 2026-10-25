@@ -30,5 +30,21 @@
       "roteiro liberado",
       "estado do roteiro"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "PLNST",
+      "key": true
+    },
+    {
+      "name": "FREIF"
+    },
+    {
+      "name": "PKLP"
+    }
+  ]
 }

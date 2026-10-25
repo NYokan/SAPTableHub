@@ -30,5 +30,58 @@
       "bases de rateio",
       "indicadores estatísticos"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "LEDNR",
+      "key": true
+    },
+    {
+      "name": "OBJNR",
+      "key": true
+    },
+    {
+      "name": "GJAHR",
+      "key": true
+    },
+    {
+      "name": "WRTTP",
+      "key": true
+    },
+    {
+      "name": "VERSN",
+      "key": true
+    },
+    {
+      "name": "STAGR",
+      "key": true
+    },
+    {
+      "name": "HRKFT",
+      "key": true
+    },
+    {
+      "name": "VRGNG",
+      "key": true
+    },
+    {
+      "name": "PERBL",
+      "key": true
+    },
+    {
+      "name": "MEINH",
+      "label": {
+        "es": "Unidad de medida",
+        "en": "Unit of measure",
+        "pt": "Unidade de medida"
+      }
+    },
+    {
+      "name": "SME001"
+    }
+  ]
 }

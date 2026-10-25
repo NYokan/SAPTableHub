@@ -30,5 +30,74 @@
       "receita diferida",
       "receita por período"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "VBELN",
+      "key": true
+    },
+    {
+      "name": "POSNR",
+      "key": true
+    },
+    {
+      "name": "SAKRV",
+      "key": true
+    },
+    {
+      "name": "BDJPOPER",
+      "key": true
+    },
+    {
+      "name": "POPUPO",
+      "key": true
+    },
+    {
+      "name": "VBELN_N",
+      "key": true,
+      "label": {
+        "es": "Factura de referencia",
+        "en": "Reference billing document",
+        "pt": "Fatura de referência"
+      }
+    },
+    {
+      "name": "POSNR_N",
+      "key": true
+    },
+    {
+      "name": "WRBTR"
+    },
+    {
+      "name": "RVAMT"
+    },
+    {
+      "name": "WAERK"
+    },
+    {
+      "name": "DMBTR"
+    },
+    {
+      "name": "HWAER"
+    },
+    {
+      "name": "BUKRS"
+    },
+    {
+      "name": "KUNAG"
+    },
+    {
+      "name": "PRCTR"
+    },
+    {
+      "name": "BUDAT"
+    },
+    {
+      "name": "RRSTA"
+    }
+  ]
 }

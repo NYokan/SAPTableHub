@@ -30,5 +30,23 @@
       "atribuição de feriados",
       "feriados por calendário"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "IDENT",
+      "key": true
+    },
+    {
+      "name": "VJAHR"
+    },
+    {
+      "name": "BJAHR"
+    },
+    {
+      "name": "CRUSR"
+    },
+    {
+      "name": "CRDAT"
+    }
+  ]
 }

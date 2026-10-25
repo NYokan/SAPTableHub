@@ -30,5 +30,32 @@
       "documento de material do lote",
       "transferência após decisão de utilização"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDANT",
+      "key": true
+    },
+    {
+      "name": "PRUEFLOS",
+      "key": true
+    },
+    {
+      "name": "ZAEHLER",
+      "key": true,
+      "type": "NUMC 6"
+    },
+    {
+      "name": "MBLNR"
+    },
+    {
+      "name": "MJAHR"
+    },
+    {
+      "name": "ZEILE"
+    },
+    {
+      "name": "CPUDT"
+    }
+  ]
 }

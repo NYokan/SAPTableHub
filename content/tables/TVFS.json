@@ -34,5 +34,15 @@
       "retenção de fatura",
       "FAKSK"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "FAKSP",
+      "key": true
+    }
+  ]
 }

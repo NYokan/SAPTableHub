@@ -33,5 +33,51 @@
       "programa de produção",
       "REM"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "AUFNR",
+      "key": true
+    },
+    {
+      "name": "MATNR"
+    },
+    {
+      "name": "WERKS"
+    },
+    {
+      "name": "VERID"
+    },
+    {
+      "name": "KTEXT",
+      "type": "CHAR 40"
+    },
+    {
+      "name": "GAMNG"
+    },
+    {
+      "name": "GMEIN"
+    },
+    {
+      "name": "STDAY"
+    },
+    {
+      "name": "ENDAY"
+    },
+    {
+      "name": "AUART",
+      "label": {
+        "es": "Clase de orden",
+        "en": "Order type",
+        "pt": "Tipo de ordem"
+      }
+    },
+    {
+      "name": "ERDAT"
+    }
+  ]
 }

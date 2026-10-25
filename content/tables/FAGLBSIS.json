@@ -30,5 +30,73 @@
       "partidas em aberto do razão por ledger",
       "novo razão"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "BUKRS",
+      "key": true
+    },
+    {
+      "name": "HKONT",
+      "key": true
+    },
+    {
+      "name": "AUGDT",
+      "key": true
+    },
+    {
+      "name": "AUGBL",
+      "key": true
+    },
+    {
+      "name": "ZUONR",
+      "key": true
+    },
+    {
+      "name": "GJAHR",
+      "key": true
+    },
+    {
+      "name": "BELNR",
+      "key": true
+    },
+    {
+      "name": "BUZEI",
+      "key": true
+    },
+    {
+      "name": "BUDAT"
+    },
+    {
+      "name": "BLDAT"
+    },
+    {
+      "name": "BLART"
+    },
+    {
+      "name": "SHKZG"
+    },
+    {
+      "name": "DMBTR"
+    },
+    {
+      "name": "WRBTR"
+    },
+    {
+      "name": "WAERS"
+    },
+    {
+      "name": "SGTXT"
+    },
+    {
+      "name": "KOSTL"
+    },
+    {
+      "name": "PRCTR"
+    }
+  ]
 }

@@ -34,5 +34,18 @@
       "fatura bloqueada",
       "ZLSPR"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "ZAHLS",
+      "key": true
+    },
+    {
+      "name": "XNCHG"
+    }
+  ]
 }

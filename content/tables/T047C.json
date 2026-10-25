@@ -30,5 +30,33 @@
       "encargo de cobrança",
       "taxa de cobrança"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "MAHNA",
+      "key": true
+    },
+    {
+      "name": "WAERS",
+      "key": true
+    },
+    {
+      "name": "MAHNS",
+      "key": true
+    },
+    {
+      "name": "MAHNB",
+      "key": true
+    },
+    {
+      "name": "MAHNG"
+    },
+    {
+      "name": "MAHNP"
+    }
+  ]
 }

@@ -27,5 +27,22 @@
       "texto do segmento de crédito",
       "nome do segmento de crédito"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "CLIENT",
+      "key": true
+    },
+    {
+      "name": "LANGU",
+      "key": true
+    },
+    {
+      "name": "CREDIT_SGMNT",
+      "key": true
+    },
+    {
+      "name": "CREDIT_SGMNT_TXT"
+    }
+  ]
 }

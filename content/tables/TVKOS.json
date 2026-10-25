@@ -27,5 +27,25 @@
       "setor por organização de vendas",
       "setores permitidos"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "VKORG",
+      "key": true
+    },
+    {
+      "name": "SPART",
+      "key": true
+    },
+    {
+      "name": "SPAKU"
+    },
+    {
+      "name": "SPAKO"
+    }
+  ]
 }

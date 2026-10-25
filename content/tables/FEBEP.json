@@ -36,5 +36,49 @@
       "créditos e débitos",
       "itens do extrato"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "KUKEY",
+      "key": true
+    },
+    {
+      "name": "ESNUM",
+      "key": true
+    },
+    {
+      "name": "VALUT"
+    },
+    {
+      "name": "BUDAT"
+    },
+    {
+      "name": "KWBTR"
+    },
+    {
+      "name": "KWAER"
+    },
+    {
+      "name": "VGEXT"
+    },
+    {
+      "name": "VGINT"
+    },
+    {
+      "name": "PARTN"
+    },
+    {
+      "name": "XBLNR"
+    },
+    {
+      "name": "BELNR"
+    },
+    {
+      "name": "ZUONR"
+    }
+  ]
 }

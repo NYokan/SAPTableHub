@@ -30,5 +30,23 @@
       "ordens apropriadas",
       "apropriação coletiva"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "BELNR",
+      "key": true
+    },
+    {
+      "name": "LFDNR",
+      "key": true,
+      "type": "NUMC 5"
+    },
+    {
+      "name": "OBJNR"
+    }
+  ]
 }

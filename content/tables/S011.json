@@ -30,5 +30,65 @@
       "volume por comprador",
       "LIS compras"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SSOUR",
+      "key": true
+    },
+    {
+      "name": "VRSIO",
+      "key": true
+    },
+    {
+      "name": "SPMON",
+      "key": true
+    },
+    {
+      "name": "SPTAG",
+      "key": true
+    },
+    {
+      "name": "SPWOC",
+      "key": true
+    },
+    {
+      "name": "SPBUP",
+      "key": true
+    },
+    {
+      "name": "EKORG",
+      "key": true
+    },
+    {
+      "name": "EKGRP",
+      "key": true
+    },
+    {
+      "name": "LIFNR",
+      "key": true
+    },
+    {
+      "name": "NETWR"
+    },
+    {
+      "name": "REWRT"
+    },
+    {
+      "name": "HWAER"
+    },
+    {
+      "name": "ABEST"
+    },
+    {
+      "name": "ABSTP"
+    },
+    {
+      "name": "AANFR"
+    }
+  ]
 }

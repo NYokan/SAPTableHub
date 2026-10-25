@@ -37,5 +37,28 @@
       "tipo de custo",
       "conta de custo"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "KTOPL",
+      "key": true
+    },
+    {
+      "name": "KSTAR",
+      "key": true
+    },
+    {
+      "name": "ERSDA"
+    },
+    {
+      "name": "USNAM"
+    },
+    {
+      "name": "FUNC_AREA"
+    }
+  ]
 }

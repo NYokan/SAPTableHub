@@ -30,5 +30,61 @@
       "divisão de despesa de caixa",
       "imputação de caixa"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "COMP_CODE",
+      "key": true
+    },
+    {
+      "name": "CAJO_NUMBER",
+      "key": true
+    },
+    {
+      "name": "FISC_YEAR",
+      "key": true
+    },
+    {
+      "name": "POSTING_NUMBER",
+      "key": true
+    },
+    {
+      "name": "POSITION_NUMBER",
+      "key": true
+    },
+    {
+      "name": "TRANSACT_NUMBER"
+    },
+    {
+      "name": "POSTING_DATE"
+    },
+    {
+      "name": "CURRENCY"
+    },
+    {
+      "name": "P_RECEIPTS"
+    },
+    {
+      "name": "P_PAYMENTS"
+    },
+    {
+      "name": "GL_ACCOUNT"
+    },
+    {
+      "name": "VENDOR_NO"
+    },
+    {
+      "name": "CUSTOMER"
+    },
+    {
+      "name": "KOSTL"
+    },
+    {
+      "name": "POSITION_TEXT"
+    }
+  ]
 }

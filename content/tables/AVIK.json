@@ -33,5 +33,51 @@
       "detalhe de pagamento do cliente",
       "remittance"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "BUKRS",
+      "key": true
+    },
+    {
+      "name": "KOART",
+      "key": true
+    },
+    {
+      "name": "KONTO",
+      "key": true
+    },
+    {
+      "name": "AVSID",
+      "key": true
+    },
+    {
+      "name": "ZALDT"
+    },
+    {
+      "name": "RWBTR"
+    },
+    {
+      "name": "WAERS"
+    },
+    {
+      "name": "VBLNR"
+    },
+    {
+      "name": "RZAWE"
+    },
+    {
+      "name": "CHECT"
+    },
+    {
+      "name": "ERNAM"
+    },
+    {
+      "name": "ERDAT"
+    }
+  ]
 }

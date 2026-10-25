@@ -31,5 +31,19 @@
       "TAXKD",
       "cliente isento"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "TATYP",
+      "key": true
+    },
+    {
+      "name": "TAXKD",
+      "key": true
+    }
+  ]
 }

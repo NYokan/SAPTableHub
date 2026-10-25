@@ -27,5 +27,23 @@
       "nome da categoria de capacidade",
       "descrição da categoria de capacidade"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "KAPAR",
+      "key": true
+    },
+    {
+      "name": "TXT",
+      "type": "CHAR 20"
+    }
+  ]
 }

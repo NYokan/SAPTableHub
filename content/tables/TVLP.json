@@ -30,5 +30,38 @@
       "PSTYV remessa",
       "relevância para separação"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "PSTYV",
+      "key": true
+    },
+    {
+      "name": "KOMRL"
+    },
+    {
+      "name": "LGOZW"
+    },
+    {
+      "name": "UEBPR"
+    },
+    {
+      "name": "PODKZ"
+    },
+    {
+      "name": "BWART"
+    },
+    {
+      "name": "VBTYP",
+      "label": {
+        "es": "Categoría de documento",
+        "en": "Document category",
+        "pt": "Categoria de documento"
+      }
+    }
+  ]
 }

@@ -36,5 +36,57 @@
       "MT940",
       "extrato eletrônico"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "ANWND",
+      "key": true
+    },
+    {
+      "name": "ABSND",
+      "key": true
+    },
+    {
+      "name": "AZIDT",
+      "key": true
+    },
+    {
+      "name": "EMKEY",
+      "key": true
+    },
+    {
+      "name": "KUKEY"
+    },
+    {
+      "name": "AZNUM"
+    },
+    {
+      "name": "AZDAT"
+    },
+    {
+      "name": "BUKRS"
+    },
+    {
+      "name": "HBKID"
+    },
+    {
+      "name": "HKTID"
+    },
+    {
+      "name": "WAERS"
+    },
+    {
+      "name": "SSBTR"
+    },
+    {
+      "name": "ESBTR"
+    },
+    {
+      "name": "HKONT"
+    }
+  ]
 }

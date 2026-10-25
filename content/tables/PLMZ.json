@@ -30,5 +30,60 @@
       "componentes por operação",
       "consumo por operação"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "PLNTY",
+      "key": true
+    },
+    {
+      "name": "PLNNR",
+      "key": true
+    },
+    {
+      "name": "ZUONR",
+      "key": true,
+      "type": "NUMC 8",
+      "label": {
+        "es": "Contador de asignación",
+        "en": "Allocation counter",
+        "pt": "Contador de atribuição"
+      }
+    },
+    {
+      "name": "ZAEHL",
+      "key": true
+    },
+    {
+      "name": "PLNAL"
+    },
+    {
+      "name": "PLNKN"
+    },
+    {
+      "name": "STLTY"
+    },
+    {
+      "name": "STLNR"
+    },
+    {
+      "name": "STLAL"
+    },
+    {
+      "name": "STLKN"
+    },
+    {
+      "name": "LGORT"
+    },
+    {
+      "name": "DATUV"
+    },
+    {
+      "name": "LOEKZ"
+    }
+  ]
 }

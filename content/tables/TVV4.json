@@ -31,5 +31,15 @@
       "KVGR4",
       "classificação de clientes 4"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "KVGR4",
+      "key": true
+    }
+  ]
 }

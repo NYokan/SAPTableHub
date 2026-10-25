@@ -31,5 +31,18 @@
       "BEDAE",
       "estratégia de planejamento"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "BEDAE",
+      "key": true
+    },
+    {
+      "name": "BEDAR"
+    }
+  ]
 }

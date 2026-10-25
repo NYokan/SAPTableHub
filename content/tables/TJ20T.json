@@ -27,5 +27,22 @@
       "nome do esquema de status",
       "texto do perfil de status"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "STSMA",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "TXT"
+    }
+  ]
 }

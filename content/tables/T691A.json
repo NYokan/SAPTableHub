@@ -30,5 +30,19 @@
       "classe de risco de crédito",
       "controle de crédito automático"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "CTLPC",
+      "key": true
+    },
+    {
+      "name": "KKBER",
+      "key": true
+    }
+  ]
 }

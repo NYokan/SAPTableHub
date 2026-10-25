@@ -30,5 +30,42 @@
       "lote de recebimentos FI-CA",
       "payment lot"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "KEYZ1",
+      "key": true
+    },
+    {
+      "name": "BUKRS"
+    },
+    {
+      "name": "BUDAT"
+    },
+    {
+      "name": "BLDAT"
+    },
+    {
+      "name": "VALUT"
+    },
+    {
+      "name": "WAERS"
+    },
+    {
+      "name": "ANZPO"
+    },
+    {
+      "name": "BLART"
+    },
+    {
+      "name": "ERNAM"
+    },
+    {
+      "name": "ERDAT"
+    }
+  ]
 }

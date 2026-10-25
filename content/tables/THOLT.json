@@ -27,5 +27,23 @@
       "nome do feriado",
       "texto do feriado"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "FTGID",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "LTEXT",
+      "type": "CHAR 30"
+    },
+    {
+      "name": "KTEXT",
+      "type": "CHAR 10"
+    }
+  ]
 }

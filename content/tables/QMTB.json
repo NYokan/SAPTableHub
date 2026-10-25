@@ -30,5 +30,47 @@
       "método de ensaio",
       "procedimento de laboratório"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "WERKS",
+      "key": true
+    },
+    {
+      "name": "PMTNR",
+      "key": true
+    },
+    {
+      "name": "VERSION",
+      "key": true
+    },
+    {
+      "name": "GUELTIGAB"
+    },
+    {
+      "name": "SORTFELD"
+    },
+    {
+      "name": "AUTOR"
+    },
+    {
+      "name": "DATES"
+    },
+    {
+      "name": "AEAUT"
+    },
+    {
+      "name": "DATAE"
+    },
+    {
+      "name": "LOEKZ"
+    },
+    {
+      "name": "PRFQL"
+    }
+  ]
 }

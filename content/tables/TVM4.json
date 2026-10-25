@@ -31,5 +31,15 @@
       "MVGR4",
       "classificação de material 4"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "MVGR4",
+      "key": true
+    }
+  ]
 }

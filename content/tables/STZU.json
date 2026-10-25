@@ -27,5 +27,28 @@
       "dados permanentes da lista técnica",
       "grupo de listas técnicas"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "STLTY",
+      "key": true
+    },
+    {
+      "name": "STLNR",
+      "key": true
+    },
+    {
+      "name": "STLAN"
+    },
+    {
+      "name": "EXSTL"
+    },
+    {
+      "name": "ZTEXT"
+    }
+  ]
 }

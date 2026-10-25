@@ -32,5 +32,22 @@
       "depreciação linear",
       "AFASL"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "AFAPL",
+      "key": true
+    },
+    {
+      "name": "AFASL",
+      "key": true
+    },
+    {
+      "name": "XAKTIV"
+    }
+  ]
 }

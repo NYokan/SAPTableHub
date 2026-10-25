@@ -30,5 +30,28 @@
       "tolerância de funcionários",
       "montante máximo por documento"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "RFPRO",
+      "key": true
+    },
+    {
+      "name": "BUKRS",
+      "key": true
+    },
+    {
+      "name": "MAXBT"
+    },
+    {
+      "name": "MAXEB"
+    },
+    {
+      "name": "MAXSK"
+    }
+  ]
 }

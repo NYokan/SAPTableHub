@@ -33,5 +33,25 @@
       "UF",
       "código da região"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "LAND1",
+      "key": true
+    },
+    {
+      "name": "BLAND",
+      "key": true
+    },
+    {
+      "name": "FPRCD"
+    },
+    {
+      "name": "HERBL"
+    }
+  ]
 }

@@ -33,5 +33,39 @@
       "condições de garantia",
       "cobertura da garantia"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "MGANR",
+      "key": true
+    },
+    {
+      "name": "GAART"
+    },
+    {
+      "name": "DATAB"
+    },
+    {
+      "name": "DATBI"
+    },
+    {
+      "name": "ERDAT"
+    },
+    {
+      "name": "ERNAM"
+    },
+    {
+      "name": "AEDAT"
+    },
+    {
+      "name": "AENAM"
+    },
+    {
+      "name": "LVORM"
+    }
+  ]
 }

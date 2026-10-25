@@ -27,5 +27,22 @@
       "nome grupo externo",
       "descrição grupo de mercadorias externo"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "EXTWG",
+      "key": true
+    },
+    {
+      "name": "EWBEZ"
+    }
+  ]
 }

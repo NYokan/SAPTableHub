@@ -31,5 +31,46 @@
       "imposto da fatura recebida",
       "base de cálculo"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "BELNR",
+      "key": true
+    },
+    {
+      "name": "GJAHR",
+      "key": true
+    },
+    {
+      "name": "MWSKZ",
+      "key": true
+    },
+    {
+      "name": "BUZEI",
+      "key": true,
+      "type": "NUMC 6"
+    },
+    {
+      "name": "WMWST"
+    },
+    {
+      "name": "FWBAS"
+    },
+    {
+      "name": "HWSTE"
+    },
+    {
+      "name": "HWBAS"
+    },
+    {
+      "name": "KSCHL"
+    },
+    {
+      "name": "TXJCD"
+    }
+  ]
 }

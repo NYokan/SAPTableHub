@@ -30,5 +30,36 @@
       "alterações nas necessidades independentes",
       "evolução da previsão"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "BDZEI",
+      "key": true
+    },
+    {
+      "name": "PDATU",
+      "key": true
+    },
+    {
+      "name": "LAEDA",
+      "key": true
+    },
+    {
+      "name": "UZEIT",
+      "key": true
+    },
+    {
+      "name": "AENAM"
+    },
+    {
+      "name": "PLNMG"
+    },
+    {
+      "name": "ENTMG"
+    }
+  ]
 }

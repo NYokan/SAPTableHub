@@ -33,5 +33,57 @@
       "despesas de caixa",
       "documento de caixa"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "COMP_CODE",
+      "key": true
+    },
+    {
+      "name": "CAJO_NUMBER",
+      "key": true
+    },
+    {
+      "name": "FISC_YEAR",
+      "key": true
+    },
+    {
+      "name": "POSTING_NUMBER",
+      "key": true
+    },
+    {
+      "name": "CURRENCY"
+    },
+    {
+      "name": "H_RECEIPTS"
+    },
+    {
+      "name": "H_PAYMENTS"
+    },
+    {
+      "name": "H_NET_AMOUNT"
+    },
+    {
+      "name": "H_TAX_AMOUNT"
+    },
+    {
+      "name": "BP_NAME"
+    },
+    {
+      "name": "DOCUMENT_DATE"
+    },
+    {
+      "name": "POSTING_DATE"
+    },
+    {
+      "name": "DOCUMENT_STATUS"
+    },
+    {
+      "name": "DOCUMENT_NUMBER"
+    }
+  ]
 }

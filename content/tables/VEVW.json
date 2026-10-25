@@ -32,5 +32,26 @@
       "rastreio de HU",
       "volumes por documento"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "HANDLE",
+      "key": true
+    },
+    {
+      "name": "OBJECT",
+      "key": true
+    },
+    {
+      "name": "OBJKEY",
+      "key": true
+    },
+    {
+      "name": "TSTAMP"
+    }
+  ]
 }

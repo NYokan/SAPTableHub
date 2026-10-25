@@ -33,5 +33,15 @@
       "chave de setor",
       "indústria"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "BRSCH",
+      "key": true
+    }
+  ]
 }

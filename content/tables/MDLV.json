@@ -30,5 +30,21 @@
       "MRP area",
       "área de planejamento MRP"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "BERID",
+      "key": true
+    },
+    {
+      "name": "BERTX"
+    },
+    {
+      "name": "BERTY"
+    }
+  ]
 }

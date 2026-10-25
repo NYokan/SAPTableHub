@@ -33,5 +33,27 @@
       "resultado por função",
       "FKBER"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "FKBER",
+      "key": true
+    },
+    {
+      "name": "CREATED_BY"
+    },
+    {
+      "name": "CREATED_ON"
+    },
+    {
+      "name": "DATAB"
+    },
+    {
+      "name": "DATBIS"
+    }
+  ]
 }

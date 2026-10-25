@@ -31,5 +31,23 @@
       "nome local de expedição",
       "VSTEL"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "VSTEL",
+      "key": true
+    },
+    {
+      "name": "VTEXT",
+      "type": "CHAR 30"
+    }
+  ]
 }

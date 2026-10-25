@@ -34,5 +34,48 @@
       "fatura de fornecedor",
       "lançamento direto"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "BELNR",
+      "key": true
+    },
+    {
+      "name": "GJAHR",
+      "key": true
+    },
+    {
+      "name": "BUZEI",
+      "key": true,
+      "type": "NUMC 6"
+    },
+    {
+      "name": "MATNR"
+    },
+    {
+      "name": "WRBTR"
+    },
+    {
+      "name": "SHKZG"
+    },
+    {
+      "name": "MENGE"
+    },
+    {
+      "name": "MEINS"
+    },
+    {
+      "name": "BWKEY"
+    },
+    {
+      "name": "BWTAR"
+    },
+    {
+      "name": "MWSKZ"
+    }
+  ]
 }

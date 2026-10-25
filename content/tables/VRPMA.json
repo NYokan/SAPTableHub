@@ -27,5 +27,69 @@
       "faturas por material",
       "índice de faturas por material"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "MATNR",
+      "key": true
+    },
+    {
+      "name": "VKORG",
+      "key": true
+    },
+    {
+      "name": "FKDAT",
+      "key": true
+    },
+    {
+      "name": "VTWEG",
+      "key": true
+    },
+    {
+      "name": "FKART",
+      "key": true
+    },
+    {
+      "name": "KUNNR",
+      "key": true
+    },
+    {
+      "name": "KUNAG",
+      "key": true
+    },
+    {
+      "name": "VBTYP",
+      "key": true
+    },
+    {
+      "name": "ERNAM",
+      "key": true
+    },
+    {
+      "name": "VBELN",
+      "key": true
+    },
+    {
+      "name": "POSNR",
+      "key": true
+    },
+    {
+      "name": "FKTYP"
+    },
+    {
+      "name": "BELNR",
+      "label": {
+        "es": "Documento contable",
+        "en": "Accounting document",
+        "pt": "Documento contábil"
+      }
+    },
+    {
+      "name": "GJAHR"
+    }
+  ]
 }

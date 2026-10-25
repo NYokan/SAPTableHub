@@ -5,7 +5,7 @@
   "navCatalog": "Table list",
   "navSearch": "Search",
   "mySelection": "My selection",
-  "dataNote": "Sample content written by hand: not extracted from SAP and still to be verified.",
+  "dataNote": "Explanations written for this site. Field names, keys and types checked against a public ECC 6.0 dictionary reference; check against your own system before relying on them.",
   "foot": "Independent project, not affiliated with SAP SE. SAP is a registered trademark of SAP SE.",
   "loading": "Loading…",
   "catTitle": "Table list",

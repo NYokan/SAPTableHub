@@ -27,5 +27,27 @@
       "nome da chave de controle",
       "descrição da STEUS"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "PLNAW",
+      "key": true
+    },
+    {
+      "name": "STEUS",
+      "key": true
+    },
+    {
+      "name": "TXT",
+      "type": "CHAR 40"
+    }
+  ]
 }

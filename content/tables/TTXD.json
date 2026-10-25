@@ -30,5 +30,33 @@
       "níveis de jurisdição",
       "sales tax EUA"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "KALSM",
+      "key": true
+    },
+    {
+      "name": "LENG1"
+    },
+    {
+      "name": "LENG2"
+    },
+    {
+      "name": "LENG3"
+    },
+    {
+      "name": "LENG4"
+    },
+    {
+      "name": "XEXTN"
+    },
+    {
+      "name": "RFCDEST"
+    }
+  ]
 }

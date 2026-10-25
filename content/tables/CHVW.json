@@ -33,5 +33,103 @@
       "uso de lote",
       "rastreio de lote"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "XZUGA",
+      "key": true
+    },
+    {
+      "name": "WERKS",
+      "key": true
+    },
+    {
+      "name": "MATNR",
+      "key": true
+    },
+    {
+      "name": "CHARG",
+      "key": true
+    },
+    {
+      "name": "AUFNR",
+      "key": true
+    },
+    {
+      "name": "AUFPS",
+      "key": true
+    },
+    {
+      "name": "EBELN",
+      "key": true
+    },
+    {
+      "name": "EBELP",
+      "key": true
+    },
+    {
+      "name": "KDAUF",
+      "key": true
+    },
+    {
+      "name": "KDPOS",
+      "key": true
+    },
+    {
+      "name": "MBLNR",
+      "key": true
+    },
+    {
+      "name": "MJAHR",
+      "key": true
+    },
+    {
+      "name": "ZEILE",
+      "key": true
+    },
+    {
+      "name": "BUDAT"
+    },
+    {
+      "name": "BWART"
+    },
+    {
+      "name": "SHKZG"
+    },
+    {
+      "name": "MENGE"
+    },
+    {
+      "name": "MEINS"
+    },
+    {
+      "name": "LIFNR"
+    },
+    {
+      "name": "KUNNR"
+    },
+    {
+      "name": "VBELN",
+      "label": {
+        "es": "Entrega",
+        "en": "Delivery",
+        "pt": "Remessa"
+      }
+    },
+    {
+      "name": "POSNR",
+      "label": {
+        "es": "Posición de entrega",
+        "en": "Delivery item",
+        "pt": "Item da remessa"
+      }
+    },
+    {
+      "name": "UMWRK"
+    }
+  ]
 }

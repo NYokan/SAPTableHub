@@ -60,12 +60,7 @@
     },
     {
       "name": "VERSN",
-      "key": true,
-      "label": {
-        "es": "Versión",
-        "en": "Version",
-        "pt": "Versão"
-      }
+      "key": true
     },
     {
       "name": "VRGNG",

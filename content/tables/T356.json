@@ -30,5 +30,31 @@
       "urgência da ordem",
       "prazo por prioridade"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "ARTPR",
+      "key": true
+    },
+    {
+      "name": "PRIOK",
+      "key": true
+    },
+    {
+      "name": "TAGBN"
+    },
+    {
+      "name": "EHTBG"
+    },
+    {
+      "name": "TAGEN"
+    },
+    {
+      "name": "EHTEN"
+    }
+  ]
 }

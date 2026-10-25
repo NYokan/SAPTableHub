@@ -27,5 +27,35 @@
       "descrição característica mestre",
       "nome da característica de inspeção"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "ZAEHLER",
+      "key": true,
+      "label": {
+        "es": "Centro",
+        "en": "Plant",
+        "pt": "Centro"
+      }
+    },
+    {
+      "name": "MKMNR",
+      "key": true
+    },
+    {
+      "name": "VERSION",
+      "key": true
+    },
+    {
+      "name": "SPRACHE",
+      "key": true
+    },
+    {
+      "name": "KURZTEXT"
+    }
+  ]
 }

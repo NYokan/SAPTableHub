@@ -30,5 +30,22 @@
       "número principal do ativo",
       "subnúmeros de ativo"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "BUKRS",
+      "key": true
+    },
+    {
+      "name": "ANLN1",
+      "key": true
+    },
+    {
+      "name": "ANLHTXT"
+    }
+  ]
 }

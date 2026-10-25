@@ -30,5 +30,33 @@
       "endereço padrão do parceiro",
       "tipo de endereço BP"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "CLIENT",
+      "key": true
+    },
+    {
+      "name": "PARTNER",
+      "key": true
+    },
+    {
+      "name": "VALID_TO",
+      "key": true
+    },
+    {
+      "name": "ADR_KIND",
+      "key": true
+    },
+    {
+      "name": "ADDRNUMBER",
+      "key": true
+    },
+    {
+      "name": "VALID_FROM"
+    },
+    {
+      "name": "XDFADU"
+    }
+  ]
 }

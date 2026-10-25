@@ -33,5 +33,25 @@
       "pagamento parcial",
       "diferença de recebimento"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "BUKRS",
+      "key": true
+    },
+    {
+      "name": "RSTGR",
+      "key": true
+    },
+    {
+      "name": "XAUSB"
+    },
+    {
+      "name": "XSTRP"
+    }
+  ]
 }

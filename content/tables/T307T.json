@@ -28,5 +28,26 @@
       "nome tipo de unidade de depósito",
       "descrição tipo de palete"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "LGNUM",
+      "key": true
+    },
+    {
+      "name": "LETYP",
+      "key": true
+    },
+    {
+      "name": "LETYT"
+    }
+  ]
 }

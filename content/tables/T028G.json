@@ -30,5 +30,29 @@
       "código de operação externo",
       "interpretação do extrato"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "VGTYP",
+      "key": true
+    },
+    {
+      "name": "VGEXT",
+      "key": true
+    },
+    {
+      "name": "VOZPM",
+      "key": true
+    },
+    {
+      "name": "VGINT"
+    },
+    {
+      "name": "INTAG"
+    }
+  ]
 }

@@ -30,5 +30,34 @@
       "status personalizado",
       "códigos de status de usuário"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "STSMA",
+      "key": true
+    },
+    {
+      "name": "ESTAT",
+      "key": true
+    },
+    {
+      "name": "INIST"
+    },
+    {
+      "name": "STONR"
+    },
+    {
+      "name": "LINEP"
+    },
+    {
+      "name": "STATP"
+    },
+    {
+      "name": "BERSL"
+    }
+  ]
 }

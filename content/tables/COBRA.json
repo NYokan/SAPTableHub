@@ -30,5 +30,39 @@
       "perfil de apropriação",
       "apropriação de ordens"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "OBJNR",
+      "key": true
+    },
+    {
+      "name": "APROF"
+    },
+    {
+      "name": "KSTAR"
+    },
+    {
+      "name": "LETJA"
+    },
+    {
+      "name": "LETPE"
+    },
+    {
+      "name": "ERNAM"
+    },
+    {
+      "name": "ERDAT"
+    },
+    {
+      "name": "AENAM"
+    },
+    {
+      "name": "AEDAT"
+    }
+  ]
 }

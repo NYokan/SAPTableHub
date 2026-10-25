@@ -33,5 +33,45 @@
       "montante em disputa",
       "gestão de disputas"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "CASE_GUID",
+      "key": true
+    },
+    {
+      "name": "FIN_KUNNR"
+    },
+    {
+      "name": "FIN_BUKRS"
+    },
+    {
+      "name": "FIN_ORIGINAL_AMT"
+    },
+    {
+      "name": "FIN_DISPUTED_AMT"
+    },
+    {
+      "name": "FIN_PAID_AMT"
+    },
+    {
+      "name": "FIN_CREDITED_AMT"
+    },
+    {
+      "name": "FIN_WRT_OFF_AMT"
+    },
+    {
+      "name": "FIN_DISPUTE_CURR"
+    },
+    {
+      "name": "FIN_COORDINATOR"
+    },
+    {
+      "name": "FIN_DUE_DATE"
+    }
+  ]
 }

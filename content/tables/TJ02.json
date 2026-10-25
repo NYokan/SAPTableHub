@@ -29,5 +29,14 @@
       "status da ordem",
       "códigos de status"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "ISTAT",
+      "key": true
+    },
+    {
+      "name": "NODIS"
+    }
+  ]
 }

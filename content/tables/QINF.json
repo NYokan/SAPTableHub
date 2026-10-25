@@ -33,5 +33,47 @@
       "bloqueio de qualidade do fornecedor",
       "homologação de fornecedor"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "MATNR",
+      "key": true
+    },
+    {
+      "name": "ZAEHL",
+      "key": true,
+      "type": "NUMC 6"
+    },
+    {
+      "name": "LIEFERANT"
+    },
+    {
+      "name": "WERK"
+    },
+    {
+      "name": "FREI_DAT"
+    },
+    {
+      "name": "FREI_MNG"
+    },
+    {
+      "name": "ME"
+    },
+    {
+      "name": "BEST_MG"
+    },
+    {
+      "name": "SPERRGRUND"
+    },
+    {
+      "name": "NOINSP"
+    },
+    {
+      "name": "LOEKZ"
+    }
+  ]
 }

@@ -27,5 +27,25 @@
       "versão por área de custos",
       "ajustes de versão"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "KOKRS",
+      "key": true
+    },
+    {
+      "name": "VERSN",
+      "key": true
+    },
+    {
+      "name": "ACTUAL"
+    },
+    {
+      "name": "PLANNING"
+    }
+  ]
 }

@@ -36,5 +36,89 @@
       "gasto por centro de custo",
       "saldos CO"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "MANDT",
+      "key": true
+    },
+    {
+      "name": "LEDNR",
+      "key": true
+    },
+    {
+      "name": "OBJNR",
+      "key": true
+    },
+    {
+      "name": "GJAHR",
+      "key": true
+    },
+    {
+      "name": "WRTTP",
+      "key": true
+    },
+    {
+      "name": "VERSN",
+      "key": true
+    },
+    {
+      "name": "KSTAR",
+      "key": true
+    },
+    {
+      "name": "HRKFT",
+      "key": true
+    },
+    {
+      "name": "VRGNG",
+      "key": true
+    },
+    {
+      "name": "VBUND",
+      "key": true
+    },
+    {
+      "name": "PARGB",
+      "key": true
+    },
+    {
+      "name": "BEKNZ",
+      "key": true
+    },
+    {
+      "name": "TWAER",
+      "key": true
+    },
+    {
+      "name": "PERBL",
+      "key": true
+    },
+    {
+      "name": "MEINH",
+      "label": {
+        "es": "Unidad de medida",
+        "en": "Unit of measure",
+        "pt": "Unidade de medida"
+      }
+    },
+    {
+      "name": "BUKRS"
+    },
+    {
+      "name": "SEGMENT"
+    },
+    {
+      "name": "FKBER"
+    },
+    {
+      "name": "WTG001"
+    },
+    {
+      "name": "WKG001"
+    },
+    {
+      "name": "MEG001"
+    }
+  ]
 }

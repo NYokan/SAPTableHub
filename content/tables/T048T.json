@@ -27,5 +27,23 @@
       "texto do tipo de correspondência",
       "descrição da correspondência"
     ]
-  }
+  },
+  "fields": [
+    {
+      "name": "SPRAS",
+      "key": true
+    },
+    {
+      "name": "EVENT",
+      "key": true
+    },
+    {
+      "name": "LTEXT",
+      "label": {
+        "es": "Nombre del tipo de correspondencia",
+        "en": "Correspondence type name",
+        "pt": "Nome do tipo de correspondência"
+      }
+    }
+  ]
 }
