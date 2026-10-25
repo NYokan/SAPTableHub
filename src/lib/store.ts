@@ -17,7 +17,6 @@ export function save(key: string, value: string): void {
 
 export const KEYS = {
   lang: 'sth-lang',
-  mode: 'sth-mode',
   theme: 'sth-theme',
   selection: 'sth-list',
 } as const;

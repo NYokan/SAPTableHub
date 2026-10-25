@@ -3,12 +3,11 @@ import { ic } from '../lib/icons.ts';
 import { routeHref } from '../lib/router.ts';
 import type { Entry } from '../lib/search.ts';
 import { esc, norm, tokenize } from '../lib/text.ts';
-import type { DataIndex, L10n, Lang, Mode, TableSummary } from '../types.ts';
+import type { DataIndex, L10n, Lang, TableSummary } from '../types.ts';
 
 /** What every view needs to render. */
 export interface Ctx {
   lang: Lang;
-  mode: Mode;
   data: DataIndex;
   entries: Entry[];
   byId: Map<string, TableSummary>;
@@ -91,13 +90,6 @@ export function bigAddButton(c: Ctx, id: string): string {
 
 export const bigAddLabel = (c: Ctx, on: boolean) =>
   ic(on ? 'check' : 'plus', 18) + `<span>${esc(tx(c, on ? 'inList' : 'addList'))}</span>`;
-
-/** Simple / Technical switch. */
-export function modeSeg(c: Ctx): string {
-  const b = (v: Mode, key: StrKey) =>
-    `<button type="button" data-act="mode" data-v="${v}" data-k="mode-${v}" aria-pressed="${c.mode === v}">${esc(tx(c, key))}</button>`;
-  return `<div class="seg" role="group" aria-label="${esc(tx(c, 'view'))}">${b('simple', 'simple')}${b('tech', 'tech')}</div>`;
-}
 
 /** A link styled as one option of a segmented control. */
 export const segLink = (href: string, label: string, on: boolean, k = '') =>

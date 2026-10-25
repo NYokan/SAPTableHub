@@ -1,5 +1,4 @@
 {
-  "beta": "Beta",
   "lang": "Idioma",
   "theme": "Alternar tema",
   "navCatalog": "Listagem",
@@ -33,9 +32,6 @@
   "noneCat": "Nenhuma tabela corresponde ao filtro.",
   "count1": "1 tabela",
   "countN": "{n} tabelas",
-  "view": "Visão",
-  "simple": "Simples",
-  "tech": "Técnica",
   "h1": "Que informação você precisa?",
   "sub": "Busque pelo que você faz no seu negócio, como pedido, fatura ou fornecedor, ou pelo nome da tabela.",
   "ph": "Ex.: pedido de venda, MARA",

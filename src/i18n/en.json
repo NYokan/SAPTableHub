@@ -1,5 +1,4 @@
 {
-  "beta": "Beta",
   "lang": "Language",
   "theme": "Toggle theme",
   "navCatalog": "Table list",
@@ -33,9 +32,6 @@
   "noneCat": "No table matches the filter.",
   "count1": "1 table",
   "countN": "{n} tables",
-  "view": "View",
-  "simple": "Simple",
-  "tech": "Technical",
   "h1": "What information do you need?",
   "sub": "Search by what you do in your business, such as order, invoice or vendor, or by table name.",
   "ph": "E.g. sales order, MARA",

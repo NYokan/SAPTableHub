@@ -1,7 +1,6 @@
 export const LANGS = ['es', 'en', 'pt'] as const;
 export type Lang = (typeof LANGS)[number];
 export type L10n = Record<Lang, string>;
-export type Mode = 'simple' | 'tech';
 
 /** One table as listed in the generated index (see scripts/lib/content.mjs). */
 export interface TableSummary {

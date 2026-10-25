@@ -1,5 +1,4 @@
 {
-  "beta": "Beta",
   "lang": "Idioma",
   "theme": "Cambiar tema",
   "navCatalog": "Listado",
@@ -33,9 +32,6 @@
   "noneCat": "Ninguna tabla coincide con el filtro.",
   "count1": "1 tabla",
   "countN": "{n} tablas",
-  "view": "Vista",
-  "simple": "Simple",
-  "tech": "Técnica",
   "h1": "¿Qué información necesitas?",
   "sub": "Busca por lo que haces en tu negocio, como pedido, factura o proveedor, o por el nombre de la tabla.",
   "ph": "Ej.: pedido de venta, MARA",

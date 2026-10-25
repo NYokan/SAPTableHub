@@ -13,7 +13,7 @@ import { ic } from './lib/icons.ts';
 import { catalogRoute, isLang, parseRoute, routeHref, withLang, type CatalogRoute, type Route } from './lib/router.ts';
 import { buildEntries, search } from './lib/search.ts';
 import { KEYS, load, save } from './lib/store.ts';
-import { LANGS, type Lang, type Mode, type TableSummary } from './types.ts';
+import { LANGS, type Lang, type TableSummary } from './types.ts';
 import { catalogTSV, renderCatalog } from './views/catalog.ts';
 import { areaName, bigAddLabel, catName, countText, loc, tableHref, type Ctx } from './views/common.ts';
 import { createPalette, type Cmd } from './views/palette.ts';
@@ -329,11 +329,6 @@ document.addEventListener('click', (e) => {
       saveSelection();
       render();
       break;
-    case 'mode':
-      c.mode = v === 'tech' ? 'tech' : 'simple';
-      save(KEYS.mode, c.mode);
-      render();
-      break;
     case 'fmt':
       setFormat(v as Format);
       render();
@@ -463,13 +458,6 @@ const isDark = () => {
 const listBase = (): CatalogRoute => (route.name === 'catalog' ? route : catalogRoute(route.lang));
 const applyList = (over: Partial<CatalogRoute>) => navigate(routeHref({ ...listBase(), page: 1, open: '', ...over }));
 
-function setMode(m: Mode) {
-  if (!ctx) return;
-  ctx.mode = m;
-  save(KEYS.mode, m);
-  render();
-}
-
 function setTheme(th: 'light' | 'dark') {
   document.documentElement.setAttribute('data-theme', th);
   save(KEYS.theme, th);
@@ -529,14 +517,6 @@ function paletteFor(page: string): { title: string; cmds: Cmd[] } {
           { id: 'sort:desc', label: S('sortDesc'), on: lr.sort === 'desc', run: () => applyList({ sort: 'desc' }) },
         ],
       };
-    case 'view':
-      return {
-        title: S('view'),
-        cmds: [
-          { id: 'mode:simple', label: S('simple'), on: c.mode === 'simple', run: () => setMode('simple') },
-          { id: 'mode:tech', label: S('tech'), on: c.mode === 'tech', run: () => setMode('tech') },
-        ],
-      };
     case 'lang':
       return {
         title: S('lang'),
@@ -577,7 +557,6 @@ function paletteFor(page: string): { title: string; cmds: Cmd[] } {
     { id: 'go:sel', label: S('mySelection'), note: String(c.selection.length), icon: 'sel', on: route.name === 'selection' && !route.shared, run: () => navigate(routeHref({ name: 'selection', lang: route.lang, shared: null })) },
   ];
   const prefs: Cmd[] = [
-    { id: 'p:view', label: S('view'), note: S(c.mode === 'tech' ? 'tech' : 'simple'), page: 'view' },
     { id: 'p:lang', label: S('lang'), note: LANG_LABELS[route.lang], page: 'lang' },
     { id: 'theme:light', label: S('themeLight'), icon: 'sun', on: !isDark(), run: () => setTheme('light') },
     { id: 'theme:dark', label: S('themeDark'), icon: 'moon', on: isDark(), run: () => setTheme('dark') },
@@ -593,7 +572,7 @@ const palette = createPalette({
   page: paletteFor,
   leaves() {
     const first = paletteFor('').cmds.filter((x) => !x.page);
-    const deeper = ['area', 'cat', 'letter', 'sort', 'view', 'lang'].flatMap((p) => {
+    const deeper = ['area', 'cat', 'letter', 'sort', 'lang'].flatMap((p) => {
       const pg = paletteFor(p);
       return pg.cmds.map((x) => ({ ...x, crumb: pg.title, group: '' }));
     });
@@ -638,7 +617,6 @@ loadIndex()
     const byId = new Map(data.tables.map((x) => [x.id, x]));
     ctx = {
       lang: route.lang,
-      mode: load(KEYS.mode) === 'tech' ? 'tech' : 'simple',
       data,
       entries: buildEntries(data),
       byId,

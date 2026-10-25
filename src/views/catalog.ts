@@ -4,7 +4,7 @@ import { routeHref, type CatalogRoute } from '../lib/router.ts';
 import { esc } from '../lib/text.ts';
 import type { TableSummary } from '../types.ts';
 import {
-  addButton, areaBadge, areaName, catName, countText, dclName, highlight, kindName, loc, modeSeg, modTag, optLink, orDash, s4Badge, segLink, tableHref, tokenLink, tx, type Ctx,
+  addButton, areaBadge, areaName, catName, countText, dclName, highlight, kindName, loc, modTag, optLink, orDash, s4Badge, segLink, tableHref, tokenLink, tx, type Ctx,
 } from './common.ts';
 
 /**
@@ -26,7 +26,6 @@ export function renderCatalog(el: HTMLElement, r: CatalogRoute, c: Ctx): Catalog
   const get = (id: string) => el.querySelector<HTMLElement>('#' + id)!;
   const res = runCatalog(c.entries, r, c.lang);
   const at = (over: Partial<CatalogRoute>) => routeHref({ ...r, page: 1, open: '', ...over });
-  const tech = c.mode === 'tech';
 
   get('ctitle').textContent = tx(c, 'catTitle') + (r.letter ? ' · ' + r.letter : '');
   get('cintro').textContent = tx(c, 'catIntro');
@@ -70,7 +69,6 @@ export function renderCatalog(el: HTMLElement, r: CatalogRoute, c: Ctx): Catalog
     </div>
     <div class="t-right">
       <span class="ccount" aria-live="polite">${esc(countText(c, res.total))}</span>
-      ${modeSeg(c)}
       <button type="button" class="tbtn" data-act="copyview" data-k="copy">${ic('copy', 18)}<span>${esc(tx(c, 'copyView'))}</span></button>
     </div>`;
   if (wasOpen) (tools.querySelector('details') as HTMLDetailsElement).open = true;
@@ -92,9 +90,9 @@ export function renderCatalog(el: HTMLElement, r: CatalogRoute, c: Ctx): Catalog
     table.innerHTML = noneHTML(c, r, at);
     return res;
   }
-  const head = `<div class="chead" aria-hidden="true"><span class="c-n">#</span><span>${esc(tx(c, 'colTable'))}</span><span>${esc(tx(c, 'colDesc'))}</span><span>${esc(tx(c, tech ? 'colCat' : 'colAreaMod'))}</span><span>${esc(tx(c, tech ? 'colDcl' : 'colKind'))}</span></div>`;
+  const head = `<div class="chead" aria-hidden="true"><span class="c-n">#</span><span>${esc(tx(c, 'colTable'))}</span><span>${esc(tx(c, 'colDesc'))}</span><span>${esc(tx(c, 'colAreaMod'))}</span><span>${esc(tx(c, 'colKind'))}</span></div>`;
   const rows = res.rows.map((t, i) => rowHTML(c, t, res.start + i + 1, r)).join('');
-  table.innerHTML = `<div class="panel">${head}<ul class="rows">${rows}</ul></div>${pager(c, r, res)}${tech ? legend(c) : ''}`;
+  table.innerHTML = `<div class="panel">${head}<ul class="rows">${rows}</ul></div>${pager(c, r, res)}${legend(c)}`;
   return res;
 }
 
@@ -106,14 +104,11 @@ const breakable = (id: string, html: string) => {
 
 /** A row: a link to the table's page (so Ctrl+click and "open in new tab" work); a plain click opens the sheet. */
 function rowHTML(c: Ctx, t: TableSummary, n: number, r: CatalogRoute): string {
-  const meta =
-    c.mode === 'tech'
-      ? `<span class="mono">${esc(orDash(t.cat))}</span><span class="dot" aria-hidden="true">·</span><span>${t.dcl ? `<span class="mono">${esc(t.dcl)}</span> ${esc(dclName(c, t.dcl))}` : '—'}</span>`
-      : `<span class="c-ar">${areaBadge(c, t.area)}${modTag(c, t)}</span><span class="dot" aria-hidden="true">·</span><span>${esc(kindName(c, t.kind))}</span>`;
-  // the technical view also names the SAP application component under the description
-  const comp = c.mode === 'tech' && t.comp ? `<span class="c-comp mono">${esc(t.comp)}</span>` : '';
+  // the area with the whole SAP component, then what the table holds with its category and delivery class
+  const tech = [t.cat, t.dcl].filter(Boolean).join(' · ');
+  const meta = `<span class="c-ar">${areaBadge(c, t.area)}${modTag(c, t, true)}</span><span class="dot" aria-hidden="true">·</span><span class="c-kind">${esc(kindName(c, t.kind))}${tech ? `<span class="c-tech mono" title="${esc([t.cat && catName(c, t.cat), t.dcl && dclName(c, t.dcl)].filter(Boolean).join(' · '))}">${esc(tech)}</span>` : ''}</span>`;
   const open = r.open === t.id ? ' aria-current="true"' : '';
-  return `<li class="crow"><a class="cmain" href="${esc(tableHref(c, t.id))}" data-link data-open="${esc(t.id)}" aria-haspopup="dialog"${open}><span class="c-n">${n}</span><span class="c-id${t.id.length > 10 ? ' long' : ''}">${breakable(t.id, highlight(t.id, r.q))}</span><span class="c-title">${highlight(loc(c, t.title), r.q)}${s4Badge(c, t)}${comp}</span><span class="c-meta">${meta}</span></a>${addButton(c, t.id)}</li>`;
+  return `<li class="crow"><a class="cmain" href="${esc(tableHref(c, t.id))}" data-link data-open="${esc(t.id)}" aria-haspopup="dialog"${open}><span class="c-n">${n}</span><span class="c-id${t.id.length > 10 ? ' long' : ''}">${breakable(t.id, highlight(t.id, r.q))}</span><span class="c-title">${highlight(loc(c, t.title), r.q)}${s4Badge(c, t)}</span><span class="c-meta">${meta}</span></a>${addButton(c, t.id)}</li>`;
 }
 
 /** Nothing matched: the words that found nothing, crossed out, and the ways on. */

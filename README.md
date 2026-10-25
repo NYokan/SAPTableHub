@@ -2,13 +2,13 @@
 
 Encuentra cualquier tabla estándar de SAP ERP en segundos. SAPTableHub es un listado de tablas SAP pensado para quien sabe de SAP y para quien no: muestra el nombre técnico de cada tabla, su descripción, área, categoría y clase de entrega, sus campos principales y sus tablas relacionadas. Está en **español, inglés y portugués**.
 
-> **Estado: beta.** El contenido actual es de ejemplo y está escrito a mano: no se extrajo de un sistema SAP y falta verificarlo. Los tipos y longitudes de campo pueden variar según la versión de SAP.
+> El contenido está escrito para este proyecto y no se extrajo de un sistema SAP: los nombres, claves y tipos de campo se contrastaron con referencias públicas (ver «Atribución de los datos»). Los tipos y longitudes pueden variar según la versión de SAP.
 
 ## Qué tiene
 
 - **Listado** (página de inicio): todas las tablas en orden alfabético, con índice A–Z, filtro instantáneo, áreas, categoría, paginación y botón para copiar el listado y pegarlo en Excel.
 - **Buscar**: búsqueda en lenguaje de negocio (“factura”, “proveedor”, “stock”) en los tres idiomas, con tolerancia a errores de escritura. También encuentra tablas por nombre de campo (`MATNR` lleva a `MARA`).
-- **Ficha de cada tabla**: para qué sirve, campos principales, datos técnicos y tablas relacionadas. Vista **Simple** (lenguaje llano) o **Técnica** (tipos, claves, cómo se une con otras tablas).
+- **Ficha de cada tabla**: para qué sirve, campos principales, datos técnicos y tablas relacionadas. Muestra el área y el componente de SAP, los campos con su tipo y clave, la categoría, la clase de entrega y cómo se une con otras tablas.
 - **Mi selección**: marca tablas con `+`, cópialas como texto para tu solicitud o comparte un enlace con la selección.
 - Direcciones propias para cada página, para enlazarlas desde una guía: `/es/table/VBAK`, `/es/?letter=V`, `/es/selection?t=VBAK,VBAP`.
 - Diseño para PC y para móvil (iOS y Android), modo claro y oscuro.
