@@ -1,7 +1,8 @@
+import { requestLine } from '../lib/catalog.ts';
 import { ic } from '../lib/icons.ts';
 import { catalogRoute, routeHref, type SelectionRoute } from '../lib/router.ts';
 import { esc } from '../lib/text.ts';
-import { loc, tableHref, tx, type Ctx } from './common.ts';
+import { loc, modTag, tableHref, tx, type Ctx } from './common.ts';
 
 export type Format = 'names' | 'desc';
 let format: Format = 'names';
@@ -9,9 +10,14 @@ export const setFormat = (f: Format) => {
   format = f;
 };
 
-/** Text to paste into a request: one table per line, optionally with its description. */
+/** Text to paste into a request: one table per line, optionally with its description and module. */
 export function selectionText(c: Ctx, ids: string[]): string {
-  return ids.map((id) => (format === 'desc' ? `${id} – ${loc(c, c.byId.get(id)?.title)}` : id)).join('\n');
+  return ids
+    .map((id) => {
+      const t = c.byId.get(id);
+      return format === 'desc' ? requestLine(id, loc(c, t?.title), t?.comp) : id;
+    })
+    .join('\n');
 }
 
 /** The tables a shared link points to, keeping only names the site knows. */
@@ -44,7 +50,7 @@ export function renderSelection(el: HTMLElement, r: SelectionRoute, c: Ctx): voi
         const rm = shared
           ? ''
           : `<button type="button" class="rm" data-act="rm" data-id="${esc(id)}" aria-label="${esc(tx(c, 'rmAria', { id }))}">${esc(tx(c, 'remove'))}</button>`;
-        return `<li class="row"><a class="r-main" href="${esc(tableHref(c, id))}" data-link><span class="r-line"><span class="r-id big">${esc(id)}</span><span class="r-title dim">${esc(loc(c, t?.title))}</span></span></a>${rm}</li>`;
+        return `<li class="row"><a class="r-main" href="${esc(tableHref(c, id))}" data-link><span class="r-line"><span class="r-id big">${esc(id)}</span><span class="r-title dim">${esc(loc(c, t?.title))}</span>${t ? modTag(c, t, true) : ''}</span></a>${rm}</li>`;
       })
       .join('') +
     '</ul></div>';

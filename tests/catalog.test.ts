@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import { describe, it } from 'node:test';
-import { letterOf, PAGE_SIZE, pageList, runCatalog, type CatalogQuery } from '../src/lib/catalog.ts';
+import { letterOf, PAGE_SIZE, pageList, requestLine, runCatalog, type CatalogQuery } from '../src/lib/catalog.ts';
 import { entries } from './helpers.ts';
 
 const q = (over: Partial<CatalogQuery> = {}): CatalogQuery => ({ q: '', area: '', cat: '', letter: '', sort: 'name', page: 1, ...over });
@@ -64,5 +64,18 @@ describe('page numbers', () => {
   it('shortens long ranges around the current page', () => {
     assert.deepEqual(pageList(10, 40), [1, '…', 9, 10, 11, '…', 40]);
     assert.deepEqual(pageList(1, 40), [1, 2, '…', 40]);
+  });
+});
+
+describe('request line', () => {
+  it('puts the name, the description and the SAP module together', () => {
+    assert.equal(requestLine('A004', 'Registros de condición: precio por material', 'SD-MD-CM'), 'A004 – Registros de condición: precio por material – SD-MD-CM');
+  });
+  it('leaves out what a table does not have', () => {
+    assert.equal(requestLine('ZTAB', 'Tabla propia'), 'ZTAB – Tabla propia');
+    assert.equal(requestLine('ZTAB', '', 'SD'), 'ZTAB – SD');
+  });
+  it('has a module for every table', () => {
+    assert.deepEqual(entries.filter((e) => !e.t.comp).map((e) => e.t.id), []);
   });
 });

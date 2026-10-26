@@ -518,6 +518,12 @@ details.legend { margin-top: 16px; }
 .r-id.big { font-size: 19px; font-weight: 600; color: var(--ink); overflow-wrap: anywhere; max-width: 100%; }
 .r-title { font-size: 16.5px; font-weight: 500; line-height: 1.3; min-width: 0; overflow-wrap: anywhere; }
 .r-title.dim { font-weight: 400; color: var(--muted); font-size: 15px; flex: 1 1 140px; }
+.r-line .mod { margin-left: 0; }
+/* phones: the module sits beside the table name, the description gets its own line */
+@media (max-width: 879px) {
+  .view-selection .r-line .mod { order: 1; }
+  .view-selection .r-line .r-title { order: 2; flex: 1 0 100%; }
+}
 .r-meta { display: flex; flex-wrap: wrap; gap: 6px 8px; align-items: center; font-size: 13px; color: var(--muted); }
 .hint { font-size: 13px; color: var(--accent); }
 

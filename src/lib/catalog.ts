@@ -72,3 +72,6 @@ export function pageList(current: number, pages: number): (number | '…')[] {
   }
   return out;
 }
+
+/** One line for a table request: its name, then its description and SAP module when known. */
+export const requestLine = (id: string, title?: string, comp?: string): string => [id, title, comp].filter(Boolean).join(' – ');

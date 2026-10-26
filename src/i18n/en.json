@@ -80,7 +80,7 @@
   "goCatalog": "Go to the table list",
   "listIntro": "Mark the tables you need and copy the selection to paste into your request.",
   "fmtN": "Names only",
-  "fmtD": "With description",
+  "fmtD": "With description and module",
   "copyList": "Copy selection",
   "copyLink": "Copy link",
   "remove": "Remove",

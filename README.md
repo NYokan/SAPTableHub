@@ -9,7 +9,7 @@ Encuentra cualquier tabla estándar de SAP ERP en segundos. SAPTableHub es un li
 - **Listado** (página de inicio): todas las tablas en orden alfabético, con índice A–Z, filtro instantáneo, áreas, categoría, paginación y botón para copiar el listado y pegarlo en Excel.
 - **Buscar**: búsqueda en lenguaje de negocio (“factura”, “proveedor”, “stock”) en los tres idiomas, con tolerancia a errores de escritura. También encuentra tablas por nombre de campo (`MATNR` lleva a `MARA`).
 - **Ficha de cada tabla**: para qué sirve, campos principales, datos técnicos y tablas relacionadas. Muestra el área y el componente de SAP, los campos con su tipo y clave, la categoría, la clase de entrega y cómo se une con otras tablas.
-- **Mi selección**: marca tablas con `+`, cópialas como texto para tu solicitud o comparte un enlace con la selección.
+- **Mi selección**: marca tablas con `+`, cópialas como texto para tu solicitud (solo los nombres, o con su descripción y módulo: `A004 – Registros de condición: precio por material – SD-MD-CM`) o comparte un enlace con la selección.
 - Direcciones propias para cada página, para enlazarlas desde una guía: `/es/table/VBAK`, `/es/?letter=V`, `/es/selection?t=VBAK,VBAP`.
 - Diseño para PC y para móvil (iOS y Android), modo claro y oscuro.
 
