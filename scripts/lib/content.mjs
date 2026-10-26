@@ -22,9 +22,12 @@ export const fileNameOf = (id) => id.replace(/\//g, '_') + '.json';
  */
 export const SAP_FILE = 'sap-tables.tsv';
 export const SAP_HEAD = ['id', 'category', 'deliveryClass', 'description'];
+/** Their fields, one per line in the dictionary's order: key is "X" for a key field; checkTable may be empty. */
+export const SAP_FIELDS_FILE = 'sap-fields.tsv';
+export const SAP_FIELDS_HEAD = ['table', 'field', 'key', 'type', 'description', 'checkTable'];
 
-function readSap(file) {
-  if (!fs.existsSync(file)) return { head: SAP_HEAD.slice(), rows: [] };
+function readTsv(file, emptyHead) {
+  if (!fs.existsSync(file)) return { head: emptyHead.slice(), rows: [] };
   const [head = '', ...lines] = fs.readFileSync(file, 'utf8').split('\n').map((l) => l.replace(/\r$/, ''));
   return {
     head: head.split('\t'),
@@ -47,7 +50,7 @@ export function loadContent(dir) {
         return { file, data: null, parseError: e.message };
       }
     });
-  return { taxonomy: read('taxonomy.json'), fields: read('fields.json'), glossary: read('glossary.json'), tables, sap: readSap(path.join(dir, SAP_FILE)) };
+  return { taxonomy: read('taxonomy.json'), fields: read('fields.json'), glossary: read('glossary.json'), tables, sap: readTsv(path.join(dir, SAP_FILE), SAP_HEAD), sapFields: readTsv(path.join(dir, SAP_FIELDS_FILE), SAP_FIELDS_HEAD) };
 }
 
 const isText = (v) => typeof v === 'string' && v.trim() !== '';
@@ -130,6 +133,21 @@ export function validate(c) {
     if (!c.taxonomy.deliveryClasses[dcl]) err(where, `${id}: clase de entrega desconocida "${dcl}"`);
     if (!isText(desc)) err(where, `${id}: falta la descripción`);
   }
+
+  if (c.sapFields.head.join('\t') !== SAP_FIELDS_HEAD.join('\t')) err(SAP_FIELDS_FILE, `la primera línea debe ser: ${SAP_FIELDS_HEAD.join(' ⇥ ')}`);
+  const seenField = new Set();
+  for (const { line, cols } of c.sapFields.rows) {
+    const where = `${SAP_FIELDS_FILE} línea ${line}`;
+    if (cols.length !== SAP_FIELDS_HEAD.length) { err(where, `debe tener ${SAP_FIELDS_HEAD.length} columnas separadas por tabuladores`); continue; }
+    const [table, field, key, type, , check] = cols;
+    if (!sapIds.has(table)) err(where, `la tabla ${table} no está en ${SAP_FILE}`);
+    if (!NAME_RE.test(field)) err(where, `${table}: el campo "${field}" solo admite mayúsculas, dígitos, _ y /`);
+    if (seenField.has(table + ' ' + field)) err(where, `${table}: el campo ${field} está repetido`);
+    seenField.add(table + ' ' + field);
+    if (key !== '' && key !== 'X') err(where, `${table}.${field}: "key" debe ser X o quedar vacío`);
+    if (!TYPE_RE.test(type)) err(where, `${table}.${field}: el tipo debe tener la forma "CHAR 40"`);
+    if (check !== '' && check !== '*' && !NAME_RE.test(check)) err(where, `${table}.${field}: tabla de verificación no válida "${check}"`);
+  }
   return errors;
 }
 
@@ -141,6 +159,17 @@ export function compile(c) {
   const tables = c.tables.map((x) => x.data).sort((a, b) => a.id.localeCompare(b.id));
   const own = new Set(tables.map((t) => t.id));
   const official = new Map(c.sap.rows.map(({ cols }) => [cols[0], cols[3]]));
+  // SAP's fields of each table: [name, 1 for a key field, type, SAP's short description]; and the tables that
+  // check its fields (one relation per check table, leaving out T000, the client table every table checks)
+  const sapFields = new Map();
+  const checks = new Map();
+  for (const { cols: [table, field, key, type, desc, check] } of c.sapFields.rows) {
+    (sapFields.get(table) ?? sapFields.set(table, []).get(table)).push([field, key === 'X' ? 1 : 0, type, desc]);
+    if (check && check !== '*' && check !== table && check !== 'T000') {
+      const list = checks.get(table) ?? checks.set(table, []).get(table);
+      if (!list.some((r) => r.table === check)) list.push({ table: check, type: 'check', on: field });
+    }
+  }
   // name, SAP's short description, category and delivery class; sorted by name as the list shows them
   const sap = c.sap.rows
     .map(({ cols: [id, cat, dcl, desc] }) => [id, desc, cat, dcl])
@@ -177,7 +206,16 @@ export function compile(c) {
     // a field that means something narrower in this table (AUART is an order type here, not a sales document type)
     const lab = Object.fromEntries((t.fields ?? []).filter((f) => f.label).map((f) => [f.name, f.label]));
     const sd = official.get(t.id);
-    (details[shardOf(t.id)] ??= {})[t.id] = { purpose: t.purpose ?? null, rel: t.relations ?? [], ...(Object.keys(lab).length ? { lab } : {}), ...(sd ? { sd } : {}) };
+    // a table with no fields of its own shows SAP's
+    const sf = (t.fields ?? []).length ? undefined : sapFields.get(t.id);
+    (details[shardOf(t.id)] ??= {})[t.id] = { purpose: t.purpose ?? null, rel: t.relations ?? [], ...(Object.keys(lab).length ? { lab } : {}), ...(sd ? { sd } : {}), ...(sf ? { sf } : {}) };
+  }
+  // the tables of SAP's list: SAP's fields and the listed tables that check them
+  const listed = new Set([...own, ...sap.map(([id]) => id)]);
+  for (const [id] of sap) {
+    const sf = sapFields.get(id);
+    const rel = (checks.get(id) ?? []).filter((r) => listed.has(r.table));
+    if (sf || rel.length) (details[shardOf(id)] ??= {})[id] = { purpose: null, rel, ...(sf ? { sf } : {}) };
   }
   return { index, details, sap };
 }

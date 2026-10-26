@@ -237,6 +237,11 @@
       "es": "Configuración",
       "en": "Configuration",
       "pt": "Configuração"
+    },
+    "check": {
+      "es": "Tabla de verificación",
+      "en": "Check table",
+      "pt": "Tabela de verificação"
     }
   }
 }

@@ -49,7 +49,12 @@ export interface TableDetail {
   lab?: Record<string, L10n>;
   /** SAP's own short description of the table, in English, when SAP's dictionary list has it. */
   sd?: string;
+  /** All the table's fields as SAP's dictionary has them, for a table with no fields documented here. */
+  sf?: SapField[];
 }
+
+/** A field as SAP's dictionary has it: name, 1 for a key field, type ("CHAR 10"), SAP's short description. */
+export type SapField = [name: string, key: 0 | 1, type: string, desc: string];
 
 export interface FieldDef {
   type: string;

@@ -27,8 +27,11 @@ The table names, short descriptions, categories and delivery classes in
 content/sap-tables.tsv were read once, on 26 October 2026, from the public
 table index of SAP Datasheet (https://www.sapdatasheet.org/abap/tabl/),
 which reflects the SAP ERP dictionary; its robots.txt allows those pages.
-The short descriptions are SAP's own texts, shown in English as SAP wrote
-them. Each such table links to its page on SAP Datasheet. See
+The fields of those tables in content/sap-fields.tsv (name, key flag,
+type, short description and check table) were read once, the same day,
+from each table's page on SAP Datasheet. The short descriptions are SAP's
+own texts, shown in English as SAP wrote them. Each such table links to
+its page on SAP Datasheet. See
 docs/tablas-sap.md for which tables were included and why.
 
 SAPTableHub is an independent project, not affiliated with SAP SE.

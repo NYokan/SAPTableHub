@@ -4,8 +4,8 @@ import { ic } from '../lib/icons.ts';
 import { catalogRoute, routeHref, type TableRoute } from '../lib/router.ts';
 import { sapDatasheetHref } from '../lib/sap.ts';
 import { esc } from '../lib/text.ts';
-import type { TableDetail, TableSummary } from '../types.ts';
-import { areaBadge, bigAddButton, catName, dclName, kindName, loc, modTag, orDash, s4Badge, tableHref, titleHTML, tx, type Ctx } from './common.ts';
+import type { SapField, TableDetail, TableSummary } from '../types.ts';
+import { areaBadge, bigAddButton, catName, dclName, kindName, loc, modTag, num, orDash, s4Badge, tableHref, titleHTML, tx, type Ctx } from './common.ts';
 
 const cache = new Map<string, TableDetail | null>();
 
@@ -35,8 +35,7 @@ export function renderTable(el: HTMLElement, r: TableRoute, c: Ctx): TableSummar
   const paint = (d: TableDetail | null | undefined) => {
     el.innerHTML = back + detailHTML(c, t, d);
   };
-  // a table known only from SAP's list has no detail file to wait for
-  const d = t.x ? null : withDetail(t.id, (got) => {
+  const d = withDetail(t.id, (got) => {
     // the person may have moved on while the detail was loading
     if (el.dataset.view !== 'table:' + r.id) return;
     const y = window.scrollY;
@@ -47,33 +46,76 @@ export function renderTable(el: HTMLElement, r: TableRoute, c: Ctx): TableSummar
   return t;
 }
 
+type Sheet = { relHref: (id: string) => string };
+type FieldRow = { name: string; key: boolean; type: string; mean: string; en?: boolean };
+
+/** Rows shown before the rest fold away: some tables have hundreds of fields. */
+const FIRST_FIELDS = 25;
+
+/** Fields as a table; past the first 25, the rest fold under "See the other N fields". */
+function fieldsTable(c: Ctx, rows: FieldRow[], label: string): string {
+  const keyBadge = `<span class="kb">${ic('key', 13)}${esc(tx(c, 'key'))}</span>`;
+  const head = `<div class="t-head" role="row"><span role="columnheader">${esc(tx(c, 'colField'))}</span><span role="columnheader">${esc(tx(c, 'colType'))}</span><span role="columnheader">${esc(tx(c, 'colMean'))}</span></div>`;
+  const row = (f: FieldRow) =>
+    `<div class="tf" role="row"><span class="nm" role="cell">${esc(f.name)}${f.key ? keyBadge : ''}</span><span class="ty" role="cell">${esc(f.type)}</span><span class="mn" role="cell"${f.en && c.lang !== 'en' ? ' lang="en"' : ''}>${esc(f.mean)}</span></div>`;
+  const panel = (xs: FieldRow[]) => `<div class="panel" role="table" aria-label="${esc(label)}">${head}${xs.map(row).join('')}</div>`;
+  // folding away only a handful of rows would just add a click
+  if (rows.length <= FIRST_FIELDS + 5) return panel(rows);
+  return (
+    panel(rows.slice(0, FIRST_FIELDS)) +
+    `<details class="gl more-f"><summary>${esc(tx(c, 'moreFields', { n: num(c, rows.length - FIRST_FIELDS) }))}${ic('down', 18)}</summary>${panel(rows.slice(FIRST_FIELDS))}</details>`
+  );
+}
+
+/** SAP's fields of a table, with SAP's English descriptions. */
+const sapFieldRows = (sf: SapField[]): FieldRow[] => sf.map(([name, key, type, desc]) => ({ name, key: key === 1, type, mean: desc, en: true }));
+
+/** The fields section from SAP's dictionary: loading, the fields, or a note that there are none. */
+function sapFieldsSection(c: Ctx, d: TableDetail | null | undefined): string {
+  const body =
+    d === undefined
+      ? `<p class="body muted">${esc(tx(c, 'loading'))}</p>`
+      : d?.sf?.length
+        ? fieldsTable(c, sapFieldRows(d.sf), tx(c, 'allFields')) + `<p class="fnote">${esc(tx(c, 'sapFieldsNote'))}</p>`
+        : `<div class="panel empty"><span class="muted">${esc(tx(c, 'noFields'))}</span></div>`;
+  return `<section class="sec"><h2>${esc(tx(c, 'allFields'))}</h2>${body}</section>`;
+}
+
+/** Related tables that the site lists, each opening in the sheet or on its own page. */
+function relatedHTML(c: Ctx, d: TableDetail | null | undefined, sheet?: Sheet): string {
+  const rels = (d?.rel ?? []).filter((x) => c.byId.has(x.table));
+  if (!rels.length) return '';
+  return (
+    `<section class="sec"><h2>${esc(tx(c, 'related'))}</h2><div class="panel">` +
+    rels
+      .map((x) => {
+        const o = c.byId.get(x.table)!;
+        return `<a class="rel" href="${esc(sheet ? sheet.relHref(o.id) : tableHref(c, o.id))}" data-link><span class="tx"><span class="kind">${esc(loc(c, c.data.taxonomy.relationTypes[x.type]))}</span><span class="tt"><span class="rid">${esc(o.id)}</span><span class="rt">${titleHTML(c, o)}</span></span><span class="jn">${esc(tx(c, 'joinBy'))} ${esc(x.on)}</span></span>${ic('chev', 18)}</a>`;
+      })
+      .join('') +
+    '</div></section>'
+  );
+}
+
 /**
  * A table's full reading: name, purpose, fields, technical data, relations and glossary.
  * `d` is undefined while the detail is loading and null when the table has none.
  * `sheet` is set when it is shown in the side sheet over the list: the name is then the dialog's
  * heading, related tables open in the same sheet, and there is a link to the full page.
  */
-export function detailHTML(c: Ctx, t: TableSummary, d: TableDetail | null | undefined, sheet?: { relHref: (id: string) => string }): string {
-  if (t.x) return sapDetailHTML(c, t, !!sheet);
+export function detailHTML(c: Ctx, t: TableSummary, d: TableDetail | null | undefined, sheet?: Sheet): string {
+  if (t.x) return sapDetailHTML(c, t, d, sheet);
   const fields = t.f.map((f) => {
     const { name, key, type } = parseField(f);
     const def = c.data.fields[name];
     const label = d?.lab?.[name];
     return { name, key, def: def && (type || label) ? { ...def, ...(type ? { type } : {}), ...(label ? { label } : {}) } : def };
   });
-  const keyBadge = `<span class="kb">${ic('key', 13)}${esc(tx(c, 'key'))}</span>`;
-
-  let fieldsHTML: string;
-  if (!fields.length) {
-    fieldsHTML = `<div class="panel empty"><span class="muted">${esc(tx(c, 'noFields'))}</span></div>`;
-  } else {
-    fieldsHTML =
-      `<div class="panel" role="table" aria-label="${esc(tx(c, 'mainFields'))}"><div class="t-head" role="row"><span role="columnheader">${esc(tx(c, 'colField'))}</span><span role="columnheader">${esc(tx(c, 'colType'))}</span><span role="columnheader">${esc(tx(c, 'colMean'))}</span></div>` +
-      fields
-        .map((f) => `<div class="tf" role="row"><span class="nm" role="cell">${esc(f.name)}${f.key ? keyBadge : ''}</span><span class="ty" role="cell">${esc(f.def?.type ?? '')}</span><span class="mn" role="cell">${esc(loc(c, f.def?.label))}</span></div>`)
-        .join('') +
-      '</div>';
-  }
+  const ownRows: FieldRow[] = fields.map((f) => ({ name: f.name, key: f.key, type: f.def?.type ?? '', mean: loc(c, f.def?.label) }));
+  // the main fields written for this site; without them, all the fields SAP's dictionary has
+  const fieldsSec = fields.length
+    ? `<section class="sec"><h2>${esc(tx(c, 'mainFields'))}</h2>${fieldsTable(c, ownRows, tx(c, 'mainFields'))}<p class="fnote">${esc(tx(c, 'fieldsNote'))}</p></section>`
+    : sapFieldsSection(c, d);
 
   const purpose =
     d === undefined
@@ -82,7 +124,7 @@ export function detailHTML(c: Ctx, t: TableSummary, d: TableDetail | null | unde
         ? `<p class="body">${esc(loc(c, d.purpose))}</p>`
         : `<p class="body muted">${esc(tx(c, 'noPlain'))}</p>`;
 
-  const pk = fields.filter((f) => f.key).map((f) => f.name).join(', ') || '—';
+  const pk = (fields.length ? fields.filter((f) => f.key).map((f) => f.name) : (d?.sf ?? []).filter((f) => f[1] === 1).map((f) => f[0])).join(', ') || '—';
   const meta = `<section class="sec"><h2>${esc(tx(c, 'about'))}</h2><dl class="meta panel">
         <div><dt>${esc(tx(c, 'objType'))}</dt><dd>${t.cat ? `${esc(catName(c, t.cat))} (${esc(t.cat)})` : '—'}</dd></div>
         <div><dt>${esc(tx(c, 'colDcl'))}</dt><dd>${t.dcl ? `${esc(t.dcl)} · ${esc(dclName(c, t.dcl))}` : '—'}</dd></div>
@@ -91,17 +133,7 @@ export function detailHTML(c: Ctx, t: TableSummary, d: TableDetail | null | unde
         <div><dt>${esc(tx(c, 'official'))}</dt><dd>${d === undefined ? '…' : d?.sd ? `<span lang="en">${esc(d.sd)}</span>` : '—'}</dd></div>
       </dl><p class="fnote">${esc(tx(c, 'verNote'))}</p></section>`;
 
-  const rels = (d?.rel ?? []).filter((x) => c.byId.has(x.table));
-  const related = rels.length
-    ? `<section class="sec"><h2>${esc(tx(c, 'related'))}</h2><div class="panel">` +
-      rels
-        .map((x) => {
-          const o = c.byId.get(x.table)!;
-          return `<a class="rel" href="${esc(sheet ? sheet.relHref(o.id) : tableHref(c, o.id))}" data-link><span class="tx"><span class="kind">${esc(loc(c, c.data.taxonomy.relationTypes[x.type]))}</span><span class="tt"><span class="rid">${esc(o.id)}</span><span class="rt">${esc(loc(c, o.title))}</span></span><span class="jn">${esc(tx(c, 'joinBy'))} ${esc(x.on)}</span></span>${ic('chev', 18)}</a>`;
-        })
-        .join('') +
-      '</div></section>'
-    : '';
+  const related = relatedHTML(c, d, sheet);
 
   const glossary = `<section class="sec"><details class="gl"><summary>${esc(tx(c, 'glossary'))}${ic('down', 18)}</summary><dl>${c.data.glossary
     .map((g) => `<dt>${esc(loc(c, g.term))}</dt><dd>${esc(loc(c, g.definition))}</dd>`)
@@ -118,28 +150,32 @@ export function detailHTML(c: Ctx, t: TableSummary, d: TableDetail | null | unde
     </div>
     <div class="actions">${bigAddButton(c, t.id)}<button type="button" class="btn" data-act="copyname" data-id="${esc(t.id)}">${ic('copy', 18)}${esc(tx(c, 'copyName'))}</button></div>
     <section class="sec"><h2>${esc(tx(c, 'purpose'))}</h2>${purpose}</section>
-    <section class="sec"><h2>${esc(tx(c, 'mainFields'))}</h2>${fieldsHTML}${fields.length ? `<p class="fnote">${esc(tx(c, 'fieldsNote'))}</p>` : ''}</section>
+    ${fieldsSec}
     ${meta}${related}${glossary}`;
 }
 
 /**
- * A table known only from SAP's dictionary list: its name, SAP's short description in English, its category and
- * delivery class, and a link to its fields on SAP Datasheet, where the list comes from.
+ * A table known only from SAP's dictionary list: its name and SAP's short description in English, all its fields,
+ * its category, delivery class and key, and the listed tables that check its fields.
  */
-function sapDetailHTML(c: Ctx, t: TableSummary, sheet: boolean): string {
+function sapDetailHTML(c: Ctx, t: TableSummary, d: TableDetail | null | undefined, sheet?: Sheet): string {
   const title = sheet
     ? `<h2 class="d-title" id="sheet-title">${esc(t.id)}</h2>`
     : `<h1 class="d-title" id="dh" tabindex="-1">${esc(t.id)}</h1>`;
+  const pk = (d?.sf ?? []).filter((f) => f[1] === 1).map((f) => f[0]).join(', ') || (d === undefined ? '…' : '—');
   return `
     <div class="d-head">
       ${title}
       <p class="d-sub">${titleHTML(c, t)}</p>
     </div>
-    <div class="actions">${bigAddButton(c, t.id)}<button type="button" class="btn" data-act="copyname" data-id="${esc(t.id)}">${ic('copy', 18)}${esc(tx(c, 'copyName'))}</button><a class="btn ext" href="${esc(sapDatasheetHref(t.id))}" target="_blank" rel="noopener">${ic('expand', 18)}${esc(tx(c, 'sdsFields'))}</a></div>
+    <div class="actions">${bigAddButton(c, t.id)}<button type="button" class="btn" data-act="copyname" data-id="${esc(t.id)}">${ic('copy', 18)}${esc(tx(c, 'copyName'))}</button></div>
     <section class="sec"><h2>${esc(tx(c, 'purpose'))}</h2><p class="body muted">${esc(tx(c, 'sapNote'))}</p></section>
+    ${sapFieldsSection(c, d)}
     <section class="sec"><h2>${esc(tx(c, 'about'))}</h2><dl class="meta panel">
         <div><dt>${esc(tx(c, 'official'))}</dt><dd lang="en">${esc(t.title.en)}</dd></div>
         <div><dt>${esc(tx(c, 'objType'))}</dt><dd>${t.cat ? `${esc(catName(c, t.cat))} (${esc(t.cat)})` : '—'}</dd></div>
         <div><dt>${esc(tx(c, 'colDcl'))}</dt><dd>${t.dcl ? `${esc(t.dcl)} · ${esc(dclName(c, t.dcl))}` : '—'}</dd></div>
-      </dl><p class="fnote">${esc(tx(c, 'sapSource'))}</p></section>`;
+        <div><dt>${esc(tx(c, 'pkey'))}</dt><dd>${esc(pk)}</dd></div>
+      </dl><p class="fnote">${esc(tx(c, 'sapSource'))} <a href="${esc(sapDatasheetHref(t.id))}" target="_blank" rel="noopener">${esc(tx(c, 'sdsLink'))}</a></p></section>
+    ${relatedHTML(c, d, sheet)}`;
 }

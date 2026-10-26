@@ -11,11 +11,31 @@ J_1BNFDOC	TRANSP	A	Nota Fiscal Header
 - `description` es la descripción corta de SAP, en inglés.
 - Las tablas que tienen su propio archivo en `content/tables/` también están en la lista, pero el sitio usa su archivo; de su línea solo toma la descripción corta, que aparece en la ficha como «Descripción oficial de SAP».
 
+Sus campos están en `content/sap-fields.tsv`, uno por línea y en el orden del diccionario:
+
+```
+table	field	key	type	description	checkTable
+J_1BNFDOC	MANDT	X	CLNT 3	Client	T000
+J_1BNFDOC	DOCNUM	X	NUMC 10	Document Number	
+```
+
+- `key` es `X` en los campos clave; `type` tiene la forma `CHAR 10` o `DEC 13,2`; `description` es la descripción corta de SAP, en inglés; `checkTable` es la tabla de verificación, si la hay.
+- La ficha de cada tabla muestra todos sus campos (a partir de 25, el resto queda plegado) y, como «Tablas relacionadas», las tablas de verificación que están en el listado (salvo `T000`, la de mandante, que la tienen todas).
+- Las tablas explicadas sin campos propios también muestran los de SAP.
+
 ## De dónde sale
 
 Del índice público de tablas de [SAP Datasheet](https://www.sapdatasheet.org/abap/tabl/index-a.html), que refleja el diccionario de un sistema SAP ERP (ECC 6.0). Se leyó **una sola vez, el 26 de octubre de 2026**: 265 páginas de índice, con una pausa de dos segundos entre página y página. Su `robots.txt` lo permite y sus condiciones de uso no lo prohíben. No se descargaron las fichas de cada tabla, y la lectura no se repite de forma automática.
 
 Ese índice tiene 113.091 tablas. De las 1.018 explicadas en este proyecto, 995 están en él; las 23 que faltan solo existen en S/4HANA (`ACDOCA`, `MATDOC`…), lo que confirma que el índice es de ECC.
+
+## Campos
+
+Se leyó también, una sola vez, la página de cada tabla nueva en SAP Datasheet (unas 9.800, con pausas entre página y página; su `robots.txt` lo permite) y se guardaron solo los datos del diccionario: campos, clave, tipo, descripción corta y tabla de verificación. Las líneas `.INCLUDE` y `.APPEND`, que solo marcan una estructura incluida, se omiten: sus campos vienen en sus propias líneas.
+
+Antes de usarlos se comprobaron con 38 tablas explicadas, cuyos campos se habían contrastado con una referencia de ECC 6.0: los 239 campos coinciden en nombre, clave y tipo.
+
+El **componente de aplicación** de esas páginas no se usa: solo coincidía con el oficial de SAP en 3 de las 38 tablas (por ejemplo, `VBAP` aparece como `CRM-BTX-BF-IF` en lugar de `SD-SLS`), porque el sistema del que salen es CRM/SRM. Por eso las tablas nuevas no muestran módulo.
 
 ## Qué tablas se incluyeron
 

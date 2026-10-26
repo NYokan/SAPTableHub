@@ -193,7 +193,7 @@ function syncSheet() {
       fullHref: tableHref(c, id),
       close: t(c.lang, 'closeSheet'),
     });
-  paint(tb.x ? null : withDetail(id, (d) => {
+  paint(withDetail(id, (d) => {
     if (sheet.id() === id) paint(d);
   }));
 }

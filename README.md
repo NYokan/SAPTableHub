@@ -6,7 +6,7 @@ Encuentra cualquier tabla estándar de SAP ERP en segundos. SAPTableHub es un li
 
 ## Qué tiene
 
-- **Listado** (página de inicio): unas 10.800 tablas en orden alfabético, con índice A–Z, filtro instantáneo, áreas, categoría, paginación y botón para copiar el listado y pegarlo en Excel. 1.018 tienen explicación en los tres idiomas; el resto, unas 9.800 tablas importantes del diccionario de SAP, muestran su descripción corta de SAP y enlazan a sus campos en SAP Datasheet. El filtro «Mostrar: Con explicación» deja solo las explicadas.
+- **Listado** (página de inicio): unas 10.800 tablas en orden alfabético, con índice A–Z, filtro instantáneo, áreas, categoría, paginación y botón para copiar el listado y pegarlo en Excel. 1.018 tienen explicación en los tres idiomas; el resto, unas 9.800 tablas importantes del diccionario de SAP, muestran su descripción corta de SAP, todos sus campos y sus tablas de verificación. El filtro «Mostrar: Con explicación» deja solo las explicadas.
 - **Buscar**: búsqueda en lenguaje de negocio (“factura”, “proveedor”, “stock”) en los tres idiomas, con tolerancia a errores de escritura. También encuentra tablas por nombre de campo (`MATNR` lleva a `MARA`).
 - **Ficha de cada tabla**: para qué sirve, campos principales, datos técnicos y tablas relacionadas. Muestra el área y el componente de SAP, los campos con su tipo y clave, la categoría, la clase de entrega y cómo se une con otras tablas.
 - **Mi selección**: marca tablas con `+`, cópialas como texto para tu solicitud (solo los nombres, o con su descripción y módulo: `A004 – Registros de condición: precio por material – SD-MD-CM`) o comparte un enlace con la selección.
@@ -44,6 +44,7 @@ Abre la dirección que aparece en la terminal (normalmente http://localhost:5173
 content/              ← lo que se edita a mano
   tables/VBAK.json    una tabla explicada por archivo
   sap-tables.tsv      tablas del diccionario de SAP aún sin explicación (ver docs/tablas-sap.md)
+  sap-fields.tsv      sus campos, tal como los tiene el diccionario de SAP
   fields.json         diccionario de campos (tipo y significado en es/en/pt)
   taxonomy.json       áreas, contenidos, categorías, clases de entrega y tipos de relación
   glossary.json       glosario rápido
@@ -126,7 +127,7 @@ Los nombres de tabla y los componentes de aplicación de SAP proceden de [SAP/ab
 
 De ese archivo solo se toman los nombres y los componentes de aplicación. Los títulos, explicaciones y sinónimos de `content/tables/` están escritos para este proyecto y no reproducen las descripciones oficiales de SAP.
 
-Los nombres, descripciones cortas, categorías y clases de entrega de `content/sap-tables.tsv` se leyeron una sola vez, el 26 de octubre de 2026, del [índice público de tablas de SAP Datasheet](https://www.sapdatasheet.org/abap/tabl/index-a.html), que refleja el diccionario de SAP ERP; su `robots.txt` permite esas páginas. Las descripciones cortas son textos de SAP y se muestran en inglés, tal como SAP las escribió; cada tabla enlaza a su página en SAP Datasheet. Qué tablas se incluyeron y por qué: [docs/tablas-sap.md](docs/tablas-sap.md). Las tablas que no figuran en esa lista se añadieron a mano; las que solo existen en S/4HANA llevan la marca «Solo S/4HANA». El componente de aplicación de esas tablas lo asignó el proyecto por conocimiento de SAP y está marcado como tal en la ficha (`componentInferred`).
+Los nombres, descripciones cortas, categorías y clases de entrega de `content/sap-tables.tsv` se leyeron una sola vez, el 26 de octubre de 2026, del [índice público de tablas de SAP Datasheet](https://www.sapdatasheet.org/abap/tabl/index-a.html), que refleja el diccionario de SAP ERP; su `robots.txt` permite esas páginas. Sus campos (`content/sap-fields.tsv`) se leyeron también una vez de la página de cada tabla en SAP Datasheet. Las descripciones cortas son textos de SAP y se muestran en inglés, tal como SAP las escribió; cada tabla enlaza a su página en SAP Datasheet. Qué tablas se incluyeron y por qué: [docs/tablas-sap.md](docs/tablas-sap.md). Las tablas que no figuran en esa lista se añadieron a mano; las que solo existen en S/4HANA llevan la marca «Solo S/4HANA». El componente de aplicación de esas tablas lo asignó el proyecto por conocimiento de SAP y está marcado como tal en la ficha (`componentInferred`).
 
 Los campos principales (nombre, clave y tipo) se contrastaron con la referencia pública del diccionario de ECC 6.0 de [leanx.eu](https://leanx.eu/), consultada una vez y despacio, con permiso de su `robots.txt`. De ella solo se usan esos datos técnicos; las etiquetas de los campos están escritas para este proyecto. Esa consulta no se repite de forma automática, y los campos siguen pendientes de verificar contra un sistema SAP real. Las tablas que solo existen en S/4HANA no figuran en esa referencia y sus campos no se han podido contrastar.
 

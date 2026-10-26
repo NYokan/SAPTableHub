@@ -12,11 +12,15 @@ export interface Content {
   tables: ContentFile[];
   /** content/sap-tables.tsv: the header's columns and every other line split at the tabs. */
   sap: { head: string[]; rows: { line: number; cols: string[] }[] };
+  /** content/sap-fields.tsv, read the same way. */
+  sapFields: { head: string[]; rows: { line: number; cols: string[] }[] };
 }
 
 export const LANGS: string[];
 export const SAP_FILE: string;
 export const SAP_HEAD: string[];
+export const SAP_FIELDS_FILE: string;
+export const SAP_FIELDS_HEAD: string[];
 export function shardOf(id: string): string;
 export function fileNameOf(id: string): string;
 export function loadContent(dir: string): Content;

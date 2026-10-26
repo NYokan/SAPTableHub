@@ -956,3 +956,6 @@ html.sheet-open { overflow: hidden; }
 }
 /* the link to SAP Datasheet goes on its own row, under adding and copying */
 .actions .btn.ext { flex: 1 1 100%; }
+/* fields past the first 25, folded under "See the other N fields" */
+.more-f { margin-top: 10px; }
+.more-f .panel { border: 0; border-radius: 0; }

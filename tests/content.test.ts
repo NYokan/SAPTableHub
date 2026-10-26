@@ -53,7 +53,9 @@ describe('content', () => {
   it('compiles every table into exactly one detail group', () => {
     const { index, details } = compile(content);
     const grouped = Object.values(details).flatMap((g) => Object.keys(g));
-    assert.equal(grouped.length, index.tables.length);
+    assert.equal(new Set(grouped).size, grouped.length, 'no table twice');
+    const set = new Set(grouped);
+    assert.ok(index.tables.every((t) => set.has(t.id)), 'every explained table has its detail');
   });
   it('groups details the same way when building and in the site', () => {
     for (const id of ['VBAK', 'T001', 'A', '/SAPAPO/X', 'mara']) assert.equal(siteShard(id), buildShard(id), id);
@@ -93,5 +95,39 @@ describe('SAP\'s table list', () => {
     const own = new Set(index.tables.map((t) => t.id));
     assert.ok(sap.length > 0 && sap.every(([id]) => !own.has(id)));
     assert.equal((details[buildShard('VBAK')].VBAK as { sd?: string }).sd, content.sap.rows.find((r) => r.cols[0] === 'VBAK')!.cols[3]);
+  });
+});
+
+describe('SAP\'s fields', () => {
+  const withField = (cols: string[]) => {
+    const c = clone();
+    c.sapFields.rows.push({ line: 99999, cols });
+    return validate(c).join('\n');
+  };
+  const listed = () => content.sap.rows.find((r) => !content.tables.some((t) => t.data.id === r.cols[0]))!.cols[0];
+  it('reports a bad line', () => {
+    assert.match(withField(['NOPE_TABLE', 'X1', '', 'CHAR 4', 'x', '']), /NOPE_TABLE no está en sap-tables.tsv/);
+    assert.match(withField([listed(), 'Z1', 'Y', 'CHAR 4', 'x', '']), /"key" debe ser X o quedar vacío/);
+    assert.match(withField([listed(), 'Z1', '', 'texto', 'x', '']), /el tipo debe tener la forma "CHAR 40"/);
+    assert.match(withField([listed(), 'Z1', '', 'CHAR 4']), /debe tener 6 columnas/);
+    const c = clone();
+    const row = { line: 99999, cols: [listed(), 'Z1', '', 'CHAR 4', 'x', ''] };
+    c.sapFields.rows.push(row, { ...row, line: 100000 });
+    assert.match(validate(c).join('\n'), /el campo Z1 está repetido/);
+  });
+  it('gives a table of SAP\'s list its fields and the listed tables that check them', () => {
+    const c = clone();
+    const [a, b] = content.sap.rows.filter((r) => !content.tables.some((t) => t.data.id === r.cols[0])).map((r) => r.cols[0]);
+    c.sapFields.rows = [
+      { line: 2, cols: [a, 'MANDT', 'X', 'CLNT 3', 'Client', 'T000'] },
+      { line: 3, cols: [a, 'K1', 'X', 'CHAR 4', 'Key', b] },
+      { line: 4, cols: [a, 'K2', '', 'CHAR 4', 'Other', b] },
+      { line: 5, cols: [a, 'K3', '', 'CHAR 4', 'Elsewhere', 'NOT_LISTED_TABLE'] },
+    ];
+    assert.deepEqual(validate(c), []);
+    const d = compile(c).details[buildShard(a)][a] as { sf: unknown[]; rel: unknown[] };
+    assert.deepEqual(d.sf, [['MANDT', 1, 'CLNT 3', 'Client'], ['K1', 1, 'CHAR 4', 'Key'], ['K2', 0, 'CHAR 4', 'Other'], ['K3', 0, 'CHAR 4', 'Elsewhere']]);
+    // one relation per check table, none to the client table or to a table the site does not list
+    assert.deepEqual(d.rel, [{ table: b, type: 'check', on: 'K1' }]);
   });
 });
