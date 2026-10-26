@@ -1,9 +1,15 @@
-import type { DataIndex, TableDetail } from '../types.ts';
+import type { DataIndex, SapRow, TableDetail } from '../types.ts';
 import { shardOf } from './shard.ts';
 
 export async function loadIndex(): Promise<DataIndex> {
   const mod = await import('../generated/index.json');
   return mod.default as unknown as DataIndex;
+}
+
+/** The tables known only from SAP's dictionary list: a file of its own, so it is cached apart from the index. */
+export async function loadSap(): Promise<SapRow[]> {
+  const mod = await import('../generated/sap.json');
+  return mod.default as unknown as SapRow[];
 }
 
 // Each group of details becomes its own small file in the build, loaded only when a table is opened.

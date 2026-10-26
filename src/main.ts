@@ -7,11 +7,12 @@ import '@fontsource/jetbrains-mono/latin-500.css';
 import '@fontsource/jetbrains-mono/latin-600.css';
 import './styles/app.css';
 import { t, type StrKey } from './i18n/index.ts';
-import { runCatalog } from './lib/catalog.ts';
-import { loadIndex } from './lib/data.ts';
+import { byName, runCatalog } from './lib/catalog.ts';
+import { loadIndex, loadSap } from './lib/data.ts';
 import { ic } from './lib/icons.ts';
 import { catalogRoute, isLang, parseRoute, routeHref, withLang, type Route } from './lib/router.ts';
-import { buildEntries } from './lib/search.ts';
+import { sapSummaries } from './lib/sap.ts';
+import { buildEntries, sapEntries } from './lib/search.ts';
 import { KEYS, load, save } from './lib/store.ts';
 import type { Lang, TableSummary } from './types.ts';
 import { catalogTSV, renderCatalog } from './views/catalog.ts';
@@ -192,7 +193,7 @@ function syncSheet() {
       fullHref: tableHref(c, id),
       close: t(c.lang, 'closeSheet'),
     });
-  paint(withDetail(id, (d) => {
+  paint(tb.x ? null : withDetail(id, (d) => {
     if (sheet.id() === id) paint(d);
   }));
 }
@@ -447,13 +448,16 @@ if (!parseRoute(location.pathname, location.search)) history.replaceState(histor
 route = currentRoute();
 paintShell(route.lang);
 
-loadIndex()
-  .then((data) => {
-    const byId = new Map(data.tables.map((x) => [x.id, x]));
+// both files are requested at once; SAP's list is the larger one and is cached on its own
+Promise.all([loadIndex(), loadSap()])
+  .then(([data, rows]) => {
+    const sap = sapSummaries(rows);
+    const entries = [...buildEntries(data), ...sapEntries(sap, data.tables.length)].sort((a, b) => byName(a.t, b.t));
+    const byId = new Map(entries.map((x) => [x.t.id, x.t]));
     ctx = {
       lang: route.lang,
       data,
-      entries: buildEntries(data),
+      entries,
       byId,
       selection: readSelection(byId),
     };

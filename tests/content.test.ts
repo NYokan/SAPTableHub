@@ -74,3 +74,24 @@ describe('interface text', () => {
     }
   });
 });
+
+describe('SAP\'s table list', () => {
+  const withRow = (cols: string[]) => {
+    const c = clone();
+    c.sap.rows.push({ line: 99999, cols });
+    return validate(c).join('\n');
+  };
+  it('reports a bad line', () => {
+    assert.match(withRow(['ZTAB', 'VIEW', 'A', 'Something']), /línea 99999: ZTAB: categoría desconocida "VIEW"/);
+    assert.match(withRow(['ZTAB', 'TRANSP', 'Q', 'Something']), /clase de entrega desconocida "Q"/);
+    assert.match(withRow(['ZTAB', 'TRANSP', 'A']), /debe tener 4 columnas/);
+    assert.match(withRow(['ZTAB', 'TRANSP', 'A', ' ']), /falta la descripción/);
+    assert.match(withRow([content.sap.rows[0].cols[0], 'TRANSP', 'A', 'x']), /está repetida/);
+  });
+  it('leaves explained tables out of the list and gives them SAP\'s short description', () => {
+    const { index, details, sap } = compile(content);
+    const own = new Set(index.tables.map((t) => t.id));
+    assert.ok(sap.length > 0 && sap.every(([id]) => !own.has(id)));
+    assert.equal((details[buildShard('VBAK')].VBAK as { sd?: string }).sd, content.sap.rows.find((r) => r.cols[0] === 'VBAK')!.cols[3]);
+  });
+});

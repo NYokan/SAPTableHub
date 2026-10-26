@@ -9,6 +9,8 @@ export type CatalogRoute = {
   cat: string;
   letter: string;
   sort: Sort;
+  /** Only the tables explained on this site, leaving out those known only from SAP's dictionary list. */
+  exp: boolean;
   page: number;
   /** The table whose ficha is open in the side sheet over the list ('' when none). */
   open: string;
@@ -22,7 +24,7 @@ export type Route = CatalogRoute | SearchRoute | TableRoute | SelectionRoute | N
 export const isLang = (s: string): s is Lang => (LANGS as readonly string[]).includes(s);
 
 export const catalogRoute = (lang: Lang, over: Partial<Omit<CatalogRoute, 'name' | 'lang'>> = {}): CatalogRoute => ({
-  name: 'catalog', lang, q: '', area: '', cat: '', letter: '', sort: 'name', page: 1, open: '', ...over,
+  name: 'catalog', lang, q: '', area: '', cat: '', letter: '', sort: 'name', exp: false, page: 1, open: '', ...over,
 });
 
 const decode = (s: string) => {
@@ -35,7 +37,7 @@ const decode = (s: string) => {
 
 /**
  * URLs:
- *   /es/                       table list (?q, area, cat, letter, sort=desc, page, open=VBAK)
+ *   /es/                       table list (?q, area, cat, letter, sort=desc, exp=1, page, open=VBAK)
  *   /es/search?q=factura       search in business language
  *   /es/table/VBAK             one table
  *   /es/selection?t=VBAK,VBAP  my selection, or a shared one when ?t is present
@@ -55,6 +57,7 @@ export function parseRoute(pathname: string, search: string): Route | null {
       cat: get('cat').toUpperCase(),
       letter: get('letter').toUpperCase(),
       sort: get('sort') === 'desc' ? 'desc' : 'name',
+      exp: get('exp') === '1',
       page: Math.max(1, parseInt(get('page') || '1', 10) || 1),
       open: get('open').toUpperCase(),
     });
@@ -82,6 +85,7 @@ export function routeHref(r: Route): string {
       if (r.cat) p.set('cat', r.cat);
       if (r.letter) p.set('letter', r.letter);
       if (r.sort === 'desc') p.set('sort', 'desc');
+      if (r.exp) p.set('exp', '1');
       if (r.page > 1) p.set('page', String(r.page));
       if (r.open) p.set('open', r.open);
       return base + qs(p);

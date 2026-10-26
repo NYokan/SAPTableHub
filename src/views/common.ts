@@ -41,7 +41,18 @@ export const s4Badge = (c: Ctx, t: TableSummary) => (t.s4 ? `<span class="s4" ti
 export const orDash = (v: string | undefined) => v || '—';
 
 export const tableHref = (c: Ctx, id: string) => routeHref({ name: 'table', lang: c.lang, id });
-export const countText = (c: Ctx, n: number) => (n === 1 ? tx(c, 'count1') : tx(c, 'countN', { n }));
+/** A number as the language writes it: 16.234 in Spanish and Portuguese, 16,234 in English. */
+export const num = (c: Ctx, n: number) => n.toLocaleString(c.lang);
+export const countText = (c: Ctx, n: number) => (n === 1 ? tx(c, 'count1') : tx(c, 'countN', { n: num(c, n) }));
+
+/**
+ * A table's description as HTML. For a table known only from SAP's dictionary list it is SAP's own, in English,
+ * marked as English so screen readers pronounce it right.
+ */
+export const titleHTML = (c: Ctx, t: TableSummary, html = esc(loc(c, t.title))) => (t.x && c.lang !== 'en' ? `<span lang="en">${html}</span>` : html);
+
+/** The quiet mark of a table that has no explanation on this site yet. */
+export const noExpTag = (c: Ctx) => `<span class="nx">${esc(tx(c, 'noExp'))}</span>`;
 
 /**
  * Escaped text with every word of the query that starts a word in it wrapped in <mark>,

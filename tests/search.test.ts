@@ -81,3 +81,22 @@ describe('search', () => {
     assert.equal(res.hits[0].t.id, 'VBRK');
   });
 });
+
+describe('search among SAP\'s list', () => {
+  const top = (q: string, lang: 'es' | 'en' | 'pt' = 'es') => search(entries, q, lang).hits[0]?.t;
+  it('finds a table of the list by its exact name first', () => {
+    assert.equal(top('J_1BNFDOC')?.id, 'J_1BNFDOC');
+    assert.equal(top('vekab')?.id, 'VEKAB');
+  });
+  it('puts the tables explained here before SAP\'s descriptions', () => {
+    for (const [q, lang, id] of [['invoice', 'en', 'VBRK'], ['vendor', 'en', 'LFA1'], ['sales order', 'en', 'VBAK'], ['material', 'en', 'MARA']] as const) {
+      const hits = search(entries, q, lang).hits;
+      assert.equal(hits[0].t.id, id, q);
+      assert.ok(hits.slice(0, 5).every((h) => !h.t.x), `${q}: explained tables first`);
+    }
+  });
+  it('does not guess near misses among SAP\'s English words', () => {
+    // "provedor" is one letter from "proveedor" (LFA1) but must not match English words one letter away
+    assert.ok(search(entries, 'provedor', 'es').hits.every((h) => !h.t.x));
+  });
+});

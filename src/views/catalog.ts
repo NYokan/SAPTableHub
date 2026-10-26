@@ -4,7 +4,7 @@ import { routeHref, type CatalogRoute } from '../lib/router.ts';
 import { esc } from '../lib/text.ts';
 import type { TableSummary } from '../types.ts';
 import {
-  addButton, areaBadge, areaName, catName, countText, dclName, highlight, kindName, loc, modTag, optLink, orDash, s4Badge, segLink, tableHref, tokenLink, tx, type Ctx,
+  addButton, areaBadge, areaName, catName, countText, dclName, highlight, kindName, loc, modTag, noExpTag, num, optLink, orDash, s4Badge, segLink, tableHref, titleHTML, tokenLink, tx, type Ctx,
 } from './common.ts';
 
 /**
@@ -28,7 +28,7 @@ export function renderCatalog(el: HTMLElement, r: CatalogRoute, c: Ctx): Catalog
   const at = (over: Partial<CatalogRoute>) => routeHref({ ...r, page: 1, open: '', ...over });
 
   get('ctitle').textContent = tx(c, 'catTitle') + (r.letter ? ' · ' + r.letter : '');
-  get('cintro').textContent = tx(c, 'catIntro');
+  get('cintro').textContent = tx(c, 'catIntro', { n: num(c, c.data.tables.length) });
   get('cqlabel').textContent = tx(c, 'cfilter');
   const input = get('cq') as HTMLInputElement;
   input.placeholder = tx(c, 'cfilter');
@@ -49,6 +49,7 @@ export function renderCatalog(el: HTMLElement, r: CatalogRoute, c: Ctx): Catalog
         : `<span class="opt off" role="listitem" aria-label="${esc(`${l} · ${countText(c, 0)}`)}">${esc(l)}</span>`,
     ).join('');
   const body =
+    `<p class="pop-h" id="ph-exp">${esc(tx(c, 'show'))}</p><div class="seg" role="group" aria-labelledby="ph-exp">${segLink(at({ exp: false }), tx(c, 'all'), !r.exp, 'exp-all')}${segLink(at({ exp: true }), tx(c, 'showExp'), r.exp, 'exp-on')}</div>` +
     `<p class="pop-h" id="ph-area">${esc(tx(c, 'colArea'))}</p><div class="opts" role="group" aria-labelledby="ph-area">` +
     optLink(at({ area: '' }), tx(c, 'all'), !r.area, 'area-') +
     Object.keys(c.data.taxonomy.areas).map((k) => optLink(at({ area: k }), areaName(c, k), r.area === k, 'area-' + k, ` data-a="${esc(k)}"`)).join('') +
@@ -56,6 +57,7 @@ export function renderCatalog(el: HTMLElement, r: CatalogRoute, c: Ctx): Catalog
     `<p class="pop-h" id="ph-sort">${esc(tx(c, 'sortBy'))}</p><div class="seg" role="group" aria-labelledby="ph-sort">${segLink(at({ sort: 'name' }), tx(c, 'sortName'), r.sort === 'name', 'sort-name')}${segLink(at({ sort: 'desc' }), tx(c, 'sortDesc'), r.sort === 'desc', 'sort-desc')}</div>` +
     `<div class="pop-letters"><p class="pop-h" id="ph-l">${esc(tx(c, 'letters'))}</p><div class="lgrid" role="list" aria-labelledby="ph-l">${letters}</div></div>`;
   const tokens = [
+    r.exp ? tokenLink(c, at({ exp: false }), tx(c, 'show'), tx(c, 'showExp')) : '',
     r.area ? tokenLink(c, at({ area: '' }), tx(c, 'colArea'), areaName(c, r.area)) : '',
     r.cat ? tokenLink(c, at({ cat: '' }), tx(c, 'colCat'), r.cat) : '',
     r.sort === 'desc' ? tokenLink(c, at({ sort: 'name' }), tx(c, 'sortBy'), tx(c, 'sortDesc')) : '',
@@ -106,20 +108,24 @@ const breakable = (id: string, html: string) => {
 function rowHTML(c: Ctx, t: TableSummary, n: number, r: CatalogRoute): string {
   // the area with the whole SAP component, then what the table holds with its category and delivery class
   const tech = [t.cat, t.dcl].filter(Boolean).join(' · ');
-  const meta = `<span class="c-ar">${areaBadge(c, t.area)}${modTag(c, t, true)}</span><span class="dot" aria-hidden="true">·</span><span class="c-kind">${esc(kindName(c, t.kind))}${tech ? `<span class="c-tech mono" title="${esc([t.cat && catName(c, t.cat), t.dcl && dclName(c, t.dcl)].filter(Boolean).join(' · '))}">${esc(tech)}</span>` : ''}</span>${t.s4 ? `<span class="c-s4"><span class="dot" aria-hidden="true">·</span>${esc(tx(c, 's4only'))}</span>` : ''}`;
+  const techTip = esc([t.cat && catName(c, t.cat), t.dcl && dclName(c, t.dcl)].filter(Boolean).join(' · '));
+  // a table known only from SAP's list: no area or contents yet, just its category and delivery class
+  const meta = t.x
+    ? `<span class="c-ar">${noExpTag(c)}</span><span class="dot" aria-hidden="true">·</span><span class="c-kind"><span class="c-tech mono" title="${techTip}">${esc(tech)}</span></span>`
+    : `<span class="c-ar">${areaBadge(c, t.area)}${modTag(c, t, true)}</span><span class="dot" aria-hidden="true">·</span><span class="c-kind">${esc(kindName(c, t.kind))}${tech ? `<span class="c-tech mono" title="${techTip}">${esc(tech)}</span>` : ''}</span>${t.s4 ? `<span class="c-s4"><span class="dot" aria-hidden="true">·</span>${esc(tx(c, 's4only'))}</span>` : ''}`;
   const open = r.open === t.id ? ' aria-current="true"' : '';
-  return `<li class="crow"><a class="cmain" href="${esc(tableHref(c, t.id))}" data-link data-open="${esc(t.id)}" aria-haspopup="dialog"${open}><span class="c-n">${n}</span><span class="c-id${t.id.length > 10 ? ' long' : ''}">${breakable(t.id, highlight(t.id, r.q))}</span><span class="c-title">${highlight(loc(c, t.title), r.q)}${s4Badge(c, t)}</span><span class="c-meta">${meta}</span></a>${addButton(c, t.id)}</li>`;
+  return `<li class="crow${t.x ? ' is-sap' : ''}"><a class="cmain" href="${esc(tableHref(c, t.id))}" data-link data-open="${esc(t.id)}" aria-haspopup="dialog"${open}><span class="c-n">${n}</span><span class="c-id${t.id.length > 10 ? ' long' : ''}">${breakable(t.id, highlight(t.id, r.q))}</span><span class="c-title">${titleHTML(c, t, highlight(loc(c, t.title), r.q))}${s4Badge(c, t)}</span><span class="c-meta">${meta}</span></a>${addButton(c, t.id)}</li>`;
 }
 
 /** Nothing matched: the words that found nothing, crossed out, and the ways on. */
 function noneHTML(c: Ctx, r: CatalogRoute, at: (o: Partial<CatalogRoute>) => string): string {
-  const filtered = !!(r.area || r.cat || r.letter);
+  const filtered = !!(r.area || r.cat || r.letter || r.exp);
   const shown = r.q || r.letter || '—';
   const title = r.q ? tx(c, 'none', { q: r.q }) : r.letter ? tx(c, 'noneLetter', { l: r.letter }) : tx(c, 'noneCat');
   const go = (href: string, label: string) => `<a class="go" href="${esc(href)}" data-link><span>${esc(label)}</span>${ic('arrow', 18)}</a>`;
   const ways = [
     r.q ? go(at({ q: '' }), tx(c, 'clearText')) : '',
-    filtered ? go(at({ area: '', cat: '', letter: '' }), tx(c, 'clearFilters')) : '',
+    filtered ? go(at({ area: '', cat: '', letter: '', exp: false }), tx(c, 'clearFilters')) : '',
     r.q ? go(routeHref({ name: 'search', lang: c.lang, q: r.q, area: '' }), tx(c, 'tryBiz', { q: r.q })) : '',
   ].join('');
   return `<div class="none">
@@ -146,7 +152,7 @@ function pager(c: Ctx, r: CatalogRoute, res: CatalogResult): string {
         : `<a href="${go(p)}" data-link aria-label="${esc(tx(c, 'pageN', { n: p }))}"${p === res.page ? ' aria-current="page"' : ''}>${p}</a>`,
     )
     .join('');
-  const shown = tx(c, 'showing', { a: res.start + 1, b: res.start + res.rows.length, n: res.total });
+  const shown = tx(c, 'showing', { a: num(c, res.start + 1), b: num(c, res.start + res.rows.length), n: num(c, res.total) });
   return `<nav class="pager" aria-label="${esc(tx(c, 'pageN', { n: res.page }))}"><span class="muted">${esc(shown)}</span><div class="pg">${prev}${nums}${next}</div></nav>`;
 }
 

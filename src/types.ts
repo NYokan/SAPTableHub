@@ -26,7 +26,15 @@ export interface TableSummary {
   p: 0 | 1;
   /** How many other tables relate to this one, when any do. */
   r?: number;
+  /**
+   * 1 for a table known only from SAP's dictionary list: no explanation, area or fields yet, and `title`
+   * holds SAP's short description in English for every language.
+   */
+  x?: 1;
 }
+
+/** A table of SAP's dictionary list as generated: name, SAP's short description, category, delivery class. */
+export type SapRow = [id: string, desc: string, cat: string, dcl: string];
 
 export interface Relation {
   table: string;
@@ -39,6 +47,8 @@ export interface TableDetail {
   rel: Relation[];
   /** Labels of fields that mean something narrower in this table than in the dictionary. */
   lab?: Record<string, L10n>;
+  /** SAP's own short description of the table, in English, when SAP's dictionary list has it. */
+  sd?: string;
 }
 
 export interface FieldDef {

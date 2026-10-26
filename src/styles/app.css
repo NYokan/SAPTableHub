@@ -573,7 +573,6 @@ details.legend { margin-top: 16px; }
 .meta div:last-child { border-bottom: 0; }
 .meta dt { color: var(--muted); font-size: 14px; }
 .meta dd { margin: 0; font-family: var(--mono); font-size: 13.5px; overflow-wrap: anywhere; }
-.meta dd.pend { font-family: var(--sans); color: var(--muted); font-style: italic; }
 .rel { width: 100%; display: flex; align-items: center; gap: 12px; border-bottom: 1px solid var(--line); padding: 12px 12px 12px 16px; min-height: 64px; }
 .rel:last-child { border-bottom: 0; }
 .rel:hover { background: var(--surface2); }
@@ -947,4 +946,15 @@ html.sheet-open { overflow: hidden; }
   .c-meta .ab { display: inline; min-height: 0; padding: 0; border-radius: 0; background: none; color: inherit; font-size: inherit; font-weight: 400; vertical-align: baseline; }
   .c-meta .ab::before { display: none; }
   .c-s4 { display: inline; color: var(--ink); font-weight: 600; white-space: nowrap; }
+}
+
+/* tables known only from SAP's dictionary list: a quiet "not explained yet" where the area would be,
+   and SAP's English description where the explanation's title would be */
+.nx { color: var(--muted); white-space: nowrap; }
+.d-tags .nx { display: inline-flex; align-items: center; min-height: 24px; padding: 0 8px; border: 1px dashed var(--line); border-radius: 999px; font-size: 12px; }
+.is-sap .c-tech { margin-left: 0; }
+/* the link to SAP Datasheet goes on its own row, under adding and copying */
+.actions .btn.ext { flex: 1 1 100%; }
+@media (max-width: 879px) {
+  .is-sap .c-meta .dot { display: none; }
 }

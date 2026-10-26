@@ -16,6 +16,22 @@ export function shardOf(id) {
 /** File name for a table id: namespaced tables such as /ABC/TABLE are stored as _ABC_TABLE.json. */
 export const fileNameOf = (id) => id.replace(/\//g, '_') + '.json';
 
+/**
+ * The tables taken from SAP's dictionary as listed by SAP Datasheet: one per line, tab-separated, with a header.
+ * Tables that also have a file in tables/ keep that file; their line only adds SAP's short description.
+ */
+export const SAP_FILE = 'sap-tables.tsv';
+export const SAP_HEAD = ['id', 'category', 'deliveryClass', 'description'];
+
+function readSap(file) {
+  if (!fs.existsSync(file)) return { head: SAP_HEAD.slice(), rows: [] };
+  const [head = '', ...lines] = fs.readFileSync(file, 'utf8').split('\n').map((l) => l.replace(/\r$/, ''));
+  return {
+    head: head.split('\t'),
+    rows: lines.map((l, i) => ({ line: i + 2, cols: l.split('\t') })).filter((r) => r.cols.join('') !== ''),
+  };
+}
+
 export function loadContent(dir) {
   const read = (f) => JSON.parse(fs.readFileSync(path.join(dir, f), 'utf8'));
   const tablesDir = path.join(dir, 'tables');
@@ -31,7 +47,7 @@ export function loadContent(dir) {
         return { file, data: null, parseError: e.message };
       }
     });
-  return { taxonomy: read('taxonomy.json'), fields: read('fields.json'), glossary: read('glossary.json'), tables };
+  return { taxonomy: read('taxonomy.json'), fields: read('fields.json'), glossary: read('glossary.json'), tables, sap: readSap(path.join(dir, SAP_FILE)) };
 }
 
 const isText = (v) => typeof v === 'string' && v.trim() !== '';
@@ -100,12 +116,36 @@ export function validate(c) {
       if (!isText(r.on)) err(file, `la relación con ${r.table} necesita "on"`);
     }
   }
+
+  if (c.sap.head.join('\t') !== SAP_HEAD.join('\t')) err(SAP_FILE, `la primera línea debe ser: ${SAP_HEAD.join(' ⇥ ')}`);
+  const sapIds = new Set();
+  for (const { line, cols } of c.sap.rows) {
+    const where = `${SAP_FILE} línea ${line}`;
+    if (cols.length !== SAP_HEAD.length) { err(where, `debe tener ${SAP_HEAD.length} columnas separadas por tabuladores`); continue; }
+    const [id, cat, dcl, desc] = cols;
+    if (!NAME_RE.test(id)) { err(where, `"${id}": el nombre solo admite mayúsculas, dígitos, _ y /`); continue; }
+    if (sapIds.has(id)) err(where, `la tabla ${id} está repetida`);
+    sapIds.add(id);
+    if (!c.taxonomy.categories[cat]) err(where, `${id}: categoría desconocida "${cat}"`);
+    if (!c.taxonomy.deliveryClasses[dcl]) err(where, `${id}: clase de entrega desconocida "${dcl}"`);
+    if (!isText(desc)) err(where, `${id}: falta la descripción`);
+  }
   return errors;
 }
 
-/** Builds the small index the site loads first and the detail groups it loads on demand. */
+/**
+ * Builds the small index the site loads first, the detail groups it loads on demand, and the list of tables
+ * that only SAP's dictionary describes (no file in tables/), loaded alongside the index.
+ */
 export function compile(c) {
   const tables = c.tables.map((x) => x.data).sort((a, b) => a.id.localeCompare(b.id));
+  const own = new Set(tables.map((t) => t.id));
+  const official = new Map(c.sap.rows.map(({ cols }) => [cols[0], cols[3]]));
+  // name, SAP's short description, category and delivery class; sorted by name as the list shows them
+  const sap = c.sap.rows
+    .map(({ cols: [id, cat, dcl, desc] }) => [id, desc, cat, dcl])
+    .filter(([id]) => !own.has(id))
+    .sort((a, b) => a[0].localeCompare(b[0]));
   const empty = { es: [], en: [], pt: [] };
   // how many other tables point to each one: the central tables of an area are the most referenced
   const refs = {};
@@ -136,7 +176,8 @@ export function compile(c) {
   for (const t of tables) {
     // a field that means something narrower in this table (AUART is an order type here, not a sales document type)
     const lab = Object.fromEntries((t.fields ?? []).filter((f) => f.label).map((f) => [f.name, f.label]));
-    (details[shardOf(t.id)] ??= {})[t.id] = { purpose: t.purpose ?? null, rel: t.relations ?? [], ...(Object.keys(lab).length ? { lab } : {}) };
+    const sd = official.get(t.id);
+    (details[shardOf(t.id)] ??= {})[t.id] = { purpose: t.purpose ?? null, rel: t.relations ?? [], ...(Object.keys(lab).length ? { lab } : {}), ...(sd ? { sd } : {}) };
   }
-  return { index, details };
+  return { index, details, sap };
 }

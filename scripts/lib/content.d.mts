@@ -10,9 +10,13 @@ export interface Content {
   fields: Record<string, any>;
   glossary: any[];
   tables: ContentFile[];
+  /** content/sap-tables.tsv: the header's columns and every other line split at the tabs. */
+  sap: { head: string[]; rows: { line: number; cols: string[] }[] };
 }
 
 export const LANGS: string[];
+export const SAP_FILE: string;
+export const SAP_HEAD: string[];
 export function shardOf(id: string): string;
 export function fileNameOf(id: string): string;
 export function loadContent(dir: string): Content;
@@ -20,4 +24,6 @@ export function validate(content: Content): string[];
 export function compile(content: Content): {
   index: { tables: any[] } & Record<string, unknown>;
   details: Record<string, Record<string, unknown>>;
+  /** [name, SAP short description, category, delivery class] of the tables with no file in tables/. */
+  sap: [string, string, string, string][];
 };

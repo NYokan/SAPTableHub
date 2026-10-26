@@ -2,9 +2,10 @@ import { loadDetail } from '../lib/data.ts';
 import { parseField } from '../lib/fields.ts';
 import { ic } from '../lib/icons.ts';
 import { catalogRoute, routeHref, type TableRoute } from '../lib/router.ts';
+import { sapDatasheetHref } from '../lib/sap.ts';
 import { esc } from '../lib/text.ts';
 import type { TableDetail, TableSummary } from '../types.ts';
-import { areaBadge, bigAddButton, catName, dclName, kindName, loc, modTag, orDash, s4Badge, tableHref, tx, type Ctx } from './common.ts';
+import { areaBadge, bigAddButton, catName, dclName, kindName, loc, modTag, noExpTag, orDash, s4Badge, tableHref, titleHTML, tx, type Ctx } from './common.ts';
 
 const cache = new Map<string, TableDetail | null>();
 
@@ -34,7 +35,8 @@ export function renderTable(el: HTMLElement, r: TableRoute, c: Ctx): TableSummar
   const paint = (d: TableDetail | null | undefined) => {
     el.innerHTML = back + detailHTML(c, t, d);
   };
-  const d = withDetail(t.id, (got) => {
+  // a table known only from SAP's list has no detail file to wait for
+  const d = t.x ? null : withDetail(t.id, (got) => {
     // the person may have moved on while the detail was loading
     if (el.dataset.view !== 'table:' + r.id) return;
     const y = window.scrollY;
@@ -52,6 +54,7 @@ export function renderTable(el: HTMLElement, r: TableRoute, c: Ctx): TableSummar
  * heading, related tables open in the same sheet, and there is a link to the full page.
  */
 export function detailHTML(c: Ctx, t: TableSummary, d: TableDetail | null | undefined, sheet?: { relHref: (id: string) => string }): string {
+  if (t.x) return sapDetailHTML(c, t, !!sheet);
   const fields = t.f.map((f) => {
     const { name, key, type } = parseField(f);
     const def = c.data.fields[name];
@@ -85,7 +88,7 @@ export function detailHTML(c: Ctx, t: TableSummary, d: TableDetail | null | unde
         <div><dt>${esc(tx(c, 'colDcl'))}</dt><dd>${t.dcl ? `${esc(t.dcl)} · ${esc(dclName(c, t.dcl))}` : '—'}</dd></div>
         <div><dt>${esc(tx(c, 'comp'))}</dt><dd>${esc(orDash(t.comp))}${t.ci ? ` <span class="muted">(${esc(tx(c, 'compInf'))})</span>` : ''}</dd></div>
         <div><dt>${esc(tx(c, 'pkey'))}</dt><dd>${esc(pk)}</dd></div>
-        <div><dt>${esc(tx(c, 'official'))}</dt><dd class="pend">${esc(tx(c, 'pending'))}</dd></div>
+        <div><dt>${esc(tx(c, 'official'))}</dt><dd>${d === undefined ? '…' : d?.sd ? `<span lang="en">${esc(d.sd)}</span>` : '—'}</dd></div>
       </dl><p class="fnote">${esc(tx(c, 'verNote'))}</p></section>`;
 
   const rels = (d?.rel ?? []).filter((x) => c.byId.has(x.table));
@@ -117,4 +120,27 @@ export function detailHTML(c: Ctx, t: TableSummary, d: TableDetail | null | unde
     <section class="sec"><h2>${esc(tx(c, 'purpose'))}</h2>${purpose}</section>
     <section class="sec"><h2>${esc(tx(c, 'mainFields'))}</h2>${fieldsHTML}${fields.length ? `<p class="fnote">${esc(tx(c, 'fieldsNote'))}</p>` : ''}</section>
     ${meta}${related}${glossary}`;
+}
+
+/**
+ * A table known only from SAP's dictionary list: its name, SAP's short description in English, its category and
+ * delivery class, and a link to its fields on SAP Datasheet, where the list comes from.
+ */
+function sapDetailHTML(c: Ctx, t: TableSummary, sheet: boolean): string {
+  const title = sheet
+    ? `<h2 class="d-title" id="sheet-title">${esc(t.id)}</h2>`
+    : `<h1 class="d-title" id="dh" tabindex="-1">${esc(t.id)}</h1>`;
+  return `
+    <div class="d-head">
+      <div class="d-tags">${noExpTag(c)}</div>
+      ${title}
+      <p class="d-sub">${titleHTML(c, t)}</p>
+    </div>
+    <div class="actions">${bigAddButton(c, t.id)}<button type="button" class="btn" data-act="copyname" data-id="${esc(t.id)}">${ic('copy', 18)}${esc(tx(c, 'copyName'))}</button><a class="btn ext" href="${esc(sapDatasheetHref(t.id))}" target="_blank" rel="noopener">${ic('expand', 18)}${esc(tx(c, 'sdsFields'))}</a></div>
+    <section class="sec"><h2>${esc(tx(c, 'purpose'))}</h2><p class="body muted">${esc(tx(c, 'sapNote'))}</p></section>
+    <section class="sec"><h2>${esc(tx(c, 'about'))}</h2><dl class="meta panel">
+        <div><dt>${esc(tx(c, 'official'))}</dt><dd lang="en">${esc(t.title.en)}</dd></div>
+        <div><dt>${esc(tx(c, 'objType'))}</dt><dd>${t.cat ? `${esc(catName(c, t.cat))} (${esc(t.cat)})` : '—'}</dd></div>
+        <div><dt>${esc(tx(c, 'colDcl'))}</dt><dd>${t.dcl ? `${esc(t.dcl)} · ${esc(dclName(c, t.dcl))}` : '—'}</dd></div>
+      </dl><p class="fnote">${esc(tx(c, 'sapSource'))}</p></section>`;
 }

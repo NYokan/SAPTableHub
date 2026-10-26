@@ -20,8 +20,16 @@ public ECC 6.0 dictionary reference at leanx.eu. Only those technical
 facts were used; field labels are original writing for this project.
 That site is not consulted automatically again, and the fields are
 still to be verified against a real SAP system.
-Titles, explanations and synonyms in content/ are original writing for
-this project and are not SAP's official descriptions.
+Titles, explanations and synonyms in content/tables/ are original writing
+for this project and are not SAP's official descriptions.
+
+The table names, short descriptions, categories and delivery classes in
+content/sap-tables.tsv were read once, on 26 October 2026, from the public
+table index of SAP Datasheet (https://www.sapdatasheet.org/abap/tabl/),
+which reflects the SAP ERP dictionary; its robots.txt allows those pages.
+The short descriptions are SAP's own texts, shown in English as SAP wrote
+them. Each such table links to its page on SAP Datasheet. See
+docs/tablas-sap.md for which tables were included and why.
 
 SAPTableHub is an independent project, not affiliated with SAP SE.
 SAP and S/4HANA are trademarks or registered trademarks of SAP SE.

@@ -16,6 +16,8 @@ describe('router', () => {
   });
   it('reads the list filters from the address', () => {
     assert.deepEqual(parse('/es/?letter=v&page=2&cat=cluster&sort=desc&q=factura'), catalogRoute('es', { letter: 'V', page: 2, cat: 'CLUSTER', sort: 'desc', q: 'factura' }));
+    assert.equal((parse('/es/?exp=1') as { exp: boolean }).exp, true);
+    assert.equal(routeHref(catalogRoute('pt', { exp: true, letter: 'J' })), '/pt/?letter=J&exp=1');
     assert.equal((parse('/es/?page=abc') as { page: number }).page, 1);
   });
   it('round-trips every kind of page', () => {

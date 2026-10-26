@@ -1,9 +1,9 @@
 import assert from 'node:assert/strict';
 import { describe, it } from 'node:test';
 import { letterOf, PAGE_SIZE, pageList, requestLine, runCatalog, type CatalogQuery } from '../src/lib/catalog.ts';
-import { entries } from './helpers.ts';
+import { data, entries, sapRows } from './helpers.ts';
 
-const q = (over: Partial<CatalogQuery> = {}): CatalogQuery => ({ q: '', area: '', cat: '', letter: '', sort: 'name', page: 1, ...over });
+const q = (over: Partial<CatalogQuery> = {}): CatalogQuery => ({ q: '', area: '', cat: '', letter: '', sort: 'name', exp: false, page: 1, ...over });
 
 describe('table list', () => {
   it('lists every table alphabetically by name, namespaced ones last', () => {
@@ -27,8 +27,8 @@ describe('table list', () => {
     assert.equal(res.letterCounts.Z, undefined);
   });
   it('filters by category, area and text', () => {
-    assert.deepEqual(runCatalog(entries, q({ cat: 'CLUSTER' }), 'es').all.map((t) => t.id), ['BSEC', 'BSED', 'BSEG', 'BSET', 'CDPOS', 'KONV', 'REGUP']);
-    assert.deepEqual(runCatalog(entries, q({ cat: 'POOL' }), 'es').all.map((t) => t.id), ['A004', 'A005']);
+    assert.deepEqual(runCatalog(entries, q({ cat: 'CLUSTER', exp: true }), 'es').all.map((t) => t.id), ['BSEC', 'BSED', 'BSEG', 'BSET', 'CDPOS', 'KONV', 'REGUP']);
+    assert.deepEqual(runCatalog(entries, q({ cat: 'POOL', exp: true }), 'es').all.map((t) => t.id), ['A004', 'A005']);
     assert.ok(runCatalog(entries, q({ area: 'purch' }), 'es').all.every((t) => t.area === 'purch'));
     // the text filter keeps exactly the tables whose name, title, area, contents or synonyms contain the words
     const hay = new Map(entries.map((x) => [x.t.id, x.hay.es]));
@@ -75,7 +75,34 @@ describe('request line', () => {
     assert.equal(requestLine('ZTAB', 'Tabla propia'), 'ZTAB – Tabla propia');
     assert.equal(requestLine('ZTAB', '', 'SD'), 'ZTAB – SD');
   });
-  it('has a module for every table', () => {
-    assert.deepEqual(entries.filter((e) => !e.t.comp).map((e) => e.t.id), []);
+  it('has a module for every explained table', () => {
+    assert.deepEqual(entries.filter((e) => !e.sap && !e.t.comp).map((e) => e.t.id), []);
+  });
+  it('gives a table of SAP\'s list its name and SAP\'s description', () => {
+    const t = entries.find((e) => e.t.id === 'J_1BNFDOC')!.t;
+    assert.equal(requestLine(t.id, t.title.es, t.comp), 'J_1BNFDOC – Nota Fiscal Header');
+  });
+});
+
+describe('tables known only from SAP\'s list', () => {
+  it('are listed with the explained ones, and left out with "explained only"', () => {
+    const all = runCatalog(entries, q(), 'es');
+    const exp = runCatalog(entries, q({ exp: true }), 'es');
+    assert.equal(all.total, data.tables.length + sapRows.length);
+    assert.equal(exp.total, data.tables.length);
+    assert.ok(exp.all.every((t) => !t.x));
+    assert.ok(all.all.some((t) => t.id === 'J_1BNFDOC' && t.x));
+  });
+  it('never repeat an explained table', () => {
+    const own = new Set(data.tables.map((t) => t.id));
+    assert.deepEqual(sapRows.filter(([id]) => own.has(id)), []);
+    assert.equal(new Set(entries.map((e) => e.t.id)).size, entries.length);
+  });
+  it('have no area, so an area filter keeps only explained tables', () => {
+    assert.ok(runCatalog(entries, q({ area: 'sales' }), 'es').all.every((t) => !t.x && t.area === 'sales'));
+  });
+  it('are filtered by the words of SAP\'s description', () => {
+    const found = runCatalog(entries, q({ q: 'nota fiscal' }), 'pt').all.map((t) => t.id);
+    assert.ok(found.includes('J_1BNFDOC'));
   });
 });

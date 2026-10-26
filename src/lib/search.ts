@@ -40,6 +40,8 @@ export interface Entry {
   comp: string;
   /** Everything the list filter looks at, per language. */
   hay: Record<Lang, string>;
+  /** A table known only from SAP's dictionary list (see sapEntries). */
+  sap?: true;
 }
 
 export function buildEntries(data: DataIndex): Entry[] {
@@ -62,6 +64,19 @@ export function buildEntries(data: DataIndex): Entry[] {
       hay[l] = norm([t.id, t.title[l], tx.areas[t.area]?.[l] ?? '', tx.contents[t.kind]?.[l] ?? '', comp, ...t.syn[l]].join(' '));
     }
     return { t, order, id: t.id.toLowerCase(), titles, syns, words, fields, soleKey, comp, hay };
+  });
+}
+
+/**
+ * Entries for the tables of SAP's dictionary list, numbered from `start` so they come after the explained
+ * tables when scores tie. They match by name and by the words of SAP's English description only.
+ */
+export function sapEntries(tables: TableSummary[], start: number): Entry[] {
+  return tables.map((t, i) => {
+    const raw = t.title.en;
+    const title: Phrase = { lang: 'en', raw, n: norm(raw), tok: tokenize(raw) };
+    const h = norm(t.id + ' ' + raw);
+    return { t, order: start + i, id: t.id.toLowerCase(), titles: [title], syns: [], words: title.tok, fields: [], soleKey: '', comp: '', hay: { es: h, en: h, pt: h }, sap: true };
   });
 }
 
@@ -97,7 +112,10 @@ function scoreEntry(x: Entry, words: string[], full: string, lang: Lang) {
     else if (qt.length >= 3 && x.id.includes(qt)) cand(25);
     // a whole word (or its plural) beats a longer word that merely starts the same ("factura" → "facturas", then "facturación")
     const whole = (w: string) => w === qt || w === qt + 's' || w === qt + 'es';
-    for (const p of x.titles) for (const w of p.tok) if (w.startsWith(qt)) cand((p.lang === lang ? 30 : 22) + (whole(w) ? 2 : 0));
+    // SAP's terse English descriptions weigh less than the explanations written for this site, so a table
+    // explained here comes first when both match ("invoice" → VBRK before a table SAP calls "Invoice …")
+    const titleScore = (p: Phrase) => (x.sap ? 12 : p.lang === lang ? 30 : 22);
+    for (const p of x.titles) for (const w of p.tok) if (w.startsWith(qt)) cand(titleScore(p) + (whole(w) ? 2 : 0));
     for (const p of x.syns) for (const w of p.tok) if (w.startsWith(qt)) cand((p.lang === lang ? 26 : 19) + (whole(w) ? 2 : 0), { syn: p.raw });
     // a synonym that is exactly the word searched beats a title that merely contains it ("factura" → VBRK, not RBCO)
     for (const p of x.syns) if (p.n === qt) cand(p.lang === lang ? 40 : 29, { syn: p.raw });
@@ -106,7 +124,8 @@ function scoreEntry(x: Entry, words: string[], full: string, lang: Lang) {
       if (f.lc === qt) cand(18 + (f.key ? 10 : 0) + (x.t.kind === 'master' ? 8 : 0) + (x.soleKey === f.name ? 12 : 0), { field: f.name });
       else if (qt.length >= 3 && f.labels.some((ws) => ws.some((w) => w.startsWith(qt)))) cand(7, { field: f.name });
     }
-    if (best.score === 0 && qt.length >= 4) {
+    // near misses only among the explained tables: SAP's English words would bring noise to a search in Spanish
+    if (best.score === 0 && qt.length >= 4 && !x.sap) {
       const max = qt.length >= 8 ? 2 : 1;
       const near = (w: string) =>
         osa(qt, w, max) <= max || (w.length > qt.length && osa(qt, w.slice(0, qt.length), max) <= max);
@@ -124,10 +143,10 @@ function scoreEntry(x: Entry, words: string[], full: string, lang: Lang) {
       }
     }
   }
-  if (full.length >= 3 && (x.syns.some((p) => p.n.includes(full)) || x.titles.some((p) => p.n.includes(full)))) total += 25;
+  if (full.length >= 3 && (x.syns.some((p) => p.n.includes(full)) || x.titles.some((p) => p.n.includes(full)))) total += x.sap ? 8 : 25;
   // a title that starts with the thing searched is about that thing ("Centros de coste"), not one that mentions it in passing
   // ("Puestos de trabajo: asignación a centros de coste")
-  if (matched && x.titles.some((p) => p.lang === lang && p.tok[0]?.startsWith(words[0]))) total += 6;
+  if (matched && !x.sap && x.titles.some((p) => p.lang === lang && p.tok[0]?.startsWith(words[0]))) total += 6;
   return { total, matched, via };
 }
 

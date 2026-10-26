@@ -14,6 +14,8 @@ export interface CatalogQuery {
   cat: string;
   letter: string;
   sort: Sort;
+  /** Only the tables explained on this site. */
+  exp: boolean;
   /** 1-based. */
   page: number;
 }
@@ -39,10 +41,22 @@ export function letterOf(id: string): string {
   return /[A-Z]/.test(c) ? c : '#';
 }
 
+// one collator per language: comparing thousands of names with localeCompare one by one is much slower
+const collators = new Map<string, Intl.Collator>();
+const collator = (lang = '') => {
+  let c = collators.get(lang);
+  if (!c) collators.set(lang, (c = new Intl.Collator(lang || undefined)));
+  return c;
+};
+
+// by name, namespaced tables (/SCWM/…) go last, as the "/" letter does in the index
+const ns = (t: TableSummary) => (t.id.startsWith('/') ? 1 : 0);
+export const byName = (a: TableSummary, b: TableSummary) => ns(a) - ns(b) || collator().compare(a.id, b.id);
+
 export function runCatalog(entries: Entry[], q: CatalogQuery, lang: Lang): CatalogResult {
   const words = tokenize(q.q);
   const base = entries
-    .filter((x) => (!q.area || x.t.area === q.area) && (!q.cat || x.t.cat === q.cat))
+    .filter((x) => (!q.area || x.t.area === q.area) && (!q.cat || x.t.cat === q.cat) && (!q.exp || !x.sap))
     .filter((x) => words.every((w) => x.hay[lang].includes(w)))
     .map((x) => x.t);
   const letterCounts: Record<string, number> = {};
@@ -50,12 +64,9 @@ export function runCatalog(entries: Entry[], q: CatalogQuery, lang: Lang): Catal
     const l = letterOf(t.id);
     letterCounts[l] = (letterCounts[l] ?? 0) + 1;
   }
-  // by name, namespaced tables (/SCWM/…) go last, as the "/" letter does in the index
-  const ns = (t: TableSummary) => (t.id.startsWith('/') ? 1 : 0);
+  // entries come sorted by name (see main.ts), so sorting by name again costs one pass
   const all = (q.letter ? base.filter((t) => letterOf(t.id) === q.letter) : base.slice()).sort((a, b) =>
-    q.sort === 'desc'
-      ? a.title[lang].localeCompare(b.title[lang], lang) || a.id.localeCompare(b.id)
-      : ns(a) - ns(b) || a.id.localeCompare(b.id),
+    q.sort === 'desc' ? collator(lang).compare(a.title[lang], b.title[lang]) || collator().compare(a.id, b.id) : byName(a, b),
   );
   const pages = Math.max(1, Math.ceil(all.length / PAGE_SIZE));
   const page = Math.min(Math.max(1, q.page), pages);
