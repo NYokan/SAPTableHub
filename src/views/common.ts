@@ -51,9 +51,6 @@ export const countText = (c: Ctx, n: number) => (n === 1 ? tx(c, 'count1') : tx(
  */
 export const titleHTML = (c: Ctx, t: TableSummary, html = esc(loc(c, t.title))) => (t.x && c.lang !== 'en' ? `<span lang="en">${html}</span>` : html);
 
-/** The quiet mark of a table that has no explanation on this site yet. */
-export const noExpTag = (c: Ctx) => `<span class="nx">${esc(tx(c, 'noExp'))}</span>`;
-
 /**
  * Escaped text with every word of the query that starts a word in it wrapped in <mark>,
  * ignoring case and accents ("factu" marks "Facturación").

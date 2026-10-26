@@ -4,7 +4,7 @@ import { routeHref, type CatalogRoute } from '../lib/router.ts';
 import { esc } from '../lib/text.ts';
 import type { TableSummary } from '../types.ts';
 import {
-  addButton, areaBadge, areaName, catName, countText, dclName, highlight, kindName, loc, modTag, noExpTag, num, optLink, orDash, s4Badge, segLink, tableHref, titleHTML, tokenLink, tx, type Ctx,
+  addButton, areaBadge, areaName, catName, countText, dclName, highlight, kindName, loc, modTag, num, optLink, orDash, s4Badge, segLink, tableHref, titleHTML, tokenLink, tx, type Ctx,
 } from './common.ts';
 
 /**
@@ -109,9 +109,10 @@ function rowHTML(c: Ctx, t: TableSummary, n: number, r: CatalogRoute): string {
   // the area with the whole SAP component, then what the table holds with its category and delivery class
   const tech = [t.cat, t.dcl].filter(Boolean).join(' · ');
   const techTip = esc([t.cat && catName(c, t.cat), t.dcl && dclName(c, t.dcl)].filter(Boolean).join(' · '));
-  // a table known only from SAP's list: no area or contents yet, just its category and delivery class
+  // a table known only from SAP's list: no area or contents yet (a dash, as for any missing value), just its
+  // category and delivery class
   const meta = t.x
-    ? `<span class="c-ar">${noExpTag(c)}</span><span class="dot" aria-hidden="true">·</span><span class="c-kind"><span class="c-tech mono" title="${techTip}">${esc(tech)}</span></span>`
+    ? `<span class="c-ar"><span class="muted" aria-hidden="true">—</span></span><span class="c-kind"><span class="c-tech mono" title="${techTip}">${esc(tech)}</span></span>`
     : `<span class="c-ar">${areaBadge(c, t.area)}${modTag(c, t, true)}</span><span class="dot" aria-hidden="true">·</span><span class="c-kind">${esc(kindName(c, t.kind))}${tech ? `<span class="c-tech mono" title="${techTip}">${esc(tech)}</span>` : ''}</span>${t.s4 ? `<span class="c-s4"><span class="dot" aria-hidden="true">·</span>${esc(tx(c, 's4only'))}</span>` : ''}`;
   const open = r.open === t.id ? ' aria-current="true"' : '';
   return `<li class="crow${t.x ? ' is-sap' : ''}"><a class="cmain" href="${esc(tableHref(c, t.id))}" data-link data-open="${esc(t.id)}" aria-haspopup="dialog"${open}><span class="c-n">${n}</span><span class="c-id${t.id.length > 10 ? ' long' : ''}">${breakable(t.id, highlight(t.id, r.q))}</span><span class="c-title">${titleHTML(c, t, highlight(loc(c, t.title), r.q))}${s4Badge(c, t)}</span><span class="c-meta">${meta}</span></a>${addButton(c, t.id)}</li>`;

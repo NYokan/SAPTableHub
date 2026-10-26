@@ -102,7 +102,6 @@
   "closeSheet": "Fechar a ficha",
   "show": "Mostrar",
   "showExp": "Com explicação",
-  "noExp": "Sem explicação",
   "moreHits": "Mostrando as {n} primeiras. Digite mais palavras para refinar a busca.",
   "sdsFields": "Ver os campos no SAP Datasheet",
   "sapNote": "O SAPTableHub ainda não explica esta tabela. Acima está a descrição curta da SAP, em inglês; os campos estão no SAP Datasheet.",

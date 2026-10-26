@@ -38,4 +38,4 @@ Con estas reglas se conservarían 852 de las 995 tablas explicadas que están en
 
 Es un archivo de texto: se puede añadir, quitar o corregir una línea a mano. Al ejecutar `npm run dev`, `build` o `test`, el contenido se valida y el comando dice qué línea corregir si una categoría o clase de entrega no existe, si falta la descripción o si una tabla está repetida.
 
-Para explicar una tabla de la lista, basta con crear su archivo en `content/tables/`: el sitio deja de mostrarla como «Sin explicación».
+Para explicar una tabla de la lista, basta con crear su archivo en `content/tables/`: su ficha pasa a mostrar la explicación, el área y el módulo.

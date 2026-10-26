@@ -102,7 +102,6 @@
   "closeSheet": "Close the details",
   "show": "Show",
   "showExp": "Explained",
-  "noExp": "Not explained yet",
   "moreHits": "Showing the first {n}. Type more words to narrow the search.",
   "sdsFields": "See its fields on SAP Datasheet",
   "sapNote": "SAPTableHub does not explain this table yet. Above is SAP's short description; its fields are on SAP Datasheet.",

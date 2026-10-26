@@ -5,7 +5,7 @@ import { catalogRoute, routeHref, type TableRoute } from '../lib/router.ts';
 import { sapDatasheetHref } from '../lib/sap.ts';
 import { esc } from '../lib/text.ts';
 import type { TableDetail, TableSummary } from '../types.ts';
-import { areaBadge, bigAddButton, catName, dclName, kindName, loc, modTag, noExpTag, orDash, s4Badge, tableHref, titleHTML, tx, type Ctx } from './common.ts';
+import { areaBadge, bigAddButton, catName, dclName, kindName, loc, modTag, orDash, s4Badge, tableHref, titleHTML, tx, type Ctx } from './common.ts';
 
 const cache = new Map<string, TableDetail | null>();
 
@@ -132,7 +132,6 @@ function sapDetailHTML(c: Ctx, t: TableSummary, sheet: boolean): string {
     : `<h1 class="d-title" id="dh" tabindex="-1">${esc(t.id)}</h1>`;
   return `
     <div class="d-head">
-      <div class="d-tags">${noExpTag(c)}</div>
       ${title}
       <p class="d-sub">${titleHTML(c, t)}</p>
     </div>

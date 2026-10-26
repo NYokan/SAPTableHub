@@ -948,13 +948,11 @@ html.sheet-open { overflow: hidden; }
   .c-s4 { display: inline; color: var(--ink); font-weight: 600; white-space: nowrap; }
 }
 
-/* tables known only from SAP's dictionary list: a quiet "not explained yet" where the area would be,
-   and SAP's English description where the explanation's title would be */
-.nx { color: var(--muted); white-space: nowrap; }
-.d-tags .nx { display: inline-flex; align-items: center; min-height: 24px; padding: 0 8px; border: 1px dashed var(--line); border-radius: 999px; font-size: 12px; }
+/* tables known only from SAP's dictionary list: a dash where the area would be, and on phones just the name
+   and SAP's description */
 .is-sap .c-tech { margin-left: 0; }
+@media (max-width: 879px) {
+  .is-sap .c-meta { display: none; }
+}
 /* the link to SAP Datasheet goes on its own row, under adding and copying */
 .actions .btn.ext { flex: 1 1 100%; }
-@media (max-width: 879px) {
-  .is-sap .c-meta .dot { display: none; }
-}

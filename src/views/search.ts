@@ -3,7 +3,7 @@ import { ic } from '../lib/icons.ts';
 import { catalogRoute, routeHref, type SearchRoute } from '../lib/router.ts';
 import { search, type Hit } from '../lib/search.ts';
 import { esc } from '../lib/text.ts';
-import { addButton, areaName, chipLink, countText, kindName, loc, modTag, noExpTag, num, tableHref, titleHTML, tx, type Ctx } from './common.ts';
+import { addButton, areaName, chipLink, countText, kindName, loc, modTag, num, tableHref, titleHTML, tx, type Ctx } from './common.ts';
 
 /** Results shown at most: a common word can match thousands of tables of SAP's list. */
 const MAX_SHOWN = 100;
@@ -78,7 +78,7 @@ function rowHTML(c: Ctx, h: Hit): string {
     hint = `<span class="hint">${esc(tx(c, 'hasField'))} <span class="mono">${esc(h.via.field)}</span>${f ? ' · ' + esc(loc(c, f.label)) : ''}</span>`;
   } else if (h.via && 'comp' in h.via) hint = `<span class="hint">${esc(tx(c, 'inComp'))} <span class="mono">${esc(h.via.comp)}</span></span>`;
   const meta = t.x
-    ? `${noExpTag(c)}<span aria-hidden="true">·</span><span class="mono">${esc([t.cat, t.dcl].filter(Boolean).join(' · '))}</span>`
+    ? `<span class="mono">${esc([t.cat, t.dcl].filter(Boolean).join(' · '))}</span>`
     : `<span>${esc(kindName(c, t.kind))}</span><span aria-hidden="true">·</span><span>${esc(areaName(c, t.area))}</span>${modTag(c, t)}`;
   return `<li class="row"><a class="r-main" href="${esc(tableHref(c, t.id))}" data-link><span class="r-line"><span class="r-id big">${esc(t.id)}</span><span class="r-title dim">${titleHTML(c, t)}</span></span><span class="r-meta">${meta}</span>${hint}</a>${addButton(c, t.id)}</li>`;
 }
