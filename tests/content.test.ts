@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict';
 import path from 'node:path';
 import { describe, it } from 'node:test';
-import { compile, loadContent, shardOf as buildShard, validate, type Content } from '../scripts/lib/content.mjs';
+import { compile, loadContent, shardOf as buildShard, SPLIT_OVER, validate, type Content } from '../scripts/lib/content.mjs';
 import { parseField } from '../src/lib/fields.ts';
 import { shardOf as siteShard } from '../src/lib/shard.ts';
 import en from '../src/i18n/en.json' with { type: 'json' };
@@ -57,8 +57,18 @@ describe('content', () => {
     const set = new Set(grouped);
     assert.ok(index.tables.every((t) => set.has(t.id)), 'every explained table has its detail');
   });
+  it('splits a detail group too large to load for one table', () => {
+    const { index, details } = compile(content);
+    const split = index.split as string[];
+    for (const [k, g] of Object.entries(details)) assert.ok(k.length === 4 || JSON.stringify(g).length <= SPLIT_OVER, k);
+    for (const id of Object.keys(details[buildShard('VBAK', split)])) assert.equal(buildShard(id, split), buildShard('VBAK', split));
+  });
   it('groups details the same way when building and in the site', () => {
-    for (const id of ['VBAK', 'T001', 'A', '/SAPAPO/X', 'mara']) assert.equal(siteShard(id), buildShard(id), id);
+    for (const id of ['VBAK', 'T001', 'A', '/SAPAPO/X', 'mara', 'PA0001', 'PA']) {
+      assert.equal(siteShard(id), buildShard(id), id);
+      assert.equal(siteShard(id, ['PA']), buildShard(id, ['PA']), id + ' split');
+    }
+    assert.equal(siteShard('PA0001', ['PA']), 'PA00');
   });
 });
 
@@ -94,7 +104,7 @@ describe('SAP\'s table list', () => {
     const { index, details, sap } = compile(content);
     const own = new Set(index.tables.map((t) => t.id));
     assert.ok(sap.length > 0 && sap.every(([id]) => !own.has(id)));
-    assert.equal((details[buildShard('VBAK')].VBAK as { sd?: string }).sd, content.sap.rows.find((r) => r.cols[0] === 'VBAK')!.cols[3]);
+    assert.equal((details[buildShard('VBAK', index.split as string[])].VBAK as { sd?: string }).sd, content.sap.rows.find((r) => r.cols[0] === 'VBAK')!.cols[3]);
   });
 });
 
@@ -125,7 +135,8 @@ describe('SAP\'s fields', () => {
       { line: 5, cols: [a, 'K3', '', 'CHAR 4', 'Elsewhere', 'NOT_LISTED_TABLE'] },
     ];
     assert.deepEqual(validate(c), []);
-    const d = compile(c).details[buildShard(a)][a] as { sf: unknown[]; rel: unknown[] };
+    const out = compile(c);
+    const d = out.details[buildShard(a, out.index.split as string[])][a] as { sf: unknown[]; rel: unknown[] };
     assert.deepEqual(d.sf, [['MANDT', 1, 'CLNT 3', 'Client'], ['K1', 1, 'CHAR 4', 'Key'], ['K2', 0, 'CHAR 4', 'Other'], ['K3', 0, 'CHAR 4', 'Elsewhere']]);
     // one relation per check table, none to the client table or to a table the site does not list
     assert.deepEqual(d.rel, [{ table: b, type: 'check', on: 'K1' }]);

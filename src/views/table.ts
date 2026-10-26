@@ -70,13 +70,17 @@ function fieldsTable(c: Ctx, rows: FieldRow[], label: string): string {
 /** SAP's fields of a table, with SAP's English descriptions. */
 const sapFieldRows = (sf: SapField[]): FieldRow[] => sf.map(([name, key, type, desc]) => ({ name, key: key === 1, type, mean: desc, en: true }));
 
-/** The fields section from SAP's dictionary: loading, the fields, or a note that there are none. */
-function sapFieldsSection(c: Ctx, d: TableDetail | null | undefined): string {
+/**
+ * The fields section from SAP's dictionary: loading, the fields, or a note that there are none. `source` names the
+ * table whose SAP Datasheet page the note links to, for pages that do not credit it elsewhere.
+ */
+function sapFieldsSection(c: Ctx, d: TableDetail | null | undefined, source = ''): string {
+  const credit = source ? ` <a href="${esc(sapDatasheetHref(source))}" target="_blank" rel="noopener">${esc(tx(c, 'sdsLink'))}</a>` : '';
   const body =
     d === undefined
       ? `<p class="body muted">${esc(tx(c, 'loading'))}</p>`
       : d?.sf?.length
-        ? fieldsTable(c, sapFieldRows(d.sf), tx(c, 'allFields')) + `<p class="fnote">${esc(tx(c, 'sapFieldsNote'))}</p>`
+        ? fieldsTable(c, sapFieldRows(d.sf), tx(c, 'allFields')) + `<p class="fnote">${esc(tx(c, 'sapFieldsNote'))}${credit}</p>`
         : `<div class="panel empty"><span class="muted">${esc(tx(c, 'noFields'))}</span></div>`;
   return `<section class="sec"><h2>${esc(tx(c, 'allFields'))}</h2>${body}</section>`;
 }
@@ -115,7 +119,7 @@ export function detailHTML(c: Ctx, t: TableSummary, d: TableDetail | null | unde
   // the main fields written for this site; without them, all the fields SAP's dictionary has
   const fieldsSec = fields.length
     ? `<section class="sec"><h2>${esc(tx(c, 'mainFields'))}</h2>${fieldsTable(c, ownRows, tx(c, 'mainFields'))}<p class="fnote">${esc(tx(c, 'fieldsNote'))}</p></section>`
-    : sapFieldsSection(c, d);
+    : sapFieldsSection(c, d, t.id);
 
   const purpose =
     d === undefined

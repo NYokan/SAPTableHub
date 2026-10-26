@@ -8,10 +8,17 @@ const NAME_RE = /^[A-Z0-9_/]+$/;
 const TYPE_RE = /^[A-Z0-9]+ \d+(,\d+)?$/;
 const COMP_RE = /^[A-Z][A-Z0-9]*(-[A-Z0-9]+)*$/;
 
-/** Detail files are grouped by the first two characters of the table name, so the site never needs one file per table. */
-export function shardOf(id) {
-  return id.slice(0, 2).toUpperCase().replace(/[^A-Z0-9]/g, '_').padEnd(2, '_');
+/**
+ * Detail files are grouped by the first two characters of the table name, so the site never needs one file per table.
+ * A group too large to load for a single table (listed in `split`, such as PA, the HR infotypes) goes by four.
+ */
+export function shardOf(id, split = []) {
+  const key = (n) => id.slice(0, n).toUpperCase().replace(/[^A-Z0-9]/g, '_').padEnd(n, '_');
+  return split.includes(key(2)) ? key(4) : key(2);
 }
+
+/** A detail group of more than this many bytes of JSON is split by four characters. */
+export const SPLIT_OVER = 400_000;
 
 /** File name for a table id: namespaced tables such as /ABC/TABLE are stored as _ABC_TABLE.json. */
 export const fileNameOf = (id) => id.replace(/\//g, '_') + '.json';
@@ -217,5 +224,10 @@ export function compile(c) {
     const rel = (checks.get(id) ?? []).filter((r) => listed.has(r.table));
     if (sf || rel.length) (details[shardOf(id)] ??= {})[id] = { purpose: null, rel, ...(sf ? { sf } : {}) };
   }
-  return { index, details, sap };
+  // the groups too large to load for one table are split, and the site is told which
+  const split = Object.keys(details).filter((k) => JSON.stringify(details[k]).length > SPLIT_OVER).sort();
+  index.split = split;
+  const grouped = {};
+  for (const group of Object.values(details)) for (const [id, d] of Object.entries(group)) (grouped[shardOf(id, split)] ??= {})[id] = d;
+  return { index, details: grouped, sap };
 }

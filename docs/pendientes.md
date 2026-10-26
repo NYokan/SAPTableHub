@@ -142,7 +142,9 @@ Títulos corregidos en esta ronda: `T683T` pasa a `T683U` (la tabla de textos de
 
 Las explicaciones de las tablas de texto (…T) siguen una plantilla común y algunas listas de sinónimos incluyen el nombre técnico del campo clave (p. ej. `AUART`, `BSCHL`). Conviene repasar sobre todo las que los redactores marcaron como menos seguras: `EKAN`, `T006B`, `T006C`, `ELBM`, `ELBP`, `ESUC`, `T350`, `PMCO`.
 
-## Tablas sin campos (80)
+## Tablas sin campos propios (80)
+
+Las 61 del segundo grupo muestran ya en su ficha todos los campos del diccionario de SAP (ver [tablas-sap.md](tablas-sap.md)); siguen pendientes de tener sus campos principales con etiquetas en los tres idiomas. Las 19 de S/4HANA no están en ese diccionario y siguen sin campos.
 
 938 de las 1.018 tablas tienen su clave completa y sus campos principales. Los nombres, las claves y los tipos de todas ellas, salvo cuatro de S/4HANA, se contrastaron una vez con la referencia pública del diccionario de ECC 6.0 de leanx.eu; esa consulta no se repite de forma automática y siguen pendientes de verificar contra un sistema SAP real. Quedan sin campos:
 

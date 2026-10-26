@@ -84,4 +84,6 @@ export interface DataIndex {
   fields: Record<string, FieldDef>;
   taxonomy: Taxonomy;
   glossary: GlossaryEntry[];
+  /** Detail groups split by four characters instead of two (see lib/shard.ts). */
+  split?: string[];
 }

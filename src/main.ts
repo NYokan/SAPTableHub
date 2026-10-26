@@ -8,7 +8,7 @@ import '@fontsource/jetbrains-mono/latin-600.css';
 import './styles/app.css';
 import { t, type StrKey } from './i18n/index.ts';
 import { byName, runCatalog } from './lib/catalog.ts';
-import { loadIndex, loadSap } from './lib/data.ts';
+import { loadIndex, loadSap, useSplit } from './lib/data.ts';
 import { ic } from './lib/icons.ts';
 import { catalogRoute, isLang, parseRoute, routeHref, withLang, type Route } from './lib/router.ts';
 import { sapSummaries } from './lib/sap.ts';
@@ -451,6 +451,7 @@ paintShell(route.lang);
 // both files are requested at once; SAP's list is the larger one and is cached on its own
 Promise.all([loadIndex(), loadSap()])
   .then(([data, rows]) => {
+    useSplit(data.split);
     const sap = sapSummaries(rows);
     const entries = [...buildEntries(data), ...sapEntries(sap, data.tables.length)].sort((a, b) => byName(a.t, b.t));
     const byId = new Map(entries.map((x) => [x.t.id, x.t]));

@@ -35,6 +35,10 @@ Se leyó también, una sola vez, la página de cada tabla nueva en SAP Datasheet
 
 Antes de usarlos se comprobaron con 38 tablas explicadas, cuyos campos se habían contrastado con una referencia de ECC 6.0: los 239 campos coinciden en nombre, clave y tipo.
 
+Resultado: las 9.825 tablas leídas (las 9.764 nuevas y 61 explicadas que no tenían campos propios) tienen campos, 164.398 en total (de 1 a 352 por tabla); todas las transparentes tienen campo clave, y salen 21.344 relaciones con tablas del listado. 243 descripciones de campo están en alemán y 135 vacías, porque así figuran en el diccionario de SAP.
+
+Los campos se cargan con el detalle de cada tabla, en grupos por las dos primeras letras del nombre. Un grupo que pasaría de 400 KB (hoy solo `PA`, los infotipos de recursos humanos) se reparte por las cuatro primeras, para que abrir una tabla no descargue los campos de cientos.
+
 El **componente de aplicación** de esas páginas no se usa: solo coincidía con el oficial de SAP en 3 de las 38 tablas (por ejemplo, `VBAP` aparece como `CRM-BTX-BF-IF` en lugar de `SD-SLS`), porque el sistema del que salen es CRM/SRM. Por eso las tablas nuevas no muestran módulo.
 
 ## Qué tablas se incluyeron
