@@ -5,7 +5,7 @@
   "component": "LO-MD-BP-CM",
   "componentInferred": true,
   "category": "TRANSP",
-  "deliveryClass": "C",
+  "deliveryClass": "G",
   "title": {
     "es": "Clientes: grupos de cuentas",
     "en": "Customers: account groups",

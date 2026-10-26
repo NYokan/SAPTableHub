@@ -5,7 +5,7 @@
   "component": "LO-MD-BOM",
   "componentInferred": true,
   "category": "TRANSP",
-  "deliveryClass": "C",
+  "deliveryClass": "G",
   "title": {
     "es": "Tipos de posición de listas de materiales",
     "en": "Bill of material item categories",

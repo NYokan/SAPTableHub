@@ -4,6 +4,7 @@
   "contents": "config",
   "component": "BC-SRV-ASF-UOM",
   "category": "TRANSP",
+  "deliveryClass": "C",
   "title": {
     "es": "Dimensiones de unidades de medida",
     "en": "Unit of measure dimensions",

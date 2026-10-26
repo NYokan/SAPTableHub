@@ -4,7 +4,7 @@
   "contents": "config",
   "component": "MM-PUR",
   "category": "TRANSP",
-  "deliveryClass": "C",
+  "deliveryClass": "G",
   "title": {
     "es": "Clases de documentos de compras",
     "en": "Purchasing document types",

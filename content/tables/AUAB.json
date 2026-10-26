@@ -4,7 +4,7 @@
   "contents": "items",
   "component": "CO-OM",
   "componentInferred": true,
-  "category": "TRANSP",
+  "category": "CLUSTER",
   "deliveryClass": "A",
   "title": {
     "es": "Documentos de liquidación (reglas de distribución)",

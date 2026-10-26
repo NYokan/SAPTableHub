@@ -4,7 +4,7 @@
   "contents": "config",
   "component": "MM-PUR",
   "category": "TRANSP",
-  "deliveryClass": "C",
+  "deliveryClass": "G",
   "title": {
     "es": "Tipos de imputación",
     "en": "Account assignment categories",

@@ -5,6 +5,7 @@
   "component": "FI-AA",
   "componentInferred": true,
   "category": "TRANSP",
+  "deliveryClass": "G",
   "title": {
     "es": "Activos fijos: textos de clases de movimiento",
     "en": "Fixed assets: transaction type texts",

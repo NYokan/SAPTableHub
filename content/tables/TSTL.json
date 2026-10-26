@@ -3,7 +3,7 @@
   "area": "sales",
   "contents": "config",
   "component": "SD-BF-TX",
-  "category": "TRANSP",
+  "category": "POOL",
   "deliveryClass": "C",
   "title": {
     "es": "Impuestos por país",

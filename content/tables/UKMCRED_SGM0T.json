@@ -4,6 +4,7 @@
   "contents": "text",
   "component": "FIN-FSCM-CR-CR",
   "category": "TRANSP",
+  "deliveryClass": "C",
   "title": {
     "es": "Gestión de créditos SAP: textos de segmentos de crédito",
     "en": "SAP Credit Management: credit segment texts",

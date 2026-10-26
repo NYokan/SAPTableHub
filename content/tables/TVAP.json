@@ -4,7 +4,7 @@
   "contents": "config",
   "component": "SD-SLS-GF",
   "category": "TRANSP",
-  "deliveryClass": "C",
+  "deliveryClass": "G",
   "title": {
     "es": "Tipos de posición de ventas",
     "en": "Sales item categories",

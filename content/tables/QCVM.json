@@ -5,6 +5,7 @@
   "component": "QM-CA-MD",
   "componentInferred": true,
   "category": "TRANSP",
+  "deliveryClass": "A",
   "title": {
     "es": "Perfiles de certificado: características",
     "en": "Certificate profiles: characteristics",

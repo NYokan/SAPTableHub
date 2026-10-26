@@ -3,7 +3,7 @@
   "area": "fin",
   "contents": "config",
   "component": "FI",
-  "category": "TRANSP",
+  "category": "POOL",
   "deliveryClass": "C",
   "title": {
     "es": "Motivos de bloqueo de pago",

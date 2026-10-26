@@ -4,7 +4,7 @@
   "contents": "config",
   "component": "FI",
   "componentInferred": true,
-  "category": "TRANSP",
+  "category": "POOL",
   "deliveryClass": "C",
   "title": {
     "es": "Variantes de períodos contables",

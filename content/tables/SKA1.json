@@ -4,7 +4,7 @@
   "contents": "master",
   "component": "FI",
   "category": "TRANSP",
-  "deliveryClass": "A",
+  "deliveryClass": "C",
   "title": {
     "es": "Cuentas de mayor (plan de cuentas)",
     "en": "G/L accounts (chart of accounts)",

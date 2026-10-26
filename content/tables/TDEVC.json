@@ -4,6 +4,7 @@
   "contents": "master",
   "component": "BC-CTS-ORG",
   "category": "TRANSP",
+  "deliveryClass": "W",
   "title": {
     "es": "Paquetes de desarrollo",
     "en": "Development packages",

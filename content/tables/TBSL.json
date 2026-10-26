@@ -3,7 +3,8 @@
   "area": "fin",
   "contents": "config",
   "component": "FI-AP-AP-B",
-  "category": "TRANSP",
+  "category": "POOL",
+  "deliveryClass": "C",
   "title": {
     "es": "Claves de contabilización",
     "en": "Posting keys",

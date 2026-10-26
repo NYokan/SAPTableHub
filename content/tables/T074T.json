@@ -3,7 +3,8 @@
   "area": "fin",
   "contents": "text",
   "component": "FI",
-  "category": "TRANSP",
+  "category": "POOL",
+  "deliveryClass": "C",
   "title": {
     "es": "Indicadores de mayor especial: textos",
     "en": "Special G/L indicators: texts",

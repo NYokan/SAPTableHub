@@ -4,6 +4,7 @@
   "contents": "config",
   "component": "FI",
   "category": "TRANSP",
+  "deliveryClass": "C",
   "title": {
     "es": "Indicadores de mayor especial",
     "en": "Special G/L indicators",

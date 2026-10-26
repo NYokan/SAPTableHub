@@ -3,8 +3,8 @@
   "area": "fin",
   "contents": "text",
   "component": "LO-MD-BP-CM",
-  "category": "TRANSP",
-  "deliveryClass": "C",
+  "category": "POOL",
+  "deliveryClass": "G",
   "title": {
     "es": "Clientes: textos de grupos de cuentas",
     "en": "Customers: account group texts",

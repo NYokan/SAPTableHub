@@ -4,7 +4,7 @@
   "contents": "text",
   "component": "MM-IM",
   "componentInferred": true,
-  "category": "TRANSP",
+  "category": "POOL",
   "deliveryClass": "C",
   "title": {
     "es": "Motivos de movimiento (textos)",

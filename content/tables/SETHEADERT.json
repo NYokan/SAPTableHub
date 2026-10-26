@@ -4,6 +4,7 @@
   "contents": "text",
   "component": "FI-SL-SL-MD-SE",
   "category": "TRANSP",
+  "deliveryClass": "C",
   "title": {
     "es": "Grupos (sets): textos",
     "en": "Sets (groups): texts",

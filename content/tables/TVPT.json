@@ -4,6 +4,7 @@
   "contents": "config",
   "component": "FI-AR-AR",
   "category": "TRANSP",
+  "deliveryClass": "G",
   "title": {
     "es": "Tipos de posición: objeto de uso",
     "en": "Item categories: object of use",

@@ -5,6 +5,7 @@
   "component": "CA",
   "componentInferred": true,
   "category": "TRANSP",
+  "deliveryClass": "S",
   "title": {
     "es": "Estados del sistema",
     "en": "System statuses",

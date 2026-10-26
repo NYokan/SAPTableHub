@@ -4,6 +4,7 @@
   "contents": "master",
   "component": "MM-PUR",
   "componentInferred": true,
+  "category": "POOL",
   "deliveryClass": "A",
   "title": {
     "es": "Condiciones de compra por registro info",

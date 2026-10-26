@@ -5,7 +5,7 @@
   "component": "LE-WM",
   "componentInferred": true,
   "category": "TRANSP",
-  "deliveryClass": "C",
+  "deliveryClass": "G",
   "title": {
     "es": "Clases de movimiento WM",
     "en": "WM movement types",

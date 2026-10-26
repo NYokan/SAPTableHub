@@ -4,7 +4,7 @@
   "contents": "config",
   "component": "PP-MP-DEM",
   "category": "TRANSP",
-  "deliveryClass": "C",
+  "deliveryClass": "E",
   "title": {
     "es": "Tipos de necesidad",
     "en": "Requirements types",

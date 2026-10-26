@@ -5,6 +5,7 @@
   "component": "QM-IM-RR",
   "componentInferred": true,
   "category": "TRANSP",
+  "deliveryClass": "A",
   "title": {
     "es": "Resultados de inspección por clases de valores",
     "en": "Inspection results by value class",

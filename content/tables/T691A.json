@@ -4,8 +4,8 @@
   "contents": "config",
   "component": "FI-AR-AR",
   "componentInferred": true,
-  "category": "TRANSP",
-  "deliveryClass": "C",
+  "category": "POOL",
+  "deliveryClass": "G",
   "title": {
     "es": "Gestión de créditos: categorías de riesgo",
     "en": "Credit management: risk categories",

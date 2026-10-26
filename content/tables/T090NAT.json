@@ -5,6 +5,7 @@
   "component": "FI-AA",
   "componentInferred": true,
   "category": "TRANSP",
+  "deliveryClass": "C",
   "title": {
     "es": "Claves de amortización: textos",
     "en": "Depreciation keys: texts",

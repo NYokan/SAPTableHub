@@ -5,6 +5,7 @@
   "component": "CO-OM-ABC",
   "componentInferred": true,
   "category": "TRANSP",
+  "deliveryClass": "A",
   "title": {
     "es": "Procesos empresariales (textos)",
     "en": "Business processes (texts)",

@@ -4,7 +4,8 @@
   "contents": "text",
   "component": "FI-AP-AP-B",
   "componentInferred": true,
-  "category": "TRANSP",
+  "category": "POOL",
+  "deliveryClass": "C",
   "title": {
     "es": "Claves de contabilización: textos",
     "en": "Posting keys: texts",

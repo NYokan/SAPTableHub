@@ -4,7 +4,7 @@
   "contents": "master",
   "component": "FI-GL-GL-N",
   "category": "TRANSP",
-  "deliveryClass": "A",
+  "deliveryClass": "C",
   "title": {
     "es": "Cuentas de mayor: datos por sociedad",
     "en": "G/L accounts: company code data",

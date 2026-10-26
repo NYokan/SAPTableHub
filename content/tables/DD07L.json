@@ -4,6 +4,7 @@
   "contents": "config",
   "component": "BC-DWB-DIC-AC",
   "category": "TRANSP",
+  "deliveryClass": "W",
   "title": {
     "es": "Diccionario: valores fijos de los dominios",
     "en": "Dictionary: domain fixed values",

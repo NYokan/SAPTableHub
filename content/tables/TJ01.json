@@ -5,6 +5,7 @@
   "component": "CO-OM",
   "componentInferred": true,
   "category": "TRANSP",
+  "deliveryClass": "W",
   "title": {
     "es": "Operaciones empresariales",
     "en": "Business transactions",

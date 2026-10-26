@@ -27,8 +27,11 @@ describe('table list', () => {
     assert.equal(res.letterCounts.Z, undefined);
   });
   it('filters by category, area and text', () => {
-    assert.deepEqual(runCatalog(entries, q({ cat: 'CLUSTER', exp: true }), 'es').all.map((t) => t.id), ['BSEC', 'BSED', 'BSEG', 'BSET', 'CDPOS', 'KONV', 'REGUP']);
-    assert.deepEqual(runCatalog(entries, q({ cat: 'POOL', exp: true }), 'es').all.map((t) => t.id), ['A004', 'A005']);
+    // as SAP's dictionary has them (docs/pendientes.md, "Corregidas con el diccionario de SAP")
+    assert.deepEqual(runCatalog(entries, q({ cat: 'CLUSTER', exp: true }), 'es').all.map((t) => t.id), ['AUAA', 'AUAB', 'AUAO', 'AUAS', 'AUAV', 'BSEC', 'BSED', 'BSEG', 'BSET', 'CDPOS', 'KONV', 'MHND', 'REGUP']);
+    const pool = runCatalog(entries, q({ cat: 'POOL', exp: true }), 'es').all;
+    for (const id of ['A004', 'A005', 'A016', 'T001Z', 'TBSL']) assert.ok(pool.some((t) => t.id === id), id);
+    assert.ok(pool.every((t) => t.cat === 'POOL'));
     assert.ok(runCatalog(entries, q({ area: 'purch' }), 'es').all.every((t) => t.area === 'purch'));
     // the text filter keeps exactly the tables whose name, title, area, contents or synonyms contain the words
     const hay = new Map(entries.map((x) => [x.t.id, x.hay.es]));

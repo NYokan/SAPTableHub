@@ -5,6 +5,7 @@
   "component": "CO-OM",
   "componentInferred": true,
   "category": "TRANSP",
+  "deliveryClass": "A",
   "title": {
     "es": "Magnitudes estadísticas",
     "en": "Statistical key figures",

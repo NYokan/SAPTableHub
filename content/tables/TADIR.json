@@ -4,6 +4,7 @@
   "contents": "master",
   "component": "BC-CTS-ORG",
   "category": "TRANSP",
+  "deliveryClass": "W",
   "title": {
     "es": "Directorio de objetos del repositorio",
     "en": "Directory of repository objects",

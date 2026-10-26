@@ -5,6 +5,7 @@
   "component": "CO-OM",
   "componentInferred": true,
   "category": "TRANSP",
+  "deliveryClass": "C",
   "title": {
     "es": "Segmentos de ciclos de reparto",
     "en": "Allocation cycle segments",

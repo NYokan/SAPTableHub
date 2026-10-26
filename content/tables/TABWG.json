@@ -5,6 +5,7 @@
   "component": "FI-AA",
   "componentInferred": true,
   "category": "TRANSP",
+  "deliveryClass": "S",
   "title": {
     "es": "Activos fijos: grupos de clases de movimiento",
     "en": "Fixed assets: transaction type groups",

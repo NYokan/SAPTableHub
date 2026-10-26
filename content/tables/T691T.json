@@ -4,8 +4,8 @@
   "contents": "text",
   "component": "FI-AR-AR",
   "componentInferred": true,
-  "category": "TRANSP",
-  "deliveryClass": "C",
+  "category": "POOL",
+  "deliveryClass": "G",
   "title": {
     "es": "Gestión de créditos: textos de categorías de riesgo",
     "en": "Credit management: risk category texts",

@@ -5,6 +5,7 @@
   "component": "LO-MD-BOM",
   "componentInferred": true,
   "category": "TRANSP",
+  "deliveryClass": "A",
   "title": {
     "es": "Asignación de listas de materiales a documentos",
     "en": "Document-to-BOM links",

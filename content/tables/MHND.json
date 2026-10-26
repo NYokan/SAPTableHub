@@ -4,7 +4,7 @@
   "contents": "items",
   "component": "FI-AR-AR-C",
   "componentInferred": true,
-  "category": "TRANSP",
+  "category": "CLUSTER",
   "deliveryClass": "A",
   "title": {
     "es": "Reclamaciones: partidas reclamadas",

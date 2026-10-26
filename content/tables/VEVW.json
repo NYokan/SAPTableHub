@@ -5,6 +5,7 @@
   "component": "LO-HU-BF",
   "componentInferred": true,
   "category": "TRANSP",
+  "deliveryClass": "A",
   "title": {
     "es": "Unidades de manipulación: dónde se usan",
     "en": "Handling units: where used",

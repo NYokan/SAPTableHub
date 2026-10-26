@@ -4,6 +4,7 @@
   "contents": "text",
   "component": "QM-PT-BD-CAT",
   "category": "TRANSP",
+  "deliveryClass": "C",
   "title": {
     "es": "Catálogos de calidad: textos de códigos",
     "en": "Quality catalogs: code texts",

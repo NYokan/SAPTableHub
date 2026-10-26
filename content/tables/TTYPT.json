@@ -4,6 +4,7 @@
   "contents": "text",
   "component": "FI",
   "category": "TRANSP",
+  "deliveryClass": "E",
   "title": {
     "es": "Operaciones de referencia: nombres",
     "en": "Reference transactions: names",

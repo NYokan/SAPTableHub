@@ -4,7 +4,7 @@
   "contents": "config",
   "component": "SD-BIL-GF",
   "category": "TRANSP",
-  "deliveryClass": "C",
+  "deliveryClass": "G",
   "title": {
     "es": "Clases de factura",
     "en": "Billing types",

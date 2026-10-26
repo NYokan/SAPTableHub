@@ -5,7 +5,7 @@
   "component": "PM-PRM-MP",
   "componentInferred": true,
   "category": "TRANSP",
-  "deliveryClass": "C",
+  "deliveryClass": "A",
   "title": {
     "es": "Estrategias de mantenimiento",
     "en": "Maintenance strategies",

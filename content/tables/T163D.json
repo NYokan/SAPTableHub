@@ -4,7 +4,7 @@
   "contents": "config",
   "component": "MM-PUR",
   "category": "TRANSP",
-  "deliveryClass": "C",
+  "deliveryClass": "G",
   "title": {
     "es": "Clases de confirmación: interna y externa",
     "en": "Confirmation categories: internal and external",

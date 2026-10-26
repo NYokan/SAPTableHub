@@ -3,8 +3,8 @@
   "area": "purch",
   "contents": "text",
   "component": "MM-PUR",
-  "category": "TRANSP",
-  "deliveryClass": "C",
+  "category": "POOL",
+  "deliveryClass": "G",
   "title": {
     "es": "Compras: textos de los cambios impresos",
     "en": "Purchasing: texts of printed changes",

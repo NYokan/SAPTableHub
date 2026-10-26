@@ -5,6 +5,7 @@
   "component": "QM-PT-BD-SPL",
   "componentInferred": true,
   "category": "TRANSP",
+  "deliveryClass": "A",
   "title": {
     "es": "Procedimientos de muestreo",
     "en": "Sampling procedures",

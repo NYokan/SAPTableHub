@@ -4,6 +4,7 @@
   "contents": "master",
   "component": "SD-MD-CM",
   "componentInferred": true,
+  "category": "TRANSP",
   "deliveryClass": "A",
   "title": {
     "es": "Registros de condición: cliente y material (con estado de liberación)",

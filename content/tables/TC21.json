@@ -5,6 +5,7 @@
   "component": "PP-BD-WKC",
   "componentInferred": true,
   "category": "TRANSP",
+  "deliveryClass": "C",
   "title": {
     "es": "Claves de valores estándar",
     "en": "Standard value keys",

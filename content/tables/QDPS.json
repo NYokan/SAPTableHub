@@ -5,6 +5,7 @@
   "component": "QM-PT-BD-SPL",
   "componentInferred": true,
   "category": "TRANSP",
+  "deliveryClass": "A",
   "title": {
     "es": "Reglas de modificación dinámica: niveles de inspección",
     "en": "Dynamic modification rules: inspection stages",

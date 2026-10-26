@@ -4,7 +4,8 @@
   "contents": "config",
   "component": "PP-BD-RTG",
   "componentInferred": true,
-  "category": "TRANSP",
+  "category": "POOL",
+  "deliveryClass": "S",
   "title": {
     "es": "Tipos de hoja de ruta",
     "en": "Task list types",

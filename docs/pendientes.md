@@ -2,29 +2,45 @@
 
 Este archivo se genera al ampliar el contenido. Recoge lo que **no** se rellenó por no tener total seguridad, para revisarlo contra un sistema SAP real.
 
-## Tablas sin categoría (13)
+## Tablas sin categoría (6)
 
-En el sitio se muestran con «—» en la categoría. En ECC están marcadas como cluster BSEC, BSED, BSEG, BSET, CDPOS, KONV y REGUP, y como pool A004 y A005.
-
-- **Ventas** (4): `/SCMTMS/D_TORITE`, `/SCMTMS/D_TORROT`, `A304`, `A305`
-- **Compras** (4): `A016`, `A017`, `A018`, `CVI_VEND_LINK`
-- **Materiales** (2): `ACDOCA_M_EXTRACT`, `MATDOC_EXTRACT`
-- **Producción** (2): `MDTB`, `PPH_DBVM`
-- **Controlling** (1): `MLDOC_EXTRACT`
-
-## Tablas sin clase de entrega (70)
-
-En el sitio se muestran con «—» en la clase de entrega.
+En el sitio se muestran con «—» en la categoría. Las demás se completaron o corrigieron con el diccionario de SAP ERP (ver «Corregidas con el diccionario de SAP» más abajo); estas no figuran en él porque solo existen en S/4HANA o en productos aparte. Según ese diccionario son cluster AUAA, AUAB, AUAO, AUAS, AUAV, BSEC, BSED, BSEG, BSET, CDPOS, KONV, MHND, REGUP, y 60 son pool.
 
 - **Ventas** (2): `/SCMTMS/D_TORITE`, `/SCMTMS/D_TORROT`
-- **Compras** (1): `CVI_VEND_LINK`
-- **Materiales** (8): `/SCWM/AQUA`, `/SCWM/LAGP`, `/SCWM/ORDIM_C`, `/SCWM/ORDIM_O`, `ACDOCA_M_EXTRACT`, `MARV`, `MATDOC_EXTRACT`, `VEVW`
-- **Producción** (7): `DOST`, `MDTB`, `PPH_DBVM`, `PVBE`, `PVKT`, `TC21`, `TCA01`
-- **Calidad** (12): `QAKL`, `QCVK`, `QCVM`, `QDDR`, `QDPS`, `QDSV`, `QPAC`, `QPAM`, `QPCD`, `QPCT`, `QPGR`, `QPGT`
-- **Mantenimiento** (1): `T352R`
-- **Finanzas** (18): `FINSC_LD_CMP`, `FINSC_LEDGER`, `FINSC_LEDGER_T`, `SETHEADER`, `SETHEADERT`, `SETLEAF`, `SETNODE`, `T074T`, `T074U`, `T090NA`, `T090NAT`, `TABW`, `TABWG`, `TABWT`, `TBSL`, `TBSLT`, `TCJ_C_JOURNALS`, `UKMCRED_SGM0T`
-- **Controlling** (9): `CBPR`, `CBPT`, `MLDOC_EXTRACT`, `T811C`, `T811S`, `TJ01`, `TJ01T`, `TKA03`, `TKT03`
-- **General** (12): `T002`, `T002T`, `T006`, `T006A`, `T006B`, `T006C`, `T006D`, `T006I`, `T006J`, `T006T`, `TJ02`, `TJ02T`
+- **Materiales** (2): `ACDOCA_M_EXTRACT`, `MATDOC_EXTRACT`
+- **Producción** (1): `PPH_DBVM`
+- **Controlling** (1): `MLDOC_EXTRACT`
+
+## Tablas sin clase de entrega (13)
+
+En el sitio se muestran con «—» en la clase de entrega. Tampoco figuran en el diccionario de SAP ERP.
+
+- **Ventas** (2): `/SCMTMS/D_TORITE`, `/SCMTMS/D_TORROT`
+- **Materiales** (6): `/SCWM/AQUA`, `/SCWM/LAGP`, `/SCWM/ORDIM_C`, `/SCWM/ORDIM_O`, `ACDOCA_M_EXTRACT`, `MATDOC_EXTRACT`
+- **Producción** (1): `PPH_DBVM`
+- **Finanzas** (3): `FINSC_LD_CMP`, `FINSC_LEDGER`, `FINSC_LEDGER_T`
+- **Controlling** (1): `MLDOC_EXTRACT`
+
+## Corregidas con el diccionario de SAP (209 cambios en 194 tablas)
+
+El 26 de octubre de 2026 se comparó la categoría y la clase de entrega de cada tabla con el índice público de SAP Datasheet, que refleja el diccionario de SAP ERP (ver [tablas-sap.md](tablas-sap.md)), y se tomó el valor de SAP. 71 datos estaban vacíos y 138 eran distintos. Las dudas de la sección siguiente sobre la categoría o la clase de entrega de estas tablas quedan resueltas.
+
+- Categoría TRANSP → POOL (55): `T001Z`, `T003T`, `T004F`, `T004T`, `T007S`, `T008`, `T008T`, `T009`, `T009B`, `T009T`, `T010O`, `T016`, `T016T`, `T028B`, `T030`, `T030H`, `T030K`, `T040`, `T040A`, `T040S`, `T042`, `T042A`, `T042D`, `T042I`, `T043`, `T043G`, `T043T`, `T047`, `T047B`, `T047C`, `T047D`, `T047E`, `T047T`, `T048`, `T048T`, `T074`, `T074T`, `T077S`, `T077X`, `T077Y`, `T077Z`, `T157D`, `T157E`, `T166T`, `T691A`, `T691T`, `TBSL`, `TBSLT`, `TCA01`, `TKA3A`, `TSTL`, `TTXD`, `TTXJT`, `TVOID`, `TVOIT`
+- Clase de entrega C → G (54): `T077D`, `T077K`, `T077X`, `T077Y`, `T134`, `T134T`, `T137`, `T137T`, `T149D`, `T156`, `T156T`, `T161`, `T161T`, `T163`, `T163D`, `T163I`, `T163K`, `T163Y`, `T166T`, `T333`, `T333T`, `T418`, `T418T`, `T438A`, `T438T`, `T439A`, `T439T`, `T459K`, `T691A`, `T691T`, `TCK19A`, `TCLA`, `TCLAT`, `TMABC`, `TNAPR`, `TPAR`, `TPART`, `TPTM`, `TPTMT`, `TQ30`, `TQ30T`, `TVAK`, `TVAKT`, `TVAP`, `TVAPT`, `TVEP`, `TVEPT`, `TVFK`, `TVFKT`, `TVLK`, `TVLKT`, `TVLP`, `TVTK`, `TVTKT`
+- Clase de entrega — → C (28): `MARV`, `QPAC`, `QPAM`, `QPCD`, `QPCT`, `QPGR`, `QPGT`, `SETHEADER`, `SETHEADERT`, `SETLEAF`, `SETNODE`, `T006`, `T006A`, `T006B`, `T006C`, `T006D`, `T006T`, `T074T`, `T074U`, `T090NA`, `T090NAT`, `T811C`, `T811S`, `TBSL`, `TBSLT`, `TC21`, `TCJ_C_JOURNALS`, `UKMCRED_SGM0T`
+- Clase de entrega — → A (17): `CBPR`, `CBPT`, `CVI_VEND_LINK`, `DOST`, `MDTB`, `PVBE`, `PVKT`, `QAKL`, `QCVK`, `QCVM`, `QDDR`, `QDPS`, `QDSV`, `T352R`, `TKA03`, `TKT03`, `VEVW`
+- Clase de entrega C → E (9): `T048`, `T048T`, `T459A`, `T881`, `T881T`, `TQ15`, `TQ15T`, `TVOID`, `TVOIT`
+- Clase de entrega A → C (7): `CSKA`, `CSKB`, `CSKU`, `SKA1`, `SKAS`, `SKAT`, `SKB1`
+- Clase de entrega — → W (7): `DD04T`, `DD07L`, `DD07T`, `TADIR`, `TDEVC`, `TJ01`, `TJ01T`
+- Categoría TRANSP → CLUSTER (6): `AUAA`, `AUAB`, `AUAO`, `AUAS`, `AUAV`, `MHND`
+- Clase de entrega — → S (6): `T002`, `T002T`, `TABWG`, `TCA01`, `TJ02`, `TJ02T`
+- Clase de entrega — → G (5): `T006I`, `T006J`, `TABW`, `TABWT`, `TVPT`
+- Categoría — → TRANSP (4): `A304`, `A305`, `CVI_VEND_LINK`, `MDTB`
+- Clase de entrega C → A (3): `T351`, `T351P`, `T351X`
+- Categoría — → POOL (3): `A016`, `A017`, `A018`
+- Clase de entrega A → W (2): `STXH`, `STXL`
+- Clase de entrega C → S (2): `T148`, `T148T`
+- Clase de entrega — → E (1): `TTYPT`
 
 ## Dudas anotadas al preparar el contenido (82)
 

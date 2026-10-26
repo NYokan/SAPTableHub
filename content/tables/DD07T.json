@@ -4,6 +4,7 @@
   "contents": "text",
   "component": "BC-DWB-DIC-AC",
   "category": "TRANSP",
+  "deliveryClass": "W",
   "title": {
     "es": "Diccionario: textos de los valores fijos",
     "en": "Dictionary: fixed value texts",

@@ -5,6 +5,7 @@
   "component": "PM-WOC-MO",
   "componentInferred": true,
   "category": "TRANSP",
+  "deliveryClass": "A",
   "title": {
     "es": "Revisiones de mantenimiento",
     "en": "Maintenance revisions",

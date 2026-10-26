@@ -4,7 +4,7 @@
   "contents": "master",
   "component": "CO-OM",
   "category": "TRANSP",
-  "deliveryClass": "A",
+  "deliveryClass": "C",
   "title": {
     "es": "Clases de coste (plan de cuentas)",
     "en": "Cost elements (chart of accounts)",

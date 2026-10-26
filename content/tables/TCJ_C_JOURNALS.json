@@ -5,6 +5,7 @@
   "component": "FI",
   "componentInferred": true,
   "category": "TRANSP",
+  "deliveryClass": "C",
   "title": {
     "es": "Libros de caja",
     "en": "Cash journals",

@@ -5,7 +5,7 @@
   "component": "FI",
   "componentInferred": true,
   "category": "TRANSP",
-  "deliveryClass": "A",
+  "deliveryClass": "C",
   "title": {
     "es": "Cuentas de mayor: lista de palabras clave",
     "en": "G/L accounts: keyword list",

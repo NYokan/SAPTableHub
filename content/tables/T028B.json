@@ -4,7 +4,7 @@
   "contents": "config",
   "component": "FI-BL-PT",
   "componentInferred": true,
-  "category": "TRANSP",
+  "category": "POOL",
   "deliveryClass": "C",
   "title": {
     "es": "Extracto bancario: cuentas bancarias y tipo de operación",

@@ -5,7 +5,7 @@
   "component": "BC-SRV-SCR",
   "componentInferred": true,
   "category": "TRANSP",
-  "deliveryClass": "A",
+  "deliveryClass": "W",
   "title": {
     "es": "Textos largos (contenido)",
     "en": "Long texts (content)",

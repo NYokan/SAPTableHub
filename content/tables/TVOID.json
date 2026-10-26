@@ -4,8 +4,8 @@
   "contents": "config",
   "component": "FI-BL-PT",
   "componentInferred": true,
-  "category": "TRANSP",
-  "deliveryClass": "C",
+  "category": "POOL",
+  "deliveryClass": "E",
   "title": {
     "es": "Motivos de anulación de cheques",
     "en": "Check void reasons",

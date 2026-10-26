@@ -5,7 +5,7 @@
   "component": "SD-MD-MM",
   "componentInferred": true,
   "category": "TRANSP",
-  "deliveryClass": "C",
+  "deliveryClass": "G",
   "title": {
     "es": "Grupos de tipos de posición: textos",
     "en": "Item category groups: texts",

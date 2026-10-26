@@ -4,6 +4,7 @@
   "contents": "text",
   "component": "BC-DOC-TTL",
   "category": "TRANSP",
+  "deliveryClass": "S",
   "title": {
     "es": "Idiomas (nombres)",
     "en": "Languages (names)",

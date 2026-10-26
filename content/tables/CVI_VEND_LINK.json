@@ -4,6 +4,8 @@
   "contents": "master",
   "component": "AP-MD-BF-SYN",
   "componentInferred": true,
+  "category": "TRANSP",
+  "deliveryClass": "A",
   "title": {
     "es": "Vínculo entre proveedor e interlocutor comercial",
     "en": "Link between vendor and business partner",

@@ -4,7 +4,7 @@
   "contents": "config",
   "component": "SD-SLS-GF",
   "category": "TRANSP",
-  "deliveryClass": "C",
+  "deliveryClass": "G",
   "title": {
     "es": "Clases de documento de ventas",
     "en": "Sales document types",

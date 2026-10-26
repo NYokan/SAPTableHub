@@ -3,8 +3,8 @@
   "area": "fin",
   "contents": "config",
   "component": "FI",
-  "category": "TRANSP",
-  "deliveryClass": "C",
+  "category": "POOL",
+  "deliveryClass": "E",
   "title": {
     "es": "Tipos de correspondencia",
     "en": "Correspondence types",

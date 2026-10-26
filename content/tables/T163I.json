@@ -4,7 +4,7 @@
   "contents": "text",
   "component": "MM-PUR",
   "category": "TRANSP",
-  "deliveryClass": "C",
+  "deliveryClass": "G",
   "title": {
     "es": "Tipos de imputación: textos",
     "en": "Account assignment categories: texts",

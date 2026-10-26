@@ -4,7 +4,7 @@
   "contents": "config",
   "component": "SD-MD-MM",
   "category": "TRANSP",
-  "deliveryClass": "C",
+  "deliveryClass": "G",
   "title": {
     "es": "Funciones de interlocutor",
     "en": "Partner functions",

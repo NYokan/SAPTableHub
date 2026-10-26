@@ -5,7 +5,7 @@
   "component": "MM-PUR",
   "componentInferred": true,
   "category": "TRANSP",
-  "deliveryClass": "C",
+  "deliveryClass": "G",
   "title": {
     "es": "Tipos de posición en compras: textos",
     "en": "Purchasing item categories: texts",

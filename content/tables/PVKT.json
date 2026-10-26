@@ -5,6 +5,7 @@
   "component": "PP-KAB",
   "componentInferred": true,
   "category": "TRANSP",
+  "deliveryClass": "A",
   "title": {
     "es": "Áreas de suministro a producción (descripciones)",
     "en": "Production supply areas (descriptions)",

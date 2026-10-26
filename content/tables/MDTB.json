@@ -4,6 +4,8 @@
   "contents": "items",
   "component": "PP-MRP",
   "componentInferred": true,
+  "category": "TRANSP",
+  "deliveryClass": "A",
   "title": {
     "es": "Documentos de planificación de necesidades (líneas)",
     "en": "MRP documents (lines)",

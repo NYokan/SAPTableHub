@@ -4,6 +4,7 @@
   "contents": "text",
   "component": "BC-SRV-ASF-UOM",
   "category": "TRANSP",
+  "deliveryClass": "C",
   "title": {
     "es": "Dimensiones de unidades de medida (textos)",
     "en": "Unit of measure dimensions (texts)",

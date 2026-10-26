@@ -5,6 +5,7 @@
   "component": "QM-PT-BD-CAT",
   "componentInferred": true,
   "category": "TRANSP",
+  "deliveryClass": "C",
   "title": {
     "es": "Catálogos de calidad: conjuntos seleccionados",
     "en": "Quality catalogs: selected sets",
