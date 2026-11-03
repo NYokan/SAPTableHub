@@ -28,7 +28,7 @@ export function renderCatalog(el: HTMLElement, r: CatalogRoute, c: Ctx): Catalog
   const at = (over: Partial<CatalogRoute>) => routeHref({ ...r, page: 1, open: '', ...over });
 
   get('ctitle').textContent = tx(c, 'catTitle') + (r.letter ? ' · ' + r.letter : '');
-  get('cintro').textContent = tx(c, 'catIntro', { n: num(c, c.data.tables.length) });
+  get('cintro').textContent = tx(c, 'catIntro', { total: num(c, c.entries.length), n: num(c, c.data.tables.length) });
   get('cqlabel').textContent = tx(c, 'cfilter');
   const input = get('cq') as HTMLInputElement;
   input.placeholder = tx(c, 'cfilter');

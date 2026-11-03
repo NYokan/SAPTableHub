@@ -327,6 +327,12 @@ document.addEventListener('click', (e) => {
       saveSelection();
       render();
       break;
+    case 'rmall':
+      if (!confirm(t(c.lang, 'clearAllAsk', { n: String(c.selection.length) }))) break;
+      c.selection = [];
+      saveSelection();
+      render();
+      break;
     case 'fmt':
       setFormat(v as Format);
       render();

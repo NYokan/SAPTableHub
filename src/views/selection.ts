@@ -41,7 +41,7 @@ export function renderSelection(el: HTMLElement, r: SelectionRoute, c: Ctx): voi
 
   const fmt = (v: Format, key: 'fmtN' | 'fmtD') =>
     `<button type="button" data-act="fmt" data-v="${v}" aria-pressed="${format === v}">${esc(tx(c, key))}</button>`;
-  h += `<div class="l-tools"><div class="seg" role="group">${fmt('names', 'fmtN')}${fmt('desc', 'fmtD')}</div></div>`;
+  h += `<div class="l-tools"><div class="seg" role="group">${fmt('names', 'fmtN')}${fmt('desc', 'fmtD')}</div>${shared ? '' : `<button type="button" class="btn ghost" data-act="rmall">${ic('x', 18)}${esc(tx(c, 'clearAll'))}</button>`}</div>`;
   h +=
     '<div class="panel"><ul class="rows">' +
     ids
