@@ -143,7 +143,7 @@ function render() {
     case 'notfound':
       view.dataset.view = 'notfound';
       view.className = 'wrap view view-notfound';
-      view.innerHTML = `<div class="panel empty notfound"><strong>${t(route.lang, 'notFound')}</strong><a class="btn primary" href="${routeHref(catalogRoute(route.lang))}" data-link>${t(route.lang, 'goCatalog')}</a></div>`;
+      view.innerHTML = `<div class="panel empty notfound"><h1 tabindex="-1">${t(route.lang, 'notFound')}</h1><a class="btn primary" href="${routeHref(catalogRoute(route.lang))}" data-link>${t(route.lang, 'goCatalog')}</a></div>`;
       title = t(route.lang, 'notFound');
       break;
   }
@@ -310,6 +310,7 @@ document.addEventListener('click', (e) => {
   const b = target.closest<HTMLElement>('[data-act]');
   if (!b) return;
   if (b.dataset.act === 'theme') return toggleTheme();
+  if (b.dataset.act === 'reload') return location.reload();
   if (!ctx) return;
   const c = ctx;
   const id = b.dataset.id ?? '';
@@ -487,5 +488,5 @@ Promise.all([loadIndex(), loadSap()])
     render();
   })
   .catch(() => {
-    view.innerHTML = `<div class="panel empty notfound"><strong>${t(route.lang, 'loadError')}</strong></div>`;
+    view.innerHTML = `<div class="panel empty notfound" role="alert"><h1 tabindex="-1">${t(route.lang, 'loadError')}</h1><button type="button" class="btn primary" data-act="reload">${t(route.lang, 'retry')}</button></div>`;
   });

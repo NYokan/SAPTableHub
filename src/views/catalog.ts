@@ -106,14 +106,15 @@ const breakable = (id: string, html: string) => {
 
 /** A row: a link to the table's page (so Ctrl+click and "open in new tab" work); a plain click opens the sheet. */
 function rowHTML(c: Ctx, t: TableSummary, n: number, r: CatalogRoute): string {
-  // the area with the whole SAP component, then what the table holds with its category and delivery class
+  // the area with the whole SAP component (just the module where the column is narrow, so both stay on one
+  // line), then what the table holds with its category and delivery class
   const tech = [t.cat, t.dcl].filter(Boolean).join(' · ');
   const techTip = esc([t.cat && catName(c, t.cat), t.dcl && dclName(c, t.dcl)].filter(Boolean).join(' · '));
   // a table known only from SAP's list: no area or contents yet (a dash, as for any missing value), just its
   // category and delivery class
   const meta = t.x
     ? `<span class="c-ar"><span class="muted" aria-hidden="true">—</span></span><span class="c-kind"><span class="c-tech mono" title="${techTip}">${esc(tech)}</span></span>`
-    : `<span class="c-ar">${areaBadge(c, t.area)}${modTag(c, t, true)}</span><span class="dot" aria-hidden="true">·</span><span class="c-kind">${esc(kindName(c, t.kind))}${tech ? `<span class="c-tech mono" title="${techTip}">${esc(tech)}</span>` : ''}</span>${t.s4 ? `<span class="c-s4"><span class="dot" aria-hidden="true">·</span>${esc(tx(c, 's4only'))}</span>` : ''}`;
+    : `<span class="c-ar">${areaBadge(c, t.area)}${modTag(c, t, true, 'mod-full')}${modTag(c, t, false, 'mod-short')}</span><span class="dot" aria-hidden="true">·</span><span class="c-kind">${esc(kindName(c, t.kind))}${tech ? `<span class="c-tech mono" title="${techTip}">${esc(tech)}</span>` : ''}</span>${t.s4 ? `<span class="c-s4"><span class="dot" aria-hidden="true">·</span>${esc(tx(c, 's4only'))}</span>` : ''}`;
   const open = r.open === t.id ? ' aria-current="true"' : '';
   return `<li class="crow${t.x ? ' is-sap' : ''}"><a class="cmain" href="${esc(tableHref(c, t.id))}" data-link data-open="${esc(t.id)}" aria-haspopup="dialog"${open}><span class="c-n">${n}</span><span class="c-id${t.id.length > 10 ? ' long' : ''}">${breakable(t.id, highlight(t.id, r.q))}</span><span class="c-title">${titleHTML(c, t, highlight(loc(c, t.title), r.q))}${s4Badge(c, t)}</span><span class="c-meta">${meta}</span></a>${addButton(c, t.id)}</li>`;
 }
@@ -142,10 +143,10 @@ function pager(c: Ctx, r: CatalogRoute, res: CatalogResult): string {
   const go = (page: number) => esc(routeHref({ ...r, page, open: '' }));
   const prev = res.page > 1
     ? `<a href="${go(res.page - 1)}" data-link>${ic('back', 16)}${esc(tx(c, 'prev'))}</a>`
-    : `<span class="off">${ic('back', 16)}${esc(tx(c, 'prev'))}</span>`;
+    : `<span class="off" role="link" aria-disabled="true">${ic('back', 16)}${esc(tx(c, 'prev'))}</span>`;
   const next = res.page < res.pages
     ? `<a href="${go(res.page + 1)}" data-link>${esc(tx(c, 'next'))}${ic('chev', 16)}</a>`
-    : `<span class="off">${esc(tx(c, 'next'))}${ic('chev', 16)}</span>`;
+    : `<span class="off" role="link" aria-disabled="true">${esc(tx(c, 'next'))}${ic('chev', 16)}</span>`;
   const nums = pageList(res.page, res.pages)
     .map((p) =>
       p === '…'

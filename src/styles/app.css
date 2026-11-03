@@ -126,6 +126,7 @@ body::before {
   background: var(--bg);
 }
 button, select, input { font: inherit; color: inherit; }
+input::placeholder { color: var(--muted); opacity: 1; }
 button { cursor: pointer; }
 h1, h2, h3, p { margin: 0; }
 a { color: inherit; text-decoration: none; }
@@ -240,6 +241,8 @@ svg.i { display: block; flex: none; }
 .view-search, .view-selection, .view-notfound { max-width: 720px; }
 .view-table { max-width: 820px; }
 .loading { padding: 40px 0; }
+/* while the data loads, the page holds a full screen so the footer does not show up and then get pushed down */
+.view:has(> .loading:only-child) { min-height: 100svh; }
 .foot { padding: 26px 0 8px; color: var(--muted); font-size: 13px; display: grid; gap: 4px; }
 
 /* ---------- shared pieces ---------- */
@@ -286,6 +289,8 @@ svg.i { display: block; flex: none; }
 .empty strong { display: block; font-weight: 600; margin-bottom: 4px; overflow-wrap: anywhere; }
 .empty.partial { padding: 12px 16px; border-bottom: 1px solid var(--line); font-size: 14px; }
 .notfound { display: grid; gap: 16px; justify-items: start; margin-top: 12px; }
+.notfound h1 { font-size: 17px; font-weight: 600; line-height: 1.4; overflow-wrap: anywhere; }
+.lost { display: grid; gap: 12px; justify-items: start; }
 .rows { list-style: none; margin: 0; padding: 0; }
 /* The "+" is a bare icon: --muted at rest (over 3:1 on the row), ink when its row is hovered or
    focused, accent when the pointer is on it or the table is already in the selection. */
@@ -465,7 +470,7 @@ details.legend { margin-top: 16px; }
 }
 .d-tags .mod { margin-left: 0; }
 /* category and delivery class after what the table holds, in the listing */
-.c-tech { margin-left: 8px; font-size: 12px; color: var(--muted); }
+.c-tech { margin-left: 8px; font-size: 12px; color: var(--muted); white-space: nowrap; }
 .c-ar { flex-wrap: wrap; row-gap: 4px; }
 .pager { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px 16px; margin-top: 14px; font-size: 14px; }
 .pg { display: flex; flex-wrap: wrap; gap: 4px; align-items: center; }
@@ -544,7 +549,7 @@ details.legend { margin-top: 16px; }
 .actions .btn { flex: 1 1 200px; }
 .sec { margin-top: 30px; }
 .sec h2 { font-size: 13px; letter-spacing: 0.07em; text-transform: uppercase; color: var(--muted); font-weight: 600; margin-bottom: 10px; }
-.sec p.body { max-width: 62ch; font-size: 17px; text-wrap: pretty; }
+.sec p.body { max-width: 54ch; font-size: 17px; text-wrap: pretty; }
 .fnote { margin-top: 8px; font-size: 13px; color: var(--muted); }
 .kb {
   display: inline-flex;
@@ -674,17 +679,17 @@ details.legend { margin-top: 16px; }
   .sform .clear { right: 44px; width: 40px; }
   .chips { flex-wrap: wrap; overflow: visible; }
   /* #, table, description, area, content; the header's right padding is the "+" (6 + 4 + 32 + 8) */
-  .cmain { display: grid; grid-template-columns: 28px 112px minmax(0, 1.5fr) minmax(120px, 0.6fr) minmax(180px, 0.9fr); gap: 16px; align-items: center; min-height: 48px; padding-block: 8px; }
+  .cmain { display: grid; grid-template-columns: 28px 112px minmax(0, 1.5fr) var(--c-area) var(--c-kind); gap: 16px; align-items: center; min-height: 48px; padding-block: 8px; }
   .c-n { display: block; text-align: right; color: var(--muted); font-size: 13px; font-variant-numeric: tabular-nums; }
   .c-title { flex: none; }
   .c-meta { display: contents; }
   .c-meta > span { font-size: 14px; color: var(--muted); }
   .c-meta > .ab, .c-meta > .c-ar { justify-self: start; font-size: 13px; }
-  .c-meta > .c-ar { display: inline-flex; align-items: center; }
+  .c-meta > .c-ar { display: inline-flex; align-items: center; flex-wrap: nowrap; }
   .c-meta .dot { display: none; }
   .chead {
     display: grid;
-    grid-template-columns: 28px 112px minmax(0, 1.5fr) minmax(120px, 0.6fr) minmax(180px, 0.9fr);
+    grid-template-columns: 28px 112px minmax(0, 1.5fr) var(--c-area) var(--c-kind);
     gap: 16px;
     padding: 10px 50px 10px 16px;
     border-bottom: 1px solid var(--line);
@@ -848,7 +853,7 @@ html.sheet-open { overflow: hidden; }
 .cmain { padding-block: 14px; }
 
 /* nothing found: the words, crossed out, and the ways on */
-.none { padding: 24px 0 8px; display: grid; gap: 14px; justify-items: start; }
+.none { padding: 24px 0 8px; display: grid; grid-template-columns: minmax(0, 1fr); gap: 14px; justify-items: start; }
 .none-q {
   font-size: clamp(56px, 9vw, 112px);
   line-height: 0.95;
@@ -863,7 +868,8 @@ html.sheet-open { overflow: hidden; }
 .none h2 { font-size: clamp(22px, 2.6vw, 30px); font-weight: 600; letter-spacing: -0.02em; overflow-wrap: anywhere; }
 .none > .muted { font-size: 17px; max-width: 56ch; }
 .ways { display: flex; flex-wrap: wrap; gap: 4px 28px; }
-.go { display: inline-flex; align-items: center; gap: 8px; min-height: 44px; font-weight: 600; color: var(--accent); }
+.go { display: inline-flex; align-items: center; gap: 8px; min-height: 44px; max-width: 100%; font-weight: 600; color: var(--accent); }
+.go span { min-width: 0; overflow-wrap: anywhere; }
 .go svg { transition: transform 0.18s; }
 .go:hover svg { transform: translateX(4px); }
 
@@ -921,7 +927,7 @@ html.sheet-open { overflow: hidden; }
     border: 0;
     background: none;
   }
-  .az a, .az span { width: 48px; min-width: 0; height: 22px; padding: 0; font-size: 13px; border-radius: 6px; }
+  .az a, .az span { width: 48px; min-width: 0; height: 24px; padding: 0; font-size: 13px; border-radius: 6px; }
   .az .az-all { height: 32px; margin-bottom: 6px; font-size: 12px; }
   .cmain { min-height: 58px; padding-block: 10px; }
   .c-id { font-size: 17px; }
@@ -961,3 +967,30 @@ html.sheet-open { overflow: hidden; }
 /* fields past the first 25, folded under "See the other N fields" */
 .more-f { margin-top: 10px; }
 .more-f .panel { border: 0; border-radius: 0; }
+
+/* the listing's "Area and module" column: the area and its SAP code always share one line. Wide screens fit the
+   whole component ("Mantenimiento PM-EQM-SF-MPC" is the longest, in every language); narrower ones show just
+   the module ("PM"), and the whole component stays in the ficha. The "Contents" column beside it fits
+   "Posiciones de documento CLUSTER · A" on wide screens; narrower ones put the codes on a line of their own */
+.mod-short { display: none; }
+@media (min-width: 880px) and (max-width: 1199px) {
+  .c-kind .c-tech { display: block; margin-left: 0; }
+}
+@media (min-width: 880px) {
+  .cmain, .chead { --c-area: 156px; --c-kind: minmax(180px, 0.9fr); }
+  .c-ar .mod-full { display: none; }
+  .c-ar .mod-short { display: inline-flex; }
+}
+@media (min-width: 1200px) {
+  .cmain, .chead { --c-area: 244px; --c-kind: minmax(256px, 0.9fr); }
+  .c-ar .mod-full { display: inline-flex; }
+  .c-ar .mod-short { display: none; }
+}
+
+/* touch screens: every control of the listing's toolbar and its Filtros popover is at least 44px tall. This sits
+   last so it wins over the base sizes declared above */
+@media (pointer: coarse) {
+  .fbtn, .tbtn, .opt, .lgrid .opt { min-height: 44px; }
+  .seg button, .seg a { min-height: 44px; }
+  .pop-in .sel select { min-height: 44px; height: 44px; }
+}

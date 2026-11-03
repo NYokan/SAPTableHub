@@ -1,0 +1,143 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-02T00:00:00Z",
+  "title": "Design System: SAPTableHub",
+  "extensions": {
+    "colorMeta": {
+      "ledger-green": { "role": "primary", "displayName": "Verde contable", "canonical": "#0c6b5a", "dark": "#4fc9ae", "tonalRamp": ["#06251e", "#0a3f34", "#0c6b5a", "#1f8a74", "#4fc9ae", "#8fdcc8", "#c4ecdf", "#e8f7f1"] },
+      "ledger-green-soft": { "role": "primary", "displayName": "Verde contable suave", "canonical": "#d8eee6", "dark": "#16352d" },
+      "key-amber": { "role": "secondary", "displayName": "Ámbar de clave", "canonical": "#8a4f00", "dark": "#f0b44f", "tonalRamp": ["#2e1a00", "#4d2d00", "#8a4f00", "#b06a0d", "#f0b44f", "#f5cf8a", "#f9e2b9", "#fdf3e2"] },
+      "key-amber-soft": { "role": "secondary", "displayName": "Ámbar de clave suave", "canonical": "#faebd0", "dark": "#3a2d12" },
+      "match-yellow": { "role": "secondary", "displayName": "Amarillo de coincidencia", "canonical": "#fbe38e", "dark": "#4d3b07" },
+      "match-ink": { "role": "secondary", "displayName": "Tinta de coincidencia", "canonical": "#121512", "dark": "#ffe9a6" },
+      "sage-paper": { "role": "neutral", "displayName": "Papel salvia", "canonical": "#f4f6f3", "dark": "#0f1513", "tonalRamp": ["#0f1513", "#18211d", "#2a352f", "#58655f", "#98a69e", "#d8ddd6", "#ebeee9", "#f4f6f3"] },
+      "surface": { "role": "neutral", "displayName": "Superficie", "canonical": "#ffffff", "dark": "#18211d" },
+      "surface-sunk": { "role": "neutral", "displayName": "Superficie hundida", "canonical": "#ebeee9", "dark": "#1e2723" },
+      "line": { "role": "neutral", "displayName": "Línea", "canonical": "#d8ddd6", "dark": "#2a352f" },
+      "line-soft": { "role": "neutral", "displayName": "Línea suave", "canonical": "#e1e6df", "dark": "#232d29" },
+      "rule": { "role": "neutral", "displayName": "Separador de fila", "canonical": "#e8ece6", "dark": "#222b27" },
+      "row-hover": { "role": "neutral", "displayName": "Fila bajo el puntero", "canonical": "#f3f6f2", "dark": "#1f2925" },
+      "ink": { "role": "neutral", "displayName": "Tinta", "canonical": "#16201c", "dark": "#e8eeea" },
+      "muted": { "role": "neutral", "displayName": "Tinta apagada", "canonical": "#58655f", "dark": "#98a69e" },
+      "control-edge": { "role": "neutral", "displayName": "Borde de control", "canonical": "#7f8a84", "dark": "#66746d" }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display", "purpose": "Título de cada página." },
+      "title": { "displayName": "Title", "purpose": "Descripción de cada fila del listado." },
+      "body": { "displayName": "Body", "purpose": "Texto general." },
+      "reading": { "displayName": "Reading", "purpose": "Párrafo «¿Para qué sirve?» de la ficha, máximo 54ch." },
+      "label": { "displayName": "Label", "purpose": "Títulos de sección en mayúsculas." },
+      "code": { "displayName": "Code", "purpose": "Nombres de tabla y de campo." },
+      "code-small": { "displayName": "Code small", "purpose": "Componente de SAP, categoría, clase de entrega y tipos." }
+    },
+    "shadows": [
+      { "name": "popover", "value": "0 18px 50px rgba(0, 0, 0, 0.18)", "purpose": "Panel de Filtros." },
+      { "name": "sheet", "value": "-24px 0 60px rgba(0, 0, 0, 0.24)", "purpose": "Ficha lateral sobre el listado." }
+    ],
+    "motion": [
+      { "name": "state", "value": "background-color 0.12s, color 0.12s, border-color 0.12s", "purpose": "Hover y selección de controles; se anula con prefers-reduced-motion." },
+      { "name": "toast", "value": "opacity 0.18s, transform 0.18s", "purpose": "Aviso de copiado." }
+    ],
+    "breakpoints": [
+      { "name": "phone-max", "value": "879px" },
+      { "name": "desktop", "value": "880px" },
+      { "name": "wide-listing", "value": "1200px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "La acción principal de un grupo: copiar la selección, guardar, deshacer.",
+      "html": "<button class=\"ds-btn-primary\"><svg width=\"18\" height=\"18\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\"><rect x=\"9\" y=\"9\" width=\"12\" height=\"12\" rx=\"2\"/><path d=\"M5 15V5a2 2 0 0 1 2-2h10\"/></svg>Copiar selección</button>",
+      "css": ".ds-btn-primary { display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 48px; padding: 0 18px; border-radius: 12px; border: 1px solid #0c6b5a; background: #0c6b5a; color: #fff; font: 500 16px/1.5 'Instrument Sans', system-ui, sans-serif; cursor: pointer; transition: background-color 0.12s; } .ds-btn-primary:hover { background: #0a5a4c; } .ds-btn-primary:focus-visible { outline: 2px solid #0c6b5a; outline-offset: 2px; }"
+    },
+    {
+      "name": "Default Button",
+      "kind": "button",
+      "refersTo": "button-default",
+      "description": "Acción secundaria junto a la principal.",
+      "html": "<button class=\"ds-btn\">Copiar enlace</button>",
+      "css": ".ds-btn { display: inline-flex; align-items: center; justify-content: center; gap: 8px; min-height: 48px; padding: 0 18px; border-radius: 12px; border: 1px solid #d8ddd6; background: #fff; color: #16201c; font: 500 16px/1.5 'Instrument Sans', system-ui, sans-serif; cursor: pointer; transition: border-color 0.12s; } .ds-btn:hover { border-color: #7f8a84; } .ds-btn:focus-visible { outline: 2px solid #0c6b5a; outline-offset: 2px; }"
+    },
+    {
+      "name": "Quiet Button",
+      "kind": "button",
+      "refersTo": "button-quiet",
+      "description": "Quitar una tabla o todas; nunca compite con la acción principal.",
+      "html": "<button class=\"ds-btn-quiet\">Quitar</button>",
+      "css": ".ds-btn-quiet { min-height: 44px; padding: 0 14px; border-radius: 10px; border: 1px solid #d8ddd6; background: #fff; color: #58655f; font: 400 14px/1.5 'Instrument Sans', system-ui, sans-serif; cursor: pointer; transition: color 0.12s, border-color 0.12s; } .ds-btn-quiet:hover { color: #16201c; border-color: #7f8a84; } .ds-btn-quiet:focus-visible { outline: 2px solid #0c6b5a; outline-offset: 2px; }"
+    },
+    {
+      "name": "Search Field",
+      "kind": "input",
+      "refersTo": "search-field",
+      "description": "Filtro del listado y búsqueda.",
+      "html": "<label class=\"ds-search\"><svg width=\"20\" height=\"20\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\"><circle cx=\"11\" cy=\"11\" r=\"7\"/><path d=\"m20 20-3.5-3.5\"/></svg><input type=\"search\" placeholder=\"Filtrar el listado\"><kbd>/</kbd></label>",
+      "css": ".ds-search { position: relative; display: flex; align-items: center; gap: 10px; height: 56px; padding: 0 14px; border-radius: 14px; border: 1.5px solid #7f8a84; background: #fff; color: #58655f; } .ds-search:hover { border-color: #16201c; } .ds-search:focus-within { outline: 2px solid #0c6b5a; border-color: #0c6b5a; } .ds-search input { flex: 1; border: 0; outline: 0; background: none; font: 400 17px 'Instrument Sans', system-ui, sans-serif; color: #16201c; } .ds-search input::placeholder { color: #58655f; } .ds-search kbd { font: 600 12px 'JetBrains Mono', monospace; padding: 1px 7px; border: 1px solid #d8ddd6; border-radius: 6px; background: #ebeee9; }"
+    },
+    {
+      "name": "Segmented Control",
+      "kind": "custom",
+      "refersTo": "segment-selected",
+      "description": "Elegir entre dos o tres formas de ver lo mismo.",
+      "html": "<div class=\"ds-seg\" role=\"group\"><button aria-pressed=\"true\">Solo nombres</button><button aria-pressed=\"false\">Con descripción y módulo</button></div>",
+      "css": ".ds-seg { display: inline-flex; gap: 2px; padding: 2px; border-radius: 8px; background: #ebeee9; } .ds-seg button { min-height: 28px; padding: 0 12px; border: 0; border-radius: 6px; background: none; color: #58655f; font: 400 14px 'Instrument Sans', system-ui, sans-serif; cursor: pointer; } .ds-seg button:hover { color: #16201c; } .ds-seg button[aria-pressed='true'] { background: #d8eee6; color: #0c6b5a; font-weight: 600; } .ds-seg button:focus-visible { outline: 2px solid #0c6b5a; outline-offset: 2px; }"
+    },
+    {
+      "name": "Area Chip",
+      "kind": "chip",
+      "refersTo": "chip-selected",
+      "description": "Filtro por área en la búsqueda.",
+      "html": "<div class=\"ds-chips\"><a class=\"ds-chip\" aria-current=\"true\">Todas</a><a class=\"ds-chip\">Ventas</a><a class=\"ds-chip\">Compras</a></div>",
+      "css": ".ds-chips { display: flex; gap: 6px; } .ds-chip { display: inline-flex; align-items: center; min-height: 32px; padding: 0 12px; border-radius: 999px; border: 1px solid #e1e6df; background: #fff; color: #16201c; font: 400 14px 'Instrument Sans', system-ui, sans-serif; cursor: pointer; transition: border-color 0.12s; } .ds-chip:hover { border-color: #d8ddd6; } .ds-chip[aria-current='true'] { background: #d8eee6; border-color: #d8eee6; color: #0c6b5a; font-weight: 600; }"
+    },
+    {
+      "name": "Area Tag with Module",
+      "kind": "custom",
+      "refersTo": "module-tag",
+      "description": "El área de negocio con su color y el código de SAP al lado, en una sola línea.",
+      "html": "<span class=\"ds-ar\"><span class=\"ds-ab\">Materiales</span><span class=\"ds-mod\">CO-PC-ML</span></span>",
+      "css": ".ds-ar { display: inline-flex; align-items: center; gap: 6px; white-space: nowrap; } .ds-ab { display: inline-flex; align-items: center; gap: 6px; min-height: 24px; padding: 0 9px 0 8px; border-radius: 6px; background: #fad0e6; color: #4d213b; font: 600 13px 'Instrument Sans', system-ui, sans-serif; } .ds-ab::before { content: ''; width: 7px; height: 7px; border-radius: 50%; background: #a85186; } .ds-mod { display: inline-flex; align-items: center; min-height: 22px; padding: 0 6px; border: 1px solid #d8ddd6; border-radius: 4px; font: 600 12px 'JetBrains Mono', monospace; color: #58655f; }"
+    },
+    {
+      "name": "Header Navigation",
+      "kind": "nav",
+      "description": "Pestañas de la cabecera en escritorio.",
+      "html": "<nav class=\"ds-tabs\"><a aria-current=\"page\">Listado</a><a>Buscar</a></nav>",
+      "css": ".ds-tabs { display: flex; gap: 4px; } .ds-tabs a { position: relative; display: inline-flex; align-items: center; min-height: 44px; padding: 0 14px; border-radius: 10px; color: #58655f; font: 500 16px 'Instrument Sans', system-ui, sans-serif; cursor: pointer; } .ds-tabs a:hover, .ds-tabs a[aria-current='page'] { color: #16201c; } .ds-tabs a[aria-current='page']::after { content: ''; position: absolute; left: 14px; right: 14px; bottom: 4px; height: 2px; border-radius: 2px; background: #0c6b5a; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "El catálogo de referencia",
+    "overview": "SAPTableHub se ve como una buena obra de consulta: un índice tranquilo y ordenado donde todo se lee y nada sobra. El tono es sobrio y confiable, porque lo que vende el sitio es que los datos están verificados. La densidad es alta pero respirada: filas de tabla con aire, un solo acento de color y los códigos técnicos siempre en monoespaciado, para que el ojo distinga a primera vista el nombre de SAP (VBAK) de su explicación en lenguaje llano.\n\nEl color se usa como información, no como adorno. El verde contable marca lo accionable y lo seleccionado; cada área de negocio tiene su propio color suave, que solo aparece en su etiqueta. El resto es papel salvia, tinta y líneas finas. Claro y oscuro son el mismo sistema: cada color es un token que se redefine en modo oscuro.\n\nNo es un panel de métricas ni una página de marketing: no hay números gigantes, gráficos decorativos, portadas ni llamados a la acción. Tampoco debe parecer un sitio oficial de SAP (ver PRODUCT.md).",
+    "keyCharacteristics": [
+      "Un solo acento (verde contable) para acciones y estado seleccionado.",
+      "Códigos de SAP en JetBrains Mono; texto en Instrument Sans.",
+      "Profundidad casi plana: superficies con borde fino, sombras solo en lo que flota.",
+      "Un color por área de negocio, siempre como etiqueta con punto.",
+      "Las mismas piezas en claro y oscuro, con contrastes AA en ambos."
+    ],
+    "rules": [
+      { "name": "The One Accent Rule", "body": "El verde contable es el único color de acción. Ningún otro color se usa para botones, enlaces o estado seleccionado.", "section": "colors" },
+      { "name": "The Area Owns Its Color Rule", "body": "El color de un área solo aparece en su etiqueta (fondo suave, tinta y punto). Nunca tiñe filas, títulos ni botones.", "section": "colors" },
+      { "name": "The SAP Speaks Mono Rule", "body": "Todo lo que se escribe tal cual en SAP (tablas, campos, componentes, categorías, tipos) va en JetBrains Mono. Lo que lo explica va en Instrument Sans.", "section": "typography" },
+      { "name": "The Flat Unless Floating Rule", "body": "Paneles, filas y tarjetas no tienen sombra. La sombra se reserva para lo que tapa el contenido: popovers y la ficha lateral.", "section": "elevation" }
+    ],
+    "dos": [
+      "Do escribir todo código de SAP en JetBrains Mono y su explicación en Instrument Sans.",
+      "Do usar el verde contable solo para acciones, foco y estado seleccionado.",
+      "Do mostrar el área con su etiqueta de color y el código al lado, en una sola línea.",
+      "Do mostrar «—» cuando un dato técnico no se conoce con seguridad.",
+      "Do definir cada color nuevo como token en :root y redefinirlo para modo oscuro."
+    ],
+    "donts": [
+      "Don't usar números gigantes, tarjetas de métricas ni gráficos decorativos: no es un panel de métricas.",
+      "Don't usar portadas, ilustraciones ni llamados a la acción de marketing.",
+      "Don't usar el color de un área fuera de su etiqueta.",
+      "Don't poner sombra en paneles o filas; solo en lo que flota.",
+      "Don't imitar la marca de SAP (su logo, su azul corporativo como acento ni el estilo Fiori): el sitio es independiente."
+    ]
+  }
+}

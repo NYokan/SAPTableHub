@@ -8,6 +8,10 @@ import type { SapField, TableDetail, TableSummary } from '../types.ts';
 import { areaBadge, bigAddButton, catName, dclName, kindName, loc, modTag, num, orDash, s4Badge, tableHref, titleHTML, tx, type Ctx } from './common.ts';
 
 const cache = new Map<string, TableDetail | null>();
+// tables whose detail file could not be fetched (offline, a dropped connection): they say so instead of
+// reading as tables with nothing more to show. A failed import() stays failed in the browser, so trying
+// again means reloading the page (its address keeps the open table)
+const failed = new Set<string>();
 
 /** The detail of a table if it is already here; otherwise undefined, and `done` runs when it arrives. */
 export function withDetail(id: string, done: (d: TableDetail | null) => void): TableDetail | null | undefined {
@@ -15,12 +19,20 @@ export function withDetail(id: string, done: (d: TableDetail | null) => void): T
   loadDetail(id).then(
     (d) => {
       cache.set(id, d);
+      failed.delete(id);
       done(d);
     },
-    () => done(null),
+    () => {
+      failed.add(id);
+      done(null);
+    },
   );
   return undefined;
 }
+
+/** The detail could not be fetched: say so, with a way to try again. */
+const lostHTML = (c: Ctx) =>
+  `<div class="panel empty lost" role="alert"><strong>${esc(tx(c, 'detailFail'))}</strong><button type="button" class="btn" data-act="reload">${ic('arrow', 18)}${esc(tx(c, 'retry'))}</button></div>`;
 
 /** One table's page. The summary renders at once; the explanation and relations arrive with its detail file. */
 export function renderTable(el: HTMLElement, r: TableRoute, c: Ctx): TableSummary | undefined {
@@ -29,7 +41,7 @@ export function renderTable(el: HTMLElement, r: TableRoute, c: Ctx): TableSummar
   const t = c.byId.get(r.id);
   const back = `<a class="back" href="${esc(routeHref(catalogRoute(c.lang)))}" data-link data-back>${ic('back', 20)}${esc(tx(c, 'back'))}</a>`;
   if (!t) {
-    el.innerHTML = `${back}<div class="panel empty notfound"><strong>${esc(tx(c, 'tableNotFound', { id: r.id }))}</strong><a class="btn primary" href="${esc(routeHref(catalogRoute(c.lang)))}" data-link>${esc(tx(c, 'goCatalog'))}</a></div>`;
+    el.innerHTML = `${back}<div class="panel empty notfound"><h1 tabindex="-1">${esc(tx(c, 'tableNotFound', { id: r.id }))}</h1><a class="btn primary" href="${esc(routeHref(catalogRoute(c.lang)))}" data-link>${esc(tx(c, 'goCatalog'))}</a></div>`;
     return undefined;
   }
   const paint = (d: TableDetail | null | undefined) => {
@@ -74,14 +86,16 @@ const sapFieldRows = (sf: SapField[]): FieldRow[] => sf.map(([name, key, type, d
  * The fields section from SAP's dictionary: loading, the fields, or a note that there are none. `source` names the
  * table whose SAP Datasheet page the note links to, for pages that do not credit it elsewhere.
  */
-function sapFieldsSection(c: Ctx, d: TableDetail | null | undefined, source = ''): string {
+function sapFieldsSection(c: Ctx, d: TableDetail | null | undefined, source = '', id = source): string {
   const credit = source ? ` <a href="${esc(sapDatasheetHref(source))}" target="_blank" rel="noopener">${esc(tx(c, 'sdsLink'))}</a>` : '';
   const body =
     d === undefined
       ? `<p class="body muted">${esc(tx(c, 'loading'))}</p>`
       : d?.sf?.length
         ? fieldsTable(c, sapFieldRows(d.sf), tx(c, 'allFields')) + `<p class="fnote">${esc(tx(c, 'sapFieldsNote'))}${credit}</p>`
-        : `<div class="panel empty"><span class="muted">${esc(tx(c, 'noFields'))}</span></div>`;
+        : failed.has(id)
+          ? lostHTML(c)
+          : `<div class="panel empty"><span class="muted">${esc(tx(c, 'noFields'))}</span></div>`;
   return `<section class="sec"><h2>${esc(tx(c, 'allFields'))}</h2>${body}</section>`;
 }
 
@@ -126,7 +140,9 @@ export function detailHTML(c: Ctx, t: TableSummary, d: TableDetail | null | unde
       ? `<p class="body muted">${esc(tx(c, 'loading'))}</p>`
       : d?.purpose
         ? `<p class="body">${esc(loc(c, d.purpose))}</p>`
-        : `<p class="body muted">${esc(tx(c, 'noPlain'))}</p>`;
+        : failed.has(t.id)
+          ? lostHTML(c)
+          : `<p class="body muted">${esc(tx(c, 'noPlain'))}</p>`;
 
   const pk = (fields.length ? fields.filter((f) => f.key).map((f) => f.name) : (d?.sf ?? []).filter((f) => f[1] === 1).map((f) => f[0])).join(', ') || '—';
   const meta = `<section class="sec"><h2>${esc(tx(c, 'about'))}</h2><dl class="meta panel">
@@ -174,7 +190,7 @@ function sapDetailHTML(c: Ctx, t: TableSummary, d: TableDetail | null | undefine
     </div>
     <div class="actions">${bigAddButton(c, t.id)}<button type="button" class="btn" data-act="copyname" data-id="${esc(t.id)}">${ic('copy', 18)}${esc(tx(c, 'copyName'))}</button></div>
     <section class="sec"><h2>${esc(tx(c, 'purpose'))}</h2><p class="body muted">${esc(tx(c, 'sapNote'))}</p></section>
-    ${sapFieldsSection(c, d)}
+    ${sapFieldsSection(c, d, '', t.id)}
     <section class="sec"><h2>${esc(tx(c, 'about'))}</h2><dl class="meta panel">
         <div><dt>${esc(tx(c, 'official'))}</dt><dd lang="en">${esc(t.title.en)}</dd></div>
         <div><dt>${esc(tx(c, 'objType'))}</dt><dd>${t.cat ? `${esc(catName(c, t.cat))} (${esc(t.cat)})` : '—'}</dd></div>

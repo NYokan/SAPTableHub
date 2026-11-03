@@ -29,9 +29,9 @@ export const areaBadge = (c: Ctx, k: string) => `<span class="ab ab-${esc(k)}">$
  * The SAP module ("SD") or, with `full`, the whole application component ("SD-BF-PR") as a quiet code tag;
  * its tooltip says when the project assigned it rather than SAP's official list. Empty when not known.
  */
-export const modTag = (c: Ctx, t: TableSummary, full = false) =>
+export const modTag = (c: Ctx, t: TableSummary, full = false, cls = '') =>
   t.comp
-    ? `<span class="mod" title="${esc(tx(c, t.ci ? 'compTipInf' : 'compTip', { comp: t.comp }))}">${esc(full ? t.comp : t.comp.split('-')[0])}</span>`
+    ? `<span class="mod${cls ? ' ' + cls : ''}" title="${esc(tx(c, t.ci ? 'compTipInf' : 'compTip', { comp: t.comp }))}">${esc(full ? t.comp : t.comp.split('-')[0])}</span>`
     : '';
 
 /** The visible "S/4HANA only" mark for tables that do not exist in ECC; empty for the rest. */
