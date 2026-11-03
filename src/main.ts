@@ -18,7 +18,7 @@ import type { Lang, TableSummary } from './types.ts';
 import { catalogTSV, renderCatalog } from './views/catalog.ts';
 import { bigAddLabel, tableHref, type Ctx } from './views/common.ts';
 import { renderSearch } from './views/search.ts';
-import { renderSelection, selectionText, setFormat, sharedIds, type Format } from './views/selection.ts';
+import { clearedIds, renderSelection, selectionText, setCleared, setFormat, sharedIds, type Format } from './views/selection.ts';
 import { createSheet } from './views/sheet.ts';
 import { detailHTML, renderTable, withDetail } from './views/table.ts';
 
@@ -272,6 +272,7 @@ function copy(text: string) {
 function saveSelection() {
   if (!ctx) return;
   save(KEYS.selection, JSON.stringify(ctx.selection));
+  if (ctx.selection.length) setCleared([]);
   updateCounts();
 }
 
@@ -322,16 +323,30 @@ document.addEventListener('click', (e) => {
       updateAddButtons();
       break;
     }
-    case 'rm':
+    case 'rm': {
+      const i = c.selection.indexOf(id);
       c.selection = c.selection.filter((x) => x !== id);
       saveSelection();
       render();
+      // keep the keyboard on the list: the next row's button, or the heading once it is empty
+      const rms = view.querySelectorAll<HTMLElement>('[data-act="rm"]');
+      (rms[Math.min(i, rms.length - 1)] ?? view.querySelector<HTMLElement>('h1'))?.focus();
       break;
-    case 'rmall':
-      if (!confirm(t(c.lang, 'clearAllAsk', { n: String(c.selection.length) }))) break;
+    }
+    case 'rmall': {
+      const was = c.selection;
       c.selection = [];
       saveSelection();
+      setCleared(was);
       render();
+      view.querySelector<HTMLElement>('[data-act="undoclear"]')?.focus();
+      break;
+    }
+    case 'undoclear':
+      c.selection = [...clearedIds()];
+      saveSelection();
+      render();
+      view.querySelector<HTMLElement>('[data-act="rmall"]')?.focus();
       break;
     case 'fmt':
       setFormat(v as Format);
@@ -436,6 +451,7 @@ document.addEventListener('keydown', (e) => {
 window.addEventListener('storage', (e) => {
   if (e.key !== KEYS.selection || !ctx) return;
   ctx.selection = readSelection(ctx.byId);
+  setCleared([]);
   updateCounts();
   if (route.name === 'selection') render();
   else updateAddButtons();

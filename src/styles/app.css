@@ -512,7 +512,7 @@ details.legend { margin-top: 16px; }
 .results { background: var(--surface); border: 1px solid var(--line); border-radius: var(--r); overflow: hidden; }
 .row { display: flex; align-items: stretch; border-bottom: 1px solid var(--line); }
 .row:last-child { border-bottom: 0; }
-.r-main { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 6px; padding: 13px 6px 13px 16px; min-height: 68px; }
+.r-main { flex: 1; min-width: 0; display: flex; flex-direction: column; justify-content: center; gap: 6px; padding: 13px 6px 13px 16px; min-height: 68px; }
 .r-line { display: flex; flex-wrap: wrap; align-items: baseline; gap: 2px 12px; min-width: 0; }
 .r-id { font-family: var(--mono); font-size: 13px; color: var(--muted); flex: none; }
 .r-id.big { font-size: 19px; font-weight: 600; color: var(--ink); overflow-wrap: anywhere; max-width: 100%; }
@@ -599,6 +599,8 @@ details.legend { margin-top: 16px; }
   color: var(--muted);
   font-size: 14px;
 }
+.l-tools .rmall { gap: 6px; color: var(--muted); font-size: 14px; }
+.rm:hover, .l-tools .rmall:hover { color: var(--ink); border-color: var(--ctl); }
 .out {
   margin: 16px 0 0;
   padding: 14px 16px;
@@ -715,11 +717,11 @@ details.legend { margin-top: 16px; }
   .chead { padding-right: 56px; }
   .grp .sel select, .c-row2 .btn.ghost { min-height: 44px; height: 44px; }
 }
-.chip, .seg a, .seg button, .az a, .pg a, .crow, .row, .add, .grp .sel select, .c-row2 .btn.ghost {
+.chip, .seg a, .seg button, .az a, .pg a, .crow, .row, .add, .rm, .rmall, .grp .sel select, .c-row2 .btn.ghost {
   transition: background-color 0.12s, color 0.12s, border-color 0.12s;
 }
 @media (prefers-reduced-motion: reduce) {
-  .toast, .chip, .seg a, .seg button, .az a, .pg a, .crow, .row, .add, .grp .sel select, .c-row2 .btn.ghost { transition: none; }
+  .toast, .chip, .seg a, .seg button, .az a, .pg a, .crow, .row, .add, .rm, .rmall, .grp .sel select, .c-row2 .btn.ghost { transition: none; }
 }
 
 /* ---------- concepto tabla: the list stays a table, with more air and fewer controls in view ----------

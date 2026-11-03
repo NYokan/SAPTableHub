@@ -132,7 +132,7 @@ function noneHTML(c: Ctx, r: CatalogRoute, at: (o: Partial<CatalogRoute>) => str
   return `<div class="none">
     <p class="none-q" aria-hidden="true">${esc(shown)}</p>
     <h2>${esc(title)}</h2>
-    <p class="muted">${esc(tx(c, 'noneHelp'))}</p>
+    ${r.q ? `<p class="muted">${esc(tx(c, 'noneCatHelp'))}</p>` : ''}
     <div class="ways">${ways}</div>
   </div>`;
 }
